@@ -1,1 +1,2 @@
-- fix tables
+- add search
+- add chat
