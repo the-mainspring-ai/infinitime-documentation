@@ -15,7 +15,7 @@ This report will allow you to print your own employee badges, either barcode or 
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_Badges.gif)
 
 Notes/Usage:
 

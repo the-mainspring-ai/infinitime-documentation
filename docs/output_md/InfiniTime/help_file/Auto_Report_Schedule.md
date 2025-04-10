@@ -11,7 +11,7 @@ Auto Report Schedule
 
 # Auto Report Schedule
 
-![](/img/image-404.png)
+![](/img/rep9.gif)
 
 InfiniTime allows a schedule to be configured in order to run reports automatically. Reports are automatically emailed or printed depending on the configuration.  Settings must be saved for a report before it can be configured to run automatically.
 
@@ -23,13 +23,13 @@ Change â Click change to make any adjustments to a previously configured sc
 
 Delete â Click delete to remove the highlighted Report Schedule.
 
-![](/img/image-404.png)
+![](/img/ValidPrinter.gif)
 
 Description â Describes the Report Schedule you are creating.  This name will appear in the Report Library Update Form.  This is how you will be able to distinguish between other Auto Report Schedules you may create.
 
 Printer - Infinitime uses printer drivers to prepare reports for proper display on your computer. Select a printer that is installed and attached to your machine. Do not select an image printer. The warning below will be displayed when saving the Auto Report Schedule. Reports without a valid printer may not print or display properly.
 
-![](/img/image-404.png)
+![](/img/CH10AutoReports.gif)
 
 Frequency â This is how often the program will run the auto report schedule feature.  The options are: Once, Daily, Weekly, and Monthly.
 

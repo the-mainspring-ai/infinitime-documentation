@@ -15,7 +15,7 @@ Displays a list of all the Outgoing messages an employee has made for a specific
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_Outgoing_Messages.gif)
 
 Notes/Usage:
 

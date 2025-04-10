@@ -15,7 +15,7 @@ Displays a list of all employees and which department they are currently clocked
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Who_Is_Where.gif)
 
 Notes/Usage:
 

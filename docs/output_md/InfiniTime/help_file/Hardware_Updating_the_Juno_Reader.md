@@ -17,23 +17,23 @@ Open the Reader Address Configuration Table:
 
 1. Click on Tools.
 
-![](/img/image-404.png)
+![](/img/Hardware_Juno4.gif)
 
 2. Click on Clock Tools.
 
-![](/img/image-404.png)
+![](/img/Hardware_Juno3.gif)
 
 3. Click on System Monitor.
 
-![](/img/image-404.png)
+![](/img/Hardware_Scout3.gif)
 
 4. Highlight the record that corresponds to the clock you wish to update.
 
-![](/img/image-404.png)
+![](/img/Hardware_Scout3.gif)
 
 5. Click on the Update Reader button.
 
-![](/img/image-404.png)
+![](/img/Hardware_Scout2.gif)
 
 The Juno program will be loaded to the Juno Clock along with Employee, Department, and Other Activity information. Once it has completed uploading all information to the Juno Clock the program will return to the Reader Configuration Update Form.
 

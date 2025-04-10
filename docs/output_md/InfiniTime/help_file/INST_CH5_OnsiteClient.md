@@ -36,21 +36,21 @@ must be performed on the InfiniTime
 
 Click on Start.
 
-![](/img/image-404.png)
+![](/img/image439.gif)
 
 Click on Run.
 
-![](/img/image-404.png)
+![](/img/image436.gif)
 
 Type cmd into the dialog box.
 
-![](/img/image-404.png)
+![](/img/image437.gif)
 
 Click OK.
 
 A dos window will open. Type hostname.
 
-![](/img/image-404.png)
+![](/img/runboxCMD.jpg)
 
 Hit Enter
 
@@ -112,21 +112,21 @@ Note:* These steps must be performed on the InfiniTime
 
 Click on Start.
 
-![](/img/image-404.png)
+![](/img/image440.gif)
 
 Click on Run.
 
-![](/img/image-404.png)
+![](/img/runboxCMD.jpg)
 
 Type cmd into the dialog box.
 
-![](/img/image-404.png)
+![](/img/image435.gif)
 
 Click OK.
 
 A dos window will open. Type ipconfig /all
 
-![](/img/image-404.png)
+![](/img/image437.gif)
 
 Hit enter. The network configuration of
 your server will be displayed.
@@ -135,7 +135,7 @@ The InfiniTime
 7.0 Server should have a static IP address. The results below indicate
 a static address of 192.168.1.40 with DHCP disabled.
 
-![](/img/image-404.png)
+![](/img/CMDHOSTNAME.gif)
 
 Replacing â192.168.0.2â With the static
 address in the example above the addresses for accessing the InfiniTime
@@ -163,4 +163,4 @@ the InfiniTime 7.0 software
 with the Serverâs IP address. Refer to the technical note before this
 section for more information.
 
-![](/img/image-404.png)
+![](/img/image438.gif)

@@ -14,7 +14,7 @@ InfiniTime Deployment Options
 Standalone InfiniTime
 Server
 
-![](/img/image-404.png)
+![](/img/IT70ServerOnsiteOffSiteClients.JPG)
 
 Standalone Installations require only a server. In a Standalone Installation
 the server hosts all InfiniTime
@@ -39,7 +39,7 @@ available.
 Onsite InfiniTime
 Server with On-Site Clients
 
-![](/img/image-404.png)
+![](/img/IT70ServerOffSiteClients.JPG)
 
 As shown, this server is connected to a Local Area Network and hosts
 the InfiniTime software
@@ -57,7 +57,7 @@ hub could supply at maximum only 25Mb/s bandwidth to each computer.
 Onsite InfiniTime
 Server with Off-Site Clients
 
-![](/img/image-404.png)
+![](/img/IT70ServerStandalone.JPG)
 
 As pictured, this server has a Static ip address and uses an Internet
 service such as T1, DSL, or Cable to connect to the Internet. Any employee
@@ -69,7 +69,7 @@ Labor Management Software.
 Onsite InfiniTime Server with On-Site and
 Off-Site Clients
 
-![](/img/image-404.png)
+![](/img/IT70ServerOnsiteClients.JPG)
 
 Combining the first two options provides a versatile deployment alternative
 separating Web Applications from other software applications. Employees

@@ -15,7 +15,7 @@ The Accrual Posting Report will display a list of all accrual postings for the e
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Accrual_Posting.gif)
 
 Notes/Usage:
 

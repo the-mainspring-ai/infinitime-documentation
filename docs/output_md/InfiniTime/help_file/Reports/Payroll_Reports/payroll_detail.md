@@ -15,7 +15,7 @@ Displays hourly totals in addition to in and out punches and calculates estimate
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Payroll_Detail_Report.gif)
 
 Notes/Usage:
 

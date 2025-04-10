@@ -13,11 +13,11 @@ Dates Tab
 
 The dates tab displays all holidays that have been configured for the specified Holiday Schedule Type.
 
-![](/img/image-404.png)
+![](/img/21DHOLAVG.jpg)
 
 Insert Displays the Master Holiday Update form. Used to insert a new holiday type. Each holiday that will be assigned to the specified Holiday type must be configured individually using this option. InfiniTime will automatically add other activity hours for employees who meet requirements for the holiday. A description of each field and feature is provided below.
 
-![](/img/image-404.png)
+![](/img/hs6.gif)
 
 Holiday Options
 
@@ -27,7 +27,7 @@ Date:  Enter the Date of Holiday. For a given holiday type, only one holiday ma
 
 Deduction Type: Select the type of deduction.  If Accrual is selected an Accrual Name must be selected for posting.
 
-![](/img/image-404.png)
+![](/img/hs4.gif)
 
 Other Activity Type Specifies the Other Activity Type which will be used to insert hours for the selected date. The same activity type is generally used for all Holiday Hours. IE: Holiday Time
 
@@ -81,11 +81,11 @@ In this scenario, the holiday would start at 8:00 AM and end at 4:00 PM on 12/24
 
 ^^Note: The images below illustrate the difference between a 3 Week Average and a 21 Day Average. Days shaded in yellow represent days which will be included in the average hours calculation. The boxed date indicates the date of the holiday. Notice how the 21 Day Average includes the days immediately before the date of the holiday that fall during the same week of the holiday.
 
-![](/img/image-404.png)                   ![](/img/image-404.png)
+![](/img/hs4.gif)                   ![](/img/3WAVG.jpg)
 
 Example: Average Hours by Days
 
-![](/img/image-404.png)
+![](/img/3WAVG.jpg)
 
 If Average Hours is enabled InfiniTime will average employee working hours for a number of days or weeks prior to the holiday according to the 'Average the Past' Field and the Days or Weeks Drop Down Menu. InfiniTime will then automatically insert the calculated average for the Holiday. The number of hours entered into the Other Activity Hours field will serve as the maximum number of hours an employee can receive. Two Examples are illustrated below with the following settings:
 
@@ -115,7 +115,7 @@ If Average Hours is enabled InfiniTime will average employee working hours for a
 
 Example: Average Hours by Weeks
 
-![](/img/image-404.png)
+![](/img/21DHOLAVG.jpg)
 
 | Average Hours | Yes |
 | Weeks to Average | 3 |

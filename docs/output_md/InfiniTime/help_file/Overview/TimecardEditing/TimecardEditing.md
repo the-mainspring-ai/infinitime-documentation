@@ -45,29 +45,29 @@ the selected pay period.
 
 Company Timecard Table â Employee List
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0005.gif)
 
 Company Timecard Table â Activity Records
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0001.gif)
 
 Employee Timecard Table â Activity Records
 
-![](/img/image-404.png)
+![](/img/Absent_right_click.gif)
 
 Employee Timecard Table â Express View
 
-![](/img/image-404.png)
+![](/img/InLineEdit_MP1.gif)
 
 ### Accessing the Company Timecard Table
 
 To access the Company
 Timecard Table, which displays Timecard Records for all employees:
 
-* Click on the ![](/img/image-404.png) button
+* Click on the ![](/img/InLineEdit_4.jpg) button
   on the tool bar
 
-![](/img/image-404.png)
+![](/img/InLineEdit_1.jpg)
 
 * The Company Timecard Table will be displayed..
 
@@ -76,11 +76,11 @@ Timecard Table, which displays Timecard Records for all employees:
 To access the Time card
 Activity for a specific employee:
 
-* Click on the ![](/img/image-404.png) button
+* Click on the ![](/img/TCard001.png) button
   on the tool bar.
 * The Employee Table will be displayed.
 * Highlight the employee that you want to see activity for.
-* Click on the ![](/img/image-404.png) button to access the Employee
+* Click on the ![](/img/image93.gif) button to access the Employee
   Timecard Activity Table.
 
 ### Timecard Editing Modes
@@ -100,14 +100,14 @@ The Timecard Editing Mode is controlled by the 'Delayed Save on Timecard
 Editors' and 'Delayed Edit on Timecard Editors' Functional Options on
 the Company Update Form:
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep3.gif)
 
 To view or alter the current Timecard Editing Mode, Click on the Company
 Button on the Main Toolbar. The  'Delayed Save on Timecard Editors'
 and 'Delayed Edit on Timecard Editors' options are displayed on the functional
 options tab as shown below.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0002.gif)
 
 | Delayed Save on Timecard Editors Status | Delayed Edit on Timecard Editors Status | Timecard Edit Mode |
 | Unchecked | Unchecked | * Save Immediately -   The 'Save Button' will not be displayed on the Company Timecard.   Alterations to individual Timecard Records will be saved immediately   when focus is removed from the record. If only one record   is present in the Timecard Table, Tab must be used to remove   focus from the record. * Edit Immediately -   Timecard Records are loaded with all in line   edit controls (IE: Time Picker & Date Selection Tool)   and may be edited immediately.     This mode is considered outdated. InfiniTime 7.08 includes delayed save which permits timecards to be edited like a spreadsheet and reduces the number of transactions sent between the InfiniTime Client machine and Server providing improved performance. |
@@ -121,7 +121,7 @@ Both the Company and Employee Timecard Tables include standard tools
 for inserting, editing, and altering employee activity. Each item is outlined
 below.
 
-![](/img/image-404.png) -
+![](/img/image145.gif) -
 Clicking the Insert Button will create a new timecard record which can
 be manually entered to define working hours for a day. The insert button
 behaves differently depending upon what is selected within the Timecard
@@ -135,33 +135,33 @@ Highlighted record. For example:
 
 Clicking Insert with a blank timecard yields:
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0001.gif)
 
 Clicking Insert while the record above is highlighted yields:
 
-![](/img/image-404.png)
+![](/img/image145.gif)
 
-![](/img/image-404.png)  -
+![](/img/TCard009.png)  -
 The Delete Button simply removes the highlighted record from the Timecard
 Table. To remove an undesired record, simply click on it to highlight
 the record in blue and click the delete button.
 
-![](/img/image-404.png)  -
+![](/img/Short_Break_Exeption.gif)  -
 The exceptions button displays a detailed list of all exceptions occurring
 on the highlighted day.  Each exception is displayed in a different
 color. The exceptions button will only be displayed if an exception occurred
 on the day associated with the highlighted timecard record.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep1.gif)
 
-![](/img/image-404.png)  -
+![](/img/SupReviewHistoryTable.gif)  -
 Purge is useful for deleting punches which were inserted by accident or
 are no longer useful. After clicking on the Purge button the user will
 be prompted to enter a date range. All timecard records for the employee
 during the selected date range will be deleted from the database after
 clicking OK.
 
-![](/img/image-404.png)  - Quick Punch
+![](/img/SW_CH11_NOTES_0006.gif)  - Quick Punch
 is one of the most used features within the Timecard table as it provides
 users with the ability to insert timecard activity for multiple days.
 Typical uses for quick punch include the following:
@@ -177,7 +177,7 @@ Typical uses for quick punch include the following:
 Quick
 Punch Update Form - Overview
 
-![](/img/image-404.png).gif)
+![](/img/TCard008.png).gif)
 
 Description
 - The description displays information regarding the employee for which
@@ -250,7 +250,7 @@ For example the image below shows an employee working from 7:30 AM to
 on 1/17/2008 from 7:30 AM to 5:00 PM using quick punch then the punches
 would not be inserted unless Add Duplicate Punches was checked.
 
-![](/img/image-404.png)
+![](/img/image16.gif)
 
 Clock Out
 if Clocked In - If this is checked it will only insert an out punch
@@ -264,7 +264,7 @@ only and not the weekend, Saturday and Sunday.
 Description
 - This is an audit description of the insertion of punches.
 
-![](/img/image-404.png) - The filter
+![](/img/InLineEdit_MP2.gif) - The filter
 button will allow you to add punches to multiple employees at a time.
  You can filter which employees will get the pair of punches either
 by departments, groups, or by tagging multiple employees.
@@ -304,18 +304,18 @@ of vacation per day.
 
 INCORRECT
 
-![](/img/image-404.png)
+![](/img/DeleteButton-Normal.gif)
 
 CORRECT
 
-![](/img/image-404.png)
+![](/img/ExceptionsButton-Normal.gif)
 
-![](/img/image-404.png) -
+![](/img/CH7_Timecard8.gif) -
 This feature allows the user to recalculate timecard activity for the
 selected employee.  Recalculation should be done if you make any
 changes to the policies, exceptions, schedules, or holidays.
 
-![](/img/image-404.png)  -
+![](/img/image147.gif)  -
 Reviewing timecards is an optional, but recommended feature, whereby supervisors
 can mark employee activity as reviewed after they have made any necessary
 adjustments and confirmed the accuracy of employee timecards. In this
@@ -334,14 +334,14 @@ and click OK. By default the Review feature will only review activity
 for a single employee. However the âRemove Filterâ button can be used
 to specify additional employees.
 
-![](/img/image-404.png)   -
+![](/img/accesing_timecard_activity_table.gif)   -
 The filter button, or Employee Filter, will allow you to filter employees
 listed on the Timecard Table by individually selected employees, according
 to their default department, and according to exceptions occurring during
 the date range. This makes it easier for a supervisor to fix and edit
 time cards by only displaying employees of interest.
 
-![](/img/image-404.png)
+![](/img/TCard003.png)
  - Often referred to as the âstoplightâ the record status indicator
 provides information on the source of the punches (Orange), indicates
 review status (Blue), and the presence of exceptions (Red). If exceptions
@@ -352,7 +352,7 @@ orange status indicator is not displayed this indicates the punch is unedited
 and was polled from a data collection terminal or from the Employee /
 Punch modules.
 
-![](/img/image-404.png) - The
+![](/img/TCard007.png) - The
 Grand Totals Row displays a grand total of employee hours for the specified
 date range. It should be noted that the Grant Totals Row is always the
 last row in the grid and will be displayed on the last page if there are
@@ -360,7 +360,7 @@ multiple pages of timecard activity. The Grand Total Row is displayed
 only on the Company Timecard and is not include on the Employee Timecard
 Table.
 
-![](/img/image-404.png) - The Schedule Column of the grid displays
+![](/img/Tcard05.gif) - The Schedule Column of the grid displays
 the schedule or shift an employee worked on a specific day. If an employee
 is assigned to multiple shifts the software will identify the shift the
 employee is working based upon the shifts start time and grace periods
@@ -379,11 +379,11 @@ the new record.
 No Record for Current
 Pay Period:
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0002.gif)
 
 A single timecard record created via Insert:
 
-![](/img/image-404.png)
+![](/img/TCard001.png)
 
 To edit the timecard click in the field you wish to alter. Delete the
 existing value using the backspace key or the delete key and type the
@@ -400,8 +400,8 @@ Inactive
 Fields 
   Active Field
 
-![](/img/image-404.png)
- ![](/img/image-404.png)
+![](/img/PurgeButton-Normal.gif)
+ ![](/img/Late-Departure-exception.gif)
 
 2. The contents of the field will be highlighted. Press backspace
    or delete to remove the existing value. One of the shortcut keys listed
@@ -437,7 +437,7 @@ record.
 
 #### Missed Out Punch:
 
-![](/img/image-404.png)
+![](/img/InLineEdit_3.jpg)
 
 It is not uncommon for employees to forget to punch in or punch out
 which results in a missed punch exception. When an employee misses an
@@ -447,7 +447,7 @@ below?
 
 #### Missed In Punch:
 
-![](/img/image-404.png)
+![](/img/Purge_button.gif)
 
 The date and time for the in punch can still simply be entered into
 the Out Date and Out Time on the same record. InfiniTime
@@ -486,7 +486,7 @@ be found in the[Policy Configuration Section](../Policies/Policy_Overview.md#pol
    pay period and after the last day of the pay period will be displayed
    on the timecard table.
 
-![](/img/image-404.png)
+![](/img/image16.gif)
 
 The above screen shot shows an employee with
 a schedule of 11:00 PM to 7:00 AM Monday to Friday. Notice how the employee
@@ -498,7 +498,7 @@ does not show under last pay period even though the punch was for Fridayâs
 Shift. Changing the date range to This Month rather than Last Pay Period
 displays all relevant punches.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_2.jpg)
 
 3. Look for the punches that resemble the schedule the employee
    was expected to work and identify those that are missing. The employee
@@ -507,12 +507,12 @@ displays all relevant punches.
    punch is present as shown below though the Friday Evening punch is
    missing.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0007.gif)
 
 4. Insert the missing punches by editing the Out Date and Out Times
    directly as shown in the image below.
 
-![](/img/image-404.png)
+![](/img/TCard014.png)
 
 Remember, InfiniTime
 will reorganize punches in chronological order and calculate hours appropriately
@@ -524,7 +524,7 @@ Form are likely set incorrectly. Additional information can be found in
 the [Policy
 Configuration - Overtime Rules section](../Policies/Policy_Overview.md#pol84_OT_General_Tab) of this document.
 
-![](/img/image-404.png)
+![](/img/image16.jpg)
 
 ### Right Click Menu Introduction
 
@@ -539,7 +539,7 @@ record has exceptions and / or missing punches. Additional Details are
 outlined in the [Right Click
 Menu - Editing Exceptions and More](TimecardEditing.md#tim16_Right_Click_Menu_-_Editing_Exceptions_and_More) section of this document.
 
-![](/img/image-404.png)
+![](/img/employee-timecard-Button.gif)
 
 Insert Punch Pair - Inserts a new punch pair into the Timecard
 Table. The Insert Punch Pair Right Click Menu Option is functionally identical
@@ -592,7 +592,7 @@ An example of wage override is shown below.
 John Smith was called in to perform emergency maintenance on a Production
 Server on 4/16/2013.
 
-![](/img/image-404.png)
+![](/img/image77.gif)
 
 2. Per John Smith's employment package, he
 is entitled to $12 / Hour base instead of his usual $10 wage if he is
@@ -600,7 +600,7 @@ called in outside of business hours. To edit the wage, right click on
 any timecard record in the grid and click Wage Override. The Employee
 Wage Override Table will be displayed.
 
-![](/img/image-404.png)
+![](/img/image17.jpg)
 
 3. Click Insert to open the Employee Wage
 Update Form. Enter the desired Department, Pay Method, Amount, and Valid
@@ -612,14 +612,14 @@ Pay Method, and Amount. It is important to note that Job Costing Details
 is specified, the wage will be applied to all timecard records during
 the specified date range.
 
-![](/img/image-404.png)
+![](/img/TCard010.png)
 
 4. Notice how the wage for Information Technology
 Hours on 4/16/2013 is set to $12.00 / hour. The Overtime One Hourly Wage
 is automatically calculated as $18 - a 50% increase on top of the base
 wage based on the Overtime 1 Wage Settings.
 
-![](/img/image-404.png)
+![](/img/Timecards_Button.gif)
 
 Change
 Schedule - Selecting this option will allow you to change the
@@ -627,7 +627,7 @@ employee's schedule for that day. Altering the schedule to match the hours
 worked by the employee or simply removing the schedule altogether will
 remove the exception.
 
-![](/img/image-404.png)
+![](/img/TCard010.png)
 
 Schedule
 Day Off - Opens the Schedule Day off Update Form Days which
@@ -683,11 +683,11 @@ Employee Supervisors have the option to edit employee activity in order
 to fix exceptions, mark the employees time in order to ignore existing
 exceptions, or simply take note of an employeeâs performance.
 
-![](/img/image-404.png)
+![](/img/image17.jpg)
 
 ### Fixing a Missed Punch Exception
 
-![](/img/image-404.png)
+![](/img/FilterButton-Normal.gif)
 
 The Missed Punch Exception shows in the
 activity grid as a RED block. Punch information will also be missing from
@@ -696,7 +696,7 @@ the block.
 * Right click on the missed punch
   to bring up a list of commands to fix the exception.
 
-![](/img/image-404.png)
+![](/img/image72.gif)
 
 Delete All Punches
 And Insert Schedule Punches - Selecting this option will delete
@@ -801,7 +801,7 @@ deleting the present information, and entering the desired punch time.
 
 Fixing an Absent Exception
 
-![](/img/image-404.png)
+![](/img/image18.jpg)
 
 When an employee is absent the absent exception
 is displayed within the employee timecard activity grid and is recognizable
@@ -812,7 +812,7 @@ report to work or forgot to punch in and out on that scheduled day.
 * Right click on the Absent to bring
   up a list of commands to fix the exception.
 
-![](/img/image-404.png)
+![](/img/Unapproved_OT.gif)
 
 Change
 Schedule - Selecting this option will
@@ -875,11 +875,11 @@ the Early and Early Departure Exceptions
 
 Early Exception:
 
-![](/img/image-404.png)
+![](/img/Purge_button.gif)
 
 Early Departure Exception:
 
-![](/img/image-404.png)
+![](/img/image2.gif)
 
 The Early Exception is triggered by employees
 punching in prior to the start time of their schedule during the Early
@@ -892,7 +892,7 @@ in or out during the Early Grace Period as defined on the employee's policy.
 * Right click on the Early Punch
   to bring up a list of commands to fix the exception.
 
-![](/img/image-404.png)
+![](/img/TCard002.png)
 
 Insert Punch Pair
 - Selecting this option will insert a punch pair for the specific day.
@@ -991,11 +991,11 @@ Fixing a Late Exception
 
 Tardy
 
-![](/img/image-404.png)
+![](/img/Employee-Button.gif)
 
 Late Departure
 
-![](/img/image-404.png)
+![](/img/InLineEdit_MP4_NoDelSav.gif)
 
 The Late Exception occurs when an employee
 clocks in after their scheduled time or clocks out after they are scheduled
@@ -1007,7 +1007,7 @@ in the employeeâs policy.
 * Right click on the Late Punch to
   bring up a list of commands to fix the exception.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0004.gif)
 
 Insert Punch Pair
 - Selecting this option will insert a punch pair for the specific day.
@@ -1107,7 +1107,7 @@ deleting the present information, and entering the desired punch time.
 Fixing Outside of
 Schedule Exception
 
-![](/img/image-404.png)
+![](/img/Tardy_Exception.gif)
 
 The Outside of Schedule Exception occurs
 when an employee punches outside of their scheduled grace periods as defined
@@ -1117,7 +1117,7 @@ Field as shown above.
 * Right click on the Outside of Schedule
   Punch to bring up a list of commands to fix the exception.
 
-![](/img/image-404.png)
+![](/img/SupReviewHistoryTable.gif)
 
 Insert Punch Pair
 - Selecting this option will insert a punch pair for the specific day.
@@ -1221,14 +1221,14 @@ the employee's actual worked times.
 
 Fixing Short Break Exception
 
-![](/img/image-404.png)
+![](/img/ReCalcButton-Normal.gif)
 
 The Short Break Exception
 occurs when an employee takes a shorter break than scheduled and is recognizable
 by a Brown Field. The short break exception requires breaks to be scheduled
 in order to report short breaks.
 
-![](/img/image-404.png)
+![](/img/Tcard06.gif)
 
 Insert Punch Pair
 - Selecting this option will insert a punch pair for the specific day.
@@ -1316,14 +1316,14 @@ activity.
 
 Fixing Long Break Exception
 
-![](/img/image-404.png)
+![](/img/SoftwareOverview_001_Btn1_Company.png)
 
 The Long Break Exception
 occurs when an employee takes a longer break than scheduled and is recognizable
 by a Chocolate Field. The long break exception requires breaks to be scheduled
 in order to report long breaks.
 
-![](/img/image-404.png)
+![](/img/TCard006.png)
 
 Insert Punch Pair
 - Selecting this option will insert a punch pair for the specific day.
@@ -1419,7 +1419,7 @@ activity.
 Approving and Un-approving
 Overtime
 
-![](/img/image-404.png)
+![](/img/Missed-Punch-Exception.gif)
 
 As part of the InfiniTime Policy Configuration, it
 is possible to require all overtime hours for specific Overtime Buckets
@@ -1432,7 +1432,7 @@ Hours, displayed in Red Text on the Company Timecard as shown in the image
 above, and approve the hours using the Approve / Unapprove OT Right Click
 Menu Options.
 
-![](/img/image-404.png)
+![](/img/image55.gif)
 
 Insert Punch Pair
 - Selecting this option will insert a punch pair for the specific day.
@@ -1643,7 +1643,7 @@ there is only a single record for the selected date range, focus must
 be removed from the record before any changes will be saved. In the example
 below, an employee missed a punch on the first day of a pay period.
 
-![](/img/image-404.png)
+![](/img/CH7_Timecard8.gif)
 
 In
 Line Edit refers to entering changes directly in the timecard record.
@@ -1652,7 +1652,7 @@ Then use Tab again to move the cursor to the Out Time field and set the
 desired time. Alternatively, simply click in the Out Date and the Out
 Time and enter the desired values.
 
-![](/img/image-404.png)
+![](/img/accesing_timecard_activity_table.gif)
 
 Once
 the desired values have been entered, press the Down Arrow Key to remove
@@ -1661,7 +1661,7 @@ focus is removed from a record while Delayed Save is enabled the Save
 Button will display. Click on the Save button to save the changes and
 calculate hour totals.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_1.jpg)
 
 Fixing
 a Missed Punch
@@ -1671,7 +1671,7 @@ with a missing punch. If the Missing Punch Exception is being tracked,
 the Out Time of the record with a missing punch will be shaded red as
 shown below.
 
-![](/img/image-404.png)
+![](/img/ECTDate.png)
 
 Use the Up & Down
 Arrows and the Tab Key to move the cursor to the Out Date Field where
@@ -1679,7 +1679,7 @@ the punch is missing. Alternatively, simply click in the Out Date Field.
 Enter the appropriate date for the missed punch. Move the cursor to the
 Out Time field and enter the appropriate time for the missed punch.
 
-![](/img/image-404.png)
+![](/img/image55.gif)
 
 Click on another record
 or use the down arrow key to move focus off of the altered record. The
@@ -1690,7 +1690,7 @@ the employee, click on the Save button. If for some reason you would like
 to cancel the changes you have made, click the cancel button. The timecard
 will revert to its original state.
 
-![](/img/image-404.png)
+![](/img/image72.gif)
 
 Editing
 Arrival or Departure Times
@@ -1701,14 +1701,14 @@ the example below, the 8:20 AM punch on 4/05/10 needs to be changed to
 8:00 AM, as the employee was picking up supplies from a distributor and
 was not on premises to clock in.
 
-![](/img/image-404.png)
+![](/img/CH7_Timecard7.gif)
 
 Use the Up & Down
 Arrows and the Tab Key to move the cursor to the Time field of the punch
 that needs to be edited. Alternatively, simply click in the appropriate
 field. Enter the time you wish to change the punch to.
 
-![](/img/image-404.png)
+![](/img/Tardy_Exception.gif)
 
 Click on another record
 or use the down arrow key to move focus off of the altered record. The
@@ -1719,7 +1719,7 @@ for the employee, click on the Save button. If for some reason you would
 like to cancel the changes you have made, click the cancel button. The
 timecard will revert to its original state.
 
-![](/img/image-404.png)
+![](/img/image37.gif)
 
 Audit
 Trail Enabled - Fixing a Missed Punch
@@ -1729,7 +1729,7 @@ the record with a missing punch. If the Missing Punch Exception is being
 tracked, the Out Time of the record with a missing punch will be shaded
 red as shown below.
 
-![](/img/image-404.png)
+![](/img/filter-button.gif)
 
 Use the Up & Down
 Arrows and the Tab Key to move the cursor to the Out Date Field where
@@ -1737,14 +1737,14 @@ the punch is missing. Alternatively, simply click in the Out Date Field.
 Enter the appropriate date for the missed punch. Move the cursor to the
 Out Time field and enter the appropriate time for the missed punch.
 
-![](/img/image-404.png)
+![](/img/image37.gif)
 
 Click on another record
 or use the down arrow key to move focus off of the altered record. The
 Audit Description Update Form will display. Enter a comment describing
 why the punch was changed. This comment will be stored in the InfiniTime database for audit purposes.
 
-![](/img/image-404.png)
+![](/img/image76.gif)
 
 After saving the audit
 comment, the Save Button will display. If you have additional changes
@@ -1756,7 +1756,7 @@ you would like to cancel the changes you have made, click the cancel button.
 The timecard will revert to its original state and all audit comments
 will be removed.
 
-![](/img/image-404.png)
+![](/img/image77.gif)
 
 Delayed
 Save: In Line Edit - Multiple Changes
@@ -1834,7 +1834,7 @@ be removed from the record before changes to the record will be saved.
 In the example below, an employee missed a punch on the first day of a
 pay period.
 
-![](/img/image-404.png)
+![](/img/TCard019.png)
 
 In
 Line Edit refers to entering changes directly in the timecard record.
@@ -1843,14 +1843,14 @@ Then use Tab again to move the cursor to the Out Time field and set the
 desired time. Alternatively, simply click in the Out Date and the Out
 Time and enter the desired values.
 
-![](/img/image-404.png)
+![](/img/Early.gif)
 
 Once
 the desired values have been entered, press the Down Arrow Key. When working
 with the traditional timecard changes are saved immediately and the hour
 totals will display.
 
-![](/img/image-404.png)
+![](/img/Absent_Exception.gif)
 
 Fixing
 a Missed Punch
@@ -1860,7 +1860,7 @@ the record with a missing punch. If the Missing Punch Exception is being
 tracked, the Out Time of the record with a missing punch will be shaded
 red as shown below.
 
-![](/img/image-404.png)
+![](/img/ExceptionsButton-Normal.gif)
 
 Use the Up & Down
 Arrows and the Tab Key to move the cursor to the Out Date Field where
@@ -1868,13 +1868,13 @@ the punch is missing. Alternatively, simply click in the Out Date Field.
 Enter the appropriate date for the missed punch. Move the cursor to the
 Out Time field and enter the appropriate time for the missed punch.
 
-![](/img/image-404.png)
+![](/img/image1.gif)
 
 Click on another record
 or use the down arrow key to move focus off of the altered record. Hour
 totals will calculate and be displayed immediately.
 
-![](/img/image-404.png)
+![](/img/UpdateTIS_AuditNote.gif)
 
 Editing Arrival or
 Departure Times
@@ -1885,20 +1885,20 @@ the example below, the 8:20 AM punch on 4/5/10 needs to be changed to
 8:00 AM, as the employee was picking up supplies from a distributor and
 was not on premises to clock in.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0005.gif)
 
 Use the Up & Down
 Arrows and the Tab Key to move the cursor to the Time field of the punch
 that needs to be edited. Alternatively, simply click in the appropriate
 field. Enter the time you wish to change the punch to.
 
-![](/img/image-404.png)
+![](/img/Tcard06.gif)
 
 Click on another record
 or use the down arrow key to move focus off of the altered record. Hour
 totals will calculate and be displayed immediately.
 
-![](/img/image-404.png)
+![](/img/CH7_Timecard7.gif)
 
 ### Delayed Edit Mode
 
@@ -1926,7 +1926,7 @@ Delayed Save and Save Immediately.
 
 #### Company Timecard Table - Delayed Edit / View Only Mode
 
-![](/img/image-404.png)
+![](/img/image146.gif)
 
 Change - The
 Change Button will load the In Line Edit Grid and In Line Edit Controls.
@@ -1938,7 +1938,7 @@ Line Edit Controls.
 
 #### Employee Timecard Table - Delayed Edit / View Only Mode
 
-![](/img/image-404.png)
+![](/img/PurgeButton-Normal.gif)
 
 Change - The
 Change Button will load the In Line Edit Grid and In Line Edit Controls.
@@ -1956,7 +1956,7 @@ the Manager Module are applied to all InfiniTime
 Timecard Tables - including the Employee Module Timecard Table as shown
 below.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_4.jpg)
 
 Change - The
 Change Button will load the In Line Edit Grid and In Line Edit Controls.
@@ -1969,10 +1969,10 @@ Line Edit Controls.
 # Purging Time Card Activity
 
 This feature allows the user to delete timecard activity for this employee
-that is old and no longer useful.  Selecting ![](/img/image-404.png)
+that is old and no longer useful.  Selecting ![](/img/SW_CH11_NOTES_0006.gif)
 button brings you to the purge time Card Activity update window.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_MP4_NoDelSav.gif)
 
 Description - The description
 displays information regarding the employee for which activity is being
@@ -1983,7 +1983,7 @@ Date Range -
 Select the date range that you wish to Purge.  *If the purge is for one day only, then the start
 and end dates will be the same.*
 
-![](/img/image-404.png)
+![](/img/Employee-Button.gif)
 - The filter button will allow you to purge timecard activity for multiple
 employees at a time. Employees can be filtered in multiple ways including
 by department or group. Refer to the user interface section of this document
@@ -1993,12 +1993,12 @@ for more information.
 
 The Timecard Activity Review aids supervisors
 by making it possible to flag employees for which timecard activity has
-been reviewed and approved by a supervisor.  Selecting the ![](/img/image-404.png)
+been reviewed and approved by a supervisor.  Selecting the ![](/img/TCard017.png)
 button will bring up the Review Time Record Update Form, which allows
 the user to select one or more employees for review of their timecard
 activity.
 
-![](/img/image-404.png)
+![](/img/Long-Break-Exception.gif)
 
 Description
 - The description displays information regarding the employee for which
@@ -2009,7 +2009,7 @@ Date Range -
 Select the date range that you wish to review.  *If the review is for one day only, then the start
 and end dates will be the same.*
 
-![](/img/image-404.png) - The filter
+![](/img/Absent_right_click.gif) - The filter
 button will allow you to review punches to multiple employees at a time.
  You can filter which employees will get their activity reviewed
 either by departments, groups, or by tagging multiple employees.
@@ -2020,7 +2020,7 @@ The software allows you to view a list
 of supervisors that have reviewed the activity , along with the time and
 date of the review.
 
-![](/img/image-404.png)To
+![](/img/TCard004.png)To
 access this Supervisors Review History Table Right click on the activity
 you  want to check  and on the pop up menu select Supervisor
 review History.
@@ -2032,7 +2032,7 @@ the time and date of when the activity was reviewed.
 Supervisor Review History
 Table
 
-![](/img/image-404.png)
+![](/img/SupReviewHistoryRC.gif)
 
 The Supervisor Review History Table shows
 the time of review, the date of the review and who was the supervisor
@@ -2073,18 +2073,18 @@ Tables as detailed below.
 
 1. Open the Company or Employee Timecard Table.
 
-![](/img/image-404.png)
+![](/img/image71.gif)
 
 2. Right Click on the Timecard Record you wish to enter a note for.
 
-![](/img/image-404.png)
+![](/img/InsertButton-Normal.gif)
 
 3. Click on Note.
 
 4. Enter the desired note / comment. Timecard Notes permit up to 499
 Characters.
 
-![](/img/image-404.png)
+![](/img/Unapproved_OT.gif)
 
 5. Click OK to associate the note with the timecard record.
 
@@ -2110,22 +2110,22 @@ Pay Period or Current Pay Period.
 
 1. Open the Company Timecard.
 
-![](/img/image-404.png)
+![](/img/image146.gif)
 
 2. Right Click on the Timecard Record you wish to check for Timecard
 Notes.
 
-![](/img/image-404.png)
+![](/img/TCard016.png)
 
 3. Click on Audit Trail.
 
 4. Click on the Note Tab.
 
-![](/img/image-404.png)
+![](/img/TCard004.png)
 
 5. All notes associated with the Timecard Punch Pair will be displayed.
 
-![](/img/image-404.png)
+![](/img/image142.gif)
 
 # Timecard Note Report
 
@@ -2137,7 +2137,7 @@ be found under the Management Reports Category on the Report Library.
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/image93.gif)
 
 Notes/Usage:
 

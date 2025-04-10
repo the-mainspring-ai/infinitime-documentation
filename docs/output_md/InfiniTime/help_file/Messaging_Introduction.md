@@ -28,14 +28,14 @@ Time Off and Schedule Change Requests are sent directly to employee supervisors 
 
 1. Click on the Company Button in the Manager Module.
 
-![](/img/image-404.png)
+![](/img/FunctionalOptions_AllowMultipleRequests.gif)
 
 2. Check the 'Allow Multiple Request Recipients box.'
 
-![](/img/image-404.png)
+![](/img/MSG_CompanyButton.gif)
 
 Future Date Warning
 
 To prevent accidental entries InfiniTime will display the warning below when Schedule Change Requests or Time Off Requests are sent more than one year prior to the date(s) on the request.
 
-![](/img/image-404.png)
+![](/img/DateWarning.gif)

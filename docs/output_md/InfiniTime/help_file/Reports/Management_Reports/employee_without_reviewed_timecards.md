@@ -15,7 +15,7 @@ Displays a list of employees within the date range specified by Selection Criter
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_Without_Reviewed_Timecards.gif)
 
 Notes/Usage:
 

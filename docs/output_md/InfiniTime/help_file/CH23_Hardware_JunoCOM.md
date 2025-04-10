@@ -27,35 +27,35 @@ Windows XP          Windows                  Windows
 
   Server
 
-![](/img/image-404.png)        ![](/img/image-404.png)                    ![](/img/image-404.png)
+![](/img/02_Start_Button.gif)        ![](/img/CH23_HRDW_VistaDevMGMT.gif)                    ![](/img/TS4.gif)
 
 3. Click on Run or Click in the Search Dialog box depending on your operating system.
 
 Windows XP                                                                                  Windows Vista
 
-![](/img/image-404.png)          ![](/img/image-404.png)
+![](/img/TS1.gif)          ![](/img/TS1.gif)
 
 4. Type devmgmt.msc into the Dialog Box as shown below.
 
 Windows XP                                                                                  Windows Vista
 
-![](/img/image-404.png)                  ![](/img/image-404.png)
+![](/img/Start.gif)                  ![](/img/CH23_HRDW_Vista_Devmgmtmsc.gif)
 
 5. Press Enter. Device Manager will be displayed.
 
-![](/img/image-404.png)
+![](/img/CH23_HRDW_COM.gif)
 
 6. Click on Ports (COM & LPT)
 
-![](/img/image-404.png)
+![](/img/Start.gif)
 
 7. The Prolific USB-to-Serial Comm Port will be displayed. Take note of this value and continue to [Juno Reader Setup - USB Direct Connect](Juno_Reader_Setup_-_USB_Direct_Connect.md) to configure InfiniTime for use with your USB Juno Reader. The image below shows the Prolific USB-to Serial Comm Port as COM4.
 
-![](/img/image-404.png)
+![](/img/CH23_HRDW_COM4.gif)
 
 RS232 Communications - Serial Ports
 
-![](/img/image-404.png)
+![](/img/TS3.gif)
 
 If you only have one Serial Port on the back of your computer it can safely be assumed that this port has been designated as COM 1. Determining which serial port is assigned to a specific COM port is best done through trial and error. The Device Manager Utility within Windows can be used to determine what COM ports are in use on your system.
 
@@ -67,27 +67,27 @@ Opening Device Manager:
 
 1. Click Start
 
-![](/img/image-404.png)
+![](/img/TS7.gif)
 
 2. Click Run
 
-![](/img/image-404.png)
+![](/img/CH23_HRDW_COM.gif)
 
 3. Type devmgmt.msc into the Run Dialog Box as shown below.
 
-![](/img/image-404.png)
+![](/img/image15.jpg)
 
 4. Click OK. Device Manager will be displayed.
 
-![](/img/image-404.png)
+![](/img/image15.jpg)
 
 5. Click on the Plus sign to the left of Ports (COM & LPT)
 
-![](/img/image-404.png)
+![](/img/TS5.gif)
 
 6. A list of assigned COM ports will be displayed.
 
-![](/img/image-404.png)
+![](/img/ts2.gif)
 
 COM1 is associated with one of the Serial Ports on the back of the computer as introduced in the beginning of this document. COM 2 is associated with the other Serial Port on the back of the computer, assuming there are two. COM 3 is associated with a USB to Serial Adapter as explained later in this document. Knowing which COM ports are installed on your computer can help you to determine which port to assign in the InfiniTime software when configuring your clock.
 

@@ -15,7 +15,7 @@ The Employee Accruals Report will display the total accrued hours along with the
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/AccrualWages_Example.gif)
 
 Notes/Usage:
 

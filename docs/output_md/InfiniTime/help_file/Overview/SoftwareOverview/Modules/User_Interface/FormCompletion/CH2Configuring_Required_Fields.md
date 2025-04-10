@@ -19,20 +19,20 @@ Configuring Required Fields
 
 Note:You must be logged in as a user with the right to Edit Security. Refer to Security Roles for more information on InfiniTime Security Settings. For clarity purposes, the Employee Update Form will be used as an example.
 
-![](/img/image-404.png)
+![](/img/CH2ConfigReq_5.gif)
 
 2. The Form Security Table will be displayed. Click on the Required tab.
 
-![](/img/image-404.png)
+![](/img/CH2ConfigReq_4.gif)
 
 3. Search for the field(s) you wish to set as required.
 
-![](/img/image-404.png)
+![](/img/CH2ConfigReq_3.gif)
 
 4. Click on the drop down box for each desired field and set the Required Status to True. Click Close to save your changes.
 
-![](/img/image-404.png)
+![](/img/CH2ConfigReq_5.gif)
 
 5. In this example, additional required fields were set for the Employee Update form. If a user attempts to add an employee without fill out out all required fields InfiniTime will prompt the user to complete any items they missed as shown below.
 
-![](/img/image-404.png)
+![](/img/CH2ConfigReq_3.gif)

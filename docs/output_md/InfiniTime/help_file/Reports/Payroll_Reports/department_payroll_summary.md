@@ -15,7 +15,7 @@ Displays department totals, in hours, for the date range specified by Selection 
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Department_Payroll_Summary.gif)
 
 Notes/Usage:
 

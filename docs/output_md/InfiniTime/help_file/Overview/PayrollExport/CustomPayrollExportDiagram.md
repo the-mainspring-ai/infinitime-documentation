@@ -9,4 +9,4 @@ Custom Payroll Interface Development Process
 
 
 
-![](/img/image-404.png)
+![](/img/dstCustomInterfaceReview_Design_big.png)

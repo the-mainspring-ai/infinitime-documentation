@@ -17,20 +17,20 @@ will not receive exceptions on the Scheduled Day Off. Days Off are a useful
 feature for companies who utilize the Points System and wish to ensure
 employees who are approved for an absence will not be penalized.
 
-![](/img/image-404.png)
+![](/img/CH5_DaysOffTab_2.gif)
 
 Scheduling a Day Off
 
 1. Click
    Insert.
 
-![](/img/image-404.png)
+![](/img/CH5_DaysOffTab.gif)
 
 2. Enter
    the date you wish to add a day off for by typing in the Schedule Date
    Field or using the Calendar Button.
 
-![](/img/image-404.png)
+![](/img/CH5_DaysOffTab.gif)
 
 3. If
    the employee's default schedule is a Day Time Schedule that does not

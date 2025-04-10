@@ -15,7 +15,7 @@ Displays a list of important dates, as defined within the employee table, for th
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Important_Dates.gif)
 
 Notes/Usage:
 

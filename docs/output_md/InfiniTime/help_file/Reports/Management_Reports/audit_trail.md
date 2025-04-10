@@ -15,7 +15,7 @@ Displays Audit information for the employees specified by Selection Criteria. In
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Audit_Trail.gif)
 
 Notes/Usage:
 

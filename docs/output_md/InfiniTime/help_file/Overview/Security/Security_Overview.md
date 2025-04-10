@@ -120,7 +120,7 @@ Validation Code field. Ignore any lines or dots on the image. Once all
 information has been entered click OK to access the InfiniTime
 Software.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP1.gif)
 
 ### Password Expiration
 
@@ -131,7 +131,7 @@ amount of days have passed. Once an employee's password has expired they
 will be prompted to change their current password, as shown below, upon
 their next login attempt.
 
-![](/img/image-404.png)
+![](/img/PhunkeyTabOne1.png)
 
 The Employee will be prompted for their current and desired password.
 A CAPTCHA will also be displayed at the bottom of the screen to prevent
@@ -157,7 +157,7 @@ open the Login Window for any InfiniTime
 Software Module, enter your current login information, and click on the
 Change Password Button as shown below.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP38.gif)
 
 A second screen will be displayed prompting
 the user for their current password and the desired password. A CAPTCHA
@@ -168,7 +168,7 @@ Once all information has been entered click OK to change your password
 and access the InfiniTime
 Software.
 
-![](/img/image-404.png)
+![](/img/image437.gif)
 
 ### Inactivity Time-out
 
@@ -181,17 +181,17 @@ working in the software until they login again. The message below will
 be displayed if the user attempts to perform another action after the
 session has been terminated.
 
-![](/img/image-404.png)
+![](/img/SoftwareOverview_001_Btn7_Reports.png)
 
 To configure the Inactivity Time-out Setting click on the Company button
 of the Manager Module's Toolbar as shown below.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP26.gif)
 
 Locate the Inactivity Time-out setting at the bottom of the form and
 set the time-out period as desired.
 
-![](/img/image-404.png)
+![](/img/image436.gif)
 
 ## Security Roles
 
@@ -223,22 +223,22 @@ Punch Modules.
 - Click on Employee Setup.
 - Click on Security Roles.
 
-![](/img/image-404.png)
+![](/img/Timeout_Setting.jpg)
 
 - The Security Role Table will be displayed.
 
-![](/img/image-404.png)
+![](/img/EmpSpecValidIPSUBNET.jpg)
 
-![](/img/image-404.png) Copies the Highlighted Security Role.
+![](/img/Sec025.png) Copies the Highlighted Security Role.
 Security Configuration is also duplicated through a Class System which
 designates the default security permissions associated with a security
 role. Refer to Security Role Classes below for more information on the
 Class System.
 
-![](/img/image-404.png) Opens the Security Role Update Form,
+![](/img/secr6.gif) Opens the Security Role Update Form,
 permitting the user to add a new security role.
 
-![](/img/image-404.png)Opens the Security Role Update Form for the selected
+![](/img/CH2_PGP12.gif)Opens the Security Role Update Form for the selected
 Security Role, permitting the user to adjust Security Settings for the
 selected Security Role. This option is only available for the Employee,
 Payroll Clerk, Supervisor, and User Created Security Roles.
@@ -249,7 +249,7 @@ Role Update Form
 The Security Role Update
 Form is used to insert a new Security Role or edit existing security roles.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP29.gif)
 
 Role
 
@@ -280,7 +280,7 @@ employees within Hardware Time and Attendance Terminals such as the Scout.
 This option is checked by default for the Administrator and Payroll Clerk
 Roles.
 
-![](/img/image-404.png) Returns all security configuration settings
+![](/img/Sec002.png) Returns all security configuration settings
 for the highlighted security role to the default settings as described
 in this document.
 
@@ -328,7 +328,7 @@ edit software security or configure the grid.
 Security
 Role Classes
 
-![](/img/image-404.png)
+![](/img/Sec021.png)
 
 Security Roles are assigned classes in
 order to designate default settings for the security role. Before the
@@ -394,7 +394,7 @@ includes three different types of windows as outlined below.
   View, and Delete in addition to feature specific buttons from the
   respective Grid as displayed on individual Table Browse Windows such
   as 'Audit Trail' or 'Quick Punch'. Procedure security is accessed
-  using the Grid Security Key ( ![](/img/image-404.png) ) which is present
+  using the Grid Security Key ( ![](/img/Sec003.png) ) which is present
   on every window with a grid. The Procedure Security Table permits
   the InfiniTime Administrator
   to enable and / or disable access to specific buttons on a window
@@ -405,13 +405,13 @@ includes three different types of windows as outlined below.
 - Open the window you wish to alter security role rights for. This
   document will use the Employee Table as an example.
 
-![](/img/image-404.png)
+![](/img/secf1.gif)
 
-- Click on the Security Configuration Icon ![](/img/image-404.png).
+- Click on the Security Configuration Icon ![](/img/CH2_PGP40.gif).
   The Security Configuration Icon, or Security Key, is generally displayed
   at the bottom of the window.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_EmployeeSelect.jpg)
 
 - The Procedure Security Table will
   be displayed. Security Options for a specific window, browse, and
@@ -425,13 +425,13 @@ includes three different types of windows as outlined below.
   Browse Window. Notice how the Employee Security Role is denied access
   to the Employee Table.
 
-![](/img/image-404.png)
+![](/img/ValidIP_BlockedRemSites.jpg)
 
 - Should a user assigned to the Employee Security Role attempt to
   access a part of the software that they are not authorized to view
   the following screen will be displayed.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP13.gif)
 
 ### Viewing and Editing Security Configuration for a Specific Update Form
 
@@ -440,13 +440,13 @@ includes three different types of windows as outlined below.
   rights for. This document will use the Employee Update Form as an
   example.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP3.gif)
 
-- Click on the Security Configuration Icon ![](/img/image-404.png).
+- Click on the Security Configuration Icon ![](/img/Sec003.png).
   The Security Configuration Icon, or Security Key, is generally displayed
   at the bottom of the window.
 
-![](/img/image-404.png)
+![](/img/Sec019.png)
 
 - The Form Security Table will be displayed. The Form security table
   includes one option for every field and right click menu item on the
@@ -479,7 +479,7 @@ to alter the fields which must be entered by the user when creating a
 new record. Required Field values
 affect all security roles.
 
-2. ![](/img/image-404.png)
+2. ![](/img/LoginCaptcha.jpg)
 
 - Notice that the Form Security Table has a drop down box on the
   top of the form listing all available Security Roles. To view or alter
@@ -493,18 +493,18 @@ affect all security roles.
   Grid, first open the window you wish to alter security rights for.
   This document will use the Employee Table as an example.
 
-![](/img/image-404.png)
+![](/img/Sec008.png)
 
 - Click on the Grid Configuration Security Key.
 
-![](/img/image-404.png)
+![](/img/secr4.gif)
 
 - The Grid Security Table will be displayed. The procedure
   security table includes one option for each button available on the
   respective window. For example, the Employee Table includes
   five different buttons as shown below.
 
-![](/img/image-404.png)
+![](/img/image440.gif)
 
 - Notice that the Grid Security Table has a drop down box on the
   top of the form listing all available Security Roles. To view or alter
@@ -521,16 +521,16 @@ configuration to the default settings:
 - Open the window you wish to alter security role rights for. This
   document will use the Employee Table as an example.
 
-![](/img/image-404.png)
+![](/img/Sec002.png)
 
-- Click on the Security Configuration Icon ![](/img/image-404.png)
+- Click on the Security Configuration Icon ![](/img/Sec012.png)
 
-![](/img/image-404.png)
+![](/img/Sec022.png)
 
 3. Click the Default Button to reset window security settings for the
    selected security role.
 
-![](/img/image-404.png)
+![](/img/IT70ServerOnsiteOffSiteClients.JPG)
 
 ## Security Filters
 
@@ -557,18 +557,18 @@ Security Filters
 
 - Open the Employee Table.
 
-![](/img/image-404.png)
+![](/img/InactivityTimeoutPopup.jpg)
 
 - Open the record that corresponds
   to the employee you wish to configure.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP22.gif)
 
 - Click on the Login Tab.
 
 - Click on the Security Filter button.
 
-![](/img/image-404.png)
+![](/img/secr3.gif)
 
 Configuring
 Security Filters
@@ -685,18 +685,18 @@ Fields are outlined below.
   rights for. This document will use the Employee Update Form as an
   example.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_UpdateForm.jpg)
 
-- Click on the Security Configuration Icon ![](/img/image-404.png).
+- Click on the Security Configuration Icon ![](/img/Sec021.png).
   The Security Configuration Icon, or Security Key, is generally displayed
   at the bottom of the window.
 
-![](/img/image-404.png)
+![](/img/SecFilter02.gif)
 
 - The Form Security Table will be displayed. Click on
   the Required Tab.
 
-![](/img/image-404.png)
+![](/img/PhunkeyTabOne1.png)
 
 - All fields on the respective Update Form will be displayed.
   Notice that fields specifically required by the InfiniTime
@@ -712,9 +712,9 @@ Fields are outlined below.
   be displayed if the user attempts to save a record with a blank required
   field.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP39.gif)
 
-![](/img/image-404.png)
+![](/img/CH2_PGP6.gif)
 
 ## Default Values
 
@@ -750,34 +750,34 @@ Values are outlined below.
   rights for. This document will use the Request Message Database Update
   Form as an example.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP7.gif)
 
-- Click on the Security Configuration Icon ![](/img/image-404.png).
+- Click on the Security Configuration Icon ![](/img/EmpSpecValidIP_OnsiteOffsite.jpg).
   The Security Configuration Icon, or Security Key, is generally displayed
   at the bottom of the window.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP30.gif)
 
 - The Form Security Table will be displayed. Click on
   the Default Tab.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP2.gif)
 
 - All available fields on the respective Update Form will be displayed.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP13.gif)
 
 - Use the provided controls to change Required Field settings
   as desired, then click the Close Button to save your changes.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP28.gif)
 
 - Default values will be automatically entered upon subsequent
   attempts to enter a record using the respective form. In this case,
   when users perform a Time Off Request the From Time and To Time will
   be automatically filled with the default values as shown.
 
-![](/img/image-404.png)
+![](/img/secr3.gif)
 
 ## Valid IP Addresses - Overview
 
@@ -848,39 +848,39 @@ as an employee assigned to the Administrator Security role, or equivalent.
 
 - Click on the Company Button
 
-![](/img/image-404.png)
+![](/img/CH2_PGP4.gif)
 
 - Click on the Valid IP tab.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP37.gif)
 
 - The Valid IP Table will be displayed.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP11.gif)
 
 #### Accessing the Valid IP Address Table for a specific employee
 
 - Click on the Employee Table Button.
 
-![](/img/image-404.png)
+![](/img/Sec016.png)
 
 - Highlight the employee you wish to configure Valid IP Addresses
   for.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP23.gif)
 
 - Click on Change. The Employee Update form will open.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP8.gif)
 
 - Click on the Login Tab.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP31.gif)
 
 - The Employee Specific Valid IP Address Table is located at the
   bottom of the form.
 
-![](/img/image-404.png)
+![](/img/WhatisMyIP.jpg)
 
 Using
 the Valid TCP/IP Address Update Form
@@ -893,7 +893,7 @@ fifty five. (255) To insert a valid TCP/IP Address into the software enter
 the IP address into Update Form. For example, 192.168.1.0 would be added
 as shown below.
 
-![](/img/image-404.png)
+![](/img/IT70ServerStandalone.JPG)
 
 A list of frequently asked questions regarding the use and Configuration
 of Valid IP Addresses is listed below.
@@ -972,22 +972,22 @@ Administrator for assistance.
 
 - Click on Start.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP39.gif)
 
 - Click on Run.
 
-![](/img/image-404.png)
+![](/img/EmpSpecValidIPSUBNET.jpg)
 
 - Type cmd into the dialog box.
 
-![](/img/image-404.png)
+![](/img/Timeout_CompBtn.jpg)
 
 - Click OK.
 
 - A dos window will open. Type ipconfig
   /all
 
-![](/img/image-404.png)
+![](/img/Sec025.png)
 
 - Hit enter. The network configuration
   of your server will be displayed.
@@ -996,14 +996,14 @@ Administrator for assistance.
   7.0 Server should have a static ip address. The results below indicate
   a static address of 192.168.1.40 with DHCP disabled.
 
-![](/img/image-404.png)
+![](/img/Ch2_PGP9.gif)
 
 - The results below show DHCP enabled.
   This means the computer has a dynamic IP Address assigned. The computer
   must be configured with a static Private IP Address in order to grant
   or limit access to it using Valid IP Addresses.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP17.gif)
 
 #### How do I locate and determine if the Public IP Address for a machine on a remote network is static?
 
@@ -1017,15 +1017,15 @@ To determine your Public IP Address using www.whatismyip.com
 
 Click on Start
 
-![](/img/image-404.png)
+![](/img/secr4.gif)
 
 Click on Run
 
-![](/img/image-404.png)
+![](/img/Sec006.png)
 
 Type www.whatismyip.com in the dialog box as shown.
 
-![](/img/image-404.png)
+![](/img/SecFilter01.gif)
 
 Click OK.
 
@@ -1058,7 +1058,7 @@ your software is deployed. Four deployment options are available for InfiniTime 
 Standalone InfiniTime
 Server
 
-![](/img/image-404.png)
+![](/img/Sec014.png)
 
 Standalone Installations require only a server. In a Standalone Installation
 the server hosts all InfiniTime
@@ -1075,7 +1075,7 @@ not be restricted from accessing InfiniTime.
 Onsite InfiniTime
 Server with On-Site Clients
 
-![](/img/image-404.png)
+![](/img/EmpSpecValidIP_BlockedRemSites.jpg)
 
 As shown, this server is connected to a Local Area Network and hosts
 the InfiniTime software
@@ -1092,7 +1092,7 @@ Address table to grant the desired level of access.
 Onsite InfiniTime
 Server with Off-Site Clients
 
-![](/img/image-404.png)
+![](/img/CH2_PGP32.gif)
 
 As pictured, this server has a Static ip address and uses an Internet
 service such as T1, DSL, or Cable to connect to the Internet. Any employee
@@ -1115,7 +1115,7 @@ to grant the desired level of access.
 Onsite InfiniTime
 Server with On-Site and Off-Site Clients
 
-![](/img/image-404.png)
+![](/img/CH2_PGP6.gif)
 
 Combining the first two options provides a versatile deployment alternative
 separating Web Applications from other software applications. Employees
@@ -1293,7 +1293,7 @@ Common Octets:              192.168.10
 
 Final IP Address:              192.168.10.0
 
-![](/img/image-404.png)
+![](/img/CH2_PGP40.gif)
 
 Through the use of Company Valid IP Addresses all employees will be
 granted access to the software from computers within the Accounting Department.
@@ -1317,7 +1317,7 @@ IP Addresses as desired. Keep in mind any IP Addresses not specifically
 listed in the Company Wide Valid IP Address table will be denied access
 to the InfiniTime Software.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_UpdateForm.jpg)
 
 Through the use of Company
 Valid IP Addresses all employees will be granted access to the software
@@ -1348,7 +1348,7 @@ from any IP Address not specifically listed in their Employee Specific
 Valid IP Address table once a single IP Address is entered into the Employee
 Specific Valid IP Address Table.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP16.gif)
 
 Through
 the use of Employee Specific Valid IP Addresses employee access can be
@@ -1401,7 +1401,7 @@ Common Octets:              192.168.20
 
 Final IP Address:              192.168.20.0
 
-![](/img/image-404.png)
+![](/img/CH2_PGP17.gif)
 
 Through the use of Employee Specific Valid IP Addresses employees will
 be granted access to the software from computers within the Phone Support
@@ -1426,7 +1426,7 @@ in mind any IP Addresses not specifically listed in the Company Wide Valid
 IP Address table will be denied access to the InfiniTime
 Software.
 
-![](/img/image-404.png)
+![](/img/image436.gif)
 
 Through the use of Company
 Wide Valid IP Addresses all employees will be granted access to the software
@@ -1462,7 +1462,7 @@ to as many remote sites as desired. Keep in mind employees will be denied
 access from all IP Addresses not listed in the Employee Specific Valid
 IP Address Table.
 
-![](/img/image-404.png)
+![](/img/changepwform.jpg)
 
 Through the use of Employee Specific Valid
 IP Addresses each employees will be granted access to the software from
@@ -1544,7 +1544,7 @@ to company buildings only to prevent employees from accessing the software
 at home. Refer to the Omnipresent Access: Overview section of this document
 for additional Information on Omnipresent Access.
 
-![](/img/image-404.png)
+![](/img/Sec018.png)
 
 Through the use of Employee
 Specific Valid IP Addresses employees with Valid IP Addresses configured
@@ -1587,7 +1587,7 @@ Print Accruals - Prints the
 Employee Accruals Report for the respective employee which displays the
 employee's Accrual Totals.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_EmpSpecIPTable.jpg)
 
 ### Disabling Access to Reports from the Employee Module
 
@@ -1599,24 +1599,24 @@ below.
 1. Login to the Manager Module
 2. Click on the Reports Button to open the Report Library
 
-![](/img/image-404.png)
+![](/img/CH2_PGP4.gif)
 
 3. Locate the Timecard Detail Report in the Report Library
 
-![](/img/image-404.png)
+![](/img/CompanyButton.jpg)
 
 4. Click on the Report Name to select it
 5. Click on Change
 
-![](/img/image-404.png)
+![](/img/CH2_PGP20.gif)
 
 6. Click on the Options tab
 
-![](/img/image-404.png)
+![](/img/Sec011.png)
 
 7. Uncheck 'Print from Employee Module Timecard Button'
 
-![](/img/image-404.png)
+![](/img/secr9.gif)
 
 8. Repeat steps 1 to 7 for the Postable Schedule Report and Employee
    Accruals Report.
@@ -1625,7 +1625,7 @@ below.
    show the warning below indicating that there is no report assigned
    to the button..
 
-![](/img/image-404.png)
+![](/img/secr2.gif)
 
 ### Altering the Reports Accessed from the Employee Module Report Buttons
 
@@ -1639,36 +1639,36 @@ below using the Timecard Button as an example.
 1. Login to the Manager Module
 2. Click on the Reports Button to open the Report Library
 
-![](/img/image-404.png)
+![](/img/CH2_PGP32.gif)
 
 3. Locate the Timecard Detail Report in the Report Library
 
-![](/img/image-404.png)
+![](/img/secr19.gif)
 
 4. Click on the Report Name to select it
 5. Click on Change
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_EmployeeSelect.jpg)
 
 6. Click on the Options tab
 
-![](/img/image-404.png)
+![](/img/CH2_PGP7.gif)
 
 7. Uncheck 'Print from Employee Module Timecard Button'
 
-![](/img/image-404.png)
+![](/img/image439.gif)
 
 8. Locate the report you wish to assign to the Print Timecard Button.
    This document will use the Mini Timecard with Details for example
    purposes.
 9. Click on the Report to select it and then click Change.
 
-![](/img/image-404.png)
+![](/img/Sec008.png)
 
 10. Click on the Options Tab and check the option titled 'Print
     From Employee Module Timecard Button'.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP10.gif)
 
 ## Optional PGP Encryption for Output Files
 
@@ -1717,17 +1717,17 @@ Output FTP Site and delete them from the public FTP site afterwards.
 
 - On the Payroll Export Update form check PGP Encrypt File.
 
-![](/img/image-404.png)
+![](/img/secr5.gif)
 
 - The PGP tab will become available.
 
-![](/img/image-404.png)
+![](/img/SecRoleClasses1.gif)
 
 - Refer to [PGP
   Encryption - Changing PGP](Security_Overview.md#sec66_PGP_Encryption_-_Changing_PGP_Key_Files) Key Files to configure the keys
   as appropriate for your PGP Client.
 
-![](/img/image-404.png)
+![](/img/secr7.gif)
 
 - Configure the Payroll Export as desired. Ensure the Payroll Codes,
   Required Information, Date Range, and Employee filter are configured
@@ -1735,17 +1735,17 @@ Output FTP Site and delete them from the public FTP site afterwards.
 
 - Save the Payroll Export Criteria by clicking on OK.
 
-![](/img/image-404.png)
+![](/img/ChangeButton-Normal.gif)
 
 - Highlight the Payroll Export in the Payroll Export Table and click
   Export.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_ValidIPTable.jpg)
 
 - The file will be available for download from the InfiniTime FTP Output in the encrypted
   PGP format.
 
-![](/img/image-404.png)
+![](/img/Sec020.png)
 
 Transferring
 Payroll Export Files via FTP - PGP Configuration
@@ -1760,7 +1760,7 @@ example configuration is outlined below.
 - On the Payroll Export Update form check PGP Encrypt File and Send
   File Via FTP.
 
-![](/img/image-404.png)
+![](/img/CompanyButton.jpg)
 
 - Several fields will be displayed for
   the entry of FTP information. Enter the information for the destination
@@ -1776,17 +1776,17 @@ example configuration is outlined below.
   shown below. IE: 'Public' is a folder in the root of the InfiniTime FTP site, while 'upload'
   is a folder within the Public folder.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP26.gif)
 
 - The PGP tab will become available.
 
-![](/img/image-404.png)
+![](/img/changepwform.jpg)
 
 - Refer to [PGP
   Encryption - Customizing PGP](Security_Overview.md#sec66_PGP_Encryption_-_Changing_PGP_Key_Files) to configure the keys as appropriate
   for your PGP Client.
 
-![](/img/image-404.png)
+![](/img/secr1.gif)
 
 - Configure the Payroll Export as desired. Ensure the Payroll Codes,
   Required Information, Date Range, and Employee filter are configured
@@ -1794,12 +1794,12 @@ example configuration is outlined below.
 
 - Save the Payroll Export Criteria
 
-![](/img/image-404.png)
+![](/img/ChangeButton-Normal.gif)
 
 - Highlight the Payroll Export in the Payroll Export Table and click
   Export.
 
-![](/img/image-404.png)
+![](/img/SoftwareOverview_001_Btn7_Reports.png)
 
 - The Payroll Export file will be automatically sent to the specified
   FTP site in an encrypted PGP format.
@@ -1818,35 +1818,35 @@ configuration is shown below.
 
 - On the Payroll Export Update form check PGP Encrypt File.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP19.gif)
 
 - The PGP tab will become available.
 
-![](/img/image-404.png)
+![](/img/Sec011.png)
 
 - Refer to [PGP
   Encryption - Customizing PGP](Security_Overview.md#sec66_PGP_Encryption_-_Changing_PGP_Key_Files) to configure the keys as appropriate
   for your PGP Client.
 
-![](/img/image-404.png)
+![](/img/ValidIP_OnsiteDept.jpg)
 
 - Add a destination address, from address, subject and body to the
   email tab. The Payroll Export will be emailed to the recipient in
   an encrypted PGP format.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP8.gif)
 
 - Configure the Payroll Export as desired. Ensure the Payroll Codes,
   Required Information, Date Range, and Employee filter are configured
   appropriately.
 - Save the Payroll Export Criteria by clicking OK.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP19.gif)
 
 - Highlight the Payroll Export in the Payroll Export Table and click
   Export.
 
-![](/img/image-404.png)
+![](/img/Sec009.png)
 
 - The Payroll Export will be created in an encrypted PGP format and
   automatically emailed to the destination address specified on the
@@ -1907,17 +1907,17 @@ FTP Site and delete them from the public FTP site afterwards.
 - On the Source File Options tab of the Export Update form check
   PGP Encrypt File.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_EmpSpecIPTable.jpg)
 
 - The PGP tab will become available.
 
-![](/img/image-404.png)
+![](/img/Sec017.png)
 
 - Refer to [PGP
   Encryption - Customizing PGP](Security_Overview.md#sec66_PGP_Encryption_-_Changing_PGP_Key_Files) to configure the keys as appropriate
   for your PGP Client.
 
-![](/img/image-404.png)
+![](/img/Sec013.png)
 
 - Configure the Export as desired. Ensure the correct file type is
   chosen, the desired fields are mapped, the employee filter is set
@@ -1926,16 +1926,16 @@ FTP Site and delete them from the public FTP site afterwards.
 
 - Save the Export Criteria by clicking on OK.
 
-![](/img/image-404.png)
+![](/img/Sec023.png)
 
 - Highlight the Export in the Export Definition Table and click Export.
 
-![](/img/image-404.png)
+![](/img/ValidIP_Onsite.jpg)
 
 - The file will be available for download from the InfiniTime FTP Output on your server
   in an encrypted PGP format.
 
-![](/img/image-404.png)
+![](/img/Sec007.png)
 
 Transferring
 Export Files via FTP - PGP Configuration
@@ -1950,7 +1950,7 @@ example configuration is outlined below.
 - On the Export Update form check PGP Encrypt File and Send File
   Via FTP.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP35.gif)
 
 Several fields will be displayed for the entry of FTP information. Enter
 the information for the destination FTP site in the format shown below.
@@ -1967,17 +1967,17 @@ Keep the following details in mind:
   shown below. IE: 'Public' is a folder in the root of the InfiniTime FTP site, while 'upload'
   is a folder within the Public folder.
 
-![](/img/image-404.png)
+![](/img/IT70ServerOffSiteClients.JPG)
 
 - The PGP tab will become available.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_ValidIPTable.jpg)
 
 - Refer to [PGP
   Encryption - Customizing PGP](Security_Overview.md#sec66_PGP_Encryption_-_Changing_PGP_Key_Files) to configure the keys as appropriate
   for your PGP Client.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP24.gif)
 
 - Configure the Export as desired. Ensure the correct file type is
   chosen, the desired fields are mapped, the employee filter is set
@@ -1985,11 +1985,11 @@ Keep the following details in mind:
 
 - Save the Export Criteria by clicking on OK.
 
-![](/img/image-404.png)
+![](/img/Sec017.png)
 
 - Highlight the Export in the Export Definition Table and click Export.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP24.gif)
 
 - The Export file will be automatically sent to the specified FTP
   site in an encrypted PGP format.
@@ -2020,11 +2020,11 @@ FTP Site and delete them from the public FTP site afterwards.
 
 - Highlight the report you wish to export in an encrypted PGP format.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_EmployeeButton.jpg)
 
 - Click Insert.
 
-![](/img/image-404.png)
+![](/img/ValidIP_BlockedRemSites.jpg)
 
 - On the general tab set Print Preview as desired. If Print Preview
   is set to no, you will not be presented with a preview of the report
@@ -2033,26 +2033,26 @@ FTP Site and delete them from the public FTP site afterwards.
   with a preview of the report and have the option to export it after
   viewing the preview.
 
-![](/img/image-404.png)
+![](/img/ValidIP_OnsiteDept.jpg)
 
 - On the general tab enter an export file name and then hit tab.
   Export options will become available.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP12.gif)
 
 - Pick the appropriate file format and check PGP encrypt file.
 
-![](/img/image-404.png)
+![](/img/Sec007.png)
 
 - The PGP tab will become available.
 
-![](/img/image-404.png)
+![](/img/Sec009.png)
 
 - Refer to [PGP
   Encryption - Customizing PGP](Security_Overview.md#sec66_PGP_Encryption_-_Changing_PGP_Key_Files) to configure the keys as appropriate
   for your PGP Client.
 
-![](/img/image-404.png)
+![](/img/Sec015.png)
 
 - Configure the Report as desired. Ensure the proper date range is
   selected, the employee filter is set appropriately, and any desired
@@ -2060,17 +2060,17 @@ FTP Site and delete them from the public FTP site afterwards.
 
 - Save the Report Selection Criteria by clicking on OK.
 
-![](/img/image-404.png)
+![](/img/WhatisMyIP.jpg)
 
 - Highlight the Saved Report Criteria in the Saved Report Selection
   Criteria section of the Report Library and click Print.
 
-![](/img/image-404.png)
+![](/img/ChangePW.jpg)
 
 - Review and close the print preview if appropriate, Click Yes to
   export the report when prompted.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP37.gif)
 
 - The file will be available for download from the InfiniTime FTP Output in the encrypted
   PGP format.
@@ -2087,11 +2087,11 @@ example configuration is outlined below.
 
 - Highlight the report you wish to export in an encrypted PGP format.
 
-![](/img/image-404.png)
+![](/img/Timeout_CompBtn.jpg)
 
 - Click Insert.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP5.gif)
 
 - On the general tab set Print Preview as desired. If Print Preview
   is set to no, you will not be presented with a preview of the report
@@ -2100,16 +2100,16 @@ example configuration is outlined below.
   with a preview of the report and have the option to export it after
   viewing the preview.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP16.gif)
 
 - On the general tab enter an export file name. Export options will
   become available.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP23.gif)
 
 - Check PGP encrypt file and Send File Via FTP.
 
-![](/img/image-404.png)
+![](/img/secr2.gif)
 
 Several fields will be displayed for the entry of FTP information. Enter
 the information for the destination FTP site in the format shown below.
@@ -2126,17 +2126,17 @@ the information for the destination FTP site in the format shown below.
   shown below. IE: 'Public' is a folder in the root of the InfiniTime
   FTP site, while 'upload' is a folder within the Public folder.
 
-![](/img/image-404.png)
+![](/img/ValidIp.jpg)
 
 - The PGP tab will become available.
 
-![](/img/image-404.png)
+![](/img/Sec014.png)
 
 - Refer to [PGP
   Encryption - Customizing PGP Keys](Security_Overview.md#sec66_PGP_Encryption_-_Changing_PGP_Key_Files) to configure
   the keys as appropriate for your PGP Client.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP30.gif)
 
 - Configure the Report as desired. Ensure the proper date range is
   selected, the employee filter is set appropriately, and any desired
@@ -2144,17 +2144,17 @@ the information for the destination FTP site in the format shown below.
 
 - Save the Report Selection Criteria by clicking on OK.
 
-![](/img/image-404.png)
+![](/img/Ch2_PGP9.gif)
 
 - Highlight the Saved Report Criteria in the Payroll Export Table
   and click Print.
 
-![](/img/image-404.png)
+![](/img/Sec013.png)
 
 - Review and close the print preview if appropriate, Click Yes to
   send the report via FTP when prompted.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_LoginTab.jpg)
 
 - The file will be automatically transferred to the specified FTP
   site.
@@ -2175,11 +2175,11 @@ Chapter 10 - Auto Reports for more information.
 
 - Highlight the report you wish to export in an encrypted PGP format.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP28.gif)
 
 - Click Insert.
 
-![](/img/image-404.png)
+![](/img/Sec005.png)
 
 - On the general tab set Print Preview as desired. If Print Preview
   is set to no, you will not be presented with a preview of the report
@@ -2188,32 +2188,32 @@ Chapter 10 - Auto Reports for more information.
   with a preview of the report and have the option to export it after
   viewing the preview.
 
-![](/img/image-404.png)
+![](/img/Sec006.png)
 
 - On the general tab enter an export file name. Export options will
   become available.
 
-![](/img/image-404.png)
+![](/img/EmpSpecValidIP_OnsiteOffsite.jpg)
 
 - Pick the appropriate file format and check PGP encrypt file.
 
-![](/img/image-404.png)
+![](/img/Sec015.png)
 
 - The PGP tab will become available.
 
-![](/img/image-404.png)
+![](/img/secr8.gif)
 
 - Refer to [PGP
   Encryption - Customizing PGP](Security_Overview.md#sec66_PGP_Encryption_-_Changing_PGP_Key_Files) to configure the keys as appropriate
   for your PGP Client.
 
-![](/img/image-404.png)
+![](/img/IT70ServerOnsiteClients.JPG)
 
 - Add a destination address, from address, subject and body to the
   email tab. The report will be emailed to the recipient in an encrypted
   PGP format.
 
-![](/img/image-404.png)
+![](/img/image440.gif)
 
 - Configure the Report as desired. Ensure the proper date range is
   selected, the employee filter is set appropriately, and any desired
@@ -2221,17 +2221,17 @@ Chapter 10 - Auto Reports for more information.
 
 - Save the Report Selection Criteria by clicking on OK.
 
-![](/img/image-404.png)
+![](/img/Sec020.png)
 
 - Highlight the Saved Report Criteria in the Payroll Export Table
   and click Print.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP10.gif)
 
 - Review and close the print preview if applicable, Click Yes to
   email the report when prompted.
 
-![](/img/image-404.png)
+![](/img/Sec019.png)
 
 - The file will be automatically emailed to the destination email
   address(es) specified on the email tab.
@@ -2317,7 +2317,7 @@ If the default installation settings were
 used, the PGP Keys can be found on the InfiniTime
 Server under C:\Inception\InfiniTime7\PGP\ as shown below.
 
-![](/img/image-404.png)
+![](/img/NightShiftSupervisor.png)
 
 Utilizing
 Your Own Keys
@@ -2357,26 +2357,26 @@ Keys are distributed publicly to all InfiniTime 7 Customers.
   Tab. The default InfiniTime
   PGP Keys are displayed.
 
-![](/img/image-404.png)
+![](/img/Sec022.png)
 
 - Click on the Magnify Glass to the
   right of the Signature key to bring up the File Selection Form.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP38.gif)
 
 - Leave the field blank and click OK
   to clear the PGP Signature Key.
 
-![](/img/image-404.png)
+![](/img/NightShiftSupervisor.png)
 
 - Clear
   the PGP Secret Phrase.
 
-![](/img/image-404.png)
+![](/img/Timeout_Setting.jpg)
 
 - Click OK to save the changes.
 
-![](/img/image-404.png)
+![](/img/Ch2_ValidIP_EmployeeClickChange.jpg)
 
 - Encrypt and Sign - Encrypting and signing the exported file serves
   two purposes. First the file is encrypted in the PGP format which
@@ -2389,16 +2389,16 @@ Keys are distributed publicly to all InfiniTime 7 Customers.
   Tab. The default InfiniTime
   PGP Keys are displayed.
 
-![](/img/image-404.png)
+![](/img/image438.gif)
 
 - Clear
   the PGP Secret Phrase.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP18.gif)
 
 - Click OK to save the changes.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP18.gif)
 
 - Encrypt and Sign with Passphrase - This option is the most secure,
   providing both encryption and sender identification. The file is encrypted
@@ -2410,7 +2410,7 @@ Keys are distributed publicly to all InfiniTime 7 Customers.
   Tab. The default InfiniTime
   PGP Keys and passphrase are displayed.
 
-![](/img/image-404.png)
+![](/img/CH2_PGP31.gif)
 
 - If desired, the keys and passphrase
   can be altered using the Magnify Glass Icons to select Public and
@@ -2447,7 +2447,7 @@ Additional details on how to design and configure Escort Windows are provided
 in the [InfiniTime Escort Section](../Escort/Escort_Overview.md#esc01_Escort_Overview) of this
 document.
 
-![](/img/image-404.png)
+![](/img/secf1.gif)
 
 ## Essential Takeaways
 

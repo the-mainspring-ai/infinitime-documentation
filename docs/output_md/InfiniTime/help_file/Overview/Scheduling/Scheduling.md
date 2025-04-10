@@ -250,7 +250,7 @@ steps 3 to 7 for each day until the entire schedule has been defined.
 
 #### Using the Quick Default Schedule Tool:
 
-![](/img/image-404.png)
+![](/img/Sched020.png)
 
 1. Access the Default Schedule Tab for the Schedule Type which best
    matches your requirements as outlined above. (IE: Policy, Department,
@@ -265,12 +265,12 @@ steps 3 to 7 for each day until the entire schedule has been defined.
 Quick Default Schedule - Weekly Schedule
 Cycle
 
-![](/img/image-404.png)
+![](/img/Sched025.png)
 
 Quick Default Schedule - Custom Schedule
 Cycle
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays001.png)
 
 1. In the Start Time field under the Regular Hours Column enter the
    time at which employees are expected to arrive for work for the day.
@@ -300,12 +300,12 @@ the Policy Default Schedule
    assigned to the respective Policy in accordance with the Schedule
    Hierarchy.
 
-![](/img/image-404.png)
+![](/img/Insert-Menu.gif)
 
 Accessing
 the Department Default Schedule
 
-![](/img/image-404.png)
+![](/img/winschtimeentry_pb.gif)
 
 1. Within the manager module click on Company â Setup â Departments.
 2. Click on the Department you wish to define a schedule for.
@@ -319,7 +319,7 @@ the Department Default Schedule
 Accessing
 the Employee Specific Default Schedule
 
-![](/img/image-404.png)
+![](/img/dif01.png)
 
 1. Within the manager module click on Company â Setup Employees
 2. Click on the Employee you wish to define a schedule for.
@@ -386,11 +386,11 @@ each day in the schedule cycle.
 1. Within the manager module click on Lookups â Scheduling Setup â
    Shifts.
 
-![](/img/image-404.png)
+![](/img/winschtimeentry_ub.gif)
 
 2. Click Insert on the Shift Table.
 
-![](/img/image-404.png)
+![](/img/Sched005.png)
 
 3. Enter the Shift Name into the Name Field.
 4. If a specific Shift is intended  for Scheduling Purposes
@@ -407,7 +407,7 @@ each day in the schedule cycle.
 7. Select the Schedule Cycle which best matches the customerâs requirements.
 8. Click on Quick Schedule.
 
-![](/img/image-404.png)
+![](/img/Sched007.png)
 
 9. Click on the Day of the week or Day Number you wish to set a schedule
    for as appropriate based on the previously chosen Schedule Cycle..
@@ -415,23 +415,23 @@ each day in the schedule cycle.
 Quick Default Schedule - Weekly Schedule
 Cycle View
 
-![](/img/image-404.png)
+![](/img/skel02_insertschedule.png)
 
 Quick Default Schedule - Custom Schedule
 Cycle View
 
-![](/img/image-404.png)
+![](/img/Sched016.png)
 
 Notice that the Custom Schedule Cycle View
-displays seven days at once. The ![](/img/image-404.png)
-and ![](/img/image-404.png) VCR Buttons at the top of the form are used
+displays seven days at once. The ![](/img/Sched004.png)
+and ![](/img/Sched016.png) VCR Buttons at the top of the form are used
 to display additional days on the form as outlined below.
 
-![](/img/image-404.png)
+![](/img/sched3.gif)
 - Shifts the Day Tabs displayed on the Quick Default Schedule Form up
 one day. Used for Custom Schedule Cycles with more than 7 days.
 
-![](/img/image-404.png)
+![](/img/CH5_DaysOffTab_2.gif)
 - Shifts the Day Tabs displayed on the Quick Default Schedule Form down
 one day. Used for Custom Schedule Cycles with more than 7 days.
 
@@ -454,7 +454,7 @@ one day. Used for Custom Schedule Cycles with more than 7 days.
 
 #### Assigning Shifts to Employees
 
-![](/img/image-404.png)
+![](/img/Sched027.png)
 
 Shifts must be assigned to employees before InfiniTime
 will use them to calculate employee schedules. A single employee can be
@@ -485,7 +485,7 @@ Additional Details on configuring Schedule Grace Periods can be found
 in the [Policy Section of this
 document.](../Policies/Policy_Overview.md#pol109_Scheduled_Time)
 
-![](/img/image-404.png)
+![](/img/Sched013.png)
 
 For example, ABC Freight Facility is a 24 Hour Warehouse with trucks
 arriving and departing around the clock. Employees work across three shifts
@@ -594,7 +594,7 @@ the Shift Update Form
 5. The
    Shift Table will be displayed.
 
-![](/img/image-404.png)
+![](/img/ArrowRightButton-Normal.gif)
 
 Shift
 Table
@@ -603,7 +603,7 @@ The Shift Table lists
 all Shifts, including shifts configured for scheduling and differential
 purposes.
 
-![](/img/image-404.png)
+![](/img/VCRFirstButton-Normal.gif)
 
 Insert
 - Opens the Shift Update Form. Used to create a new shift for either Sheduling
@@ -639,7 +639,7 @@ schedules.
 
 General Tab
 
-![](/img/image-404.png)
+![](/img/dif03.png)
 
 Name
 - Enter a Name for the Shift. This name will be displayed on Timecard
@@ -759,7 +759,7 @@ Schedule and Pay Method. Pay Premiums can be set to the same value or
 different values for each hours type in order to meet your organization's
 requirements.
 
-![](/img/image-404.png)
+![](/img/SkeletonTaskInsertForm.png)
 
 Shift
 Differential Pay Premium Fields
@@ -775,7 +775,7 @@ Differential Pay -  This
 drop down box allows you to select the type of pay for the respective
 Hours Type. Options include Amount, Percent, and Rate.  The
 
-![](/img/image-404.png)
+![](/img/skel03_Save.png)
 
 Amount
 : The Amount Differential Pay Option specifies that the value entered
@@ -790,7 +790,7 @@ Differential Amount: $1.00
 
 Total Hourly Differential Pay Rate: $16.00
 
-![](/img/image-404.png)
+![](/img/Sched013.png)
 
 Percent:
 The Percent Differential Pay Option specifies that the value entered into
@@ -808,7 +808,7 @@ Additional Differential Pay Amount: $2.00
 
 Total Hourly Differential Pay Rate: $12.00
 
-![](/img/image-404.png)
+![](/img/dif04.png)
 
 Rate: The
 Rate Differential Pay Option specifies that the value entered into the
@@ -825,7 +825,7 @@ Differential Rate: $18.00
 
 Total Hourly Differential Pay Rate: $18.00
 
-![](/img/image-404.png)
+![](/img/VCRLastButton-Normal.gif)
 
 Before
 Shift Grace Differential - Optional. This is the amount of time the
@@ -851,7 +851,7 @@ the Quick Schedule feature which permits InfiniTime
 Administrators to define the exact blocks of time for which worked hours
 will be counted toward the respective Shift Differential.
 
-![](/img/image-404.png)
+![](/img/VCRLastButton-Normal.gif)
 
 Quick Schedule
 - Opens the Quick Default Schedule Form. Used to define a new Schedule
@@ -873,7 +873,7 @@ a Schedule for a Shift Differential:
    a repeating schedule with a customized length, in days.
 2. Click on Quick Schedule.
 
-![](/img/image-404.png)
+![](/img/Train_task_Update_Form.gif)
 
 2. Click on the Day of the week or Day Number you wish to set a Schedule
    for as appropriate based on the previously chosen Schedule Cycle..
@@ -881,7 +881,7 @@ a Schedule for a Shift Differential:
 Quick Default Schedule - Weekly Schedule
 Cycle View
 
-![](/img/image-404.png)
+![](/img/Sched024.png)
 
 Copy
 - Copies Scheduled Start and To Times from a given Day of Week to specific
@@ -890,7 +890,7 @@ Days of Week as selected by the user.
 Quick Default Schedule - Custom Schedule
 Cycle View
 
-![](/img/image-404.png)
+![](/img/Sched014.png)
 
 Copy
 - Copies Scheduled Start and To Times from a given Day of the Custom Schedule
@@ -898,15 +898,15 @@ Cycle to specific Days of the Custom Schedule Cycle as selected by the
 user.
 
 Notice that the Custom Schedule Cycle View
-displays only seven days at once. The ![](/img/image-404.png) and ![](/img/image-404.png) VCR Buttons at the top
+displays only seven days at once. The ![](/img/sched2.gif) and ![](/img/Sched026.png) VCR Buttons at the top
 of the form are used to display additional days on the form as outlined
 below.
 
-![](/img/image-404.png)
+![](/img/Quick-Default-Schedule.gif)
 - Shifts the Day Tabs displayed on the Quick Default Schedule Form up
 one day. Used for Custom Schedule Cycles with more than 7 days.
 
-![](/img/image-404.png)
+![](/img/sched1.gif)
 - Shifts the Day Tabs displayed on the Quick Default Schedule Form down
 one day. Used for Custom Schedule Cycles with more than 7 days.
 
@@ -971,7 +971,7 @@ Shift Differential, then click OK.
 Repeat steps 6 and 7 to add additional Shift Differentials to the policy.
 Remember - a single policy may not have overlapping shift differentials.
 
-![](/img/image-404.png)
+![](/img/dif04.png)
 
 It is important to note that Shift Differentials
 must be assigned to Policies within InfiniTime
@@ -1145,7 +1145,7 @@ or when they punched in. The Shift Differential Pay Method is located
 on the General Tab of the Schedule Settings / Rules section of the Policy
 Update Form.
 
-![](/img/image-404.png)
+![](/img/winschtimeentry_pb.gif)
 
 NOTE: The
 Shift Differential Pay Method option is disabled and cannot be altered
@@ -1229,7 +1229,7 @@ or Work to qualify for Shift Differential Benefits. Shift Differential
 Mapping is configured using the 'Map Shift Hours Into' option on the Differential
 Pay Tab of the Shift Update Form.
 
-![](/img/image-404.png)
+![](/img/SkeletonTaskInsertForm.png)
 
 Map Shift Hours To â Permits
 Shift Differential Mapping which allows versatile shift differential payment
@@ -1370,7 +1370,7 @@ Find Available](Scheduling.md#sch42_Find_Available)) or to schedule several empl
 staffing scenario. ([See Schedule
 Skeletons.](Scheduling.md#sch44_Schedule_Skeletons___Benefits_and_Configuring))
 
-![](/img/image-404.png)
+![](/img/SSDUpdate.png)
 
 #### Schedule Gannt Chart Buttons
 
@@ -1395,7 +1395,7 @@ the Schedule GANNT Chart is split by 5 minute increments for detailed
 scheduling purposes. Individual working periods and break periods, including
 Job Costing Details, are displayed on the daily view.
 
-![](/img/image-404.png)
+![](/img/Sched015.png)
 
 Weekly
 - Displays seven days, starting with the Schedule Date, on the Schedule
@@ -1411,7 +1411,7 @@ schedule blocks to view the full Job Costing assignment (Department, Job,
 and Task) associated with the schedule in addition to the Start and End
 Time for the block.
 
-![](/img/image-404.png)
+![](/img/sched1.gif)
 
 Monthly
 - Displays 31 days, starting with the Schedule Date, on the Schedule GANNT
@@ -1429,7 +1429,7 @@ blocks to view the full Job Costing assignment (Department, Job, and Task)
 associated with the schedule in addition to the Start and End Time for
 the block.
 
-![](/img/image-404.png)
+![](/img/Copy-Default-Schedule.gif)
 
 Filter
 - Permits selection of specific employees, departments, groups etc. for
@@ -1441,7 +1441,7 @@ days using the Quick Schedule Interface.
 
 ### Quick Schedule Record Update Form
 
-![](/img/image-404.png)
+![](/img/dif02.png)
 
 Override
 Schedule - If this box is checked existing schedules will
@@ -1460,7 +1460,7 @@ this Regular working period ends (ie ends before a lunch break, or the
 end of the day.)  Continue the process until the entire shift has
 been completed.
 
-![](/img/image-404.png)
+![](/img/dif09.png)
 
 Start Time
 - In this field you can enter the start time for the Regular Hours, Paid
@@ -1495,7 +1495,7 @@ other weekdays.
 To copy the schedule from day to day, click
 the copy button to bring up the following form:
 
-![](/img/image-404.png)
+![](/img/Sched009.png)
 
 Copy From
 - Use the pull down menu to select the day that you wish to use as your
@@ -1522,7 +1522,7 @@ to be duplicated as follows:
   To Date Range' overriding default schedules OR only to days
   with no schedule.
 
-![](/img/image-404.png)
+![](/img/VCRPreviousButton-Normal.gif)
 
 Copy from: Specify the start date
 and end date of the period for which you would like to copy schedule information
@@ -1558,7 +1558,7 @@ Use of Find Available requires specific configuration as outlined in the
 [Availability Section of this
 document.](Scheduling.md#sch38_Employee_Availability___Benefits_and_Configuring)
 
-![](/img/image-404.png)
+![](/img/Sched015.png)
 
 Employees who are available for the selected
 Time Slot, as determined by the Begin Time, End Time, and Task Selection
@@ -1605,7 +1605,7 @@ configuration within InfiniTime
 is required before the Use Skeleton Button will be displayed on the Schedule
 GANNT Chart.
 
-![](/img/image-404.png)
+![](/img/Sched011.png)
 
 Name: Select the Skeleton you wish
 to use for scheduling purposes.
@@ -1644,21 +1644,21 @@ multiple pages will be displayed on the Schedule GANNT Chart. The Employee
 VCR Buttons at the lower left corner of the form can be used to move between
 pages.
 
-![](/img/image-404.png)
+![](/img/Sched027.png)
 
-![](/img/image-404.png)
+![](/img/SkeletonHeaderUpdateForm.png)
  - First Page - Displays the first 18 employees in the Schedule Gannt
 Chart Filter.
 
-![](/img/image-404.png)
+![](/img/Insert-Menu.gif)
 - Previous Record - Moved backward through employees in the Schedule Gannt
 Chart Filter, one employee at a time.
 
-![](/img/image-404.png)
+![](/img/dif05.png)
 - Next Record - Moved forward through employees in the Schedule Gannt
 Chart Filter, one employee at a time.
 
-![](/img/image-404.png)
+![](/img/VCRFirstButton-Normal.gif)
 - Last Page - Displays the last 18 employees in the Schedule Gannt Chart
 Filter.
 
@@ -1667,7 +1667,7 @@ Filter.
 * Right click on the schedule grid of a particular employee and a
   menu of available commands will pop up.
 
-![](/img/image-404.png)
+![](/img/Sched007.png)
 
 The Schedule GANNT Chart Right Click Menu
 permits access to the individual Buttons present on the Schedule GANNT
@@ -1714,7 +1714,7 @@ Working - Scheduling Regular Work Hours
 as detailed above and click on the new working option. The Schedule Item
 Time Window will open as shown.
 
-![](/img/image-404.png)
+![](/img/Sched012.png)
 
 2.) Enter a start and end time for the schedule
 block. The start and end times represent when the employee is expected
@@ -1738,7 +1738,7 @@ Paid Break - Scheduling a Paid break
 as detailed above and click on the New Paid Break option.. The Schedule
 Item Time Window will open as shown.
 
-![](/img/image-404.png)
+![](/img/Skel01_InsertTraindTask.png)
 
 2.) Enter a start and end time for the schedule
 block. The start and end times represent when the employee is expected
@@ -1762,7 +1762,7 @@ Un-Paid Break - Scheduling an Unpaid Break
 as detailed above and click on the New Un-Paid Break Option. The Schedule
 Item Time Window will open as shown.
 
-![](/img/image-404.png)
+![](/img/Sched010.png)
 
 2.) Enter a start and end time for the schedule
 block. The start and end times represent when the employee is expected
@@ -1786,7 +1786,7 @@ Other Activity - Scheduling an Other Activity such as Vacation
 as detailed above and click on the New Other Activity option. The Schedule
 Item Time Window will open as shown.
 
-![](/img/image-404.png)
+![](/img/sched4.gif)
 
 2.) Enter a start and end time for the schedule
 block. The start and end times represent when the employee is expected
@@ -1810,13 +1810,13 @@ Day Off - Scheduling a Day Off
 * Click
   Insert.
 
-![](/img/image-404.png)
+![](/img/Sched003.png)
 
 * Enter
   the date you wish to add a day off for by typing in the Schedule Date
   Field or using the Calendar Button.
 
-![](/img/image-404.png)
+![](/img/VCRNextButton-Normal.gif)
 
 * If
   the employee's default schedule is a Day Time Schedule that does not
@@ -1919,7 +1919,7 @@ Table using Quick Punch](../TimecardEditing/TimecardEditing.md#tim06_Quick_Punch
 the Other Activity Type must be set to 'Count as Day Worked' as shown
 below.
 
-![](/img/image-404.png)
+![](/img/Sched028.png)
 
 #### Out of Office / Off site â Unable to Punch
 
@@ -1969,7 +1969,7 @@ all of the employees. To Configure an Availability Type:
 1. Click on Lookups â Scheduling Setup â Availability within the
    Manager Module.
 
-![](/img/image-404.png)
+![](/img/Train_task_Update_Form.gif)
 
 Description
 - This is the name given to an Availability Schedule, as entered on the
@@ -1992,7 +1992,7 @@ be restored.
 2. Click on Insert.
    The Schedule Availability Update Form will be displayed.
 
-![](/img/image-404.png)
+![](/img/VCRPreviousButton-Normal.gif)
 
 3. Enter a Description for the Availability Type. The description
    will be used to assign the availability type to employees. Be
@@ -2001,7 +2001,7 @@ be restored.
 
 4. Click on the Default Schedule Tab
 
-![](/img/image-404.png)
+![](/img/sched4.gif)
 
 5. Click on the Quick Schedule Button.
 6. Click on the appropriate day of the week.
@@ -2016,7 +2016,7 @@ be restored.
 3. Assign
    availability types to employees.
 
-![](/img/image-404.png)
+![](/img/Differential-Pay.gif)
 
 1. Within the Manager Module Click on Company â Setup â Employees.
 2. Click on the Employee you wish to assign Availability Types
@@ -2041,21 +2041,21 @@ they need to fill.
 
 #### Creating Trained Tasks
 
-![](/img/image-404.png)
+![](/img/SSDUpdate.png)
 
 1. Within the Manager Module Click on Company â Scheduling Setup â
    Trained Tasks
 2. Click on Insert.
 3. Enter a Description for the Trained Task. IE: Waiter
 
-![](/img/image-404.png)
+![](/img/quick_schedule_updateform.gif)
 
 4. Click OK to save the Trained Task.
 5. Repeat Steps b â d to insert additional Trained Tasks.
 
 #### Assigning Trained Tasks to Employees
 
-![](/img/image-404.png)
+![](/img/VCRNextButton-Normal.gif)
 
 1. Within the Manager Module Click on Company â Setup Employees
 2. Click on the Employee you wish to assign Trained Tasks to.
@@ -2071,7 +2071,7 @@ they need to fill.
 
 ### Find Available
 
-![](/img/image-404.png)
+![](/img/Sched002.png)
 
 The Find Available Button on the GANNT Chart can be used to quickly
 identify employees available to work during a time period who are trained
@@ -2109,7 +2109,7 @@ available employees.
 
 ### Schedule Skeletons â Benefits and Configuring
 
-![](/img/image-404.png)
+![](/img/Sched004.png)
 
 Schedule
 - Opens the Schedule Skeleton Chart Window, which is used to assign trained
@@ -2159,7 +2159,7 @@ configured skeletons to describe the following scenarios:
    employees. Be sure to use a descriptive name such as 'Catered Wedding
     < 50 Guests'.
 
-![](/img/image-404.png)
+![](/img/InsertButton-Normal.gif)
 
 4. A new record will be displayed in the Schedule Skeleton Table.
    Ensure the new record is highlighted and click on schedule.
@@ -2169,9 +2169,9 @@ configured skeletons to describe the following scenarios:
    to insert using the Schedule Skeleton Task update Form and click OK
    to add the Task to the Skeleton.
 
-![](/img/image-404.png)
+![](/img/dif02.png)
 
-![](/img/image-404.png)
+![](/img/dif07.png)
 
 6. Create a schedule to describe the time period each position must
    be filled by right clicking in the Schedule Bar corresponding to each
@@ -2183,18 +2183,18 @@ is important to keep in mind Skeletons do not support schedules that cross
 midnight. Schedules that cross midnight must be inserted directly into
 the Schedule Gannt Chart using Quick Schedule.
 
-![](/img/image-404.png)
+![](/img/quick_schedule_updateform.gif)
 
-![](/img/image-404.png)
+![](/img/dif08.png)
 
 7. Once a Schedule has been defined for each position save the Skeleton
    by clicking Close.
 
-![](/img/image-404.png)
+![](/img/dif07.png)
 
 #### Scheduling Using Skeletons
 
-![](/img/image-404.png)
+![](/img/Sched009.png)
 
 Once Skeletons, Trained Tasks, and Availability Types have been configured
 appropriately the Use Skeleton feature will be displayed on the Schedule

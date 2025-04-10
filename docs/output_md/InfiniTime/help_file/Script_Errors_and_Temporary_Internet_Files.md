@@ -21,16 +21,16 @@ Before following the steps below ensure you have closed all open Internet Explor
 
 2.) Click on Tools, then Click on Delete Browsing History.
 
-![](/img/image-404.png)
+![](/img/TS_ScriptErrorsTempFiles2.gif)
 
 3.) Click on Delete Files.
 
-![](/img/image-404.png)
+![](/img/TS_ScriptErrorsTempFiles4.gif)
 
 4.) Click on Yes to confirm. All temporary files will be removed from your machine.
 
-![](/img/image-404.png)
+![](/img/TS_ScriptErrorsTempFiles1.gif)
 
 5.) Click Close.
 
-![](/img/image-404.png)
+![](/img/TS_ScriptErrorsTempFiles2.gif)

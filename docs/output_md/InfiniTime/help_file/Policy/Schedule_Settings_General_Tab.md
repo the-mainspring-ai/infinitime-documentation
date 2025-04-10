@@ -11,7 +11,7 @@ Schedule Settings General Tab
 
 # Schedule Settings / Rules
 
-![](/img/image-404.png)
+![](/img/ShiftDiff_Warning.gif)
 
 Clock In Punch To Schedule / Lockout:
 
@@ -66,7 +66,7 @@ A method of pay must be defined for Shift Differentials. Remember, within Infini
 
 Shift Differential Pay Method â A Shift Differential Pay Method must be selected for employees to receive shift premiums. To ensure proper configuration, the Shift Differential pay method drop down is grayed out and cannot be set until a shift differential has been added to the Shift Differential Tab of the policy. As shown below, InfiniTime will warn the user if Shift Differentials are added to the policy and the Shift Differential Pay Method is not configured.
 
-![](/img/image-404.png)
+![](/img/image475.gif)
 
 The best method for explaining shift differentials is to review an example scenario. ABC Medical employs Registered Nurses (RNs) who receive differential pay for working during evening and early morning hours as outlined below.
 
@@ -76,33 +76,33 @@ The best method for explaining shift differentials is to review an example scena
 
 Punch In â When the Punch In pay method is chosen employees are paid the premium in effect at the time they punch in. For clarity multiple examples are shown below.
 
-![](/img/image-404.png)
+![](/img/image477.gif)
 
 An RN arrives at the hospital early and is asked to lend a hand prior to their shift. They clock in at 7PM and work until 4AM. Because the RN clocked in at 7PM, which does not fall within a period eligible for differential pay, the RN will not receive a premium for their hours.
 
-![](/img/image-404.png)
+![](/img/Pol_ScheduleSettings.gif)
 
 An RN is called in to work from 8PM to 4AM. The employee punches in at 8:00 PM, which is during the period defined by the Evening Differential. All eight hours (8PM to 4AM) will be paid at the Evening Differential rate.
 
 Punch Out â When the Punch Out pay method is chosen employees are paid the premium in effect at the time they punch out. For clarity multiple examples are shown below.
 
-![](/img/image-404.png)
+![](/img/image474.gif)
 
 The typical RN Day shift is 11 AM to 7PM. Mary Joe is asked to stay for an additional two hours and works from 11AM to 9PM. Because Mary clocked out at 9PM, which falls within the Evening Differential, she will receive the Evening Differential Premium for all ten hours worked.
 
-![](/img/image-404.png)
+![](/img/image477.gif)
 
 An RN is called in to work from 8PM to 4AM. The employee punches out at 4:15 AM. The employee will not receive a premium for the worked hours because 4:15 AM does not fall within a period defined by a differential.
 
 Majority Hours â The Majority Hours pay method identifies the differential on which employees worked the greatest portion of their hours. The premium associated with that differential is then used for all differential hours for the day as illustrated below. If an employee should work an equal amount of hours across multiple differentials they will be paid the premium associated with the first differential.
 
-![](/img/image-404.png)
+![](/img/image479.gif)
 
 The diagram above illustrates an RN being called in to work from 10:00 PM to 4:00 AM. The majority of the worked hours fall within the Morning Differential. As such the employee receives the Morning Differential premium ($1.25) for all hours worked.
 
 Zone â Zone is the most commonly used pay method for shift differentials. Employees will be paid a premium according to the differential they are working on. In this scenario if an RN were to be called in to work from 10:00 PM to 4:00 AM they would receive two hours of Evening Differential Pay and Four Hours of Morning Differential Pay as follows:
 
-![](/img/image-404.png)
+![](/img/image474.gif)
 
 The diagram illustrates an RN being called in to work from 10:00 PM to 4:00 AM. Hours from 10:00 PM to 12:00 AM are associated with the Evening Differential. Hours from 12:00 AM to 4:00 AM are associated with the Morning Differential. The employee is paid as follows:
 

@@ -11,7 +11,7 @@ Overtime Settings
 
 # Overtime Settings
 
-![](/img/image-404.png)
+![](/img/OTPay_Percent.gif)
 
 Overtime Buckets: Configuring Daily Overtime, Weekly Overtime, Double Time etc.
 
@@ -37,7 +37,7 @@ $10.00 + $5.00 = Overtime Wage
 
 $15.00 = Overtime Wage
 
-![](/img/image-404.png)
+![](/img/OTPay_Amount.gif)
 
 Percent Pay Method
 
@@ -51,7 +51,7 @@ $10.00 + ($5.00) = Overtime Wage
 
 $15.00 = Overtime Wage
 
-![](/img/image-404.png)
+![](/img/OTPay_Rate.gif)
 
 Rate Pay Method
 
@@ -59,4 +59,4 @@ The Rate Pay Method defines a specific wage for overtime hours. When the Rate Pa
 
 WARNING: The Rate Pay Method is not a multiplier of the employee's wage. Selecting the Rate Pay Method and entering 1.5 as the Overtime Rate will pay the employee $1.50 per hour. Remember, the Employee's default wage is ignored when the Rate Pay Method is selected. The Overtime Rate is entered in dollars per hour and will be used as the employee's overtime wage.
 
-![](/img/image-404.png)
+![](/img/OT1.gif)

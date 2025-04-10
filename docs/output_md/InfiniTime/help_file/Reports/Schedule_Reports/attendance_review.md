@@ -15,7 +15,7 @@ Displays a chart for the date range specified detailing missed days, paid time o
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Attendance_Review.gif)
 
 Notes/Usage:
 

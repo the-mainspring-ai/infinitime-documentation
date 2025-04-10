@@ -11,7 +11,7 @@ Overtime
 
 # Overtime Rules
 
-![](/img/image-404.png)
+![](/img/Overtime_Rules.gif)
 
 Use this to set overtime rules. You can set up to four overtime levels.  Overtime Two settings must be higher than the Overtime One settings, etc.  If you do not wish to calculate overtime on a daily or weekly basis, set fields equal to zero.
 

@@ -11,7 +11,7 @@ Email
 
 # Email
 
-![](/img/image-404.png)
+![](/img/rep12.gif)
 
 InfiniTime gives you the capability to E-mail reports from the software in a range of formats.  E-mailing the reports can be done right after the report has been printed or automatically according to a schedule (see Auto Report Schedule).
 
@@ -27,7 +27,7 @@ Send To â This is the list of people that will receive the e-mail.
 
 Insert - Click on the insert button to add a recipient for the email.  First fill in the name and press enter. The cursor will then move into the address column.  Fill out the address and then press enter.  To insert multiple recipients repeat the steps above.
 
-![](/img/image-404.png)
+![](/img/rep12.gif)
 
 Change - Click on this button to make changes to the recipient information.
 

@@ -24,11 +24,11 @@ Accessing The Schedule:
 * Click
   on the Schedule button on the main menu bar.
 
-![](/img/image-404.png)
+![](/img/sched3.gif)
 
 Employee Schedule Window
 
-![](/img/image-404.png)
+![](/img/CH6_Schedule2.gif)
 
 Schedule
 Date - Select the date that corresponds to the day you would like
@@ -39,7 +39,7 @@ order to simplify moving ahead or backward by a single day. Simply click
 on the Left VCR button to change the Schedule Date one day back, or the
 Right VCR button to change the Schedule Date one day forward.
 
-![](/img/image-404.png)
+![](/img/sched1.gif)
 
 View
 Type - This option alters the way schedule information is displayed
@@ -57,7 +57,7 @@ This button will allow
 you to copy a schedule from a date range to another, by employee or department.
 The following screen is displayed.
 
-![](/img/image-404.png)
+![](/img/sched1.gif)
 
 Copy
 from: Specify the start date and end date of the period for which
@@ -104,7 +104,7 @@ before the Find Available button may be used.
   employee must have an availability record assigned within their employee
   record.
 
-![](/img/image-404.png)
+![](/img/CH6_Schedule1.gif)
 
 Available employees will
 be displayed in the lower grid as shown above.  Employees will not
@@ -151,7 +151,7 @@ schedule skeletons. This makes it possible to match employees trained
 for a specific task, and available during a certain time period to a shift
 corresponding with their abilities.
 
-![](/img/image-404.png)
+![](/img/CH6_Schedule1.gif)
 
 Name:
 Select the Skeleton you wish to use for scheduling purposes.

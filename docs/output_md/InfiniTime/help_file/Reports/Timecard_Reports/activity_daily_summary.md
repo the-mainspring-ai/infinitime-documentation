@@ -15,7 +15,7 @@ Displays a summary of timecard activity information for each day within the date
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Activity_Daily_Summary.gif)
 
 Notes/Usage:
 

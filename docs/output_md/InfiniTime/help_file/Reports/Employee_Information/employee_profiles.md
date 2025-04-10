@@ -15,13 +15,13 @@ Displays all employee information as entered into the Employee Table. A separate
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_Profiles_3.gif)
 
-![](/img/image-404.png)
+![](/img/Employee_Profiles_3.gif)
 
-![](/img/image-404.png)
+![](/img/Employee_Profiles_1.gif)
 
-![](/img/image-404.png)
+![](/img/Employee_Profiles_2.gif)
 
 Notes/Usage:
 

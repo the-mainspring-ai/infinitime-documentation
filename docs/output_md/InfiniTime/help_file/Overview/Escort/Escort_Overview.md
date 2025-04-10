@@ -34,7 +34,7 @@ can create a guided work flow for Daily Tasks, Weekly Tasks, and even
 Monthly or tasks related to a specific function such as Processing Payroll.
 An example Escort Window is provided below.
 
-![](/img/image-404.png)
+![](/img/EscortEX4.png)
 
 Accessing
 Escort Settings
@@ -43,7 +43,7 @@ Escort Settings
 - Click on Lookups.
 - Click on Employee Setup.
 
-![](/img/image-404.png)
+![](/img/Ch12_escort1.gif)
 
 - Click on Escort Settings.
 
@@ -52,7 +52,7 @@ Escort Settings
 The Escort Settings Description Table will
 be displayed as shown below.
 
-![](/img/image-404.png).gif)
+![](/img/CH12_ExportButton.gif).gif)
 
 Design
 
@@ -91,7 +91,7 @@ Delete
 - Click Insert to display the Escort Setting Description Update Form.
 - Enter a description for the new escort window.
 
-![](/img/image-404.png).gif)
+![](/img/CH12_Blocked.gif).gif)
 
 - Type a descriptive name, usually related to the purpose, of the
   First Tab that will be created for the Escort Window. (IE: Reports,
@@ -118,14 +118,14 @@ Timecards and information as well as reports.
   be moved using Drag and Drop or resized by hovering the cursor over
   a control's outer edge.
 
-![](/img/image-404.png)
+![](/img/SoftwareOverview_001_Btn3_Employee.png)
 
 - Initially, the Escort Window is a blank canvas with only a single
   tab. The Right Click Menu of the Escort Design Window can be used
   to add additional tabs and controls such as Labels, Hyperlinks, Images,
   and Buttons.
 
-![](/img/image-404.png)
+![](/img/EscortEX4.png)
 
 - To add controls to the Escort Window, simply right click to display
   the available actions then Left click on the action you wish to perform.
@@ -139,7 +139,7 @@ existing controls or adding new controls to the Escort Window. The Escort
 Design Actions Right Click Menu can be access by right clicking anywhere
 on the Escort Design Window.
 
-![](/img/image-404.png)
+![](/img/Escort006.png)
 
 Action Set
 One
@@ -149,13 +149,13 @@ Escort Tab Update Form. Each tab provides a blank interface for the user
 to customize. Tabs are generally used to separate items on the escort
 into categories such as Reports and Software Access.
 
-![](/img/image-404.png).gif)
+![](/img/CH12_ImportEscortWindow.gif).gif)
 
 Tab Label:
 Enter a Label for the Tab. This label will be displayed on the form as
 shown below.
 
-![](/img/image-404.png).gif)
+![](/img/CH12_ImportBrowse.gif).gif)
 
 Action Set
 Two
@@ -164,7 +164,7 @@ Add
 Label â Adds a label to the specified tab. Used to label buttons,
 hyperlinks, or images.
 
-![](/img/image-404.png).gif)
+![](/img/Escort005.png).gif)
 
 Selected
 Tab: Specify the tab the label will be created on.
@@ -187,7 +187,7 @@ Add
 Hyperlink â Adds a hyperlink to the specified tab. Used to
 link to a web site, ftp site, or file.
 
-![](/img/image-404.png).gif)
+![](/img/CH12_ImportEscortWindow.gif).gif)
 
 Selected
 Tab: Specify the tab the hyperlink will be created on.
@@ -212,7 +212,7 @@ each character requires additional width.
 Add
 Image â Adds an image to the specified tab.
 
-![](/img/image-404.png).gif)
+![](/img/Escort03.png).gif)
 
 Selected
 Tab: Specify the tab the selected image will be placed on.
@@ -230,7 +230,7 @@ Enter a height for the image. The Image will automatically be resized.
 Add
 Button â Adds a button to the specified tab.
 
-![](/img/image-404.png).gif)
+![](/img/Escort005.png).gif)
 
 Selected
 Tab: Specify the tab the button will be placed on.
@@ -323,7 +323,7 @@ This option is only available when three or more tabs exist. If only two
 tabs exist clicking on this option will not open the Escort Settings Tab
 Description Table as shown below.
 
-![](/img/image-404.png)
+![](/img/Escort04.png)
 
 To Reorder Tabs simply select the tab you
 would like to move and use the move up and down buttons to alter the order
@@ -362,18 +362,18 @@ an escort window to an employee are provided below.
 
 2. Open the Employee Table
 
-![](/img/image-404.png)
+![](/img/EscortEX3.png)
 
 3. Search for the employee you wish to assign an Escort Window to and
    click on their name to Highlight them
 
-![](/img/image-404.png)
+![](/img/Escort_EXE4.gif)
 
-![](/img/image-404.png)
+![](/img/EscortEX5.png)
 
 4. Click on Change. The Employee Update Form will be displayed.
 
-![](/img/image-404.png)
+![](/img/Escort01.png)
 
 5. Click on the Settings Tab.
 
@@ -381,7 +381,7 @@ an escort window to an employee are provided below.
    you wish to assign to the employee in this field then click OK to save
    the changes.
 
-![](/img/image-404.png)
+![](/img/CH12_ExportSave.gif)
 
 7. Alternatively Quick Assign may be used to assign Escort Windows to
    multiple employees at once. Additional Details on the use of Quick Assign
@@ -450,28 +450,28 @@ Controls and Security Settings. (Internet Explorer 8)](../../AUTOCONFIG_ActiveXM
 - Click on Lookups - Employee Setup
   - Escort Settings.
 
-![](/img/image-404.png)
+![](/img/EscortExample.png)
 
 - Click on the Escort you wish to
   export to Highlight it.
 
-![](/img/image-404.png)
+![](/img/Escort_EXE4.gif)
 
 - Click Export.
 
-![](/img/image-404.png)
+![](/img/CH12_Export_Select.gif)
 
 - The Export Escort Window will be
   displayed followed by a Dos Screen while the export is performed.
 
-![](/img/image-404.png)
+![](/img/EscortExample.png)
 
 - Save the resulting .ESB file. Your
   Internet Browser may prevent the file from downloading automatically.
   If so, right click on the warning box and select Download File as
   shown below.
 
-![](/img/image-404.png)           ![](/img/image-404.png)
+![](/img/Ch12_escort1.gif)           ![](/img/EscortCMT_1.gif)
 
 - Saved Escorts (.ESB Files) can be stored for future use, transferred
   to other installations for importing, or shared with the InfiniTime community by sending the
@@ -569,34 +569,34 @@ Controls and Security Settings. (Internet Explorer 8)](../../AUTOCONFIG_ActiveXM
 - Click on Lookups - Employee Setup
   - Escort Settings.
 
-![](/img/image-404.png)
+![](/img/EscortEX5.png)
 
 - Click the Import Button.
 
-![](/img/image-404.png)
+![](/img/Escort03.png)
 
 - Click on the Browse Button and
   locate the escort file you would like to import.
 
-![](/img/image-404.png)
+![](/img/SoftwareOverview_001_Btn3_Employee.png)
 
 - Click OK to import the selected
   escort file. The Import Escort Window will display while InfiniTime prepares to import the
   escort file.
 
-![](/img/image-404.png)
+![](/img/CH12_Blocked.gif)
 
 - After preparations are complete
   a command prompt will display while the escort data is imported to
   the InfiniTime Database.
 
-![](/img/image-404.png)
+![](/img/Escort01.png)
 
 - A copy of the original escort will
   now be available in the Escort Settings Description Table. The escort
   window is now ready for use.
 
-![](/img/image-404.png)
+![](/img/CH12_ImpExe.gif)
 
 ## Escort Window Design Theory and Examples
 
@@ -683,14 +683,14 @@ will always have access to the manager module if needed.
 
 ### Example Escort Windows:
 
-![](/img/image-404.png)
+![](/img/Escort02.png)
 
-![](/img/image-404.png)
+![](/img/CH12_ExportDos.gif)
 
-![](/img/image-404.png)
+![](/img/CH12_Done.gif)
 
-![](/img/image-404.png)
+![](/img/EscortEX2.png)
 
-![](/img/image-404.png)
+![](/img/EscortEX3.png)
 
-![](/img/image-404.png)
+![](/img/Escort04.png)

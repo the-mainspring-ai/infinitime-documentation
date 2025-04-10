@@ -15,7 +15,7 @@ Displays all Timecard Notes in the selected date range for employees specified b
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0008.gif)
 
 Notes/Usage:
 

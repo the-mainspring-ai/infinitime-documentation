@@ -15,17 +15,17 @@ Timecard Notes are added through use of the Right Click Menu within the InfiniTi
 
 1. Open the Company or Employee Timecard Table.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0001.gif)
 
 2. Right Click on the Timecard Record you wish to enter a note for.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0002.gif)
 
 3. Click on Note.
 
 4. Enter the desired note / comment. Timecard Notes permit up to 499 Characters.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0004.gif)
 
 5. Click OK to save the note.
 

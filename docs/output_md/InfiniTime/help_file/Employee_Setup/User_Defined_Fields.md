@@ -20,23 +20,23 @@ Utilizing User Defined Fields: Entering Information
 
 * Click on the Employee Table Icon to access the Employee Table.
 
-![](/img/image-404.png)
+![](/img/ud11.gif)
 
 * Highlight the desired employee by clicking on their name.
 
-![](/img/image-404.png)
+![](/img/ud12.gif)
 
 * Click Change.
 
-![](/img/image-404.png)
+![](/img/ud10.gif)
 
 * Click on User Defined Fields.
 
-![](/img/image-404.png)
+![](/img/ud10.gif)
 
 * Highlight the field you wish to save information to.
 
-![](/img/image-404.png)
+![](/img/ud11.gif)
 
 * Click Change.
 

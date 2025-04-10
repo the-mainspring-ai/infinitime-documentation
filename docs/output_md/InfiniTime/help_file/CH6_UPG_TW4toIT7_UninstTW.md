@@ -15,25 +15,25 @@ TimeWolf 4 and InfiniTime utilize different databases. For this reason, if Infin
 
 1. Click on Start
 
-![](/img/image-404.png)
+![](/img/ProgramsAndFeatures.png)
 
 2. Click on Control Panel
 
-![](/img/image-404.png)
+![](/img/Start.png)
 
 3. Double Click on Add / Remove Programs or Programs and Features depending on your Operating System.
 
-![](/img/image-404.png)
+![](/img/ControlPanel.png)
 
 4. Locate TimeWolf in the list and click on it to highlight it. Click Remove or Uninstall depending on your Operating System.
 
-![](/img/image-404.png)
+![](/img/ProgramsAndFeatures.png)
 
 5. If prompted, Click Yes to confirm you wish to Uninstall TimeWolf.
 
 6. Locate Oracle Database 10g Express Edition in the list and click on it to highlight it. Click Remove or Uninstall depending on your Operating System.
 
-![](/img/image-404.png)
+![](/img/Uninstall_TimeWolf.png)
 
 7. If prompted, Click Yes to confirm you wish to Uninstall Oracle Database 10g Express Edition.
 

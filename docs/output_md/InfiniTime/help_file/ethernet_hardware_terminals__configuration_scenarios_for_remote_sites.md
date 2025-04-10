@@ -27,7 +27,7 @@ Dynamic IP Address - A dynamic IP address is assigned to an individual on a temp
 
 Internal // Private IP Addresses - An Internal IP Address refers to an IP Address which is only valid inside of a private network. Unlike Public IP Addresses internal IP Addresses are specifically set aside for use on private networks and can be used by anyone. This means that three networks, or even three million networks, can each use the same Private IP Addresses. Returning to the Network : Town analogy if we think of our town as a small part of a larger city we begin to understand this concept as is not uncommon for a street to have the same name in different towns. A street address for a specific building in the town only refers to that specific building inside of that town. Similarly an Internal IP Address is only valid inside of a private network. Lets break down this example into a bit more detail. The image below shows two buildings with a street address of 1010 W Arbor Ave. Each building is located in a different town. A mail carrier responsible for delivering mail to each of these buildings receives a letter postmarked to 1010 W Arbor Ave. Anyone specifically located in George Town or Green Town would know where 1010 W Arbor Ave is. Yet to the rest of the world there is no way to determine which building the letter is intended to be sent to without additional information. For our town this additional information would take the form of City, State, Zip which tells us where in the world the specific street address is located. On a network a packet of information would be forwarded to a Public IP Address where it is then forwarded to the correct Internal IP Address. The network diagram below shows three computers each on a different private network. Two of the private networks use the same Internal IP addresses for their computers. It is not possible for the Host B to send information to Host A using its Private IP Address. Private IP Addresses cannot be used to communicate on the Internet.
 
-![](/img/image-404.png)                 ![](/img/image-404.png)
+![](/img/PublicIP_Port6.gif)                 ![](/img/PublicIP_Port3.gif)
 
 The following are valid internal IP Address ranges. Remember an IP Address consists of four octets with valid values of zero to two hundred and fifty five (0 - 255) Any IP Address that falls within these ranges is an internal IP Address and cannot be used to communicate on the internet. In some cases you may be accidentally provided with an IP Address that falls within one of these ranges for an Ethernet clock at a remote site. The address you have been provided is the Internal IP Address for the clock on the remote network and is not the correct information. Remember internal IP Addresses cannot be used to communicate across the internet. Please request the Public IP Address for the remote site. This is the address you will need to setup within InfiniTime to communicate with your remote Ethernet clock. Refer to the scenarios below for more information.
 
@@ -39,11 +39,11 @@ The following are valid internal IP Address ranges. Remember an IP Address consi
 
 Public IP Address - A Public IP Address refers to an IP Address which is used to communicate with other computers and devices on the Internet. Pubic IP Addresses are registered with a Regional Internet Registry (RIR) to avoid addressing issues. Only the registered holder of a Public IP Address can assign the address to a network device for communication on the Internet. Returning to our Network : Town analogy the City, State, and Zip Code help to identify where a specific street address is located within the world. Similarly a Public IP address specifies a computer's location on the Internet. Remember, Internal IP Addresses cannot be used to communicate on the Internet. For this reason a method must exist to translate between Internal IP Addresses and Public IP Addresses in order for hosts on a private network to communicate on the Internet. Network Address Translation (NAT) and Port Address Translation (PAT) provide this service. The image below shows traffic flow from Host B to Host A.
 
-![](/img/image-404.png)
+![](/img/PublicIP_Port8.gif)
 
 Port - The best way to understand the role of a port in network communication is to return to our Network : Town analogy. Each building in a town has a specific street address which from our earlier examples is comparable to an IP Address. Each building also has multiple doors or points of entry from the outside world which are comparable to ports. Just like a door on a building makes it possible for multiple people to walk in and out of the building at once, ports make it possible for multiple conversations with other network devices or applications to occur simultaneously. Also similar to a door, a port can be in a closed or open state. A closed port does not have a service listening for traffic behind it. Any communication sent to a closed port will not reach the end destination successfully as illustrated below. Each port on a computer is identified by a port number. Port numbers range from 0 to 65535. Different applications and network services use different ports.
 
-![](/img/image-404.png) ![](/img/image-404.png)
+![](/img/PublicIP_Port3.gif) ![](/img/PublicIP_Port4.gif)
 
 TCP & UDP - Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are two protocols or sets of rules which govern how traffic is sent between ports on a network. It is important to understand that a device expecting TCP data on a specific port will not function if the data is sent with UDP instead, though some devices will support both. A list of the Ethernet Clocks offered by Inception Technologies are listed below along with the port and protocol used by the clock.
 
@@ -61,7 +61,7 @@ TCP & UDP - Transmission Control Protocol (TCP) and User Datagram Protocol (UDP)
 
 Network Address Translation (NAT) - As mentioned above NAT provides a mechanism for translating between Internal and Public IP Addresses. Without NAT it would not be possible for computers or devices on a private network to communicate across the internet. The image below shows successful communication between Host B and Host A. The NAT Table for each router is also shown to illustrate how an Internal IP Address is mapped to a Public IP Address. Though multiple methods exist for mapping Public IP Addresses to Internal Addresses, a static NAT mapping is generally used for configuring an Ethernet clock at a remote site. A static NAT mapping is used to map a specific Public IP Address to a specific Internal IP Address. In this way the internal device can always be reached at a specific public address. The example below illustrates NAT mappings as each internal device will always be assigned the same Public IP Address.
 
-![](/img/image-404.png)
+![](/img/PublicIP_Port1.gif)
 
 Port Address Translation (PAT) - As mentioned above PAT provides a mechanism for translating between Internal and Public IP Addresses. PAT uses ports to map multiple Internal IP Addresses to a single Public IP Address. This type of Address Translation cannot be used to forward network traffic directly to an Ethernet Time and Attendance terminal. Port Forwarding must be used in conjunction with PAT in order to establish communication.
 
@@ -75,7 +75,7 @@ Router - A router is a device that is responsible for forwarding data packets fr
 
 Port Forwarding - Port forwarding is a process that a router or firewall uses in order to direct the appropriate kind of network data to the correct internal device on a specific port. Returning to our Network : Town analogy, recall that a door is similar to a port. Why does one go through a door? To reach the room on the other side. Lets say that two visitors are arriving at your building for a company tour but they are not sure where to go. The first visitor is expecting a tour of the Office area while the second visitor is expecting a tour of the Production Facility. A receptionist would often perform the function of directing these visitors to the appropriate area in order to reach their destination. Port forwarding performs this same service. Traffic from the Internet arrives on a port at the public interface of the router or firewall. The router is configured to forward all traffic arriving on a specific port to a particular device on the inside of the network at a specific port. This is illustrated by the diagram below. The diagram illustrates traffic arriving from the Internet on two different ports. Port Forwarding configuration on the router specifies that all traffic inbound on port 4370 is to be delivered to the Internal IP Address of 192.168.0.10 at port 4370. Traffic inbound on port 4371 is delivered to the Internal IP Address of 192.168.0.11 at port 4370.
 
-![](/img/image-404.png)
+![](/img/PublicIP_Port4.gif)
 
 Scenarios
 
@@ -85,7 +85,7 @@ Some locations such as warehouses do not require Internet Access for day to day 
 
 NAT - The diagram below illustrates the configuration of NAT for a remote site with a single Public IP Address where the Time and Attendance terminal will be the only item on the internal network.
 
-![](/img/image-404.png)
+![](/img/PrivateIP.gif)
 
 Requirements - The following items are required in order for communication between the InfiniTime Server and the Thor Terminal to be successful. If you have difficulties communicating with your remote terminal verify each of the following items are configured correctly. You may also wish to refer to the troubleshooting guide below. The example does not accurately depict all possible network configurations. As a general rule any hardware or software firewall located between the source (The InfiniTime Server) and the destination (The Thor Terminal) must be configured to pass traffic on the chosen port and to trust the local network.
 
@@ -100,7 +100,7 @@ Requirements - The following items are required in order for communication betwe
 
 Port Forwarding - The diagram below illustrates the configuration of Port Forwarding for a remote site with a single Public IP Address where the Time and Attendance terminal will be the only item on the internal network.
 
-![](/img/image-404.png)
+![](/img/PublicIP_Port7.gif)
 
 Requirements - The following items are required in order for communication between the InfiniTime Server and the Thor Terminal to be successful. If you have difficulties communicating with your remote terminal verify each of the following items are configured correctly. You may also wish to refer to the troubleshooting guide below. The example does not accurately depict all possible network configurations. As a general rule any hardware or software firewall located between the source (The InfiniTime Server) and the destination (The Thor Terminal) must be configured to pass traffic on the chosen port and to trust the local network.
 
@@ -117,7 +117,7 @@ Single Remote Site with a single Static Public IP Address // Multiple Internal D
 
 Port Forwarding - The diagram below illustrates the configuration of Port Forwarding for a remote site with a single Static Public IP Address where there are multiple devices on the internal network.
 
-![](/img/image-404.png)
+![](/img/PrivateIP2.gif)
 
 Requirements - The following items are required in order for communication between the InfiniTime Server and the Thor Terminal to be successful. If you have difficulties communicating with your remote terminal verify each of the following items are configured correctly. You may also wish to refer to the troubleshooting guide below. The example does not accurately depict all possible network configurations. As a general rule any hardware or software firewall located between the source (The InfiniTime Server) and the destination (The Thor Terminal) must be configured to pass traffic on the chosen port and to trust the local network.
 
@@ -140,7 +140,7 @@ In some cases it is not possible to obtain a Static Public IP Address. This is o
 
 Dynamic DNS w/ Port Forwarding - The diagram below illustrates the configuration of Dynamic DNS with Port Forwarding for a remote site with a single Public IP Address where there are multiple devices on the internal network.
 
-![](/img/image-404.png)
+![](/img/PrivateIP.gif)
 
 Traffic Flow
 
@@ -164,7 +164,7 @@ In some cases it is not possible to obtain a Static Public IP Address. This is o
 
 Dynamic DNS w/ Port Forwarding - The diagram below illustrates the configuration of Dynamic DNS with Port Forwarding for a remote site with a single Public IP Address where the Time and Attendance terminal will be the only item on the internal network.
 
-![](/img/image-404.png)
+![](/img/PublicIP_Port1.gif)
 
 Traffic Flow
 

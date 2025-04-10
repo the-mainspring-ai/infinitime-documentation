@@ -15,7 +15,7 @@ This report will print a list of all you employees according to the selection cr
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_List.gif)
 
 Notes/Usage:
 

@@ -13,17 +13,17 @@ Editing Exceptions on the Time Card Activity
 
 The Timecard Activity window displays employee exceptions within the detail view. Employee activity will be highlighted when an exception exists. Colors vary according to the exception type. Employee Supervisors have the option to edit employee activity in order to fix exceptions, mark the employees time in order to ignore existing exceptions, or simply take note of an employeeâs performance.
 
-![](/img/image-404.png)
+![](/img/approve_OT_popup.gif)
 
 Fixing a Missed Punch Exception
 
-![](/img/image-404.png)
+![](/img/Long-Break-Exception.gif)
 
 The Missed Punch Exception shows in the activity grid as a RED block. Punch information will also be missing from the block.
 
 1. Right click on the missed punch to bring up a list of commands to fix the exception.
 
-![](/img/image-404.png)
+![](/img/Early-Departure-Exception.gif)
 
 Delete All Punches And Insert Schedule Punches - Selecting this option will delete the punches for the day and insert the punches that are scheduled for that employee in that day.
 
@@ -63,13 +63,13 @@ Alternatively, you may simply wish to directly edit the employeeâs punch by
 
 Fixing an Absent Exception
 
-![](/img/image-404.png)
+![](/img/Absent_right_click.gif)
 
 When an employee is absent the absent exception is displayed within the employee timecard activity grid and is recognizable by a blank entry with the word âAbsentâ in red lettering. This exception is only triggered if you have a schedule set and the employee failed to report to work or forgot to punch in and out on that scheduled day.
 
 1. Right click on the Absent to bring up a list of commands to fix the exception.
 
-![](/img/image-404.png)Change Schedule - Selecting this option will allow you to change the employee's schedule for that day. Altering the schedule to match the hours worked by the employee or  simply removing the schedule altogether will remove the exception.
+![](/img/Tardy_Exception.gif)Change Schedule - Selecting this option will allow you to change the employee's schedule for that day. Altering the schedule to match the hours worked by the employee or  simply removing the schedule altogether will remove the exception.
 
 Schedule Day Off - Selecting this option will allow you to insert a Scheduled Day off for the day.
 
@@ -97,17 +97,17 @@ Fixing an Early Exception
 
 Early In punch
 
-![](/img/image-404.png)
+![](/img/Absent_right_click.gif)
 
 Early Departure
 
-![](/img/image-404.png)
+![](/img/Unapproved_OT.gif)
 
 The Early Exception can either be punching in early at the beginning of the shift of clocking out early for a shift and is recognizable by a Green Field. These exceptions are only triggered if a schedule is present for that day and the employee punched in or out early according to schedule grace periods as defined in the employeeâs policy.
 
 1. Right click on the Early Punch to bring up a list of commands to fix the exception.
 
-![](/img/image-404.png)
+![](/img/Short_Break_Exeption.gif)
 
 Insert Punch Pair - Selecting this option will insert a punch pair for the specific day.
 
@@ -149,17 +149,17 @@ Fixing a Late Exception
 
 Tardy
 
-![](/img/image-404.png)
+![](/img/Missed-Punch-Exception.gif)
 
 Late Departure
 
-![](/img/image-404.png)
+![](/img/Missed-Punch-Right-Click.gif)
 
 The Late Exception occurs when an employee clocks in after their scheduled time or clocks out after they are scheduled to leave and is recognizable by a Fuchsia field. These exceptions are only triggered if a schedule is present for that day and the employee punched in or out late according to schedule grace periods as defined in the employeeâs policy.
 
 1. Right click on the Late Punch to bring up a list of commands to fix the exception.
 
-![](/img/image-404.png)
+![](/img/Outside_of_Schedule_exception.gif)
 
 Insert Punch Pair - Selecting this option will insert a punch pair for the specific day.
 
@@ -199,13 +199,13 @@ Alternatively, you may simply wish to directly edit the employeeâs punch by
 
 Fixing Outside of Schedule Exception
 
-![](/img/image-404.png)
+![](/img/Early.gif)
 
 The Outside of Schedule Exception occurs when the punches for the day do not follow the schedule and the schedule rules, making the punches outside of schedule.  This exception is recognizable by a Deep Pink Field as shown above.
 
 1. Right click on the Outside of Schedule Punch to bring up a list of commands to fix the exception.
 
-![](/img/image-404.png)
+![](/img/Short_Break_Exeption.gif)
 
 Insert Punch Pair - Selecting this option will insert a punch pair for the specific day.
 
@@ -243,11 +243,11 @@ Review - Selecting this option will open the Supervisor Review Window which allo
 
 Fixing Short Break Exception
 
-![](/img/image-404.png)
+![](/img/CH7_Timecard8.gif)
 
 The Short Break Exception occurs when an employee takes a shorter break than scheduled and is recognizable by a Brown Field. The short break exception requires breaks to be scheduled in order to report short breaks.
 
-![](/img/image-404.png)
+![](/img/Late-Departure-exception.gif)
 
 Insert Punch Pair - Selecting this option will insert a punch pair for the specific day.
 
@@ -285,11 +285,11 @@ Review - Selecting this option will open the Supervisor Review Window which allo
 
 Fixing Long Break Exception
 
-![](/img/image-404.png)
+![](/img/Late-Right-Click.gif)
 
 The Long Break Exception occurs when an employee takes a longer break than scheduled and is recognizable by a Chocolate Field. The long break exception requires breaks to be scheduled in order to report long breaks.
 
-![](/img/image-404.png)
+![](/img/Missed-Punch-Right-Click.gif)
 
 Insert Punch Pair - Selecting this option will insert a punch pair for the specific day.
 
@@ -327,11 +327,11 @@ Review - Selecting this option will open the Supervisor Review Window which allo
 
 Approving and Un-approving Overtime
 
-![](/img/image-404.png)
+![](/img/Early-Departure-Exception.gif)
 
 When Overtime happens in the activity, you have the option to unapprove to overtime or if you have the option set that all overtime must be approved set in the policy you can approve the Overtime by right clicking on the overtime amount and a pop up will appear with the following options:
 
-![](/img/image-404.png)          Insert Punch Pair - Selecting this option will insert a punch pair for the specific day.
+![](/img/CH7_Timecard8.gif)          Insert Punch Pair - Selecting this option will insert a punch pair for the specific day.
 
 Delete Out Punch - Selecting this option will delete the out punch for the day.
 

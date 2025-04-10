@@ -17,7 +17,7 @@ specified by Selection Criteria.
 Report
 Example:
 
-![](/img/image-404.png)
+![](/img/Employee_With_Exceptions.gif)
 
 Notes/Usage:
 

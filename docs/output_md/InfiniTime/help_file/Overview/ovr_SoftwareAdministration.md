@@ -81,18 +81,18 @@ to removable storage in order to safeguard your data.
 - Click
   on âBackup / Restoreâ.
 
-![](/img/image-404.png)
+![](/img/insert_QS.gif)
 
 - A new window as pictured below
   entitled âBackup/Restore Tableâ will open. Click on the âBackupâ button
   at the bottom as shown to start the backup.
 
-![](/img/image-404.png)
+![](/img/rb5.gif)
 
 When you click on âBackupâ the process
 begins and youâre screen will look like the picture below.
 
-![](/img/image-404.png)
+![](/img/TP8.gif)
 
 After the DOS window is terminated, the
 âCreating Backupâ window will remain until the backup is complete.
@@ -106,7 +106,7 @@ you the date and time the backup was created. Should you ever need to
 restore your database, you will know which one to choose by date and time.
  Now you can click the close button and continue with program usage.
 
-![](/img/image-404.png)
+![](/img/i20.gif)
 
 ### Configuring Backup Options
 
@@ -114,7 +114,7 @@ InfiniTime Backup includes
 four options that can be used to configure the automatic backup procedure.
 Details are provided below.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export9.gif)
 
 Backup Files
 Every â Specify the amount of days between backups. InfiniTime will perform the first
@@ -140,11 +140,11 @@ The oldest backup will then be deleted as a new file is created.
 - Click on File.
 - Click on Backup / Restore.
 
-![](/img/image-404.png)
+![](/img/cset29.gif)
 
 - Highlight the backup file you wish to restore by clicking on it.
 
-![](/img/image-404.png)
+![](/img/RLSNote_707_1.jpg)
 
 - Click Restore. It should be noted that all users must be out of
   the InfiniTime software
@@ -154,7 +154,7 @@ The oldest backup will then be deleted as a new file is created.
   by restarting the OracleServiceTCDBS
   service.
 
-![](/img/image-404.png)
+![](/img/cset20.gif)
 
 - No further action is required from the user, InfiniTime
   will automatically perform all necessary operations to restore the
@@ -164,12 +164,12 @@ The oldest backup will then be deleted as a new file is created.
   the backup. This prevents accidental restoration of an older backup
   file, which would result in data loss.
 
-![](/img/image-404.png)
+![](/img/ph2.gif)
 
 - Once the backup is finished InfiniTime
   will restore the previously selected backup file.
 
-![](/img/image-404.png)
+![](/img/cset4.gif)
 
 - The above window will close automatically when the restore is complete.
   Once the restore is completed, the InfiniTime
@@ -187,20 +187,20 @@ delete button.
 - Click on File.
 - Click on Backup.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export12.gif)
 
 - Click on the Plus to the left of the Backup Folder if it is not
   already open.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export11.gif)
 
 - Highlight the backup file you wish to delete by clicking on it.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_Badge.gif)
 
 - Click Delete.
 
-![](/img/image-404.png)
+![](/img/i17.gif)
 
 ### E-mailing a Backup File from within InfiniTime
 
@@ -211,21 +211,21 @@ button while a backup is highlighted. Follow the instructions below.
 - Click on File.
 - Click on Backup / Restore.
 
-![](/img/image-404.png)
+![](/img/override_Tab.gif)
 
 - Highlight the backup file you wish to email by clicking on it.
 
-![](/img/image-404.png)
+![](/img/TaskImport.gif)
 
 - Click on the Email Button.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export21.gif)
 
 - Fill out the Email Form shown below. The email will be sent via
   the STMP Email Server Configuration on the InfiniTime
   Server in  Microsoft Internet Information Services.
 
-![](/img/image-404.png)
+![](/img/RLSNOTE_707-06.jpg)
 
 | Related Links |
 
@@ -243,20 +243,20 @@ To Create a Backup from a Client Machine:
 2. Click
    on Backup / Restore.
 
-![](/img/image-404.png)
+![](/img/i16.gif)
 
 3. The Backup / Restore Table will
    be displayed. When viewed from a client machine a Backup Status Indicator
    is displayed on the top of the window as shown. Click on Backup to
    start a backup.
 
-![](/img/image-404.png)
+![](/img/i28.gif)
 
 4. The Last Backup Date and Time will
    be cleared which instructs the InfiniTime
    Housekeeping Service to begin taking a backup.
 
-![](/img/image-404.png)
+![](/img/cset18.gif)
 
 5. Clicking Refresh at the bottom of
    the Backup / Restore Table will display the current backup status.
@@ -265,11 +265,11 @@ To Create a Backup from a Client Machine:
 
 Client Initiated Backup In Progress:
 
-![](/img/image-404.png)
+![](/img/cset20.gif)
 
 Client Initiated Backup Complete:
 
-![](/img/image-404.png)
+![](/img/i12.gif)
 
 ## Reader Configuration
 
@@ -290,7 +290,7 @@ Accessing the Reader Configuration Table
 
 - Click on Lookups
 
-![](/img/image-404.png)
+![](/img/maint2.gif)
 
 - Click
   on Reader Configuration
@@ -307,7 +307,7 @@ to specify the type and connection method for their readers. When this
 information is saved the reader type entry is created. Two examples of
 reader entry types are shown below.
 
-![](/img/image-404.png)
+![](/img/cb1.gif)
 
 After a reader entry type has been created
 a reader address entry must be defined. To insert a reader address entry
@@ -316,35 +316,35 @@ follow the steps below.
 1.) Expand the Reader
 Type Entry by clicking on the plus sign.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_Badge.gif)
 
 2.) Click on None and Click Insert to open
 the Reader Configuration Update Form.
 
-![](/img/image-404.png)
+![](/img/HousekeepingSvcStopped.gif)
 
 ### Reader Configuration Update Form
 
-![](/img/image-404.png)
+![](/img/RLSNOTE_707-05.jpg)
 
 Port Name: Enter a name for
 your clock. This name should be recognizable and descriptive, as it will
 be displayed in the Reader Configuration Table representing the record
 for your clock.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_Shifts.gif)
 
 Type: Select your Clock Model
 from the models in the list. NOTE: A scout 1000 requires a different configuration
 than other Scout Models. Select the Scout 1000 type if you have a Scout 1000.
 
-![](/img/image-404.png)
+![](/img/cset34.gif)
 
 Port: Select the port that corresponds
 to your reader. Select TCP/IP if you are using an Ethernet connection
 to communicate with your clock.
 
-![](/img/image-404.png)
+![](/img/maint3.gif)
 
 Poll From File: Some readers
 such as the Luna and Zephyr support the Poll From File Feature. Using
@@ -391,7 +391,7 @@ the time at which data was last processed.
 
 ### Reader Addresses Tab
 
-![](/img/image-404.png)
+![](/img/eb2.gif)
 
 The Reader Address Update form, as shown when inserting a new reader
 configuration or changing an existing reader configuration, is connection
@@ -443,7 +443,7 @@ with access control or bells.
 
 - Click Insert to open the Reader Address Configuration Form.
 
-![](/img/image-404.png)
+![](/img/21DHOLAVG.jpg)
 
 General Reader setup differs depending on the clock model and connection
 type. For this reason, two explanations of General Reader setup are provided.
@@ -454,7 +454,7 @@ Connection Communication Methods.
 
 ### TCP/IP General Tab
 
-![](/img/image-404.png)
+![](/img/Import_Auto_2.gif)
 
 Address: Enter the Reader Address assigned to the clock during setup.
 Refer to the section of this document that corresponds to your specific
@@ -509,7 +509,7 @@ timeclock model for setup instructions.
 The following items will only be displayed
 if the clock type you have selected is a Synel Badge Reader. (Apollo/Atlas/Odyssey/Omega/Orion/Plus/SY 400)
 
-![](/img/image-404.png)
+![](/img/RLSNOTE_707-03.jpg)
 
 Reader
 Type: Select the appropriate badge reader type that corresponds
@@ -549,7 +549,7 @@ system.
 
 ### TCP/IP Polling Tab
 
-![](/img/image-404.png)
+![](/img/RLSNOTE_707-03.jpg)
 
 Polling Interval: Choose how
 often you would like to poll timecard activity from your reader. Minimum
@@ -607,7 +607,7 @@ should stop polling in this field.
 
 ### TCP/IP Tab
 
-![](/img/image-404.png)
+![](/img/Ch11_Export19.gif)
 
 TCP/IP Address: Enter the IP
 address assigned to your reader. This must be a static address. Refer
@@ -631,7 +631,7 @@ times out. Ninety seconds is the recommended value.
 
 ### Direct Connect and Modem Communication Type Settings - General Tab
 
-![](/img/image-404.png)
+![](/img/cb3.gif)
 
 Address: Enter the Reader Address
 assigned to the clock during setup. Refer to the section of this document
@@ -691,7 +691,7 @@ timeclock model for setup instructions.
 The following items will only be displayed
 if the clock type you have selected is a Synel Badge Reader. (Apollo/Atlas/Odyssey/Omega/Orion/Plus/SY 400)
 
-![](/img/image-404.png)
+![](/img/i18.gif)
 
 Reader
 Type: Select the appropriate badge reader type that corresponds
@@ -731,7 +731,7 @@ system.
 
 ### Direct Connect and Modem Communication Type Settings - Polling Tab
 
-![](/img/image-404.png)
+![](/img/TP5.gif)
 
 Polling Interval: Choose how
 often you would like to poll timecard activity from your reader. Minimum
@@ -789,7 +789,7 @@ should stop polling in this field.
 
 ### Direct Connect and Modem Communication Type Settings - Modem Tab
 
-![](/img/image-404.png)
+![](/img/i3.gif)
 
 Phone Numbers: Enter the phone
 number, just as it would be dialed from a regular phone. Include country
@@ -805,7 +805,7 @@ InfiniTimeâ¢ allows you
 to switch departments at the reader itself, in this screen you can select
 which departments are allowed.
 
-![](/img/image-404.png)
+![](/img/image2.jpg)
 
 By default, all of the departments are in the left hand side and all
 departments are allowed to be used for transfer at the reader.  If
@@ -823,7 +823,7 @@ InfiniTimeâ¢ allows you
 to enter other activity at the reader itself, in this screen you can select
 which activity is allowed to be entered.
 
-![](/img/image-404.png)
+![](/img/CH15_Sysmon1.gif)
 
 By default, if all of the activities are in the left hand side then
 all activities are allowed to be entered at the reader.  If you want
@@ -844,7 +844,7 @@ in the Reader Address Table for each specific clock and are outlined below.
 Refer to the section of this document that corresponds to your specific
 timeclock model for more information about access control wiring and setup.
 
-![](/img/image-404.png)
+![](/img/CH15_Sysmon3.gif)
 
 Access Denied Message: Type
 the message to be displayed on the clock should an employee be denied
@@ -884,7 +884,7 @@ necessary if all groups are to be assigned to a reader. Groups should
 be assigned to a reader if only specific groups are authorized to access
 the door controlled by the reader.
 
-![](/img/image-404.png)
+![](/img/ebut.gif)
 
 To Assign Specific Groups to a Reader:
 
@@ -892,19 +892,19 @@ To Assign Specific Groups to a Reader:
   to the reader. Use the controls in the center of the screen to assign
   a specific group to the reader as outlined below.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_GroupAssign.gif)
 â Assigns the selected group to the reader. You will notice that the group
 will be removed from the left grid and displayed in the right grid.
 
-![](/img/image-404.png)
+![](/img/maint5.gif)
 â Assigns all available groups to the reader. You will notice that all
 groups will be removed from the left grid and displayed in the right grid.
 
-![](/img/image-404.png)
+![](/img/i11.gif)
 â Removes the selected group from the reader. You will notice that the
 group will be removed from the right grid and displayed in the left grid.
 
-![](/img/image-404.png)
+![](/img/cset22.gif)
 â Removes all selected groups from the reader. You will notice that all
 groups will be removed from the right grid and displayed in the left grid.
 
@@ -923,7 +923,7 @@ explained later in this section, will be able to pass through the access
 control doorway by using the access control hardware while access is considered
 Open. When access is closed the specified employees will be locked out.
 
-![](/img/image-404.png).gif)
+![](/img/CH15_Sysmon2.gif).gif)
 
 Open: Enter a time to consider
 access to the associated doorway Open.
@@ -942,7 +942,7 @@ wish the schedule to expire.
 Copy: Use this button to copy
 schedule information entered on one day to another.
 
-![](/img/image-404.png).gif)
+![](/img/image11.jpg).gif)
 
 The example above shows schedule information being copied from Monday
 to Tuesday, Wednesday, Thursday, and Friday. Clicking OK would copy the
@@ -955,7 +955,7 @@ specific date. Keep in mind override entries will take precedence over
 the default schedule for that date. Refer to the section above for instructions
 on inserting an access control schedule.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export20.gif)
 
 _Override Example_:
 
@@ -969,13 +969,13 @@ Remember, the default schedule for the day will be overridden. Be sure
 to include the times for the default schedule and any necessary changes
 in the override entry.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export9.gif)
 
-![](/img/image-404.png)
+![](/img/cset7.gif)
 
 ### Access Control Always Open Tab
 
-![](/img/image-404.png)
+![](/img/e3.gif)
 
 The Always Open Tab is used to configure time windows for which the
 connected entryway is always open. During these hours the entryway will
@@ -990,7 +990,7 @@ is only supported by Scout Terminals.
 
 ### Access Control Access Log
 
-![](/img/image-404.png)
+![](/img/Ch11_Export15.gif)
 
 The Access Log Tab keeps a record of each attempt to access the attached
 entryway and whether access was granted or denied. Only employees assigned
@@ -1002,32 +1002,32 @@ Bell schedules are used to control a buzzer or system of bells attached
 to a reader. The bells will ring at each time configured in the schedule
 for the specified duration.
 
-![](/img/image-404.png)
+![](/img/RLSNOTE_707-05.jpg)
 
 Configuring Bell Schedules
 
 - Click Insert to open the Bell Schedule Update Form
 
-![](/img/image-404.png)
+![](/img/InLineEdit_4.jpg)
 
 - Type a description for the bell schedule.
 
-![](/img/image-404.png)
+![](/img/CH11Export3.gif)
 
 - Specify the duration, in seconds, for the bell to ring when activated.
 - Click on the Default Schedule Tab.
 
-![](/img/image-404.png)
+![](/img/tcard09.gif)
 
 - Click Insert to insert the first bell activation time.
 
-![](/img/image-404.png)
+![](/img/cset8.gif)
 
 - Select the day the bell will ring on. Monday is highlighted by
   default.
 - Enter the appropriate time.
 
-![](/img/image-404.png)
+![](/img/cset15.gif)
 
 - The copy feature, as explained below, can be used to copy the time
   to another day.
@@ -1048,7 +1048,7 @@ do not wish the bell schedule to expire.
 Copy: Use this button to copy
 schedule information entered on one day to another.
 
-![](/img/image-404.png).gif)
+![](/img/i24.gif).gif)
 
 The example above shows schedule information being copied from Monday
 to Tuesday, Wednesday, Thursday, and Friday. Clicking OK would copy the
@@ -1059,7 +1059,7 @@ information.
 The Communication errors table keeps a record of any errors encountered
 when communicating with the clock.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export14.gif)
 
 Communication Error Table Related Options
 
@@ -1077,7 +1077,7 @@ is not automatically stopped.
 
 ### Synel Software Settings
 
-![](/img/image-404.png)
+![](/img/cset27.gif)
 
 Idle Message: Enter the message
 that will be displayed on the reader while the reader is in the idle state.
@@ -1164,7 +1164,7 @@ validated.
 
 ### Synel Hardware Settings
 
-![](/img/image-404.png)
+![](/img/tcard10.gif)
 
 Terminal Mode: Select the mode
 for use with your reader. The corresponding program will be updated to
@@ -1286,7 +1286,7 @@ as pinless.
 
 ### Scout Options
 
-![](/img/image-404.png)
+![](/img/rb1.gif)
 
 Reject Level: Controls clock
 sensitivity when comparing electronic hand templates to actual hand measurements
@@ -1409,7 +1409,7 @@ _Note_:
 Scout Readers cannot operate in Dual Time & Attendance and Access
 Control mode.
 
-![](/img/image-404.png)
+![](/img/cset3.gif)
 
 Available Function Key
 Functions
@@ -1499,18 +1499,18 @@ Activity Table.
 - Double click on the Function Key you wish to configure. The function
   key folder will open showing functions assigned to it.
 
-![](/img/image-404.png)
+![](/img/CH15_UnassignedPunches.gif)
 
 - Click on one of the functions assigned to the Function Key.
 
-![](/img/image-404.png)
+![](/img/ch3term_5.gif)
 
 - Use the Insert, Change, and Delete keys at the bottom of the screen
   to alter the assigned functions as desired. The order functions are
   displayed on the clock can also be adjusted with the Move Up or Move
   Down buttons.
 
-![](/img/image-404.png)
+![](/img/ph6.gif)
 
 You can place an unlimited amount of options in one function key.   When
 you have more than two functions assigned to a key they will appear in
@@ -1529,7 +1529,7 @@ for this function key.
 
 ### Zephyr / Luna Reader Settings
 
-![](/img/image-404.png)
+![](/img/i29.gif)
 
 Terminal Mode: Specifies
 the default operation on the terminal. The Zephyr, Juno, and Luna Terminals
@@ -1587,7 +1587,7 @@ Terminal. Employees will not be able to switch between jobs.
 
 ### Valid Telephone Numbers
 
-![](/img/image-404.png)
+![](/img/db1.gif)
 
 In the Valid Telephone Numbers section of the Telephone Punch Update
 form you can input telephone numbers that the employee can call from to
@@ -1601,20 +1601,20 @@ To insert a valid telephone number click on insert and type in the telephone
 number the employee can use to call in, you can input several telephone
 numbers here.
 
-![](/img/image-404.png)
+![](/img/CH15_UnassignedPunches.gif)
 
 Also you can set a schedule of when an employee can call in to punch,
 if the employee tries to call outside of schedule the software will not
 accept the transaction.  To set a default schedule for a particular
 telephone number click on the default schedule tab.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export2.gif)
 
 In the Default Schedule Tab you can insert a schedule of when this valid
 phone number is available to be used.  Click on the Quick Schedule
 Button to create the schedule.
 
-![](/img/image-404.png)
+![](/img/i15.gif)
 
 Start
 Time - In this field you can enter the start time of when this
@@ -1642,7 +1642,7 @@ Copy Button
 
 ### Telephone Punch Settings
 
-![](/img/image-404.png)
+![](/img/CH3_CompInfo12.gif)
 
 The Telephone Punch Settings allow you to set the telephone punch options:
 
@@ -1707,24 +1707,24 @@ Accessing Purge History
 - Click on Tools
 - Click on History And Undo Tools
 
-![](/img/image-404.png)
+![](/img/CH15_SysMon.gif)
 
 - Click on Purge History.
 
-![](/img/image-404.png)
+![](/img/RLSNOTE_707-06.jpg)
 
 View â Displays information
 related to the purge action. The date range timecard activity was purged
 from, employees the purge action was performed on, and the employee that
 performed the purge action are all listed.
 
-![](/img/image-404.png)
+![](/img/ph8.gif)
 
 Insert
 â Click on Insert to purge employee activity. The action will be saved
 in the Purge History Table.
 
-![](/img/image-404.png)
+![](/img/QST_SETUP_IMP_FILETYPE.gif)
 
 Description â Enter a descriptive
 name for the action you are performing. This description will be entered
@@ -1774,20 +1774,20 @@ future.
 - You may wish to take a backup before to undo a purge action.
 - Click on the record to highlight it.
 
-![](/img/image-404.png)
+![](/img/cset24.gif)
 
 - Click Undo.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export4.gif)
 
 - Click Yes to confirm your decision.
 
-![](/img/image-404.png)
+![](/img/ClickServices.gif)
 
 - Wait while the action is undone. All activity that was removed
   by the purge will be restored to the Timecard Activity Table.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_EmpShort.gif)
 
 ### Quick Punch History Introduction
 
@@ -1803,18 +1803,18 @@ Accessing the Quick Punch History Tool:
 - Click on Tools.
 - Click on History And Undo Tools.
 
-![](/img/image-404.png)
+![](/img/maint1.gif)
 
 - Click on Quick Punch History.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_GroupDesc.gif)
 
 View
 â Displays information related to the quick punch action. The date range
 timecard activity was inserted, employees the activity was inserted for,
 and the related punch pair times are all listed.
 
-![](/img/image-404.png)
+![](/img/ExpandServicesandApplications.gif)
 
 Insert
 â Click on Insert to insert a Quick Punch. The action will be saved in
@@ -1847,7 +1847,7 @@ order to prevent actions from being undone in the future.
 
 ### Inserting a Quick Punch
 
-![](/img/image-404.png).gif)
+![](/img/TP8.gif).gif)
 
 Description
 â Enter a descriptive name for the action you are performing. This description
@@ -1924,7 +1924,7 @@ Add Duplicate Punches
   using quick punch then the punches would not be inserted unless Add Duplicate
   Punches was checked.
 
-![](/img/image-404.png)
+![](/img/i20.gif)
 
 Weekday
 Only â If this is checked it will only insert punches for weekdays
@@ -1947,20 +1947,20 @@ about the Quick Punch can assist with this decision.
 
 - Click on the record to highlight it.
 
-![](/img/image-404.png)
+![](/img/cset21.gif)
 
 - Click Undo.
 
-![](/img/image-404.png)
+![](/img/maint4.gif)
 
 - Click Yes to confirm your decision.
 
-![](/img/image-404.png).gif)
+![](/img/ebut.gif).gif)
 
 - Wait while the action is undone. All activity that was inserted
   by the Quick Punch will be removed from the Timecard Activity Table.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export21.gif)
 
 ### Quick Schedule History Introduction
 
@@ -1974,23 +1974,23 @@ Accessing Quick Schedule History
 - Click on Tools
 - Click on History And Undo Tools
 
-![](/img/image-404.png)
+![](/img/tcard11.gif)
 
 - Click on Quick Schedule History
 
-![](/img/image-404.png)
+![](/img/TP7.gif)
 
 View â Displays information
 related to the quick schedule action. The date range of the schedule added,
 and the description of the schedule.
 
-![](/img/image-404.png)
+![](/img/JobImport.gif)
 
 Insert â Click on Insert to
 create a schedule. The action will be saved in the Quick Schedule History
 Table.
 
-![](/img/image-404.png)
+![](/img/CH11Export_Email.gif)
 
 Undo
 â InfiniTime keeps a record
@@ -2032,18 +2032,18 @@ Accessing the Supervisor Review History Tool:
 - Click on Tools.
 - Click on History And Undo Tools.
 
-![](/img/image-404.png)
+![](/img/TCPIP.gif)
 
 - Click on Supervisor Review History.
 
-![](/img/image-404.png).gif)
+![](/img/HousekeepingSvcStopped.gif).gif)
 
 View
 â Displays information related to the Timecard Activity Review action.
 The date range timecard activity was reviewed, employees activity was
 reviewed for, and the record description are all listed.
 
-![](/img/image-404.png).gif)
+![](/img/Ch11_Export7.gif).gif)
 
 Insert
 â Click on Insert to review timecard activity. The action will be saved
@@ -2083,7 +2083,7 @@ clerks in order to prevent actions from being undone in the future.
 
 ### Inserting a Supervisor Review
 
-![](/img/image-404.png).gif)
+![](/img/Housekeeping03.gif).gif)
 
 Description
 â Enter a descriptive name for the action you are performing. This description
@@ -2107,21 +2107,21 @@ about the Review action can assist with this decision.
 
 - Click on the record to highlight it.
 
-![](/img/image-404.png).gif)
+![](/img/maint8.gif).gif)
 
 - Click Undo.
 
-![](/img/image-404.png).gif)
+![](/img/winbackuprestore3.gif).gif)
 
 - Click Yes to confirm your decision.
 
-![](/img/image-404.png).gif)
+![](/img/e4.gif).gif)
 
 - Wait while the action is undone. All activity that was marked as
   reviewed by the review action will be returned to its original un-reviewed
   state.
 
-![](/img/image-404.png).gif)
+![](/img/Barcode-settings.gif).gif)
 
 ## Clock Tools Introduction
 
@@ -2139,11 +2139,11 @@ Accessing Polled Information:
 - Click on Tools.
 - Click on Clock Tools.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export5.gif)
 
 - Click on Polled Information.
 
-![](/img/image-404.png).gif)
+![](/img/FilterButton-Normal.gif).gif)
 
 Repost
 
@@ -2155,19 +2155,19 @@ Reposting Employee Timecard Activity:
 
 - Click on Repost.
 
-![](/img/image-404.png).gif)
+![](/img/cset9.gif).gif)
 
 - Select the desired date range from which to repost Timecard Activity.
 - Select the desired time range from which to repost Timecard Activity.
   The start time refers to a time on the first day of the date range
   and the end time refers to a time on the last day.
 
-![](/img/image-404.png).gif)
+![](/img/SyncEE.png).gif)
 
 - Timecard Activity can be reposted for a single employee or for
   all employees. If selected is chosen then a last name must be specified.
 
-![](/img/image-404.png).gif)
+![](/img/Quick_Schedule_Table.gif).gif)
 
 - Users that have multiple external readers can choose to repost
   activity from all readers or a single reader.
@@ -2223,18 +2223,18 @@ Accessing the System Monitor:
 - Click on Tools.
 - Click on Clock Tools.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_4.jpg)
 
 - Click on System Monitor.
 
-![](/img/image-404.png)
+![](/img/db4.gif)
 
-![](/img/image-404.png)   Force Poll: Checks for punches
+![](/img/CH15_PolledInfo.gif)   Force Poll: Checks for punches
 on the selected clock. If any punches are found the punch will be stored
 in the InfiniTime database
 and removed from the clock.
 
-![](/img/image-404.png)  Update Reader: Forces the software
+![](/img/winbackuprestore3.gif)  Update Reader: Forces the software
 to clear the Last Data Update Date and Last Data Update Time fields. The
 InfiniTime Housekeeping
 Service will update the clock on its next pass through the reader processing
@@ -2262,54 +2262,54 @@ Housekeeping Service:
 
 Right Click on My Computer and Click on Manage
 
-![](/img/image-404.png)
+![](/img/21DHOLAVG.jpg)
 
 Click on the + to the left of Services and
 Applications in order to expand the list.
 
-![](/img/image-404.png)
+![](/img/supervisor_review.gif)
 
 Click on Services to view the list of services
 installed on your machine.
 
-![](/img/image-404.png)
+![](/img/PollingDirect.jpg)
 
 Locate InfiniTime
 Housekeeping Service in the list.
 
-![](/img/image-404.png)
+![](/img/quick_punch.gif)
 
 Right click on the InfiniTime
 Housekeeping Service and click start.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_EMPID.gif)
 
 To Stop the InfiniTime
 Housekeeping Service:
 
 Right Click on My Computer and Click on Manage
 
-![](/img/image-404.png)
+![](/img/PollFromFile.gif)
 
 Click on the + to the left of Services and
 Applications in order to expand the list.
 
-![](/img/image-404.png)
+![](/img/ph4.gif)
 
 Click on Services to view the list of services
 installed on your machine.
 
-![](/img/image-404.png)
+![](/img/TP9.gif)
 
 Locate InfiniTime
 Housekeeping Service in the list.
 
-![](/img/image-404.png)
+![](/img/i2.gif)
 
 Right click on the InfiniTime
 Housekeeping Service and click stop.
 
-![](/img/image-404.png)
+![](/img/OptionsWindow.gif)
 
 Housekeeping Procedures and Logic
 
@@ -2437,11 +2437,11 @@ Accessing Unassigned Punches
 - Click on Tools
 - Click on Clock Tools
 
-![](/img/image-404.png)
+![](/img/AutoExportSchedUpdate.png)
 
 - Click on Unassigned Punches.
 
-![](/img/image-404.png).gif)
+![](/img/TCPIP.gif).gif)
 
 The upper grid shows the Badge Id or ID and password that has unassigned
 punches. Clicking on this entry will populate the lower grid, showing
@@ -2564,24 +2564,24 @@ Import Table:
 - Click on Import and Export.
 - Click on Import.
 
-![](/img/image-404.png)
+![](/img/PollingTCPIP.jpg)
 
 The Import Definition Table will be displayed as shown below.
 
-![](/img/image-404.png)
+![](/img/i11.gif)
 
-Import Button  ![](/img/image-404.png)
+Import Button  ![](/img/maint4.gif)
 
 - The import button allows you to highlight an already saved import
   structure and import it.
 
-Insert Button ![](/img/image-404.png)
+Insert Button ![](/img/ph5.gif)
 
 - The insert button will allow you to create a new import structure.
    When selecting this button, the Import File Selection Table will
   appear.
 
-Delete Button  ![](/img/image-404.png)
+Delete Button  ![](/img/PollingTCPIP.jpg)
  -  This button will delete a highlighted import structure.
 
 ### Target Fields Available to be imported
@@ -2693,16 +2693,16 @@ Group Description Table' field.
 
 Employee File - Creates Employee Records
 
-![](/img/image-404.png)
+![](/img/tcard09.gif)
 
 Department File - Creates Department Records
 
-![](/img/image-404.png)
+![](/img/Import_Auto_1.gif)
 
 Employee Accrual Totals File - Updates Existing
 Employee Accrual Total Records
 
-![](/img/image-404.png)
+![](/img/CH15_SysMon.gif)
 
 Importing Employee Accrual
 Base Amounts
@@ -2727,20 +2727,20 @@ Accrual Base Amounts, the following conditions must be met:
 Other Activity Type File - Creates Other
 Activity types
 
-![](/img/image-404.png)
+![](/img/e5.gif)
 
 Groups Level File - Creates Group Levels
 
-![](/img/image-404.png)
+![](/img/Purge.gif)
 
 Groups Description File - Creates Groups
 
-![](/img/image-404.png)
+![](/img/Ch11_Export17.gif)
 
 Employee Groups File - Assigns Existing Groups
 to Existing Employees
 
-![](/img/image-404.png)
+![](/img/i3.gif)
 
 Importing Employee Group
 Assignments
@@ -2764,7 +2764,7 @@ Group Assignments, the following conditions must be met:
 Employee
 Shifts File - Assigns Existing Shifts to an existing Employee
 
-![](/img/image-404.png)
+![](/img/e4.gif)
 
 Note: Employees
 can only be assigned to a shift which is configured to be Used for Scheduling.
@@ -2782,7 +2782,7 @@ have the Used for Scheduling option enabled automatically.
 Employee Timecard file - Creates Employee
 Timecard Punches
 
-![](/img/image-404.png)
+![](/img/maint12.gif)
 
 Note: When Importing
 Employee Timecards it is important to ensure duplicate records present
@@ -2812,22 +2812,22 @@ below.
 Activity
 Job Information File - Creates Activity Jobs
 
-![](/img/image-404.png)
+![](/img/Ch11_Export19.gif)
 
 Activity
 Task Information File - Creates Activity Tasks
 
-![](/img/image-404.png)
+![](/img/Import_Auto_2.gif)
 
 Employee Badges File - Creates Employee Alternate
 Badges
 
-![](/img/image-404.png)
+![](/img/CH15_Sysmon1.gif)
 
 Employee
 Schedules File - Creates Employee Schedule Gannt Chart Entries
 
-![](/img/image-404.png)
+![](/img/cset13.gif)
 
 **Importing
 Employee Schedules**
@@ -3075,7 +3075,7 @@ Each column of an import file and the data contained therein should be
 compared to this list in order to ensure proper data format before performing
 an import.
 
-![](/img/image-404.png)
+![](/img/maint12.gif)
 
 Data Type
 
@@ -3214,7 +3214,7 @@ identifier may include letters and numbers. By looking at the table of
 Employee Information Fields that can be imported you can quickly identify
 the item below as the correct field.
 
-![](/img/image-404.png)
+![](/img/AutoExportSchedUpdate.png)
 
 2.)
 The Field Name, or Employee ID in this case, should be used as the header
@@ -3264,7 +3264,7 @@ the database prior to the import if needed.
 
 Selecting an Import File Type
 
-![](/img/image-404.png)
+![](/img/TP9.gif)
 
 - Department
   File - Imports the fields necessary for the program to create
@@ -3310,14 +3310,14 @@ The source file options tab is used to specify
 details about the file to be imported. Information about the format of
 the file and the location of the file are needed.
 
-![](/img/image-404.png)
+![](/img/cb3.gif)
 
 Import Structure
 Description - Enter a description for the import you are about
 to create.  This name will appear on the initial window for easy
 importing.
 
-![](/img/image-404.png)
+![](/img/i30.gif)
 
 Comma-Separated
 File To Import - Click on the magnify glass and select the file
@@ -3346,7 +3346,7 @@ Field Separator
   most common used separator is the comma, however certain files may contain
   hyphens or other symbols.
 
-![](/img/image-404.png)
+![](/img/cset4.gif)
 
 Skip First
 Record - If this box is checked the first line of the import file
@@ -3372,7 +3372,7 @@ Duplicate checking gives you the option to look for duplicate entries
 in your import file compared to data that is already in the program.  Additional
 duplicate checking configuration is not required when importing.
 
-![](/img/image-404.png)
+![](/img/QSG_SETUP_IMP_SFOPTIONS.gif)
 
 If duplicate is found:
 
@@ -3398,11 +3398,11 @@ Ignore
 It - If this field is checked, the program will simply ignore duplicate
 records completely.
 
-![](/img/image-404.png)
+![](/img/CH7_Timecard7.gif)
 
 This window allows you to select which
 fields to check for duplication.  To select a field, highlight the
-Field Name and click on the ![](/img/image-404.png)
+Field Name and click on the ![](/img/cset21.gif)
 Button.
 
 Note: When Importing Employee Timecards it
@@ -3439,19 +3439,19 @@ performing an import. Refer to Chapter 11 - Target Fields Available to
 be Imported for more information regarding required fields and import
 file format.
 
-![](/img/image-404.png)
+![](/img/i18.gif)
 
 Import Fields - Import Fields
 appear in the grid on the left. These are from the file selection on the
 Source File Options tab.
 
-![](/img/image-404.png)
+![](/img/db2.gif)
 
 Target Fields - Target Fields
 appear in the grid on the right. These are the fields that are in the
 InfiniTime Program.
 
-![](/img/image-404.png)
+![](/img/image465.gif)
 
 How To Map The Fields
 
@@ -3464,34 +3464,34 @@ The controls in the center of the screen
 are used to associate the selected import field with the selected target
 field as detailed below.
 
-![](/img/image-404.png)
+![](/img/QSG_SETUP_IMP_SOURCEFILEOP.gif)
 â Associates the Selected Import field with the Selected Target Field.
 You will notice that the data in the Import grid will be displayed in
 the target grid after association is complete.
 
-![](/img/image-404.png)
+![](/img/i1.gif)
 â Removes any association for the selected Target Grid Field. You will
 notice that the data in the Target grid will be removed.
 
-![](/img/image-404.png)
+![](/img/cset28.gif)
 â Removes all associations for the Target Grid. All data in the target
 grid will be removed.
 
-![](/img/image-404.png)
+![](/img/StartHousekeeping.gif)
 
-![](/img/image-404.png)-
+![](/img/winbackuprestore1.gif)-
  This button is used to remove a field that you have already dragged
 over onto the field mapping area. This will not permanently remove the
 field. It will simply put it back on the left side of the screen.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export16.gif)
 
 - This button is used to remove a field that you have already mapped  This
   will not permanently remove the field.  It will simply put it back
   on the left side of the screen.  \*THIS
   WILL REMOVE ALL OF THE FIELDS THAT YOU HAVE MAPPED!
 
-![](/img/image-404.png)
+![](/img/cb2.gif)
 
 - Select this button if the header labels  (First Line of your import
   file)  match the fields that you wish to import.  This will
@@ -3499,7 +3499,7 @@ field. It will simply put it back on the left side of the screen.
   if the header of your import file contains the same field names as those
   shown to the left of the Target Field.
 
-![](/img/image-404.png)
+![](/img/i10.gif)
 
 - Select this button if all of the fields that are in your import file
   are in the same order as the fields in the Target Grid.  If you select
@@ -3507,7 +3507,7 @@ field. It will simply put it back on the left side of the screen.
   corruption, be sure to take a backup before attempting to Import Employee
   information.
 
-![](/img/image-404.png) - Select this button to set the date picture. It will
+![](/img/Hardware_settings_synel.gif) - Select this button to set the date picture. It will
 bring up the Date Picture Form as shown below. The picture button is only
 available for Target Fields that have an entry in the Picture Column.
 
@@ -3515,9 +3515,9 @@ For example, you can specify the date format
 and separator used within the import file by changing the date picture
 and separator:
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_Department.gif)
 
-![](/img/image-404.png) - The Override button brings up the Override option
+![](/img/RLSNOTE_707-07.jpg) - The Override button brings up the Override option
 in the Import tool.  This allows the user more flexibility to customize
 the settings before the file is imported, i.e. the file being imported
 may have all the employees in separate departments, the user can select
@@ -3525,7 +3525,7 @@ the Department link to be Department A only and all employees imported
 from the file will fall under Department A instead of their own individual
 departments.
 
-![](/img/image-404.png)
+![](/img/tcard08.gif)
 
 Override
 Option Type â This drop down menu brings up a set of options to
@@ -3534,7 +3534,7 @@ import file will be overwritten with. This drop down menu can only be
 viewed if a source field is assigned to the target field you are attempting
 to override.
 
-![](/img/image-404.png)
+![](/img/TP6.gif)
 
 The user can select from the options listed
 below to override the field's original value. Some options are only available
@@ -3553,11 +3553,11 @@ uses the full word for gender instead of an abbreviation. This is shown
 in the example below. Conditional Override is supported for both Link
 To and regular field types.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_Employee.gif)
 
 Click insert to insert a new condition.
 
-![](/img/image-404.png)
+![](/img/CH11Export_Email.gif)
 
 The IF
 and Then field displays will be
@@ -3602,7 +3602,7 @@ and click on the Import button.
 
 ### Auto Import Configuration
 
-![](/img/image-404.png)
+![](/img/CH15_Sysmon3.gif)
 
 InfiniTime allows a schedule
 to be configured in order to perform an import automatically at a regular
@@ -3636,7 +3636,7 @@ Change
 Delete
 â Click delete to remove the highlighted Import Schedule.
 
-![](/img/image-404.png)
+![](/img/i15.gif)
 
 Description
 â Describes the Import Schedule you are creating.
@@ -3689,7 +3689,7 @@ is desired within the export file. A brief description of the fields available
 for each file is provided below. Refer to Chapter 11: Target Fields Available
 for Export for a complete list of all fields by file type.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_OtherAct.gif)
 
 - Department File - Exports
   the fields necessary for the program to create departments.
@@ -3736,23 +3736,23 @@ the InfiniTime Export Table:
 - Click on Import and Export.
 - Click on Export.
 
-![](/img/image-404.png)
+![](/img/cb1.gif)
 
 The Export Definition Table will be displayed
 as shown below.
 
-![](/img/image-404.png)
+![](/img/ph7.gif)
 
-![](/img/image-404.png)
+![](/img/Purge.gif)
 
 - The export button allows you to highlight an already saved export
   structure and export it.
 
-![](/img/image-404.png)
+![](/img/PollingDirect.jpg)
 
 - The insert button will allow you to create a new export structure.
 
-![](/img/image-404.png)
+![](/img/clock_types.gif)
  -  This button will delete a highlighted export structure.
 
 Performing
@@ -3764,7 +3764,7 @@ and Map Destination Fields, which must be configured properly in order
 to achieve desired results. An example configuration is shown below with
 a description of each field following.
 
-![](/img/image-404.png)
+![](/img/rb1.gif)
 
 Export
 Structure Description - Enter a description for the export you
@@ -3826,7 +3826,7 @@ File' and 'Employee Accrual Hours' File Types. The Date Range Name settings
 is used to specify the date range for which Employee Timecards or Accrual
 Hours will be exported.
 
-![](/img/image-404.png) - The filter button allows you to specify
+![](/img/Quick_Schedule_Table.gif) - The filter button allows you to specify
 which employees records will be exported for. Only certain export types,
 as listed below, support use of the Filter Button. For example, tagging
 a department, group, or individual employees when using the Employee Accrual
@@ -3857,7 +3857,7 @@ follow in mind when entering this information.
 Local
 Windows Accounts:
 
-![](/img/image-404.png)
+![](/img/maint10.gif)
 
 1. Enter the Host Address
    There are two valid formats for the host
@@ -3889,7 +3889,7 @@ FTPSERVER\FTPUSER
 Domain
 Accounts:
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_Schedules.gif)
 
 1. Enter the Host Address.
    There are two valid formats for the host
@@ -3922,7 +3922,7 @@ InfiniTime\FTPUSER
 Anonymous
 User:
 
-![](/img/image-404.png)
+![](/img/Ch11_Export22.gif)
 
 1. Enter the Host Address.
    There are two valid formats for the host
@@ -3957,7 +3957,7 @@ the directory where the Payroll Export File will be uploaded. Please contact
 your Information Technology Personnel for assistance with checking file
 permissions on your FTP Site.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export8.gif)
 
 Technical Note:
 InfiniTime
@@ -3980,7 +3980,7 @@ Export
 Fields - Export Fields appear in the grid on the left. All available
 fields for your selected export table are displayed.
 
-![](/img/image-404.png)
+![](/img/i4.gif)
 
 Target
 Fields - Target Fields appear in the grid on the right. These are
@@ -3988,7 +3988,7 @@ the fields that will be exported to your file. An example of an export
 listing Employee Addresses, Names, and Employee IDs
 is displayed below.
 
-![](/img/image-404.png)
+![](/img/maint3.gif)
 
 How To Map The Fields
 
@@ -4009,17 +4009,17 @@ The controls in the
 center of the screen are used to associate the selected export field with
 the selected target field as detailed below.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_Schedules.gif)
 â Adds the selected field to the target grid.
 
-![](/img/image-404.png)
+![](/img/rb4.gif)
 â Adds all available fields to the Target Grid.
 
-![](/img/image-404.png)
+![](/img/TaskImport.gif)
 â Removes the selected Target Grid Field. You will notice the data in
 the Target grid will be removed.
 
-![](/img/image-404.png)â
+![](/img/TimecardReviewHistory.jpg)â
 Removes all associations for the Target Grid. All data in the target grid
 will be removed.
 
@@ -4033,26 +4033,26 @@ added to the Target Field grid. Each serves a separate purpose in the
 configuration of an export and are especially useful when the user has
 a particular format in mind.  The use of each tool is outlined below.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export22.gif)
 
-![](/img/image-404.png) - Adds information entered by the user to
+![](/img/i26.gif) - Adds information entered by the user to
 the export. The software prompts the user for information which is then
 entered for each employee in the column corresponding to the user defined
 field. An example is shown below where the date 2/2/2008 is inserted between
 the employee ID and the Employee Name for each employee exported.
 
-1.) Click on ![](/img/image-404.png)
+1.) Click on ![](/img/tcard11.gif)
 to open the User Defined Field Update Form. Enter the information that
 will be placed in the User Field for each employee.
 
-![](/img/image-404.png)
+![](/img/cset12.gif)
 
 2.) Click OK. The User
 Field label will be displayed in the header column as shown.
 
-![](/img/image-404.png)
+![](/img/EmailWindow.gif)
 
-3.) Click on the ![](/img/image-404.png)
+3.) Click on the ![](/img/QS_Chapter1_14.gif)
 button to change the header if desired. The Export Override Header Update
 Form will be displayed as shown. Simply type the desired header and click
 OK to save. Changing the Header for the user field does not change the
@@ -4061,12 +4061,12 @@ when the user field was inserted will still be exported for each record.
 To change the value exported in the user field column for each record,
 use Single Value Override.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export16.gif)
 
 4.) The header will
 be updated as shown.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export13.gif)
 
 5.) Save the export
 settings by clicking OK on the Export Update form. Highlight the Export
@@ -4078,13 +4078,13 @@ is formatted in the export file is shown below. Column B shows the user
 entered heading of "Export Date" and the user entered value
 2/2/2008.
 
-![](/img/image-404.png)
+![](/img/QS_Chapter1_13.gif)
 
-![](/img/image-404.png)
+![](/img/cset33.gif)
 
 - Adds all Export Fields to the Target Grid.
 
-![](/img/image-404.png) - The order of the export file is defined
+![](/img/maint6.gif) - The order of the export file is defined
 by the fields in the target grid. The first field on Page 1 will be exported
 as the first column of the export file. The second field will be in the
 second column, while the third field will be in the third column, ect. This button will move the Selected Target Field
@@ -4092,7 +4092,7 @@ up in the order. IE: If the third field is highlighted
 when this button is used it will be moved up to the second position while
 the field that was in the second position will move down.
 
-![](/img/image-404.png) - The order of the export file is defined
+![](/img/i21.gif) - The order of the export file is defined
 by the fields in the target grid. The first field on Page 1 will be exported
 as the first column of the export file. The second field will be in the
 second column, while the third field will be in the third column, ect. This button will move the Selected Target Field
@@ -4100,7 +4100,7 @@ down in the order. IE: If the third field is
 highlighted when this button is used it will be moved down to the fourth
 position while the field that was in the fourth position will move up.
 
-![](/img/image-404.png) - The Override button opens the Export Override
+![](/img/i23.gif) - The Override button opens the Export Override
 Update Form.  This gives the user more flexibility to customize the
 data before a file is exported. For example if a company had multiple
 locations they may assign a unique identifier to each location when designating
@@ -4118,7 +4118,7 @@ Select a field in the
 Target Export Grid and click on the Override button. The Export Override
 Update form will be displayed as shown.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export7.gif)
 
 Override
 Option Type â This drop down menu brings up a set of options to
@@ -4127,7 +4127,7 @@ export file will be overwritten with. This drop down menu can only be
 viewed if a source field is assigned to the target field you are attempting
 to override.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export2.gif)
 
 The user
 can select from the options listed below to override the field's original
@@ -4149,7 +4149,7 @@ InfiniTime fields to a
 single column. For example: John C. Smith can be exported using the settings
 shown below.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export17.gif)
 
 Conditional Override â Exports
 a specified string if the field's original value matches a predefined
@@ -4161,12 +4161,12 @@ tracks gender with M and F rather than Male or Female conditional override
 can be used to export M and F rather than Male and Female for the Employee
 Gender field. This example is explained below.
 
-![](/img/image-404.png)
+![](/img/db2.gif)
 
 Click insert to insert
 a new condition.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_GroupLevel.gif)
 
 The IF
 and Then field labels will be
@@ -4213,13 +4213,13 @@ click the OK button. Once the file is saved you will return to the Import
 Definition Table.  To import a saved structure,  highlight it
 and click on the Import button.
 
-![](/img/image-404.png) - The Header Button provides the user with
+![](/img/cset19.gif) - The Header Button provides the user with
 the ability to alter the default header used by InfiniTime.
 Select a field in the target grid and click on the Header Button to display
 the Export Override Header Update Form. Refer to the example above where
 the header button is used to alter the header on a User Field.
 
-![](/img/image-404.png)
+![](/img/Ch11_Export4.gif)
 
 - Select this button to set the date picture. It will bring up the Date
   Picture Form as shown below. The picture button is only available for
@@ -4229,9 +4229,9 @@ For example, you can specify the date format
 and separator used within the import file by changing the date picture
 and separator:
 
-![](/img/image-404.png)
+![](/img/InLineEdit_1.jpg)
 
-![](/img/image-404.png) - Restores
+![](/img/ph4.gif) - Restores
 Override and Picture settings for the highlighted target field to the
 defaults.
 
@@ -4250,7 +4250,7 @@ Refer to [InfiniTime Server SMTP Setup and Troubleshooting](https://version9.inf
 for information on configuring and troubleshooting SMTP Service Settings
 on the InfiniTime Server.
 
-![](/img/image-404.png)
+![](/img/cset1.gif)
 
 From
 
@@ -4270,7 +4270,7 @@ export will be sent to. Recipients are inserted by using the Insert button.
 Insert
 â Used to insert a new recipient as shown below.
 
-![](/img/image-404.png).gif)
+![](/img/3WAVG.jpg).gif)
 
 Email To Name
 
@@ -4300,7 +4300,7 @@ service must be running in order for an import to be performed automatically.
 The import file must be present in the Import directory with the same
 file name as that specified on the Import Criteria.
 
-![](/img/image-404.png)
+![](/img/ph5.gif)
 
 Insert
 â Click insert to open up the Auto Export Schedule Update Form and set
@@ -4312,7 +4312,7 @@ Change
 Delete
 â Click delete to remove the highlighted Import Schedule.
 
-![](/img/image-404.png)
+![](/img/i27.gif)
 
 Description
 â Describes the Import Schedule you are creating.
@@ -4762,7 +4762,7 @@ C:\Inception\InfiniTime\InfiniTime7\,
 by default.  Instructions for configuring a Server Maintenance Warning
 are provided below.
 
-![](/img/image-404.png)
+![](/img/tcard07.gif)
 
 - Locate your software install location. If you installed to a location
   other than the default you are responsible for locating the files
@@ -4770,38 +4770,38 @@ are provided below.
 
 - Click Start.
 
-![](/img/image-404.png)
+![](/img/Import001.gif)
 
 - Click Run.
 
-![](/img/image-404.png)
+![](/img/Import002.gif)
 
 - Type your software install location and click OK.
 
-![](/img/image-404.png)
+![](/img/e5.gif)
 
 - Open the InfiniTime7 Folder
 
-![](/img/image-404.png)
+![](/img/Ch11_Export1.gif)
 
 - Right click in a blank area of windows explorer.
 
-![](/img/image-404.png)
+![](/img/RLSNOTE_707-02.jpg)
 
 - Click New.
 
-![](/img/image-404.png)
+![](/img/CH15_PolledInfo.gif)
 
 - Click Text Document.
 - Name the text document servergoingdown.txt
 
-![](/img/image-404.png)
+![](/img/override_Tab.gif)
 
 - Open the text document and type your desired warning message on
   the first line. Note: Only text located on the first line will be
   displayed in the Server Maintenance Warning.
 
-![](/img/image-404.png)
+![](/img/QS_Chapter1_11.gif)
 
 ### Server Shutdown
 
@@ -4836,33 +4836,33 @@ Steps to take InfiniTime 7.0 Down for Maintenance:
   yourself. The default location is C:\Inception\Infinitime\
 - Click Start.
 
-![](/img/image-404.png)
+![](/img/image463.gif)
 
 - Click Run.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_3.jpg)
 
 - Type your software install location and click OK.
 
-![](/img/image-404.png)
+![](/img/CH11_ImportFields_Department.gif)
 
 - Open the InfiniTime7
   Folder
 
-![](/img/image-404.png)
+![](/img/QS_Chapter1_13.gif)
 
 - Right click in a blank area of windows explorer.
 
-![](/img/image-404.png)
+![](/img/maint9.gif)
 
 - Click New.
 
-![](/img/image-404.png)
+![](/img/maint11.gif)
 
 - Click Text Document.
 - Name the text document serverdown.txt
 
-![](/img/image-404.png)
+![](/img/InLineEdit_2.jpg)
 
 - No message is necessary. The software will automatically lock all
   users out of the program. Once serverdown.txt is placed in the Software
@@ -4876,13 +4876,13 @@ Steps to take InfiniTime 7.0 Down for Maintenance:
 Users attempting to log into the software during the maintenance period
 will see the following message:
 
-![](/img/image-404.png)
+![](/img/i17.gif)
 
 Users already logged into the software when serverdown.txt is placed
 in the InfiniTime7 directory will see the following warning when attempting
 to perform any action within the software
 
-![](/img/image-404.png)
+![](/img/FilterButton-Normal.gif)
 
 ### Version Release Notes
 
@@ -5203,7 +5203,7 @@ to provide ease of use and organization. The hierarchical view provides
 quick access to reader address records when it is necessary to alter clock
 settings. The intended view is shown below:
 
-![](/img/image-404.png)
+![](/img/Import_Auto_1.gif)
 
 As shown reader address records are arranged
 under a single folder according to Reader and Communication Type. When
@@ -6606,7 +6606,7 @@ Settings:
 - Click
   on the Groups Sub Tab.
 
-![](/img/image-404.png)
+![](/img/StartHousekeeping.gif)
 
 - 'Do Not Add
   Default Groups to Employee On Insert' has been added as an option
@@ -6672,7 +6672,7 @@ Settings:
   Manual as the pay cycle type allows the user to manually enter the
   start and end dates for the current and last pay period.
 
-![](/img/image-404.png)
+![](/img/RemainingWindowInfinitime.jpg)
 
 - Employee
   Timecard File and Employee Accrual Totals File Exports now include
@@ -6699,7 +6699,7 @@ Settings:
   hours worked over a specified number of weeks starting with the week
   before the date of the holiday. This is illustrated below.
 
-![](/img/image-404.png)            ![](/img/image-404.png)
+![](/img/cset16.gif)            ![](/img/maint7.gif)
 
 The
 images above illustrate the difference between a 3 Week Average and a
@@ -6960,7 +6960,7 @@ Changes to a Single Timecard Record
   example below, an employee missed a punch on the first day of a pay
   period.
 
-![](/img/image-404.png)
+![](/img/SyncEE.png)
 
 - In
   Line Edit refers to entering changes directly in the timecard record.
@@ -6969,20 +6969,20 @@ Changes to a Single Timecard Record
   and set the desired time. Alternatively, simply click in the Out Date
   and the Out Time and enter the desired values.
 
-![](/img/image-404.png)
+![](/img/i4.gif)
 
 - Once
   the desired values have been entered, press the Down Arrow Key. If
   Delayed Save is disabled the change will be saved immediately and
   the hour totals will display.
 
-![](/img/image-404.png)
+![](/img/BackupRestore_001.png)
 
 - If
   Delayed Save is enabled the Save Button will display. Click on the
   Save button to save the changes and calculate hour totals.
 
-![](/img/image-404.png)
+![](/img/image12.jpg)
 
 Using
 the Up & Down Arrow Keys to Move Between Records in the Timecard Table
@@ -7656,7 +7656,7 @@ accrual periods as shown below. Company ABC awards 16 Hours of Sick and
 40 Hours of Vacation per year, all unused hours are lost at the end of
 the year.
 
-![](/img/image-404.png)
+![](/img/T13.gif)
 
 After upgrading to
 InfiniTime 7.08, Employee
@@ -7665,7 +7665,7 @@ back to the employee's hire date. In the example below, the employee was
 hired on January 8th, 2007. This has no effect on available accrual hours
 as accrued hours are not carried over from year to year.
 
-![](/img/image-404.png)
+![](/img/ph3.gif)
 
 Set an Effective Date
 for Each Accrual Class
@@ -7709,7 +7709,7 @@ the prior accrual tracking system.
 
 _Employee Accrual Totals on InfiniTime 7.06c_
 
-![](/img/image-404.png)
+![](/img/Ch11_Export13.gif)
 
 If the effective date
 is not set before upgrading to InfiniTime
@@ -7725,7 +7725,7 @@ Employee
 Accruals on InfiniTime
 7.08 - No Effective Date Set
 
-![](/img/image-404.png)
+![](/img/cset34.gif)
 
 In order to ensure accrual
 records are not created for accrual periods prior to March 13, 2009 an
@@ -7751,7 +7751,7 @@ by Company XYZ. Steps to set the Effective Date are listed below.
   steps for each Accrual Calculation on each Accrual Type within the
   software.
 
-![](/img/image-404.png)
+![](/img/rb3.gif)
 
 Employee Accruals will
 be calculated back to the effective date after upgrading to InfiniTime 7.08 as shown below.
@@ -7760,7 +7760,7 @@ Employee
 Accruals on InfiniTime
 7.08 - With Effective Date Set
 
-![](/img/image-404.png)
+![](/img/Ch11_Export6.gif)
 
 Allow InfiniTime
 to Calculate Employee Accrual Totals back to Hire Date then Adjust Base
@@ -7796,7 +7796,7 @@ the prior accrual tracking system.
 
 _Employee Accrual Totals on InfiniTime 7.06c_
 
-![](/img/image-404.png)
+![](/img/Ch11_Export5.gif)
 
 If the effective date
 is not set before upgrading to InfiniTime
@@ -7811,7 +7811,7 @@ Employee
 Accruals on InfiniTime
 7.08 - No Effective Date Set
 
-![](/img/image-404.png)
+![](/img/cset28.gif)
 
 This
 can be accounted for by removing the previously entered base amounts and
@@ -7827,7 +7827,7 @@ Employee
 Accruals on InfiniTime
 7.08 - After Base Amount Adjustment
 
-![](/img/image-404.png)
+![](/img/CH7_Timecard7.gif)
 
 Accrual System Documentation
 
@@ -8033,7 +8033,7 @@ Notes Report](../SW_CH7_Notes_Report.md)
   extra window now displays a notification informing the user the window
   can be closed as shown below.
 
-![](/img/image-404.png)
+![](/img/i28.gif)
 
 - An additional option, Timecard Review
   History, has been added to multiple reports. When enabled, Timecard
@@ -8059,7 +8059,7 @@ Notes Report](../SW_CH7_Notes_Report.md)
 Example
 Timecard Detail Report with Timecard Review History:
 
-![](/img/image-404.png)
+![](/img/RLSNOTE_707-02.jpg)
 
 - The Insert Button
   on the Company Timecard Table, Employee Timecard Table, and Employee

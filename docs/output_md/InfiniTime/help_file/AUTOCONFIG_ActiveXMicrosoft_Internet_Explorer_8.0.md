@@ -17,23 +17,23 @@ The following procedures show the steps required to properly configure ActiveX c
 
 Click on Tools.
 
-![](/img/image-404.png)
+![](/img/AutoConfig_IE8_2.gif)
 
 Click on Internet Options to open the Internet Options window for Internet Explorer.
 
-![](/img/image-404.png)
+![](/img/IE8_DisablePopUp_2.gif)
 
 Click on the Security Tab.
 
-![](/img/image-404.png)
+![](/img/IE8_DisablePopUp_1.gif)
 
 Click on Trusted Sites.
 
-![](/img/image-404.png)
+![](/img/IE8_DisablePopUp_2.gif)
 
 Click Custom Level while Trusted Sites is selected to change the current Internet Security Options for Trusted Sites.
 
-![](/img/image-404.png)
+![](/img/AutoConfig_Trusted_IE8_8.gif)
 
 Scroll down through the Security Settings to ActiveX Controls and Plug-ins. Several options are listed below the heading shown in the picture.
 

@@ -11,24 +11,24 @@ Edit Time Card Activity
 
 # Edit Time Card Activity
 
-![](/img/image-404.png)
+![](/img/quick_punch_button.gif)
 
-Inserting Punches using the ![](/img/image-404.png) button
+Inserting Punches using the ![](/img/CH7_Timecard3.gif) button
 
-* 1. Click on the ![](/img/image-404.png) button.
+* 1. Click on the ![](/img/CH7_Timecard5.gif) button.
   2. In the activity window a new line will appear filled out with the pair punches for the employee.
 
-![](/img/image-404.png)
+![](/img/CH7_Timecard7.gif)
 
 * 3. Fill in the information of the date and punch information.  To maneuver across the record you can Tab over the fields like if you were using a spread sheet
   4. Once you fill the required information hit Enter to save the record.
 
-Inserting Punches using the ![](/img/image-404.png) button
+Inserting Punches using the ![](/img/quick_punch_button.gif) button
 
-* 1. Click on the ![](/img/image-404.png) button.
+* 1. Click on the ![](/img/CH7_Timecard7.gif) button.
   2. The Quick Punch Update Form will come up
 
-![](/img/image-404.png).gif)
+![](/img/CH7_Timecard3.gif).gif)
 
 Quick Punch Update Form:
 
@@ -62,7 +62,7 @@ Duration - The number of hours that will be totaled is shown here.
 
 Add Duplicate Punches - Unless this box is checked InfiniTime will compare the punches being inserted to those already in the database when performing a Quick Punch. Any duplicate punches will be ignored. For example the image below shows an employee working from 7:30 AM to 5:00 PM on 1/17/2008. If a supervisor were to attempt to insert a punch on 1/17/2008 from 7:30 AM to 5:00 PM using quick punch then the punches would not be inserted unless Add Duplicate Punches was checked.
 
-![](/img/image-404.png)
+![](/img/CH7_Timecard5.gif)
 
 Clock Out if Clocked In - If this is checked it will only insert an out punch for that day and in/out for the rest of the date range. This option is only displayed when performing a single punch.
 
@@ -70,4 +70,4 @@ Weekday Only â If this is checked it will only insert punches for weekdays 
 
 Description - This is an audit description of the insertion of punches.
 
-![](/img/image-404.png) - The filter button will allow you to add punches to multiple employees at a time.  You can filter which employees will get the pair of punches either by departments, groups, or by tagging multiple employees.
+![](/img/filter-button.gif) - The filter button will allow you to add punches to multiple employees at a time.  You can filter which employees will get the pair of punches either by departments, groups, or by tagging multiple employees.

@@ -10,12 +10,12 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "InfiniTime Documentation",
-  tagline: "Documentation for the InfiniTime project",
-  favicon: "img/favicon.ico",
+  title: "Introduction",
+  tagline: "Documentation for the InfiniTime Online Project",
+  favicon: "favicon.ico",
 
   // Set the production url of your site here
-  url: "https://infintime.org",
+  url: "https://infinitimeonline.net",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -47,20 +47,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/InfiniTimeOrg/infintime-docs/tree/main/",
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/InfiniTimeOrg/infintime-docs/tree/main/",
-          // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
-        },
+
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -74,19 +61,17 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "InfiniTime Docs",
+        title: "InfiniTime Documentation",
         logo: {
           alt: "InfiniTime Logo",
-          src: "img/logo.svg",
+          src: "infinitime-logo.png",
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Documentation",
+            to: "https://version9.infinitimeonline.net/InfiniTime/winLoginWindow.aspx",
+            label: "Infinitime App",
+            position: "right",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/InfiniTimeOrg/infintime-docs",
             label: "GitHub",
@@ -106,26 +91,10 @@ const config = {
               },
             ],
           },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/infintime",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/InfiniTimeOrg",
-              },
-            ],
-          },
+
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
               {
                 label: "GitHub",
                 href: "https://github.com/InfiniTimeOrg/infintime-docs",

@@ -15,7 +15,7 @@ Displays department totals by day and calculates corresponding dollar totals.
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Department_Payroll_Detail.gif)
 
 Notes/Usage:
 

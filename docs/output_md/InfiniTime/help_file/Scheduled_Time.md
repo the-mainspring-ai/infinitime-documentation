@@ -11,7 +11,7 @@ Scheduled Time
 
 # Scheduled Time
 
-![](/img/image-404.png)
+![](/img/Scheduled_Time_Rounding.gif)
 
 Scheduled Time Rounding:  Before describing the Punch and Round To features it is important to understand the Grace Period Settings.  The Grace Period Settings allow you to create a window of time that tells InfiniTimeâ¢ when and how to classify a punch activity.
 

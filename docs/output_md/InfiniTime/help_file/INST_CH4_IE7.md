@@ -15,46 +15,46 @@ Trusted sites are used to indicate web sites that you trust. By adding the Infin
 
 Click on Tools as shown below.
 
-![](/img/image-404.png)
+![](/img/70clickadd.jpg)
 
 Click on Internet Options.
 
-![](/img/image-404.png)
+![](/img/70uncheckhttps.jpg)
 
 Click on the Security tab.
 
-![](/img/image-404.png)
+![](/img/Trusted_Sites.jpg)
 
 Click Trusted Sites.
 
-![](/img/image-404.png)
+![](/img/ClickonTools.jpg)
 
 Click the Sites button.
 
-![](/img/image-404.png)
+![](/img/70ClickSites.jpg)
 
 Uncheck the box that says, âRequire server verification (https:) for all sites in this zoneâ if your server does not have a secure certificate.
 
-![](/img/image-404.png)
+![](/img/70siteadded.jpg)
 
 Technical Note: HTTPS refers to the use of Hypertext Transfer Protocol (HTTP) with additional security measures in order to protect sensitive information. In order for a web server to use HTTPS the Administrator of the server must setup a secure certificate. HTTPS is not required for InfiniTime 7.0
 
 Type the address for the InfiniTime website into the box as shown below.
 
-![](/img/image-404.png)
+![](/img/InternetOptions.png)
 
 Click Add.
 
-![](/img/image-404.png)
+![](/img/InternetOptions.png)
 
 Verify that the InfiniTime website has been added to the trusted sites.
 
-![](/img/image-404.png)
+![](/img/70clickokcloseINETOP.jpg)
 
 Click Close to exit the Trusted Sites window.
 
-![](/img/image-404.png)
+![](/img/70uncheckhttps.jpg)
 
 Click OK to close the Internet Options window.
 
-![](/img/image-404.png)
+![](/img/70ClickSites.jpg)

@@ -21,103 +21,103 @@ Traditional Timecard: In Line Editing - Saving Changes to a Single Timecard Reco
 
 1. If there is only a single record for the selected date range, focus must be removed from the record before any changes will be saved. In the example below, an employee missed a punch on the first day of a pay period.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_MP4_NoDelSav.gif)
 
 2. In Line Edit refers to entering changes directly in the timecard record. Use tab to move the cursor to the Out Date field and set the desired date. Then use Tab again to move the cursor to the Out Time field and set the desired time. Alternatively, simply click in the Out Date and the Out Time and enter the desired values.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_MP1.gif)
 
 3. Once the desired values have been entered, press the Down Arrow Key. When working with the traditional timecard changes are saved immediately and the hour totals will display.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_4.jpg)
 
 Delayed Save: In Line Editing - Saving Changes to a Single Timecard Record
 
 1. If there is only a single record for the selected date range, focus must be removed from the record before any changes will be saved. In the example below, an employee missed a punch on the first day of a pay period.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep4_NoDelSav.gif)
 
 2. In Line Edit refers to entering changes directly in the timecard record. Use tab to move the cursor to the Out Date field and set the desired date. Then use Tab again to move the cursor to the Out Time field and set the desired time. Alternatively, simply click in the Out Date and the Out Time and enter the desired values.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_1.jpg)
 
 3. Once the desired values have been entered, press the Down Arrow Key to remove focus from the record. When focus is removed from a record while Delayed Save is enabled the Save Button will display. Click on the Save button to save the changes and calculate hour totals.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep4_NoDelSav.gif)
 
 Traditional Timecard: In Line Editing - Fixing a Missed Punch
 
 Identify the record with a missing punch. If the Missing Punch Exception is being tracked, the Out Time of the record with a missing punch will be shaded red as shown below.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_2.jpg)
 
 Use the Up & Down Arrows and the Tab Key to move the cursor to the Out Date Field where the punch is missing. Alternatively, simply click in the Out Date Field. Enter the appropriate date for the missed punch. Move the cursor to the Out Time field and enter the appropriate time for the missed punch.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep3.gif)
 
 Click on another record or use the down arrow key to move focus off of the altered record. Hour totals will calculate and be displayed immediately.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_MP1.gif)
 
 Traditional Timecard: In Line Editing - Editing Arrival or Departure Times
 
 Identify the record for which the Arrival or Departure Time must be edited. In the example below, the 8:20 AM punch on 4/5/10 needs to be changed to 8:00 AM, as the employee was picking up supplies from a distributor and was not on premises to clock in.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep1.gif)
 
 Use the Up & Down Arrows and the Tab Key to move the cursor to the Time field of the punch that needs to be edited. Alternatively, simply click in the appropriate field. Enter the time you wish to change the punch to.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep1.gif)
 
 Click on another record or use the down arrow key to move focus off of the altered record. Hour totals will calculate and be displayed immediately.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep2.gif)
 
 Delayed Save: In Line Editing - Fixing a Missed Punch
 
 Identify the record with a missing punch. If the Missing Punch Exception is being tracked, the Out Time of the record with a missing punch will be shaded red as shown below.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep3.gif)
 
 Use the Up & Down Arrows and the Tab Key to move the cursor to the Out Date Field where the punch is missing. Alternatively, simply click in the Out Date Field. Enter the appropriate date for the missed punch. Move the cursor to the Out Time field and enter the appropriate time for the missed punch.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_1.jpg)
 
 Click on another record or use the down arrow key to move focus off of the altered record. The Save Button will display. If you have additional changes to make in the employee's timecard, such as editing an arrival or departure time or fixing another missed punch, then do so. Once you have finished all changes for the employee, click on the Save button. If for some reason you would like to cancel the changes you have made, click the cancel button. The timecard will revert to its original state.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_3.jpg)
 
 Delayed Save: In Line Editing - Editing Arrival or Departure Times
 
 Identify the record for which the Arrival or Departure Time must be edited. In the example below, the 8:20 AM punch on 4/05/10 needs to be changed to 8:00 AM, as the employee was picking up supplies from a distributor and was not on premises to clock in.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_MP2.gif)
 
 Use the Up & Down Arrows and the Tab Key to move the cursor to the Time field of the punch that needs to be edited. Alternatively, simply click in the appropriate field. Enter the time you wish to change the punch to.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_MP3.gif)
 
 Click on another record or use the down arrow key to move focus off of the altered record. The Save Button will display. If you have additional changes to make in the employee's timecard, such as editing another arrival or departure time or fixing a missed punch, then do so. Once you have finished all changes for the employee, click on the Save button. If for some reason you would like to cancel the changes you have made, click the cancel button. The timecard will revert to its original state.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_MP2.gif)
 
 Delayed Save with Audit Trail Enabled - Fixing a Missed Punch
 
 Identify the record with a missing punch. If the Missing Punch Exception is being tracked, the Out Time of the record with a missing punch will be shaded red as shown below.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_3.jpg)
 
 Use the Up & Down Arrows and the Tab Key to move the cursor to the Out Date Field where the punch is missing. Alternatively, simply click in the Out Date Field. Enter the appropriate date for the missed punch. Move the cursor to the Out Time field and enter the appropriate time for the missed punch.
 
-![](/img/image-404.png)
+![](/img/UpdateTIS_AuditNote.gif)
 
 Click on another record or use the down arrow key to move focus off of the altered record. The Audit Description Update Form will display. Enter a comment describing why the punch was changed. This comment will be stored in the InfiniTime database for audit purposes.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_2.jpg)
 
 After saving the audit comment, the Save Button will display. If you have additional changes to make in the employee's timecard, such as editing an arrival or departure time or fixing another missed punch, then do so. The Audit Description Update Form will display after each change. Once you have finished all changes for the employee, click on the Save button. If for some reason you would like to cancel the changes you have made, click the cancel button. The timecard will revert to its original state and all audit comments will be removed.
 
-![](/img/image-404.png)
+![](/img/InLineEdit_ArrDep2.gif)
 
 Delayed Save: In Line Edit - Multiple Changes
 

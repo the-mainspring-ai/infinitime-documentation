@@ -40,16 +40,16 @@ Configuring the Zephyr for USB Direct Connection
 
 1. Enter into the Setup Menu and scroll down to select Options and Press OK (F4)
 
-![](/img/image-404.png)
+![](/img/Zephyr_menu_options.gif)
 
 2. In the Options Menu scroll down and select Comm Opt and Press OK (F4)
 
-![](/img/image-404.png)
+![](/img/zephyr_idle_screen.gif)
 
 3. In the Comm Opt Menu scroll down until you get to the RS232 option and select it by pressing OK (F4) an changing it to Y using the up arrow (F2) or down arrow (F3)  and press OK (F4) to set it.
 
-![](/img/image-404.png)
+![](/img/zephyr_comm_options.gif)
 
 4. To exit press ESC (F1) several times to go back to the main display.
 
-![](/img/image-404.png)
+![](/img/zephyr_menu.gif)

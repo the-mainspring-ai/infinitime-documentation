@@ -15,7 +15,7 @@ Displays the working status for the employees specified by Selection Criteria. E
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/SW_CH10_In_OutBoard.gif)
 
 Notes/Usage:
 

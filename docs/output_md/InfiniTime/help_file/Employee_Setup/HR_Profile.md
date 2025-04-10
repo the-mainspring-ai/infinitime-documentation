@@ -11,7 +11,7 @@ HR Profile
 
 # HR Profile
 
-![](/img/image-404.png)
+![](/img/HR_Profile.gif)
 
 In the HR Profile tab you will be able to gather information about the employee for HR purposes such as benefits, emergency contact, review dates, etc.
 

@@ -44,17 +44,17 @@ To access the Messaging Table:
 
 * Login to the Employee Module.
 
-![](/img/image-404.png)
+![](/img/msg6.gif)
 
 * The messages tab is displayed in the immediate background. Click
   on it to access the messaging table.
 
-![](/img/image-404.png)
+![](/img/tcard22.gif)
 
 Messages sent to the employee within the specified date range are displayed
 on the Incoming tab.
 
-![](/img/image-404.png)
+![](/img/msg11.gif)
 
 A history of messages sent by the employee within the date range specified
 is displayed on the Outgoing tab.
@@ -65,16 +65,16 @@ To access the Messaging Table:
 
 * Login to the Manager Module.
 
-![](/img/image-404.png)
+![](/img/tcard13.gif)
 
 * The messages tab is displayed in the immediate background.
 
-![](/img/image-404.png)
+![](/img/tcard17.gif)
 
 Messages sent to the employee within the specified date range are displayed
 on the Incoming tab.
 
-![](/img/image-404.png)
+![](/img/msg31.gif)
 
 A history of messages sent by the employee within the date range specified
 is displayed on the Outgoing tab.
@@ -94,12 +94,12 @@ multiple recipients for Time Off and Schedule Change Requests.
 1. Click on the Company
 Button in the Manager Module.
 
-![](/img/image-404.png)
+![](/img/msg34.gif)
 
 2. Check the 'Allow
 Multiple Request Recipients box.'
 
-![](/img/image-404.png)
+![](/img/tcard14.gif)
 
 Future
 Date Warning
@@ -108,7 +108,7 @@ To prevent accidental entries InfiniTime will display the warning
 below when Schedule Change Requests or Time Off Requests are sent more
 than one year prior to the date(s) on the request.
 
-![](/img/image-404.png)
+![](/img/msg18.gif)
 
 # Message Types
 
@@ -196,59 +196,59 @@ Module.
 
 * Click on the Outgoing Tab.
 
-![](/img/image-404.png)
+![](/img/tcard12.gif)
 
 * Click on Message.
 
-![](/img/image-404.png)
+![](/img/msg26.gif)
 
 * Enter a description for your message. This is similar to the subject
   of an email.
 
-![](/img/image-404.png)
+![](/img/msg30.gif)
 
 * Enter the message you wish to send to your supervisor in the Message
   Field.
 
-![](/img/image-404.png)
+![](/img/msg9.gif)
 
 * Select the employee(s) you wish to send the message to. Click insert
   to send the message to additional employees.
 
-![](/img/image-404.png)
+![](/img/msg16.gif)
 
 * Click OK to send the message.
 
-![](/img/image-404.png)
+![](/img/msg32.gif)
 
 # Sending a Note from the Employee Module
 
 * Click on Employee.
 
-![](/img/image-404.png)
+![](/img/msg37.gif)
 
 * Click on Message.
 
-![](/img/image-404.png)
+![](/img/tcard15.gif)
 
 * Enter a description for your message. This is similar to the subject
   of an email.
 
-![](/img/image-404.png)
+![](/img/msg19.gif)
 
 * Enter the message you wish to send to your supervisor in the Message
   Field.
 
-![](/img/image-404.png)
+![](/img/msg25.gif)
 
 * Select the employee(s) you wish to send the message to. Click insert
   to send the message to additional employees.
 
-![](/img/image-404.png)
+![](/img/msg42.gif)
 
 * Click OK to send the message.
 
-![](/img/image-404.png)
+![](/img/msg13.gif)
 
 # Sending a Schedule Change Request
 
@@ -257,48 +257,48 @@ Module.
 
 * Click on the Outgoing Tab.
 
-![](/img/image-404.png)
+![](/img/msg9.gif)
 
 * Click on Schedule Request.
 
-![](/img/image-404.png)
+![](/img/msg17.gif)
 
 * Enter a message description for the Schedule Change Request. This
   is similar to the subject of an email and will appear in the Incoming
   Messages table when your supervisor logs in to the Manager Module.
 
-![](/img/image-404.png)
+![](/img/tcard18.gif)
 
 * Enter a message to accompany your request. This should explain
   the nature of the request and include any additional information required
   by your supervisor.
 
-![](/img/image-404.png)
+![](/img/tcard12.gif)
 
 * Select a From Date. The schedule change will take effect starting
   on this date.
 
-![](/img/image-404.png)
+![](/img/msg19.gif)
 
 * Select a To Date. The schedule change will end on this date.
 
-![](/img/image-404.png)
+![](/img/TimeOffReq3.png)
 
 * Select a From Time. This is the time you will be scheduled to arrive
   at work beginning on the start date and ending on the end date.
 
-![](/img/image-404.png)
+![](/img/msg40.gif)
 
 * Select a To Time. This is the time you will be expected to depart
   from work beginning on the start date and ending on the end date.
 
-![](/img/image-404.png)
+![](/img/tcard25.gif)
 
 * If 'Allow Multiple Request Recipients' is enabled the Insert Button
   will be displayed as shown below. To select additional recipients
   click on the Insert Button.
 
-![](/img/image-404.png)
+![](/img/msg6.gif)
 
 * Click OK to send the message.
 
@@ -307,23 +307,23 @@ Module.
 * Highlight the Schedule Change Request in the Incoming Messages
   Table.
 
-![](/img/image-404.png)
+![](/img/msg41.gif)
 
 * Click View.
 
-![](/img/image-404.png)
+![](/img/msg3.gif)
 
 * Click Approve
 
-![](/img/image-404.png)
+![](/img/msg46.gif)
 
 * Alter the approval message if desired.
 
-![](/img/image-404.png)
+![](/img/empm19.gif)
 
 * Click OK to send the message.
 
-![](/img/image-404.png)
+![](/img/tcard21.gif)
 
 * The employeeâs schedule will be altered at this time.
 
@@ -332,23 +332,23 @@ Module.
 * Highlight the Schedule Change Request in the Incoming Messages
   Table.
 
-![](/img/image-404.png)
+![](/img/tcard13.gif)
 
 * Click View.
 
-![](/img/image-404.png)
+![](/img/msg28.gif)
 
 * Click Decline.
 
-![](/img/image-404.png)
+![](/img/TimeOffReq2.gif)
 
 * Alter the automatic decline message if desired.
 
-![](/img/image-404.png)
+![](/img/msg11.gif)
 
 * Click OK to send the message.
 
-![](/img/image-404.png)
+![](/img/msg27.gif)
 
 # Toggling the status of a Schedule Change Request
 
@@ -370,43 +370,43 @@ request status and their schedule will be returned to its original state.
 
 * Click on Employee and then click on Time Off Request.
 
-![](/img/image-404.png)
+![](/img/msg31.gif)
 
 * Enter a message description for the Time Off Request. This is similar
   to the subject of an email and will be displayed in the incoming messages
   table when your supervisor logs into the Manager Module.
 
-![](/img/image-404.png)
+![](/img/msg8.gif)
 
 * Enter a message to accompany your request. This should explain
   the nature of the request and include any additional information required
   by your supervisor.
 
-![](/img/image-404.png)
+![](/img/msg2.gif)
 
 * Select a From Date. This is the start date of your vacation.
 
-![](/img/image-404.png)
+![](/img/empm21.gif)
 
 * Select a To Date. This is the end date of your vacation.
 
-![](/img/image-404.png)
+![](/img/tcard19.jpg)
 
 * Select a From Time. This is the start time of your vacation, which
   begins on the start date.
 
-![](/img/image-404.png)
+![](/img/empm22.gif)
 
 * Select a To Time. This is the end time of your vacation, which
   occurs on the end date.
 
-![](/img/image-404.png)
+![](/img/tcard15.gif)
 
 * If 'Allow Multiple Request Recipients' is enabled the Insert Button
   will be displayed as shown below. To select additional recipients
   click on the Insert Button.
 
-![](/img/image-404.png)
+![](/img/msg32.gif)
 
 * Click OK to send the request.
 
@@ -414,19 +414,19 @@ request status and their schedule will be returned to its original state.
 
 * Highlight the Time Off Request in the Incoming Messages Table.
 
-![](/img/image-404.png)
+![](/img/TimeOffReq2.gif)
 
 * Click View.
 
-![](/img/image-404.png)
+![](/img/MSG_CompanyButton.gif)
 
 * Click Approve
 
-![](/img/image-404.png)
+![](/img/msg29.gif)
 
 * Choose an Other Activity type to associate the vacation time with.
 
-![](/img/image-404.png)
+![](/img/tcard18.gif)
 
 * Alter the approval message if desired.
 * Click OK to send the message.
@@ -441,19 +441,19 @@ future.
 
 * Highlight the Time Off Request in the Incoming Messages Table.
 
-![](/img/image-404.png)
+![](/img/msg36.gif)
 
 * Click View.
 
-![](/img/image-404.png)
+![](/img/empm24.gif)
 
 * Click Decline.
 
-![](/img/image-404.png)
+![](/img/DateWarning.gif)
 
 * Alter the automatic decline message if desired.
 
-![](/img/image-404.png)
+![](/img/msg44.gif)
 
 * Click OK to send the message.
 * The employeeâs schedule will be altered and other activity entries
@@ -490,21 +490,21 @@ Alter an Unread Message:
   or Employee Module.
 * Click on the Outgoing Tab.
 
-![](/img/image-404.png)
+![](/img/empm23.gif)
 
 * Highlight the message you wish to alter.
 
-![](/img/image-404.png)
+![](/img/MSG_CompanyButton.gif)
 
 * Click Change. If the message is unread, InfiniTime will open the
   message and changes may be made.
 
-![](/img/image-404.png)
+![](/img/msg21.gif)
 
 * If the message has been read the error below will be displayed.
   Should this message be displayed the message cannot be edited.
 
-![](/img/image-404.png)
+![](/img/msg18.gif)
 
 To
 Delete an Unread Message:
@@ -513,21 +513,21 @@ Delete an Unread Message:
   or Employee Module.
 * Click on the Outgoing Tab.
 
-![](/img/image-404.png)
+![](/img/empm24.gif)
 
 * Highlight the message you wish to alter.
 
-![](/img/image-404.png)
+![](/img/msg2.gif)
 
 * Click Delete. If the message is unread, InfiniTime
   will ask you to confirm your decision to delete the note.
 
-![](/img/image-404.png)
+![](/img/tcard20.gif)
 
 * If the message has been read the error below will be displayed.
   Should this message be displayed the message cannot be deleted.
 
-![](/img/image-404.png)
+![](/img/FunctionalOptions_AllowMultipleRequests.gif)
 
 # Viewing Messages
 
@@ -544,19 +544,19 @@ Viewing a Message:
 * Click on either the Incoming or Outgoing Tab depending on the messages
   you wish to view.
 
-![](/img/image-404.png)
+![](/img/msg13.gif)
 
 * Highlight the message you wish to view.
 
-![](/img/image-404.png)
+![](/img/msg28.gif)
 
 * Click View.
 
-![](/img/image-404.png)
+![](/img/msg24.gif)
 
 * The message will be displayed.
 
-![](/img/image-404.png)
+![](/img/msg40.gif)
 
 # Conversation: Message History
 
@@ -572,18 +572,18 @@ the Conversation Button
 * Click on either the Incoming or Outgoing Tab depending on the messages
   you wish to view.
 
-![](/img/image-404.png)
+![](/img/empm13.gif)
 
 * Highlight the message you wish to view.
 
-![](/img/image-404.png)
+![](/img/empm19.gif)
 
 * Click Conversation
 
-![](/img/image-404.png)
+![](/img/tcard22.gif)
 
 * A list of all related messages will be displayed for viewing purposes
   only. Messages cannot be deleted or altered from the Message Conversation
   Table.
 
-![](/img/image-404.png)
+![](/img/msg27.gif)

@@ -15,7 +15,7 @@ Displays hourly totals for each department according to selection criteria. Time
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Department_Summary.gif)
 
 Options: The Department Summary Report is a user customizable report. Refer to the [Customizable Report Section](../../User_Customizable_Reports.md) of this manual for more information.
 

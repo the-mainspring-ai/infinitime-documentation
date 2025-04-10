@@ -8,6 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, #0073e6 0%, #003366 100%);
+  color: white;
 }
 
 @media screen and (max-width: 996px) {
@@ -16,8 +18,27 @@
   }
 }
 
+.heroDescription {
+  margin: 0 auto 2rem;
+  max-width: 700px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.ctaButtons {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+  }
 }

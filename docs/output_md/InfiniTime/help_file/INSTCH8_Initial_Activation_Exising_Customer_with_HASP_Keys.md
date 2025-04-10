@@ -18,19 +18,19 @@ Activating the InfiniTime HASP License Key Electronically
 1. Login to the Manager Module as an employee assigned to the Administrator Security Role.
 2. Click on Help - About InfiniTime
 
-![](/img/image-404.png)
+![](/img/INST_CH8_ElectronicActivation_1.gif)
 
 3. Click on Tech Info
 
-![](/img/image-404.png)
+![](/img/INSTCH8_ElectronicActivation_Last.gif)
 
 4. Click on Activation
 
-![](/img/image-404.png)
+![](/img/INST_CH8_ElectronicActivation_3.gif)
 
 5. Ensure all required fields on the Activate / Update License form are filled with current contact information. Required Fields include First Name, Last Name, Company Name, Address 1, City, State, Zip Code, Phone Number, and Email.
 
-![](/img/image-404.png)
+![](/img/INST_CH8_ElectronicActivation_1.gif)
 
 6. Click Electronic to connect to the InfiniTime Software Licensing Server via the Internet. InfiniTime will perform the following actions during the electronic software activation:
 
@@ -42,4 +42,4 @@ Activating the InfiniTime HASP License Key Electronically
 
 7. A confirmation message will be displayed once the activation process is complete.
 
-![](/img/image-404.png)
+![](/img/INSTCH8_ElectronicActivation_Last.gif)
