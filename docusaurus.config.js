@@ -10,9 +10,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "InfiniTime Documentation",
+  title: "Introduction",
   tagline: "Documentation for the InfiniTime Online Project",
-  favicon: "img/favicon.ico",
+  favicon: "favicon.ico",
 
   // Set the production url of your site here
   url: "https://infinitimeonline.net",
@@ -47,20 +47,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/InfiniTimeOrg/infintime-docs/tree/main/",
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/InfiniTimeOrg/infintime-docs/tree/main/",
-          // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
-        },
+
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -74,22 +61,16 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "InfiniTime Docs",
+        title: "InfiniTime Documentation",
         logo: {
           alt: "InfiniTime Logo",
-          src: "static/infinitime-logo.webp",
+          src: "infinitime-logo.png",
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Documentation",
-          },
-          {
             to: "https://version9.infinitimeonline.net/InfiniTime/winLoginWindow.aspx",
             label: "Infinitime App",
-            position: "left",
+            position: "right",
           },
           {
             href: "https://github.com/InfiniTimeOrg/infintime-docs",
@@ -110,26 +91,10 @@ const config = {
               },
             ],
           },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/infintime",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/InfiniTimeOrg",
-              },
-            ],
-          },
+
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
               {
                 label: "GitHub",
                 href: "https://github.com/InfiniTimeOrg/infintime-docs",

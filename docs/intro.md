@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# InfiniTime
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's explore **InfiniTime** - a comprehensive time management and employee scheduling system.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+This documentation will help you understand and navigate the InfiniTime system, whether you're a system administrator, manager, or employee user.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+While this documentation primarily covers InfiniTime v7.0, much of the information remains relevant for newer versions with appropriate context. Features of newer systems aren't documented. The images while still relevant look dated due to modernization of user interfaces over the years.
 
-### What you'll need
+## Using This Documentation
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+This documentation is organized into sections that cover different aspects of the InfiniTime system. Use the sidebar navigation to find information on specific topics.
 
-## Generate a new site
+To get the most from this documentation:
 
-Generate a new Docusaurus site using the **classic template**.
+1. Browse through the sections to familiarize yourself with available features
+2. Use the search function to find specific topics
+3. Follow step-by-step guides for common procedures
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+We're actively updating this documentation to make it more comprehensive and user-friendly. If you find any inconsistencies or have suggestions for improvements, please contact your system administrator.
