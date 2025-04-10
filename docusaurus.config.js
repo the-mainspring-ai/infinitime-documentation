@@ -11,11 +11,11 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "InfiniTime Documentation",
-  tagline: "Documentation for the InfiniTime project",
+  tagline: "Documentation for the InfiniTime Online Project",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://infintime.org",
+  url: "https://infinitimeonline.net",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -77,7 +77,7 @@ const config = {
         title: "InfiniTime Docs",
         logo: {
           alt: "InfiniTime Logo",
-          src: "img/logo.svg",
+          src: "static/infinitime-logo.webp",
         },
         items: [
           {
@@ -86,7 +86,11 @@ const config = {
             position: "left",
             label: "Documentation",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          {
+            to: "https://version9.infinitimeonline.net/InfiniTime/winLoginWindow.aspx",
+            label: "Infinitime App",
+            position: "left",
+          },
           {
             href: "https://github.com/InfiniTimeOrg/infintime-docs",
             label: "GitHub",
