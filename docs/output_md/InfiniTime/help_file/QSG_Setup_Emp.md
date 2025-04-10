@@ -31,7 +31,7 @@ Accessing the Employee Table:
 
 1. Click on the Employee Button as shown below:
 
-![](/img/image-404.png)
+![](/img/Demographics.gif)
 
 The Employee Table
 
@@ -43,7 +43,7 @@ Quick Start Guide: Usage document for more information on grid configuration.
 Employee information, settings, and the Employee Timecard Activity table
 may be accessed from the employee table.
 
-![](/img/image-404.png)
+![](/img/QS_Chapter1_10.gif)
 
 Insert â Displays the employee
 update form. Used to Insert a new employee.
@@ -70,7 +70,7 @@ or when viewing an employeeâs information. All employee related information
 and most employee settings can be edited from within the employee update
 form. An overview of each field is provided below.
 
-![](/img/image-404.png)
+![](/img/QSG_SETUP_EmpButton.gif)
 
 Required fields are noted as such in the field description. Should a
 required field be left blank upon attempting to save the record by clicking

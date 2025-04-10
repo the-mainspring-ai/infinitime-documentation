@@ -15,18 +15,18 @@ Timecard Notes can be viewed for a specific date from the Notes Tab on the Audit
 
 1. Open the Company Timecard.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0005.gif)
 
 2. Right Click on the Timecard Record you wish to check for Timecard Notes.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0001.gif)
 
 3. Click on Audit Trail.
 
 4. Click on the Note Tab.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0006.gif)
 
 5. All notes associated with the Timecard Punch Pair will be displayed.
 
-![](/img/image-404.png)
+![](/img/SW_CH11_NOTES_0005.gif)

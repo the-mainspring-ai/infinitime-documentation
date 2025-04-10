@@ -15,11 +15,11 @@ Lists each port in use and all readers associated with the port. Provides detail
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/System_Monitor_1.gif)
 
-![](/img/image-404.png)
+![](/img/System_Monitor_1.gif)
 
-![](/img/image-404.png)
+![](/img/System_Monitor_3.gif)
 
 Notes/Usage:
 

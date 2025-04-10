@@ -15,7 +15,7 @@ Displays a list of employees that have no hours worked in the date range specifi
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_With_Zero_Hours.gif)
 
 Notes/Usage:
 

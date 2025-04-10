@@ -11,7 +11,7 @@ Unscheduled Time
 
 # Unscheduled Time
 
-![](/img/image-404.png)
+![](/img/rOUNDING_mETHOD.gif)
 
 Some companies have rules regarding how fractions of hours are calculated. These rules apply to the amount of hours between the clock-in and clock-out punches and are reflected in the various reports InfiniTimeâ¢ generates. The InfiniTimeâ¢ program allows you to enter punch specific rounding rules for each punch type (i.e. clock in, break, clock out).
 
@@ -45,7 +45,7 @@ All calculated totals will end in .25 or multiples of .25.
 
 Rounding Settings
 
-![](/img/image-404.png)
+![](/img/rOUNDING_mETHOD.gif)
 
 Selecting any method other than, âNo Rounding,â will generate a window to allow you to customize the punch rounding.
 
@@ -55,7 +55,7 @@ Round Forward If Equal To or Greater Than:  Enter the number of minutes that ar
 
 Rounding Method
 
-![](/img/image-404.png)
+![](/img/Rounding_Rules.gif)
 
 This drop down list allows you to choose how the punches are grouped for your custom rounding.
 

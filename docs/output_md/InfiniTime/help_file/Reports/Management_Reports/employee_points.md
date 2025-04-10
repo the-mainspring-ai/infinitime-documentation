@@ -15,7 +15,7 @@ Displays Employee Points as accrued from exceptions within the date range specif
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_Points.gif)
 
 Notes/Usage:
 

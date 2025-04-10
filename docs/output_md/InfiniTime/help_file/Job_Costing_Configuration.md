@@ -36,19 +36,19 @@ To Insert a Department:
 
 1.) Click on the Department Button on the main toolbar to open the Department Table.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_4.gif)
 
 2.) Click on Insert.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_22.gif)
 
 3.) Enter the appropriate information as shown.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_12.gif)
 
 4.) Click OK to save the record.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_20.gif)
 
 Configuring Jobs
 
@@ -71,19 +71,19 @@ To Insert a Job:
 
 1.) Click on Lookups - Employee Setup - Job Costing Information - Activity Jobs to open the Activity Jobs Table.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_11.gif)
 
 2.) Click on Insert.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_22.gif)
 
 3.) Enter the appropriate information as shown.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_3.gif)
 
 4.) Click OK to save the record.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_6.gif)
 
 Configuring Tasks
 
@@ -106,19 +106,19 @@ To Insert a Task:
 
 1.) Click on Lookups - Employee Setup - Job Costing Information - Activity Tasks to open the Activity Tasks Table.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_8.gif)
 
 2.) Click on Insert.
 
-![](/img/image-404.png)
+![](/img/ud11.gif)
 
 3.) Enter the appropriate information as shown.
 
-![](/img/image-404.png)
+![](/img/ColSel_Sel.gif)
 
 4.) Click OK to save the record.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_16.gif)
 
 Employee Job Costing Settings
 
@@ -128,19 +128,19 @@ To Assign a Default Department, Job, or Task to an employee:
 
 1.) Click on the Employee Button on the main toolbar to open the employee table.
 
-![](/img/image-404.png)
+![](/img/ColSel_Down.gif)
 
 2.) Select the employee you wish to configure Job Costing Settings for from the list and click change.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_12.gif)
 
 3.) Click on the Settings Tab.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_15.gif)
 
 4.) Select the Department, Job, or Task you would like to assign as the employee's default. It should be noted the Job and Task fields will not be displayed until at least one Job or Task is configured within InfiniTime. This simplifies the display of the Settings Tab for companies who do not utilize Job Costing.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_11.gif)
 
 Note: Only the Default Department is required.  The Default Job and Default Task fields are not required as some companies may not wish all employees to have their activity associated with a Job or Task by default. In this way Office workers who simply work in a department.
 
@@ -152,27 +152,27 @@ To add the Task and Job Fields to the Company Timecard Table:
 
 1.) Click on the Timecard Button in the main toolbar to open the Company Timecard Table
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_14.gif)
 
-2.) Click on the 'Select Grid Columns' button. ( ![](/img/image-404.png).gif))
+2.) Click on the 'Select Grid Columns' button. ( ![](/img/ColSel_Up.gif).gif))
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_2.gif)
 
-3.) Locate the Task and Job Fields on the 'Available' list and click on ![](/img/image-404.png) to move them to the 'Selected' list.
+3.) Locate the Task and Job Fields on the 'Available' list and click on ![](/img/ud11.gif) to move them to the 'Selected' list.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_1.gif)
 
-4.) Use the ![](/img/image-404.png) and ![](/img/image-404.png) buttons to move the Task and Job Fields up and down in the list to alter order columns will be displayed in.
+4.) Use the ![](/img/JobCosting_Config_6.gif) and ![](/img/ColSel_Up.gif) buttons to move the Task and Job Fields up and down in the list to alter order columns will be displayed in.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_7.gif)
 
 5.) Click Apply to confirm and save your changes.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_20.gif)
 
 6.) The Job and Task fields will be displayed in the Timecard Table.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_9.gif)
 
 Configuring Wages
 
@@ -182,24 +182,24 @@ To Configure Wages for use with Job Costing:
 
 1.) Click on the Employee Button on the main toolbar to open the employee table.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_3.gif)
 
 2.) Select the employee you wish to configure Wages for from the list and click change.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_8.gif)
 
 3.) Click on the Wages Category.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_19.gif)
 
 4.) Click on Insert
 
-![](/img/image-404.png)
+![](/img/ColSel_Sel.gif)
 
 5.) Choose a combination of Department, Job, or Task for which the wage will apply.
 
-![](/img/image-404.png)
+![](/img/ColSel_Down.gif)
 
 6.) Click OK to save the record.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_10.gif)

@@ -26,13 +26,13 @@ quick assign action for all employees. The warning below will be displayed
 if a filter is not set and the user attempts to Click OK on the Quick
 Assign Update Form.
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_Shifts1.jpg)
 
 Accessing Quick Assign:
 
 * Click on Tools
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_SchedAvail.jpg)
 
 2. Click on Quick Assign. The Quick Assign History window
    will be displayed as shown below.
@@ -47,7 +47,7 @@ a policy to all of the employees in a specific department and later notice
 that you assigned the wrong policy, the Quick Assign History window can
 be used to undo those changes.
 
-![](/img/image-404.png)
+![](/img/Ch2_QALookup.jpg)
 
 Undo -
 Reverts all employees affected by the selected Quick Assign Action to
@@ -120,13 +120,13 @@ are not using Access Control, then the Access control group will not show
 in the list, if you do not have any accruals set or holiday schedules,
 those two items will not show in the list to be assigned.
 
-![](/img/image-404.png)
+![](/img/AccessQA.jpg)
 
 General Tab
 
 The general
 tab is used to assign general employee settings to employees specified
-by the employee filter. The Lookup button ![](/img/image-404.png)
+by the employee filter. The Lookup button ![](/img/Ch2_QA_GroupSel.jpg)
 can be used to choose from available
 items for each setting or you can simply type the item directly into the
 field. Refer to Data Entry and Navigation Assistance for more information
@@ -181,7 +181,7 @@ using the quick assign tool. Shifts can either be reset to only those
 specified by the quick assign, or shifts specified by the Quick Assign
 can be appended to the settings previously configured for employees.
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_SchedAvail.jpg)
 
 To Set Employee Shifts
 
@@ -218,7 +218,7 @@ specified by the quick assign, or Schedule Availability Types specified
 by the Quick Assign can be appended to the settings previously configured
 for employees.
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays011.png)
 
 To Set Schedule Availability
 Types
@@ -259,7 +259,7 @@ to only those specified by the quick assign, or shifts specified by the
 Quick Assign can be appended to the settings previously configured for
 employees.
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays012.png)
 
 To Set Employee Trained
 Tasks
@@ -299,7 +299,7 @@ Default Schedule will be updated and use the Quick Schedule button to
 define a schedule. Clicking OK will assign the specified schedule to all
 employees designated by the Employee Filter.
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_GroupUnsel.jpg)
 
 Group Tab
 
@@ -312,7 +312,7 @@ designated by the Employee Filter. Refer
 to Chapter 5 Employee Setup - Employee Update Form - Groups for more information
 on the use and configuration of groups.  
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_GroupSel.jpg)
 
 Note: A group description must be specified in
 order for the group assigned to the employee to be altered.
@@ -323,11 +323,11 @@ The image below shows
 a blank group description. In this case, a group description has not yet
 been specified.
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_TTask.jpg)
 
 The Image below shows
 a filled group description. In this case, a group description has been
 specified and the Phoenix group will be assigned to all employees specified
 by the Employee Filter.
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays012.png)

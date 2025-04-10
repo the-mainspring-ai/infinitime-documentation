@@ -15,7 +15,7 @@ Displays a summary of timecard activity information for each department within t
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Department_Daily_Summary.gif)
 
 Options: The Department Daily Summary Report is a user customizable report. Refer to the [Customizable Report Section](../../User_Customizable_Reports.md) of this manual for more information.
 

@@ -15,7 +15,7 @@ Displays an overview of employee activity within the specified date range.
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Mini_Timecard_Detail.gif)
 
 Notes/Usage:
 

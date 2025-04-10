@@ -15,7 +15,7 @@ Displays a list of employees that have been hired in the specific date range sel
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_New_Hire.gif)
 
 Notes/Usage:
 

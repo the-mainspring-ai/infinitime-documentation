@@ -42,21 +42,21 @@ Regular and Overtime 1 Hours in the Head Nurse Department receive Premium Pay
 
 If both regular and overtime 1 hours in the Head Nurse department receive premium pay then the premium must be configured separately for both Regular Hours and Overtime 1 hours as shown. The example below uses an Amount Pay Method which pays employees an additional dollar amount for every hour eligible for the premium. In the example, Regular Hours worked as a Head Nurse receive an additional dollar per hour while Overtime Hours receive an additional two dollars per hour.
 
-![](/img/image-404.png)
+![](/img/DeptPrem_EX_2.gif)
 
-![](/img/image-404.png)
+![](/img/DeptPremium_Rate.gif)
 
 Only Overtime 1 Hours in the Head Nurse Department receive Premium Pay
 
 If only Overtime 1 hours in the Head Nurse department receive premium pay then the premium should only be configured for Overtime 1 hours as shown. The example below uses an Amount Pay Method which pays employees an additional dollar amount for every hour eligible for the premium. In the example, Overtime hours worked as a Head Nurse receive an additional two dollars per hour while Regular Hours do not receive a premium and are paid at the employee's base wage.
 
-![](/img/image-404.png)
+![](/img/DeptPrem_EX_2.gif)
 
-![](/img/image-404.png)
+![](/img/PREMPayMethods.gif)
 
 Identify an appropriate Pay Method
 
-![](/img/image-404.png)
+![](/img/DeptPremium_Percent.gif)
 
 When configuring Pay Premiums be sure to select the Pay Method that matches your needs. InfiniTime supports three separate pay methods as listed below. Pay special attention to the labels and units on the form when selecting Pay Premiums. If 'None' is selected in the Premium Pay Drop Down a premium will not be applied for the Hours Type.
 
@@ -70,7 +70,7 @@ $10.00 + $5.00 = Hourly Wage
 
 $15.00 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/DeptPrem_EX_3.gif)
 
 Percent Pay Method
 
@@ -84,13 +84,13 @@ $10.00 + ($5.00) = Hourly Wage
 
 $15.00 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/DeptPremium_Amt.gif)
 
 Rate Pay Method
 
 The Rate Pay Method defines a specific wage for overtime hours. When the Rate Pay Method is used employee default wages are ignored and the Premium Rate is used for overtime hours.
 
-![](/img/image-404.png)
+![](/img/DeptPremium_Amt.gif)
 
 WARNING: The Rate Pay Method is not a multiplier of the employee's wage. Selecting the Rate Pay Method and entering 1.5 as the Overtime Rate will pay the employee $1.50 per hour. Remember, the Employee's default wage is ignored when the Rate Pay Method is selected. The Overtime Rate is entered in dollars per hour and will be used as the employee's overtime wage.
 

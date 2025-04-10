@@ -13,7 +13,7 @@ General Information
 
 In the General tab of the policy update form, basic information about the policy is given.
 
-![](/img/image-404.png)
+![](/img/CH4_Policy5.gif)
 
 Ok â Exits the window and saves any changes to the database.
 
@@ -49,7 +49,7 @@ Configuring Classes and Tenures
 
 In many cases policy settings may change according to the length of time an employee is with the company and what type of position they hold. InfiniTime uses a Class and Tenure system to automatically move employees from one policy to another as their policy settings change. Classes are used to separate policies into groups, while tenures break policies into a chronological sequence. The following example represents a company with policies configured for full and part time employees. Policy settings change with benefits in the form of longer breaks and bonus hours for employees who have been with the company for five years, and ten years or more. A separate policy is also included for salary employees.
 
-![](/img/image-404.png)
+![](/img/CH4_Policy5.gif)
 
 | Policy Name | Class | Default Class | Working From | Working To |
 | 1st to 5th Years Part Time | Part Time | Part Time | 0 | 5 |

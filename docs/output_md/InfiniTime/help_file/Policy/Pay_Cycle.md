@@ -13,7 +13,7 @@ Pay Cycle
 
 The employee Pay Cycle is used to define how often employees assigned to the policy are paid.  Additional options related to the Payroll Cycle, such as punch splitting and edit lockout,  are also available on the Pay Cycle Tab.
 
-![](/img/image-404.png)
+![](/img/EndofWeek_11PM_REP.gif)
 
 Ok â Exits the window and saves any changes to the database.
 
@@ -49,23 +49,23 @@ Split Punches at - Split Punches includes options for splitting employee hours b
 
 End of Day: If this option is selected employee working hours will be split at the end of day. By default, midnight is considered the end of day though this can be changed by setting the 'Clock In Missed Punch Day Change Time' and 'Clock Out Missed Punch Day Change Time' settings on the General Tab of the Overtime Rules section of the policy to the same time. For example, the settings below will change the end of day to 11:00 PM.
 
-![](/img/image-404.png)
+![](/img/SplitPunches_EndofDay.gif)
 
 When employees work over the end of day their hours will automatically be split between the day their working period started and the day on which it ended. Examples are shown below.
 
 End of Day at 11:00 PM
 
-![](/img/image-404.png)
+![](/img/EndofDay_11PM_REP.gif)
 
 Note: The example above shows an end of day at 11:00 PM. Hours from 11/7/09 11:00 PM to 11/08/09 at 11:00 PM are considered as worked on 11/08/09 as illustrated by the report below.
 
-![](/img/image-404.png)
+![](/img/5-_pay_cycle.gif)
 
 End of Day at 12:00 AM
 
-![](/img/image-404.png)
+![](/img/EndofWeek_11PM.gif)
 
-![](/img/image-404.png)
+![](/img/EndOfDay_11PM.gif)
 
 End of Week: If this option is selected employee working hours will be split at the end of the work week. Remember, the End of the Work week is determined by the Start Of Week Setting. For example, if Monday is the Start of the Week then End of Day Sunday is considered the End of the Week. With this in mind the End of Day setting is important when splitting Punches at the End of Week aswell. By default, midnight is considered the end of day though this can be changed by setting the 'Clock In Missed Punch Day Change Time' and 'Clock Out Missed Punch Day Change Time' settings on the General Tab of the Overtime Rules section of the policy to the same time. It should be noted that punches will only be split at the end of the week. Employees who work across the end of day at other times during the week will show missing punches on their timecard.
 
@@ -73,17 +73,17 @@ Split Punches at End of Week: End of Day at 11:00 PM
 
 The example below depicts a Weekly Pay Period with Monday as the Start of Week. The End of Day Time is configured as 11:00 PM.
 
-![](/img/image-404.png)
+![](/img/EndofWeek_12PM.gif)
 
-![](/img/image-404.png)
+![](/img/EndOfDay_12AM.gif)
 
 Split Punches at End of Week: End of Day at 12:00 AM
 
 The example below depicts a BiWeekly Pay Period with Monday as the Start of Week. The End of Day Time is 12:00 AM.
 
-![](/img/image-404.png)
+![](/img/SplitPunches_EndofDay.gif)
 
-![](/img/image-404.png)
+![](/img/EndofWeek_11PM_REP.gif)
 
 End of Pay Period: If this option is selected employee working hours will be split at the end of the pay period. Remember, the End of the Pay Period is determined by the Pay Cycle and the time at which the day ends. End of Day on the Last day in the pay cycle is considered the end of the pay period. With this in mind the End of Day setting is important when splitting Punches at the End of the Pay Period. By default, midnight is considered the end of day though this can be changed by setting the 'Clock In Missed Punch Day Change Time' and 'Clock Out Missed Punch Day Change Time' settings on the General Tab of the Overtime Rules section of the policy to the same time. It should be noted that punches will only be split at the end of the pay period. Employees who work across the end of day at other times during the pay period will show missing punches on their timecard.
 
@@ -95,4 +95,4 @@ Time For Edit Lockout - This option sets the time when the administrator will no
 
 Lockout Override Roles - By default, edit lockout is applied to all employees within the InfiniTime Application. This prevents users from editing employee timecards after a certain period of time has elapsed. Lockout override can be used to exclude specific security roles from Edit Lockout. For example, inserting the Administrator and Payroll Clerk Security roles as shown below ensures that Administrators and Payroll Clerks can always edit employee timecards even after the Edit Lockout period has elapsed. Employees assigned to security roles not present in the Lockout Override list will be unable to edit timecards after the Edit Lockout period has elapsed.
 
-![](/img/image-404.png)
+![](/img/EndOfDay_12AM_REP.gif)

@@ -202,7 +202,7 @@ One policy should be created for each previously completed answer sheet.
 3. Click on Setup
 4. Click on Policies
 
-![](/img/image-404.png)
+![](/img/Policies065.png)
 
 5. The Policy Table will be displayed.
 
@@ -215,14 +215,14 @@ includes only one policy - the 'Default' Policy as shown below. Additional
 policies must be configured as appropriate to meet your organization's
 needs.
 
-![](/img/image-404.png)
+![](/img/Escort008.png)
 
 Recalculate - Opens the Timecard Recalculate
 Window for the selected policy which permits the InfiniTime
 Administrator to recalculate timecards for all employees assigned to the
 selected policy.
 
-![](/img/image-404.png)
+![](/img/Escort006.png)
 
 Copy -
 Creates a new policy with the same settings as the highlighted policy.
@@ -250,7 +250,7 @@ are provided for the most common configurations and settings. Additionally,
 for feature rich sections a set of prompts are provided to assist with
 determining your organization's needs.
 
-![](/img/image-404.png)
+![](/img/Policies024.png)
 
 The
 details below are intended to be supplemental and / or for reference purposes
@@ -276,7 +276,7 @@ the General Tab and Pay Cycle Tab, must be configured for every policy.
 
 ### General Tab
 
-![](/img/image-404.png)
+![](/img/clip_image005.jpg)
 
 Policies can
 be grouped together in such a way that employees will be automatically
@@ -359,7 +359,7 @@ following conditions:*
 
 ### **Pay Cycle Tab**
 
-**![](/img/image-404.png)**
+**![](/img/Policies028.png)**
 
 **Start
 of Week â** Specifies the starting day of the work week. This affects
@@ -519,7 +519,7 @@ only a single break type, such as Paid Breaks or Unpaid Breaks, within
 InfiniTime. In this scenario
 only the First Change to Break settings must be configured.
 
-![](/img/image-404.png)
+![](/img/Escort005.png)
 
 **First
 Change to Break If Less Than** â If an employee is clocked out for a
@@ -554,7 +554,7 @@ hours and hundredths of hours. For example, 30 Minutes must be entered
 as 0.50 Hours as shown below.  
   
   
-![](/img/image-404.png)
+![](/img/Policies019.png)
 
 ### Change to Breaks Tab Configuration Procedure
 
@@ -607,7 +607,7 @@ lunch. Auto breaks can be configured to automatically deduct a specified
 amount of time from employees after they have worked a predetermined number
 of hours.
 
-**![](/img/image-404.png)**
+**![](/img/Policies043.png)**
 
 **First
 Auto Break if More Than Hours â** Employees must work the number of
@@ -693,7 +693,7 @@ break durations for Paid Breaks. By configuring paid break limits paid
 breaks can be configured with a minimum or maximum duration providing
 complete control over Paid Break Durations.
 
-![](/img/image-404.png)
+![](/img/Policies062.png)
 
 If
 Paid Break is More Than And
@@ -731,7 +731,7 @@ Paid Break Limits will be applied. This is often used when employee contracts
 specify employee hours must be rounded. An example configuration is provided
 below.
 
-![](/img/image-404.png)
+![](/img/Policies025.png)
 
 In the preceding
 example if an employee punched out for 17 minutes their break duration
@@ -982,14 +982,14 @@ Individual Break Examples
 | Break Duration | Paid Break Time | Unpaid Break Time |
 | 12 Minutes (.2 Hrs) | 12 Minutes |  |
 
-![](/img/image-404.png)
+![](/img/Policies069.png)
 
 |  |  |  |
 | --- | --- | --- |
 | Break Duration | Paid Break Time | Unpaid Break Time |
 | 18 Minutes (.3 Hrs) | 15 Minutes | 3 Minutes |
 
-![](/img/image-404.png)
+![](/img/clip_image002.jpg)
 
 |  |  |  |
 | --- | --- | --- |
@@ -1090,11 +1090,11 @@ be configured in one of three ways:
   on Lookups
 * Click on Calculation Setup
 
-![](/img/image-404.png).gif)
+![](/img/OTPay_Rate.gif).gif)
 
 * Click on Exception Types
 
-![](/img/image-404.png)
+![](/img/Policies049.png)
 
 Insert
 - Opens the Exception Type Update Form. Click Insert on the Exception
@@ -1116,22 +1116,22 @@ the next recalculate.
 3. Click on Setup
 4. Click on Policies
 
-![](/img/image-404.png)
+![](/img/Policies031.png)
 
 5. The Policy Table will be displayed.
 6. Select the Policy for which you wish to define Policy Based Exceptions
    and click on Change.
 
-![](/img/image-404.png)
+![](/img/Policies044.png)
 
 7. The Policy Update Form will be displayed.
 
-![](/img/image-404.png)
+![](/img/Policies025.png)
 
 8. Click on the Exceptions Section. The Policy Exception Type Table
    will be displayed.
 
-![](/img/image-404.png)
+![](/img/AlertDuration.png)
 
 Insert
 - Opens the Exception Type Update Form. Click Insert on the Exception
@@ -1158,7 +1158,7 @@ when exceptions occur.
 
 ### Exception Type Update Form - General Tab
 
-![](/img/image-404.png)
+![](/img/Policies015.png)
 
 Type â Use the drop down box
 to select the desired exception type from those available.
@@ -1198,7 +1198,7 @@ employees or supervisors at the discretion of the InfiniTime
 Administrator. Requirements for SMS and Email Notifications are outlined
 below.
 
-![](/img/image-404.png)
+![](/img/Policies044.png)
 
 Alert Supervisor Via SMS - If
 this option is checked, when the respective exception is triggered for
@@ -1237,7 +1237,7 @@ an adjusted time. The Send Alert Within Days option should be set accordingly
 so that Exception Notifications received by managers communicate an actionable
 task.
 
-![](/img/image-404.png)
+![](/img/Policies051.png)
 
 NOTE: Most
 customers choose to leave the Send Alert Within setting at 0 Days to ensure
@@ -1334,16 +1334,16 @@ Mail Transfer Protocol Service to send both SMS and Email Notifications.
 
 Cell Phone Provider Table:
 
-![](/img/image-404.png)
+![](/img/Policies047.png)
 
 Cell Phone Provider Update
 Form:
 
-![](/img/image-404.png)
+![](/img/Policies072.png)
 
 #### SMS Related Fields - Example Setup
 
-![](/img/image-404.png)
+![](/img/Policies040.png)
 
 ### Configuring Email Notifications
 
@@ -1377,7 +1377,7 @@ Form:
 
 #### Email Notification Related Fields - Example Setup
 
-![](/img/image-404.png)
+![](/img/OTPay_Percent.gif)
 
 ### Available Exception Types
 
@@ -1719,7 +1719,7 @@ a daily number of hours for Salary Employees with a single punch.
 **Minimum
 Hours Tab**
 
-![](/img/image-404.png)
+![](/img/clip_image002.jpg)
 
 **Guaranteed
 Daily Hours â** Specifies
@@ -1757,7 +1757,7 @@ they will be paid for the duration worked.
 **Maximum
 Hours Tab**
 
-![](/img/image-404.png)
+![](/img/Policies066.png)
 
 **Daily
 Hours Limit â** Specifies
@@ -1774,7 +1774,7 @@ the employee will only receive 40 hours for the day.
 **Bonus
 Hours Tab**
 
-![](/img/image-404.png)
+![](/img/Policies061.png)
 
 **Bonus
 Hours â** Duration,
@@ -1914,7 +1914,7 @@ Tab of the Overtime Rules Section includes specific settings related to
 the Excessive Hours Report, Missing Punch Exception, approval of overtime,
 and how Daily Overtime vs Weekly Overtime hours are calculated.
 
-![](/img/image-404.png)
+![](/img/Policies021.png)
 
 **Excessive
 Hours Amount â** Defines a Daily Hours Amount after which employees
@@ -2119,7 +2119,7 @@ Procedure
   in a single day. This report helps administrators to identify employees
   who are working too many hours.
 
-![](/img/image-404.png)
+![](/img/Policies065.png)
 
 * *What is the longest
   duration employees on this policy are expected to work in a single
@@ -2265,7 +2265,7 @@ at Double Time. When selecting an overtime pay method pay special attention
 to the labels on the window as fields are clearly marked with units and
 descriptive labels.
 
-![](/img/image-404.png)
+![](/img/UnscheduledHours1.gif)
 
 **Daily Overtime
 If Over Hours**:  Hours worked over the displayed number,
@@ -2319,7 +2319,7 @@ $10.00 + $5.00 = Overtime Wage
 
 $15.00 = Overtime Wage
 
-![](/img/image-404.png)
+![](/img/clip_image001.gif)
 
 Percent Pay
 Method
@@ -2341,7 +2341,7 @@ Wage
 
 $15.00 = Overtime Wage
 
-![](/img/image-404.png)
+![](/img/Policies033.png)
 
 Rate Pay
 Method
@@ -2350,7 +2350,7 @@ The Rate Pay Method defines
 a specific wage for overtime hours. When the Rate Pay Method is used employee
 default wages are ignored and the Overtime Rate is used for overtime hours.
 
-![](/img/image-404.png)
+![](/img/Policies046.png)
 
 **WARNING:**
 The Rate Pay Method is **not**
@@ -2418,7 +2418,7 @@ for Overtime Hours track one of the following:*
 
 ### Consecutive Day Overtime
 
-![](/img/image-404.png)
+![](/img/clip_image003.jpg)
 
 **Consecutive
 Days Worked Before All Time is Overtime:** Enter the number of days
@@ -2440,9 +2440,9 @@ all whole numbers from 1 to 24 Hours.
 
 IE:
 
-![](/img/image-404.png)
+![](/img/Policies060.png)
 
-![](/img/image-404.png)
+![](/img/Policies021.png)
 
 In the
 example above, Minimum Hours to Get Auto
@@ -2559,9 +2559,9 @@ days, ABC Company must map Consecutive Regular Hours to OT2 to pay them
 at 200%. Additionally, Consecutive Day Overtime 1 and Overtime 2 Hours
 must be mapped into OT3 which must be configured for 250%
 
-![](/img/image-404.png)
+![](/img/Policies039.png)
 
-![](/img/image-404.png)
+![](/img/Policies070.png)
 
 *No?
 â Continue to the next section.*
@@ -2577,7 +2577,7 @@ placed in a specific overtime bucket. InfiniTime
 permits Day of Week Overtime settings to be configured for up to four
 individual week days.
 
-![](/img/image-404.png)
+![](/img/Policies056.png)
 
 **Day
 of Week:** Select the day of week for which worked hours for specific
@@ -2686,7 +2686,7 @@ options are generally only used for salary employees. Up two five different
 Payroll Overrides can be defined on a single policyâ one for regular hours
 and one for each overtime bucket (OT1 â OT4).
 
-![](/img/image-404.png)
+![](/img/Policies031.png)
 
 **Activity
 Type**â Indicates the activity
@@ -2770,7 +2770,7 @@ hours if employees arrive and depart during predefined grace periods.
 
 ### **Unscheduled Time**
 
-![](/img/image-404.png)
+![](/img/UnscheduledHours1.gif)
 
 Unscheduled Rounding rules are applied
 to any employee punches that are considered unscheduled. Hours are considered
@@ -2801,7 +2801,7 @@ the Rounding Rules Section, Employees who punch in outside of the grace
 periods (Shaded in Red)  are considered Unscheduled. If Grace Periods
 are not defined - Unscheduled Rounding Rules will be applied to all punches.
 
-**![](/img/image-404.png)**
+**![](/img/Policies040.png)**
 
 ### Unscheduled Rounding Rules by Punch Type
 
@@ -2812,11 +2812,11 @@ to Break tab of the Break Rules Policy Section must be configured. Settings
 for each punch type, as outlined below, have their own tab on the Unscheduled
 Rounding rules section of the policy.
 
-![](/img/image-404.png)
+![](/img/Escort005.png)
 
 ### Unscheduled Rounding Rules - Related Settings
 
-![](/img/image-404.png)
+![](/img/Policies070.png)
 
 * **No Rounding** â If this box
   is checked Employee Punches will not be rounded for the respective
@@ -2856,7 +2856,7 @@ hour. This concept is illustrated by the timeline below. All times in
 blue would round back to the prior quarter hour. All times in red would
 round forward to the next quarter hour.
 
-![](/img/image-404.png)
+![](/img/Policies046.png)
 
 * **Rounding Method** â Indicates
   how punches are to be rounded to the nearest tenth hour, quarter hour,
@@ -2966,7 +2966,7 @@ breaks as desired. Settings for each action listed above have their own
 tab on the Scheduled Rounding rules section of the policy. Rounding options
 for each tab are outlined below.
 
-![](/img/image-404.png)
+![](/img/Policies071.png)
 
 ### **Clock In**
 
@@ -3005,7 +3005,7 @@ be considered outside of schedule for the following settings:
 | Late Grace Period | 10 | Dark Green |
 | Outside of Schedule *(Scheduled Rounding Does Not Apply)* | NA | Red |
 
-**![](/img/image-404.png)**
+**![](/img/Policies010.png)**
 
 Remember, Grace Periods are intended for use with the Early, Tardy,
 and Outside of Schedule exceptions.
@@ -3244,7 +3244,7 @@ scheduled end time receive both the Outside of Schedule and Late Departure
 exceptions. Employees punching out outside of the grace periods and before
 their scheduled end time receive only the Outside of Schedule exception.
 
-   ![](/img/image-404.png)
+   ![](/img/Policies068.png)
 
 ## Scheduled Rounding Configuration Procedure
 
@@ -3448,7 +3448,7 @@ unscheduled hours are also configured here. Before attempting to configure
 shift differentials be sure to review the section below outlining the
 relationship between Policy Settings and Shift Differentials.
 
-![](/img/image-404.png)
+![](/img/Policies024.png)
 
 ### **Schedule Lockout**
 
@@ -3465,7 +3465,7 @@ personnel in order to punch in or out if they are outside of the grace
 periods defined on their policy. Please review the configuration examples
 below carefully before deciding to enable Punch to Schedule / Lockout.
 
-![](/img/image-404.png)
+![](/img/pol_CellProvidersTable.png)
 
 ### Schedule Lockout - Hardware Warnings
 
@@ -3582,7 +3582,7 @@ Housekeeping Service is responsible for inserting automatic punches. The
 housekeeping service must be running for automatic punches to be inserted
 as expected.
 
-![](/img/image-404.png)
+![](/img/Policies045.png)
 
 **Auto Clock
 In â** If this option is checked InfiniTime
@@ -3743,7 +3743,7 @@ Bucket. These options are useful for organizations who pay unscheduled
 hours, or hours worked outside the bounds of an employee's schedule, at
 a different pay rate.
 
-![](/img/image-404.png)
+![](/img/Policies012.png)
 
 **Only Hours Worked in Excess of Scheduled
 Hours are Unscheduled - When
@@ -3811,11 +3811,11 @@ OT1 Hour from 4:00 PM to 5:00 PM being mapped from OT1 to OT2.
 
 Schedule and Worked Hours:
 
-![](/img/image-404.png)
+![](/img/Policies047.png)
 
 Calculated Hour Totals:
 
-![](/img/image-404.png)
+![](/img/OTPay_Rate.gif)
 
 ### **Unscheduled Hours Mapping Configuration Procedure**
 
@@ -3829,7 +3829,7 @@ of this document.
 
 ### **Misc. Schedule Options**
 
-**![](/img/image-404.png)**
+**![](/img/Policies035.png)**
 
 **Earliest Clock In Time â**
 Sets the earliest time employeeâs can
@@ -3863,7 +3863,7 @@ as shown in the examples provided below.
 **Shift Differential Pay
 Method**
 
-![](/img/image-404.png)
+![](/img/AlertDuration.png)
 
 If a
 Shift Differential is assigned to a policy, a Shift Differential Pay Method
@@ -4006,7 +4006,7 @@ schedule with a higher priority is defined for the employee. [Additional
 details regarding using Quick Schedule to create Policy Schedules can
 be found in the Scheduling Section of this document.](../Scheduling/Scheduling.md#sch04_Scheduling_By_Policy)
 
-![](/img/image-404.png)
+![](/img/Policies015.png)
 
 ### Schedule Settings / Rules - Default Schedule Tab Configuration Procedure
 
@@ -4066,7 +4066,7 @@ Skeletons](../Scheduling/Scheduling.md#sch44_Schedule_Skeletons___Benefits_and_C
 
 #### Schedule Settings / Rules - Shift Differentials Tab
 
-![](/img/image-404.png)
+![](/img/Policies026.png)
 
 The Shift Differentials
 Tab is used to assign shift differentials to a specific policy. All employees
@@ -4080,7 +4080,7 @@ when assigning shift differentials to policies:
   hours from 8:00 PM to 4:00 AM, the schedule should be split at midnight
   as shown below.
 
-![](/img/image-404.png)
+![](/img/Policies064.png)
 
 * A single policy must not have overlapping shift differentials.
 
@@ -4224,7 +4224,7 @@ must be split at midnight. Shift differentials are configured under the
 Shift Table which can be access from Lookups â Scheduling Setup â Shifts.
 Click Insert to open the Shift Update Form.
 
-![](/img/image-404.png)
+![](/img/clip_image005.jpg)
 
 Follow
 the steps below to configure each differential required by your organization.
@@ -4232,7 +4232,7 @@ Additional details on configuring Shift Differentials can be found in
 the [Scheduling
 - Shift Differentials section](../Scheduling/Scheduling.md#dif01_Shifts_for_Differential_Purposes) of this document.
 
-![](/img/image-404.png)
+![](/img/Policies063.png)
 
 1. Enter the Differential Name
    in the Name Field of the Shift Update Form.
@@ -4250,7 +4250,7 @@ the [Scheduling
    extra per hour), is the most commonly used type of Differential
    Pay.
 
-![](/img/image-404.png)
+![](/img/clip_image003.jpg)
 
 5. Enter the Premium received
    by the employees in the Differential Pay Amount field.
@@ -4261,7 +4261,7 @@ the [Scheduling
    For example a night differential of $0.75 covering 8:00 PM â 4:00
    AM would be setup as below:
 
-![](/img/image-404.png)
+![](/img/Policies033.png)
 
 **Step
 3 â Identify Employee Groups who are eligible for different differentials.**
@@ -4340,7 +4340,7 @@ morning hours. Individuals on call are paid a premium for each hour of
 standby time even if they do not come into work. In this scenario stand
 by time would be configured as shown in the table below.
 
-![](/img/image-404.png)
+![](/img/Policies032.png)
 
 |  |  |  |
 | --- | --- | --- |
@@ -4356,7 +4356,7 @@ Type for all employees on the policy on the respective day of week.
 
 ### Policy Stand By Time Update Form
 
-![](/img/image-404.png)
+![](/img/Policies063.png)
 
 Other Activity Type - Select the
 Other Activity Type to be used to insert Stand By Hours. InfiniTime will automatically insert

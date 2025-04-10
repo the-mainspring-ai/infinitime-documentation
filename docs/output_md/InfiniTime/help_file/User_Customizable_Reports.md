@@ -41,11 +41,11 @@ Customizable Options
 
 Customizable Report Options: Page 1
 
-![](/img/image-404.png)
+![](/img/SelectOtherAct_2.gif)
 
 Timecard Summary Options: Page 2
 
-![](/img/image-404.png)
+![](/img/TimecardSummary_OP2.gif)
 
 Column Configuration
 
@@ -101,11 +101,11 @@ To display other activity types in a column on customizable reports the other ac
 
 1.) Select the desired other activity types on the Options Tab.
 
-![](/img/image-404.png)
+![](/img/TimecardSummary_OP1.gif)
 
 2.) Set the chosen column to the Other Activity Type place holder.
 
-![](/img/image-404.png)
+![](/img/SelectOtherAct_1.gif)
 
 Additional Options:
 

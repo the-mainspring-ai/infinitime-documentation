@@ -42,14 +42,14 @@ Example 1
 | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
 | West Coast Marina | 117852 | Painting |
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_4.gif)
 
 Example 2
 
 | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
 | West Coast Marina | 117852 | Painting |
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_1.gif)
 
 The above examples illustrate how employees will receive the wage assocaited with the particular Department, Job, and Task they are working on even if another wage is defined for each individual item or a combination thereof.
 
@@ -62,14 +62,14 @@ Example 1
 | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
 | West Coast Marina | 117852 | Painting |
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_5.gif)
 
 Example 2
 
 | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
 | West Coast Marina | 117876 | Painting |
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_2.gif)
 
 The above examples illustrate how the employee will receive the wage associated with their particular Task and Department regardless of what job they are working on unless a wage record exists that matches the Department, Job, and Task worked by the employee.
 
@@ -82,7 +82,7 @@ Example 1
 | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
 | Ahbor Harbor | 117852 | Painting |
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_3.gif)
 
 In the example above even though there is a wage record for each item where the employee is working the Department record takes precedence as it is matched first due to the Wage Hierarchy.
 
@@ -91,6 +91,6 @@ Example 2
 | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
 | West Coast Marina | 117876 | Painting |
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_2.gif)
 
 The above examples illustrate how the employee will receive the wage associated with a single item unless a different record is matched due to the Wage Hierarchy as in Example 2.

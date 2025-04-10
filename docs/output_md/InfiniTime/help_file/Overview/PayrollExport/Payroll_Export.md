@@ -164,7 +164,7 @@ Exports can be configured to support the following scenarios:
 2. Click on Tools
 3. Click on Import / Export
 
-![](/img/image-404.png)
+![](/img/image152.gif)
 
 4. Click
    on Payroll Export
@@ -174,14 +174,14 @@ Exports can be configured to support the following scenarios:
 Â·        Click
 Insert on the Payroll Export Table to Open the Payroll Export Update Form.
 
-![](/img/image-404.png)
+![](/img/image35.jpg)
 
 * The
   Payroll Export Update Form displays Payroll Export related options
   and settings. Required settings have a blue background and must be
   completed before the Payroll Export can be saved.
 
-![](/img/image-404.png)
+![](/img/image46.jpg)
 
 * The
   following settings and options are available on the Payroll Export
@@ -267,7 +267,7 @@ Flow Diagram.
 Local
 Windows Account:
 
-![](/img/image-404.png)
+![](/img/image61.jpg)
 
 Enter
 the Host Address. There are three valid formats for the host address field
@@ -300,7 +300,7 @@ FTPSERVER\FTPUSER
 
 Domain Accounts:
 
-![](/img/image-404.png)
+![](/img/image45.jpg)
 
 1. Enter the Host Address. There are three valid
    formats for the host address field as listed below. **Do not include
@@ -334,7 +334,7 @@ InfiniTime\FTPUSER
 
 Anonymous User:
 
-![](/img/image-404.png)
+![](/img/image67.jpg)
 
 1. Enter the Host Address. There are three valid
    formats for the host address field as listed below. **Do not include
@@ -366,7 +366,7 @@ the directory where the Payroll Export File will be uploaded. Please contact
 your Information Technology Personnel for assistance with checking file
 permissions on your FTP Site.
 
-![](/img/image-404.png)
+![](/img/image61.jpg)
 
 Technical Note: InfiniTime
 attempts to connect to the FTP Site to validate the Login ID, Password,
@@ -431,7 +431,7 @@ the Payroll Export Update Form:
 5. Insert â Used to insert
    a new Email Recipient as shown below.
 
-![](/img/image-404.png)
+![](/img/image22.jpg)
 
 The Payroll Export Email Update Form adds email recipients to the Payroll
 Export Update Form for a specific Payroll Export. Simply enter the Name
@@ -455,7 +455,7 @@ intervals as outlined below.
    Payroll Export Schedule Update Form. Used to insert an automatic export
    schedule
 
-![](/img/image-404.png)
+![](/img/image75.jpg)
 
 2. **Description**â
    Enter a descriptive name for the payroll export. This description
@@ -492,7 +492,7 @@ each Processing Related Option is outlined below. The [Payroll
 Export Logic Flow Diagrams](Payroll_Export.md#pxh77_Payroll_Export_Input:) provide additional detail on how each Processing
 Related Option functions.
 
-![](/img/image-404.png)
+![](/img/image73.jpg)
 
 1. Only
    Export Records For the Non-Default Department - Only Timecard
@@ -519,19 +519,19 @@ Related Option functions.
    if any employees have exceptions that are not marked as reviewed.
    If an un-reviewed exception is found the following warning is displayed:
 
-![](/img/image-404.png)
+![](/img/image41.jpg)
 
  The
 warning above is followed immediately by a list of all employees with
 un-reviewed exceptions.
 
-![](/img/image-404.png)
+![](/img/image21.jpg)
 
 You
 may choose to continue with the export or cancel the export after closing
 the list of employees with unreviewed exceptions as shown below.
 
-![](/img/image-404.png)
+![](/img/image70.jpg)
 
 5. **Alert
    When Timecards Are Not Reviewed By Employee's Supervisor For Exported
@@ -545,17 +545,17 @@ the list of employees with unreviewed exceptions as shown below.
    that has not been marked as reviewed by their supervisor. If an un-reviewed
    activity record is found the following warning is displayed:
 
-![](/img/image-404.png)
+![](/img/image33.jpg)
 
 ## The warning above is followed immediately by a list of all employees with un-reviewed timecard activity.
 
-![](/img/image-404.png)
+![](/img/image33.jpg)
 
 You may choose
 to continue with the export or cancel the export after closing the list
 of employees with un-reviewed timecard activity as shown below.
 
-![](/img/image-404.png)
+![](/img/image30.jpg)
 
 6. **Alert
    When Timecards Are Not Reviewed By Employee For Exported Employees
@@ -568,19 +568,19 @@ of employees with un-reviewed timecard activity as shown below.
    employee itself. If an un-reviewed activity record is found the following
    warning is displayed:
 
-![](/img/image-404.png)
+![](/img/image70.jpg)
 
 The
 warning above is followed immediately by a list of all employees with
 un-reviewed timecard activity.
 
-![](/img/image-404.png)
+![](/img/image42.jpg)
 
 You
 may choose to continue with the export or cancel the export after closing
 the list of employees with un-reviewed timecard activity as shown below.
 
-![](/img/image-404.png)
+![](/img/image29.jpg)
 
 7. **Alert
    When Number of Reviews are Less Than X For Exported Employees
@@ -594,19 +594,19 @@ the list of employees with un-reviewed timecard activity as shown below.
    with less than the required number of reviews, as set on the Options
    Tab, the following warning is displayed:
 
-![](/img/image-404.png)
+![](/img/image56.jpg)
 
 The warning
 above is followed immediately by a list of all employees with un-reviewed
 timecard activity.
 
-![](/img/image-404.png)
+![](/img/image76.jpg)
 
 You
 may choose to continue with the export or cancel the export after closing
 the list of employees with un-reviewed timecard activity as shown below.
 
-![](/img/image-404.png)
+![](/img/image69.jpg)
 
 8. **Export
    Overtime as Half Time** â Export Overtime as Half Time alters
@@ -851,7 +851,7 @@ which includes separate columns for Payroll Codes (*Payroll
 Export Field Name: âActivity Typeâ*) and Shift Identifiers (*Payroll
 Export Field Name âShift Codeâ*)*.*
 
-![](/img/image-404.png)
+![](/img/image66.jpg)
 
 For
 Payroll Interface Formats which include the âActivity Typeâ Field and
@@ -877,7 +877,7 @@ Code in the Activity Type Column with the Shift Code. An example is shown
 below.
 
   
-![](/img/image-404.png)   
+![](/img/image54.jpg)   
   
 
 12. **Group
@@ -1095,12 +1095,12 @@ Tab of the Payroll Export Update Form. With this in mind, ABC Company
 will need to configure one Payroll Export for Hourly Manufacturing Employees
 and one Payroll Export for Salary Administrative Employees as shown below.
 
-![](/img/image-404.png)
+![](/img/image39.jpg)
 
 *Hourly
 Manufacturing Employees*
 
-![](/img/image-404.png)
+![](/img/image44.jpg)
 
 Notice how
 the Payroll Code for OT2 is set to NA since this Overtime Bucket is not
@@ -1117,7 +1117,7 @@ Day Overtime, or Double Time if you needed OT2.*
 *Salary
 Administrative Employees*
 
-![](/img/image-404.png)
+![](/img/image54.jpg)
 
 Notice how
 the Payroll Code for OT2 is set to NA since this Overtime Bucket is not
@@ -1140,7 +1140,7 @@ step must be performed for every Other Activity Type required for your
 organization. The example below shows all Other Activity Types for ABC
 Company based off of ABC Companyâs Payroll Code List.
 
-![](/img/image-404.png)
+![](/img/image154.gif)
 
 The
 Other Activity Table pictured above shows each Other Activity Type required
@@ -1149,14 +1149,14 @@ Mapping Codes double check to confirm that each Other Activity Hours and
 Other Amount Type on your companyâs Payroll Code list is represented by
 an Other Activity Type.
 
-![](/img/image-404.png)
+![](/img/image34.jpg)
 
 Shown
 above is the Regular Hours Payroll Mapping Code as configured for Jury
 Duty â Hourly. This Other Activity Type will be used to track Jury Duty
 Hours for Hourly Manufacturing Employees at ABC Company.
 
-![](/img/image-404.png)
+![](/img/image77.jpg)
 
 Shown
 above is the Regular Hours Payroll Mapping Code as configured for Jury
@@ -1171,7 +1171,7 @@ Shift Identifiers must be set on the General Tab of the Shift Update Form.
 One shift should be created for each Shift Differential.[Additional information on configuring Shift Differentials can be
 found here.](../Scheduling/Scheduling.md#dif01_Shifts_for_Differential_Purposes)
 
-![](/img/image-404.png)
+![](/img/image72.jpg)
 
 ABC Company
 has two Shift Differentials, Night Shift Differential and Sunday Differential.
@@ -1180,7 +1180,7 @@ which includes separate columns for Payroll Codes (*Payroll
 Export Field Name: âActivity Typeâ*) and Shift Identifiers (*Payroll
 Export Field Name âShift Codeâ*)*.*
 
-![](/img/image-404.png)
+![](/img/image43.jpg)
 
 NOTE:
 Shift Identifiers must be entered in one of two ways, depending on the
@@ -1213,7 +1213,7 @@ Shift Activity / Period, and Shift Mapped record formats support shift
 differentials. [Additional
 Information on Payroll Export Record Formats can be found here.](../Reports/Reports.md#rpt57_Payroll_Interface_Layout)
 
-![](/img/image-404.png)
+![](/img/image53.jpg)
 
 ### *By Payroll Mapping Number*
 
@@ -1302,15 +1302,15 @@ Codes, the Payroll Codes can be filled with any value. As shown below,
 Payroll Codes for XYZâs Payroll Export have been set to NA for all Worked
 Hours Types.
 
-![](/img/image-404.png)
+![](/img/image41.jpg)
 
-![](/img/image-404.png)
+![](/img/image60.jpg)
 
 XYZ
 Company uses the CompuPay â Mapped Payroll Interface to transfer Employee
 Hours and Earnings to their CompuPay Payroll Services provider. 
 
-![](/img/image-404.png)
+![](/img/image64.jpg)
 
 Notice how
 the Payroll Code fields are set to NA. This clearly indicates that the
@@ -1327,9 +1327,9 @@ Mapping Codes, for these Payroll Interface Formats the Payroll Mapping
 Codes can be filled with any value. As shown below, Payroll Mapping Codes
 for XYZâs Payroll Export have been set to NA for all Other Activity Types.
 
-![](/img/image-404.png)
+![](/img/image71.jpg)
 
-![](/img/image-404.png)
+![](/img/image63.jpg)
 
 Payroll Mapping Numbers must be set for Other Activity Hours and Other
 Amounts on the General Tab of the Other Activity Update Form as shown
@@ -1345,7 +1345,7 @@ Two. Details on the number of mapped columns available for your chosen
 Payroll Interface Format can be found using the [Payroll
 Interface Format Report.](../Reports/Reports.md#rpt57_Payroll_Interface_Layout)
 
-![](/img/image-404.png)
+![](/img/image76.jpg)
 
 NOTE: A very small percentage of Payroll Interface
 Formats which utilize the âBy Payroll Mapping Numberâ Earnings & Hours
@@ -1504,13 +1504,13 @@ utilize Payroll Codes, the Payroll Codes can be filled with any value.
 As shown below, Payroll Codes for ZYXâs Payroll Export have been set to
 NA for all Worked Hours Types.
 
-![](/img/image-404.png)
+![](/img/image27.jpg)
 
 ZYX
 Company uses the Checkmark Payroll for Windows Payroll Interface to transfer
 Employee Hours and Earnings to the Checkmark Payroll Application.
 
-![](/img/image-404.png)
+![](/img/image47.jpg)
 
 Notice how
 the Payroll Code fields are set to NA. This clearly indicates that the
@@ -1523,7 +1523,7 @@ Type Descriptions must be specifically set to match the Hard Coded Field
 Value as listed above. In this way, the Payroll Export will be able to
 correctly total Hours / Dollars for the respective Other Activity Type.
 
-![](/img/image-404.png)
+![](/img/image27.jpg)
 
 As
 required fields, the Payroll Mapping Code fields on the General Tab of
@@ -1533,7 +1533,7 @@ this reason Payroll Mapping Codes can be filled with any value. As shown
 below, Payroll Mapping Codes for XYZâs Payroll Export have been set to
 NA for all Other Activity Types.
 
-![](/img/image-404.png)
+![](/img/image77.jpg)
 
 ### *Support for Payroll Interface Specific Prompts (IE: Company Code)*
 
@@ -1543,7 +1543,7 @@ the Required Info Tab of the Payroll Export Update Form which must be
 completed by the user. The Required Info Tab is only displayed for Payroll
 Interfaces that have prompts.
 
-![](/img/image-404.png)
+![](/img/image44.jpg)
 
 NOTE: In order to export different values for a
 single prompt, multiple payroll exports must be configured. One for each
@@ -1560,15 +1560,15 @@ as shown below, two payroll exports would need to be configured.
 One Payroll Export must be configured for each
 Prompt Value:
 
-![](/img/image-404.png)
+![](/img/image29.jpg)
 
 XYZ Housekeeping Employees:
 
-![](/img/image-404.png)
+![](/img/image68.jpg)
 
 XYZ Landscaping Employees:
 
-![](/img/image-404.png)
+![](/img/image40.jpg)
 
 ### *Ability to Track Shift Differentials*
 
@@ -1609,7 +1609,7 @@ Shift
 Identifiers must be set on the General Tab of the Shift Update Form. One
 shift should be created for each Shift Differential.
 
-![](/img/image-404.png)
+![](/img/image55.jpg)
 
 ABC Company
 has two Shift Differentials, Night Shift Differential and Sunday Differential.
@@ -1618,7 +1618,7 @@ which includes separate columns for Payroll Codes (*Payroll
 Export Field Name: âActivity Typeâ*) and Shift Identifiers (*Payroll
 Export Field Name âShift Codeâ*)*.*
 
-![](/img/image-404.png)
+![](/img/image153.gif)
 
 NOTE:
 Shift Identifiers must be entered in one of two ways, depending on the
@@ -1667,7 +1667,7 @@ Codeâ Company Option should be checked. This configuration allows the
 final Payroll Export File to override the Working Hours Pay Code in the
 Activity Type Column with the Shift Code. An example is shown below.
 
-![](/img/image-404.png)
+![](/img/image69.jpg)
 
 NOTE:
 Only Payroll Interfaces with the Shift Activity, Shift Activity / Period,
@@ -1775,19 +1775,19 @@ can be found here.](../Security/Security_Overview.md#sec17b_Configuring_Security
 One Payroll Export must be Configured for Each Set of Employees which
 require a separate Export File:
 
-![](/img/image-404.png)
+![](/img/image42.jpg)
 
 The Filter must be configured as appropriate to select the desired employees.
 In this example, XYZ Housekeeping Employees are all assigned to the XYZ
 Housekeeping Group:
 
-![](/img/image-404.png)
+![](/img/image63.jpg)
 
 The Filter must be configured as appropriate to select the desired employees.
 In this example, XYZ Landscaping Employees are all assigned to the XYZ
 Landscaping Group:
 
-![](/img/image-404.png)
+![](/img/image67.jpg)
 
 ### *Output Method(s)*
 
@@ -1826,7 +1826,7 @@ security numbers. PGP Encryption can be enabled by Checking the âPGP Encryp
 Fileâ Option on the General Tab of the Payroll Export Update Form. This
 enables the PGP Tab as shown below.
 
-![](/img/image-404.png)
+![](/img/image24.jpg)
 
 * Refer
   to the [PGP
@@ -1977,12 +1977,12 @@ and view the full logic flow diagrams.
 
 ### Payroll Export Input:
 
-[![](/img/image-404.png)](Payroll_Export_Input_Logic_Flow_Diagram.md)
+[![](/img/image49.jpg)](Payroll_Export_Input_Logic_Flow_Diagram.md)
 
 ### Payroll Export Processing
 
-[![](/img/image-404.png)](Payroll_Export_Processing_Logic_Flow_Diagram.md)
+[![](/img/image56.jpg)](Payroll_Export_Processing_Logic_Flow_Diagram.md)
 
 ### Payroll Export Output
 
-[![](/img/image-404.png)](Payroll_Export_Output_Logic_Flow_Diagram.md)
+[![](/img/image57.jpg)](Payroll_Export_Output_Logic_Flow_Diagram.md)

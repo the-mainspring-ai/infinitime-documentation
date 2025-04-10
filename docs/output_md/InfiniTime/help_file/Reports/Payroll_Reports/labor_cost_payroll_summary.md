@@ -15,7 +15,7 @@ Compares entered dollar amounts vs actual costs due to employee hours
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Labor_Cost_Payroll_Summary.gif)
 
 Notes/Usage:
 

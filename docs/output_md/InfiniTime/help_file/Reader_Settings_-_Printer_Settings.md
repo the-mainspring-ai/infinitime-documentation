@@ -13,7 +13,7 @@ Reader Settings - Printer Settings
 
 The Thor Terminal is equipped for use with the TM-T88IV Thermal Printer. The software and the Thor allows you to print several reports straight from the terminal if you have the thermal printer attached.
 
-![](/img/image-404.png)
+![](/img/image449.gif)
 
 For the printer to work the option Printer Is Attached must be checked, if unchecked the printer will not function. No reports will be sent to the printer.
 

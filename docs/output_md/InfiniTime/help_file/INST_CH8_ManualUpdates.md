@@ -28,19 +28,19 @@ Generating a Software License Request File
 1. Login to the Manager Module as an employee assigned to the Administrator Security Role.
 2. Click on Help - About InfiniTime
 
-![](/img/image-404.png)
+![](/img/INST_CH8_Manual_1.gif)
 
 3. Click on Tech Info
 
-![](/img/image-404.png)
+![](/img/INST_CH8_Manual_3.gif)
 
 4. Click on Activation
 
-![](/img/image-404.png)
+![](/img/INST_CH8_Manual_6.gif)
 
 5. Complete the Required Fields on the Activate / License Update Form
 
-![](/img/image-404.png)
+![](/img/INST_CH8_ElectronicActivation_1.gif)
 
 6. Click Manual to connect to the InfiniTime Software Licensing Server via the Internet. InfiniTime will perform the following actions:
 
@@ -52,7 +52,7 @@ Generating a Software License Request File
 
 7. The download window will display save the file to a location on your computer which you can access, such as the desktop. Depending on your browser security settings, you may see a window similar to the image shown below. If so, right click on the warning and click download file.
 
-![](/img/image-404.png)
+![](/img/INST_CH8_ElectronicActivation_3.gif)
 
 Delivering the Software License Request File to Inception Technologies
 
@@ -77,28 +77,28 @@ After receiving the activated license file, copy License.v2c to a USB Stick from
 1. Login to the Manager Module as an employee assigned to the Administrator Security Role.
 2. Click on Help - About InfiniTime
 
-![](/img/image-404.png)
+![](/img/INST_CH8_Manual_3.gif)
 
 3. Click on Tech Info
 
-![](/img/image-404.png)
+![](/img/INST_CH8_ElectronicActivation_1.gif)
 
 4. Click on Apply Manual
 
-![](/img/image-404.png)
+![](/img/INST_CH8_Manual_2.gif)
 
 5. Click Browse and locate the License.v2c file on the desktop
 
-![](/img/image-404.png)
+![](/img/INST_CH8_Manual_1.gif)
 
 6. Click Open.
 
-![](/img/image-404.png)
+![](/img/INSTCH8_ElectronicActivation_5.gif)
 
 7. Click OK.
 
-![](/img/image-404.png)
+![](/img/INSTCH8_ElectronicActivation_5.gif)
 
 8. Click on the License Information Tab and verify the license is up to date by confirming your new purchase is included in the license. For example, confirm the employee count, Badge Reader Count, Biometric Reader Count, or Software options such as Accruals Plus are correct.
 
-![](/img/image-404.png)
+![](/img/INST_CH8_Manual_4.gif)

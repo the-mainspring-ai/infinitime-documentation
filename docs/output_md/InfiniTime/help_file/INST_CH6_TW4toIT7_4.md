@@ -26,23 +26,23 @@ Restore the TimeWolf 4 Backup File
 1. Login to the InfiniTime Manager Module then Click on File.
 2. Click on Backup / Restore.
 
-![](/img/image-404.png)
+![](/img/rb5.gif)
 
 3. Highlight the TimeWolf 4 Backup File by clicking on it. Note that TimeWolf 4 Backup files have an extension of .TCB as shown in the image below.
 
-![](/img/image-404.png)
+![](/img/rb1.gif)
 
 4. Click Restore. It should be noted that all users must be out of the InfiniTime software in order to restore the backup. If there are users logged into the software a warning will be displayed and the restore will be aborted. If you receive this error users can be kicked out of the software by restarting the OracleServiceTCDBS service. The InfiniTimeHousekeepingService must also be stopped before performing a restore.
 
-![](/img/image-404.png)
+![](/img/CH6_TW4toIT7_BackupFile.gif)
 
 5. No further action is required from the user, InfiniTime will automatically perform all necessary operations to restore the backup file.
 6. InfiniTime will automatically backup the data currently in the InfiniTime software before restoring the backup.
 
-![](/img/image-404.png)
+![](/img/rb4.gif)
 
 7. Once the backup is finished InfiniTime will restore the previously selected backup file.
 
-![](/img/image-404.png)
+![](/img/rb5.gif)
 
 8. The above window will close automatically when the restore is complete.

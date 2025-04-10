@@ -13,7 +13,7 @@ Policy Table
 
 The Policy table is where you create and modify policies to suit your companyâs requirements.  You can add as many policies as you need by clicking the Insert button.  To change a policy, highlight the desired policy and click the Change button.  You can also change the policies by double clicking the desired policy.
 
-![](/img/image-404.png)
+![](/img/CH4_Policy4.gif)
 
 Insert - Clicking the Insert button brings you to the Policy Update Form. Add as many Policies as needed.
 

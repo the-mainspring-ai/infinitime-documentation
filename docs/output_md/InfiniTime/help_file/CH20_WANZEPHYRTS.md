@@ -19,37 +19,37 @@ Technical Note: Even if you do not intend to utilize your Zephyr Reader in a Wid
 
 a. Press the menu button on the zephyr terminal. If an administrative user is enrolled in the clock the terminal will prompt for an Administrative PIN and Password. Please enter the employee ID of an administrator for both the PIN and Password. If there are no users in the clock the menu will simply be displayed as shown below.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS23.gif)
 
 b. Press the down arrow until you see Sys Info. Ensure the arrow points to Sys Info and press OK to open the System Information menu.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS30.gif)
 
 c. The Sys Info menu will be displayed. Press the down arrow until you see Dev Info. Ensure the arrow points to Dev Info and press OK to open the Device Information Menu.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS1.gif)
 
 d. The Dev Info menu will be displayed. Press the down arrow until you see Device Name. Ensure the arrow points to Dev Info and press OK to show the Device Name.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS7.gif)
 
 e. The device name should be displayed. The device name should be Zephyr as shown below. Press ESC to return to the Device Info Menu and proceed to step 2.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS28.gif)
 
 2. Check Bios
 
 a. Verify you are in the Device Info Menu. Follow step 1 to access the device info menu. Press down until you see Firmware Ver. Ensure the arrow points to Firmware Ver and press OK to show the BIOS version.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS14.gif)
 
 b. The firmware version should be displayed. Please note the BIOS version your clock is on.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS4.gif)
 
 c. Press escape until you are at the main menu as shown below.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS6.gif)
 
 3. Clear All Data
 
@@ -57,93 +57,93 @@ a. Enter into the Setup Menu and scroll down to select Options and Press OK
 
 (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS27.gif)
 
 b. In the Options Menu select System Opt and Press OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS25.gif)
 
 c. In the System Opt Menu scroll down until you get to the Adv Option and select it by pressing OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS13.gif)
 
 d. In the Adv Option Menu scroll down until you get to Clear All Data and select it by pressing OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS31.gif)
 
 e. Confirm your choice by pressing OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS15.gif)
 
 f. The clock will return to the Adv Option Menu. Proceed to Step 4.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS33.gif)
 
 4. Clear All ATT Logs
 
 a. Scroll up to Delete AttLogs and select it by pressing OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS19.gif)
 
 b. Confirm your choice by pressing OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS31.gif)
 
 c. The clock will return to the Adv Option Menu. Proceed to Step 5.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS19.gif)
 
 5. Clear All Options
 
 a. The clock will return to the Adv Option Menu. Scroll down up to Reset Opts. and select it by pressing OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS3.gif)
 
 b. The clock will display a confirmation after the communication options are reset to default.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS2.gif)
 
 c. Press escape until you are at the main menu as shown below.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS23.gif)
 
 6. Set Comm. Options / IP Address
 
 a. Scroll down to select Options and Press OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS14.gif)
 
 b. In the Options Menu scroll down and select Comm Opt and Press OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS18.gif)
 
 c. In the Comm Opt Menu scroll down until you get to the IP Addr option and select it by pressing OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS5.gif)
 
 d. In the IP Addr menu insert the correct IP Address for the reader and press OK (F4) to save it.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS9.gif)
 
 e. Now scroll down to the NetMask to set the network Subnet Mask, select it by pressing OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS16.gif)
 
 f. In the NetMask menu insert the correct Network Subnet Mask Address for the reader and press OK (F4) to save it.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS20.gif)
 
 g. Now scroll down to the Gateway to set the network gateway, select it by pressing OK (F4)
 
-![](/img/image-404.png)
+![](/img/ZephyrTS22.gif)
 
 h. In the Gateway menu insert the correct Network gateway address for the reader and press OK (F4) to save it.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS32.gif)
 
 i. To exit press ESC (F1) several times to go back to the main display.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS11.gif)
 
 7. Unplug the clock from the power outlet. The display will turn off.
 
@@ -153,21 +153,21 @@ To Ping the Zephyr Terminal from a Windows Machine:
 
 a. Click on Start.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS24.gif)
 
 b. Click on Run.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS25.gif)
 
 c. Type cmd.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS21.gif)
 
 d. Click OK.
 
 e. Type ping ###.###.###.### Fill in the # fields with the IP Address of your clock. An example is shown below.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS12.gif)
 
 9. Plug the clock into a power outlet.
 
@@ -179,19 +179,19 @@ To Set the Network Communication Speed & Type Manually:
 
 1.) Press the menu button on the clock to access the main menu of the Zephyr Reader.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS17.gif)
 
 2.) Use the down arrow to move the cursor to Options. Press OK.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS13.gif)
 
 3.) Use the down arrow to move the cursor to Comm Opt. Press OK.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS26.gif)
 
 4.) Use the down arrow to move the cursor to Net Speed. Press OK.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS10.gif)
 
 5.) Use the up and down arrows to select from the available options. Each available option is listed and described in the table below.
 

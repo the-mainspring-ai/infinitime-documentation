@@ -17,32 +17,32 @@ The following procedures show the steps required to properly configure ActiveX c
 
 Click on Tools.
 
-![](/img/image-404.png)
+![](/img/70InternetOptions.png)
 
 Click on Internet Options to open the Internet Options window for Internet Explorer.
 
-![](/img/image-404.png)
+![](/img/70SecurityTab.jpg)
 
 Click on the Security Tab.
 
-![](/img/image-404.png)
+![](/img/70InternetOptions.png)
 
 Click on Trusted Sites.
 
-![](/img/image-404.png)
+![](/img/ActiveXScrollDown.jpg)
 
 Click Custom Level while Trusted Sites is selected to change the current Internet Security Options for Trusted Sites.
 
-![](/img/image-404.png)
+![](/img/AccessDataSourcesAcrossDomains.jpg)
 
 Scroll down through the Security Settings to ActiveX Controls and Plug-ins. Several options are listed below the heading shown in the picture.
 
-![](/img/image-404.png)
+![](/img/70Trusted_Sites.jpg)
 
 Enable must be selected for the fifth option âInitialize and script ActiveX controls not marked safeâ.
 
 Enable must also be selected for Access data sources across domains under the miscellaneous heading.
 
-![](/img/image-404.png)
+![](/img/AccessDataSourcesAcrossDomains.jpg)
 
 Failing to set these options properly will disable printing from the InfiniTime Software.

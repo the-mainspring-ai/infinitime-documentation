@@ -17,15 +17,15 @@ In order to verify the integrity of the previously created backup, make a change
 
 2. Click on File, then Click on Backup / Restore.
 
-![](/img/image-404.png)
+![](/img/rb2.gif)
 
 3. Highlight the backup you wish to restore by Clicking on it.
 
-![](/img/image-404.png)
+![](/img/SFT_CH3_Backup_01.gif)
 
 4. Click Restore. It should be noted that all users must be out of the TimeWolf software in order to restore the backup. If there are users logged into the software a warning will be displayed and the restore will be aborted. If you receive this error users can be kicked out of the software by restarting the OracleServiceTCDBS service.
 
-![](/img/image-404.png)
+![](/img/rb2.gif)
 
 5. No further action is required from the user, TimeWolf will automatically perform all necessary operations to restore the backup file.
 

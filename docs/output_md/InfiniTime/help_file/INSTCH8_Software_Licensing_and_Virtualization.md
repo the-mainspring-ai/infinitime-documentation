@@ -21,21 +21,21 @@ Inception Technologies does not recommend use of a virtual platform for hosting 
 
 Virtual Machines using Virtual Hard Disks:
 
-![](/img/image-404.png)
+![](/img/VMs_VHDwithDAS.gif)
 
 * + To clarify, the Operating System of the Virtual Machine may be installed using physical storage (DAS or SAN) or a virtual hard disk (VHD). Regardless of how the Operating System of the Virtual Machine is installed, physical storage must be made available for and selected during installation of InfiniTime. Acceptable storage scenarios are depicted below.
 
 Virtual Machines using Physical Storage:
 
-![](/img/image-404.png)
+![](/img/VMs_No_VHD.gif)
 
 Virtual Machines using a Storage Area Network:
 
-![](/img/image-404.png)
+![](/img/VMs_DAS.gif)
 
 Virtual Machine using VHD for Guest OS and Physical Storage for InfiniTime Partition
 
-![](/img/image-404.png)
+![](/img/VMs_VHDwithDAS.gif)
 
 * Oracle does not provide database support for installations running on a virtual platform. Any database issue, especially I/O related database errors, could potentially result in loss of all data. If complications should arise with the Oracle database, the only method for returning the InfiniTime Application to a production state is to reinstall the InfiniTime Software and the Oracle database, and to restore an InfiniTime Backup. Inception Technologies cannot be held responsible for data loss due to failure to make and retain regular backups of the InfiniTime Database. InfiniTime includes a Backup / Restore component specifically for this purpose. Customers choosing to install on a virtual platform must take extra care to ensure their InfiniTime Database is backed up, as it is not possible to troubleshoot database related issues.
 

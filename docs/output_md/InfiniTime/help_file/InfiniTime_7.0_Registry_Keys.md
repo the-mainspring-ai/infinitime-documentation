@@ -17,37 +17,37 @@ Accessing the InfiniTime Registry Keys
 
 1. Click Start
 
-![](/img/image-404.png)
+![](/img/clickstart.gif)
 
 2. Click Run
 
-![](/img/image-404.png)
+![](/img/regedit3.gif)
 
 3. Type regedit
 
-![](/img/image-404.png)
+![](/img/clickrun.gif)
 
 4. Click OK
 
 5. Expand HKEY\_LOCAL\_MACHINE
 
-![](/img/image-404.png)
+![](/img/regedit6.gif)
 
 6. Expand Software
 
-![](/img/image-404.png)
+![](/img/regedit2.gif)
 
 7. Expand Inception Technologies
 
-![](/img/image-404.png)
+![](/img/regedit4.gif)
 
 8. Expand InfiniTime
 
-![](/img/image-404.png)
+![](/img/regedit6.gif)
 
 9. Click on 7.0
 
-![](/img/image-404.png)
+![](/img/regedit1.gif)
 
 | Registry Key | Settings | Description |
 | Clear Reader Memory | True or False | Set to False by default. Setting this key to true will cause a reader's memory to be cleared at the next data update. Perform the data update manually as soon as possible and return this setting to its original value. |

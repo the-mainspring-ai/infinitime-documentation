@@ -61,7 +61,7 @@ of the Software Documentation for assistance.
 InfiniTime
 7.0 Electronic User Guide - Table of Contents Introduction
 
-![](/img/image-404.png)
+![](/img/image83.jpg)
 
 Content within the Electronic User Guide is organized to match the InfiniTime Implementation Process.
 A summary of each section is provided below.
@@ -109,7 +109,7 @@ made to the InfiniTime
 Application are listed in Installation Documentation...Chapter 7 - InfiniTime 7.0 Installation Troubleshooting:
 Version Release Notes as shown below.
 
-![](/img/image-404.png)
+![](/img/image83.jpg)
 
 When applicable a link is provided to relevant documentation for each
 new feature or change made to the InfiniTime

@@ -50,9 +50,7 @@ your organizations accrual requirements are provided at the links below
 and may be printed as desired. Additionally, a process flow diagram is
 also provided which describes the high level procedure for configuring
 employee accruals for an enterprise organization.
-
-[Employee
-Accruals Tables 1 to 5](../../RESOURCES/Accruals_BlankEmployeeAccrualConfigurationTables.pdf)
+...
 
 ### Employee Accruals â Basic Accruals Overview
 
@@ -254,7 +252,7 @@ The Accrual Types Table will be displayed. The Accrual Types Table displays
 all accrual types in the InfiniTime
 Database, for all Accrual Classes and Tenure ranges.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_058.png)
 
 ### Accessing the Accrual Type Update Form
 
@@ -273,12 +271,12 @@ Table 3.
 Accrual Type Update
 Form General Tab:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_047.png)
 
 Accrual
 Type Update Form Accrual Calculations Tab:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_042.png)
 
 ### Accessing the Accrual Calculations Update Form
 
@@ -299,12 +297,12 @@ Type Update Form Accrual Calculations Tab:
 **Accrual
 Calculation Update Form General Tab:**
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_037.png)
 
 **Accrual
 Calculation Update Form Other Activities That Deduct Tab:**
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_044.png)
 
 The Accrual Calculations Update Form is used
 to create accrual calculations for a specific Accrual Type. As detailed
@@ -410,7 +408,7 @@ Using the âAccrueâ Calculation Method awards a predefined number of
 hours to employees at a set interval over time. The âAccrueâ Calculation
 Method is based on a three part formula as illustrated below.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_022.png)
 
 1 â Accrue Amount
 
@@ -468,7 +466,7 @@ Year
 
 Stop At: 40
 
-![](/img/image-404.png)
+![](/img/Hourly.png)
 
 #### _Employee Accrual Posting Records_
 
@@ -492,7 +490,7 @@ through accrual periods, such that progress toward the next accrual interval
 is not lost at the end of the Accrual Period, with the âAccrual Interval
 Persists through Accrual Periodsâ Accrual Plus Feature.
 
-![](/img/image-404.png)
+![](/img/OneLevelCarryOver_TCEAP.png)
 
 #### Employee Accrual Totals
 
@@ -501,7 +499,7 @@ detailed above and the resulting Employee Accrual Posting Records, the
 employee will receive a total of 4.61539 Vacation Hours in 2011, 40 Vacation
 Hours in 2012, and 6.15385 Vacation Hours in 2013.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_005.png)
 
 #### Example Employee Accruals: Accrual Calculation Method w/ Month(s) Accrual Interval Unit
 
@@ -521,7 +519,7 @@ Accrual Reset Type: Anniversary
 
 Stop At: 40
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_021.png)
 
 #### Employee Accrual Posting Records
 
@@ -537,7 +535,7 @@ of the month for those months with 31 days and on the last day of the
 month for all months with less than 31 days. In this way, employees are
 awarded hours every month.
 
-![](/img/image-404.png)
+![](/img/AccrualPostCarryOver.png)
 
 #### _Employee Accrual Totals_
 
@@ -547,11 +545,7 @@ Employee Accrual Posting Records, the employee will receive a total of
 40.00001 Vacation Hours for the Accrual Period starting 11/06/2011 and
 16.666667 Vacation Hours for the Accrual Period starting 11/06/2012.
 
-
-
-_![](/img/image-404.png)_
-
-
+_![](/img/AccrualPosting_EndOfCycle_Fiscal.png)_
 
 _Example
 Employee Accruals: Accrual Calculation Method w/ Hour(s) Accrual Interval
@@ -573,7 +567,7 @@ Employee Hire Date:
 Accrual Reset Type:
 Anniversary
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_020.png)
 
 #### Employee Accrual Posting Records
 
@@ -593,7 +587,7 @@ being awarded hours on 12/13/2012, when the employee hits a total of 80
 hours in the new accrual period. After 1/15/2012, the employee is awarded
 hours every 80 hours worked.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_058.png)
 
 #### Employee Accrual Totals
 
@@ -603,7 +597,7 @@ will receive a total of 41.53847 Vacation Hours for the Accrual Period
 starting 11/30/2011 and 12.30770 Vacation Hours for the Accrual Period
 Starting 11/30/2012.
 
-![](/img/image-404.png)
+![](/img/Star.png)
 
 #### Employee Timecards for 11/27/12 to 11/29/12
 
@@ -612,7 +606,7 @@ to 11/29/12 are shown below. Remember, progress toward the next Accrual
 Interval starts over at the end of the accrual period. Any progress toward
 the next accrual interval on the last day of the Accrual Period is lost.
 
-![](/img/image-404.png)
+![](/img/Accruals_78.png)
 
 #### Employee Timecards for 11/30/12 to 12/13/12
 
@@ -624,7 +618,7 @@ This is clearly illustrated below. December 13th 2012 is the first date
 in the 11/30/12 to 11/29/13 Accrual Period on which the employee accumulated
 80 hours worked in the new accrual period.
 
-![](/img/image-404.png)
+![](/img/image8.jpg)
 
 ### Basic Accrual Module â Calculation Modifiers
 
@@ -894,7 +888,7 @@ The Accrual Type Table will be displayed. The Accrual Type Table displays
 all accrual types in the InfiniTime
 Database and is used to add additional Accrual Types to the software.
 
-![](/img/image-404.png)
+![](/img/Accruals_70.png)
 
 Copy -
 Permits the InfiniTime
@@ -942,7 +936,7 @@ General Tab of the Accrual Type Update Form includes basic settings related
 to an accrual type, such as the Accrual Type Name, the Accrual Type Class,
 and the tenures for which the Accrual Type applies.
 
-![](/img/image-404.png)
+![](/img/Accruals_76.png)
 
 Accrual
 Type Update Form Accrual Calculations Tab:
@@ -953,7 +947,7 @@ calculations defined for the respective accrual type. All employees assigned
 to the accrual type will accrue hours in accordance with the settings
 on each accrual calculation.
 
-![](/img/image-404.png)
+![](/img/Accruals_68.png)
 
 ### Accessing the Accrual Calculations Update Form
 
@@ -1001,11 +995,11 @@ for ease of reference.
 
 #### Accrual Calculation Update Form General Tab
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_027.png)
 
 #### Accrual Calculation Update Form Accrual Plus Features tab - Calculation Modifiers Tab:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_006.png)
 
 The Accrual Calculations Update Form is used to create accrual calculations
 for a specific Accrual Type. As detailed in the Accrual Plus Overview
@@ -1155,7 +1149,7 @@ Using the âAccrueâ Calculation Method awards a predefined number of
 hours to employees at a set interval over time. The âAccrueâ Calculation
 Method is based on a three part formula as illustrated below.
 
-![](/img/image-404.png)
+![](/img/image9.jpg)
 
 1 â Accrue Amount
 
@@ -1213,7 +1207,7 @@ Year
 
 Stop At: 40
 
-![](/img/image-404.png)
+![](/img/HireAtStart.png)
 
 #### _Employee Accrual Posting Records_
 
@@ -1237,7 +1231,7 @@ through accrual periods, such that progress toward the next accrual interval
 is not lost at the end of the Accrual Period, with the âAccrual Interval
 Persists through Accrual Periodsâ Accrual Plus Feature.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_031.png)
 
 #### Employee Accrual Totals
 
@@ -1246,7 +1240,7 @@ detailed above and the resulting Employee Accrual Posting Records, the
 employee will receive a total of 4.61539 Vacation Hours in 2011, 40 Vacation
 Hours in 2012, and 6.15385 Vacation Hours in 2013.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_019.png)
 
 #### Example Employee Accruals: Accrual Calculation Method w/ Month(s) Accrual Interval Unit
 
@@ -1266,7 +1260,7 @@ Accrual Reset Type: Anniversary
 
 Stop At: 40
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_023.png)
 
 #### Employee Accrual Posting Records
 
@@ -1282,7 +1276,7 @@ of the month for those months with 31 days and on the last day of the
 month for all months with less than 31 days. In this way, employees are
 awarded hours every month.
 
-![](/img/image-404.png)
+![](/img/Accruals_68.png)
 
 #### _Employee Accrual Totals_
 
@@ -1293,9 +1287,7 @@ Period starting 11/06/2011 and 16.666667 Vacation Hours for the Accrual
 Period starting 11/06/2012. Notice how the employee is awarded hours each
 month on the same day of the month on which they were originally hired.
 
-
-
-![](/img/image-404.png)
+![](/img/AccrualPostCarryOver.png)
 
 #### Example Employee Accruals: Accrual Calculation Method w/ Hour(s) Accrual Interval Unit
 
@@ -1315,7 +1307,7 @@ Employee Hire Date:
 Accrual Reset Type:
 Anniversary
 
-![](/img/image-404.png)
+![](/img/Accruals_83.png)
 
 #### Employee Accrual Posting Records
 
@@ -1340,7 +1332,7 @@ through accrual periods, such that progress toward the next accrual interval
 is not lost at the end of the Accrual Period, with the âAccrual Interval
 Persists through Accrual Periodsâ Accrual Plus Feature.
 
-![](/img/image-404.png)
+![](/img/Accruals_83.png)
 
 #### Employee Accrual Totals
 
@@ -1350,7 +1342,7 @@ will receive a total of 41.53847 Vacation Hours for the Accrual Period
 starting 11/30/2011 and 12.30770 Vacation Hours for the Accrual Period
 Starting 11/30/2012.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_049.png)
 
 #### Employee Timecards for 11/27/12 to 11/29/12
 
@@ -1359,7 +1351,7 @@ to 11/29/12 are shown below. Remember, progress toward the next Accrual
 Interval starts over at the end of the accrual period. Any progress toward
 the next accrual interval on the last day of the Accrual Period is lost.
 
-![](/img/image-404.png)
+![](/img/Accruals_73.png)
 
 #### Employee Timecards for 11/30/12 to 12/13/12
 
@@ -1371,7 +1363,7 @@ This is clearly illustrated below. December 13th 2012 is the first date
 in the 11/30/12 to 11/29/13 Accrual Period on which the employee accumulated
 80 hours worked in the new accrual period.
 
-![](/img/image-404.png)
+![](/img/Accruals_76.png)
 
 #### End of Cycle Bonus Calculation Method
 
@@ -1404,9 +1396,9 @@ Accrual Reset Type - Anniversary
 
 Stop At - 120 Hours
 
-Carry Over - ![](/img/image-404.png)
+Carry Over - ![](/img/BasicAccruals_047.png)
 
-End of Cycle Bonus - ![](/img/image-404.png)
+End of Cycle Bonus - ![](/img/AccrualPosting_AuthAmt5.png)
 
 #### Example Employee Accrual Posting Report
 
@@ -1417,7 +1409,7 @@ Period and carried forward for use in subsequent accrual periods.
 
 #### Example Accrual Totals
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_011.png)
 
 #### Example Employee Accruals - End of Cycle Bonus Calculation Method with Calendar Year Reset Type
 
@@ -1439,13 +1431,13 @@ Year
 
 Stop At - 120 Hours
 
-Carry Over - ![](/img/image-404.png)
+Carry Over - ![](/img/BasicAccruals_066.png)
 
-End of Cycle Bonus - ![](/img/image-404.png)
+End of Cycle Bonus - ![](/img/BasicAccruals_017.png)
 
 #### Example Posting Report
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_036.png)
 
 Notice how the employee is awarded 40 hours on 12/31/2010 for the first
 time, which are carried forward to the 2011 accrual period. The employee
@@ -1454,7 +1446,7 @@ until the Stop At Amount is reached.
 
 #### Example Accrual Totals
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_022.png)
 
 ### Example Employee Accruals - End of Cycle Bonus Calculation Method with Fiscal Year Reset Type
 
@@ -1477,13 +1469,13 @@ Year, Fiscal Period Start Date: May 1st
 
 Stop At - 120 Hours
 
-Carry Over -![](/img/image-404.png)
+Carry Over -![](/img/AccrualPosting_AuthAmt5.png)
 
-End of Cycle Bonus -![](/img/image-404.png)
+End of Cycle Bonus -![](/img/Accruals_70.png)
 
 #### Example Posting Report
 
-![](/img/image-404.png)
+![](/img/Accruals_71.png)
 
 Notice how the employee is awarded 40 hours on 4/30/2011 for the first
 time, which are carried forward to the 2011 accrual period starting 5/1/11.
@@ -1492,7 +1484,7 @@ accrual period until the Stop At Amount of 120 hours is reached.
 
 #### Example Accrual Totals
 
-![](/img/image-404.png)
+![](/img/AccrualPosting_EndOfCycle_Fiscal.png)
 
 ### Alternate Posting Calculation Method
 
@@ -1512,7 +1504,7 @@ to the Accrual Calculation. It is important to note that employee hours
 for Hours Types configured for alternate posting will not be totaled or
 displayed in the timecard. An example is shown below.
 
-![](/img/image-404.png)
+![](/img/Daily.png)
 
 Insert
 
@@ -1541,25 +1533,25 @@ Accrual Reset Type - Calendar Year
 
 Stop At - 120 Hours
 
-Carry Over -![](/img/image-404.png)
+Carry Over -![](/img/Accruals_84.png)
 
-Alternate Posting -![](/img/image-404.png)
+Alternate Posting -![](/img/AccrueToStopAt.png)
 
 Policy Overtime One Settings -
 
-![](/img/image-404.png)
+![](/img/Star.png)
 
 #### Example Accrual Posting Report
 
-![](/img/image-404.png)
+![](/img/Accruals_72.png)
 
 #### Employee Accrual Totals
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_052.png)
 
 #### Example Employee Timecards
 
-![](/img/image-404.png)
+![](/img/image8.jpg)
 
 Notice how Overtime 1 Hours are posted directly to the Comp Time Accrual
 Calculation. When Alternate Posting is enabled for a specific type of
@@ -1574,7 +1566,7 @@ Accrue Calculation Method. Rate Mapping makes it possible for the Accrue
 Amount awarded at each Accrual Interval to be scaled based on the number
 of units elapsed during the accrual period.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_049.png)
 
 Insert
 
@@ -1686,19 +1678,19 @@ Stop At - 200 Hours
 
 Carry Over -
 
-![](/img/image-404.png)
+![](/img/Accruals_81.png)
 
 #### Accrual Calculation Method Settings
 
-![](/img/image-404.png)
+![](/img/AccrueToStopAt.png)
 
 #### Rate Mapping Records
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_066.png)
 
 #### Example Accrual Totals
 
-![](/img/image-404.png)
+![](/img/Accruals_71.png)
 
 #### Example Accrual Posting Report
 
@@ -1720,9 +1712,9 @@ reverts to the original Accrue Amount of 0.215054 hours since the total
 number of elapsed units (IE: Worked Hours) is reset for the 2013 Accrual
 Period.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_057.png)
 
-![](/img/image-404.png) As a
+![](/img/BasicAccruals_025.png) As a
 60 Hour / Week Employee, the employee shown worked 12 hours per day M
 â F throughout 2012. In this way, every fifth day of work the employee
 will hit the 10 hour threshold twice. Specifically, the first two hours
@@ -1831,15 +1823,15 @@ Hours
 
 #### Example Employee Timecards
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_010.png)
 
 #### Example Employee Accrual Totals
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_041.png)
 
 #### Maximum Negative Accrual Warning:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_054.png)
 
 Notice how the employee took five business days of vacation time from
 2/04/13 to 2/08/13 for a total of 40 Vacation Hours. This exhausted the
@@ -2085,27 +2077,27 @@ Stop At - 200 Hours
 
 Authorized Unit -
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_048.png)
 
 Carry Over -
 
-![](/img/image-404.png)
+![](/img/Accruals_82.png)
 
 Accrual Calculation Method Settings  -
 
-![](/img/image-404.png)
+![](/img/RateMapByHours1AccrualPosting.png)
 
 Rate Mapping Records -
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_023.png)
 
 #### Example Accrual Totals
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_026.png)
 
 #### Example Accrual Posting Report
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_061.png)
 
 As shown above, the Authorized Hour(s) value of 936 forces the Accrual
 Calculation to cap the employeeâs total hours worked at 936 for the accrual
@@ -2164,13 +2156,13 @@ Year
 
 Accrue Calculation Method:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_026.png)
 
 Stop At: 120
 
 Carry Over:
 
-![](/img/image-404.png)
+![](/img/Accruals_84.png)
 
 Maximum Negative Accrual:
 0.01
@@ -2245,18 +2237,18 @@ Stop At: 120 Hours
 
 Carry Over:
 
-![](/img/image-404.png)
+![](/img/Accruals_69.png)
 
 Maximum Negative Accrual: 0.01
 Hours
 
 #### Example Employee Accrual Posting
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_056.png)
 
 #### Example Employee Accrual Totals
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_044.png)
 
 Notice how the employee accrues 80 hours each year and carries forward
 40 hours into each subsequent accrual period. Due to the carry over expiration
@@ -2271,7 +2263,7 @@ hours will expire and can no longer be used. If an employeeâs supervisor
 should insert Vacation Time after 3/2/13 the Maximum Negative Accrual
 Warning will be displayed:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_046.png)
 
 ### Example Carry Over Configuration: Two Carry Over Levels with Carry Over One and Carry Over Two Expiration & Maximum Hours
 
@@ -2288,7 +2280,7 @@ Stop At: 160 Hours
 
 Carry Over:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_036.png)
 
 Maximum Negative Accrual: 0.01
 Hours
@@ -2299,7 +2291,7 @@ Hours
 
 #### Example Employee Accrual Totals
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_067.png)
 
 It is important to note that Employee Accrual totals are not directly
 altered when the date of expiration passes for hours that were carried
@@ -2325,7 +2317,7 @@ have at least one Other Activity Type inserted on the Other Activities
 That Deduct tab deduct paid leave hours such as Vacation, Sick, or Personal
 time from the accrual bucket.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_042.png)
 
 Users should note that there is no limit to the number of Other Activity
 Types that can be deducted from a single Accrual Calculation. Companies
@@ -2336,7 +2328,7 @@ Time separately as they are deducted from the employee's available balance.
 An example of this scenario, where multiple other activity types are deducted
 from a single accrual calculation, is shown below.
 
-![](/img/image-404.png)
+![](/img/AccrualPosting_EndOfCycle_Cal.png)
 
 ### Rule Based Calculation Modifiers
 
@@ -2377,7 +2369,7 @@ employees may only not use more than the number of hours that were carried
 forward from prior accrual periods. Hours accrued during the current accrual
 period will not be available for use.
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_046.png)
 
 NOTE: Do Not Allow Accrued Time to be Used and
 Do Not Allow Accrued Time to be Used in Year Accrued require the Maximum
@@ -2417,20 +2409,20 @@ Stop At: 60 Hours
 
 Accrue:
 
-![](/img/image-404.png)
+![](/img/Daily.png)
 
 Carry Over:
 
-![](/img/image-404.png)
+![](/img/Accruals_69.png)
 
 Continue to Accrue to Stop At Amount After
 Time is Used:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_025.png)
 
 #### Example Employee Accrual Totals
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_029.png)
 
 Notice how the employee carries 44.61540 Hours forward from 2011 into
 the 2012 Accrual Period. The employee hits the stop at amount of 60 hours
@@ -2442,7 +2434,7 @@ a new 14 day accrual interval begins and the employee is awarded hours
 
 #### Example Employee Accrual Posting Report
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_006.png)
 
 ### Award Immediately
 
@@ -2477,15 +2469,15 @@ Stop At: 200 Hours
 
 Accrue:
 
-![](/img/image-404.png)
+![](/img/Accruals_75.png)
 
 Award Immediately:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_034.png)
 
 #### Example Accrual Totals
 
-![](/img/image-404.png)
+![](/img/Accruals_82.png)
 
 The above screen shot was taken on 4/22/13. Notice how the employee
 is awarded 40.00001 hours for the 2013 accrual period and Employee Accrual
@@ -2502,7 +2494,7 @@ Method using either the Day(s) or Month(s) Accrual Interval Unit.
 
 #### Example Accrual Posting Report
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_041.png)
 
 NOTE: The provided Employee Accrual Posting Report
 shows records for 2013 only. Not all Accrual Posting records are shown
@@ -2539,25 +2531,25 @@ Stop At: 120 Hours
 
 Carry Over:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_017.png)
 
 Accrue:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_034.png)
 
 Accrue Hours as if Hired at the Start
 of the First Accrual Interval:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_010.png)
 
 Accrual Interval Persists Through Accrual
 Periods:
 
-![](/img/image-404.png)
+![](/img/HireAtStart.png)
 
 #### Example Accrual Posting Report
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_039.png)
 
 Notice how the employeeâs first accrual period starts on 02/27/2012.
 February 27th 2012 is the Start Date (IE: Day 1) of the 14 Day Accrual
@@ -2569,7 +2561,7 @@ new accrual interval starts on the following day.
 
 #### Example Accrual Totals
 
-![](/img/image-404.png)
+![](/img/Accruals_78.png)
 
 NOTE: Accrue Hours at the Start of the First Accrual
 Interval is designed for use with the Accrue Calculation Method using
@@ -2581,7 +2573,7 @@ beginning of the accrual interval during which they are hired and are
 then awarded hours according to the Accrue Calculation Method going forward.
  This concept is illustrated by the diagrams below.
 
-![](/img/image-404.png)
+![](/img/Accruals_73.png)
 
 The Effective Date is 11/7/2011, making 11/8/2011 the first day of the
 accrual. Every 14 days thereafter, InfiniTime
@@ -2591,7 +2583,7 @@ ends on 12/5/2011. Notice that the number line above clearly indicates
 that 11/21/11 is the 14th day from the effective date. Similarly â 12/5/11
 is the 28th day from the effective date.
 
-![](/img/image-404.png)
+![](/img/image9.jpg)
 
 In the example above, the employee is hired on March 6th 2012, which
 falls in the 2/28/12 to 3/12/12 Accrual Interval. Since the âAccrue Hours
@@ -2663,25 +2655,25 @@ Stop At: 120 Hours
 
 Carry Over:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_021.png)
 
 Accrue:
 
-![](/img/image-404.png)
+![](/img/Hourly.png)
 
 Accrue Hours as if Hired at the Start of
 the First Accrual Interval:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_005.png)
 
 Accrual Interval Persists Through Accrual
 Periods:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_001.png)
 
 #### Example Accrual Totals
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_020.png)
 
 Notice how the employee's first accrual period starts on 3/5/12 due
 to the 'Accrue Hours as if Hired at the Start of the First Accrual Period'
@@ -2699,7 +2691,7 @@ the 14 day cycle from the 10/17/2011 effective date.
 
 #### Example Accrual Posting Report
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_067.png)
 
 NOTE: Accrual Interval Persists Through Accrual
 Periods is designed for use with the Accrue Calculation Method using either
@@ -2721,16 +2713,16 @@ Stop At: 120 Hours
 
 Carry Over:
 
-![](/img/image-404.png)
+![](/img/Accruals_80.png)
 
 Accrue:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_003.png)
 
 Accrue Hours as if Hired at the Start of
 the First Accrual Interval:
 
-![](/img/image-404.png)
+![](/img/BasicAccruals_009.png)
 
 Accrual Interval Persists Through Accrual
 Periods:
@@ -2739,7 +2731,7 @@ Periods:
 
 #### Example Accrual Totals
 
-![](/img/image-404.png)
+![](/img/OneLevelCarryOver_TCEAP.png)
 
 Notice how the employee's first accrual period starts on 3/5/12 due
 to the 'Accrue Hours as if Hired at the Start of the First Accrual Period'
@@ -2758,7 +2750,7 @@ from 12/25/12 to 12/31/12 being dropped.
 
 #### Example Accrual Posting Report
 
-![](/img/image-404.png)
+![](/img/RateMapByHours1AccrualPosting.png)
 
 NOTE: Accrual Interval Persists Through Accrual
 Periods is designed for use with the Accrue Calculation Method using either

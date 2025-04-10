@@ -13,7 +13,7 @@ Demographics
 
 In the Demographics tab you will be able to enter basic information about the employee such as employee number, name, address, gender, ethnic code and you can also attach a picture to the employee record.
 
-![](/img/image-404.png)
+![](/img/Termination_Fields.gif)
 
 Required fields are noted as such in the field description below.  Should a required field be left blank upon attempting to save the record by clicking the OK button, the system will prompt the user to fill out the required fields that were missed.
 
@@ -23,7 +23,7 @@ Inactive: Checking this box will change the employeeâs status to inactive. 
 
 If the inactive check box is selected then other fields appear in the update form, the Date of Termination and Termination Reason, both of this fields are required.
 
-![](/img/image-404.png)
+![](/img/Demographics.gif)
 
 Date Of Termination: This date field is the date the employee ended work with the company.
 

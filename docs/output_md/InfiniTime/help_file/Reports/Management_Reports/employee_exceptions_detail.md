@@ -15,13 +15,13 @@ Displays exceptions for the employees specified by Selection Criteria. All un-re
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Exception_Detail_Limited.gif)
 
 Notes/Usage:
 
 This report will show all the exceptions for the employee in the specified time, if you want to limit what exceptions to show you will need to select the desired exceptions and also in the options set it to only display selected exceptions. for example we just want to see the missed punches for a period  you would tag missed punch on the selection criteria and the option to limit to selected exceptions set it to yes and this is the result.
 
-![](/img/image-404.png)
+![](/img/Exception_Detail.gif)
 
 Options:
 

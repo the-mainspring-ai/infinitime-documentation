@@ -15,7 +15,7 @@ Displays a list of all employees grouped by the supervisor they are assigned.  
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_List_With_Supervisors.gif)
 
 Notes/Usage:
 

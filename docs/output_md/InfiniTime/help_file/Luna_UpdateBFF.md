@@ -27,16 +27,16 @@ Updating the Bios on the Luna Reader
 
 4. Press the Menu button on the Luna Terminal. If an administrator is present in the clock the user will be prompted to enter their ID and Password before the menu will be displayed.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS1.gif)
 
 5. Use the down arrow to move down to Options and press OK.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS10.gif)
 
 6. Ensure System Opt. is highlighted and press OK.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS9.gif)
 
 7. Use the down arrow to move down to Adv Option and press OK.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS9.gif)

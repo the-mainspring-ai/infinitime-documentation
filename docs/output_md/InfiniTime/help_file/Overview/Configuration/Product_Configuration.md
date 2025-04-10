@@ -315,7 +315,7 @@ item. Ensure the Cost Center and Department Numbers are configured appropriately
 
 ### Department Table
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_4.gif)
 
 The Department Table displays a list of all Departments configured in
 the software. Departments are used to separate employee hours performed
@@ -341,7 +341,7 @@ it is important to understand the following concepts regarding InfiniTime Depart
   goods such as manufacturing related organizations or where hours are
   billable to clients.
 
-![](/img/image-404.png)
+![](/img/clip_image014.jpg)
 
 Insert
 
@@ -361,7 +361,7 @@ Delete
 
 ### Department Update Form - General Tab
 
-![](/img/image-404.png)
+![](/img/DeptPrem_EX_2.gif)
 
 Department - Enter the given
 name of a department within the organization.
@@ -407,7 +407,7 @@ For example, the default schedule defined on an employeeâs policy would
 be ignored if a default schedule was configured for the employee in their
 employee or department record.
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays001.png)
 
 Quick Schedule - Opens the Quick
 Default Schedule Tool which permits InfiniTime
@@ -427,7 +427,7 @@ The Telephone Punch Options tab will only be displayed on the Department
 Update Form if the customer's InfiniTime
 Software License includes the Telephone Punch Module.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_22.gif)
 
 Insert -
 Opens the Department Valid Telephone Number Update Form which can be used
@@ -462,7 +462,7 @@ payment premiums. Refer to the [Pay
 Premium Introduction](../../Pay_Premium_Introduction.md) section of this document for more information
 on how Pay Premiums are calculated and how to configure them.
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_SchedAvail.jpg)
 
 ### Hours Mapping Tab
 
@@ -491,7 +491,7 @@ required. Additional details on configuring and utilizing Hours Mapping
 can be found in the [Hours Mapping
 Section](Product_Configuration.md#hm1_Hours_Mapping) of this document.
 
-![](/img/image-404.png)
+![](/img/HoursMapping16.gif)
 
 Configuring
 Jobs - Introduction
@@ -541,7 +541,7 @@ and Job Costing:
   goods such as manufacturing related organizations or where hours are
   billable to clients.
 
-![](/img/image-404.png)
+![](/img/hol34.png)
 
 Insert
 
@@ -560,7 +560,7 @@ Delete
 
 ### Activity Job  Update Form - General Tab
 
-![](/img/image-404.png)
+![](/img/HoursMapping16.gif)
 
 Description - Enter the given
 name of a Job within the organization.
@@ -595,7 +595,7 @@ Refer to the [Pay Premium
 Introduction](../../Pay_Premium_Introduction.md) section of this document for more information on how
 Pay Premiums are calculated and how to configure them.
 
-![](/img/image-404.png)
+![](/img/clip_image014.jpg)
 
 ### Hours Mapping Tab
 
@@ -623,7 +623,7 @@ Additional details on configuring and utilizing Hours Mapping can be found
 in the [Hours
 Mapping Section](Product_Configuration.md#hm1_Hours_Mapping) of this document.
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays004.png)
 
 Configuring
 Tasks - Introduction
@@ -677,7 +677,7 @@ it is important to understand the following concepts regarding InfiniTime Tasks 
   goods such as manufacturing related organizations or where hours are
   billable to clients.
 
-![](/img/image-404.png)
+![](/img/AccessQA.jpg)
 
 Insert
 
@@ -696,7 +696,7 @@ Delete
 
 ### Activity Task  Update Form - General Tab
 
-![](/img/image-404.png)
+![](/img/OTA_16.png)
 
 Description - Enter the given
 name of a Task within the organization.
@@ -731,7 +731,7 @@ the needs of a variety of special payment premiums. Refer to the [Pay
 Premium Introduction](../../Pay_Premium_Introduction.md) section of this document for more information
 on how Pay Premiums are calculated and how to configure them.
 
-![](/img/image-404.png)
+![](/img/JobPrem_1.gif)
 
 ### Hours Mapping Tab
 
@@ -759,7 +759,7 @@ Mapping to be required. Additional details on configuring and utilizing
 Hours Mapping can be found in the [Hours
 Mapping Section](Product_Configuration.md#hm1_Hours_Mapping) of this document.
 
-![](/img/image-404.png)
+![](/img/3WAVG.jpg)
 
 Employee
 Job Costing Settings
@@ -779,16 +779,16 @@ to an employee:
 1.) Click on the Employee Button on the main
 toolbar to open the employee table.
 
-![](/img/image-404.png)
+![](/img/21DHOLAVG.jpg)
 
 2.) Select the employee you wish to configure
 Job Costing Settings for from the list and click change.
 
-![](/img/image-404.png)
+![](/img/OTA_27.png)
 
 3.) Click on the Settings Tab.
 
-![](/img/image-404.png)
+![](/img/Groups01.gif)
 
 4.) Select the Department, Job, or Task you
 would like to assign as the employee's default. It should be noted the
@@ -797,7 +797,7 @@ is configured within InfiniTime.
 This simplifies the display of the Settings Tab for companies who do not
 utilize Job Costing.
 
-![](/img/image-404.png)
+![](/img/OTA_8.png)
 
 Note: Only the Default Department is required.
  The Default Job and Default Task fields are not required as some
@@ -825,33 +825,33 @@ Fields to the Company Timecard Table:
 1.) Click on the Timecard Button in the main
 toolbar to open the Company Timecard Table
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_023.png)
 
 2.) Click on the 'Select Grid Columns' button.
-( ![](/img/image-404.png).gif))
+( ![](/img/EmployeeProfile_026.png).gif))
 
-![](/img/image-404.png)
+![](/img/JobPrem_4.gif)
 
 3.) Locate the Task and Job Fields on the
-'Available' list and click on ![](/img/image-404.png)
+'Available' list and click on ![](/img/TaskPrem_2.gif)
 to move them to the 'Selected' list.
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_032.png)
 
-4.) Use the ![](/img/image-404.png) and ![](/img/image-404.png) buttons to move the Task and Job Fields
+4.) Use the ![](/img/JobCosting_Config_15.gif) and ![](/img/OTA_14.png) buttons to move the Task and Job Fields
 up and down in the list to alter order columns will be displayed in.
 
-![](/img/image-404.png)
+![](/img/OTA_26.png)
 
 5.) Click Apply to confirm and save your
 changes.
 
-![](/img/image-404.png)
+![](/img/OTA_22.png)
 
 6.) The Job and Task fields will be displayed
 in the Timecard Table.
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_GroupUnsel.jpg)
 
 Configuring
 Wages
@@ -869,29 +869,29 @@ To Configure Wages for use with Job Costing:
 1.) Click on the Employee Button on the main
 toolbar to open the employee table.
 
-![](/img/image-404.png)
+![](/img/OTA_30.png)
 
 2.) Select the employee you wish to configure
 Wages for from the list and click change.
 
-![](/img/image-404.png)
+![](/img/HoursMapping15.gif)
 
 3.) Click on the Wages Category.
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_5.gif)
 
 4.) Click on Insert
 
-![](/img/image-404.png)
+![](/img/HoursMapping14.gif)
 
 5.) Choose a combination of Department, Job,
 or Task for which the wage will apply.
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_1.gif)
 
 6.) Click OK to save the record.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_20.gif)
 
 Additional details on
 Job Costing and Wages can be found in the [Job
@@ -1164,14 +1164,14 @@ Example 1
 | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
 | West Coast Marina | 117852 | Painting |
 
-![](/img/image-404.png)
+![](/img/HoursMapping15.gif)
 
 Example 2
 
 | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
 | West Coast Marina | 117852 | Painting |
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_035.png)
 
 The above examples illustrate how employees
 will receive the wage associated with the particular Department, Job,
@@ -1199,14 +1199,14 @@ Example 1
 | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
 | West Coast Marina | 117852 | Painting |
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays006.png)
 
 Example 2
 
 | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
 | West Coast Marina | 117876 | Painting |
 
-![](/img/image-404.png)
+![](/img/OTA_29.png)
 
 The above examples illustrate how the employee
 will receive the wage associated with their particular Task and Department
@@ -1233,7 +1233,7 @@ Example 1
 | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
 | Ahbor Harbor | 117852 | Painting |
 
-![](/img/image-404.png)
+![](/img/ColSel_Down.gif)
 
 In the example above even though there is
 a wage record for each item where the employee is working the Department
@@ -1244,7 +1244,7 @@ Example 2
 | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
 | West Coast Marina | 117876 | Painting |
 
-![](/img/image-404.png)
+![](/img/OTA_29.png)
 
 The above examples illustrate how the employee
 will receive the wage associated with a single item unless a different
@@ -1272,11 +1272,11 @@ the Other Activity Types Table
 - Click on Lookups
 - Click on Calculation Setup
 
-![](/img/image-404.png).gif)
+![](/img/TaskPrem_4.gif).gif)
 
 - Click on Other Activity Types
 
-![](/img/image-404.png).gif)
+![](/img/OTA_6.png).gif)
 
 Insert
 â Inserts a new record into the Other Activity Type Table. Opens the Other
@@ -1294,7 +1294,7 @@ Delete
 The Other Activity Update Form includes all options and settings related
 to Other Activity Types. Each option is outlined below.
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_Shifts1.jpg)
 
 Description
 â Type the name of the Other Activity Type.
@@ -1433,7 +1433,7 @@ Mapping Code. This concept is illustrated below. Notice how Other Hours
 for the Shift Change Other Activity Type are totaled in the regular column
 only on 7/30/13 where the employee was scheduled to work.
 
-![](/img/image-404.png)
+![](/img/CH3_CompInfo3.gif)
 
 Count
 As Day Worked â When this check box is checked, the date on
@@ -1469,7 +1469,7 @@ for a given Other Activity Type. Allow Start Time Entry is only available
 for Other Activity Types set to 'Count as Regular Hours' or 'Only Count
 as Regular Hours if Scheduled'.
 
-![](/img/image-404.png)
+![](/img/clip_image022.jpg)
 
 Use Scheduled
 Hours - If this option is checked,
@@ -1480,7 +1480,7 @@ not directly enter or edit the Other Hours for a given date for the respective
 Activity Type. Additionally, the respective activity type cannot be inserted
 for an employee with no scheduled hours on a given date.
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_033.png)
 
 Permit
 Entry Only If Scheduled - If this
@@ -1495,9 +1495,9 @@ not be posted to the employee's timecard. The warnings below are displayed
 if a user should attempt to insert an Other Activity Type with 'Permit
 Entry Only if Scheduled' Checked on a date where an employee is not scheduled.
 
-![](/img/image-404.png)
+![](/img/OTA_28.png)
 
-![](/img/image-404.png)
+![](/img/hol30.png)
 
 Apply
 Shift Differential - If this option
@@ -1510,7 +1510,7 @@ The example below shows Other Hours for the Other Activity Type Shift
 Change applied toward the Day Shift Differential from 8:00 AM to 5:00
 PM.
 
-![](/img/image-404.png)
+![](/img/TaskPrem_4.gif)
 
 Exclude
 From Day Of Week Overtime - If
@@ -1547,7 +1547,7 @@ Hours -> OT2
 Exclude From Day Of Week
 Overtime Unchecked:
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_028.png)
 
 With 'Exclude From Day of Week Overtime'
 unchecked, hours for an other activity type set to Count as Regular Hours
@@ -1556,12 +1556,12 @@ to Overtime 2 in accordance with Sunday Day of Week Overtime settings.
 The Configuration for the Shift Change Other Activity Type in this scenario
 is shown below.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_18.gif)
 
 Exclude From Day of Week
 Overtime Checked:
 
-![](/img/image-404.png)
+![](/img/hs6.gif)
 
 With 'Exclude From Day of Week Overtime'
 unchecked, hours for an other activity type set to Count as Regular Hours
@@ -1570,7 +1570,7 @@ the Shift Change Other Activity Type are paid as Regular Hours even though
 they fall on a Sunday. The Configuration for the Shift Change Other Activity
 Type in this scenario is shown below.
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_Group.jpg)
 
 Exclude
 From Unscheduled Overtime - If
@@ -1603,7 +1603,7 @@ Unscheduled OT1 Hours
 Exclude From Unscheduled
 Overtime Unchecked:
 
-![](/img/image-404.png)
+![](/img/OTA_15.png)
 
 With 'Exclude From Unscheduled Overtime'
 unchecked, hours for an other activity type set to Count as Regular Hours
@@ -1612,12 +1612,12 @@ to Overtime 2 in accordance with Unscheduled Hours Mapping settings. The
 Configuration for the Shift Change Other Activity Type in this scenario
 is shown below.
 
-![](/img/image-404.png)
+![](/img/clip_image020.jpg)
 
 Exclude From Unscheduled
 Overtime Checked:
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_15.gif)
 
 With 'Exclude From Unscheduled Overtime'
 checked, hours for an other activity type set to Count as Regular Hours
@@ -1626,7 +1626,7 @@ Shift Change are paid as regular hours even though the employee does not
 have a schedule on 7/28/2013. The Configuration for the Shift Change Other
 Activity Type in this scenario is shown below.
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_035.png)
 
 Exclude
 From Daily Overtime -  If
@@ -1653,7 +1653,7 @@ Weekly OT = Checked
 Exclude From Daily Overtime
 Unchecked:
 
-![](/img/image-404.png)
+![](/img/hs11.gif)
 
 With 'Exclude From Unscheduled Overtime'
 unchecked, hours for an other activity type set to Count as Regular Hours
@@ -1661,12 +1661,12 @@ are subject to Daily Overtime Rules. Notice how worked hours from 4:00
 PM to 8:00 PM on 7/29/13 are counted toward OT1. The Configuration for
 the Jury Duty Other Activity Type in this scenario is shown below.
 
-![](/img/image-404.png)
+![](/img/OTA_11.png)
 
 Exclude From Unscheduled
 Overtime Checked:
 
-![](/img/image-404.png)
+![](/img/Department-Update-Form_Prem.gif)
 
 With 'Exclude From Unscheduled Overtime'
 checked, hours for an other activity type set to Count as Regular Hours
@@ -1676,7 +1676,7 @@ The employee then does not qualify for Overtime Hours until they work
 beyond the 40 Hours in the Work Week on 8/2/13. The Configuration for
 the Shift Change Other Activity Type in this scenario is shown below.
 
-![](/img/image-404.png)
+![](/img/hol32.png)
 
 Exclude
 From Payroll Export â Placing a check in this box will allow
@@ -1710,7 +1710,7 @@ mapped to a different hours type based on specific conditions such as:
 - Unscheduled Hours worked on a specific Task
 - Unscheduled Hours worked on a specific Other Activity Type
 
-![](/img/image-404.png)
+![](/img/OTA_25.png)
 
 The Hours Mapping Tab of the Other Activity Update Form defines Hours
 Mapping settings for the respective Other Activity Type. Hours mapping
@@ -1800,7 +1800,7 @@ Other Hours to be paid to an employee with a Positive Entry
    Rules.For Other Hours, the Other Activity Type must be set to the Hours
    Type as shown below.
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_DefSched.jpg)
 
 3. Open the Company
    Timecard Table
@@ -1830,7 +1830,7 @@ Other Hours to be paid to an employee with a Positive Entry
 10. Click OK. The example
     below shows 8.00 Jury Duty Hours to be paid to an employee.
 
-![](/img/image-404.png)
+![](/img/sched7.gif)
 
 Adjusting
 Other Hours with a Negative Entry using the Same Other Activity Type
@@ -1844,7 +1844,7 @@ Other Hours with a Negative Entry using the Same Other Activity Type
    Rules. For Other Hours, the Other Activity Type must be set to the Hours
    Type as shown below.
 
-![](/img/image-404.png)
+![](/img/hol23.png)
 
 3. Open the Company
    Timecard Table
@@ -1875,7 +1875,7 @@ Other Hours with a Negative Entry using the Same Other Activity Type
     will be transferred to payroll and deducted from the employee's final
     gross pay.
 
-![](/img/image-404.png)
+![](/img/DeptPremium_Rate.gif)
 
 Adjusting
 Other Hours with a Negative Entry using a Different Other Activity Type
@@ -1920,7 +1920,7 @@ Other Hours with a Negative Entry using a Different Other Activity Type
     below shows a Negative Other Activity Entry used to negate a system holiday
     record.
 
-![](/img/image-404.png)
+![](/img/clip_image016.jpg)
 
 Other Amounts
 
@@ -1942,7 +1942,7 @@ Adding Other Amounts
     Attendance & HR Rules. For Other Amounts, the Other Activity Type
     must be set to the Amount Type as shown below.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_4.gif)
 
 3.  Open the Company Timecard Table
 
@@ -1973,7 +1973,7 @@ Adding Other Amounts
     and displayed on reports within InfiniTime
     exactly as they are entered.
 
-![](/img/image-404.png)
+![](/img/21DHOLAVG.jpg)
 
 Adjusting Other Amounts
 
@@ -1985,7 +1985,7 @@ Adjusting Other Amounts
     Attendance & HR Rules. For Other Amounts, the Other Activity Type
     must be set to the Amount Type as shown below.
 
-![](/img/image-404.png)
+![](/img/OTA_18.png)
 
 3.  Open the Company Timecard Table
 
@@ -2011,7 +2011,7 @@ Adjusting Other Amounts
     value on 8/5/13 will be transferred to payroll and deducted from the employee's
     final gross pay.
 
-![](/img/image-404.png)
+![](/img/OTA_11.png)
 
 Taxable
 Earnings
@@ -2035,7 +2035,7 @@ Taxable Earnings
    Attendance & HR Rules. For Taxable Earnings, the Other Activity Type
    must be set to the Amount Type as shown below.
 
-![](/img/image-404.png)
+![](/img/sched9.gif)
 
 3.  Open the Company Timecard Table
 
@@ -2066,7 +2066,7 @@ Taxable Earnings
     and displayed on reports within InfiniTime
     exactly as they are entered.
 
-![](/img/image-404.png)
+![](/img/TaskPrem_3.gif)
 
 Adjusting
 Taxable Earnings
@@ -2079,7 +2079,7 @@ Taxable Earnings
     Attendance & HR Rules. For Other Amounts, the Other Activity Type
     must be set to the Amount Type as shown below.
 
-![](/img/image-404.png)
+![](/img/Shift_Diferential_Tab.gif)
 
 3.  Open the Company Timecard Table
 
@@ -2105,7 +2105,7 @@ Taxable Earnings
     The negative value on 8/5/13 will be transferred to payroll and deducted
     from the employee's final gross pay.
 
-![](/img/image-404.png)
+![](/img/hs11.gif)
 
 Units Tracked
 
@@ -2133,7 +2133,7 @@ Units Tracked
    Attendance & HR Rules. For Per Unit Premiums and Piece Counts, the
    Other Activity Type must be set to the Amount Type as shown below.
 
-![](/img/image-404.png)
+![](/img/OTA_27.png)
 
 3.  Open the Company Timecard Table
 
@@ -2160,7 +2160,7 @@ Units Tracked
     payroll application is configured to pay employees an additional premium
     of $8.38 per night dive passenger.
 
-![](/img/image-404.png)
+![](/img/OTA_18.png)
 
 Adjusting
 Units Tracked
@@ -2174,7 +2174,7 @@ Units Tracked
    Attendance & HR Rules. For Per Unit Premiums and Piece Counts, the
    Other Activity Type must be set to the Amount Type as shown below.
 
-![](/img/image-404.png)
+![](/img/DeptPremium_Amt.gif)
 
 3.  Open the Company Timecard Table
 
@@ -2201,7 +2201,7 @@ Units Tracked
     The negative value on 8/8/13 will be transferred to payroll and deducted
     from the employee's final gross pay.
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_3.gif)
 
 Deduct
 Used Benefits from AccrualBalances
@@ -2269,7 +2269,7 @@ All Holiday types configured within the InfiniTime
 Software are displayed on the Holiday Schedule Types Table, which can
 be accessed from the Lookups Menu as shown below.
 
-![](/img/image-404.png)
+![](/img/OTA_19.png)
 
 ### Holiday Schedule Types Table
 
@@ -2281,7 +2281,7 @@ conjunction with Employee Policy settings to define specific benefits
 for employees who work on holiday dates such as time and a half (1.5x
 Employee Base Rate) or double time (2.x Employee Base Rate).
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays004.png)
 
 Insert
 
@@ -2328,7 +2328,7 @@ General Tab
 Includes settings and options related to the Holiday Type such as Holiday
 Type Name, Class Settings, and Tenure Settings.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_11.gif)
 
 Name â
 A description of the Holiday Schedule Type. Often describes the group
@@ -2383,7 +2383,7 @@ are met:
 The Dates Tab of the Holiday Schedule Type Update Form displays each
 Holiday Date configured for the respective Holiday Type.
 
-![](/img/image-404.png)
+![](/img/OTA_24.png)
 
 Insert -
 Displays the Master Holiday Update form. Used to insert a new holiday
@@ -2416,7 +2416,7 @@ The Holiday Master Holiday Update Form is used to define holiday options
 and conditions for individual holiday dates. A list of all available holiday
 options and conditions is provided below.
 
-![](/img/image-404.png)
+![](/img/hs6.gif)
 
 ### Available Holiday Options & Conditions - General Tab
 
@@ -2433,7 +2433,7 @@ Deduction
 Type: Select the type of deduction.  If Accrual is selected
 an Accrual Name must be selected for posting.
 
-![](/img/image-404.png)
+![](/img/clip_image018.jpg)
 
 Other
 Activity Type Specifies the Other Activity Type which will be used
@@ -2595,13 +2595,13 @@ Selection includes the days immediately before the date of the holiday
 that fall during the same week of the holiday while the 3 Week Selection
 does not.
 
-![](/img/image-404.png)
-                  ![](/img/image-404.png)
+![](/img/Ch2_QA_GroupSel.jpg)
+                  ![](/img/Conf_Holidays009.png)
 
 Example:
 Average Hours by Days
 
-![](/img/image-404.png)
+![](/img/ud11.gif)
 
 If Average Hours is
 enabled InfiniTime will
@@ -2640,7 +2640,7 @@ illustrated below with the following settings:
 Example:
 Average Hours by Weeks
 
-![](/img/image-404.png)
+![](/img/DeptPrem_EX_3.gif)
 
 | Average Hours | Yes |
 | Weeks to Average | 3 |
@@ -2763,7 +2763,7 @@ a number of days prior to the holiday date. This feature is especially
 useful for organizations who wish to scale Holiday benefits accordingly
 for Part Time and Full Time employees based on the employee's worked hours.
 
-![](/img/image-404.png)
+![](/img/ColSel_Sel.gif)
 
 Days to Rate Map
 
@@ -2778,7 +2778,7 @@ used to create new rate mapping entries. One Rate Mapping Entry should
 be created for each separate Other Activity Amount to be awarded based
 on employee working hours. For example,  the image above shows a
 simple Holiday Rate Mapping configuration with a  break down awarding
-two holiday hours for every multiple of ten  hours worked. ![](/img/image-404.png)
+two holiday hours for every multiple of ten  hours worked. ![](/img/Ch2_QA_SchedAvail.jpg)
 
 Hours Worked:
  The range of hours that must be worked over the days prior to the
@@ -2992,11 +2992,11 @@ details that must be gathered in order to configure holidays for a customer._
 
 ### Full Time Production Holiday Example:
 
-![](/img/image-404.png)
+![](/img/ColSel_Down.gif)
 
-![](/img/image-404.png)
+![](/img/TaskPrem_2.gif)
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_029.png)
 
 ### Part Time Holidays â Dates Tab
 
@@ -3004,17 +3004,17 @@ _Part
 Time Employees do not receive holidays. With this in mind, the âPart Time
 Holidaysâ Holiday Schedule Type does not have any holiday dates defined._
 
-**![](/img/image-404.png)**
+**![](/img/Department-Table.gif)**
 
 ### Employee Specific Holiday Configuration Example: Employee ID 202
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_12.gif)
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_034.png)
 
-![](/img/image-404.png)
+![](/img/sched11.gif)
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays012.png)
 
 ### Holiday Types Configuration - Holiday Configuration for Organizations that Differentiate between Scheduled and Unscheduled Hours
 
@@ -3067,7 +3067,7 @@ to each Holiday Date. Pay Codes should be set as appropriate for the 'Holiday
 Pay' Other Activity type to ensure the customer's Payroll Application
 pays Holiday Pay Hours at the correct rate.
 
-![](/img/image-404.png)
+![](/img/Department-Table.gif)
 
 Options and Conditions
 for Fixed Benefit Holiday Dates
@@ -3183,7 +3183,7 @@ Pay Codes should be set as appropriate for the 'Holiday Worked' Other
 Activity type to ensure the customer's Payroll Application pays Holiday
 Pay Hours at the correct rate.
 
-![](/img/image-404.png)
+![](/img/DeptPrem_EX_3.gif)
 
 Options and Conditions
 for  Holiday Dates with Premium Pay for Worked Hours
@@ -3359,7 +3359,7 @@ XYZ Hospitality pays the same Holiday Benefits
 for both Hourly Operations Employees and Salary Administrative Employees.
 Only a single Holiday Type is required for XYZ Hospitality as shown below.
 
-![](/img/image-404.png)
+![](/img/OTA_30.png)
 
 3. List
    each Calendar Date for each set of Employees Eligible for Holiday
@@ -3396,7 +3396,7 @@ for Fixed Holiday Dates as used by XYZ Hospitality.
 An example
 of a Fixed Holiday Date is shown below.
 
-![](/img/image-404.png)
+![](/img/JobPrem_4.gif)
 
 With this
 configuration, Fixed Holiday Benefits will be inserted automatically and
@@ -3421,7 +3421,7 @@ Notice how
 a Fixed Holiday Date is configured for each Calendar Date on which employees
 at XYZ Hospitality receive Holiday benefits as shown below.
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays002.png)
 
 6. Create
    One Premium Pay For Worked Hours Holiday Date for Each Calendar Date.
@@ -3439,7 +3439,7 @@ Hours Holiday Dates as used by XYZ Hospitality.
 An example
 of a Premium Pay for Worked Hours Holiday Date is shown below.
 
-![](/img/image-404.png)
+![](/img/hol31.png)
 
 With this
 configuration, Premium Pay for Worked Hours Holiday Benefits will tracked
@@ -3457,7 +3457,7 @@ a Premium Pay for Worked Hours Holiday Date is configured for each Calendar
 Date on which employees at XYZ Hospitality receive Holiday benefits as
 shown below.
 
-![](/img/image-404.png)
+![](/img/hs4.gif)
 
 7.  Use Quick Assign to assign employees to the appropriate Holiday Type.
 
@@ -3465,7 +3465,7 @@ Refer to
 the Quick Assign and Employee Filter sections of this document for complete
 instructions on use of Quick Assign.
 
-![](/img/image-404.png)
+![](/img/OTA_28.png)
 
 # Groups Introduction
 
@@ -3488,7 +3488,7 @@ within the same group level. For example, the image below shows two group
 levels, Location and Division. An employee may belong to any one location
 and any one division, but they cannot belong to two divisions.
 
-![](/img/image-404.png)
+![](/img/ColSel_Sel.gif)
 
 Accessing
 Groups
@@ -3497,7 +3497,7 @@ Groups
 - Click on Employee Setup
 - Click on Groups
 
-![](/img/image-404.png)
+![](/img/OTA_20.png)
 
 ### Group Table
 
@@ -3517,7 +3517,7 @@ groups to employees can be found in the [Employee
 Update Form Settings Tab](../ovr_SoftwareOverview.md#so167_Settings_Tab_-_Groups) and [Quick
 Assign](Product_Configuration.md#qa04_Using_Quick_Assign) Sections of this document.
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_1.gif)
 
 Insert - Opens the Group Level
 Update Form or the Group Update Form depending on the item selected on
@@ -3527,9 +3527,9 @@ to create a new Group Level. If a Group Description is selected, the Insert
 Button will open the Group Update Form which can be used to create a new
 Group Description for the respective Group Level.
 
-![](/img/image-404.png)
+![](/img/HoursMapping13.gif)
 
-![](/img/image-404.png)
+![](/img/hol34.png)
 
 Change - Opens the Group Update
 Form or Group Level Update Form as appropriate for the selected item.
@@ -3558,14 +3558,14 @@ quick assign action for all employees. The warning below will be displayed
 if a filter is not set and the user attempts to Click OK on the Quick
 Assign Update Form.
 
-![](/img/image-404.png)
+![](/img/OTA_24.png)
 
 Accessing
 Quick Assign:
 
 - Click on Tools
 
-![](/img/image-404.png)
+![](/img/HoursMapping14.gif)
 
 - Click on Quick Assign. The Quick Assign History window will be
   displayed as shown below.
@@ -3580,7 +3580,7 @@ a policy to all of the employees in a specific department and later notice
 that you assigned the wrong policy, the Quick Assign History window can
 be used to undo those changes.
 
-![](/img/image-404.png)
+![](/img/OTA_17.png)
 
 Undo -
 Reverts all employees affected by the selected Quick Assign Action to
@@ -3652,13 +3652,13 @@ are not using Access Control, then the Access control group will not show
 in the list, if you do not have any accruals set or holiday schedules,
 those two items will not show in the list to be assigned.
 
-![](/img/image-404.png)
+![](/img/clip_image010.jpg)
 
 General Tab
 
 The general
 tab is used to assign general employee settings to employees specified
-by the employee filter. The Lookup button ![](/img/image-404.png)
+by the employee filter. The Lookup button ![](/img/TaskPrem_3.gif)
 can be used to choose from available
 items for each setting or you can simply type the item directly into the
 field. Refer to Data Entry and Navigation Assistance for more information
@@ -3717,7 +3717,7 @@ using the quick assign tool. Shifts can either be reset to only those
 specified by the quick assign, or shifts specified by the Quick Assign
 can be appended to the settings previously configured for employees.
 
-![](/img/image-404.png)
+![](/img/OTA_1.png)
 
 To Set Employee Shifts
 
@@ -3755,7 +3755,7 @@ specified by the quick assign, or Schedule Availability Types specified
 by the Quick Assign can be appended to the settings previously configured
 for employees.
 
-![](/img/image-404.png)
+![](/img/hol29.png)
 
 To Set Schedule Availability
 Types
@@ -3797,7 +3797,7 @@ to only those specified by the quick assign, or shifts specified by the
 Quick Assign can be appended to the settings previously configured for
 employees.
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays011.png)
 
 To Set Employee Trained
 Tasks
@@ -3838,7 +3838,7 @@ Default Schedule will be updated and use the Quick Schedule button to
 define a schedule. Clicking OK will assign the specified schedule to all
 employees designated by the Employee Filter.
 
-![](/img/image-404.png)
+![](/img/DeptPrem_EX_2.gif)
 
 Group
 Tab
@@ -3852,7 +3852,7 @@ Refer to Chapter 5 Employee Setup -
 Employee Update Form - Groups for more information on the use and configuration
 of groups.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_19.gif)
 
 Note: A group description must be specified in
 order for the group assigned to the employee to be altered.
@@ -3863,14 +3863,14 @@ The image below shows
 a blank group description. In this case, a group description has not yet
 been specified.
 
-![](/img/image-404.png)
+![](/img/JobCostingWages_2.gif)
 
 The Image below shows
 a filled group description. In this case, a group description has been
 specified and the Phoenix group will be assigned to all employees specified
 by the Employee Filter.
 
-![](/img/image-404.png)
+![](/img/OTA_4.png)
 
 ### Hours Mapping
 
@@ -4012,12 +4012,12 @@ Unscheduled OT2 Hours into OT3:
 Scheduled
 Hours Mapping Settings:
 
-![](/img/image-404.png)
+![](/img/sched7.gif)
 
 Unscheduled
 Hours Mapping Settings:
 
-![](/img/image-404.png)
+![](/img/clip_image024.jpg)
 
 The
 table below describes when Unscheduled OT1 and Unscheduled OT2 Hours would
@@ -4080,7 +4080,7 @@ to OT4.
 ABC Manufacturing - Policy
 Unscheduled Hours Mapping Example:
 
-![](/img/image-404.png)
+![](/img/sched10.gif)
 
 July 6th 2013 is a normal
 scheduled working day for John Smith. Notice how John worked a total of
@@ -4090,7 +4090,7 @@ Hours Mapping Settings.
 ABC Manufacturing - Holiday
 Hours Mapping Example:
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_026.png)
 
 July
 4th 2013 is a scheduled working day for John Smith that also happens to
@@ -4184,9 +4184,9 @@ premium. In the example, Regular Hours worked as a Head Nurse receive
 an additional dollar per hour while Overtime Hours receive an additional
 two dollars per hour.
 
-![](/img/image-404.png)
+![](/img/clip_image010.jpg)
 
-![](/img/image-404.png)
+![](/img/DeptPremium_Amt.gif)
 
 Only Overtime 1 Hours in the Head Nurse Department
 receive Premium Pay
@@ -4200,14 +4200,14 @@ Overtime hours worked as a Head Nurse receive an additional two dollars
 per hour while Regular Hours do not receive a premium and are paid at
 the employee's base wage.
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_23.gif)
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_030.png)
 
 Identify
 an appropriate Pay Method
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays013.png)
 
 When
 configuring Pay Premiums be sure to select the Pay Method that matches
@@ -4236,7 +4236,7 @@ $10.00
 $15.00
 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/sched9.gif)
 
 Percent Pay Method
 
@@ -4261,7 +4261,7 @@ $10.00
 $15.00
 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/hs3.gif)
 
 Rate Pay Method
 
@@ -4270,7 +4270,7 @@ Rate Pay Method defines a specific wage for overtime hours. When the Rate
 Pay Method is used employee default wages are ignored and the Premium
 Rate is used for overtime hours.
 
-![](/img/image-404.png)
+![](/img/hol29.png)
 
 WARNING:
 The Rate Pay Method is not a multiplier
@@ -4559,7 +4559,7 @@ wage for any hours qualifying for all premiums.
 
 ### Department Pay Premiums
 
-![](/img/image-404.png)
+![](/img/JobPrem_2.gif)
 
 Premium
 Pay: Premium Pay makes it possible
@@ -4592,7 +4592,7 @@ $10.00
 $10.50
 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_Group.jpg)
 
 Percent
 Pay Method
@@ -4619,7 +4619,7 @@ $10.00
 $15.00
 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/Conf_Holidays009.png)
 
 Rate
 Pay Method
@@ -4637,11 +4637,11 @@ ignored when the Rate Pay Method is selected. The Premium Pay Rate is
 entered in dollars per hour and will be used as the employee's hourly
 wage for hours worked in the respective department.
 
-![](/img/image-404.png)
+![](/img/OTA_23.png)
 
 ### Job Pay Premiums
 
-![](/img/image-404.png)
+![](/img/sched8.gif)
 
 Premium
 Pay: Premium Pay makes it possible
@@ -4673,7 +4673,7 @@ $10.00
 $10.50
 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/Ch2_QA_Shifts1.jpg)
 
 Percent
 Pay Method
@@ -4699,7 +4699,7 @@ $10.00
 $15.00
 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/JobPrem_2.gif)
 
 Rate
 Pay Method
@@ -4717,11 +4717,11 @@ ignored when the Rate Pay Method is selected. The Premium Pay Rate is
 entered in dollars per hour and will be used as the employee's hourly
 wage for hours worked in the respective job.
 
-![](/img/image-404.png)
+![](/img/OTA_26.png)
 
 ### Task Pay Premiums
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_031.png)
 
 Premium
 Pay: Premium Pay makes it possible
@@ -4754,7 +4754,7 @@ $10.00
 $10.50
 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/Differential-Pay.gif)
 
 Percent
 Pay Method
@@ -4781,7 +4781,7 @@ $10.00
 $15.00
 = Hourly Wage
 
-![](/img/image-404.png)
+![](/img/PREMPayMethods.gif)
 
 Rate
 Pay Method
@@ -4799,7 +4799,7 @@ ignored when the Rate Pay Method is selected. The Premium Pay Rate is
 entered in dollars per hour and will be used as the employee's hourly
 wage for hours worked in the respective task.
 
-![](/img/image-404.png)
+![](/img/Differential-Pay-Amount.gif)
 
 ### Shift Differentials
 
@@ -4811,7 +4811,7 @@ pay options. These options are outlined below. Additional details on the
 use and configuration of Shift Differentials can be found in the [Scheduling Section of this
 document.](../Scheduling/Scheduling.md#dif01_Shifts_for_Differential_Purposes)
 
-![](/img/image-404.png)
+![](/img/clip_image012.jpg)
 
 These fields will allow you to assign a differential pay based on the
 type of hours.
@@ -4821,7 +4821,7 @@ Differential Pay
 - This drop down box allows you to select the type of pay.  The
   options are rate, amount, and percentage.
 
-![](/img/image-404.png)
+![](/img/HoursMapping13.gif)
 
 Amount - Selecting
 amount specifies that the value entered into the differential pay amount
@@ -4836,7 +4836,7 @@ Differential Amount: $1.00
 
 Total Hourly Differential Pay Rate: $16.00
 
-![](/img/image-404.png)
+![](/img/JobCosting_Config_22.gif)
 
 Percent - Selecting
 percent specifies that the value entered into the differential pay amount
@@ -4854,7 +4854,7 @@ Additional Differential Pay Amount: $2.00
 
 Total Hourly Differential Pay Rate: $12.00
 
-![](/img/image-404.png)
+![](/img/clip_image020.jpg)
 
 Rate -
 Selecting rate specifies that the value entered into the differential
@@ -4871,7 +4871,7 @@ Differential Rate: $18.00
 
 Total Hourly Differential Pay Rate: $18.00
 
-![](/img/image-404.png)
+![](/img/clip_image022.jpg)
 
 Differential Pay
 Amount - This field will allow you to enter the amount of the pay
@@ -4879,7 +4879,7 @@ according to the selected differential pay type, for example, if you had
 selected amount for differential pay a dollar amount would be entered
 into this field. Refer to the above examples for usage.
 
-![](/img/image-404.png)
+![](/img/sched11.gif)
 
 Before Shift Grace
 Differential (Optional)â This is the amount of time the employee
@@ -4923,7 +4923,7 @@ _Note_:
 Examples are presented by Shift Differential Pay Method as defined within
 the Schedule settings / Rules in the company policy.
 
-![](/img/image-404.png)
+![](/img/EmployeeProfile_032.png)
 
 Secondary Differential
 Shift
@@ -4932,7 +4932,7 @@ Start Time: 2:00 PM
 
 End Time: 10:00 PM
 
-![](/img/image-404.png)
+![](/img/CH3_CompInfo3.gif)
 
 Zone
 

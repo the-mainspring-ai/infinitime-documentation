@@ -15,7 +15,7 @@ This report will print a list of all the incoming messages an employee has recei
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Employee_Incomming_Messages.gif)
 
 Notes/Usage:
 

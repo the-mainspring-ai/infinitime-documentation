@@ -15,7 +15,7 @@ Displays hourly totals and calculates estimated wages for all activity types suc
 
 Report Example:
 
-![](/img/image-404.png)
+![](/img/Payroll_Summary.gif)
 
 Notes/Usage:
 

@@ -25,7 +25,7 @@ Hardware requirements vary based upon the type of electronic door strike chosen 
 
 For those unfamiliar with the electrical parts contained in the diagrams below it is important to understand their basic operation before attempting to purchase and configure the equipment necessary to lock and unlock a door with the InfiniTime Application. The central part used in the diagrams below is referred to as a relay. A relay can be thought of as an electrical switch. A coil of wire, a common contact, a normally closed (NC) contact, and a normally open (NO) contact are the four basic parts that comprise a relay. A diagram is shown below to illustrate the operation of a relay.
 
-![](/img/image-404.png)
+![](/img/AccessControlCustom.gif)
 
 In the normal state, or when unpowered, the relay coil is not energized and the relay contacts are in their normal state. In the normal state the normally open contacts are open and the normally closed contacts are closed as the name suggests. When activated the coil becomes energized forming a magnetic field which causes the relay contacts to close or open respectively. This is referred to as the picked state where power is applied to the relay and the relay coil is energized. The relay will make a small clicking sound when it is picked. The relay contacts will switch their state, the normally open contact will be closed and the normally closed contact will be open. The contacts will remain in this position until power to the coil is removed at which point the contacts will revert to their normal state. The InfiniTime Application controls the duration for which the relay is picked. Generally when using access control the wiring is setup in order to open the door when the relay is picked. The diagrams below provide example wiring circuits for door control based upon the voltage and current requirements of the door strike in use.  Inception Technologies takes no responsibility for the wiring and setup of Access Control equipment. Customers attempting to wire their own access control devices without the assistance of a professional electrician do so at their own risk. Inception Technologies is not responsible for damage to equipment caused by improper wiring.
 
@@ -33,7 +33,7 @@ In the normal state, or when unpowered, the relay coil is not energized and the 
 
 Access Control Connection - High Voltage / Current Door Strike: Using SY-124
 
-![](/img/image-404.png)
+![](/img/RelayDiagram.gif)
 
 This diagram depicts the proper wiring of the SY-124 External Relay for use with an electronic door strike. The SY-124 External relay is intended for those who do not wish to design their own circuitry for use with an access control system. This diagram contains four major parts, the relays inside of the Odyssey SY-780 and Orion SY-760 terminals (A), A connection box used to simplify the wiring (B), The SY-124 Relay Contacts (C), and the door strike with power adapter (D).
 
@@ -47,7 +47,7 @@ The Door Strike and AC Power Source assembly (D) are the final parts of the asse
 
 Access Control Connection - High Voltage / Current Door Strike: Custom Wiring
 
-![](/img/image-404.png)
+![](/img/AccessControlSY124.gif)
 
 This diagram depicts an example of custom wiring for use with an electronic door strike. This diagram contains three major parts, the relays inside of the Odyssey SY-780 and Orion SY-760 terminals (A), a DC power supply (B), and the door strike with power adapter (C).
 

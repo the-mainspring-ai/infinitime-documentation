@@ -44,23 +44,23 @@ Obtain an TimeWolf 4 backup:
 1. Open the Manager module on the server and hover your mouse over âFileâ
 2. Click on âBackup/Restoreâ.
 
-![](/img/image-404.png)
+![](/img/SFT_CH3_Backup_02.gif)
 
 3. A new window as pictured below entitled âBackup/Restore Tableâ will open. Click on the âBackupâ button at the bottom as shown to start the backup.
 
-![](/img/image-404.png)
+![](/img/SFT_CH3_Backup_01.gif)
 
 4. When you click on âBackupâ the process begins and youâre screen will look like the picture below.
 
-![](/img/image-404.png)
+![](/img/SFT_CH3_Backup_03.gif)
 
 5. After the Command Prompt is terminated, the âCreating Backupâ window will remain until the backup is complete.
 
-![](/img/image-404.png)
+![](/img/SFT_CH3_Backup_03.gif)
 
 6. After the backup finishes the âBackup/Restore Tableâ will return to the foreground.  Identify the backup file with the current date. This is the backup that will be restored within InfiniTime 7.
 
-![](/img/image-404.png)
+![](/img/SFT_CH3_Backup_02.gif)
 
 Move the TimeWolf 4 Backup to a Safe Location:
 

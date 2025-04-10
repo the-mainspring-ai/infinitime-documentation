@@ -50,19 +50,19 @@ NOTE: It is important to verify employee activity is present within the InfiniTi
 2. Plug a USB Thumb drive into the USB side of the Mini-USB cable.
 3. Press the Menu button on the terminal. If an administrator is present in the clock the user will be prompted to enter their ID and Password before the menu will be displayed.
 
-![](/img/image-404.png)
+![](/img/PFF_1.gif)
 
 4. Use the down arrow to select USB Drive Mng from the Main Menu and press OK.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS1.gif)
 
 5. Use the down arrow to select Download AttLog from the menu and press OK.
 
-![](/img/image-404.png)
+![](/img/PFF_2.gif)
 
 6. Press OK to confirm.
 
-![](/img/image-404.png)
+![](/img/PFF_6.gif)
 
 7. Plug the USB Thumb drive into an available USB port on a PC.
 
@@ -78,27 +78,27 @@ To configure a  Reader for Poll From File:
 
 1. Click on Lookups, Click on Reader Configuration.
 
-![](/img/image-404.png)
+![](/img/PFF_3.gif)
 
 2. Click on Insert.
 
-![](/img/image-404.png)
+![](/img/PFF_6.gif)
 
 3. Type a Port Name, Set the Reader Type as appropriate, and Choose File for the Port as shown below.
 
-![](/img/image-404.png)
+![](/img/PFF_16.gif)
 
 4. Click on the Reader Address Tab and Click insert.
 
-![](/img/image-404.png)
+![](/img/PFF_12.gif)
 
 5. The Reader Address Update form will be displayed. Ensure the inactive box is not checked and type a description for the clock.
 
-![](/img/image-404.png)
+![](/img/PFF_7.gif)
 
 6. The Reader Configuration Table should appear similar to the image below. If your company has additional readers they will also be displayed.
 
-![](/img/image-404.png)
+![](/img/PFF_10.gif)
 
 5.) Poll punches into the InfiniTime Database.
 
@@ -108,17 +108,17 @@ To Poll Punches from the retrieved file:
 
 2. Click on Tools, Clock Tools, System Monitor.
 
-![](/img/image-404.png)
+![](/img/PFF_1.gif)
 
 3. Highlight the reader that is set to poll from file within the list of readers.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS9.gif)
 
 4. Click on Force Poll.
 
 5. Browse to and select the extlog.txt file that was retrieved from the Zephyr Terminal.
 
-![](/img/image-404.png)
+![](/img/PFF_11.gif)
 
 6. Click OK. The punches will be polled from the file automatically.
 
@@ -130,17 +130,17 @@ To verify timecard activity is present within the InfiniTime Database:
 
 1. Click on Tools, Clock Tools, Polled Information.
 
-![](/img/image-404.png)
+![](/img/PFF_10.gif)
 
 2. Type the description of the reader used to Poll from File in the Search Box.
 
-![](/img/image-404.png)
+![](/img/PFF_15.gif)
 
 3. Click Search.
 
 4. All punches that have been polled from that reader will be displayed.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS11.gif)
 
 5. Ensure all expected punches are displayed in the polled information table.
 
@@ -148,23 +148,23 @@ To verify timecard activity is present within the InfiniTime Database:
 
 1. Press the Menu button on the terminal. If an administrator is present in the clock the user will be prompted to enter their ID and Password before the menu will be displayed.
 
-![](/img/image-404.png)
+![](/img/PFF_13.gif)
 
 2. Use the down arrow to move down to Options and press OK.
 
-![](/img/image-404.png)
+![](/img/PFF_5.gif)
 
 3. Ensure System Opt. is highlighted and press OK.
 
-![](/img/image-404.png)
+![](/img/ZephyrTS17.gif)
 
 4. Use the down arrow to move down to Adv Option and press OK.
 
-![](/img/image-404.png)
+![](/img/PFF_9.gif)
 
 5. Use the down arrow to move down to Del AttLogs and press OK.
 
-![](/img/image-404.png)
+![](/img/PFF_8.gif)
 
 6. Press OK to confirm.
 

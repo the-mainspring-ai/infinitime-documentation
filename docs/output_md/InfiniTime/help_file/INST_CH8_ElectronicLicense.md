@@ -20,15 +20,15 @@ Updating the InfiniTime Software License
 1. Login to the Manager Module as an employee assigned to the Administrator Security Role.
 2. Click on Help - About InfiniTime
 
-![](/img/image-404.png)
+![](/img/INST_CH8_ElectronicActivation_1.gif)
 
 3. Click on Tech Info
 
-![](/img/image-404.png)
+![](/img/INSTCH8_ElectronicActivation_Last.gif)
 
 4. Click on Activation
 
-![](/img/image-404.png)
+![](/img/INST_CH8_ElectronicActivation_3.gif)
 
 5. Click Electronic to connect to the InfiniTime Software Licensing Server via the Internet. InfiniTime will perform the following actions during the electronic software activation:
 
@@ -40,8 +40,8 @@ Updating the InfiniTime Software License
 
 6. A confirmation message will be displayed once the activation process is complete.
 
-![](/img/image-404.png)
+![](/img/INST_CH8_ElectronicActivation_1.gif)
 
 7. Click on the License Information Tab and verify the license is up to date by confirming your new purchase is included in the license. For example, confirm the employee count, Badge Reader Count, Biometric Reader Count, or Software options such as Accruals Plus are correct.
 
-![](/img/image-404.png)
+![](/img/INSTCH8_ElectronicActivation_Last.gif)
