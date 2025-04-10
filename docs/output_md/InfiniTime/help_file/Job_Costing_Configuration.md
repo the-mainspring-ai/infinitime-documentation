@@ -25,10 +25,11 @@ To Configure Departments within InfiniTime for use with Job Costing:
 
 2.) It often helps to create a list all current items under the chosen type of information. For example if Job Numbers are to be used as the first Job Costing Level list all current Job Numbers and any related information. Depending on the information being tracked within InfiniTime the list should contain the following:
 
-| Information Type | Department Description Field | Department Cost Center Field | Department Number Field |
-| Internal Departments | Department Name | Alphanumeric Code or other Payroll Identifier | Department Number |
-| Customers / Jobs | Customer or Job Name | Alphanumeric Code or other Payroll Identifier | Customer / Job Number |
-| Tasks | Task Name | Alphanumeric Code or other Payroll Identifier | Task Number |
+ | Information Type | Department Description Field | Department Cost Center Field | Department Number Field | 
+| --- | --- | --- | --- |
+ | Internal Departments | Department Name | Alphanumeric Code or other Payroll Identifier | Department Number | 
+ | Customers / Jobs | Customer or Job Name | Alphanumeric Code or other Payroll Identifier | Customer / Job Number | 
+ | Tasks | Task Name | Alphanumeric Code or other Payroll Identifier | Task Number | 
 
 3.) Create one department for each listed item. Ensure the Cost Center and Department Numbers are configured appropriately.
 
@@ -60,10 +61,11 @@ To Configure Jobs within InfiniTime for use with Job Costing:
 
 2.) It often helps to create a list all current items under the chosen type of information. For example if customers are to be used as the second Job Costing Level list all current customers and any related information. Depending on the information being tracked within InfiniTime the list should contain the following:
 
-| Information Type | Job Description Field | Job Cost Center Field | Job Number Field |
-| Internal Departments | Department Name | Alphanumeric Code or other Payroll Identifier | Department Number |
-| Customers / Jobs | Customer or Job Name | Alphanumeric Code or other Payroll Identifier | Customer / Job Number |
-| Tasks | Task Name | Alphanumeric Code or other Payroll Identifier | Task Number |
+ | Information Type | Job Description Field | Job Cost Center Field | Job Number Field | 
+| --- | --- | --- | --- |
+ | Internal Departments | Department Name | Alphanumeric Code or other Payroll Identifier | Department Number | 
+ | Customers / Jobs | Customer or Job Name | Alphanumeric Code or other Payroll Identifier | Customer / Job Number | 
+ | Tasks | Task Name | Alphanumeric Code or other Payroll Identifier | Task Number | 
 
 3.) Create one job for each listed item. Ensure the Cost Center and Department Numbers are configured appropriately.
 
@@ -95,10 +97,11 @@ To Configure Tasks within InfiniTime for use with Job Costing:
 
 2.) It often helps to create a list all current items under the chosen type of information. For example if employees perform ten tasks on a regular basis for any given job then list all current tasks and any related information. Depending on the information being tracked within InfiniTime the list should contain the following:
 
-| Information Type | Task Description Field | Task Cost Center Field | Task Number Field |
-| Internal Departments | Department Name | Alphanumeric Code or other Payroll Identifier | Department Number |
-| Customers / Jobs | Customer or Job Name | Alphanumeric Code or other Payroll Identifier | Customer / Job Number |
-| Tasks | Task Name | Alphanumeric Code or other Payroll Identifier | Task Number |
+ | Information Type | Task Description Field | Task Cost Center Field | Task Number Field | 
+| --- | --- | --- | --- |
+ | Internal Departments | Department Name | Alphanumeric Code or other Payroll Identifier | Department Number | 
+ | Customers / Jobs | Customer or Job Name | Alphanumeric Code or other Payroll Identifier | Customer / Job Number | 
+ | Tasks | Task Name | Alphanumeric Code or other Payroll Identifier | Task Number | 
 
 3.) Create one task for each listed item. Ensure the Cost Center and Department Numbers are configured appropriately.
 

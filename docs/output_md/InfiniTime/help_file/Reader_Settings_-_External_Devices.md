@@ -1,13 +1,6 @@
 xml version="1.0" encoding="utf-8"?
 
-
-
-
-
 Reader Settings - External Devices
-
-
-
 
 # Reader Settings - External Devices
 
@@ -45,12 +38,13 @@ o:     Odd parity bit
 
 b:     Both even and odd parity bit
 
-| Default Wiegand Format Strings | | |
-| Bit Length | Wiegand Type | Wiegand Format |
-| 26 | Wiegand26 | "pssssssssccccccccccccccccp:eeeeeeeeeeeeeooooooooooooo" |
-| 34 | Wiegand34 | "pssssssssccccccccccccccccccccccccp:eeeeeeeeeeeeeeeeeooooooooooooooooo" |
-| 36 | Wiegand36 | "pffffffffffffffffffccccccccccccccccp:eeeeeeeeeeeeeeeeeeoooooooooooooooooo" |
-| 36 | Wiegand36a | "pffffffffffffffffccccccccccccccccmmp:ooooooooooooooooooeeeeeeeeeeeeeeeeee" |
-| 37 | Wiegand37 | "pmmmffffffffffssssssccccccccccccccccp:eeeeeeeeeeeeeeeeeeooooooooooooooooooo" |
-| 37 | Wiegand37a | "pmmmmsssssssssssscccccccccccccccccccp:oeobeobeobeobeobeobeobeobeobeobeobeoe" |
-| 50 | Wiegand50 | "pssssssssssssssssccccccccccccccccccccccccccccccccp:eeeeeeeeeeeeeeeeeeeeeeeeeooooooooooooooooooooooooo" |
+| Default Wiegand Format Strings |              |                                                                                                         |     |
+| ------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------- | --- |
+| Bit Length                     | Wiegand Type | Wiegand Format                                                                                          |
+| 26                             | Wiegand26    | "pssssssssccccccccccccccccp:eeeeeeeeeeeeeooooooooooooo"                                                 |
+| 34                             | Wiegand34    | "pssssssssccccccccccccccccccccccccp:eeeeeeeeeeeeeeeeeooooooooooooooooo"                                 |
+| 36                             | Wiegand36    | "pffffffffffffffffffccccccccccccccccp:eeeeeeeeeeeeeeeeeeoooooooooooooooooo"                             |
+| 36                             | Wiegand36a   | "pffffffffffffffffccccccccccccccccmmp:ooooooooooooooooooeeeeeeeeeeeeeeeeee"                             |
+| 37                             | Wiegand37    | "pmmmffffffffffssssssccccccccccccccccp:eeeeeeeeeeeeeeeeeeooooooooooooooooooo"                           |
+| 37                             | Wiegand37a   | "pmmmmsssssssssssscccccccccccccccccccp:oeobeobeobeobeobeobeobeobeobeobeobeoe"                           |
+| 50                             | Wiegand50    | "pssssssssssssssssccccccccccccccccccccccccccccccccp:eeeeeeeeeeeeeeeeeeeeeeeeeooooooooooooooooooooooooo" |

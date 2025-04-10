@@ -40,15 +40,16 @@ Scheduling a Day Off
    below lists examples of employee schedules and shows whether the 'Only
    For Schedules that Start and End on Day Off' button should be checked.
 
-| Employee Default Schedule for Date of Schedule Day Off | Status of 'Only For Schedules that Start and nd on Day off' option. |
-| 6:00 AM - 3:00 PM | Checked |
-| 8:00 AM - 5:00 PM | Checked |
-| 12:00 PM - 8:00 PM | Checked |
-| 3:00 PM - 11:00 PM | Checked |
-| 5:00 PM - 2:00 AM | Unchecked |
-| 6:00 PM - 3:00 AM | Unchecked |
-| 7:00 PM - 4:00 AM | Unchecked |
-| 11:00 PM - 7:00 AM | Unchecked |
+ | Employee Default Schedule for Date of Schedule Day Off | Status of 'Only For Schedules that Start and nd on Day off' option. | 
+| --- | --- |
+ | 6:00 AM - 3:00 PM | Checked | 
+ | 8:00 AM - 5:00 PM | Checked | 
+ | 12:00 PM - 8:00 PM | Checked | 
+ | 3:00 PM - 11:00 PM | Checked | 
+ | 5:00 PM - 2:00 AM | Unchecked | 
+ | 6:00 PM - 3:00 AM | Unchecked | 
+ | 7:00 PM - 4:00 AM | Unchecked | 
+ | 11:00 PM - 7:00 AM | Unchecked | 
 
 Note:
 Remember, it is important that the 'Only for Schedules That Start and

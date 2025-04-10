@@ -47,17 +47,18 @@ Port - The best way to understand the role of a port in network communication is
 
 TCP & UDP - Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are two protocols or sets of rules which govern how traffic is sent between ports on a network. It is important to understand that a device expecting TCP data on a specific port will not function if the data is sent with UDP instead, though some devices will support both. A list of the Ethernet Clocks offered by Inception Technologies are listed below along with the port and protocol used by the clock.
 
-| Manufacturer | Model | Port | Protocol |
-| Schlage | Scout 1000, 2000, 3000 & 4000 | 3001 | TCP |
-| ZK Software | Athena | 4370 | UDP |
-| ZK Software | Juno | 4370 | UDP |
-| ZK Software | Thor | 4370 | UDP |
-| ZK Software | Luna | 4370 | UDP |
-| ZK Software | Zephyr | 4370 | UDP |
-| Synel Industries | Apollo 715 | 3734 | TCP or UDP |
-| Synel Industries | Atlas 777 | 3734 | TCP or UDP |
-| Synel Industries | Orion 760 & Odyssey 780 | 3734 | TCP or UDP |
-| Synel Industries | Omega 755 | 3734 | TCP or UDP |
+ | Manufacturer | Model | Port | Protocol | 
+| --- | --- | --- | --- |
+ | Schlage | Scout 1000, 2000, 3000 & 4000 | 3001 | TCP | 
+ | ZK Software | Athena | 4370 | UDP | 
+ | ZK Software | Juno | 4370 | UDP | 
+ | ZK Software | Thor | 4370 | UDP | 
+ | ZK Software | Luna | 4370 | UDP | 
+ | ZK Software | Zephyr | 4370 | UDP | 
+ | Synel Industries | Apollo 715 | 3734 | TCP or UDP | 
+ | Synel Industries | Atlas 777 | 3734 | TCP or UDP | 
+ | Synel Industries | Orion 760 & Odyssey 780 | 3734 | TCP or UDP | 
+ | Synel Industries | Omega 755 | 3734 | TCP or UDP | 
 
 Network Address Translation (NAT) - As mentioned above NAT provides a mechanism for translating between Internal and Public IP Addresses. Without NAT it would not be possible for computers or devices on a private network to communicate across the internet. The image below shows successful communication between Host B and Host A. The NAT Table for each router is also shown to illustrate how an Internal IP Address is mapped to a Public IP Address. Though multiple methods exist for mapping Public IP Addresses to Internal Addresses, a static NAT mapping is generally used for configuring an Ethernet clock at a remote site. A static NAT mapping is used to map a specific Public IP Address to a specific Internal IP Address. In this way the internal device can always be reached at a specific public address. The example below illustrates NAT mappings as each internal device will always be assigned the same Public IP Address.
 

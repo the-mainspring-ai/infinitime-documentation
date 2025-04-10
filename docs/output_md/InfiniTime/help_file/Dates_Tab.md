@@ -89,54 +89,56 @@ Example: Average Hours by Days
 
 If Average Hours is enabled InfiniTime will average employee working hours for a number of days or weeks prior to the holiday according to the 'Average the Past' Field and the Days or Weeks Drop Down Menu. InfiniTime will then automatically insert the calculated average for the Holiday. The number of hours entered into the Other Activity Hours field will serve as the maximum number of hours an employee can receive. Two Examples are illustrated below with the following settings:
 
-| Average Hours | Yes |
-| Days to Average | 21 |
-| Other Activity Hours | 10.00 |
-| All Hours Worked are Holiday Pay | No |
+ | Average Hours | Yes | 
+| --- | --- |
+ | Days to Average | 21 | 
+ | Other Activity Hours | 10.00 | 
+ | All Hours Worked are Holiday Pay | No | 
 
-| Day | Hours Worked: Scenario 1 | Hours Worked: Scenario 2 |
-| 11/5 | 8.25 | 11.50 |
-| 11/6 | 8.00 | 11.25 |
-| 11/9 | 8.00 | 12.00 |
-| 11/10 | 6.50 | 12.00 |
-| 11/11 | 6.20 | 8.50 |
-| 11/12 | 7.50 | 11.50 |
-| 11/13 | 8.00 | 12.00 |
-| 11/16 | 8.55 | 12.00 |
-| 11/17 | 9.00 | 12.50 |
-| 11/18 | 8.00 | 11.00 |
-| 11/19 | 8.00 | 11.00 |
-| 11/20 | 8.00 | 12.00 |
-| 11/23 | 8.25 | 12.00 |
-| 11/24 | 7.50 | 8.00 |
-| 11/25 | 8.02 | 8.50 |
-| Average | 7.85 | 11.05 |
-| Friday (Holiday) | 7.85 | 10.00 |
+ | Day | Hours Worked: Scenario 1 | Hours Worked: Scenario 2 | 
+ | 11/5 | 8.25 | 11.50 | 
+ | 11/6 | 8.00 | 11.25 | 
+ | 11/9 | 8.00 | 12.00 | 
+ | 11/10 | 6.50 | 12.00 | 
+ | 11/11 | 6.20 | 8.50 | 
+ | 11/12 | 7.50 | 11.50 | 
+ | 11/13 | 8.00 | 12.00 | 
+ | 11/16 | 8.55 | 12.00 | 
+ | 11/17 | 9.00 | 12.50 | 
+ | 11/18 | 8.00 | 11.00 | 
+ | 11/19 | 8.00 | 11.00 | 
+ | 11/20 | 8.00 | 12.00 | 
+ | 11/23 | 8.25 | 12.00 | 
+ | 11/24 | 7.50 | 8.00 | 
+ | 11/25 | 8.02 | 8.50 | 
+ | Average | 7.85 | 11.05 | 
+ | Friday (Holiday) | 7.85 | 10.00 | 
 
 Example: Average Hours by Weeks
 
 ![](/img/21DHOLAVG.jpg)
 
-| Average Hours | Yes |
-| Weeks to Average | 3 |
-| Other Activity Hours | 10.00 |
-| All Hours Worked are Holiday Pay | No |
+ | Average Hours | Yes | 
+| --- | --- |
+ | Weeks to Average | 3 | 
+ | Other Activity Hours | 10.00 | 
+ | All Hours Worked are Holiday Pay | No | 
 
-| Day | Hours Worked: Scenario 1 | Hours Worked: Scenario 2 |
-| 11/2 | 8.25 | 11.50 |
-| 11/3 | 8.00 | 11.25 |
-| 11/4 | 8.00 | 12.00 |
-| 11/5 | 6.50 | 12.00 |
-| 11/6 | 6.20 | 8.50 |
-| 11/9 | 7.50 | 11.50 |
-| 11/10 | 8.00 | 12.00 |
-| 11/11 | 8.55 | 12.00 |
-| 11/12 | 9.00 | 12.50 |
-| 11/13 | 8.00 | 11.00 |
-| 11/16 | 8.00 | 11.00 |
-| 11/17 | 8.00 | 12.00 |
-| 11/18 | 8.25 | 12.00 |
-| 11/19 | 7.50 | 8.00 |
-| 11/20 | 8.02 | 8.50 |
-| Daily Average | 7.85 | 11.05 |
-| Friday (Holiday) | 7.85 | 10.00 |
+ | Day | Hours Worked: Scenario 1 | Hours Worked: Scenario 2 | 
+ | 11/2 | 8.25 | 11.50 | 
+ | 11/3 | 8.00 | 11.25 | 
+ | 11/4 | 8.00 | 12.00 | 
+ | 11/5 | 6.50 | 12.00 | 
+ | 11/6 | 6.20 | 8.50 | 
+ | 11/9 | 7.50 | 11.50 | 
+ | 11/10 | 8.00 | 12.00 | 
+ | 11/11 | 8.55 | 12.00 | 
+ | 11/12 | 9.00 | 12.50 | 
+ | 11/13 | 8.00 | 11.00 | 
+ | 11/16 | 8.00 | 11.00 | 
+ | 11/17 | 8.00 | 12.00 | 
+ | 11/18 | 8.25 | 12.00 | 
+ | 11/19 | 7.50 | 8.00 | 
+ | 11/20 | 8.02 | 8.50 | 
+ | Daily Average | 7.85 | 11.05 | 
+ | Friday (Holiday) | 7.85 | 10.00 | 

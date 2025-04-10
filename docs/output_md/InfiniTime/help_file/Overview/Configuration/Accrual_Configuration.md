@@ -86,14 +86,15 @@ employees) requiring different accrual settings.
 For example ABC Company has the following
 personnel:
 
-| Employee Accruals Table 1 | |
-| Job Title | Pay Type |
-| Administration | Salary |
-| Cleaning Staff | Full Time |
-| Front Desk Staff | Full Time |
-| Kitchen | Full Time |
-| Child Day Care | Part Time |
-| Night Auditors | Part Time |
+ | Employee Accruals Table 1 | | 
+| --- |
+ | Job Title | Pay Type | 
+ | Administration | Salary | 
+ | Cleaning Staff | Full Time | 
+ | Front Desk Staff | Full Time | 
+ | Kitchen | Full Time | 
+ | Child Day Care | Part Time | 
+ | Night Auditors | Part Time | 
 
 ABC Company Part Time employees do not receive
 benefits in the form of Vacation or Personal Time though they are eligible
@@ -122,11 +123,12 @@ tracks more than two Accrual Calculations, you will need the Accrual Plus
 Module. Your Inception Technologies Sales Representative can provide additional
 information on the Accrual Plus Module.
 
-| Employee Accruals Table 2 | | |
-| Class | Accrual Calculation 1 | Accrual Calculation 2 |
-| Part Time | Sick Time (After 1 Year of Employment) | |
-| Full Time | Vacation Time | Personal Time |
-| Salary | Vacation Time | Personal Time |
+ | Employee Accruals Table 2 | | | 
+| --- |
+ | Class | Accrual Calculation 1 | Accrual Calculation 2 | 
+ | Part Time | Sick Time (After 1 Year of Employment) | | 
+ | Full Time | Vacation Time | Personal Time | 
+ | Salary | Vacation Time | Personal Time | 
 
 #### 3. Identify Accrual Tenure Ranges for each Accrual Class
 
@@ -153,27 +155,28 @@ benefits at the following milestones: After 3 Years, After 5 Years, and
 After 10 Years of Employment. With this in mind, ABC Company requires
 the following tenure ranges for each class:
 
-| Employee Accruals Table 3 | |
-| Accrual Class: Part Time Employee Accruals | |
-| Tenure Min | Tenure Max |
-| 0 Years | 1 Year |
-| 1 Year | 99 Years |
+ | Employee Accruals Table 3 | | 
+| --- |
+ | Accrual Class: Part Time Employee Accruals | | 
+ | Tenure Min | Tenure Max | 
+ | 0 Years | 1 Year | 
+ | 1 Year | 99 Years | 
 
-| Employee Accruals Table 3 | |
-| Accrual Class: Full Time Employee Accruals | |
-| Tenure Min | Tenure Max |
-| 0 Years | 3 Years |
-| 3 Years | 5 Years |
-| 5 Years | 10 Years |
-| 10 Years | 99 Years |
+ | Employee Accruals Table 3 | | 
+ | Accrual Class: Full Time Employee Accruals | | 
+ | Tenure Min | Tenure Max | 
+ | 0 Years | 3 Years | 
+ | 3 Years | 5 Years | 
+ | 5 Years | 10 Years | 
+ | 10 Years | 99 Years | 
 
-| Employee Accruals Table 3 | |
-| Accrual Class: Salary Employee Accruals | |
-| Tenure Min | Tenure Max |
-| 0 Years | 3 Years |
-| 3 Years | 5 Years |
-| 5 Years | 10 Years |
-| 10 Years | 99 Years |
+ | Employee Accruals Table 3 | | 
+ | Accrual Class: Salary Employee Accruals | | 
+ | Tenure Min | Tenure Max | 
+ | 0 Years | 3 Years | 
+ | 3 Years | 5 Years | 
+ | 5 Years | 10 Years | 
+ | 10 Years | 99 Years | 
 
 #### 4. List all Accrual Calculations
 
@@ -195,35 +198,36 @@ you fill out the table, keep the following rules in mind:
   Timeâ is referred to as âVacation Timeâ across all tenure ranges in
   the Full Time Accrual Class.
 
-| Employee Accruals Table 4 | | | |
-| Accrual Name: Part Time Employee Accruals | | Employee Group (Accrual Class): Part Time | |
-| Tenure Min | Tenure Max | Accrual Calculation | Settings |
-| 0 Years | 1 Year | NONE | Reset Type: N/A Calculation Method(s): None Calculation Modifiers: None |
-| 1 Year | 99 Years | Sick Time | Reset Type: Calendar Year Calculation Method(s): Start at 16 Hours Calculation Modifiers: None |
+ | Employee Accruals Table 4 | | | | 
+| --- |
+ | Accrual Name: Part Time Employee Accruals | | Employee Group (Accrual Class): Part Time | | 
+ | Tenure Min | Tenure Max | Accrual Calculation | Settings | 
+ | 0 Years | 1 Year | NONE | Reset Type: N/A Calculation Method(s): None Calculation Modifiers: None | 
+ | 1 Year | 99 Years | Sick Time | Reset Type: Calendar Year Calculation Method(s): Start at 16 Hours Calculation Modifiers: None | 
 
-| Employee Accruals Table 4 | | | |
-| Accrual Name: Full Time Employee Accruals | | Employee Group (Accrual Class): Full Time | |
-| Tenure Min | Tenure Max | Accrual Calculation | Settings |
-| 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 40 Hours Calculation Modifiers: None |
-| 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 80 Hours Calculation Modifiers: None |
-| 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 96 Hours Calculation Modifiers: None |
-| 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 120 Hours Calculation Modifiers: None |
-| 0 Years | 3 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 16 Hours Calculation Modifiers: None |
-| 3 Years | 5 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 32 Hours Calculation Modifiers: None |
-| 5 Years | 10 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: None |
-| 10 Years | 99 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 64 Hours Calculation Modifiers: None |
+ | Employee Accruals Table 4 | | | | 
+ | Accrual Name: Full Time Employee Accruals | | Employee Group (Accrual Class): Full Time | | 
+ | Tenure Min | Tenure Max | Accrual Calculation | Settings | 
+ | 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 40 Hours Calculation Modifiers: None | 
+ | 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 80 Hours Calculation Modifiers: None | 
+ | 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 96 Hours Calculation Modifiers: None | 
+ | 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 120 Hours Calculation Modifiers: None | 
+ | 0 Years | 3 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 16 Hours Calculation Modifiers: None | 
+ | 3 Years | 5 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 32 Hours Calculation Modifiers: None | 
+ | 5 Years | 10 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: None | 
+ | 10 Years | 99 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 64 Hours Calculation Modifiers: None | 
 
-| Employee Accruals Table 4 | | | |
-| Accrual Name: Salary Employee Accruals | | Employee Group (Accrual Class): Salary | |
-| Tenure Min | Tenure Max | Accrual Calculation | Settings |
-| 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: Carry Over |
-| 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 88 Hours Calculation Modifiers: Carry Over |
-| 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 104 Hours Calculation Modifiers: Carry Over |
-| 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 128 Hours Calculation Modifiers: Carry Over |
-| 0 Years | 3 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 32 Hours Calculation Modifiers: Carry Over |
-| 3 Years | 5 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: Carry Over |
-| 5 Years | 10 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 64 Hours Calculation Modifiers: Carry Over |
-| 10 Years | 99 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 72 Hours Calculation Modifiers: Carry Over |
+ | Employee Accruals Table 4 | | | | 
+ | Accrual Name: Salary Employee Accruals | | Employee Group (Accrual Class): Salary | | 
+ | Tenure Min | Tenure Max | Accrual Calculation | Settings | 
+ | 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: Carry Over | 
+ | 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 88 Hours Calculation Modifiers: Carry Over | 
+ | 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 104 Hours Calculation Modifiers: Carry Over | 
+ | 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 128 Hours Calculation Modifiers: Carry Over | 
+ | 0 Years | 3 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 32 Hours Calculation Modifiers: Carry Over | 
+ | 3 Years | 5 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: Carry Over | 
+ | 5 Years | 10 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 64 Hours Calculation Modifiers: Carry Over | 
+ | 10 Years | 99 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 72 Hours Calculation Modifiers: Carry Over | 
 
 #### 5. Use Employee Accruals Table 3 to configure Accrual Types
 
@@ -378,9 +382,10 @@ Calculations and feature sets are supported with Calculation Modifiers
 available in the Accruals Plus module. A complete description of how each
 Calculation Modifier alters Calculation Method(s) is provided below.
 
-| Basic Accruals Module Calculation Modifiers | |
-| Stop Accruing Date | Carry Over |
-| Start Accruing Hire Date Plus | Stop At |
+ | Basic Accruals Module Calculation Modifiers | | 
+| --- |
+ | Stop Accruing Date | Carry Over | 
+ | Start Accruing Hire Date Plus | Stop At | 
 
 ### Basic Accruals Module - Calculation Methods - Introduction
 
@@ -725,14 +730,15 @@ employees) requiring different accrual settings.
 For example ABC Company has the following
 personnel:
 
-| Employee Accruals Table 1 | |
-| Job Title | Pay Type |
-| Administration | Salary |
-| Cleaning Staff | Full Time |
-| Front Desk Staff | Full Time |
-| Kitchen | Full Time |
-| Child Day Care | Part Time |
-| Night Auditors | Part Time |
+ | Employee Accruals Table 1 | | 
+| --- |
+ | Job Title | Pay Type | 
+ | Administration | Salary | 
+ | Cleaning Staff | Full Time | 
+ | Front Desk Staff | Full Time | 
+ | Kitchen | Full Time | 
+ | Child Day Care | Part Time | 
+ | Night Auditors | Part Time | 
 
 ABC Company Part Time employees do not receive
 benefits in the form of Vacation or Personal Time though they are eligible
@@ -759,11 +765,12 @@ for employees. The Accrual Plus Module
 supports an unlimited number of Accrual Calculations for each accrual
 type.
 
-| Employee Accruals Table 2 | | |
-| Class | Accrual Calculation 1 | Accrual Calculation 2 |
-| Part Time | Sick Time (After 1 Year of Employment) | |
-| Full Time | Vacation Time | Personal Time |
-| Salary | Vacation Time | Personal Time |
+ | Employee Accruals Table 2 | | | 
+| --- |
+ | Class | Accrual Calculation 1 | Accrual Calculation 2 | 
+ | Part Time | Sick Time (After 1 Year of Employment) | | 
+ | Full Time | Vacation Time | Personal Time | 
+ | Salary | Vacation Time | Personal Time | 
 
 #### 3. Identify Accrual Tenure Ranges for each Accrual Class
 
@@ -790,27 +797,28 @@ benefits at the following milestones: After 3 Years, After 5 Years, and
 After 10 Years of Employment. With this in mind, ABC Company requires
 the following tenure ranges for each class:
 
-| Employee Accruals Table 3 | |
-| Accrual Class: Part Time Employee Accruals | |
-| Tenure Min | Tenure Max |
-| 0 Years | 1 Year |
-| 1 Year | 99 Years |
+ | Employee Accruals Table 3 | | 
+| --- |
+ | Accrual Class: Part Time Employee Accruals | | 
+ | Tenure Min | Tenure Max | 
+ | 0 Years | 1 Year | 
+ | 1 Year | 99 Years | 
 
-| Employee Accruals Table 3 | |
-| Accrual Class: Full Time Employee Accruals | |
-| Tenure Min | Tenure Max |
-| 0 Years | 3 Years |
-| 3 Years | 5 Years |
-| 5 Years | 10 Years |
-| 10 Years | 99 Years |
+ | Employee Accruals Table 3 | | 
+ | Accrual Class: Full Time Employee Accruals | | 
+ | Tenure Min | Tenure Max | 
+ | 0 Years | 3 Years | 
+ | 3 Years | 5 Years | 
+ | 5 Years | 10 Years | 
+ | 10 Years | 99 Years | 
 
-| Employee Accruals Table 3 | |
-| Accrual Class: Salary Employee Accruals | |
-| Tenure Min | Tenure Max |
-| 0 Years | 3 Years |
-| 3 Years | 5 Years |
-| 5 Years | 10 Years |
-| 10 Years | 99 Years |
+ | Employee Accruals Table 3 | | 
+ | Accrual Class: Salary Employee Accruals | | 
+ | Tenure Min | Tenure Max | 
+ | 0 Years | 3 Years | 
+ | 3 Years | 5 Years | 
+ | 5 Years | 10 Years | 
+ | 10 Years | 99 Years | 
 
 #### 4. List all Accrual Calculations
 
@@ -831,35 +839,36 @@ table, keep the following rules in mind:
   Timeâ is referred to as âVacation Timeâ across all tenure ranges in
   the Full Time Accrual Class.
 
-| Employee Accruals Table 4 | | | |
-| Accrual Name: Part Time Employee Accruals | | Employee Group (Accrual Class): Part Time | |
-| Tenure Min | Tenure Max | Accrual Calculation | Settings |
-| 0 Years | 1 Year | NONE | Reset Type: N/A Calculation Method(s): None Calculation Modifiers: None |
-| 1 Year | 99 Years | Sick Time | Reset Type: Calendar Year Calculation Method(s): Start at 16 Hours Calculation Modifiers: None |
+ | Employee Accruals Table 4 | | | | 
+| --- |
+ | Accrual Name: Part Time Employee Accruals | | Employee Group (Accrual Class): Part Time | | 
+ | Tenure Min | Tenure Max | Accrual Calculation | Settings | 
+ | 0 Years | 1 Year | NONE | Reset Type: N/A Calculation Method(s): None Calculation Modifiers: None | 
+ | 1 Year | 99 Years | Sick Time | Reset Type: Calendar Year Calculation Method(s): Start at 16 Hours Calculation Modifiers: None | 
 
-| Employee Accruals Table 4 | | | |
-| Accrual Name: Full Time Employee Accruals | | Employee Group (Accrual Class): Full Time | |
-| Tenure Min | Tenure Max | Accrual Calculation | Settings |
-| 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 40 Hours Calculation Modifiers: None |
-| 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 80 Hours Calculation Modifiers: None |
-| 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 96 Hours Calculation Modifiers: None |
-| 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 120 Hours Calculation Modifiers: None |
-| 0 Years | 3 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 16 Hours Calculation Modifiers: None |
-| 3 Years | 5 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 32 Hours Calculation Modifiers: None |
-| 5 Years | 10 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: None |
-| 10 Years | 99 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 64 Hours Calculation Modifiers: None |
+ | Employee Accruals Table 4 | | | | 
+ | Accrual Name: Full Time Employee Accruals | | Employee Group (Accrual Class): Full Time | | 
+ | Tenure Min | Tenure Max | Accrual Calculation | Settings | 
+ | 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 40 Hours Calculation Modifiers: None | 
+ | 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 80 Hours Calculation Modifiers: None | 
+ | 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 96 Hours Calculation Modifiers: None | 
+ | 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 120 Hours Calculation Modifiers: None | 
+ | 0 Years | 3 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 16 Hours Calculation Modifiers: None | 
+ | 3 Years | 5 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 32 Hours Calculation Modifiers: None | 
+ | 5 Years | 10 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: None | 
+ | 10 Years | 99 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 64 Hours Calculation Modifiers: None | 
 
-| Employee Accruals Table 4 | | | |
-| Accrual Name: Salary Employee Accruals | | Employee Group (Accrual Class): Salary | |
-| Tenure Min | Tenure Max | Accrual Calculation | Settings |
-| 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: Carry Over |
-| 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 88 Hours Calculation Modifiers: Carry Over |
-| 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 104 Hours Calculation Modifiers: Carry Over |
-| 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 128 Hours Calculation Modifiers: Carry Over |
-| 0 Years | 3 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 32 Hours Calculation Modifiers: Carry Over |
-| 3 Years | 5 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: Carry Over |
-| 5 Years | 10 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 64 Hours Calculation Modifiers: Carry Over |
-| 10 Years | 99 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 72 Hours Calculation Modifiers: Carry Over |
+ | Employee Accruals Table 4 | | | | 
+ | Accrual Name: Salary Employee Accruals | | Employee Group (Accrual Class): Salary | | 
+ | Tenure Min | Tenure Max | Accrual Calculation | Settings | 
+ | 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: Carry Over | 
+ | 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 88 Hours Calculation Modifiers: Carry Over | 
+ | 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 104 Hours Calculation Modifiers: Carry Over | 
+ | 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 128 Hours Calculation Modifiers: Carry Over | 
+ | 0 Years | 3 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 32 Hours Calculation Modifiers: Carry Over | 
+ | 3 Years | 5 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 48 Hours Calculation Modifiers: Carry Over | 
+ | 5 Years | 10 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 64 Hours Calculation Modifiers: Carry Over | 
+ | 10 Years | 99 Years | Personal Time | Reset Type: Calendar Year Calculation Method(s): Start at 72 Hours Calculation Modifiers: Carry Over | 
 
 #### 5. Use Employee Accruals Table 3 to configure Accrual Types
 
@@ -978,20 +987,21 @@ Modifiers can be found at the sections referenced below. Additionally,
 each individual Calculation Modifier is listed in the Table of Contents
 for ease of reference.
 
-| [Accruals Plus - Accrual Calculation Features & Settings Introduction](Accrual_Configuration.md#acc41_Accrual_Plus_Module___Accrual_Calculation_Features___Settings_Introduction) |
-| [Reset Types](Accrual_Configuration.md#acc42_Reset_Type) |
-| [Calendar Year Reset Type](Accrual_Configuration.md#reset_Calendar) |
-| [Anniversary Reset Type](Accrual_Configuration.md#reset_Anniversary) |
-| [Fiscal Year Reset Type](Accrual_Configuration.md#reset_Fiscal) |
-| [Calculation Methods](Accrual_Configuration.md#acc45_Accruals_Plus_Module_-_Calculation_Methods) |
-| [Introduction](Accrual_Configuration.md#acc45_Accruals_Plus_Module_-_Calculation_Methods) |
-| [Start At - Example](Accrual_Configuration.md#acc46_Start_At_Calculation_Method) |
-| [Accrue - Example](Accrual_Configuration.md#acc47_Accrue_Calculation_Method) |
-| [End of Cycle Bonus - Example](Accrual_Configuration.md#acc50_End_of_Cycle_Bonus_Calculation_Method) |
-| [Alternate Posting - Example](Accrual_Configuration.md#acc54_Alternate_Posting_Calculation_Method) |
-| [Rate Mapping - Example](Accrual_Configuration.md#acc55_Rate_Mapping_Calculation_Method) |
-| [Calculation Modifiers](Accrual_Configuration.md#acc57_Accrual_Plus_Module___Calculation_Modifiers) |
-| [Introduction](Accrual_Configuration.md#acc57_Accrual_Plus_Module___Calculation_Modifiers) |
+ | [Accruals Plus - Accrual Calculation Features & Settings Introduction](Accrual_Configuration.md#acc41_Accrual_Plus_Module___Accrual_Calculation_Features___Settings_Introduction) | 
+| --- |
+ | [Reset Types](Accrual_Configuration.md#acc42_Reset_Type) | 
+ | [Calendar Year Reset Type](Accrual_Configuration.md#reset_Calendar) | 
+ | [Anniversary Reset Type](Accrual_Configuration.md#reset_Anniversary) | 
+ | [Fiscal Year Reset Type](Accrual_Configuration.md#reset_Fiscal) | 
+ | [Calculation Methods](Accrual_Configuration.md#acc45_Accruals_Plus_Module_-_Calculation_Methods) | 
+ | [Introduction](Accrual_Configuration.md#acc45_Accruals_Plus_Module_-_Calculation_Methods) | 
+ | [Start At - Example](Accrual_Configuration.md#acc46_Start_At_Calculation_Method) | 
+ | [Accrue - Example](Accrual_Configuration.md#acc47_Accrue_Calculation_Method) | 
+ | [End of Cycle Bonus - Example](Accrual_Configuration.md#acc50_End_of_Cycle_Bonus_Calculation_Method) | 
+ | [Alternate Posting - Example](Accrual_Configuration.md#acc54_Alternate_Posting_Calculation_Method) | 
+ | [Rate Mapping - Example](Accrual_Configuration.md#acc55_Rate_Mapping_Calculation_Method) | 
+ | [Calculation Modifiers](Accrual_Configuration.md#acc57_Accrual_Plus_Module___Calculation_Modifiers) | 
+ | [Introduction](Accrual_Configuration.md#acc57_Accrual_Plus_Module___Calculation_Modifiers) | 
 
 #### Accrual Calculation Update Form General Tab
 
@@ -1091,12 +1101,13 @@ Calculation Modifiers
 The Accrual Plus Module supports five Calculation Methods for awarding
 accrual hours to employees as listed below.
 
-| Calculation Method | Calculation Functionality |
-| âStart Atâ | Awards Hours to employees immediately at the start of each accrual period. Generally, employees may then use the hours as needed throughout the accrual period. |
-| âAccrueâ | Awards a specified amount of hours to employees at regular intervals over time. |
-| âEnd of Cycle Bonusâ | Awards Hours to employees at the end of the Accrual Period. Generally, employees may then use the hours as needed throughout the following accrual period. NOTE: Carry Over must be enabled for hours awarded by the âEnd of Cycle Bonusâ Calculation Method to be carried forward into subsequent accrual periods. |
-| âAlternate Postingâ | Alternate Posting permits worked hours types to be posted to an accrual bucket in lieu of payment. Often referred to as âComp Timeâ this feature is especially useful for tracking worked overtime hours for Salary Employees. Employees may then use earned hours as needed. |
-| âRate Mappingâ | Intended for use alongside the Accrue Calculation Method, Rate Mapping makes it possible for the Accrue Amount awarded at each Accrual Interval to be scaled based on the number of units (IE: Total Hours Worked for the Hour(s) Accrue Interval Unit) elapsed during the accrual period. |
+ | Calculation Method | Calculation Functionality | 
+| --- | --- |
+ | âStart Atâ | Awards Hours to employees immediately at the start of each accrual period. Generally, employees may then use the hours as needed throughout the accrual period. | 
+ | âAccrueâ | Awards a specified amount of hours to employees at regular intervals over time. | 
+ | âEnd of Cycle Bonusâ | Awards Hours to employees at the end of the Accrual Period. Generally, employees may then use the hours as needed throughout the following accrual period. NOTE: Carry Over must be enabled for hours awarded by the âEnd of Cycle Bonusâ Calculation Method to be carried forward into subsequent accrual periods. | 
+ | âAlternate Postingâ | Alternate Posting permits worked hours types to be posted to an accrual bucket in lieu of payment. Often referred to as âComp Timeâ this feature is especially useful for tracking worked overtime hours for Salary Employees. Employees may then use earned hours as needed. | 
+ | âRate Mappingâ | Intended for use alongside the Accrue Calculation Method, Rate Mapping makes it possible for the Accrue Amount awarded at each Accrual Interval to be scaled based on the number of units (IE: Total Hours Worked for the Hour(s) Accrue Interval Unit) elapsed during the accrual period. | 
 
 The first task when configuring
 individual accrual calculations within the Accruals Plus Module is to
@@ -1116,12 +1127,13 @@ by the Accrual Plus Module are listed below. A complete description of
 how each Calculation Modifier alters the available Calculation Method(s)
 is provided below.
 
-| Accrual Plus Module Calculation Modifiers | | | |
-| Stop Accruing Date | Carry Over | Carry Over One Expiration | Carry Over One Maximum |
-| Start Accruing Hire Date Plus | Stop At | Carry Over Two Expiration | Carry Over Two Maximum |
-| Effective Date | Overflow | Accrual Calculation Tenure â Minimum & Maximum | Hours Needed to Qualify â Minimum & Maximum |
-| Maximum Negative Accrual | Do Not Allow Accrued Time to Be used | Do Not Allow Accrued Time to Be Used in Year Accrued | Continue to Accrue to Stop At Amount After Time is Used |
-| Award Immediately | | Accrue Hours as if Hired at the Start of the First Accrual Interval | Accrual Interval Persists Through Accrual Periods |
+ | Accrual Plus Module Calculation Modifiers | | | | 
+| --- |
+ | Stop Accruing Date | Carry Over | Carry Over One Expiration | Carry Over One Maximum | 
+ | Start Accruing Hire Date Plus | Stop At | Carry Over Two Expiration | Carry Over Two Maximum | 
+ | Effective Date | Overflow | Accrual Calculation Tenure â Minimum & Maximum | Hours Needed to Qualify â Minimum & Maximum | 
+ | Maximum Negative Accrual | Do Not Allow Accrued Time to Be used | Do Not Allow Accrued Time to Be Used in Year Accrued | Continue to Accrue to Stop At Amount After Time is Used | 
+ | Award Immediately | | Accrue Hours as if Hired at the Start of the First Accrual Interval | Accrual Interval Persists Through Accrual Periods | 
 
 ### Accruals Plus Module - Calculation Methods - Introduction
 
@@ -1588,10 +1600,11 @@ The unit, and the method for determining the number of elapsed units
 during the accrual period, varies based on the Accrual Interval Unit as
 illustrated by the table below.
 
-| Accrual Interval Unit | Rate Mapping Unit |
-| Day(s) | Number of Days elapsed from the Accrual Period Start Date to the âEnd Dateâ\* |
-| Month(s) | Number of Months elapsed from the Accrual Period Start Date to the âEnd Dateâ\* |
-| Hour(s) | Total Hours Worked for respective Employee from the Accrual Period Start Date to the âEnd Dateâ\*+ |
+ | Accrual Interval Unit | Rate Mapping Unit | 
+| --- | --- |
+ | Day(s) | Number of Days elapsed from the Accrual Period Start Date to the âEnd Dateâ\* | 
+ | Month(s) | Number of Months elapsed from the Accrual Period Start Date to the âEnd Dateâ\* | 
+ | Hour(s) | Total Hours Worked for respective Employee from the Accrual Period Start Date to the âEnd Dateâ\*+ | 
 
 \*NOTE: In this scenario, with Rate Mapping and
 the Accrue Calculation Methods configured, âEnd Dateâ refers to the Current
@@ -1627,23 +1640,25 @@ year. The tables below were compiled by ABC Agriculture Management to
 represent each group of employees working for the organization and to
 determine the Accrue Amount for each Rate Mapping range.
 
-| Employee Group | Hours / Day | Hours / Week | Total Annual Desired Accrual |
-| Underage | < 4 | 18 | 20 |
-| Part Time | 4 | 20 | 40 |
-| Full Time | 8 | 40 | 80 |
-| 12 Hour | 12 | 60 | 160 |
-| > 12 Hour | > 12 | > 60 | 160+ |
+ | Employee Group | Hours / Day | Hours / Week | Total Annual Desired Accrual | 
+| --- | --- | --- | --- |
+ | Underage | < 4 | 18 | 20 | 
+ | Part Time | 4 | 20 | 40 | 
+ | Full Time | 8 | 40 | 80 | 
+ | 12 Hour | 12 | 60 | 160 | 
+ | > 12 Hour | > 12 | > 60 | 160+ | 
 
 The table above illustrates each group of employees at ABC Agriculture,
 along with the total number of hours each group should receive on an annual
 basis if employees work their scheduled hours each day.
 
-| Range # | Employee Group | Min Hrs / Yr | Max Hours / Yr [Hours / Wk \* 52] | Total Hours for Range [Max Hrs / Yr - Min Hrs / Yr] | Accrual Interval |
-| 1 | Underage | 0 | 936 | 936 | Every 10 Hours |
-| 2 | Part Time | 936 | 1040 | 104 | Every 10 Hours |
-| 3 | Full Time | 1040 | 2080 | 1040 | Every 10 Hours |
-| 4 | 12 Hour | 2080 | 3120 | 1040 | Every 10 Hours |
-| 5 | > 12 Hour | 3120 | 9999 | 6879 | Every 10 Hours |
+ | Range # | Employee Group | Min Hrs / Yr | Max Hours / Yr [Hours / Wk \* 52] | Total Hours for Range [Max Hrs / Yr - Min Hrs / Yr] | Accrual Interval | 
+| --- | --- | --- | --- | --- | --- |
+ | 1 | Underage | 0 | 936 | 936 | Every 10 Hours | 
+ | 2 | Part Time | 936 | 1040 | 104 | Every 10 Hours | 
+ | 3 | Full Time | 1040 | 2080 | 1040 | Every 10 Hours | 
+ | 4 | 12 Hour | 2080 | 3120 | 1040 | Every 10 Hours | 
+ | 5 | > 12 Hour | 3120 | 9999 | 6879 | Every 10 Hours | 
 
 The table above illustrates each group of employees at ABC Agriculture,
 along with the total number of hours employees in each group can be expected
@@ -1651,12 +1666,13 @@ to work on an annual basis. For example, underage farm hands can be expected
 to put in between 0 and 936 hours per year. The total number of hours
 for each range is then calculated for use in the next table.
 
-| Range # | Number of Accrual Intervals for Range | Desired Accrual For Range | Accrue Amount [Desired Accrual For Range / Number of Accrual Intervals for Range] | Total Accrual for Accrual Period [Cumulative Total of Accrue Amount \* Whole Integer Value of Number of Accrual Intervals] |
-| 1 | 93.6 | 20 | 0.215054 | 20.000022 |
-| 2 | 10.4 | 20 | 2 | 40.000022 |
-| 3 | 104 | 40 | 0.384616 | 80.000086 |
-| 4 | 104 | 80 | 0.769231 | 160.00011 |
-| 5 | Up to 687.9 | NA | 0.769231 | 160+ |
+ | Range # | Number of Accrual Intervals for Range | Desired Accrual For Range | Accrue Amount [Desired Accrual For Range / Number of Accrual Intervals for Range] | Total Accrual for Accrual Period [Cumulative Total of Accrue Amount \* Whole Integer Value of Number of Accrual Intervals] | 
+| --- | --- | --- | --- | --- |
+ | 1 | 93.6 | 20 | 0.215054 | 20.000022 | 
+ | 2 | 10.4 | 20 | 2 | 40.000022 | 
+ | 3 | 104 | 40 | 0.384616 | 80.000086 | 
+ | 4 | 104 | 80 | 0.769231 | 160.00011 | 
+ | 5 | Up to 687.9 | NA | 0.769231 | 160+ | 
 
 The table above is used to calculate the total number of Accrual Intervals
 for each period. The Accrue Amount for each Range is then calculated from
@@ -1761,12 +1777,13 @@ Accrual Type, the Effective Date should be set to the same value for the
 respective Accrual Calculation across all Accrual Types in the respective
 Accrual Class as shown below.
 
-| Accrual Name: ABC Company Full Time Employee Accruals | | Employee Group (Accrual Class): Full Time | |
-| Tenure Min. | Tenure Max. | Accrual Calculation | Settings |
-| 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 40 Hours Calculation Modifiers: Effective Date = 01/01/2010 |
-| 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 80 Hours Calculation Modifiers: Effective Date = 01/01/2010 |
-| 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 96 Hours Calculation Modifiers: Effective Date = 01/01/2010 |
-| 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 120 Hours Calculation Modifiers: Effective Date = 01/01/2010 |
+ | Accrual Name: ABC Company Full Time Employee Accruals | | Employee Group (Accrual Class): Full Time | | 
+| --- | --- |
+ | Tenure Min. | Tenure Max. | Accrual Calculation | Settings | 
+ | 0 Years | 3 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 40 Hours Calculation Modifiers: Effective Date = 01/01/2010 | 
+ | 3 Years | 5 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 80 Hours Calculation Modifiers: Effective Date = 01/01/2010 | 
+ | 5 Years | 10 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 96 Hours Calculation Modifiers: Effective Date = 01/01/2010 | 
+ | 10 Years | 99 Years | Vacation Time | Reset Type: Calendar Year Calculation Method(s): Start at 120 Hours Calculation Modifiers: Effective Date = 01/01/2010 | 
 
 The Table Above clearly shows that ABC Company began tracking the Vacation
 Time Accrual Calculation within InfiniTime
@@ -1870,27 +1887,28 @@ with additional Vacation and Personal Time benefits at the following milestones:
 After 3 Years, After 5 Years, and After 10 Years of Employment. With this
 in mind, ABC Company requires the following tenure ranges for each class:
 
-| Employee Accruals Table 5 | | |
-| Accrual Class: Part Time Employee Accruals | | |
-| Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure |
-| 0 Years | 1 Year | None |
-| 1 Year | 99 Years | Sick Time: 1 - 99 Years |
+ | Employee Accruals Table 5 | | | 
+| --- |
+ | Accrual Class: Part Time Employee Accruals | | | 
+ | Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure | 
+ | 0 Years | 1 Year | None | 
+ | 1 Year | 99 Years | Sick Time: 1 - 99 Years | 
 
-| Employee Accruals Table 5 | | |
-| Accrual Class: Full Time Employee Accruals | | |
-| Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure |
-| 0 Years | 3 Years | Vacation Time: 0 â 3 Years Personal Time: 0 â 3 Years |
-| 3 Years | 5 Years | Vacation Time: 3 â 5 Years Personal Time: 3 â 5 Years |
-| 5 Years | 10 Years | Vacation Time: 5 â 10 Years Personal Time: 5 â 10 Years |
-| 10 Years | 99 Years | Vacation Time: 10 â 99 Years Personal Time: 10 â 99 Years |
+ | Employee Accruals Table 5 | | | 
+ | Accrual Class: Full Time Employee Accruals | | | 
+ | Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure | 
+ | 0 Years | 3 Years | Vacation Time: 0 â 3 Years Personal Time: 0 â 3 Years | 
+ | 3 Years | 5 Years | Vacation Time: 3 â 5 Years Personal Time: 3 â 5 Years | 
+ | 5 Years | 10 Years | Vacation Time: 5 â 10 Years Personal Time: 5 â 10 Years | 
+ | 10 Years | 99 Years | Vacation Time: 10 â 99 Years Personal Time: 10 â 99 Years | 
 
-| Employee Accruals Table 5 | | |
-| Accrual Class: Salary Employee Accruals | | |
-| Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure |
-| 0 Years | 3 Years | Vacation Time: 0 â 3 Years Personal Time: 0 â 3 Years |
-| 3 Years | 5 Years | Vacation Time: 3 â 5 Years Personal Time: 3 â 5 Years |
-| 5 Years | 10 Years | Vacation Time: 5 â 10 Years Personal Time: 5 â 10 Years |
-| 10 Years | 99 Years | Vacation Time: 10 â 99 Years Personal Time: 10 â 99 Years |
+ | Employee Accruals Table 5 | | | 
+ | Accrual Class: Salary Employee Accruals | | | 
+ | Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure | 
+ | 0 Years | 3 Years | Vacation Time: 0 â 3 Years Personal Time: 0 â 3 Years | 
+ | 3 Years | 5 Years | Vacation Time: 3 â 5 Years Personal Time: 3 â 5 Years | 
+ | 5 Years | 10 Years | Vacation Time: 5 â 10 Years Personal Time: 5 â 10 Years | 
+ | 10 Years | 99 Years | Vacation Time: 10 â 99 Years Personal Time: 10 â 99 Years | 
 
 Notice how each Accrual Class has Accrual Calculations which scale employee
 benefits in a uniform manner at exactly the same milestones. This configuration
@@ -1942,15 +1960,16 @@ into three separate tenure ranges, 3 â 5 Years, 5 â 10 Years, and 10 �
 With this in mind, the following accrual type tenures and accrual calculations
 can be used to accurately represent the required accrual calculations:
 
-| Employee Accruals Table 5 | | |
-| Accrual Class: Salary Employee Accruals | | |
-| Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure |
-| 0 Years | 1 Years | Sick Time: 0 to 1 Years, Start At 16 Hours, Hire Date Plus 90 Days. Anniversary Reset. |
-| 1 Years | 2 Years | Sick Time: 1 to 2 Years, Start At 24 Hours, Anniversary Reset. Vacation Time: 1 to 2 Years, Start at 40 Hours, Anniversary Reset. |
-| 2 Years | 3 Years | Sick Time: 2 to 3 Years, Start At 32 Hours, Anniversary Reset. Vacation Time: 2 to 3 Years, Start at 40 Hours, Anniversary Reset. |
-| 3 Years | 5 Years | Sick Time: 3 to 5 Years, Start At 40 Hours, Anniversary Reset. Vacation Time: 3 to 5 Years, Start at 60 Hours, Anniversary Reset. |
-| 5 Years | 10 Years | Sick Time: 5 to 10 Years, Start At 40 Hours, Anniversary Reset. Vacation Time: 5 to 10 Years, Start at 70 Hours, Anniversary Reset. |
-| 10 Years | 99 Years | Sick Time: 10 to 99 Years, Start At 40 Hours, Anniversary Reset. Vacation Time: 10 to 99 Years, Start at 80 Hours, Anniversary Reset. |
+ | Employee Accruals Table 5 | | | 
+| --- |
+ | Accrual Class: Salary Employee Accruals | | | 
+ | Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure | 
+ | 0 Years | 1 Years | Sick Time: 0 to 1 Years, Start At 16 Hours, Hire Date Plus 90 Days. Anniversary Reset. | 
+ | 1 Years | 2 Years | Sick Time: 1 to 2 Years, Start At 24 Hours, Anniversary Reset. Vacation Time: 1 to 2 Years, Start at 40 Hours, Anniversary Reset. | 
+ | 2 Years | 3 Years | Sick Time: 2 to 3 Years, Start At 32 Hours, Anniversary Reset. Vacation Time: 2 to 3 Years, Start at 40 Hours, Anniversary Reset. | 
+ | 3 Years | 5 Years | Sick Time: 3 to 5 Years, Start At 40 Hours, Anniversary Reset. Vacation Time: 3 to 5 Years, Start at 60 Hours, Anniversary Reset. | 
+ | 5 Years | 10 Years | Sick Time: 5 to 10 Years, Start At 40 Hours, Anniversary Reset. Vacation Time: 5 to 10 Years, Start at 70 Hours, Anniversary Reset. | 
+ | 10 Years | 99 Years | Sick Time: 10 to 99 Years, Start At 40 Hours, Anniversary Reset. Vacation Time: 10 to 99 Years, Start at 80 Hours, Anniversary Reset. | 
 
 #### Non-Divisible, Non-Uniform Scaling of Employee Benefits
 
@@ -1996,13 +2015,14 @@ Vacation Time
 Secondary Accrual Calculation:
 Personal Time
 
-| Employee Accruals Table 5 | | |
-| Accrual Class: Salary Employee Accruals | | |
-| Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure |
-| 0 Years | 5 Years | Vacation Time: 0 â 5 Years Personal Time 2 to 4: 2 â 4 Years Personal Time 4 to 5: 4 â 5 Years |
-| 5 Years | 10 Years | Vacation Time: 5 â 10 Years Personal Time 5 to 6: 5 â 6 Years Personal Time 6 to 8: 6 â 8 Years Personal Time 8 to 10: 8 â 10 Years |
-| 10 Years | 15 Years | Vacation Time: 10 â 15 Years Personal Time: 10 â 15 Years |
-| 15 Years | 99 Years | Vacation Time: 10 â 99 Years Personal Time: 10 â 99 Years |
+ | Employee Accruals Table 5 | | | 
+| --- |
+ | Accrual Class: Salary Employee Accruals | | | 
+ | Tenure Min | Tenure Max | Accrual Calculation & Settings for Respective Tenure | 
+ | 0 Years | 5 Years | Vacation Time: 0 â 5 Years Personal Time 2 to 4: 2 â 4 Years Personal Time 4 to 5: 4 â 5 Years | 
+ | 5 Years | 10 Years | Vacation Time: 5 â 10 Years Personal Time 5 to 6: 5 â 6 Years Personal Time 6 to 8: 6 â 8 Years Personal Time 8 to 10: 8 â 10 Years | 
+ | 10 Years | 15 Years | Vacation Time: 10 â 15 Years Personal Time: 10 â 15 Years | 
+ | 15 Years | 99 Years | Vacation Time: 10 â 99 Years Personal Time: 10 â 99 Years | 
 
 Notice how the primary accrual calculation, Vacation Time, dictates
 the Accrual Type Tenures, while the secondary accrual calculation uses
@@ -2022,10 +2042,11 @@ the method for determining the number of elapsed units during the accrual
 period, varies based on the Accrual Interval Unit as illustrated by the
 table below.
 
-| Accrual Interval Unit | Rate Mapping Unit |
-| Day(s) | Number of Days elapsed from the Accrual Period Start Date to the âEnd Dateâ\* |
-| Month(s) | Number of Months elapsed from the Accrual Period Start Date to the âEnd Dateâ\* |
-| Hour(s) | Total Hours Worked for respective Employee from the Accrual Period Start Date to the âEnd Dateâ\*+ |
+ | Accrual Interval Unit | Rate Mapping Unit | 
+| --- | --- |
+ | Day(s) | Number of Days elapsed from the Accrual Period Start Date to the âEnd Dateâ\* | 
+ | Month(s) | Number of Months elapsed from the Accrual Period Start Date to the âEnd Dateâ\* | 
+ | Hour(s) | Total Hours Worked for respective Employee from the Accrual Period Start Date to the âEnd Dateâ\*+ | 
 
 \*NOTE:
 In this scenario, with Rate Mapping and the Accrue Calculation Methods
@@ -2207,12 +2228,13 @@ Accrual Plus Module Carry Over settings permit the user to define up
 to two levels of carry over expiration. An example of each possible Carry
 Over Configuration and its related function is outlined in the table below.
 
-| Number of Carry Over Levels | Carry Over Maximum Hours | Carry Over Expiration | Function |
-| 1 | Carry Over 1: No | Carry Over 1: No | Carries forward all remaining hours. Hours carried forward never expire and may be used at any time in the future. |
-| 1 | Carry Over 1: No | Carry Over 1: Yes | Carries forward all remaining hours. Hours carried forward expire after the specified number of days. |
-| 1 | Carry Over 1: Yes | Carry Over 1: No | Caps the number of hours carried forward. Hours carried forward never expire and may be used at any time in the future. |
-| 1 | Carry Over 1: Yes | Carry Over 1: Yes | Caps the number of hours carried forward. Hours carried forward expire after the specified number of days. |
-| 2 | Carry Over 1: Yes Carry Over 2: Yes | Carry Over 1: Yes Carry Over 2: Yes | Caps the number of hours carried forward. All hours carried forward expire after the number of days specified by Carry Over 1 Expiration. A certain number of the hours carried over, according to Carry Over Two Maximum Hours, expire after the number of days specified by Carry Over 2 Expiration. |
+ | Number of Carry Over Levels | Carry Over Maximum Hours | Carry Over Expiration | Function | 
+| --- | --- | --- | --- |
+ | 1 | Carry Over 1: No | Carry Over 1: No | Carries forward all remaining hours. Hours carried forward never expire and may be used at any time in the future. | 
+ | 1 | Carry Over 1: No | Carry Over 1: Yes | Carries forward all remaining hours. Hours carried forward expire after the specified number of days. | 
+ | 1 | Carry Over 1: Yes | Carry Over 1: No | Caps the number of hours carried forward. Hours carried forward never expire and may be used at any time in the future. | 
+ | 1 | Carry Over 1: Yes | Carry Over 1: Yes | Caps the number of hours carried forward. Hours carried forward expire after the specified number of days. | 
+ | 2 | Carry Over 1: Yes Carry Over 2: Yes | Carry Over 1: Yes Carry Over 2: Yes | Caps the number of hours carried forward. All hours carried forward expire after the number of days specified by Carry Over 1 Expiration. A certain number of the hours carried over, according to Carry Over Two Maximum Hours, expire after the number of days specified by Carry Over 2 Expiration. | 
 
 It is important to note that Employee Accrual totals are not directly
 altered when the date of expiration passes for hours that were carried

@@ -39,15 +39,17 @@ A wage associated with a specific combination of Department, Job, and Task will 
 
 Example 1
 
-| Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
-| West Coast Marina | 117852 | Painting |
+ | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) | 
+| --- | --- | --- |
+ | West Coast Marina | 117852 | Painting | 
 
 ![](/img/JobCostingWages_4.gif)
 
 Example 2
 
-| Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
-| West Coast Marina | 117852 | Painting |
+ | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) | 
+| --- | --- | --- |
+ | West Coast Marina | 117852 | Painting | 
 
 ![](/img/JobCostingWages_1.gif)
 
@@ -59,15 +61,17 @@ A wage associated with a specific combination of two items should be used if emp
 
 Example 1
 
-| Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
-| West Coast Marina | 117852 | Painting |
+ | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) | 
+| --- | --- | --- |
+ | West Coast Marina | 117852 | Painting | 
 
 ![](/img/JobCostingWages_5.gif)
 
 Example 2
 
-| Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
-| West Coast Marina | 117876 | Painting |
+ | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) | 
+| --- | --- | --- |
+ | West Coast Marina | 117876 | Painting | 
 
 ![](/img/JobCostingWages_2.gif)
 
@@ -79,8 +83,9 @@ Wages should be configured for a specific item such as a Department, Job, or Tas
 
 Example 1
 
-| Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
-| Ahbor Harbor | 117852 | Painting |
+ | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) | 
+| --- | --- | --- |
+ | Ahbor Harbor | 117852 | Painting | 
 
 ![](/img/JobCostingWages_3.gif)
 
@@ -88,8 +93,9 @@ In the example above even though there is a wage record for each item where the 
 
 Example 2
 
-| Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) |
-| West Coast Marina | 117876 | Painting |
+ | Working Department (Customer) | Working Job  (Job Number) | Working Task  (Task) | 
+| --- | --- | --- |
+ | West Coast Marina | 117876 | Painting | 
 
 ![](/img/JobCostingWages_2.gif)
 

@@ -33,45 +33,46 @@ Technical Note: The Date Fields on the Attendance Review Report support only one
 
 Options:
 
-| Option | Default Value | Description |
-| Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
-| Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Group by Department? | No | This option will group employees specified by the Employee Filter according to their Default Department. |
-| Group by Job? | No | This option will group employees specified by the Employee Filter according to their Default Job. |
-| Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
-| Group by Task? | No | This option will group employees specified by the Employee Filter according to their Default Task. |
-| Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Non-worked Day Character: |  | This option allows you to input the character to be displayed on the report for a non-worked day. |
-| Other Activity #1 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity One Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity #2 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Two Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity #3 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Three Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity #4 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Four Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity #5 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Five Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity #6 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Six Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity #7 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Seven Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity #8 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Eight Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity #9 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Nine Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity #10 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Ten Character) will be displayed for each day the Other Activity occurs on. |
-| Other Activity One Character |  | Enter the desired character for Other Activity #1. This character will be displayed on days with hours in Other Activity #1. |
-| Other Activity Two Character |  | Enter the desired character for Other Activity #2. This character will be displayed on days with hours in Other Activity #2. |
-| Other Activity Three Character |  | Enter the desired character for Other Activity #3. This character will be displayed on days with hours in Other Activity #3. |
-| Other Activity Four Character |  | Enter the desired character for Other Activity #4. This character will be displayed on days with hours in Other Activity #4. |
-| Other Activity Five Character |  | Enter the desired character for Other Activity #5. This character will be displayed on days with hours in Other Activity #5. |
-| Other Activity Six Character |  | Enter the desired character for Other Activity #6. This character will be displayed on days with hours in Other Activity #6. |
-| Other Activity Seven Character |  | Enter the desired character for Other Activity #7. This character will be displayed on days with hours in Other Activity #7. |
-| Other Activity Eight Character |  | Enter the desired character for Other Activity #8. This character will be displayed on days with hours in Other Activity #8. |
-| Other Activity Nine Character |  | Enter the desired character for Other Activity #9. This character will be displayed on days with hours in Other Activity #9. |
-| Other Activity Ten Character |  | Enter the desired character for Other Activity #10. This character will be displayed on days with hours in Other Activity #10. |
-| Page Break by Department? | No | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed. |
-| Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
-| Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary. |
-| Page Break by Job? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review. |
-| Page Break by Supervisor? | No | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review. |
-| Page Break by Task? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review. |
-| Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
-| Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
-| Task Selection Based On: | Employee Default Task | This option will allow you to select how the Tob filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Worked Day Character | W | This option allows you to input the character to be displayed on the report for a worked day, the default value is 'W' |
+ | Option | Default Value | Description | 
+| --- | --- | --- |
+ | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. | 
+ | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. | 
+ | Group by Department? | No | This option will group employees specified by the Employee Filter according to their Default Department. | 
+ | Group by Job? | No | This option will group employees specified by the Employee Filter according to their Default Job. | 
+ | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. | 
+ | Group by Task? | No | This option will group employees specified by the Employee Filter according to their Default Task. | 
+ | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. | 
+ | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. | 
+ | Non-worked Day Character: | | This option allows you to input the character to be displayed on the report for a non-worked day. | 
+ | Other Activity #1 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity One Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity #2 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Two Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity #3 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Three Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity #4 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Four Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity #5 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Five Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity #6 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Six Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity #7 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Seven Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity #8 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Eight Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity #9 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Nine Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity #10 | None | Lists available Other Activity Types. If an Other Activity Type is selected for this option, the corresponding Other Activity Character (Other Activity Ten Character) will be displayed for each day the Other Activity occurs on. | 
+ | Other Activity One Character | | Enter the desired character for Other Activity #1. This character will be displayed on days with hours in Other Activity #1. | 
+ | Other Activity Two Character | | Enter the desired character for Other Activity #2. This character will be displayed on days with hours in Other Activity #2. | 
+ | Other Activity Three Character | | Enter the desired character for Other Activity #3. This character will be displayed on days with hours in Other Activity #3. | 
+ | Other Activity Four Character | | Enter the desired character for Other Activity #4. This character will be displayed on days with hours in Other Activity #4. | 
+ | Other Activity Five Character | | Enter the desired character for Other Activity #5. This character will be displayed on days with hours in Other Activity #5. | 
+ | Other Activity Six Character | | Enter the desired character for Other Activity #6. This character will be displayed on days with hours in Other Activity #6. | 
+ | Other Activity Seven Character | | Enter the desired character for Other Activity #7. This character will be displayed on days with hours in Other Activity #7. | 
+ | Other Activity Eight Character | | Enter the desired character for Other Activity #8. This character will be displayed on days with hours in Other Activity #8. | 
+ | Other Activity Nine Character | | Enter the desired character for Other Activity #9. This character will be displayed on days with hours in Other Activity #9. | 
+ | Other Activity Ten Character | | Enter the desired character for Other Activity #10. This character will be displayed on days with hours in Other Activity #10. | 
+ | Page Break by Department? | No | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed. | 
+ | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. | 
+ | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary. | 
+ | Page Break by Job? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review. | 
+ | Page Break by Supervisor? | No | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review. | 
+ | Page Break by Task? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review. | 
+ | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. | 
+ | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. | 
+ | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Tob filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. | 
+ | Worked Day Character | W | This option allows you to input the character to be displayed on the report for a worked day, the default value is 'W' | 
 
 [Report List](../Report_List.md)

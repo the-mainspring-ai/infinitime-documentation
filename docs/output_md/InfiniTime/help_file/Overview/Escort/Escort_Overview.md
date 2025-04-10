@@ -241,60 +241,61 @@ Button Description Table. Buttons are used to open specific window.
 
 The following buttons are available:
 
-| Access Control Group Table |
-| Access Control Log Table |
-| Accrual Types Table |
-| Activity Job Table |
-| Activity Task Table |
-| Backup / Restore |
-| Benefit Plan Costs Table |
-| Benefit Plan Types Table |
-| Cell Phone Providers Table |
-| Company Information |
-| Company Timecard Database Table |
-| Department Table |
-| Employee Messages |
-| Employee Personal Information Update Form |
-| Employee Quick Punch Other Activity |
-| Employee Schedule Window |
-| Employee Status Table |
-| Employee Table |
-| Equal Employment Opportunity Table |
-| Escort Settings Description Table |
-| Exception Table |
-| Export Definition Table |
-| Group Table |
-| Holiday Schedule Types Table |
-| Import Definition Table |
-| In & Out Board |
-| Message Database Update Form |
-| Other Activity Types Table |
-| Payroll Export Table |
-| Policy Table |
-| Polled Information Table |
-| Print Saved Report Selection Criteria |
-| Process Selected Payroll Export |
-| Punch Information Window |
-| Purge History Table |
-| Quick Assign Table |
-| Quick Print Report |
-| Quick Punch History Table |
-| Reader Configuration Table |
-| Report Library |
-| Schedule Availability Table |
-| Schedule Change Request Update From |
-| Schedule Skeletons Table |
-| Security Roles Table |
-| Shift Table |
-| Supervisor Quick Punch Other Activity |
-| Supervisor Review History Table |
-| System Monitor |
-| Termination Reason Table |
-| Time Off Request Update Form |
-| Trained Task Table |
-| Unassigned Punches Table |
-| User Defined Fields Table |
-| Worker Compensation Code Table |
+ | Access Control Group Table | 
+| --- |
+ | Access Control Log Table | 
+ | Accrual Types Table | 
+ | Activity Job Table | 
+ | Activity Task Table | 
+ | Backup / Restore | 
+ | Benefit Plan Costs Table | 
+ | Benefit Plan Types Table | 
+ | Cell Phone Providers Table | 
+ | Company Information | 
+ | Company Timecard Database Table | 
+ | Department Table | 
+ | Employee Messages | 
+ | Employee Personal Information Update Form | 
+ | Employee Quick Punch Other Activity | 
+ | Employee Schedule Window | 
+ | Employee Status Table | 
+ | Employee Table | 
+ | Equal Employment Opportunity Table | 
+ | Escort Settings Description Table | 
+ | Exception Table | 
+ | Export Definition Table | 
+ | Group Table | 
+ | Holiday Schedule Types Table | 
+ | Import Definition Table | 
+ | In & Out Board | 
+ | Message Database Update Form | 
+ | Other Activity Types Table | 
+ | Payroll Export Table | 
+ | Policy Table | 
+ | Polled Information Table | 
+ | Print Saved Report Selection Criteria | 
+ | Process Selected Payroll Export | 
+ | Punch Information Window | 
+ | Purge History Table | 
+ | Quick Assign Table | 
+ | Quick Print Report | 
+ | Quick Punch History Table | 
+ | Reader Configuration Table | 
+ | Report Library | 
+ | Schedule Availability Table | 
+ | Schedule Change Request Update From | 
+ | Schedule Skeletons Table | 
+ | Security Roles Table | 
+ | Shift Table | 
+ | Supervisor Quick Punch Other Activity | 
+ | Supervisor Review History Table | 
+ | System Monitor | 
+ | Termination Reason Table | 
+ | Time Off Request Update Form | 
+ | Trained Task Table | 
+ | Unassigned Punches Table | 
+ | User Defined Fields Table | 
+ | Worker Compensation Code Table | 
 
 Width:
 Enter a width for the button. The Image will automatically be resized.

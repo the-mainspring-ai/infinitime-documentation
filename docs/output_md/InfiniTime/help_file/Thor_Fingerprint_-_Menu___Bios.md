@@ -159,15 +159,16 @@ Delete Picture - Removes Screensaver Images from the Thor Terminal. This feature
 
 4. Keyboard - The Keyboard Configuration Menu can be used to alter the Function Key Configuration for the Thor Terminal. Functions can be reassigned to different function keys if desired or they can be disabled entirely by configuring the function key to 'None' Default Function Key assignments are listed below.
 
-| Function | Key |
-| Transfer | F1 |
-| Access Control | F2 |
-| Hours | F3 |
-| Last Punch | F4 |
-| In/Out Board | F5 |
-| Employee Info | F6 |
-| Employee Request | F7 |
-| Supervisor Tools | F8 |
+ | Function | Key | 
+| --- | --- |
+ | Transfer | F1 | 
+ | Access Control | F2 | 
+ | Hours | F3 | 
+ | Last Punch | F4 | 
+ | In/Out Board | F5 | 
+ | Employee Info | F6 | 
+ | Employee Request | F7 | 
+ | Supervisor Tools | F8 | 
 
 5. Display - Configuration menu includes Clock Display and Screen Saver configuration options in addition to fail limits for Fingerprint and PIN Entry identification.
 

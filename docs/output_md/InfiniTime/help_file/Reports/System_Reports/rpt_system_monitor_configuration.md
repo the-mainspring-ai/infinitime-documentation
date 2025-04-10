@@ -27,7 +27,8 @@ This report is useful to see what settings are set for your readers.
 
 Options:
 
-| Option | Default Value | Description |
-| Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
+ | Option | Default Value | Description | 
+| --- | --- | --- |
+ | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. | 
 
 [Report List](../Report_List.md)

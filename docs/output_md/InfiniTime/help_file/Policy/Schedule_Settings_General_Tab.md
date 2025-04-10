@@ -70,9 +70,10 @@ Shift Differential Pay Method â A Shift Differential Pay Method must be sel
 
 The best method for explaining shift differentials is to review an example scenario. ABC Medical employs Registered Nurses (RNs) who receive differential pay for working during evening and early morning hours as outlined below.
 
-| Differential Name | Rate | Start Time | End Time |
-| Evening Differential | $1.00 | 8:00 PM | 12:00 AM |
-| Morning Differential | $1.25 | 12:00 AM | 4:00 AM |
+ | Differential Name | Rate | Start Time | End Time | 
+| --- | --- | --- | --- |
+ | Evening Differential | $1.00 | 8:00 PM | 12:00 AM | 
+ | Morning Differential | $1.25 | 12:00 AM | 4:00 AM | 
 
 Punch In â When the Punch In pay method is chosen employees are paid the premium in effect at the time they punch in. For clarity multiple examples are shown below.
 

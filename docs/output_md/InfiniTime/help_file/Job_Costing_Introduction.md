@@ -35,37 +35,41 @@ Two Levels: If two of the above information types are of interest to your compan
 
 NOTE: In some scenarios only Jobs / Customers and Tasks or Internal Departments and Tasks are of interest to a specific company. However the company may use two levels of tasks. In this scenario three job costing levels are used for only two items of information. Jobs / Customers or Internal Departments would correspond to Departments within InfiniTime. The first task level would refer to Jobs within InfiniTime and the second task level would refer to Tasks within InfiniTime. The chart below shows an example of this configuration.
 
-| Job / Customer (Configured As InfiniTime Departments) | Task 1 (Configured as InfiniTime Jobs) | Task 2 (Configured as InfiniTime Tasks) |
-| Invoice 1160072 | Installation | Old Cabinet Removal |
-| Invoice 1160072 | Installation | Hang Wall Cabinets |
-| Invoice 1160072 | Installation | Install Base Cabinets |
+ | Job / Customer (Configured As InfiniTime Departments) | Task 1 (Configured as InfiniTime Jobs) | Task 2 (Configured as InfiniTime Tasks) | 
+| --- | --- | --- |
+ | Invoice 1160072 | Installation | Old Cabinet Removal | 
+ | Invoice 1160072 | Installation | Hang Wall Cabinets | 
+ | Invoice 1160072 | Installation | Install Base Cabinets | 
 
 Three Levels: If all three of the above information types are of interest to your company Departments, Jobs, and Tasks must be configured within the InfiniTime Application however the type of information configured within Departments, Jobs, and Tasks differs from company to company. It is important to recognize Departments are required within InfiniTime. All employee activity is associated with a department. For this reason most companies choose to configure Internal Departments as Departments within InfiniTime. Example job costing configurations using Three Levels with Internal Departments, Job / Customers, and Tasks are provided below.
 
-| Internal Department (Configured As InfiniTime Departments) | Customer (Configured as InfiniTime Jobs) | Task (Configured as InfiniTime Tasks) |
-| Frame Construction | Gilbert's Crab Boats | Welding |
-| Hull Construction | Gilbert's Crab Boats | Sanding |
-| Assembly | Gilbert's Crab Boats | Assembly |
+ | Internal Department (Configured As InfiniTime Departments) | Customer (Configured as InfiniTime Jobs) | Task (Configured as InfiniTime Tasks) | 
+| --- | --- | --- |
+ | Frame Construction | Gilbert's Crab Boats | Welding | 
+ | Hull Construction | Gilbert's Crab Boats | Sanding | 
+ | Assembly | Gilbert's Crab Boats | Assembly | 
 
-| Internal Department (Configured As InfiniTime Departments) | Job Number (Configured as InfiniTime Jobs) | Task (Configured as InfiniTime Tasks) |
-| Frame Construction | 17251 | Welding |
-| Hull Construction | 17251 | Sanding |
-| Assembly | 17251 | Assembly |
+ | Internal Department (Configured As InfiniTime Departments) | Job Number (Configured as InfiniTime Jobs) | Task (Configured as InfiniTime Tasks) | 
+ | Frame Construction | 17251 | Welding | 
+ | Hull Construction | 17251 | Sanding | 
+ | Assembly | 17251 | Assembly | 
 
 Three Levels w/ Internal Departments, Customers, & Jobs: In some scenarios Tasks are not of interest while both Customers and individual Jobs must be tracked. With this configuration the first level generally corresponds to Internal Departments while the second and third levels correspond to Customers and Jobs respectively. Remember all activity is associated with a department within InfiniTime. An example of this configuration is shown below.
 
-| Internal Department (Configured As InfiniTime Departments) | Customer (Configured as InfiniTime Jobs) | Job Number (Configured as InfiniTime Tasks) |
-| Custom Programming | Jan's Software | 100235 |
-| Custom Reports | Wellington School District | 200257 |
-| Technical Support | Wellington School District | 300987 |
+ | Internal Department (Configured As InfiniTime Departments) | Customer (Configured as InfiniTime Jobs) | Job Number (Configured as InfiniTime Tasks) | 
+| --- | --- | --- |
+ | Custom Programming | Jan's Software | 100235 | 
+ | Custom Reports | Wellington School District | 200257 | 
+ | Technical Support | Wellington School District | 300987 | 
 
 Three levels w/ Two Levels as Tasks: In some scenarios Customers / Jobs are not of interest while Internal Departments and multiple task levels must be tracked. With this configuration the first level generally corresponds to Internal Department while the second and third levels correspond to tasks. An example of this configuration is shown below.
 
-| Internal Department (Configured As InfiniTime Departments) | Task 1 (Configured InfiniTime Jobs) | Task 2 (Configured as InfiniTime Tasks) |
-| Cabinets | Installation | Old Cabinet Removal |
-| Cabinets | Installation | Hang Wall Cabinets |
-| Cabinets | Installation | Install Base Cabinets |
-| Administration | Auditing | Taxes |
+ | Internal Department (Configured As InfiniTime Departments) | Task 1 (Configured InfiniTime Jobs) | Task 2 (Configured as InfiniTime Tasks) | 
+| --- | --- | --- |
+ | Cabinets | Installation | Old Cabinet Removal | 
+ | Cabinets | Installation | Hang Wall Cabinets | 
+ | Cabinets | Installation | Install Base Cabinets | 
+ | Administration | Auditing | Taxes | 
 
 Ultimately the type of information tracked using Departments, Jobs, and Tasks is up to the user. Simply because they are referred to as 'Departments' or 'Jobs' does not mean they must be used for internal departments and job numbers. When configuring Job Costing users must first identify what types of information will be tracked by job costing. Once the information to be tracked has been identified a hierarchy is generally evident when looking at how the items relate to each other. This hierarchy can then be used to organize the items into three levels. The highest level should be configured as departments within InfiniTime, the next as Jobs, and the last as Tasks. While a maximum of three levels are available it is not necessary to use all three levels. For two level systems InfiniTime Departments correspond to the first Job Costing Level while Jobs correspond to the second Job Costing Level.
 
@@ -81,15 +85,16 @@ Three methods are available for transferring between Departments, Jobs, and Task
 
 Example Item List: ABC Carpentry & Contractors
 
-| Item | Type | Item Number |
-| Construction | Department | 10 |
-| Electrical | Department | 20 |
-| Philly Mae Pizzeria | Job | 10000 |
-| Suzzies Pizzeria | Job | 10001 |
-| Framing | Task | 1001 |
-| Drywall | Task | 1002 |
-| Wiring | Task | 2010 |
-| Engineering | Task | 2011 |
+ | Item | Type | Item Number | 
+| --- | --- | --- |
+ | Construction | Department | 10 | 
+ | Electrical | Department | 20 | 
+ | Philly Mae Pizzeria | Job | 10000 | 
+ | Suzzies Pizzeria | Job | 10001 | 
+ | Framing | Task | 1001 | 
+ | Drywall | Task | 1002 | 
+ | Wiring | Task | 2010 | 
+ | Engineering | Task | 2011 | 
 
 The above example shows a subset of all Tasks, Departments, and Customers currently active at ABC Carpentry & Contractors. From the examples the chosen item number lengths are evident:
 
@@ -99,17 +104,18 @@ Job Numbers -  5 Digits
 
 Task Numbers - 4 Digits
 
-A pattern also exists in the Task Numbers for readability and ease of use. This is an optional design concept which may be useful in some organizations. ABC Carpentry and Contractors employees a variety of employees from Electrical Engineers and Contractors to Carpenters. Some tasks are specific to a particular department and include the department number inside of the task number to show this relationship. IE: Wiring, #2010 is related to the Electrical Department #20. Overall, the most important idea when designing a numbering system for Departments, Jobs, and Tasks is to ensure numbering remains consistent.  
+A pattern also exists in the Task Numbers for readability and ease of use. This is an optional design concept which may be useful in some organizations. ABC Carpentry and Contractors employees a variety of employees from Electrical Engineers and Contractors to Carpenters. Some tasks are specific to a particular department and include the department number inside of the task number to show this relationship. IE: Wiring, #2010 is related to the Electrical Department #20. Overall, the most important idea when designing a numbering system for Departments, Jobs, and Tasks is to ensure numbering remains consistent.
 
 Item Lookup, the third method for transferring between Departments, Jobs, and Tasks, is only available within the InfiniTime Employee and Punch Modules. Employees can type the first few letters of the Department, Job, or Task name and the remaining characters will be automatically filled. They also have the option of using the Lookup Tool which displays all available Departments, Jobs, or Tasks in a searchable list.
 
-| Data Collection Terminal | Supported Labor Transfer Method |
-| Athena | Item List |
-| Juno | Item List |
-| Luna | Item List |
-| Scout | Transfer by Item Number |
-| Thor | Transfer by Item Number |
-| Zephyr | Item List |
-| InfiniTime Employee & Punch Modules | Item Lookup |
+ | Data Collection Terminal | Supported Labor Transfer Method | 
+| --- | --- |
+ | Athena | Item List | 
+ | Juno | Item List | 
+ | Luna | Item List | 
+ | Scout | Transfer by Item Number | 
+ | Thor | Transfer by Item Number | 
+ | Zephyr | Item List | 
+ | InfiniTime Employee & Punch Modules | Item Lookup | 
 
 Note: Allow PC Punch Labor Switching must be checked before employees will be able to choose their Department, Task, or Job from the InfiniTime Employee & Punch Modules

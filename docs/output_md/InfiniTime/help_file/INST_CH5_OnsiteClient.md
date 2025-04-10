@@ -22,11 +22,12 @@ Replace âhostnameâ in the addresses with the actual hostname of your
 server in order to access the InfiniTime
 7.0 Software.
 
-| Module Name | Address |
-| InfiniTime 7.0 Manager Module | http://hostname/InfiniTimeManagerModule/ |
-| InfiniTime 7.0 Employee Module | http://hostname/InfiniTimeEmployeeModule/ |
-| InfiniTime 7.0 Escort | http://hostname/InfiniTimeEscort/ |
-| InfiniTime 7.0 Punch Module | http://hostname/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime 7.0 Manager Module | http://hostname/InfiniTimeManagerModule/ | 
+ | InfiniTime 7.0 Employee Module | http://hostname/InfiniTimeEmployeeModule/ | 
+ | InfiniTime 7.0 Escort | http://hostname/InfiniTimeEscort/ | 
+ | InfiniTime 7.0 Punch Module | http://hostname/InfiniTimePunch/ | 
 
 Obtaining the hostname from your InfiniTime 7.0 Server:
 
@@ -63,11 +64,12 @@ Using the hostname from the example above the addresses to access the
 InfiniTime 7.0 software
 would be:
 
-| Module Name | Address |
-| InfiniTime 7.0 Manager Module | http://Dellsupport/InfiniTimeManagerModule/ |
-| InfiniTime 7.0 Employee Module | http://Dellsupport/InfiniTimeEmployeeModule/ |
-| InfiniTime 7.0 Escort | http://Dellsupport/InfiniTimeEscort/ |
-| InfiniTime 7.0 Punch Module | http://Dellsupport/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime 7.0 Manager Module | http://Dellsupport/InfiniTimeManagerModule/ | 
+ | InfiniTime 7.0 Employee Module | http://Dellsupport/InfiniTimeEmployeeModule/ | 
+ | InfiniTime 7.0 Escort | http://Dellsupport/InfiniTimeEscort/ | 
+ | InfiniTime 7.0 Punch Module | http://Dellsupport/InfiniTimePunch/ | 
 
 Technical Note: While these screenshots were taken
 on Windows XP these steps are identical regardless of the operating system

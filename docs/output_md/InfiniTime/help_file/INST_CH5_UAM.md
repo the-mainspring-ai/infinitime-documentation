@@ -33,11 +33,12 @@ Software through use of a Domain Name:
 Replace InfiniTimeOnline.comâ
 with your domain name.
 
-| Module Name | Address |
-| InfiniTime 7.0 Manager Module | http://www.InfiniTimeOnline.com/IInfiniTimeManagerModule/ |
-| InfiniTime 7.0 Employee Module | http://www.InfiniTimeOnline.com/InfiniTimeEmployeeModule/ |
-| InfiniTime 7.0 Escort | http://www.InfiniTimeOnline.com/InfiniTimeEscort/ |
-| InfiniTIme 7.0 Punch Module | http://www.InfiniTimeOnline.com/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime 7.0 Manager Module | http://www.InfiniTimeOnline.com/IInfiniTimeManagerModule/ | 
+ | InfiniTime 7.0 Employee Module | http://www.InfiniTimeOnline.com/InfiniTimeEmployeeModule/ | 
+ | InfiniTime 7.0 Escort | http://www.InfiniTimeOnline.com/InfiniTimeEscort/ | 
+ | InfiniTIme 7.0 Punch Module | http://www.InfiniTimeOnline.com/InfiniTimePunch/ | 
 
 Technical Note:
 Domain Names must be purchased from a registrar and configured to forward
@@ -63,8 +64,9 @@ Replace â12.47.180.99â in the addresses below with the public IP addre
 of your server in order to access the InfiniTime
 7.0 software.
 
-| Module Name | Address |
-| InfiniTime 7.0 Manager Module | http://www.12.47.180.99.com/InfiniTimeManagerModule/ |
-| InfiniTime 7.0 Employee Module | http://www.12.47.180.99.com/InfiniTimeEmployeeModule/ |
-| InfiniTime 7.0 Escort | http://www.12.47.180.99.com/InfiniTimeEscort/ |
-| InfiniTime 7.0 Punch Module | http://www.12.47.180.99.com/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime 7.0 Manager Module | http://www.12.47.180.99.com/InfiniTimeManagerModule/ | 
+ | InfiniTime 7.0 Employee Module | http://www.12.47.180.99.com/InfiniTimeEmployeeModule/ | 
+ | InfiniTime 7.0 Escort | http://www.12.47.180.99.com/InfiniTimeEscort/ | 
+ | InfiniTime 7.0 Punch Module | http://www.12.47.180.99.com/InfiniTimePunch/ | 

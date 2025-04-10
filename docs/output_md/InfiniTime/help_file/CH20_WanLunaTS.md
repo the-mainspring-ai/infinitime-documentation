@@ -195,11 +195,12 @@ To Set the Network Communication Speed & Type Manually:
 
 5.) Use the up and down arrows to select from the available options. Each available option is listed and described in the table below.
 
-| Net Speed Setting | Description |
-| 10M-H | 10Mb/s Half Duplex |
-| 100M-H | 100Mb/s Half Duplex |
-| 10M-F | 10Mb/s Full Duplex |
-| 100M-F | 100Mb/s Full Duplex |
+ | Net Speed Setting | Description | 
+| --- | --- |
+ | 10M-H | 10Mb/s Half Duplex | 
+ | 100M-H | 100Mb/s Half Duplex | 
+ | 10M-F | 10Mb/s Full Duplex | 
+ | 100M-F | 100Mb/s Full Duplex | 
 
 Half Duplex refers to one way communication between computers or devices on a network while Full Duplex refers to two way simultaneous communication between computers or devices on a network. It may be necessary to contact your Network Administrator in order to identify the communication type and speed of your local area network. Generally if you are having difficulties communicating with your Luna terminal it is best to set the network speed to a lower amount, either 10Mb/s Half Duplex (10M-H) or 10Mb/s Full Duplex (10M-F.)
 

@@ -15,14 +15,14 @@ use.
 
 First Time Users: Please Refer to the [InfiniTime Overview section of this
 document](Overview/ovr_SoftwareOverview.md#so1_InfiniTime_Software_Overview_Introduction) for a complete walkthrough of the InfiniTime
-Application including:  
+Application including:
    -   Deployment
-Options  
+Options
    -   Methods
 for accessing the InfiniTime
-Software from client machines  
+Software from client machines
    -   An
-Overview of Available Modules  
+Overview of Available Modules
    -   An
 Overview of Basic Software Settings and the User Interface
 
@@ -66,14 +66,15 @@ InfiniTime
 Content within the Electronic User Guide is organized to match the InfiniTime Implementation Process.
 A summary of each section is provided below.
 
-| Section | Description | Intended Audience |
-| [InfiniTime Overview](Overview/ovr_SoftwareOverview.md#so1_InfiniTime_Software_Overview_Introduction) | Provides  a complete walkthrough of the InfiniTime Application including:   -   Deployment Options    -   Methods for accessing the InfiniTime Software from client machines    -   An Overview of Available Modules    -   An Overview of Basic Software Settings and the User Interface | _ First Time Users _ As a refresher on basic concepts and topics |
-| Quick Start Guide | Provides  a walkthrough of the InfiniTime Application with a focus on initial configuration. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime |
-| Installation Documentation | Provides Software Installation Instructions, Minimum Requirements, Upgrade Instructions, and details regarding the InfiniTime Software Licensing System. | _ InfiniTime Administrators |
-| Software Documentation | Provides detailed information, including a general overview and specific examples, for each area of the InfiniTime Software. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime _ Employee Supervisors _ End Users |
-| Software Documentation - Configuration | Provides detailed information, including a general overview and specific examples, for areas of the InfiniTime Software related to initial software configuration prior to production use. NOTE: It is not uncommon for organizations who are first moving to an electronic time and attendance system to make adjustments to software configuration over the first few pay periods as previously unknown details regarding the nature of their operating environment are discovered. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime |
-| [Software Documentation - Configuration - InfiniTime Configuration Takeaways](Overview/Configuration_Takeaways/EssentialConfig.md#conf_InfiniTime_Configuration_-_Takeaways___Essential_Concepts) | Lists initial configuration tasks, including details on optional and required areas of the InfiniTime Software. This section is essential reading for all InfiniTime Administrators and HR / Payroll Managers responsible for implementing InfiniTime. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime |
-| Hardware Documentation | Provides an overview of Time and Attendance Hardware Devices supported by the InfiniTime Software. Includes: _ Employee Enrollment _ Configuration _ Usage | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime |
+ | Section | Description | Intended Audience | 
+| --- | --- | --- |
+ | [InfiniTime Overview](Overview/ovr_SoftwareOverview.md#so1_InfiniTime_Software_Overview_Introduction) | Provides  a complete walkthrough of the InfiniTime Application including:   -   Deployment Options    -   Methods for accessing the InfiniTime Software from client machines    -   An Overview of Available Modules    -   An Overview of Basic Software Settings and the User Interface | _ First Time Users _ As a refresher on basic concepts and topics | 
+ | Quick Start Guide | Provides  a walkthrough of the InfiniTime Application with a focus on initial configuration. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime | 
+ | Installation Documentation | Provides Software Installation Instructions, Minimum Requirements, Upgrade Instructions, and details regarding the InfiniTime Software Licensing System. | _ InfiniTime Administrators | 
+ | Software Documentation | Provides detailed information, including a general overview and specific examples, for each area of the InfiniTime Software. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime _ Employee Supervisors _ End Users | 
+ | Software Documentation - Configuration | Provides detailed information, including a general overview and specific examples, for areas of the InfiniTime Software related to initial software configuration prior to production use. NOTE: It is not uncommon for organizations who are first moving to an electronic time and attendance system to make adjustments to software configuration over the first few pay periods as previously unknown details regarding the nature of their operating environment are discovered. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime | 
+ | [Software Documentation - Configuration - InfiniTime Configuration Takeaways](Overview/Configuration_Takeaways/EssentialConfig.md#conf_InfiniTime_Configuration_-_Takeaways___Essential_Concepts) | Lists initial configuration tasks, including details on optional and required areas of the InfiniTime Software. This section is essential reading for all InfiniTime Administrators and HR / Payroll Managers responsible for implementing InfiniTime. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime | 
+ | Hardware Documentation | Provides an overview of Time and Attendance Hardware Devices supported by the InfiniTime Software. Includes: _ Employee Enrollment _ Configuration _ Usage | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime | 
 
 Searching the InfiniTime
 7.0 Electronic User Guide
@@ -136,17 +137,18 @@ Hardware please refer to the appropriate reader troubleshooting section
 of this document. References to the location of each troubleshooting section
 is provided below according to hardware type.
 
-| Scout 1000 | Hardware Documentation - Troubleshooting Procedures - RSI Troubleshooting |
-| Scout 2000 | Hardware Documentation - Troubleshooting Procedures - RSI Troubleshooting |
-| Scout 3000 | Hardware Documentation - Troubleshooting Procedures - RSI Troubleshooting |
-| Scout 4000 | Hardware Documentation - Troubleshooting Procedures - RSI Troubleshooting |
-| Synel 715 (Apollo) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting |
-| Synel 755 (Omega) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting |
-| Synel 760 (Orion) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting |
-| Synel 777 (Atlas) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting |
-| Synel 780 (Odyssey) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting |
-| Luna | Hardware Documentation - Troubleshooting Procedures - Luna Troubleshooting |
-| Zephyr | Hardware Documentation - Troubleshooting Procedures - Zephyr Troubleshooting |
+ | Scout 1000 | Hardware Documentation - Troubleshooting Procedures - RSI Troubleshooting | 
+| --- | --- |
+ | Scout 2000 | Hardware Documentation - Troubleshooting Procedures - RSI Troubleshooting | 
+ | Scout 3000 | Hardware Documentation - Troubleshooting Procedures - RSI Troubleshooting | 
+ | Scout 4000 | Hardware Documentation - Troubleshooting Procedures - RSI Troubleshooting | 
+ | Synel 715 (Apollo) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting | 
+ | Synel 755 (Omega) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting | 
+ | Synel 760 (Orion) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting | 
+ | Synel 777 (Atlas) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting | 
+ | Synel 780 (Odyssey) | Hardware Documentation - Troubleshooting Procedures - Synel Troubleshooting | 
+ | Luna | Hardware Documentation - Troubleshooting Procedures - Luna Troubleshooting | 
+ | Zephyr | Hardware Documentation - Troubleshooting Procedures - Zephyr Troubleshooting | 
 
 Remote Sites & Ethernet Terminals
 

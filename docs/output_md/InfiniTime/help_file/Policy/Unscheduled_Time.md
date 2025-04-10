@@ -73,27 +73,27 @@ Net Round Each Day â This method will round the total duration for all of t
 
 Rounding Method = Net Round Each Punch
 
-| Actual Punch | Time Calculated per Day (Punched as) |
-| 8:06 AM Clock-In |  |
-| 12:07 PM Clock-Out Unpaid Break | 4.00 Hours |
-| 12:48 PM Clock-In Unpaid Break |  |
-| 4:12 PM Clock-Out | 3.50 Hours |
-| Total Time Recorded = | 7.50 hours |
+ | Actual Punch | Time Calculated per Day (Punched as) | 
+| --- | --- |
+ | 12:07 PM Clock-Out Unpaid Break | 4.00 Hours | 
+ | 12:48 PM Clock-In Unpaid Break | | 
+ | 4:12 PM Clock-Out | 3.50 Hours | 
+ | Total Time Recorded = | 7.50 hours | 
 
 Rounding Method = Net Round Each Punch Pair
 
-| Actual Punch | Time Calculated per Day (Punched as) |
-| 7:59AM Clock-In |  |
-| 12:07 PM Clock-Out Unpaid Break | 4.00 Hours |
-| 12:42 PM Clock-In Unpaid Break |  |
-| 4:12 PM Clock-Out | 3.50 Hours |
-| Total Time Recorded = | 7.50 hours |
+ | Actual Punch | Time Calculated per Day (Punched as) | 
+| --- | --- |
+ | 12:07 PM Clock-Out Unpaid Break | 4.00 Hours | 
+ | 12:42 PM Clock-In Unpaid Break | | 
+ | 4:12 PM Clock-Out | 3.50 Hours | 
+ | Total Time Recorded = | 7.50 hours | 
 
 Rounding Method = Net Round Each Day
 
-| Actual Punch | Time Calculated per Day (Punched as) |
-| 7:59AM Clock-In |  |
-| 12:07 PM Clock-Out Unpaid Break | 4.13 Hours |
-| 12:42 PM Clock-In Unpaid Break |  |
-| 4:12 PM Clock-Out | 2.87 Hours |
-| Total Time Recorded = | 7.00 hours |
+ | Actual Punch | Time Calculated per Day (Punched as) | 
+| --- | --- |
+ | 12:07 PM Clock-Out Unpaid Break | 4.13 Hours | 
+ | 12:42 PM Clock-In Unpaid Break | | 
+ | 4:12 PM Clock-Out | 2.87 Hours | 
+ | Total Time Recorded = | 7.00 hours | 

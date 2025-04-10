@@ -101,11 +101,12 @@ Software through use of a Domain Name:
 Replace âInfiniTimeOnline.comâ
 with your domain name.
 
-| Module Name | Address |
-| InfiniTime Manager Module | http://www.InfiniTimeOnline.com/InfiniTimeManagerModule/ |
-| InfiniTime Employee Module | http://www.InfiniTimeOnline.com/InfiniTimeEmployeeModule/ |
-| InfiniTime Escort | http://www.InfiniTimeOnline.com/InfiniTimeEscort/ |
-| InfiniTime Punch Module | http://www.InfiniTimeOnline.com/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime Manager Module | http://www.InfiniTimeOnline.com/InfiniTimeManagerModule/ | 
+ | InfiniTime Employee Module | http://www.InfiniTimeOnline.com/InfiniTimeEmployeeModule/ | 
+ | InfiniTime Escort | http://www.InfiniTimeOnline.com/InfiniTimeEscort/ | 
+ | InfiniTime Punch Module | http://www.InfiniTimeOnline.com/InfiniTimePunch/ | 
 
 Technical Note: Domain Names must be purchased
 from a registrar and configured to forward traffic to your InfiniTime Serverâs public IP address.
@@ -130,11 +131,12 @@ Replace â12.47.180.99â in the addresses below with the public IP addre
 of your server in order to access the InfiniTime
 software.
 
-| Module Name | Address |
-| InfiniTime Manager Module | http://www.12.47.180.99.com/InfiniTimeManagerModule/ |
-| InfiniTime Employee Module | http://www.12.47.180.99.com/InfiniTimeEmployeeModule/ |
-| InfiniTime Escort | http://www.12.47.180.99.com/InfiniTimeEscort/ |
-| InfiniTime Punch Module | http://www.12.47.180.99.com/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime Manager Module | http://www.12.47.180.99.com/InfiniTimeManagerModule/ | 
+ | InfiniTime Employee Module | http://www.12.47.180.99.com/InfiniTimeEmployeeModule/ | 
+ | InfiniTime Escort | http://www.12.47.180.99.com/InfiniTimeEscort/ | 
+ | InfiniTime Punch Module | http://www.12.47.180.99.com/InfiniTimePunch/ | 
 
 ### Stand Alone Server
 
@@ -153,11 +155,12 @@ for all deployment methods including Stand Alone Deployment. Client Machines
 cannot access the InfiniTime
 Software using the localhost shortcuts listed below.
 
-| Module Name | Address |
-| InfiniTime Manager Module | http://localhost/InfiniTimeManagerModule/ |
-| InfiniTime Employee Module | http://localhost/InfiniTimeEmployeeModule/ |
-| InfiniTime Escort | http://localhost/InfiniTimeEscort/ |
-| InfiniTime Punch Module | http://localhost/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime Manager Module | http://localhost/InfiniTimeManagerModule/ | 
+ | InfiniTime Employee Module | http://localhost/InfiniTimeEmployeeModule/ | 
+ | InfiniTime Escort | http://localhost/InfiniTimeEscort/ | 
+ | InfiniTime Punch Module | http://localhost/InfiniTimePunch/ | 
 
 ### InfiniTimeServer with On-Site Clients
 
@@ -174,11 +177,12 @@ Replace âhostnameâ in the addresses with the actual hostname of your
 server in order to access the InfiniTime
 Software.
 
-| Module Name | Address |
-| InfiniTime Manager Module | http://hostname/InfiniTimeManagerModule/ |
-| InfiniTime Employee Module | http://hostname/InfiniTimeEmployeeModule/ |
-| InfiniTime Escort | http://hostname/InfiniTimeEscort/ |
-| InfiniTime Punch Module | http://hostname/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime Manager Module | http://hostname/InfiniTimeManagerModule/ | 
+ | InfiniTime Employee Module | http://hostname/InfiniTimeEmployeeModule/ | 
+ | InfiniTime Escort | http://hostname/InfiniTimeEscort/ | 
+ | InfiniTime Punch Module | http://hostname/InfiniTimePunch/ | 
 
 Obtaining the hostname from your InfiniTime Server:
 
@@ -213,11 +217,12 @@ Replace âhostnameâ in the addresses above with the hostname of your
 InfiniTime Server. Using
 the hostname from the example above the addresses to access the InfiniTime software would be:
 
-| Module Name | Address |
-| InfiniTime Manager Module | http://Dellsupport/InfiniTimeManagerModule/ |
-| InfiniTime Employee Module | http://Dellsupport/InfiniTimeEmployeeModule/ |
-| InfiniTime Escort | http://Dellsupport/InfiniTimeEscort/ |
-| InfiniTime Punch Module | http://Dellsupport/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime Manager Module | http://Dellsupport/InfiniTimeManagerModule/ | 
+ | InfiniTime Employee Module | http://Dellsupport/InfiniTimeEmployeeModule/ | 
+ | InfiniTime Escort | http://Dellsupport/InfiniTimeEscort/ | 
+ | InfiniTime Punch Module | http://Dellsupport/InfiniTimePunch/ | 
 
 Technical Note: The screenshots above were taken
 on Windows XP though these steps are identical regardless of the operating
@@ -229,11 +234,12 @@ Replace â192.168.0.2â with your serverâs
 local IP address in order to access the InfiniTime
 Software. This is only recommended if the server has a static IP address.
 
-| Module Name | Address |
-| InfiniTime Manager Module | http://192.168.0.2/InfiniTimeManagerModule/ |
-| InfiniTime Employee Module | http://192.168.0.2/InfiniTimeEmployeeModule |
-| InfiniTime Escort | http://192.168.0.2/InfiniTimeEscort |
-| InfiniTime Punch Module | http://192.168.0.2/InfiniTimePunch |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime Manager Module | http://192.168.0.2/InfiniTimeManagerModule/ | 
+ | InfiniTime Employee Module | http://192.168.0.2/InfiniTimeEmployeeModule | 
+ | InfiniTime Escort | http://192.168.0.2/InfiniTimeEscort | 
+ | InfiniTime Punch Module | http://192.168.0.2/InfiniTimePunch | 
 
 Technical Note: Every computer on a given network
 must have a unique IP Address in order for computers on the network to
@@ -281,11 +287,12 @@ address of 192.168.1.40 with DHCP disabled.
 Replacing â192.168.0.2â With the static
 address in the example above the addresses for accessing the InfiniTime Software would be:
 
-| Module Name | Address |
-| InfiniTime Manager Module | http://192.168.1.40/InfiniTimeManagerModule/ |
-| InfiniTime Employee Module | http://192.168.1.40/InfiniTimeEmployeeModule/ |
-| InfiniTime Escort | http://192.168.1.40/InfiniTimeEscort/ |
-| InfiniTime Punch Module | http://192.168.1.40/InfiniTimePunch/ |
+ | Module Name | Address | 
+| --- | --- |
+ | InfiniTime Manager Module | http://192.168.1.40/InfiniTimeManagerModule/ | 
+ | InfiniTime Employee Module | http://192.168.1.40/InfiniTimeEmployeeModule/ | 
+ | InfiniTime Escort | http://192.168.1.40/InfiniTimeEscort/ | 
+ | InfiniTime Punch Module | http://192.168.1.40/InfiniTimePunch/ | 
 
 The results below show DHCP enabled. The
 server should be configured with a static ip address in order to access
@@ -814,10 +821,11 @@ Sets
 the Date Format used throughout the InfiniTime
 Application. Supported formats are listed below with examples.
 
-| Date Format | Appearance |
-| mm/dd/yyyy | |
-| dd/mm/yyyy | |
-| yyyy/mm/dd | |
+ | Date Format | Appearance | 
+| --- | --- |
+ | mm/dd/yyyy | | 
+ | dd/mm/yyyy | | 
+ | yyyy/mm/dd | | 
 
 System Time Format
 
@@ -825,10 +833,11 @@ Sets the Time Format
 used throughout the InfiniTime
 Application. Supported formats are listed below with examples.
 
-| Time Format | Appearance |
-| hh:mm tt | |
-| HH:mm | |
-| hh:mm | |
+ | Time Format | Appearance | 
+| --- | --- |
+ | hh:mm tt | | 
+ | HH:mm | | 
+ | hh:mm | | 
 
 System Window Skin
 
@@ -836,19 +845,20 @@ Sets the window design
 used throughout the InfiniTime
 Application. Supported skins are listed below with examples.
 
-| Skin Name | Appearance |
-| Vista | |
-| Black | |
-| Default | |
-| Forest | |
-| Hay | |
-| Office 2007 | |
-| Outlook | |
-| Simple | |
-| Sunset | |
-| Telerik | |
-| Web20 | |
-| WebBlue | |
+ | Skin Name | Appearance | 
+| --- | --- |
+ | Vista | | 
+ | Black | | 
+ | Default | | 
+ | Forest | | 
+ | Hay | | 
+ | Office 2007 | | 
+ | Outlook | | 
+ | Simple | | 
+ | Sunset | | 
+ | Telerik | | 
+ | Web20 | | 
+ | WebBlue | | 
 
 Recalculate Button
 
@@ -996,8 +1006,9 @@ and Job Costing:
   costing and configuration can be found in the [Job
   Costing Section](Configuration/Product_Configuration.md#cnf01_Job_Costing_Introduction) of this document.
 
-| Department | Job | Task |
-| Construction | Philly Mae Pizzeria | Framing |
+ | Department | Job | Task | 
+| --- | --- | --- |
+ | Construction | Philly Mae Pizzeria | Framing | 
 
 When using job costing it is important to
 identify the lowest level. In the above example Task is the lowest level.
@@ -1011,11 +1022,12 @@ Care must be taken when designing the numbering scheme in order to avoid
 limiting the possible combinations and providing for future growth. An
 example is shown below.
 
-| InfiniTime Department Name | Department Number |
-| Construction | Philly Mae Pizzeria | Framing | 1010000101 |
-| Construction | Philly Mae Pizzeria | Drywall | 1010000102 |
-| Electrical | Philly Mae Pizzeria | Wiring | 2010000210 |
-| Electrical | Philly Mae Pizzeria | Engineering | 2010000211 |
+ | InfiniTime Department Name | Department Number | 
+| --- | --- |
+ | Construction | Philly Mae Pizzeria | Framing | 1010000101 | 
+ | Construction | Philly Mae Pizzeria | Drywall | 1010000102 | 
+ | Electrical | Philly Mae Pizzeria | Wiring | 2010000210 | 
+ | Electrical | Philly Mae Pizzeria | Engineering | 2010000211 | 
 
 Technical Note: The Job Costing Scenario above
 uses only 1 Job Costing Level (Departments) within InfiniTime.
@@ -2029,14 +2041,15 @@ Date Field is Active
   to the action you wish to perform. Keyboard shortcuts are
   listed below.
 
-| Date Field Keyboard Shortcut | Action |
-| + | Adds one day to the date displayed in the Active Date Field |
-| - | Subtracts one day from the date displayed in the Active Date Field |
-| T or Home | Sets the Date in the Active Date Field to Today's Date |
-| Page Up | Subtracts one month from the date displayed in the Active Date Field |
-| Page Down | Adds one month to the date displayed in the Active Date Field |
-| Shift + Home | Sets the Date in the Active Date Field to January 1st of the respective Year |
-| Shift + End | Sets the Date in the Active Date Field to December 31st of the respective Year |
+ | Date Field Keyboard Shortcut | Action | 
+| --- | --- |
+ | + | Adds one day to the date displayed in the Active Date Field | 
+ | - | Subtracts one day from the date displayed in the Active Date Field | 
+ | T or Home | Sets the Date in the Active Date Field to Today's Date | 
+ | Page Up | Subtracts one month from the date displayed in the Active Date Field | 
+ | Page Down | Adds one month to the date displayed in the Active Date Field | 
+ | Shift + Home | Sets the Date in the Active Date Field to January 1st of the respective Year | 
+ | Shift + End | Sets the Date in the Active Date Field to December 31st of the respective Year | 
 
 VCR
 Buttons - VCR buttons can be found on nearly every table or
@@ -2046,11 +2059,12 @@ the list. VCR buttons are always displayed in a set of four.
 
 ![](/img/GridTools.gif)
 
-| Description | Referred to As | Graphic |
-| The first or left most button, moves to the first record or entry in the table. | âFirstâ VCR Button | |
-| The second button moves back a record or entry in the table. | âPreviousâ VCR Button | |
-| The third button moves forward a record or entry in the table. | âNextâ VCR Button | |
-| The last or right most button moves to the last record or entry in the table. | âLastâ VCR Button | |
+ | Description | Referred to As | Graphic | 
+| --- | --- | --- |
+ | The first or left most button, moves to the first record or entry in the table. | âFirstâ VCR Button | | 
+ | The second button moves back a record or entry in the table. | âPreviousâ VCR Button | | 
+ | The third button moves forward a record or entry in the table. | âNextâ VCR Button | | 
+ | The last or right most button moves to the last record or entry in the table. | âLastâ VCR Button | | 
 
 The VCR Search Filter allows the user to
 enter a word, letter or phrase, and filter the records that can be accessed
@@ -2194,10 +2208,11 @@ uses field coloring to assist users in data entry. Some fields are required,
 while many are optional and can be filled out at a later date. The following
 table contains information about field coloring.
 
-| Color | Description |
-| Yellow | _Active Cell_: If you click in a field the background turns yellow. This helps users identify which field they are working in. |
-| Blue | _Required Field:_ Any fields in blue must be filled out. Should you miss or skip over any blue fields the InfiniTime software will warn you and prompt you to fill it out properly. InfiniTime permits the Software Administrator to specify fields they wish to consider required throughout the software. This functionality allows the Software Administrator to strictly control and enforce accurate tracking of employee information. For more information refer to [Configuring Required Fields.](Security/Security_Overview.md#sec18_Required_Fields) |
-| White | _Optional Field_: Any fields in white are optional and do not have to be filled out. The software can be used for basic time and attendance purposes without the entry of Optional Fields and values. If it doubt, refer to the Help Documentation for the respective section of the program. All fields and options within InfiniTime are documented with an explanation of how the option can be used within the InfiniTime Electronic Help System. |
+ | Color | Description | 
+| --- | --- |
+ | Yellow | _Active Cell_: If you click in a field the background turns yellow. This helps users identify which field they are working in. | 
+ | Blue | _Required Field:_ Any fields in blue must be filled out. Should you miss or skip over any blue fields the InfiniTime software will warn you and prompt you to fill it out properly. InfiniTime permits the Software Administrator to specify fields they wish to consider required throughout the software. This functionality allows the Software Administrator to strictly control and enforce accurate tracking of employee information. For more information refer to [Configuring Required Fields.](Security/Security_Overview.md#sec18_Required_Fields) | 
+ | White | _Optional Field_: Any fields in white are optional and do not have to be filled out. The software can be used for basic time and attendance purposes without the entry of Optional Fields and values. If it doubt, refer to the Help Documentation for the respective section of the program. All fields and options within InfiniTime are documented with an explanation of how the option can be used within the InfiniTime Electronic Help System. | 
 
 User
 Configurable Required Fields - InfiniTime
@@ -3791,12 +3806,13 @@ date.  Additional details regarding the Schedule Hierarchy can be
 found in the [Scheduling Configuration
 section](Scheduling/Scheduling.md#sch02a_What_type_of_scheduling_best_fits_the_needs_of_my_company_) of this document.
 
-| Scheduling Method | Schedule Hierarchy Priority |
-| Schedule GANNT Chart Entries _ Created via Skeletons _ Created via Quick Schedule _ Created via 'New Working' on the Right Click Menu of the GANNT Chart | 1 |
-| Employee Default Schedules _ Defined within Employee Profiles (IE: Employee Update Form - Scheduling Information Section - Default Schedule Tab) | 2 |
-| Shifts Assigned to an Employee _ Shifts are Configured via the Shift Table _ Shifts are assigned to employees within Employee Profiles (IE: Employee Update Form - Scheduling Info Section - Shifts Tab) | 3 |
-| Department Default Schedules _ Defined for a specific Department on the Department Update Form _ Associated with Employees based on their Department as assigned within Employee Profiles (IE: Employee Update Form - Demographics Section - Settings Tab) | 4 |
-| Policy Default Schedules _ Defined for a specific Policy on the Policy Update Form _ Associated with Employees based on their Policy as assigned within Employee Profiles (IE: Employee Update Form - Demographics Section - Settings Tab). | 5 |
+ | Scheduling Method | Schedule Hierarchy Priority | 
+| --- | --- |
+ | Schedule GANNT Chart Entries _ Created via Skeletons _ Created via Quick Schedule _ Created via 'New Working' on the Right Click Menu of the GANNT Chart | 1 | 
+ | Employee Default Schedules _ Defined within Employee Profiles (IE: Employee Update Form - Scheduling Information Section - Default Schedule Tab) | 2 | 
+ | Shifts Assigned to an Employee _ Shifts are Configured via the Shift Table _ Shifts are assigned to employees within Employee Profiles (IE: Employee Update Form - Scheduling Info Section - Shifts Tab) | 3 | 
+ | Department Default Schedules _ Defined for a specific Department on the Department Update Form _ Associated with Employees based on their Department as assigned within Employee Profiles (IE: Employee Update Form - Demographics Section - Settings Tab) | 4 | 
+ | Policy Default Schedules _ Defined for a specific Policy on the Policy Update Form _ Associated with Employees based on their Policy as assigned within Employee Profiles (IE: Employee Update Form - Demographics Section - Settings Tab). | 5 | 
 
 For example, the default schedule defined
 on an employeeâs policy would be ignored if a default schedule were configured
@@ -4015,15 +4031,16 @@ Start and End on Day Off. The table below lists examples of employee schedules
 and shows whether the 'Only For Schedules that Start and End on Day Off'
 button should be checked.
 
-| Employee Default Schedule for Date of Schedule Day Off | Status of 'Only For Schedules that Start and End on Day off' option. |
-| 6:00 AM - 3:00 PM | Checked |
-| 8:00 AM - 5:00 PM | Checked |
-| 12:00 PM - 8:00 PM | Checked |
-| 3:00 PM - 11:00 PM | Checked |
-| 5:00 PM - 2:00 AM | Unchecked |
-| 6:00 PM - 3:00 AM | Unchecked |
-| 7:00 PM - 4:00 AM | Unchecked |
-| 11:00 PM - 7:00 AM | Unchecked |
+ | Employee Default Schedule for Date of Schedule Day Off | Status of 'Only For Schedules that Start and End on Day off' option. | 
+| --- | --- |
+ | 6:00 AM - 3:00 PM | Checked | 
+ | 8:00 AM - 5:00 PM | Checked | 
+ | 12:00 PM - 8:00 PM | Checked | 
+ | 3:00 PM - 11:00 PM | Checked | 
+ | 5:00 PM - 2:00 AM | Unchecked | 
+ | 6:00 PM - 3:00 AM | Unchecked | 
+ | 7:00 PM - 4:00 AM | Unchecked | 
+ | 11:00 PM - 7:00 AM | Unchecked | 
 
 Note: Remember, it is important that the 'Only
 for Schedules That Start and End on Day Off' option be checked if the

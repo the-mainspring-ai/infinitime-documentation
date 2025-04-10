@@ -42,10 +42,11 @@ InfiniTime, simply copy
 the 'Client Shortcuts' folder from the InfiniTime
 Server's desktop to all workstations which require access to the InfiniTime Software.
 
-| Related Links |
-| [InfiniTime Deployment Options](../INST_Ch2_DeployOp.md) |
-| [InfiniTime Modules](../QSG_Usage_Modules.md) |
-| [Providing Client Machine Access to InfiniTime](../INST_CH5_OnOffSiteClients.md) |
+ | Related Links | 
+| --- |
+ | [InfiniTime Deployment Options](../INST_Ch2_DeployOp.md) | 
+ | [InfiniTime Modules](../QSG_Usage_Modules.md) | 
+ | [Providing Client Machine Access to InfiniTime](../INST_CH5_OnOffSiteClients.md) | 
 
 ## Backup & Restore
 
@@ -227,7 +228,8 @@ button while a backup is highlighted. Follow the instructions below.
 
 ![](/img/RLSNOTE_707-06.jpg)
 
-| Related Links |
+ | Related Links | 
+| --- |
 
 ### How to Create a Backup from a Client Machine
 
@@ -362,10 +364,11 @@ your specific timeclock model for more information.
 
 Default Baud Rate
 
-| Older Synel Readers | 9600 |
-| New Synel Readers | 19200 |
-| Direct Connect Scout\* Hand Readers | 9600 |
-| Scout\* Hand Readers (Modem) | 9600 |
+ | Older Synel Readers | 9600 | 
+| --- | --- |
+ | New Synel Readers | 19200 | 
+ | Direct Connect Scout\* Hand Readers | 9600 | 
+ | Scout\* Hand Readers (Modem) | 9600 | 
 
 \*Refers to All Scout Models (1000 - 4000)
 
@@ -403,38 +406,41 @@ options specific to their chosen clock model and connection type. The
 following tables show which configuration settings are available according
 to connection and clock type.
 
-| Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Plus | Scout | Scout 1000 | SY-400 |
-| Connection Method | Direct | Direct | Direct | Direct | Direct | Direct | Direct | Direct | Direct |
-| Access Control Settings | X | X | X | X | X | | Xâ¦ | | X |
-| Bell Schedules | X | X | X | X | X | | Xâ¦ | | X |
-| Communication Errors | X | X | X | X | X | | X | X | X |
-| General - TCP/IP Tab | | | | | | | | | |
-| Synel Options | X | X | X | X | X | | | | X |
-| Scout Options | | | | | | | X | X | |
+ | Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Plus | Scout | Scout 1000 | SY-400 | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | Connection Method | Direct | Direct | Direct | Direct | Direct | Direct | Direct | Direct | Direct | 
+ | Access Control Settings | X | X | X | X | X | | Xâ¦ | | X | 
+ | Bell Schedules | X | X | X | X | X | | Xâ¦ | | X | 
+ | Communication Errors | X | X | X | X | X | | X | X | X | 
+ | General - TCP/IP Tab | | | | | | | | | | 
+ | Synel Options | X | X | X | X | X | | | | X | 
+ | Scout Options | | | | | | | X | X | | 
 
 â¦Scout 2000 is not compatible
 with access control or bells.
 
-| Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Scout | Scout 1000 | SY-400 |
-| Connection Method | Modem | Modem | Modem | Modem | Modem | Modem | Modem | Modem |
-| Access Control Settings | X | X | X | X | X | Xâ¦ | | X |
-| Bell Schedules | X | X | X | X | X | Xâ¦ | | X |
-| Communication Errors | X | X | X | X | X | X | X | X |
-| General - TCP/IP Tab | | | | | | | | |
-| Synel Options | X | X | X | X | X | | | X |
-| Scout Options | | | | | | X | X | |
+ | Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Scout | Scout 1000 | SY-400 | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | Connection Method | Modem | Modem | Modem | Modem | Modem | Modem | Modem | Modem | 
+ | Access Control Settings | X | X | X | X | X | Xâ¦ | | X | 
+ | Bell Schedules | X | X | X | X | X | Xâ¦ | | X | 
+ | Communication Errors | X | X | X | X | X | X | X | X | 
+ | General - TCP/IP Tab | | | | | | | | | 
+ | Synel Options | X | X | X | X | X | | | X | 
+ | Scout Options | | | | | | X | X | | 
 
 â¦Scout 2000 is not compatible
 with access control or bells.
 
-| Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Scout | Scout 1000 | SY-400 |
-| Connection Method | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP |
-| Access Control Settings | | X | X | | X | Xâ¦ | | X |
-| Bell Schedules | | X | X | | X | Xâ¦ | | X |
-| Communication Errors | X | X | X | X | X | X | X | X |
-| General - TCP/IP Tab | X | X | X | X | X | X | X | X |
-| Synel Options | X | X | X | X | X | | | X |
-| Scout Options | | | | | | X | X | |
+ | Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Scout | Scout 1000 | SY-400 | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | Connection Method | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | 
+ | Access Control Settings | | X | X | | X | Xâ¦ | | X | 
+ | Bell Schedules | | X | X | | X | Xâ¦ | | X | 
+ | Communication Errors | X | X | X | X | X | X | X | X | 
+ | General - TCP/IP Tab | X | X | X | X | X | X | X | X | 
+ | Synel Options | X | X | X | X | X | | | X | 
+ | Scout Options | | | | | | X | X | | 
 
 â¦Scout 2000 is not compatible
 with access control or bells.
@@ -555,11 +561,12 @@ Polling Interval: Choose how
 often you would like to poll timecard activity from your reader. Minimum
 polling times are displayed below according to clock model.
 
-| Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Plus | Scout | Scout 1000 | SY-400 |
-| Minimum Polling Interval | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | N/A | 5 Seconds | 5 Seconds | 30 Seconds |
+ | Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Plus | Scout | Scout 1000 | SY-400 | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | Minimum Polling Interval | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | N/A | 5 Seconds | 5 Seconds | 30 Seconds | 
 
-| Reader Type | Athena | Juno | Luna | Thor | Zephyr |
-| Minimum Polling Interval | 5 Seconds | 5 Seconds | 5 Seconds | 5 Seconds | 5 Seconds |
+ | Reader Type | Athena | Juno | Luna | Thor | Zephyr | 
+ | Minimum Polling Interval | 5 Seconds | 5 Seconds | 5 Seconds | 5 Seconds | 5 Seconds | 
 
 Last Poll Date: Displays the
 date on which the clock was last polled.
@@ -737,8 +744,9 @@ Polling Interval: Choose how
 often you would like to poll timecard activity from your reader. Minimum
 polling times are displayed below according to clock model.
 
-| Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Plus | Scout | Scout 1000 | SY-400 |
-| Minimum Polling Intervalâ¦ | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | N/A | 5 Seconds | 5 Seconds | 30 Seconds |
+ | Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Plus | Scout | Scout 1000 | SY-400 | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | Minimum Polling Intervalâ¦ | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | N/A | 5 Seconds | 5 Seconds | 30 Seconds | 
 
 â¦Readers
 using the modem connection method should not be polled more often than
@@ -1395,8 +1403,9 @@ _Note_:
 All function keys are not available on each Scout Model. See the table
 below for available function keys according to Scout Model.
 
-| Reader Model | Scout 1000 | Scout 2000 | Scout 3000 | Scout 4000 |
-| Available Function Keys | None | F1 - F2 | F1 - F2 | F1 - F10 |
+ | Reader Model | Scout 1000 | Scout 2000 | Scout 3000 | Scout 4000 | 
+| --- | --- | --- | --- | --- |
+ | Available Function Keys | None | F1 - F2 | F1 - F2 | F1 - F10 | 
 
 Unlike Synel Terminals, Scout Readers do not
 have preset configuration settings such as Time & Attendance Only
@@ -1685,11 +1694,12 @@ Quick Punch, Quick Schedule, and Supervisor Review actions. In this way,
 InfiniTime Administrators
 can undo unintended alterations.
 
-| Utility | Purpose |
-| Purge | Deletes all Timecard Activity for a specific Date Range for selected Employee(s). |
-| Quick Punch | Inserts Punches for Selected Employees for all dates in the Specified Date range. |
-| Quick Schedule | Creates Gannt Chart Schedules for Selected Employees for all dates in the specified Date Range. |
-| Supervisor Review | Marks Employee Timecard Records in the specified Date Range as reviewed for Selected Employees. |
+ | Utility | Purpose | 
+| --- | --- |
+ | Purge | Deletes all Timecard Activity for a specific Date Range for selected Employee(s). | 
+ | Quick Punch | Inserts Punches for Selected Employees for all dates in the Specified Date range. | 
+ | Quick Schedule | Creates Gannt Chart Schedules for Selected Employees for all dates in the specified Date Range. | 
+ | Supervisor Review | Marks Employee Timecard Records in the specified Date Range as reviewed for Selected Employees. | 
 
 Details on how to access and utilize the History & Undo Tools for
 each of the utilities above are provided below.
@@ -2878,13 +2888,14 @@ PM 3:00 PM Unpaid Break           Department
 PM 8:00 PM Working                   Department
 1, Job 1, Task 1
 
-| Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 1 | 2 | 04/1/2010 | 09:00 AM | 01:00 PM | Working | | Job 1 | Task 1 |
-| 1 | 2 | 04/1/2010 | 01:00 PM | 02:00 PM | Paid Break | | Job 1 | Task 1 |
-| 1 | 1 | 04/1/2010 | 02:00 PM | 06:00 PM | Working | | Job 2 | Task 2 |
-| 2 | 1 | 04/1/2010 | 12:00 PM | 02:00 PM | Working | | Job 1 | Task 1 |
-| 2 | 1 | 04/1/2010 | 02:00 PM | 03:00 PM | Unpaid Break | | | |
-| 2 | 1 | 04/1/2010 | 03:00 PM | 08:00 PM | Working | | Job 1 | Task 1 |
+ | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | 1 | 2 | 04/1/2010 | 09:00 AM | 01:00 PM | Working | | Job 1 | Task 1 | 
+ | 1 | 2 | 04/1/2010 | 01:00 PM | 02:00 PM | Paid Break | | Job 1 | Task 1 | 
+ | 1 | 1 | 04/1/2010 | 02:00 PM | 06:00 PM | Working | | Job 2 | Task 2 | 
+ | 2 | 1 | 04/1/2010 | 12:00 PM | 02:00 PM | Working | | Job 1 | Task 1 | 
+ | 2 | 1 | 04/1/2010 | 02:00 PM | 03:00 PM | Unpaid Break | | | | 
+ | 2 | 1 | 04/1/2010 | 03:00 PM | 08:00 PM | Working | | Job 1 | Task 1 | 
 
 Importing
 Other Activity Schedules (IE: Vacation Time)
@@ -2895,8 +2906,9 @@ Department 1, Job 1, Task 1 for Employee 2. Note that the Schedule Type
 field is null. It is not necessary to fill the Schedule Type field when
 scheduling Other Activity.
 
-| Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 2 | 1 | 04/2/2010 | 12:00 PM | 08:00 PM | Vacation Time | | Job 1 | Task 1 |
+ | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | 2 | 1 | 04/2/2010 | 12:00 PM | 08:00 PM | Vacation Time | | Job 1 | Task 1 | 
 
 **Schedule
 Override For Imported Schedules**
@@ -2916,10 +2928,11 @@ For example:
 Proper Schedule Records Not
 Overlapping
 
-| Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 1 | 2 | 04/1/2010 | 09:00 AM | 01:00 PM | Working | | Job 1 | Task 1 |
-| 1 | 2 | 04/1/2010 | 01:00 PM | 02:00 PM | Paid Break | | Job 1 | Task 1 |
-| 1 | 1 | 04/1/2010 | 02:00 PM | 06:00 PM | Working | | Job 2 | Task 2 |
+ | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | 1 | 2 | 04/1/2010 | 09:00 AM | 01:00 PM | Working | | Job 1 | Task 1 | 
+ | 1 | 2 | 04/1/2010 | 01:00 PM | 02:00 PM | Paid Break | | Job 1 | Task 1 | 
+ | 1 | 1 | 04/1/2010 | 02:00 PM | 06:00 PM | Working | | Job 2 | Task 2 | 
 
 Each record is back to back
 with a Working Period, a Break Period, and a second working period. None
@@ -2928,9 +2941,10 @@ of the schedule records overlap.
 Improper Schedule Records -
 Overlapping
 
-| Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 1 | 2 | 04/1/2010 | 09:00 AM | 06:00 PM | Working | | Job 1 | Task 1 |
-| 1 | 1 | 04/1/2010 | 08:00 AM | 05:00 PM | Working | | Job 2 | Task 2 |
+ | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | 1 | 2 | 04/1/2010 | 09:00 AM | 06:00 PM | Working | | Job 1 | Task 1 | 
+ | 1 | 1 | 04/1/2010 | 08:00 AM | 05:00 PM | Working | | Job 2 | Task 2 | 
 
 The schedule records above are
 for the same day for working periods that overlap. Users should ensure
@@ -2951,8 +2965,9 @@ For example:
 Overnight Schedule Record that
 Crosses Midnight
 
-| Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 1 | 2 | 04/1/2010 | 08:00 PM | 04:00 AM | Working | | Job 1 | Task 1 |
+ | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | 1 | 2 | 04/1/2010 | 08:00 PM | 04:00 AM | Working | | Job 1 | Task 1 | 
 
 ### Import File Creation and Editing
 
@@ -3864,10 +3879,11 @@ Windows Accounts:
    address field as detailed below. Do
    not include the ftp:// prefix in this field.
 
-| Valid Host Address Formats | |
-| Format Type | Example |
-| IP Address | 192.168.1.20 |
-| Domain Name | www.InfiniTime.com |
+ | Valid Host Address Formats | | 
+| --- |
+ | Format Type | Example | 
+ | IP Address | 192.168.1.20 | 
+ | Domain Name | www.InfiniTime.com | 
 
 2. Enter the Directory.
    Remember to include a preceding forward slash as shown.
@@ -3896,10 +3912,11 @@ Accounts:
    address field as detailed below. Do
    not include the ftp:// prefix in this field.
 
-| Valid Host Address Formats | |
-| Format Type | Example |
-| IP Address | 192.168.1.20 |
-| Domain Name | www.InfiniTime.com |
+ | Valid Host Address Formats | | 
+| --- |
+ | Format Type | Example | 
+ | IP Address | 192.168.1.20 | 
+ | Domain Name | www.InfiniTime.com | 
 
 2. Enter the Directory.
    Remember to include a preceding forward slash as shown.
@@ -3929,10 +3946,11 @@ User:
    address field as detailed below. Do
    not include the ftp:// prefix in this field.
 
-| Valid Host Address Formats | |
-| Format Type | Example |
-| IP Address | 192.168.1.20 |
-| Domain Name | www.InfiniTime.com |
+ | Valid Host Address Formats | | 
+| --- |
+ | Format Type | Example | 
+ | IP Address | 192.168.1.20 | 
+ | Domain Name | www.InfiniTime.com | 
 
 2. Enter the Directory.
    Remember to include a preceding forward slash as shown.
@@ -5967,11 +5985,12 @@ Customer concern was expressed over a few
 items which were found to be operating as intended. For clarity, these
 items and their requirements have been listed below.
 
-| Reported Item: | The View Total Hours Function Key cannot be assigned to the Scout Clock After it is deleted. |
-| Steps to Reproduce: | 1. Ensure a Scout Clock has been configured for use with InfiniTime via the Reader Configuration table. (Lookups - Reader Configuration) 2. Open the System Monitor, Highlight the Scout Terminal, and Click on Change. 3. Click on Reader Settings on the Left Side. 4. Click on the Plus Sign next to F2 to expand functions assigned to the F2 Key. 5. Click on View Hour Totals to highlight it and press the Delete Key. 6. Click Insert. View Hour Totals will not be listed. This only occurs when the Total Hours Type Drop down on the General Tab is set to 'None' |
+ | Reported Item: | The View Total Hours Function Key cannot be assigned to the Scout Clock After it is deleted. | 
+| --- | --- |
+ | Steps to Reproduce: | 1. Ensure a Scout Clock has been configured for use with InfiniTime via the Reader Configuration table. (Lookups - Reader Configuration) 2. Open the System Monitor, Highlight the Scout Terminal, and Click on Change. 3. Click on Reader Settings on the Left Side. 4. Click on the Plus Sign next to F2 to expand functions assigned to the F2 Key. 5. Click on View Hour Totals to highlight it and press the Delete Key. 6. Click Insert. View Hour Totals will not be listed. This only occurs when the Total Hours Type Drop down on the General Tab is set to 'None' | 
 
-| Reported Item: | Employees working overnight do not receive holiday hours from 12:00 AM to 12:00 PM on the date of the holiday. |
-| Steps to Reproduce: | 1. 1. Configure a Holiday as follows: 1. Set All Worked Hours are Holiday Pay = Yes. 2. Set Max Other Activity Hours = 12. 3. Set a date for the holiday. 2. Ensure the Holiday Schedule Type is assigned to an employee. 3. Punch an employee in on the day before the holiday at 11:00 PM. 4. Punch out for the employee on the date of the holiday at 7:00 AM. 5. The hours between 12:00 AM and 7:00 AM will not count toward the holiday. 2. This occurs because the Holiday Calculation is based on the day an employee punches in.. In order for overnight employees to receive holiday pay for any hours worked between 12:00 AM and 11:59 PM on the date of the holiday the holiday must be configured as follows: 3. _ Set All Worked Hours are Holiday Pay = Yes. _ Set Max Other Activity Hours = 12. _ Set a date for the holiday. _ Set Holiday Starts on Day Before = Yes at 11:59 PM. \* Set Holiday Ends on Holiday = Yes at 11:59 PM. |
+ | Reported Item: | Employees working overnight do not receive holiday hours from 12:00 AM to 12:00 PM on the date of the holiday. | 
+ | Steps to Reproduce: | 1. 1. Configure a Holiday as follows: 1. Set All Worked Hours are Holiday Pay = Yes. 2. Set Max Other Activity Hours = 12. 3. Set a date for the holiday. 2. Ensure the Holiday Schedule Type is assigned to an employee. 3. Punch an employee in on the day before the holiday at 11:00 PM. 4. Punch out for the employee on the date of the holiday at 7:00 AM. 5. The hours between 12:00 AM and 7:00 AM will not count toward the holiday. 2. This occurs because the Holiday Calculation is based on the day an employee punches in.. In order for overnight employees to receive holiday pay for any hours worked between 12:00 AM and 11:59 PM on the date of the holiday the holiday must be configured as follows: 3. _ Set All Worked Hours are Holiday Pay = Yes. _ Set Max Other Activity Hours = 12. _ Set a date for the holiday. _ Set Holiday Starts on Day Before = Yes at 11:59 PM. \* Set Holiday Ends on Holiday = Yes at 11:59 PM. | 
 
 - An issue with the operation of Tamper on the Thor Terminal has
   been resolved. Tamper is intended to activate Relay 2 and any relays
@@ -6462,40 +6481,43 @@ Interface Changes
   on the Company Update Form. Supported formats are listed below with
   examples.
 
-| Date Format | Appearance |
-| mm/dd/yyyy | |
-| dd/mm/yyyy | |
-| yyyy/mm/dd | |
-| yyyymmdd | |
+ | Date Format | Appearance | 
+| --- | --- |
+ | mm/dd/yyyy | | 
+ | dd/mm/yyyy | | 
+ | yyyy/mm/dd | | 
+ | yyyymmdd | | 
 
 - The System
   Wide Time Format can now be changed from the Cosmetic Options Tab
   on the Company Update Form. Supported formats are listed below with
   examples.
 
-| Time Format | Appearance |
-| hh:mm tt | |
-| HH:mm | |
-| hh:mm | |
+ | Time Format | Appearance | 
+| --- | --- |
+ | hh:mm tt | | 
+ | HH:mm | | 
+ | hh:mm | | 
 
 - The
   Window Skin can be altered from the Cosmetic Options Tab on the Company
   Update Form. Supported skins are listed below with example images
   to show their appearance.
 
-| Skin Name | Appearance |
-| Vista | |
-| Black | |
-| Default | |
-| Forest | |
-| Hay | |
-| Office 2007 | |
-| Outlook | |
-| Simple | |
-| Sunset | |
-| Telerik | |
-| Web20 | |
-| WebBlue | |
+ | Skin Name | Appearance | 
+| --- | --- |
+ | Vista | | 
+ | Black | | 
+ | Default | | 
+ | Forest | | 
+ | Hay | | 
+ | Office 2007 | | 
+ | Outlook | | 
+ | Simple | | 
+ | Sunset | | 
+ | Telerik | | 
+ | Web20 | | 
+ | WebBlue | | 
 
 New
 Functionality
@@ -8129,47 +8151,48 @@ Software Issues Resolved
   and check boxes are now hidden as intended when their corresponding
   fields are set to hidden for the following forms and fields:
 
-| Form | Field |
-| Quick Assign Update Form | Activity Job Description |
-| Quick Assign Update Form | Activity Task Description |
-| Accrual Type Details Update Form | Start Accruing Hire Date Plus |
-| Accrual Type Details Update Form | Start At Amount |
-| Accrual Type Details Update Form | Stop At Amount |
-| Accrual Type Details Update Form | Accrue for Every Amount |
-| Accrual Type Update Form | Accrual Type Employee Tenure From Years |
-| Accrual Type Update Form | Accrual Type Employee Tenure To Years |
-| Accrual Type Update Form | Accrual Inactive Flag |
-| Accrual Type Update Form | Accrual Type Default Flag |
-| Accrual Type Rate Mapping Update Form | Min. Amount Worked |
-| Accrual Type Rate Mapping Update Form | Max. Amount Worked |
-| Employee Wage Update Form | Wage Amount |
-| Employee Security Filter Update Form | Employee Filter Department Number From |
-| Employee Security Filter Update Form | Employee Filter Employee ID From |
-| Employee Security Filter Update Form | Employee Filter Department Number To |
-| Employee Security Filter Update Form | Employee Filter Employee ID To |
-| Employee Update Form | Emergency Contact Information |
-| Employee Update Form | Employee Default Wage |
-| Employee Update Form | Federal Exemptions |
-| Employee Update Form | State Exemptions |
-| Employee Update Form | Additional State Withholding |
-| Employee Update Form | Local Exemptions |
-| Employee Update Form | Direct Deposit Account 1 - From Date |
-| Employee Update Form | Direct Deposit Account 2 - From Date |
-| Employee Update Form | Direct Deposit Account 3 - From Date |
-| Employee Update Form | Direct Deposit Account 4 - From Date |
-| Employee Update Form | Direct Deposit Account 1 - To Date |
-| Employee Update Form | Direct Deposit Account 2 - To Date |
-| Employee Update Form | Direct Deposit Account 3 - To Date |
-| Employee Update Form | Direct Deposit Account 4 - To Date |
-| Employee Update Form | Employee Work Status |
-| Report Selection Criteria Update Form | Report Setting Departments Selected Option |
-| Report Selection Criteria Update Form | Report Setting To Date |
-| Report Selection Criteria Update Form | Report Setting Groups Selected Option |
-| Report Selection Criteria Update Form | Report Setting Employee ID From |
-| Report Selection Criteria Update Form | Report Setting Employee ID To |
-| Report Selection Criteria Update Form | Report Setting Department Number From |
-| Company Update Form | Inactivity Time Out |
-| Company Update Form | User Passwords Expire In |
+ | Form | Field | 
+| --- | --- |
+ | Quick Assign Update Form | Activity Job Description | 
+ | Quick Assign Update Form | Activity Task Description | 
+ | Accrual Type Details Update Form | Start Accruing Hire Date Plus | 
+ | Accrual Type Details Update Form | Start At Amount | 
+ | Accrual Type Details Update Form | Stop At Amount | 
+ | Accrual Type Details Update Form | Accrue for Every Amount | 
+ | Accrual Type Update Form | Accrual Type Employee Tenure From Years | 
+ | Accrual Type Update Form | Accrual Type Employee Tenure To Years | 
+ | Accrual Type Update Form | Accrual Inactive Flag | 
+ | Accrual Type Update Form | Accrual Type Default Flag | 
+ | Accrual Type Rate Mapping Update Form | Min. Amount Worked | 
+ | Accrual Type Rate Mapping Update Form | Max. Amount Worked | 
+ | Employee Wage Update Form | Wage Amount | 
+ | Employee Security Filter Update Form | Employee Filter Department Number From | 
+ | Employee Security Filter Update Form | Employee Filter Employee ID From | 
+ | Employee Security Filter Update Form | Employee Filter Department Number To | 
+ | Employee Security Filter Update Form | Employee Filter Employee ID To | 
+ | Employee Update Form | Emergency Contact Information | 
+ | Employee Update Form | Employee Default Wage | 
+ | Employee Update Form | Federal Exemptions | 
+ | Employee Update Form | State Exemptions | 
+ | Employee Update Form | Additional State Withholding | 
+ | Employee Update Form | Local Exemptions | 
+ | Employee Update Form | Direct Deposit Account 1 - From Date | 
+ | Employee Update Form | Direct Deposit Account 2 - From Date | 
+ | Employee Update Form | Direct Deposit Account 3 - From Date | 
+ | Employee Update Form | Direct Deposit Account 4 - From Date | 
+ | Employee Update Form | Direct Deposit Account 1 - To Date | 
+ | Employee Update Form | Direct Deposit Account 2 - To Date | 
+ | Employee Update Form | Direct Deposit Account 3 - To Date | 
+ | Employee Update Form | Direct Deposit Account 4 - To Date | 
+ | Employee Update Form | Employee Work Status | 
+ | Report Selection Criteria Update Form | Report Setting Departments Selected Option | 
+ | Report Selection Criteria Update Form | Report Setting To Date | 
+ | Report Selection Criteria Update Form | Report Setting Groups Selected Option | 
+ | Report Selection Criteria Update Form | Report Setting Employee ID From | 
+ | Report Selection Criteria Update Form | Report Setting Employee ID To | 
+ | Report Selection Criteria Update Form | Report Setting Department Number From | 
+ | Company Update Form | Inactivity Time Out | 
+ | Company Update Form | User Passwords Expire In | 
 
 - Resolved
   an issue which led to a script error if the Rounding Method was set

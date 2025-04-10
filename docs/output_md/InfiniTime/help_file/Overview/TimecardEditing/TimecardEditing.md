@@ -93,9 +93,9 @@ with high utilization. A Brief outline of available editing modes is provided
 below. The Timecard Editing Mode is a company wide setting - all InfiniTime Users will use the same
 timecard editing method. It is important to note that the Company and
 Employee Timecard tables must be closed and reopened in order for alterations
-to the Timecard Editing Mode Company settings to take effect.  
-  
-  
+to the Timecard Editing Mode Company settings to take effect.
+
+
 The Timecard Editing Mode is controlled by the 'Delayed Save on Timecard
 Editors' and 'Delayed Edit on Timecard Editors' Functional Options on
 the Company Update Form:
@@ -109,11 +109,12 @@ options tab as shown below.
 
 ![](/img/SW_CH11_NOTES_0002.gif)
 
-| Delayed Save on Timecard Editors Status | Delayed Edit on Timecard Editors Status | Timecard Edit Mode |
-| Unchecked | Unchecked | * Save Immediately -   The 'Save Button' will not be displayed on the Company Timecard.   Alterations to individual Timecard Records will be saved immediately   when focus is removed from the record. If only one record   is present in the Timecard Table, Tab must be used to remove   focus from the record. * Edit Immediately -   Timecard Records are loaded with all in line   edit controls (IE: Time Picker & Date Selection Tool)   and may be edited immediately.     This mode is considered outdated. InfiniTime 7.08 includes delayed save which permits timecards to be edited like a spreadsheet and reduces the number of transactions sent between the InfiniTime Client machine and Server providing improved performance. |
-| Checked | Unchecked | * Delayed Save -    A 'Save Button' will be displayed after a timecard record   is altered and focus is removed from the record. Additional   timecard records may then be altered prior to saving the changes.   In this way, the Timecard Table can be edited like a spreadsheet   moving from cell to cell to edit punch dates and times as   needed before saving the changes. Changes to altered timecard   records are saved when: A. The user clicks the save button.   B. The user switches pages in the timecard table. C. The user   switches to another employee. Delayed Save also permits the   user to click Cancel in order to revert to the original timecard   records and cancel recent changes. * Edit Immediately -   Timecard Records are loaded with all in line edit controls   (IE: Time Picker & Date Selection Tool) and may be edited   immediately.     This mode is enabled by default for new InfiniTime installations and is ideal for normal use in most operating environments where InfiniTime is deployed on a local area network or wide area network. The Delayed Save functionality and user friendly spreadsheet - like interface provide increased performance by reducing the number of round trips between the InfiniTime Client Machine and InfiniTime Server. |
-| Unchecked | Checked | * Save Immediately -   The 'Save Button' will not be displayed on the Company Timecard.   Alterations to individual Timecard Records will be saved immediately   when focus is removed from the record. If only one record   is present in the Timecard Table, Tab must be used to remove   focus from the record. * Delayed Edit -   Timecard Records are loaded in View Only Mode. In Line Edit   Controls such as the Time Picker & Date Selection Tool   are not displayed. The User must click on 'Change' before   timecard records can be edited.     This mode enables delayed edit, which significantly reduces the time required to load the Timecard Grid, especially for clients connecting to the InfiniTime server over a higher latency WAN Connection with high bandwidth utilization. Users who observe delays while editing timecards, especially when switching from employee to employee and waiting for timecards to be displayed, may wish to enable Delayed Edit.    This mode is not recommended as delayed save is not enabled. This will increase the number of transactions sent back and forth between the InfiniTime Client Machine and the InfiniTime Server. Customers who use this mode are often used to the Save Immediately interface from prior versions of the InfiniTime Software and specifically choose not to enable delayed save. |
-| Checked | Checked | * Delayed Save -    A 'Save Button' will be displayed after a timecard record   is altered and focus is removed from the record. Additional   timecard records may then be altered prior to saving the changes.   In this way, the Timecard Table can be edited like a spreadsheet   moving from cell to cell to edit punch dates and times as   needed before saving the changes. Changes to altered timecard   records are saved when: A. The user clicks the save button.   B. The user switches pages in the timecard table. C. The user   switches to another employee. Delayed Save also permits the   user to click Cancel in order to revert to the original timecard   records and cancel recent changes. * Delayed Edit -   Timecard Records are loaded in View Only Mode. In Line Edit   Controls such as the Time Picker & Date Selection Tool   are not displayed. The User must click on 'Change' before   timecard records can be edited.     This mode enables delayed edit, which significantly reduces the time required to load the Timecard Grid, especially for clients connecting to the InfiniTime server over a higher latency WAN Connection with high bandwidth utilization. Users who observe delays while editing timecards, especially when switching from employee to employee and waiting for timecards to be displayed, may wish to enable Delayed Edit.    This is the recommended Timecard Edit Mode for customers with users accessing the InfiniTime Software over a higher latency / high bandwidth utilization WAN connection. The Delayed Save functionality and user friendly spreadsheet - like interface provide increased performance by reducing the number of round trips between the InfiniTime Client Machine and InfiniTime Server. |
+ | Delayed Save on Timecard Editors Status | Delayed Edit on Timecard Editors Status | Timecard Edit Mode | 
+| --- | --- | --- |
+ | Unchecked | Unchecked | * Save Immediately -   The 'Save Button' will not be displayed on the Company Timecard.   Alterations to individual Timecard Records will be saved immediately   when focus is removed from the record. If only one record   is present in the Timecard Table, Tab must be used to remove   focus from the record. * Edit Immediately -   Timecard Records are loaded with all in line   edit controls (IE: Time Picker & Date Selection Tool)   and may be edited immediately.     This mode is considered outdated. InfiniTime 7.08 includes delayed save which permits timecards to be edited like a spreadsheet and reduces the number of transactions sent between the InfiniTime Client machine and Server providing improved performance. | 
+ | Checked | Unchecked | * Delayed Save -    A 'Save Button' will be displayed after a timecard record   is altered and focus is removed from the record. Additional   timecard records may then be altered prior to saving the changes.   In this way, the Timecard Table can be edited like a spreadsheet   moving from cell to cell to edit punch dates and times as   needed before saving the changes. Changes to altered timecard   records are saved when: A. The user clicks the save button.   B. The user switches pages in the timecard table. C. The user   switches to another employee. Delayed Save also permits the   user to click Cancel in order to revert to the original timecard   records and cancel recent changes. * Edit Immediately -   Timecard Records are loaded with all in line edit controls   (IE: Time Picker & Date Selection Tool) and may be edited   immediately.     This mode is enabled by default for new InfiniTime installations and is ideal for normal use in most operating environments where InfiniTime is deployed on a local area network or wide area network. The Delayed Save functionality and user friendly spreadsheet - like interface provide increased performance by reducing the number of round trips between the InfiniTime Client Machine and InfiniTime Server. | 
+ | Unchecked | Checked | * Save Immediately -   The 'Save Button' will not be displayed on the Company Timecard.   Alterations to individual Timecard Records will be saved immediately   when focus is removed from the record. If only one record   is present in the Timecard Table, Tab must be used to remove   focus from the record. * Delayed Edit -   Timecard Records are loaded in View Only Mode. In Line Edit   Controls such as the Time Picker & Date Selection Tool   are not displayed. The User must click on 'Change' before   timecard records can be edited.     This mode enables delayed edit, which significantly reduces the time required to load the Timecard Grid, especially for clients connecting to the InfiniTime server over a higher latency WAN Connection with high bandwidth utilization. Users who observe delays while editing timecards, especially when switching from employee to employee and waiting for timecards to be displayed, may wish to enable Delayed Edit.    This mode is not recommended as delayed save is not enabled. This will increase the number of transactions sent back and forth between the InfiniTime Client Machine and the InfiniTime Server. Customers who use this mode are often used to the Save Immediately interface from prior versions of the InfiniTime Software and specifically choose not to enable delayed save. | 
+ | Checked | Checked | * Delayed Save -    A 'Save Button' will be displayed after a timecard record   is altered and focus is removed from the record. Additional   timecard records may then be altered prior to saving the changes.   In this way, the Timecard Table can be edited like a spreadsheet   moving from cell to cell to edit punch dates and times as   needed before saving the changes. Changes to altered timecard   records are saved when: A. The user clicks the save button.   B. The user switches pages in the timecard table. C. The user   switches to another employee. Delayed Save also permits the   user to click Cancel in order to revert to the original timecard   records and cancel recent changes. * Delayed Edit -   Timecard Records are loaded in View Only Mode. In Line Edit   Controls such as the Time Picker & Date Selection Tool   are not displayed. The User must click on 'Change' before   timecard records can be edited.     This mode enables delayed edit, which significantly reduces the time required to load the Timecard Grid, especially for clients connecting to the InfiniTime server over a higher latency WAN Connection with high bandwidth utilization. Users who observe delays while editing timecards, especially when switching from employee to employee and waiting for timecards to be displayed, may wish to enable Delayed Edit.    This is the recommended Timecard Edit Mode for customers with users accessing the InfiniTime Software over a higher latency / high bandwidth utilization WAN connection. The Delayed Save functionality and user friendly spreadsheet - like interface provide increased performance by reducing the number of round trips between the InfiniTime Client Machine and InfiniTime Server. | 
 
 ### Standard Timecard Editing Tools
 
@@ -397,7 +398,7 @@ to simplify changing the date.
    âactive.â When a field is active it will turn yellow.
 
 Inactive
-Fields 
+Fields
   Active Field
 
 ![](/img/PurgeButton-Normal.gif)
@@ -408,13 +409,14 @@ Fields
    below can also be used at this time.
 3. Type the desired value.
 
-| Shortcut Key | Description |
-| + | Adds one day to the displayed date |
-| - | Subtracts one day from the displayed date |
-| T | Sets the field to the Current Date |
-| HOME | Sets the field to the Current Date |
-| SHIFT + HOME | Sets the field to the January 1st of the respective year |
-| SHIFT + END | Sets the field to the December 31st of the respective year |
+ | Shortcut Key | Description | 
+| --- | --- |
+ | + | Adds one day to the displayed date | 
+ | - | Subtracts one day from the displayed date | 
+ | T | Sets the field to the Current Date | 
+ | HOME | Sets the field to the Current Date | 
+ | SHIFT + HOME | Sets the field to the January 1st of the respective year | 
+ | SHIFT + END | Sets the field to the December 31st of the respective year | 
 
 ### Changing the Time
 
@@ -2147,23 +2149,24 @@ timecard records prior to payroll.
 
 Options:
 
-| Option | Default Value | Description |
-| Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime logo on the report. |
-| Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Group by Department? | No | This option will group employees specified by the Employee Filter according to their Default Department. |
-| Group by Employee? | No | This option will group employees specified by the Employee Filter by Last Name. |
-| Group by Job? | No | This option will group employees specified by the Employee Filter according to their Default Job. |
-| Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
-| Group by Task? | No | This option will group employees specified by the Employee Filter according to their Default Task. |
-| Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Page Break by Department? | No | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed. |
-| Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
-| Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary. |
-| Page Break by Job? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review. |
-| Page Break by Supervisor? | No | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review. |
-| Page Break by Task? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review. |
-| Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
-| Show System Audits? | No | This option will allow you display all system audits on the report.  System Audits include auto punch, Auto breaks, change to breaks. |
-| Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
-| Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
+ | Option | Default Value | Description | 
+| --- | --- | --- |
+ | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime logo on the report. | 
+ | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. | 
+ | Group by Department? | No | This option will group employees specified by the Employee Filter according to their Default Department. | 
+ | Group by Employee? | No | This option will group employees specified by the Employee Filter by Last Name. | 
+ | Group by Job? | No | This option will group employees specified by the Employee Filter according to their Default Job. | 
+ | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. | 
+ | Group by Task? | No | This option will group employees specified by the Employee Filter according to their Default Task. | 
+ | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. | 
+ | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. | 
+ | Page Break by Department? | No | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed. | 
+ | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. | 
+ | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary. | 
+ | Page Break by Job? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review. | 
+ | Page Break by Supervisor? | No | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review. | 
+ | Page Break by Task? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review. | 
+ | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. | 
+ | Show System Audits? | No | This option will allow you display all system audits on the report.  System Audits include auto punch, Auto breaks, change to breaks. | 
+ | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. | 
+ | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. | 
