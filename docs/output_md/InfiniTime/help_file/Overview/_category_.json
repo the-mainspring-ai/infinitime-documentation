@@ -1,0 +1,8 @@
+{
+  "label": "Overview",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Overview documentation for InfiniTime"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Timecard Reports",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Timecard Reports documentation for InfiniTime"
+  }
+}

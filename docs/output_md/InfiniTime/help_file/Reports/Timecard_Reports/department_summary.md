@@ -1,0 +1,22 @@
+xml version="1.0" encoding="utf-8"?
+
+
+
+
+
+Department Summary
+
+
+
+
+# Department Summary
+
+Displays hourly totals for each department according to selection criteria. Timecard Activity totals are separated by activity type.
+
+Report Example:
+
+![](/img/image-404.png)
+
+Options: The Department Summary Report is a user customizable report. Refer to the [Customizable Report Section](../../User_Customizable_Reports.md) of this manual for more information.
+
+[Report List](../Report_List.md)
