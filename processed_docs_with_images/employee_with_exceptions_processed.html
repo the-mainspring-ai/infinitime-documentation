@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8" ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Adobe RoboHelp 10" name="generator"/>
+<title>Employee With Exceptions</title>
+<link href="../../default.css" rel="StyleSheet" type="text/css"/>
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script charset="utf-8" language="javascript1.2" src="../../whmsg.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript" src="../../whver.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript1.2" src="../../whutils.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript1.2" src="../../whproxy.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript1.2" src="../../whlang.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript1.2" src="../../whtopic.js" type="text/javascript"></script>
+</head>
+<body><script language="javascript1.2" type="text/javascript">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("../../TC32.htm", "", ">", "Home", "../../Help_System_Introduction.htm");
+document.write("Employee With Exceptions<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../../TC32.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script language="JavaScript1.2" src="../../ehlpdhtm.js" type="text/javascript"></script>
+<h1>Employee With Exceptions</h1>
+<p>Displays a list of employees that have exceptions within the date range 
+ specified by Selection Criteria.</p>
+<p> </p>
+<p style="font-weight: bold;"><span><span><span style="font-weight: bold;">Report 
+ Example:</span></span></span></p>
+<p> </p>
+<p><img alt="" border="0" height="252" src="data:image/png;base64,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" style="border: none;" width="887"/></p>
+<p> </p>
+<p style="font-weight: bold;">Notes/Usage:</p>
+<p> </p>
+<p>This report will show a list of employees that have exceptions in the 
+ specified time, if you want to limit  the list of employees to only 
+ show employees with a specific exception you will need to select the desired 
+ exceptions and also in the options set it to only display selected exceptions.</p>
+<p> </p>
+<p style="font-weight: bold;">Options:</p>
+<p style="font-weight: normal;"> </p>
+<table cellspacing="0" style="vertical-align: Center;" width="90.692%">
+<col style="width: 25.832%;"/>
+<col style="width: 27.056%;"/>
+<col style="width: 47.113%;"/>
+<tr style="vertical-align: center;">
+<td bgcolor="#C0C0C0" style="border: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="text-align: center; 
+														 font-weight: bold;">Option</p></td>
+<td bgcolor="#C0C0C0" style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 27.056%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="text-align: center; 
+														 font-weight: bold;">Default 
+		 Value</p></td>
+<td bgcolor="#C0C0C0" style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 47.113%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="text-align: center; 
+														 font-weight: bold;">Description</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Allow Graphics On the Report?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">Yes</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option allows you to choose if you want to print the InfiniTime 
+		 7.0 logo on the report.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Department Selection Based On?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">Employee Default Department</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to select how you are going to group the 
+		 employees by department based on their default department or the 
+		 worked in department</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Group by Department?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to group the employees by department based 
+		 on the selection you have made either Employee Default Department 
+		 or Employee Worked in Department.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Limit To Selected Exception Type?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you only display exceptions that you have selected 
+		 on the selection criteria if it is set to yes, if it is set to 
+		 no it will display all the exceptions an employee has for the 
+		 date selected including the one that is selected on the criteria.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Page Break by Department?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you page break the report based on the departments, 
+		 making it easier to give the reports to department heads for review 
+		 if needed.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Page Break by Employee?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to page break the report based on each employee, 
+		 making it easier to give the report to the individual employees 
+		 for review.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Print Exception Detail?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to print the exception detail for the employees</p></td>
+</tr>
+</table>
+<br/>
+<table cellspacing="0" style="vertical-align: Center;" width="90.692%">
+<col style="width: 25.832%;"/>
+<col style="width: 27.056%;"/>
+<col style="width: 47.113%;"/>
+<tr style="vertical-align: center;">
+<td bgcolor="#C0C0C0" style="border: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="text-align: center; 
+														 font-weight: bold;">Option</p></td>
+<td bgcolor="#C0C0C0" style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 27.056%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="text-align: center; 
+														 font-weight: bold;">Default 
+		 Value</p></td>
+<td bgcolor="#C0C0C0" style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 47.113%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="text-align: center; 
+														 font-weight: bold;">Description</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Allow Graphics On the Report?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">Yes</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option allows you to choose if you want to print the InfiniTime 
+		 7.0 logo on the report.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Department Selection Based On?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p>Employee 
+		 Default Department</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to select how the Department  filter 
+		 is used to select employees. By default, departments tagged on 
+		 the selection criteria will cause InfiniTime to display employees 
+		 assigned to that department on the report. Alternatively, selecting 
+		 'Worked in Department' will show employees that worked in the 
+		 selected department during the selected date range.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Group by Department?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will group employees specified by the Employee Filter according 
+		 to their Default Department.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Group by Job?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will group employees specified by the Employee Filter according 
+		 to their Default Job.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Group by Supervisor?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will group employees specified by the Employee Filter according 
+		 to their Default Supervisor.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Group by Task?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will group employees specified by the Employee Filter according 
+		 to their Default Task.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Group level to group by:</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">None</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will sort employees specified by the Employee Filter according 
+		 to their group description for the selected group level. For example, 
+		 a company with multiple locations might have a Group Level of 
+		 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' 
+		 , and 'Jacksonville'. Selecting the 'Location' group level would 
+		 sort employees according to their assigned location.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Job Selection Based On:</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">Employee Default Job</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to select how the Job filter is used to 
+		 select employees. By default, jobs tagged on the selection criteria 
+		 will cause InfiniTime to display employees assigned to the job 
+		 on the report. Alternatively, selecting 'Worked in Job'' will 
+		 show employees that worked in the selected job during the chosen 
+		 date range.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Limit to Selected Exception Types?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>Alters 
+		 how the Exception tab of the Selection Criteria Settings functions. 
+		 When set to yes, only the specific exceptions tagged on the Selection 
+		 Criteria will be displayed. When set to no, all exceptions occuring 
+		 within the selected date range will be displayed for employees 
+		 who have the exception types identified by the Selection Criteria.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Page Break by Department?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you page break the report based on the Employee's 
+		 Default Department, making it easier to give the report to department 
+		 heads for review if needed.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Page Break by Employee?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to page break the report based on each employee, 
+		 making it easier to give the report to the individual employees 
+		 for review.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Page Break by Group?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to page break the report based on each Group 
+		 Description and is intended for use with 'Group Level to Group 
+		 By.' The report can then be distributed as necessary.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Page Break by Job?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to page break the report based on the Employee's 
+		 Default Job, making it easier to give the reports to Job Supervisors 
+		 for review.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Page Break by Supervisor?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to page break the report based on Employee 
+		 Supervisors, making it easier to distribute to Supervisors for 
+		 review.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Page Break by Task?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to page break the report based on the Employee's 
+		 Default Job, making it easier to give the reports to Task Supervisors 
+		 for review.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Print Exception Detail?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>When 
+		 set to Yes, employee exceptions will be displayed on the report.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Sort by Employee Number?</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">No</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will group employees specified by the Employee Filter according 
+		 to their Employee ID.</p></td>
+</tr>
+<tr style="vertical-align: center;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 25.832%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Task Selection Based On:</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 27.056%; padding-right: 10px; padding-left: 10px;"><p style="text-align: center;">Employee Default Task</p></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 47.113%; padding-right: 10px; padding-left: 10px;"><p>This 
+		 option will allow you to select how the Task filter is used to 
+		 select employees. By default, tasks tagged on the selection criteria 
+		 will cause InfiniTime to display employees assigned to the task 
+		 on the report. Alternatively, selecting 'Worked in Task'' will 
+		 show employees that worked in the selected task during the chosen 
+		 date range.</p></td>
+</tr>
+</table>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;"><a href="../Report_List.htm">Report List</a></p>
+<p> </p>
+<script language="javascript1.2" type="text/javascript">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

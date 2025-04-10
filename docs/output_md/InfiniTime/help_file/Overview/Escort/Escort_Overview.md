@@ -1,13 +1,6 @@
 xml version="1.0" encoding="utf-8" ?
 
-
-
-
-
 Escort Overview
-
-
-
 
 # Escort Overview
 
@@ -22,14 +15,14 @@ responsible for specific tasks.
 
 Escort....
 
-* Serves as a Customized Portal to the InfiniTime
+- Serves as a Customized Portal to the InfiniTime
   Application
-* Permits a completely user customizable layout of InfiniTime Buttons and controls with
+- Permits a completely user customizable layout of InfiniTime Buttons and controls with
   the ability to add labels, links, and images.
-* Very useful for employees who are not highly computer literate
+- Very useful for employees who are not highly computer literate
   or who might be overwhelmed by the number of features in the manager
   module.
-* Escort users donât have to learn the entire application â only
+- Escort users donât have to learn the entire application â only
   the areas they use on a regular basis. IE: You want to run a report.
   With escort the user only has to click on a single button where in
   the manager module they would have to Open the Report Library, Find
@@ -46,13 +39,13 @@ An example Escort Window is provided below.
 Accessing
 Escort Settings
 
-* Login to the Manager Module
-* Click on Lookups.
-* Click on Employee Setup.
+- Login to the Manager Module
+- Click on Lookups.
+- Click on Employee Setup.
 
 ![](/img/image-404.png)
 
-* Click on Escort Settings.
+- Click on Escort Settings.
 
 ### Escort Settings Description Table
 
@@ -62,43 +55,48 @@ be displayed as shown below.
 ![](/img/image-404.png).gif)
 
 Design
+
 - Opens the Escort Design Window for the selected Escort Window. In order
-to add buttons, labels, images, and tabs for an Escort Setting Description
-using the Escort Design Window an escort Setting Description must first
-be created using the Insert Button.
+  to add buttons, labels, images, and tabs for an Escort Setting Description
+  using the Escort Design Window an escort Setting Description must first
+  be created using the Insert Button.
 
 Test
+
 - Opens the selected Escort Window for use and / or test purposes. All
-controls previously added to the Escort using the Escort Design Window
-will be active and available for use.
+  controls previously added to the Escort using the Escort Design Window
+  will be active and available for use.
 
 Insert
+
 - Opens the Escort Setting Description Update Form. Used to create a new
-Escort Setting Description which can then be altered using the Escort
-Design Window.
+  Escort Setting Description which can then be altered using the Escort
+  Design Window.
 
 Change
+
 - Opens the Escort Setting Description Update Form for the Selected Escort.
-The user may then alter the Escort Description and first Tab Text as desired.
-The Escort Description is used to assign the Escort Window to individual
-employees.
+  The user may then alter the Escort Description and first Tab Text as desired.
+  The Escort Description is used to assign the Escort Window to individual
+  employees.
 
 Delete
+
 - Deletes the selected Escort. InfiniTime
-will not permit an escort window to be deleted if it is assigned to one
-or more employees.
+  will not permit an escort window to be deleted if it is assigned to one
+  or more employees.
 
 # Inserting a New Escort Window
 
-* Click Insert to display the Escort Setting Description Update Form.
-* Enter a description for the new escort window.
+- Click Insert to display the Escort Setting Description Update Form.
+- Enter a description for the new escort window.
 
 ![](/img/image-404.png).gif)
 
-* Type a descriptive name, usually related to the purpose, of the
+- Type a descriptive name, usually related to the purpose, of the
   First Tab that will be created for the Escort Window. (IE: Reports,
   Tools, General, Daily Tasks, Weekly Tasks)
-* Click OK to save the entry in the Escort Settings Table.
+- Click OK to save the entry in the Escort Settings Table.
 
 # Designing Escort Windows
 
@@ -110,26 +108,26 @@ Timecards and information as well as reports.
 
 ### To open the Escort Design Window for a specific Escort Window:
 
-* Select an existing Escort Setting  then click on the Design
+- Select an existing Escort Setting  then click on the Design
   Button. If no Escort Settings exist in your database the Design button
   will not be displayed on the Escort Settings Description Table. Use
   the Insert button to first define a Description and the First Tab
   Text for a new escort window.
-* The Escort Design window will be displayed as shown below. Notice
+- The Escort Design window will be displayed as shown below. Notice
   how each control on the window is shown individually. Controls can
   be moved using Drag and Drop or resized by hovering the cursor over
   a control's outer edge.
 
 ![](/img/image-404.png)
 
-* Initially, the Escort Window is a blank canvas with only a single
+- Initially, the Escort Window is a blank canvas with only a single
   tab. The Right Click Menu of the Escort Design Window can be used
   to add additional tabs and controls such as Labels, Hyperlinks, Images,
   and Buttons.
 
 ![](/img/image-404.png)
 
-* To add controls to the Escort Window, simply right click to display
+- To add controls to the Escort Window, simply right click to display
   the available actions then Left click on the action you wish to perform.
   Each action is detailed below.
 
@@ -180,7 +178,7 @@ Enter a width, in pixels, for the label.
 Height:
 Enter a height, in pixels, for the label.
 
-*Note*:
+_Note_:
 A good rule of thumb is to allow ten (10) pixels for each character of
 text, including spaces. Multiple Lines require additional height, while
 each character requires additional width.
@@ -206,7 +204,7 @@ Enter a width, in pixels, for the hyperlink.
 Height:
 Enter a height, in pixels, for the hyperlink.
 
-*Note*:
+_Note_:
 A good rule of thumb is to allow ten (10) pixels for each character of
 text, including spaces. Multiple Lines require additional height, while
 each character requires additional width.
@@ -313,8 +311,9 @@ label for example, right click on it then click Edit.
 ### Action Set Four
 
 Delete
+
 - Deletes a specific object. If you wanted to delete a label for example,
-right click on it then click Delete.
+  right click on it then click Delete.
 
 ### Action Set Five
 
@@ -358,15 +357,15 @@ Demographics Section on the Employee Update Form. Instructions for assigning
 an escort window to an employee are provided below.
 
 1. Login to the InfiniTime
-Manager Module as an Administrator, Payroll Clerk, or Supervisor with
-the ability to edit Employees
+   Manager Module as an Administrator, Payroll Clerk, or Supervisor with
+   the ability to edit Employees
 
 2. Open the Employee Table
 
 ![](/img/image-404.png)
 
 3. Search for the employee you wish to assign an Escort Window to and
-click on their name to Highlight them
+   click on their name to Highlight them
 
 ![](/img/image-404.png)
 
@@ -379,15 +378,15 @@ click on their name to Highlight them
 5. Click on the Settings Tab.
 
 6. Notice the Escort Field. Enter the Description of the Escort Window
-you wish to assign to the employee in this field then click OK to save
-the changes.
+   you wish to assign to the employee in this field then click OK to save
+   the changes.
 
 ![](/img/image-404.png)
 
 7. Alternatively Quick Assign may be used to assign Escort Windows to
-multiple employees at once. Additional Details on the use of Quick Assign
-can be found in the [Quick
-Assign Section](../Configuration/Product_Configuration.md#qa01_Quick_Assign_Introduction) of this document.
+   multiple employees at once. Additional Details on the use of Quick Assign
+   can be found in the [Quick
+   Assign Section](../Configuration/Product_Configuration.md#qa01_Quick_Assign_Introduction) of this document.
 
 # Exporting Escorts
 
@@ -400,7 +399,7 @@ Users and imported into the InfiniTime
 Application. The Import and Export features for Escort have some limitations
 as listed below:
 
-* Escort Windows can only be exported
+- Escort Windows can only be exported
   from the InfiniTime
   Server. The Export Button is not displayed on the Escort Settings
   Description Table when InfiniTime
@@ -408,21 +407,21 @@ as listed below:
   are not configured properly when InfiniTime
   is accessed from the InfiniTime
   Server.
-* Escort Windows can only be exported
+- Escort Windows can only be exported
   using Internet Explorer 7 and later. Safari and Mozilla Firefox do
   not support this feature.
-* Auto Report Schedules associated with
+- Auto Report Schedules associated with
   a Printer are not transferred by the Export feature. Individual Printers
   are installation specific, for this reason this information cannot
   be transferred from machine to machine.
-* Only InfiniTime
+- Only InfiniTime
   Version 7.06b and later provides support for importing user created
   escorts in the form of .ESB files. Customer's must update to InfiniTime 7.06b or later in order
   to Import Escort Windows.
 
 To Export an Existing Escort Window:
 
-* Verify Trusted Sites and Active
+- Verify Trusted Sites and Active
   X Controls are configured properly on the InfiniTime
   Server. InfiniTime
   must have access to the local registry using ActiveX controls. If
@@ -430,8 +429,7 @@ To Export an Existing Escort Window:
   not be displayed.
 
 Refer to [Browser Configuration - Trusted Sites
-for More Information on Configuring Trusted Sites. (Internet Explorer
-7)](../../INST_CH4_IE7.md)
+for More Information on Configuring Trusted Sites. (Internet Explorer 7)](../../INST_CH4_IE7.md)
 
 Refer to [Browser
 Configuration - Trusted Sites for More Information on Configuring Trusted
@@ -445,41 +443,41 @@ Refer to [Active
 X Controls & Scripts for More Information on configuring Active X
 Controls and Security Settings. (Internet Explorer 8)](../../AUTOCONFIG_ActiveXMicrosoft_Internet_Explorer_8.0.md)
 
-* Login to the Manager Module on
+- Login to the Manager Module on
   the InfiniTime Server
   using Internet Explorer.
 
-* Click on Lookups - Employee Setup
+- Click on Lookups - Employee Setup
   - Escort Settings.
 
 ![](/img/image-404.png)
 
-* Click on the Escort you wish to
+- Click on the Escort you wish to
   export to Highlight it.
 
 ![](/img/image-404.png)
 
-* Click Export.
+- Click Export.
 
 ![](/img/image-404.png)
 
-* The Export Escort Window will be
+- The Export Escort Window will be
   displayed followed by a Dos Screen while the export is performed.
 
 ![](/img/image-404.png)
 
-* Save the resulting .ESB file. Your
+- Save the resulting .ESB file. Your
   Internet Browser may prevent the file from downloading automatically.
   If so, right click on the warning box and select Download File as
   shown below.
 
 ![](/img/image-404.png)           ![](/img/image-404.png)
 
-* Saved Escorts (.ESB Files) can be stored for future use, transferred
+- Saved Escorts (.ESB Files) can be stored for future use, transferred
   to other installations for importing, or shared with the InfiniTime community by sending the
   .ESB file to
 
-[EscortSubmission@InfiniTime.com](EscortSubmission@Infinitime.com)
+[EscortSubmission@Infinitime.com](mailto:EscortSubmission@Infinitime.com)
 
 # Importing Escorts
 
@@ -492,7 +490,7 @@ Users and imported into the InfiniTime
 Application. The Import and Export features for Escort have some limitations
 as listed below:
 
-+ Escort Windows can only be imported
+- Escort Windows can only be imported
   from the InfiniTime
   Server. The Import Button is not displayed on the Escort Settings
   Description Table when InfiniTime
@@ -541,7 +539,7 @@ after importing an Escort and associated Saved Payroll Exports.
 
 To Import an Escort Window (.ESB File):
 
-* Verify Trusted Sites and Active
+- Verify Trusted Sites and Active
   X Controls are configured properly on the InfiniTime
   Server. InfiniTime
   must have access to the local registry using ActiveX controls. If
@@ -550,8 +548,7 @@ To Import an Escort Window (.ESB File):
 
 Refer
 to [Browser Configuration - Trusted Sites
-for More Information on Configuring Trusted Sites. (Internet Explorer
-7)](../../INST_CH4_IE7.md)
+for More Information on Configuring Trusted Sites. (Internet Explorer 7)](../../INST_CH4_IE7.md)
 
 Refer to [Browser
 Configuration - Trusted Sites for More Information on Configuring Trusted
@@ -565,37 +562,37 @@ Refer to [Active
 X Controls & Scripts for More Information on configuring Active X
 Controls and Security Settings. (Internet Explorer 8)](../../AUTOCONFIG_ActiveXMicrosoft_Internet_Explorer_8.0.md)
 
-* Login to the Manager Module on
+- Login to the Manager Module on
   the InfiniTime Server
   using Internet Explorer.
 
-* Click on Lookups - Employee Setup
+- Click on Lookups - Employee Setup
   - Escort Settings.
 
 ![](/img/image-404.png)
 
-* Click the Import Button.
+- Click the Import Button.
 
 ![](/img/image-404.png)
 
-* Click on the Browse Button and
+- Click on the Browse Button and
   locate the escort file you would like to import.
 
 ![](/img/image-404.png)
 
-* Click OK to import the selected
+- Click OK to import the selected
   escort file. The Import Escort Window will display while InfiniTime prepares to import the
   escort file.
 
 ![](/img/image-404.png)
 
-* After preparations are complete
+- After preparations are complete
   a command prompt will display while the escort data is imported to
   the InfiniTime Database.
 
 ![](/img/image-404.png)
 
-* A copy of the original escort will
+- A copy of the original escort will
   now be available in the Escort Settings Description Table. The escort
   window is now ready for use.
 
@@ -622,9 +619,9 @@ software. Escort would generally be used to grant very limited access,
 as controlled by security role configuration and security filters, to
 the following items:
 
-* Employee Table
-* Timecard Activity Table
-* In & Out Board
+- Employee Table
+- Timecard Activity Table
+- In & Out Board
 
 ### Escort for Supervisors
 
@@ -637,21 +634,21 @@ In general, supervisors require access to the following items:
 
 Software Access:
 
-* Employee Table
-* Company Activity Table
-* Department Table
-* Schedule Table
-* Report Library
-* In & Out Board
+- Employee Table
+- Company Activity Table
+- Department Table
+- Schedule Table
+- Report Library
+- In & Out Board
 
 Reporting Functions:
 
-* Exception Detail
-* Timecard Detail
-* Timecard Summary
-* In
+- Exception Detail
+- Timecard Detail
+- Timecard Summary
+- In
   & Out Board
-* Postable Schedule
+- Postable Schedule
 
 ### Escort For Payroll Clerks
 

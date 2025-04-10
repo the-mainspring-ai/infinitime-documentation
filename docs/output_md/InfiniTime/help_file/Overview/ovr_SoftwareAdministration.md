@@ -1,37 +1,29 @@
 xml version="1.0" encoding="utf-8" ?
 
-
-
-
-
-
 InfiniTime Administration
-
-
-
 
 # InfiniTime Administration
 
 ## Software Administration Introduction
 
- InfiniTime 7.08 includes several tools and
+InfiniTime 7.08 includes several tools and
 utilities for use by Software Administrators for typical tasks such as:
 
-* Restricting access to InfiniTime
+- Restricting access to InfiniTime
   Features and Functionality for End Users as appropriate based on the
   End User's role within the InfiniTime
   Software
-* Creating a Single File Backup which includes all InfiniTime Time & Attendance Data
-* Restoring all InfiniTime
+- Creating a Single File Backup which includes all InfiniTime Time & Attendance Data
+- Restoring all InfiniTime
   Time & Attendance Data from a Single File Backup Created by the
   InfiniTime Software
-* Performing the initial configuration for Time & Attendance
+- Performing the initial configuration for Time & Attendance
   Hardware Devices
-* Monitoring the Status of Time & Attendance Hardware Devices
-* Testing Communication between the InfiniTime
+- Monitoring the Status of Time & Attendance Hardware Devices
+- Testing Communication between the InfiniTime
   Server and Time & Attendance Hardware Devices
-* Undoing Accidental or Unintentional User Actions
-* Reviewing Raw Punch Data as collected from Time & Attendance
+- Undoing Accidental or Unintentional User Actions
+- Reviewing Raw Punch Data as collected from Time & Attendance
   Hardware Devices
 
 ## InfiniTime Deployment
@@ -83,15 +75,15 @@ to removable storage in order to safeguard your data.
 
 ### Creating a Backup in InfiniTime
 
-* Open the Manager module on the
+- Open the Manager module on the
   InfiniTime server and
   hover your mouse over âFileâ
-* Click
+- Click
   on âBackup / Restoreâ.
 
 ![](/img/image-404.png)
 
-* A new window as pictured below
+- A new window as pictured below
   entitled âBackup/Restore Tableâ will open. Click on the âBackupâ button
   at the bottom as shown to start the backup.
 
@@ -145,16 +137,16 @@ The oldest backup will then be deleted as a new file is created.
 
 ### Restoring a Backup
 
-* Click on File.
-* Click on Backup / Restore.
+- Click on File.
+- Click on Backup / Restore.
 
 ![](/img/image-404.png)
 
-* Highlight the backup file you wish to restore by clicking on it.
+- Highlight the backup file you wish to restore by clicking on it.
 
 ![](/img/image-404.png)
 
-* Click Restore. It should be noted that all users must be out of
+- Click Restore. It should be noted that all users must be out of
   the InfiniTime software
   in order to restore the backup. If there are users logged into the
   software a warning will be displayed and the restore will be aborted.
@@ -164,22 +156,22 @@ The oldest backup will then be deleted as a new file is created.
 
 ![](/img/image-404.png)
 
-* No further action is required from the user, InfiniTime
+- No further action is required from the user, InfiniTime
   will automatically perform all necessary operations to restore the
   backup file.
-* InfiniTime will
+- InfiniTime will
   automatically backup the data currently in your software before restoring
   the backup. This prevents accidental restoration of an older backup
   file, which would result in data loss.
 
 ![](/img/image-404.png)
 
-* Once the backup is finished InfiniTime
+- Once the backup is finished InfiniTime
   will restore the previously selected backup file.
 
 ![](/img/image-404.png)
 
-* The above window will close automatically when the restore is complete.
+- The above window will close automatically when the restore is complete.
   Once the restore is completed, the InfiniTime
   Manager Module should be closed and reopened before use.
 
@@ -190,23 +182,23 @@ can be removed from the InfiniTime
 Backup folder by selecting them from the backup list and clicking the
 delete button.
 
-* Open the InfiniTime
+- Open the InfiniTime
   Manager Module on the Server.
-* Click on File.
-* Click on Backup.
+- Click on File.
+- Click on Backup.
 
 ![](/img/image-404.png)
 
-* Click on the Plus to the left of the Backup Folder if it is not
+- Click on the Plus to the left of the Backup Folder if it is not
   already open.
 
 ![](/img/image-404.png)
 
-* Highlight the backup file you wish to delete by clicking on it.
+- Highlight the backup file you wish to delete by clicking on it.
 
 ![](/img/image-404.png)
 
-* Click Delete.
+- Click Delete.
 
 ![](/img/image-404.png)
 
@@ -216,27 +208,26 @@ InfiniTime Backup files
 can be e-mailed from the backup window itself by clicking on the Email
 button while a backup is highlighted. Follow the instructions below.
 
-* Click on File.
-* Click on Backup / Restore.
+- Click on File.
+- Click on Backup / Restore.
 
 ![](/img/image-404.png)
 
-* Highlight the backup file you wish to email by clicking on it.
+- Highlight the backup file you wish to email by clicking on it.
 
 ![](/img/image-404.png)
 
-* Click on the Email Button.
+- Click on the Email Button.
 
 ![](/img/image-404.png)
 
-* Fill out the Email Form shown below. The email will be sent via
+- Fill out the Email Form shown below. The email will be sent via
   the STMP Email Server Configuration on the InfiniTime
   Server in  Microsoft Internet Information Services.
 
 ![](/img/image-404.png)
 
 | Related Links |
-| [InfiniTime Server SMTP Email Configuration and Troubleshooting](../RESOURCES/SMTP_Email_Setup_And_Troubleshooting.pdf) |
 
 ### How to Create a Backup from a Client Machine
 
@@ -295,13 +286,13 @@ compatible time collection device.
 
 Accessing the Reader Configuration Table
 
-* Open the Reader Configuration Table
+- Open the Reader Configuration Table
 
-* Click on Lookups
+- Click on Lookups
 
 ![](/img/image-404.png)
 
-* Click
+- Click
   on Reader Configuration
 
 The Reader Configuration Table will open.
@@ -345,8 +336,7 @@ for your clock.
 
 Type: Select your Clock Model
 from the models in the list. NOTE: A scout 1000 requires a different configuration
-than other Scout Models. Select the Scout 1000 type if you have a Scout
-1000.
+than other Scout Models. Select the Scout 1000 type if you have a Scout 1000.
 
 ![](/img/image-404.png)
 
@@ -389,7 +379,7 @@ is polled will not be processed until the time selected.  The data
 is stored in the polled information and then once the time comes to process
 the data is then when it will show in the activity of the employee.
 
-*Note*: Automatic is generally
+_Note_: Automatic is generally
 the preferred setting for Data Processing. In this way employee timecard
 activity is automatically processed when it is polled from the reader.
 
@@ -415,43 +405,43 @@ to connection and clock type.
 
 | Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Plus | Scout | Scout 1000 | SY-400 |
 | Connection Method | Direct | Direct | Direct | Direct | Direct | Direct | Direct | Direct | Direct |
-| Access Control Settings | X | X | X | X | X |  | Xâ¦ |  | X |
-| Bell Schedules | X | X | X | X | X |  | Xâ¦ |  | X |
-| Communication Errors | X | X | X | X | X |  | X | X | X |
-| General - TCP/IP Tab |  |  |  |  |  |  |  |  |  |
-| Synel Options | X | X | X | X | X |  |  |  | X |
-| Scout Options |  |  |  |  |  |  | X | X |  |
+| Access Control Settings | X | X | X | X | X | | Xâ¦ | | X |
+| Bell Schedules | X | X | X | X | X | | Xâ¦ | | X |
+| Communication Errors | X | X | X | X | X | | X | X | X |
+| General - TCP/IP Tab | | | | | | | | | |
+| Synel Options | X | X | X | X | X | | | | X |
+| Scout Options | | | | | | | X | X | |
 
 â¦Scout 2000 is not compatible
 with access control or bells.
 
 | Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Scout | Scout 1000 | SY-400 |
 | Connection Method | Modem | Modem | Modem | Modem | Modem | Modem | Modem | Modem |
-| Access Control Settings | X | X | X | X | X | Xâ¦ |  | X |
-| Bell Schedules | X | X | X | X | X | Xâ¦ |  | X |
+| Access Control Settings | X | X | X | X | X | Xâ¦ | | X |
+| Bell Schedules | X | X | X | X | X | Xâ¦ | | X |
 | Communication Errors | X | X | X | X | X | X | X | X |
-| General - TCP/IP Tab |  |  |  |  |  |  |  |  |
-| Synel Options | X | X | X | X | X |  |  | X |
-| Scout Options |  |  |  |  |  | X | X |  |
+| General - TCP/IP Tab | | | | | | | | |
+| Synel Options | X | X | X | X | X | | | X |
+| Scout Options | | | | | | X | X | |
 
 â¦Scout 2000 is not compatible
 with access control or bells.
 
 | Reader Type | Apollo | Atlas | Odyssey | Omega | Orion | Scout | Scout 1000 | SY-400 |
 | Connection Method | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP | TCP/IP |
-| Access Control Settings |  | X | X |  | X | Xâ¦ |  | X |
-| Bell Schedules |  | X | X |  | X | Xâ¦ |  | X |
+| Access Control Settings | | X | X | | X | Xâ¦ | | X |
+| Bell Schedules | | X | X | | X | Xâ¦ | | X |
 | Communication Errors | X | X | X | X | X | X | X | X |
 | General - TCP/IP Tab | X | X | X | X | X | X | X | X |
-| Synel Options | X | X | X | X | X |  |  | X |
-| Scout Options |  |  |  |  |  | X | X |  |
+| Synel Options | X | X | X | X | X | | | X |
+| Scout Options | | | | | | X | X | |
 
 â¦Scout 2000 is not compatible
 with access control or bells.
 
 ### Configuring Reader Addresses
 
-* Click Insert to open the Reader Address Configuration Form.
+- Click Insert to open the Reader Address Configuration Form.
 
 ![](/img/image-404.png)
 
@@ -499,15 +489,15 @@ selected.
 Total Hours Type: Specify the
 Total hours type that will be displayed for viewing on the reader.
 
-* Daily: Sends daily hour
+- Daily: Sends daily hour
   totals to the clock for employee viewing purposes.
-* Weekly: Send hourly totals
+- Weekly: Send hourly totals
   for the current week to the clock for employee viewing purposes.
-* Pay Period:
+- Pay Period:
   Sends hour totals for the current pay period to the clock for employee
   viewing purposes.
 
-*NOTE*: Selecting Weekly or Pay
+_NOTE_: Selecting Weekly or Pay
 Period can quickly fill the memory on most timeclock models. It is important
 to poll employee timecard activity often if either of these settings is
 selected.: Enter the Reader Address assigned to the clock during setup.
@@ -517,8 +507,7 @@ timeclock model for setup instructions.
 \*\* Synel Badge Readers Only \*\*
 
 The following items will only be displayed
-if the clock type you have selected is a Synel Badge Reader. (Apollo/Atlas/Odyssey/Omega/Orion/Plus/SY
-400)
+if the clock type you have selected is a Synel Badge Reader. (Apollo/Atlas/Odyssey/Omega/Orion/Plus/SY 400)
 
 ![](/img/image-404.png)
 
@@ -527,14 +516,14 @@ Type: Select the appropriate badge reader type that corresponds
 to the type of badge reader installed in your Synel clock. Choices are
 Barcode, Magstripe, or Proximity depending on reader model.
 
-* Barcode
+- Barcode
   Badges: Barcode badges are recognizable by the large barcode
   symbol on the front of the card.
-* Magstripe
+- Magstripe
   Badges: Magstripe badges are recognizable by the magnetic strip
   on the back of the card, similar to the strip found on the back of
   a credit card.
-* Proximity
+- Proximity
   Badges: Proximity badges have no identifiable external markings.
   To clock in or out they are simply passed in front of a compatible
   terminal.
@@ -664,7 +653,7 @@ communications port is connected to a modem, which will be used to connect
 to a remote clock (Modem).  If Modem is selected the modem tab, as
 outlined below, will become available.
 
-*Note*:
+_Note_:
 More than one Modem clock can be polled using the same communications
 port and modem. A complete reader entry is required for each clock. Do
 not attempt to add additional Reader Address Entries to a single reader
@@ -682,15 +671,15 @@ selected.
 Total Hours Type: Specify the
 Total hours type that will be displayed for viewing on the reader.
 
-* Daily: Sends daily hour
+- Daily: Sends daily hour
   totals to the clock for employee viewing purposes.
-* Weekly: Send hourly totals
+- Weekly: Send hourly totals
   for the current week to the clock for employee viewing purposes.
-* Pay Period: Sends hour
+- Pay Period: Sends hour
   totals for the current pay period to the clock for employee viewing
   purposes.
 
-*NOTE*: Selecting Weekly or Pay
+_NOTE_: Selecting Weekly or Pay
 Period can quickly fill the memory on most timeclock models. It is important
 to poll employee timecard activity often if either of these settings is
 selected.: Enter the Reader Address assigned to the clock during setup.
@@ -700,8 +689,7 @@ timeclock model for setup instructions.
 \*\* Synel Badge Readers Only \*\*
 
 The following items will only be displayed
-if the clock type you have selected is a Synel Badge Reader. (Apollo/Atlas/Odyssey/Omega/Orion/Plus/SY
-400)
+if the clock type you have selected is a Synel Badge Reader. (Apollo/Atlas/Odyssey/Omega/Orion/Plus/SY 400)
 
 ![](/img/image-404.png)
 
@@ -710,14 +698,14 @@ Type: Select the appropriate badge reader type that corresponds
 to the type of badge reader installed in your Synel clock. Choices are
 Barcode, Magstripe, or Proximity depending on reader model.
 
-* Barcode
+- Barcode
   Badges: Barcode badges are recognizable by the large barcode
   symbol on the front of the card.
-* Magstripe
+- Magstripe
   Badges: Magstripe badges are recognizable by the magnetic strip
   on the back of the card, similar to the strip found on the back of
   a credit card.
-* Proximity
+- Proximity
   Badges: Proximity badges have no identifiable external markings.
   To clock in or out they are simply passed in front of a compatible
   terminal.
@@ -862,9 +850,9 @@ Access Denied Message: Type
 the message to be displayed on the clock should an employee be denied
 access. Access would be denied under the following conditions:
 
-* The employee is not authorized to access this location as defined
+- The employee is not authorized to access this location as defined
   by their Access Control Group.
-* The employee is attempting to access this location during hours
+- The employee is attempting to access this location during hours
   outside of their schedule.
 
 Access Granted Message: Type
@@ -872,9 +860,9 @@ the message to be displayed on the clock should an employee be granted
 access. Access will only be granted if both of the following conditions
 are met:
 
-* The employee is authorized to access this location as defined by
+- The employee is authorized to access this location as defined by
   their Access Control Group.
-* The employee is accessing the location during hours within the
+- The employee is accessing the location during hours within the
   access control schedule or according to schedule overrides.
 
 Lock Relay Open Duration: Set
@@ -900,7 +888,7 @@ the door controlled by the reader.
 
 To Assign Specific Groups to a Reader:
 
-* Select the group you wish to assign
+- Select the group you wish to assign
   to the reader. Use the controls in the center of the screen to assign
   a specific group to the reader as outlined below.
 
@@ -969,7 +957,7 @@ on inserting an access control schedule.
 
 ![](/img/image-404.png)
 
-*Override Example*:
+_Override Example_:
 
 An access control schedule is configured to grant access for authorized
 employees from 8:00 AM to 5:00 PM on 2-5-07. Employees will be working
@@ -1018,34 +1006,34 @@ for the specified duration.
 
 Configuring Bell Schedules
 
-* Click Insert to open the Bell Schedule Update Form
+- Click Insert to open the Bell Schedule Update Form
 
 ![](/img/image-404.png)
 
-* Type a description for the bell schedule.
+- Type a description for the bell schedule.
 
 ![](/img/image-404.png)
 
-* Specify the duration, in seconds, for the bell to ring when activated.
-* Click on the Default Schedule Tab.
+- Specify the duration, in seconds, for the bell to ring when activated.
+- Click on the Default Schedule Tab.
 
 ![](/img/image-404.png)
 
-* Click Insert to insert the first bell activation time.
+- Click Insert to insert the first bell activation time.
 
 ![](/img/image-404.png)
 
-* Select the day the bell will ring on. Monday is highlighted by
+- Select the day the bell will ring on. Monday is highlighted by
   default.
-* Enter the appropriate time.
+- Enter the appropriate time.
 
 ![](/img/image-404.png)
 
-* The copy feature, as explained below, can be used to copy the time
+- The copy feature, as explained below, can be used to copy the time
   to another day.
-* Click OK to save the entry.
+- Click OK to save the entry.
 
-*Note*: Only one activation time
+_Note_: Only one activation time
 can be configured per entry. Additional entries must be inserted to add
 successive bell activation times.
 
@@ -1118,7 +1106,7 @@ the duration, in seconds, InfiniTime
 should wait for an acknowledgement from the clock before the connection
 attempt is considered a failure.
 
-*Note*:
+_Note_:
 The Port Retry and Port Timeout settings may need to be increased to 5
 tries and 25-90 seconds respectively for use with modem clocks due to
 increased response times.
@@ -1132,7 +1120,7 @@ Timeout: Specify the duration, in seconds, InfiniTime
 should wait for data transfer to begin before considering the connection
 attempt a failure.
 
-*Note*:
+_Note_:
 The Modem Answer Timeout and Modem Connect Timeout settings may need to
 be increased to 25 and 45-90 seconds respectively for use with modem clocks
 due to increased response times
@@ -1145,7 +1133,7 @@ the employeeâs name will be displayed on the clock. Should this option
 be unchecked the badge number read from the card will simply be displayed.
 Disabling this option is useful for troubleshooting badges.
 
-*Note*:
+_Note_:
 Access Control Requires Employee Validation. Validate Employee must be
 checked for use with access control systems
 
@@ -1187,10 +1175,10 @@ terminal mode.
 
 Synel Readers
 
-* Swipe an Employee Badge
-* Press Enter
-* Enter Employee ID
-* Enter Password
+- Swipe an Employee Badge
+- Press Enter
+- Enter Employee ID
+- Enter Password
 
 Users may wish to manually update the reader after altering these settings
 in order for them to take effect immediately. Refer to the section of
@@ -1246,7 +1234,7 @@ Bell Relay Number: If a bell
 or bell system is attached to this reader specify which relay it is connected
 to.
 
-*Note*:
+_Note_:
 Only the Odyssey (SY-780) has interchangeable relays where each relay
 can be used for bells or access control. All other Synel Readers can support
 a maximum of one relay, which can be used for bells or access control.
@@ -1333,7 +1321,7 @@ Reader. Hand templates for employees assigned to the clock will be updated
 to the  Scout Clock. Any other templates stored in the scout clock
 will be removed.
 
-*Note*:
+_Note_:
 Any employees with hand templates on the clock that are not setup within
 the InfiniTime software
 will not be able to punch in if this option is enabled. It is important
@@ -1347,7 +1335,7 @@ Certain Scout models have auxiliary outputs available for various purposes.
 Auxiliary outputs can be used to activate a buzzer, sign or any other
 low voltage item.
 
-*Note*:
+_Note_:
 The options below only apply to the Scout 3000 and 4000 Models.
 
 On Tamper: An internal mercury
@@ -1403,7 +1391,7 @@ Scout 2000, 3000, and 4000 models have programmable function keys on
 the keypad the can be used for a broad range of purposes. Each function
 key can be configured with multiple functions according to user preference.
 
-*Note*:
+_Note_:
 All function keys are not available on each Scout Model. See the table
 below for available function keys according to Scout Model.
 
@@ -1417,7 +1405,7 @@ configured to perform specific actions. The Default action, as shown below,
 is originally set to Time and Attendance and must be changed in order
 to specify Access Control as the primary purpose of the reader.
 
-*Note*:
+_Note_:
 Scout Readers cannot operate in Dual Time & Attendance and Access
 Control mode.
 
@@ -1508,16 +1496,16 @@ Activity Table.
 
 ### Function Key Setup
 
-* Double click on the Function Key you wish to configure. The function
+- Double click on the Function Key you wish to configure. The function
   key folder will open showing functions assigned to it.
 
 ![](/img/image-404.png)
 
-* Click on one of the functions assigned to the Function Key.
+- Click on one of the functions assigned to the Function Key.
 
 ![](/img/image-404.png)
 
-* Use the Insert, Change, and Delete keys at the bottom of the screen
+- Use the Insert, Change, and Delete keys at the bottom of the screen
   to alter the assigned functions as desired. The order functions are
   displayed on the clock can also be adjusted with the Move Up or Move
   Down buttons.
@@ -1528,13 +1516,13 @@ You can place an unlimited amount of options in one function key.   When
 you have more than two functions assigned to a key they will appear in
 sub directories of the key.  Take a look at the example below.
 
-* Option 1
-* More
+- Option 1
+- More
 
 When you Hit the 2 button
 
-* Option 2
-* More
+- Option 2
+- More
 
 This chain will continue depending on how many options you have chosen
 for this function key.
@@ -1633,8 +1621,9 @@ Time - In this field you can enter the start time of when this
 valid phone number is available to be used.
 
 End Time
+
 - In this field you can enter the end time of when this valid phone number
-is available to be used.
+  is available to be used.
 
 Valid
 From - Is the date in which the schedule will start to be valid.
@@ -1642,13 +1631,14 @@ From - Is the date in which the schedule will start to be valid.
 Valid
 To - Is the date in which the schedule will end being valid.
 
-*NOTE*:
+_NOTE_:
 The Valid From and Valid To fields are not required, if the fields are
 blank then the schedule will always be valid.
 
 Copy Button
+
 - The copy button will copy the schedule from a particular weekday to
-other weekdays.
+  other weekdays.
 
 ### Telephone Punch Settings
 
@@ -1656,16 +1646,16 @@ other weekdays.
 
 The Telephone Punch Settings allow you to set the telephone punch options:
 
-* Do not
+- Do not
   Allow Department Switching: This option will allow you to disable
   the employee's ability to switch departments, which means that the
   transaction will post the employee's default department or the department
   specified for the Telephone Punch.
-* Do Not
+- Do Not
   Allow Other Activity Entry: This option will allow you to disable
   the employee's ability to enter other activity such as Sick Time,
   Vacation Time, Tips, etc. at the time of the call.
-* Lockout
+- Lockout
   Invalid Caller Id: This option will allow you to limit which
   calls will be accepted as valid, if an employee calls from an unauthorized
   phone number the software will tell the employee that they are calling
@@ -1673,10 +1663,10 @@ The Telephone Punch Settings allow you to set the telephone punch options:
   will need to set valid telephone numbers from where an employee can
   call in, either at the employee level, department level or here in
   the reader configuration.
-* User Id
+- User Id
   Only: This option will allow you to set the Telephone Punch
   to only ask for an Id to punch in or out, and not ask for a password.
-* Menu Goes
+- Menu Goes
   to Login After Punch: This option allows you to set the Telephone
   Punch to go back to the login prompt after an employee clock in or
   out.  This is useful if you have multiple employees calling from
@@ -1714,12 +1704,12 @@ for removal data can easily be restored using the Purge History Tool.
 
 Accessing Purge History
 
-* Click on Tools
-* Click on History And Undo Tools
+- Click on Tools
+- Click on History And Undo Tools
 
 ![](/img/image-404.png)
 
-* Click on Purge History.
+- Click on Purge History.
 
 ![](/img/image-404.png)
 
@@ -1777,24 +1767,24 @@ future.
 
 ### Undoing a Previous Purge Action
 
-* Determine which record in the Purge History table corresponds to
+- Determine which record in the Purge History table corresponds to
   the action that you wish to undo. Viewing the record to see the date
   range and employee who performed the original action can assist with
   this decision.
-* You may wish to take a backup before to undo a purge action.
-* Click on the record to highlight it.
+- You may wish to take a backup before to undo a purge action.
+- Click on the record to highlight it.
 
 ![](/img/image-404.png)
 
-* Click Undo.
+- Click Undo.
 
 ![](/img/image-404.png)
 
-* Click Yes to confirm your decision.
+- Click Yes to confirm your decision.
 
 ![](/img/image-404.png)
 
-* Wait while the action is undone. All activity that was removed
+- Wait while the action is undone. All activity that was removed
   by the purge will be restored to the Timecard Activity Table.
 
 ![](/img/image-404.png)
@@ -1810,12 +1800,12 @@ remove incorrect Timecard Activity entries.
 
 Accessing the Quick Punch History Tool:
 
-* Click on Tools.
-* Click on History And Undo Tools.
+- Click on Tools.
+- Click on History And Undo Tools.
 
 ![](/img/image-404.png)
 
-* Click on Quick Punch History.
+- Click on Quick Punch History.
 
 ![](/img/image-404.png)
 
@@ -1883,13 +1873,15 @@ example if the employee is scheduled to work from 8:00 AM to 5:00 PM InfiniTime 
 the employee in at 8:00 AM and out at 5:00 PM.
 
 Single Punch
+
 - Inserts a single punch. InfiniTime
-automatically determines the punch type based upon the timecard activity
-already present on the date where the single punch is inserted.
+  automatically determines the punch type based upon the timecard activity
+  already present on the date where the single punch is inserted.
 
 Other Activity
+
 - Inserts other activity such as holiday time, vacation time, sick time,
-and personal time.
+  and personal time.
 
 Use Default
 Department - if this is checked the punches will be posted using
@@ -1923,13 +1915,14 @@ example, if the Start Time was set to 8:00 AM and 8 were entered into
 the Duration, the End Time would automatically update to 4:00 PM.
 
 Add Duplicate Punches
+
 - Unless this box is checked InfiniTime will compare the punches
-being inserted to those already in the database when performing a Quick
-Punch. Any duplicate punches will be ignored. For example the image below
-shows an employee working from 7:30 AM to 5:00 PM on 1/17/2008. If a supervisor
-were to attempt to insert a punch on 1/17/2008 from 7:30 AM to 5:00 PM
-using quick punch then the punches would not be inserted unless Add Duplicate
-Punches was checked.
+  being inserted to those already in the database when performing a Quick
+  Punch. Any duplicate punches will be ignored. For example the image below
+  shows an employee working from 7:30 AM to 5:00 PM on 1/17/2008. If a supervisor
+  were to attempt to insert a punch on 1/17/2008 from 7:30 AM to 5:00 PM
+  using quick punch then the punches would not be inserted unless Add Duplicate
+  Punches was checked.
 
 ![](/img/image-404.png)
 
@@ -1952,19 +1945,19 @@ Determine which record in the Quick Punch History table corresponds
 to the action that you wish to undo. Viewing the record to see information
 about the Quick Punch can assist with this decision.
 
-* Click on the record to highlight it.
+- Click on the record to highlight it.
 
 ![](/img/image-404.png)
 
-* Click Undo.
+- Click Undo.
 
 ![](/img/image-404.png)
 
-* Click Yes to confirm your decision.
+- Click Yes to confirm your decision.
 
 ![](/img/image-404.png).gif)
 
-* Wait while the action is undone. All activity that was inserted
+- Wait while the action is undone. All activity that was inserted
   by the Quick Punch will be removed from the Timecard Activity Table.
 
 ![](/img/image-404.png)
@@ -1978,12 +1971,12 @@ any action can be undone.
 
 Accessing Quick Schedule History
 
-* Click on Tools
-* Click on History And Undo Tools
+- Click on Tools
+- Click on History And Undo Tools
 
 ![](/img/image-404.png)
 
-* Click on Quick Schedule History
+- Click on Quick Schedule History
 
 ![](/img/image-404.png)
 
@@ -2036,12 +2029,12 @@ status.
 
 Accessing the Supervisor Review History Tool:
 
-* Click on Tools.
-* Click on History And Undo Tools.
+- Click on Tools.
+- Click on History And Undo Tools.
 
 ![](/img/image-404.png)
 
-* Click on Supervisor Review History.
+- Click on Supervisor Review History.
 
 ![](/img/image-404.png).gif)
 
@@ -2112,19 +2105,19 @@ Determine which record in the Supervisor Review History table corresponds
 to the action that you wish to undo. Viewing the record to see information
 about the Review action can assist with this decision.
 
-* Click on the record to highlight it.
+- Click on the record to highlight it.
 
 ![](/img/image-404.png).gif)
 
-* Click Undo.
+- Click Undo.
 
 ![](/img/image-404.png).gif)
 
-* Click Yes to confirm your decision.
+- Click Yes to confirm your decision.
 
 ![](/img/image-404.png).gif)
 
-* Wait while the action is undone. All activity that was marked as
+- Wait while the action is undone. All activity that was marked as
   reviewed by the review action will be returned to its original un-reviewed
   state.
 
@@ -2143,12 +2136,12 @@ data can be reposted from Polled Information.
 
 Accessing Polled Information:
 
-* Click on Tools.
-* Click on Clock Tools.
+- Click on Tools.
+- Click on Clock Tools.
 
 ![](/img/image-404.png)
 
-* Click on Polled Information.
+- Click on Polled Information.
 
 ![](/img/image-404.png).gif)
 
@@ -2160,25 +2153,25 @@ to its original form for any reason.
 
 Reposting Employee Timecard Activity:
 
-* Click on Repost.
+- Click on Repost.
 
 ![](/img/image-404.png).gif)
 
-* Select the desired date range from which to repost Timecard Activity.
-* Select the desired time range from which to repost Timecard Activity.
+- Select the desired date range from which to repost Timecard Activity.
+- Select the desired time range from which to repost Timecard Activity.
   The start time refers to a time on the first day of the date range
   and the end time refers to a time on the last day.
 
 ![](/img/image-404.png).gif)
 
-* Timecard Activity can be reposted for a single employee or for
+- Timecard Activity can be reposted for a single employee or for
   all employees. If selected is chosen then a last name must be specified.
 
 ![](/img/image-404.png).gif)
 
-* Users that have multiple external readers can choose to repost
+- Users that have multiple external readers can choose to repost
   activity from all readers or a single reader.
-* Click OK to repost Timecard activity that falls inside of the range
+- Click OK to repost Timecard activity that falls inside of the range
   specified by the above options.
 
 ### System Monitor Window
@@ -2227,12 +2220,12 @@ updates the entire system monitor window.
 
 Accessing the System Monitor:
 
-* Click on Tools.
-* Click on Clock Tools.
+- Click on Tools.
+- Click on Clock Tools.
 
 ![](/img/image-404.png)
 
-* Click on System Monitor.
+- Click on System Monitor.
 
 ![](/img/image-404.png)
 
@@ -2410,7 +2403,7 @@ there could be several reasons why communication between the InfiniTime Applicat
 clock(s) is failing. A list of typical issues and resolutions are listed
 below.
 
-* Check the dates associated with each
+- Check the dates associated with each
   housekeeping task on the System Monitor. Are these dates and times
   relatively current? Depending on your software configuration these
   dates and times should be current within 5 minutes to 4 hours. If
@@ -2421,7 +2414,7 @@ below.
   housekeeping processes resume. The status fields should be updated
   with current dates and times.
 
-* If the status messages or dates associated
+- If the status messages or dates associated
   with each housekeeping task on the System Monitor do not change after
   restarting the housekeeping there may be an issue with the file permissions
   required by the InfiniTime
@@ -2441,12 +2434,12 @@ as needed.
 
 Accessing Unassigned Punches
 
-* Click on Tools
-* Click on Clock Tools
+- Click on Tools
+- Click on Clock Tools
 
 ![](/img/image-404.png)
 
-* Click on Unassigned Punches.
+- Click on Unassigned Punches.
 
 ![](/img/image-404.png).gif)
 
@@ -2498,13 +2491,14 @@ Zephyr Clocks:
 
 Situation:
 If an employee is enrolled at the Zephyr Terminal using the User Manage
+
 - Add User option and is not present within the InfiniTime
-software any punches made with the badge assigned to this employee will
-come into the InfiniTime
-Software as unassigned. It is important to ensure employee information
-is configured within the InfiniTime
-Software and sent to the Zepyhr Terminal rather than entering employees
-at the clock itself.
+  software any punches made with the badge assigned to this employee will
+  come into the InfiniTime
+  Software as unassigned. It is important to ensure employee information
+  is configured within the InfiniTime
+  Software and sent to the Zepyhr Terminal rather than entering employees
+  at the clock itself.
 
 Resolution:
 Ensure all employees have been added to the InfiniTime
@@ -2558,7 +2552,7 @@ exported as a dBASE file (DBF) readable by dBASE spreadsheet software.
 For instructions on how to prepare and import data from a comma delimited
 file refer to the section of this document entitled Performing an Import.
 
-*Warning!*
+_Warning!_
 Be sure to backup InfiniTime
 prior to importing data so that you will have a copy of original data,
 in case there is a problem with the imported data.
@@ -2566,9 +2560,9 @@ in case there is a problem with the imported data.
 Accessing the InfiniTime
 Import Table:
 
-* Click on Tools.
-* Click on Import and Export.
-* Click on Import.
+- Click on Tools.
+- Click on Import and Export.
+- Click on Import.
 
 ![](/img/image-404.png)
 
@@ -2577,13 +2571,15 @@ The Import Definition Table will be displayed as shown below.
 ![](/img/image-404.png)
 
 Import Button  ![](/img/image-404.png)
--  The import button allows you to highlight an already saved import
-structure and import it.
+
+- The import button allows you to highlight an already saved import
+  structure and import it.
 
 Insert Button ![](/img/image-404.png)
--  The insert button will allow you to create a new import structure.
- When selecting this button, the Import File Selection Table will
-appear.
+
+- The insert button will allow you to create a new import structure.
+   When selecting this button, the Import File Selection Table will
+  appear.
 
 Delete Button  ![](/img/image-404.png)
  -  This button will delete a highlighted import structure.
@@ -2615,14 +2611,14 @@ of three value types, a whole number, a decimal number, and an example
 detailing the format of the data. Examples of each value type that may
 be found in this field is provided below.
 
-* Whole Numbers - A whole number represents
+- Whole Numbers - A whole number represents
   the number of characters or digits that can be stored within the respective
   field.
-* Decimal Numbers - A decimal number represents
+- Decimal Numbers - A decimal number represents
   the number of digits before and after a decimal point that can be
   stored within the respective field. IE: 5.2 stands for Five Characters
   or Digits before the decimal place and two after: 12345.12
-* Data Format - Symbols and letters are often
+- Data Format - Symbols and letters are often
   used as place holders for specific information. An example of a data
   format would be MM/DD/YYYY which indicates
   a ten character field where the first two digits represent the month,
@@ -2645,14 +2641,14 @@ Indicates the type of information the field can hold. Common field types
 are below. Only the characters indicated are supported by the InfiniTime
 Application. Use of special characters and punctuation should be avoided.
 
-* Numeric - Numeric
+- Numeric - Numeric
   fields can only hold numbers
   (0 to 9) and cannot contain leading zeroes.
-* Alphanumeric
+- Alphanumeric
   - Alphanumeric fields can only
-  hold letters (A to Z), numbers (0 to 9) and
-  spaces.
-* Character -
+    hold letters (A to Z), numbers (0 to 9) and
+    spaces.
+- Character -
   Character fields can contain only
   one letter (A to Z) or number (0 to 9).
 
@@ -2714,18 +2710,18 @@ Base Amounts
 In order to import employee
 Accrual Base Amounts, the following conditions must be met:
 
-* Employees must be assigned to an Accrual
+- Employees must be assigned to an Accrual
   Type and must have Employee Accrual Total Records. The simplest way
   to verify all employees have Employee Accrual Total Records after
   assigning employees to a new accrual type is to perform a Company
   Recalculate for the Current Pay Period.
-* All Required Fields, as indicated in the
+- All Required Fields, as indicated in the
   Table Above, must be present in the import file and mapped when creating
   the Import Definition.
-* The Accrual Period Start and End Dates
+- The Accrual Period Start and End Dates
   within the Import File must match the Start and End Dates for each
   individual employee's existing Employee Accrual Total Records.
-* Replace Existing Record without Prompt
+- Replace Existing Record without Prompt
   must be selected on the Duplicate Checking Tab.
 
 Other Activity Type File - Creates Other
@@ -2752,17 +2748,17 @@ Assignments
 In order to import Employee
 Group Assignments, the following conditions must be met:
 
-* An employee must exist with the Employee
+- An employee must exist with the Employee
   ID / Employee Login ID specified in the Link to Employee Table Field
   for each imported record. If a specified Employee ID / Employee Login
   ID does not exist the record will be skipped.
-* A Group Description must exist as specified
+- A Group Description must exist as specified
   in the Link to Group Description Table for each imported record. If
   a specified Group Description does not exist the record will be skipped.
-* A Group Level must exist as specified in
+- A Group Level must exist as specified in
   the Link to Group Level Table for each import record. If a specified
   Group Level does not exist the record will be skipped.
-* Replace Existing Record without prompt
+- Replace Existing Record without prompt
   must be selected on the Duplicate Checking Tab.
 
 Employee
@@ -2796,22 +2792,22 @@ Date and Time must be tagged on the Duplicate Checking Tab as outlined
 below.
 
 1. Click on the Duplicate Checking tab after
-selecting a source file.
+   selecting a source file.
 
 2. Type Date in the search box and click
-on the Search Button.
+   on the Search Button.
 
 3. Click Tag.
 
 4. Type Time in the search box and click
-on the Search Button.
+   on the Search Button.
 
 5. Click Tag.
 
 6. Ensure 'Ingore It' is selected for 'If
-Duplicates are found:'
+   Duplicates are found:'
 
-6. Continue configuring the Import.
+7. Continue configuring the Import.
 
 Activity
 Job Information File - Creates Activity Jobs
@@ -2860,11 +2856,11 @@ Employee
 9:00 AM 1:00 PM Working                   Department
 2, Job 1, Task 1
 
-            1:00
+1:00
 PM 2:00 PM Paid Break               Department
 2, Job 1, Task 1
 
-            2:00
+2:00
 PM 6:00 PM Working                   Department
 1, Job 2, Task 2
 
@@ -2874,21 +2870,21 @@ Employee
 12:00 PM 2:00 PM Working                 Department
 1, Job 1, Task 1
 
-            2:00
+2:00
 PM 3:00 PM Unpaid Break           Department
 1, Job 1, Task 1
 
-            3:00
+3:00
 PM 8:00 PM Working                   Department
 1, Job 1, Task 1
 
 | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 1 | 2 | 04/1/2010 | 09:00 AM | 01:00 PM | Working |  | Job 1 | Task 1 |
-| 1 | 2 | 04/1/2010 | 01:00 PM | 02:00 PM | Paid Break |  | Job 1 | Task 1 |
-| 1 | 1 | 04/1/2010 | 02:00 PM | 06:00 PM | Working |  | Job 2 | Task 2 |
-| 2 | 1 | 04/1/2010 | 12:00 PM | 02:00 PM | Working |  | Job 1 | Task 1 |
-| 2 | 1 | 04/1/2010 | 02:00 PM | 03:00 PM | Unpaid Break |  |  |  |
-| 2 | 1 | 04/1/2010 | 03:00 PM | 08:00 PM | Working |  | Job 1 | Task 1 |
+| 1 | 2 | 04/1/2010 | 09:00 AM | 01:00 PM | Working | | Job 1 | Task 1 |
+| 1 | 2 | 04/1/2010 | 01:00 PM | 02:00 PM | Paid Break | | Job 1 | Task 1 |
+| 1 | 1 | 04/1/2010 | 02:00 PM | 06:00 PM | Working | | Job 2 | Task 2 |
+| 2 | 1 | 04/1/2010 | 12:00 PM | 02:00 PM | Working | | Job 1 | Task 1 |
+| 2 | 1 | 04/1/2010 | 02:00 PM | 03:00 PM | Unpaid Break | | | |
+| 2 | 1 | 04/1/2010 | 03:00 PM | 08:00 PM | Working | | Job 1 | Task 1 |
 
 Importing
 Other Activity Schedules (IE: Vacation Time)
@@ -2900,7 +2896,7 @@ field is null. It is not necessary to fill the Schedule Type field when
 scheduling Other Activity.
 
 | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 2 | 1 | 04/2/2010 | 12:00 PM | 08:00 PM | Vacation Time |  | Job 1 | Task 1 |
+| 2 | 1 | 04/2/2010 | 12:00 PM | 08:00 PM | Vacation Time | | Job 1 | Task 1 |
 
 **Schedule
 Override For Imported Schedules**
@@ -2921,9 +2917,9 @@ Proper Schedule Records Not
 Overlapping
 
 | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 1 | 2 | 04/1/2010 | 09:00 AM | 01:00 PM | Working |  | Job 1 | Task 1 |
-| 1 | 2 | 04/1/2010 | 01:00 PM | 02:00 PM | Paid Break |  | Job 1 | Task 1 |
-| 1 | 1 | 04/1/2010 | 02:00 PM | 06:00 PM | Working |  | Job 2 | Task 2 |
+| 1 | 2 | 04/1/2010 | 09:00 AM | 01:00 PM | Working | | Job 1 | Task 1 |
+| 1 | 2 | 04/1/2010 | 01:00 PM | 02:00 PM | Paid Break | | Job 1 | Task 1 |
+| 1 | 1 | 04/1/2010 | 02:00 PM | 06:00 PM | Working | | Job 2 | Task 2 |
 
 Each record is back to back
 with a Working Period, a Break Period, and a second working period. None
@@ -2933,8 +2929,8 @@ Improper Schedule Records -
 Overlapping
 
 | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 1 | 2 | 04/1/2010 | 09:00 AM | 06:00 PM | Working |  | Job 1 | Task 1 |
-| 1 | 1 | 04/1/2010 | 08:00 AM | 05:00 PM | Working |  | Job 2 | Task 2 |
+| 1 | 2 | 04/1/2010 | 09:00 AM | 06:00 PM | Working | | Job 1 | Task 1 |
+| 1 | 1 | 04/1/2010 | 08:00 AM | 05:00 PM | Working | | Job 2 | Task 2 |
 
 The schedule records above are
 for the same day for working periods that overlap. Users should ensure
@@ -2956,7 +2952,7 @@ Overnight Schedule Record that
 Crosses Midnight
 
 | Link to Employee Table | Link To Department Table | Schedule Date | Schedule Begin Time | Schedule End Time | Schedule Type | Link to Other Activity Type Table | Link To Activity Job Table | Link To Activity Task Table |
-| 1 | 2 | 04/1/2010 | 08:00 PM | 04:00 AM | Working |  | Job 1 | Task 1 |
+| 1 | 2 | 04/1/2010 | 08:00 PM | 04:00 AM | Working | | Job 1 | Task 1 |
 
 ### Import File Creation and Editing
 
@@ -2993,10 +2989,10 @@ format which in turn can be imported into the InfiniTime
 Software. When importing information from a third party application there
 are a few key items, as listed below, which require attention.
 
-* What information is to be imported?
-* Data Format
-* Valid Values
-* Column Headers
+- What information is to be imported?
+- Data Format
+- Valid Values
+- Column Headers
 
 Importing Employee Information:
 What information is required and what optional information should I import?
@@ -3025,10 +3021,11 @@ a message to their supervisor. If supervisor's are not configured properly
 the message will not reach the intended recipient.
 
 Escort Windows
+
 - Escort Windows allow users to access custom designed portals to the
-InfiniTime software. An
-Escort must be assigned to an employee in order for them to access the
-Escort Module.
+  InfiniTime software. An
+  Escort must be assigned to an employee in order for them to access the
+  Escort Module.
 
 Access Control -
 Access Control Groups are used to designate which users have access to
@@ -3037,9 +3034,10 @@ Control Groups must be assigned to an employee in order for them to use
 the Access Control Systems.
 
 Holidays
+
 - Holiday Schedule Types are configured according to a company's policy
-for paid Holiday time. A holiday type must be assigned to employees in
-order for them to automatically receive paid holiday time.
+  for paid Holiday time. A holiday type must be assigned to employees in
+  order for them to automatically receive paid holiday time.
 
 Accruals -
 Accrual types are configured according to a company's policy for Vacation
@@ -3080,16 +3078,17 @@ an import.
 ![](/img/image-404.png)
 
 Data Type
+
 - The data type is described by the Field Type Column. This column indicates
-the type of information the field can hold. Common field types are below.
-Only the characters indicated are supported by the InfiniTime
-Application. Use of special characters and punctuation should be avoided.
+  the type of information the field can hold. Common field types are below.
+  Only the characters indicated are supported by the InfiniTime
+  Application. Use of special characters and punctuation should be avoided.
 
 * Numeric - Numeric
   fields can only hold numbers (0 to 9) and cannot contain leading zeroes.
 * Alphanumeric
   - Alphanumeric fields can hold letters (A to Z),
-  numbers (0 to 9) and spaces.
+    numbers (0 to 9) and spaces.
 * Character -
   Character fields can contain only one letter (A to Z)
   or number (0 to 9).
@@ -3110,13 +3109,13 @@ Column. This column will contain one of three value types, a whole number,
 a decimal number, and an example detailing the format of the data. Examples
 of each value type that may be found in this field are provided below.
 
-* Whole Numbers
+- Whole Numbers
   - A whole number represents the number of characters or digits that
-  can be stored within the respective field.
-* Decimal Numbers - A decimal number
+    can be stored within the respective field.
+- Decimal Numbers - A decimal number
   represents the number of digits before and after a decimal point that
   can be stored within the respective field.
-* Data Format - Symbols and letters
+- Data Format - Symbols and letters
   are often used as place holders for specific information. An example
   of a data format would be MM/DD/YYYY which
   indicates a ten character field where the first two digits represent
@@ -3131,31 +3130,32 @@ Middle Initial Column. The middle initial field is intended only for a
 single character and cannot store a middle name or punctuation.
 
 Required
--  Indicates if a field is required. Required fields must have a
-column from the import file mapped to them in order for records to be
-successfully imported, even if you are only updating employee information.
-A value of 'Y' in this column indicates a field
-is required. A value of 'N' in this column indicates
-a field is not required. A value of 'P' indicates the field is not required
-in order to successfully import records however you will be prompted to
-enter the information manually when editing the record for the first time.
-For example if an employee supervisors are not imported when importing
-employees then the software will prompt the user to enter the employee's
-supervisor when attempting to edit the employee record.
+
+- Indicates if a field is required. Required fields must have a
+  column from the import file mapped to them in order for records to be
+  successfully imported, even if you are only updating employee information.
+  A value of 'Y' in this column indicates a field
+  is required. A value of 'N' in this column indicates
+  a field is not required. A value of 'P' indicates the field is not required
+  in order to successfully import records however you will be prompted to
+  enter the information manually when editing the record for the first time.
+  For example if an employee supervisors are not imported when importing
+  employees then the software will prompt the user to enter the employee's
+  supervisor when attempting to edit the employee record.
 
 Required fields must be present in the import
 file and mapped to the appropriate field. Required fields for importing
 employees are listed below:
 
-* Employee Badge ID
-* Employee Clock ID
-* Employee Clock Password
-* Employee First Name
-* Employee ID
-* Employee Last Name
-* Employee Login ID
-* Employee Login Password
-* Link to Department Table
+- Employee Badge ID
+- Employee Clock ID
+- Employee Clock Password
+- Employee First Name
+- Employee ID
+- Employee Last Name
+- Employee Login ID
+- Employee Login Password
+- Link to Department Table
 
 NOTE: As detailed above required fields must be
 present within the import file in order for the import to complete successfully.
@@ -3169,14 +3169,15 @@ will generally be created. Blank records do not have a first or last name
 and should be deleted.
 
 Valid Values
+
 - Some fields such as spin boxes give users the ability to select a value
-from a predetermined list of items. Only the predetermined values may
-be imported into these fields. Valid values have been listed for fields
-that are restricted to a predetermined list of items. Be sure to verify
-the proper case of the information that is to be imported. For example
-the Type field within Timecard Files has two predetermined values, Clock
-In and Clock Out. clock out is not the same as Clock Out and will not
-be recognized by the import.
+  from a predetermined list of items. Only the predetermined values may
+  be imported into these fields. Valid values have been listed for fields
+  that are restricted to a predetermined list of items. Be sure to verify
+  the proper case of the information that is to be imported. For example
+  the Type field within Timecard Files has two predetermined values, Clock
+  In and Clock Out. clock out is not the same as Clock Out and will not
+  be recognized by the import.
 
 As shown in the table above the Employee
 Pay Method has five valid values. These values are Hourly, Other, Pay
@@ -3185,13 +3186,14 @@ InfiniTime. Keep in mind
 these values are case sensitive.
 
 Override
+
 - If desired the Override option can be used in leu if editing the import
-file. For example if your payroll system exports M or S for married and
-single these values can be imported directly using the override feature
-by configuring a conditional override. A conditional override searches
-for a specific term and imports another value when the term is matched.
-IE: IF Marriage Status = M then Import Married. Refer to [Import
-Configuration: Override](ovr_SoftwareAdministration.md#imp11_context_Override) for more information on the override feature.
+  file. For example if your payroll system exports M or S for married and
+  single these values can be imported directly using the override feature
+  by configuring a conditional override. A conditional override searches
+  for a specific term and imports another value when the term is matched.
+  IE: IF Marriage Status = M then Import Married. Refer to [Import
+  Configuration: Override](ovr_SoftwareAdministration.md#imp11_context_Override) for more information on the override feature.
 
 Import File Headers and
 Mapping Destination Fields - Map By Name
@@ -3231,19 +3233,21 @@ Application.
 1.) Prepare a comma delimited (.csv) file with the information you would
 like to Import into InfiniTime.
  Remember, all required fields must be present in the import file
-- even if you are only updating employee records. IE: To update employee
-personal information for multiple employees at once the import file must
-contain the fields you wish to update (Address Line One, Address Line
-Two, Emergency Contact Name etc.) in addition to all required fields such
-as Employee ID, Employee First Name, Employee Last Name etc. Refer to
-Import File Creation and Editing for more information on designing an
-import file.
 
-2.) Ensure all information in the import file is compatible with database
-constraints. In general Alphanumeric fields should only contain A to Z,
-spaces,  and 0 to 9 while numeric fields should only contain 0 to
+- even if you are only updating employee records. IE: To update employee
+  personal information for multiple employees at once the import file must
+  contain the fields you wish to update (Address Line One, Address Line
+  Two, Emergency Contact Name etc.) in addition to all required fields such
+  as Employee ID, Employee First Name, Employee Last Name etc. Refer to
+  Import File Creation and Editing for more information on designing an
+  import file.
+
+  2.) Ensure all information in the import file is compatible with database
+  constraints. In general Alphanumeric fields should only contain A to Z,
+  spaces,  and 0 to 9 while numeric fields should only contain 0 to
+
 9. A list of fields that can be imported into InfiniTime
-along with the type of data they can store is available for your reference.
+   along with the type of data they can store is available for your reference.
 
 3.) Create an Import Criteria to be used with the prepared import file.
 Be sure to specify the appropriate file type and check the option to skip
@@ -3262,40 +3266,40 @@ Selecting an Import File Type
 
 ![](/img/image-404.png)
 
-* Department
+- Department
   File - Imports the fields necessary for the program to create
   departments.
-* Employee
+- Employee
   Groups File - Assigns groups existing within the InfiniTime Database to employees.
-* Employee
+- Employee
   File - Imports Employee information into the program, this
   includes most HR information in InfiniTime.
-* Employee
+- Employee
   Accrual Totals File - Imports past amounts of accruals earned
   by the employee.
-* Employee
+- Employee
   Group Level File â Imports Group Levels, creating them within
   the database. Group Levels create folders within the Group Table.
   Locations is an example of a group level where the groups under it,
   Phoenix, Pittsburgh, Philadelphia, would be Group Descriptions.
-* Employee
+- Employee
   Group Description File - Imports Group Descriptions, creating
   them within the database.
-* Other
+- Other
   Activity Type File  - Imports the fields necessary for
   the program to create Other Activity Types, Other Activity Types are
   tips, vacation, sick time, Etc
-* Employee
+- Employee
   Shifts - Assigns shifts existing within the InfiniTime Database to individual
   employees.
-* Employee
+- Employee
   Timecard File - Imports Employee
   Timecard Punches.
-* Activity
+- Activity
   Job Information File - Imports Activity Jobs. Each record in
   the import file will be used to add a job to the InfiniTime
   database. Useful for manufacturing companies with 100+ jobs.
-* Activity
+- Activity
   Task Information File - Imports Activity Tasks. Each record
   in the import file will be used to add a job to the InfiniTime database. Useful for manufacturing
   companies with 100+ tasks.
@@ -3337,9 +3341,10 @@ records should be imported.  To import all records in the file leave
 this field at â0â
 
 Field Separator
+
 - Enter the field separator used in your import file.  The
-most common used separator is the comma, however certain files may contain
-hyphens or other symbols.
+  most common used separator is the comma, however certain files may contain
+  hyphens or other symbols.
 
 ![](/img/image-404.png)
 
@@ -3407,22 +3412,22 @@ with the same Time and Date, are not imported Date and Time must be tagged
 on the Duplicate Checking Tab as outlined below.
 
 1. Click on the Duplicate Checking tab after
-selecting a source file.
+   selecting a source file.
 
 2. Type Date in the search box and click
-on the Search Button.
+   on the Search Button.
 
 3. Click Tag.
 
 4. Type Time in the search box and click
-on the Search Button.
+   on the Search Button.
 
 5. Click Tag.
 
 6. Ensure 'Ingore It' is selected for 'If
-Duplicates are found:'
+   Duplicates are found:'
 
-6. Continue configuring the Import.
+7. Continue configuring the Import.
 
 ### Map Destination Fields
 
@@ -3480,24 +3485,27 @@ over onto the field mapping area. This will not permanently remove the
 field. It will simply put it back on the left side of the screen.
 
 ![](/img/image-404.png)
+
 - This button is used to remove a field that you have already mapped  This
-will not permanently remove the field.  It will simply put it back
-on the left side of the screen.  \*THIS
-WILL REMOVE ALL OF THE FIELDS THAT YOU HAVE MAPPED!
+  will not permanently remove the field.  It will simply put it back
+  on the left side of the screen.  \*THIS
+  WILL REMOVE ALL OF THE FIELDS THAT YOU HAVE MAPPED!
 
 ![](/img/image-404.png)
+
 - Select this button if the header labels  (First Line of your import
-file)  match the fields that you wish to import.  This will
-eliminate you from having to drag over the fields. This will only work
-if the header of your import file contains the same field names as those
-shown to the left of the Target Field.
+  file)  match the fields that you wish to import.  This will
+  eliminate you from having to drag over the fields. This will only work
+  if the header of your import file contains the same field names as those
+  shown to the left of the Target Field.
 
 ![](/img/image-404.png)
+
 - Select this button if all of the fields that are in your import file
-are in the same order as the fields in the Target Grid.  If you select
-this button and your file is not in the same import you can cause file
-corruption, be sure to take a backup before attempting to Import Employee
-information.
+  are in the same order as the fields in the Target Grid.  If you select
+  this button and your file is not in the same import you can cause file
+  corruption, be sure to take a backup before attempting to Import Employee
+  information.
 
 ![](/img/image-404.png) - Select this button to set the date picture. It will
 bring up the Date Picture Form as shown below. The picture button is only
@@ -3683,35 +3691,35 @@ for Export for a complete list of all fields by file type.
 
 ![](/img/image-404.png)
 
-* Department File - Exports
+- Department File - Exports
   the fields necessary for the program to create departments.
-* Employee Groups File -
+- Employee Groups File -
   Exports the Group names and sub groups configured within InfiniTime.  Groups can be used
   to define Companies, locations, Etc
-* Employee File - Exports
+- Employee File - Exports
   Employee information into the program, this includes most HR information
   in InfiniTime.
-* Employee Accrual Totals File
+- Employee Accrual Totals File
   - Exports past amounts of accruals earned by the employee.
-* Employee Group Level File
+- Employee Group Level File
   â Exports the level of the Groups that are in the file.
-* Employee Group Description File
+- Employee Group Description File
   - Exports the description of the Groups that are in the file.
-* Other Activity Type File
+- Other Activity Type File
    - Exports the fields necessary for the program to create Other
   Activity Types, Other Activity Types are tips, vacation, sick time,
   Etc
-* Employee Shifts - Exports
+- Employee Shifts - Exports
   the shift schedules assigned to individual employees.
-* Employee Timecard File - Exports
+- Employee Timecard File - Exports
   Employee Timecard Punches.
-* Activity Job Information File - Exports Activity Jobs. Each record in
+- Activity Job Information File - Exports Activity Jobs. Each record in
   the import file will be used to add a job to the InfiniTime
   database. Useful for manufacturing companies with 100+ jobs.
-* Activity Task Information File
+- Activity Task Information File
   - Imports Activity Tasks. Each record in the import file will
-  be used to add a job to the InfiniTime
-  database. Useful for manufacturing companies with 100+ tasks.
+    be used to add a job to the InfiniTime
+    database. Useful for manufacturing companies with 100+ tasks.
 
 ### Export Configuration
 
@@ -3724,9 +3732,9 @@ The first step is to open the Export Definition Table.
 Accessing
 the InfiniTime Export Table:
 
-* Click on Tools.
-* Click on Import and Export.
-* Click on Export.
+- Click on Tools.
+- Click on Import and Export.
+- Click on Export.
 
 ![](/img/image-404.png)
 
@@ -3736,11 +3744,13 @@ as shown below.
 ![](/img/image-404.png)
 
 ![](/img/image-404.png)
--  The export button allows you to highlight an already saved export
-structure and export it.
+
+- The export button allows you to highlight an already saved export
+  structure and export it.
 
 ![](/img/image-404.png)
--  The insert button will allow you to create a new export structure.
+
+- The insert button will allow you to create a new export structure.
 
 ![](/img/image-404.png)
  -  This button will delete a highlighted export structure.
@@ -3830,17 +3840,17 @@ a destination of your choice. The following fields will become available
 and must be filled out. An example is shown below. Keep the items that
 follow in mind when entering this information.
 
-* A domain name
+- A domain name
   or IP Address can be used in the Host Address Field.
-* Do not include
+- Do not include
   the ftp:// prefix in the Host Address Field.
-* The Directory
+- The Directory
   field can be left blank if you are uploading to the root of the FTP
   Site.
-* If you wish to
+- If you wish to
   upload to a specific folder on the FTP site you must specify the full
   path using a preceding forward slash ( / ) as shown in the image below.
-* The Login Name
+- The Login Name
   can be a Local Windows Account, a Domain Account, or Anonymous. Enter
   the Login Name in one of the following formats:
 
@@ -3850,9 +3860,9 @@ Windows Accounts:
 ![](/img/image-404.png)
 
 1. Enter the Host Address
-There are two valid formats for the host
-address field as detailed below. Do
-not include the ftp:// prefix in this field.
+   There are two valid formats for the host
+   address field as detailed below. Do
+   not include the ftp:// prefix in this field.
 
 | Valid Host Address Formats | |
 | Format Type | Example |
@@ -3860,21 +3870,21 @@ not include the ftp:// prefix in this field.
 | Domain Name | www.InfiniTime.com |
 
 2. Enter the Directory.
-Remember to include a preceding forward slash as shown.
+   Remember to include a preceding forward slash as shown.
 
 3. Enter the Login
-Name in the following format: "HOSTNAME\USER"  For Example
-if your FTP Server's hostname is FTPSERVER and the user you wish to connect
-as is FTPUSER then you would enter the following:
+   Name in the following format: "HOSTNAME\USER"  For Example
+   if your FTP Server's hostname is FTPSERVER and the user you wish to connect
+   as is FTPUSER then you would enter the following:
 
 FTPSERVER\FTPUSER
 
 4. Enter the user's
-password.
+   password.
 
 5. Specify the port
-to use when connecting to the FTP Server. This does not generally need
-to be altered.
+   to use when connecting to the FTP Server. This does not generally need
+   to be altered.
 
 Domain
 Accounts:
@@ -3882,9 +3892,9 @@ Accounts:
 ![](/img/image-404.png)
 
 1. Enter the Host Address.
-There are two valid formats for the host
-address field as detailed below. Do
-not include the ftp:// prefix in this field.
+   There are two valid formats for the host
+   address field as detailed below. Do
+   not include the ftp:// prefix in this field.
 
 | Valid Host Address Formats | |
 | Format Type | Example |
@@ -3892,22 +3902,22 @@ not include the ftp:// prefix in this field.
 | Domain Name | www.InfiniTime.com |
 
 2. Enter the Directory.
-Remember to include a preceding forward slash as shown.
+   Remember to include a preceding forward slash as shown.
 
 3. Enter the Login
-Name in the following format: "DOMAIN\USER"  For Example
-if your FTP Server's domain is InfiniTime
-and the user you wish to connect as is FTPUSER then you would enter the
-following:
+   Name in the following format: "DOMAIN\USER"  For Example
+   if your FTP Server's domain is InfiniTime
+   and the user you wish to connect as is FTPUSER then you would enter the
+   following:
 
 InfiniTime\FTPUSER
 
 4. Enter the user's
-password.
+   password.
 
 5. Specify the port
-to use when connecting to the FTP Server. This does not generally need
-to be altered.
+   to use when connecting to the FTP Server. This does not generally need
+   to be altered.
 
 Anonymous
 User:
@@ -3915,9 +3925,9 @@ User:
 ![](/img/image-404.png)
 
 1. Enter the Host Address.
-There are two valid formats for the host
-address field as detailed below. Do
-not include the ftp:// prefix in this field.
+   There are two valid formats for the host
+   address field as detailed below. Do
+   not include the ftp:// prefix in this field.
 
 | Valid Host Address Formats | |
 | Format Type | Example |
@@ -3925,17 +3935,17 @@ not include the ftp:// prefix in this field.
 | Domain Name | www.InfiniTime.com |
 
 2. Enter the Directory.
-Remember to include a preceding forward slash as shown.
+   Remember to include a preceding forward slash as shown.
 
 3. Enter Anonymous
-as the Login Name.
+   as the Login Name.
 
 4. Leave the password
-field blank.
+   field blank.
 
 5. Specify the port
-to use when connecting to the FTP Server. This does not generally need
-to be altered.
+   to use when connecting to the FTP Server. This does not generally need
+   to be altered.
 
 Technical Note:
 Microsoft IIS includes an option to permit only anonymous connections
@@ -4071,6 +4081,7 @@ entered heading of "Export Date" and the user entered value
 ![](/img/image-404.png)
 
 ![](/img/image-404.png)
+
 - Adds all Export Fields to the Target Grid.
 
 ![](/img/image-404.png) - The order of the export file is defined
@@ -4209,9 +4220,10 @@ the Export Override Header Update Form. Refer to the example above where
 the header button is used to alter the header on a User Field.
 
 ![](/img/image-404.png)
+
 - Select this button to set the date picture. It will bring up the Date
-Picture Form as shown below. The picture button is only available for
-Export Fields that have an entry in the Picture Column.
+  Picture Form as shown below. The picture button is only available for
+  Export Fields that have an entry in the Picture Column.
 
 For example, you can specify the date format
 and separator used within the import file by changing the date picture
@@ -4234,15 +4246,16 @@ Fields on the Email Tab should be filled. Do not leave any fields blank.
 
 Note: Are recipients having trouble with receiving
 Email from InfiniTime ?
-Refer to [InfiniTime Server SMTP Setup and Troubleshooting](../../RESOURCES/SMTP Email Setup And Troubleshooting.pdf)
+Refer to [InfiniTime Server SMTP Setup and Troubleshooting](https://version9.infinitimeonline.net/InfiniTime/RESOURCES/SMTP Email Setup And Troubleshooting.pdf)
 for information on configuring and troubleshooting SMTP Service Settings
 on the InfiniTime Server.
 
 ![](/img/image-404.png)
 
 From
+
 - Type in the email address of the sender, if a recipient wants to reply
-to the email they can do so, and it will get back to the original sender.
+  to the email they can do so, and it will get back to the original sender.
 
 Subject
 â Type a subject for the email.
@@ -4260,9 +4273,11 @@ Insert
 ![](/img/image-404.png).gif)
 
 Email To Name
+
 - Enter the Name of the recipient.
 
 Email To Address
+
 - Enter the Email Address of the recipient.
 
 Auto
@@ -4448,7 +4463,7 @@ Employee Last Raise Date
 
 Employee Last Wage Review Date
 
- Employee Local Exemptions
+Employee Local Exemptions
 
 Employee Local Taxing Authority
 
@@ -4749,40 +4764,40 @@ are provided below.
 
 ![](/img/image-404.png)
 
-* Locate your software install location. If you installed to a location
+- Locate your software install location. If you installed to a location
   other than the default you are responsible for locating the files
   yourself. The default location is C:\Inception\InfiniTime\InfiniTime7\
 
-* Click Start.
+- Click Start.
 
 ![](/img/image-404.png)
 
-* Click Run.
+- Click Run.
 
 ![](/img/image-404.png)
 
-* Type your software install location and click OK.
+- Type your software install location and click OK.
 
 ![](/img/image-404.png)
 
-* Open the InfiniTime7 Folder
+- Open the InfiniTime7 Folder
 
 ![](/img/image-404.png)
 
-* Right click in a blank area of windows explorer.
+- Right click in a blank area of windows explorer.
 
 ![](/img/image-404.png)
 
-* Click New.
+- Click New.
 
 ![](/img/image-404.png)
 
-* Click Text Document.
-* Name the text document servergoingdown.txt
+- Click Text Document.
+- Name the text document servergoingdown.txt
 
 ![](/img/image-404.png)
 
-* Open the text document and type your desired warning message on
+- Open the text document and type your desired warning message on
   the first line. Note: Only text located on the first line will be
   displayed in the Server Maintenance Warning.
 
@@ -4816,40 +4831,40 @@ while Serverdown.txt is in place.
 
 Steps to take InfiniTime 7.0 Down for Maintenance:
 
-* Locate your software install location. If you installed to a location
+- Locate your software install location. If you installed to a location
   other than the default you are responsible for locating the files
   yourself. The default location is C:\Inception\Infinitime\
-* Click Start.
+- Click Start.
 
 ![](/img/image-404.png)
 
-* Click Run.
+- Click Run.
 
 ![](/img/image-404.png)
 
-* Type your software install location and click OK.
+- Type your software install location and click OK.
 
 ![](/img/image-404.png)
 
-* Open the InfiniTime7
+- Open the InfiniTime7
   Folder
 
 ![](/img/image-404.png)
 
-* Right click in a blank area of windows explorer.
+- Right click in a blank area of windows explorer.
 
 ![](/img/image-404.png)
 
-* Click New.
+- Click New.
 
 ![](/img/image-404.png)
 
-* Click Text Document.
-* Name the text document serverdown.txt
+- Click Text Document.
+- Name the text document serverdown.txt
 
 ![](/img/image-404.png)
 
-* No message is necessary. The software will automatically lock all
+- No message is necessary. The software will automatically lock all
   users out of the program. Once serverdown.txt is placed in the Software
   Installation Directory (C:\Inception\InfiniTime\InfiniTime7\)
   any users logged into the software will be unable to navigate within
@@ -4936,186 +4951,186 @@ as intended. This issue has been resolved.
 
 Install Changes
 
-* Added new RSI Dll to fix communication problems with Ethernet Hand
+- Added new RSI Dll to fix communication problems with Ethernet Hand
   Readers.
-* Added new ODBC drives ver 10.2.0.3 to be able to test connection
+- Added new ODBC drives ver 10.2.0.3 to be able to test connection
   to the database.
-* Added a feature to the install to automatically set the TC\_Service
+- Added a feature to the install to automatically set the TC_Service
   event log to override itself when needed.
-* Added InfiniTime\_Tables
+- Added InfiniTime_Tables
   to the database for upgrade purposes.
 
 Software Changes
 
-* Fixed issue of the backup window
+- Fixed issue of the backup window
   not closing when restoring a database.
-* Expanded the TCP/IP field on the
+- Expanded the TCP/IP field on the
   reader configuration to allow more characters for people that want
   to use dynamic DNS
-* Fixed the manual poll option on
+- Fixed the manual poll option on
   the reader configuration.
-* Added an option to the payroll
+- Added an option to the payroll
   reports to allow to group the report by Activity Department as well
   as group by default department.
-* Added an option to the timecard
+- Added an option to the timecard
   reports to allow to group the report by Activity Department as well
   as group by default department.
-* Fixed In/Out Board not to show
+- Fixed In/Out Board not to show
   future other activity.
-* Fixed PCpunch to show the correct
+- Fixed PCpunch to show the correct
   punch type.
-* Added a feature to allow consecutive
+- Added a feature to allow consecutive
   day overtime to reset at a work week.
-* Changed TCP/IP timeout setting
+- Changed TCP/IP timeout setting
   from 6 to 90 on the reader configuration.
-* Fixed where the software allowed
+- Fixed where the software allowed
   for multiple policies to set as default, now it only allows one to
   be a default.
-* Fixed where the software allowed
+- Fixed where the software allowed
   for no policies to be set as default, now one policy is as default.
-* Allow Other activity that causes
+- Allow Other activity that causes
   overtime to be approved.
-* System Monitor no longer refreshes
+- System Monitor no longer refreshes
   automatically.
-* When upgrading the first person
+- When upgrading the first person
   to login is set with the Administrator role and all others are given
   the Employee role.
-* Fixed an issue with enrollment
+- Fixed an issue with enrollment
   of hand templates.
-* Resource disk is autorun so you
+- Resource disk is autorun so you
   can see documentation.
 
 ### InfiniTime 7.03
 
 Install Changes
 
-* Removed Grid Virtual Directory
-* Created Grid3 virtual Directory
-* Removed grid registration tools
-* Added barcode fonts
-* Altered installation of Adobe Acrobat
+- Removed Grid Virtual Directory
+- Created Grid3 virtual Directory
+- Removed grid registration tools
+- Added barcode fonts
+- Altered installation of Adobe Acrobat
   Reader
 
 Software Changes
 
-* Date / Time / Lookups will no longer
+- Date / Time / Lookups will no longer
   cause postbacks.
-* Employee / Manager / Escort / Punch
+- Employee / Manager / Escort / Punch
   modules show the correct version of InfiniTime
   in the IE Title bar.
-* Fixed issue which caused Exempt
+- Fixed issue which caused Exempt
   and Non Exempt Pay Types to be the only selectable options.
-* Fixed issue with the import which
+- Fixed issue with the import which
   prevented the software from importing Departments with the override
   feature.
-* Fixed issue on Escort where the
+- Fixed issue on Escort where the
   controls froze after inserting items onto the escort.
-* InfiniTime
+- InfiniTime
   Grid has been updated to newer version to increase performance.
-* Default Schedule Changes: added
+- Default Schedule Changes: added
   Quick Schedule on the GANTT chart
-* Added a Quick Schedule history
+- Added a Quick Schedule history
   button.
-* Support For Bioscript readers has
+- Support For Bioscript readers has
   been added.
-* Fixed issue on Activity Summary
+- Fixed issue on Activity Summary
   report displaying hours improperly when using paid breaks.
-* Filter button changed.
-* VCR button now refreshes supervisor.
-* Fixed issue where the accruals
+- Filter button changed.
+- VCR button now refreshes supervisor.
+- Fixed issue where the accruals
   where showing incorrectly in the Employee module.
-* Added Zephyr Clock to product line.
-* redesigned the Recalculate widow.
-* Fixed issue causing a BO Fetch
+- Added Zephyr Clock to product line.
+- redesigned the Recalculate widow.
+- Fixed issue causing a BO Fetch
   error while enrolling and polling of terminals.
-* Schedule Reports will now print
+- Schedule Reports will now print
   for a date range selected not only for the week.
-* Exception Detailed Report has been
+- Exception Detailed Report has been
   redesigned to improve performance.
-* Changed Tools Menu added History
+- Changed Tools Menu added History
   & Undo Tools
-* Expanded the Required Information
+- Expanded the Required Information
   Field for Payroll Exports
-* Fixed an issue where Selected Departments
+- Fixed an issue where Selected Departments
   would revert to All for Saved Report Criteria
 
 ### InfiniTime 7.04
 
 Install Changes
 
-* Resolved issue where zkemkeeper.dll
+- Resolved issue where zkemkeeper.dll
   would not register properly during installation.
-* Resolved issue where the version
+- Resolved issue where the version
   number was not properly updated when converting from InfiniTime 4.x to InfiniTime
   7.x
-* Resolved issue where the InfiniTime Housekeeping Service was
+- Resolved issue where the InfiniTime Housekeeping Service was
   not stopped when upgrading under certain conditions.
 
 Software Changes
 
-* Resolved issue where Other Activity
+- Resolved issue where Other Activity
   was doubling itself when counted as regular hours. (would appear in
   regular hours and other hours)
-* Other Activity in the future is
+- Other Activity in the future is
   now shown in the activity screen.
-* Auto Recalc has been removed from
+- Auto Recalc has been removed from
   the timecard activity table.
-* Altered calculation and export
+- Altered calculation and export
   logic to reflect the proper amounts when employees were pushed into
   overtime by other activity.
-* Resolved issue where round to schedule
+- Resolved issue where round to schedule
   would only round to the first shift assigned to an employee.
-* Resolved issue where Adobe would
+- Resolved issue where Adobe would
   not close under certain conditions.
-* Resolved issue where the restore
+- Resolved issue where the restore
   in progress window would not close automatically.
-* Altered Builddb to remove ' from
+- Altered Builddb to remove ' from
   employee data.
-* Resolved an issue where Builddb
+- Resolved an issue where Builddb
   would not close under certain conditions.
-* Resolved an issue where the serverdown.txt
+- Resolved an issue where the serverdown.txt
   file was placed in multiple locations.
-* Leading Zeroes are Permitted in
+- Leading Zeroes are Permitted in
   Badges with the Zephyr.
-* Improve Luna & Zephyr Status
+- Improve Luna & Zephyr Status
   Messages.
-* Zephyr Default Baud Rate Set Appropriately.
-* Unassigned Punches no Longer cause
+- Zephyr Default Baud Rate Set Appropriately.
+- Unassigned Punches no Longer cause
   corrupt data messages on Zephyr Readers.
-* Bells uploaded 2 days in advance
+- Bells uploaded 2 days in advance
   to allow additional bells on clock. (Today + 2 Days)
-* Telephone Punch support has been
+- Telephone Punch support has been
   added.
-* Fixed an issue where the Clock
+- Fixed an issue where the Clock
   Description would overlap other fields on the Timecard Detail Report
   with Clock Description.
-* Resolved an issue where saved reports
+- Resolved an issue where saved reports
   would not retain previously set department filters.
-* Resolved an issue where individual
+- Resolved an issue where individual
   break hours were not displayed on timecard detail reports.
-* Issue where exception was generated
+- Issue where exception was generated
   in event viewer each time quick punch was performed is now resolved.
-* Altered Payroll Export to include
+- Altered Payroll Export to include
   an option to allow Overtime to export as Half Time.
-* Added Luna terminal to the software.
-* Developed a badge report to allow
+- Added Luna terminal to the software.
+- Developed a badge report to allow
   customers to print their own badges from within InfiniTime.
-* Resolved in issue where changes
+- Resolved in issue where changes
   to the the 'Holiday Starts on Day Before' time would not be saved.
-* Resolved an issue that led to inconsistent
+- Resolved an issue that led to inconsistent
   InfiniTime Housekeeping
   Service operation when using non-US date formats.
-* Resolved an issue where holiday
+- Resolved an issue where holiday
   hours were doubled on reports when using 'All Worked Hours are Set
   to Holiday Pay'
-* Resolved an issue where an error
+- Resolved an issue where an error
   would occur when attempting to insert an auto report.
-* Delete button on the category view
+- Delete button on the category view
   of the report table is how properly shown or hidden according to security
   settings.
-* Altered Auto Report Documentation
+- Altered Auto Report Documentation
   to clearly specify requirements for sending auto reports.
-* Altered Company Policy Documentation
+- Altered Company Policy Documentation
   (Overtime) to clearly specify the operation of the missing punch threshold
   setting.
 
@@ -5216,395 +5231,395 @@ Simply restoring the default grid settings resolves the issue.
 
 Install Changes
 
-* User selection
+- User selection
   for the InfiniTime
   Service has been eliminated in order to simplify the InfiniTime Installation. The InfiniTime Installation Wizard creates
   'InfiniTimeUser' on
   the local machine. The InfiniTimeUser
   is automatically granted the 'Run as A Service' right and added to
-  the Administrators and Ora\_Dba group.
-* Microsoft Windows
+  the Administrators and Ora_Dba group.
+- Microsoft Windows
   Vista Business and Ultimate Editions are now supported.
-* It should be
+- It should be
   noted that 64 Bit Operating Systems are not supported at this time.
   Refer to the [Minimum Hardware
   Requirements](../INST_Ch2_SVR_Hardware_Req.md) and supported [Windows
   Operating Systems](../INST_Ch2_SVR_OSReq.md) for more information.
-* The installation
+- The installation
   will now display a warning and terminate the installation when attempting
   to install on a 64 Bit Operating System.
-* Adobe Acrobat
+- Adobe Acrobat
   8.12 will now be installed with InfiniTime.
-* The Virtual
+- The Virtual
   Directories used to access the InfiniTime
   Application have been altered to be compatible with Windows Vista.
   These alterations are purely behind the scenes and will not effect
   the operation of the software. The same virtual directories, InfiniTimeManagerModule, InfiniTimeEmployeeModule ect, can
   still be used to access the InfiniTime
   Application.
-* A configuration
+- A configuration
   setting for the SMTP Virtual Server installed by InfiniTime
   has been altered to allow the InfiniTime
   Server to send auto reports.
-* When performing
+- When performing
   an installation on Windows XP Professional simple file sharing will
   be disabled by the Installation Wizard if it is enabled.
 
 Software Changes
 
-* Added a 'Change Password' button to the Login Screen for all modules.
+- Added a 'Change Password' button to the Login Screen for all modules.
   (Chapter 2: Security - Security Features Introduction)
-* Removed the 'Help' button from the Login Screen for all modules.
-* Integrated a  CAPTCHA (Human Verification) into the Login
+- Removed the 'Help' button from the Login Screen for all modules.
+- Integrated a  CAPTCHA (Human Verification) into the Login
   Screen for All Modules.(Chapter 2: Security - Security Features Introduction)
-* Integrated a CAPTCHA (Human Verification) into the Change Password
+- Integrated a CAPTCHA (Human Verification) into the Change Password
   Form.(Chapter 2: Security - Security Features Introduction)
-* Added the ability to expire passwords. After a preset number of
+- Added the ability to expire passwords. After a preset number of
   days pass employees must reset their password. (Chapter 2: Security
   - Security Features Introduction)
-* Support for Valid IP Addresses has been added. It is now possible
+- Support for Valid IP Addresses has been added. It is now possible
   to define specific IP Addresses from which access to the software
   will be granted. (Chapter 2: Security - Valid IP Addresses)
-* Added the ability to terminate a users session due to inactivity.
+- Added the ability to terminate a users session due to inactivity.
   (Chapter 2: Security - Security Features Introduction)
-* Resolved issues where Quick Schedule and Duplicate Schedule buttons
+- Resolved issues where Quick Schedule and Duplicate Schedule buttons
   would not function as desired under certain circumstances.
-* Added a Search Box to the System Monitor.
-* Added the ability to save the Grid Size using Grid Configuration.
+- Added a Search Box to the System Monitor.
+- Added the ability to save the Grid Size using Grid Configuration.
   This is a global setting. Changing the grid size on one employee will
   effect the setting for all other employees.
-* An issue where script errors occurred on the Schedule Gannt Chart
+- An issue where script errors occurred on the Schedule Gannt Chart
   if the employee filter returned no results has been resolved.
-* Altered the calculations which determine how overtime is handled
+- Altered the calculations which determine how overtime is handled
   when it is caused by Other Activity.
-* Added Classes to Security Roles in order to allow the Security
+- Added Classes to Security Roles in order to allow the Security
   Role Copy feature to function in a way that meets customer expectations
   of the feature. (Chapter 2: Security - Security Roles)
-* Added the ability to View and Hide Inactive employees on the employee
+- Added the ability to View and Hide Inactive employees on the employee
   table.
-* Added a copy button to the policy table. [(Chapter
+- Added a copy button to the policy table. [(Chapter
   4 - Policy Table](../Policy/Policy_Table.md))
-* An issue that would occur when attempting to run reports on a database
+- An issue that would occur when attempting to run reports on a database
   with exceptionally large employee counts has been resolved.
-* The Employee Badge ID Field is now hidden if there
+- The Employee Badge ID Field is now hidden if there
   are no Badge Clocks present in the License Information.
-* Employees with blank first and last names will
+- Employees with blank first and last names will
   now be automatically removed from the database when the builddb executes.
-* Employees with exceptions are now marked with a
+- Employees with exceptions are now marked with a
   red X to the left of their name in the timecard activity table.
-* A grand totals row has been added to the Timecard
+- A grand totals row has been added to the Timecard
   Activity Table. The Grand Totals Row displays totals for all columns
   on the last page of the timecard table. [(Chapter
   7: Timecard Activity)](../Time_Card_Activity_For_Company.md#Grand_Totals)
-* Quick Assign has been updated with the following
+- Quick Assign has been updated with the following
   items: Shifts, Availabilitiy, Trained Tasks, Groups, and Default Schedule.
   [(Chapter
   2 - Quick Assign)](Configuration/QuickAssign/Quick_Assign_Introduction.md)
-* Altered the InfiniTime
+- Altered the InfiniTime
   Grid in order to enhance performance.
-* An issue where builddb would not create all required
+- An issue where builddb would not create all required
   oracle tables under certain conditions has been resolved.
-* A message will now be sent to an employee's supervisor
+- A message will now be sent to an employee's supervisor
   if the employee should alter their information from within the Employee
   Table. [(Chapter 9: Messaging - Message
   Types)](../Message_Types.md)
-* Removed Security Configuration Buttons from forms
+- Removed Security Configuration Buttons from forms
   where there were no items available for configuration.
-* Added an in depth troubleshooting section for Zephyr
+- Added an in depth troubleshooting section for Zephyr
   Readers configured on a WAN. [(Chapter
   20 - Zephyr Troubleshooting)](../CH20_WANZEPHYRTS.md)
-* Added support for PGP Encryption. (Chapter 2: Security
+- Added support for PGP Encryption. (Chapter 2: Security
   - PGP Encryption)
-* Accruals now support three (3) decimal precision
+- Accruals now support three (3) decimal precision
   for the 'Accrue Hours' field on the Accrual Type Details Update Form.
-* Data can now be parsed according to a delimiter or fixed length
+- Data can now be parsed according to a delimiter or fixed length
   when performing Exports. (Chapter 11 - Export)
-* Blank Columns can now be added to Export
+- Blank Columns can now be added to Export
   Files by using User Defined Fields (Chapter 11 - Export)
-* Human Resource functionality within InfiniTime has been expanded to track
+- Human Resource functionality within InfiniTime has been expanded to track
   standard HR information. [(Chapter
   5 - Employee Setup)](../Employee_Setup/Demographics.md)
 
-+ Direct Deposit Accounts and
+* Direct Deposit Accounts and
   related information
-+ Federal, State, and Local Tax Exemptions and Withholding
+* Federal, State, and Local Tax Exemptions and Withholding
   Information
-+ Workers Compensation Categories
-+ Benefit Plans and Employee Benefits
-+ Employment Status
-+ Termination Reasons
-+ EEO Types
+* Workers Compensation Categories
+* Benefit Plans and Employee Benefits
+* Employment Status
+* Termination Reasons
+* EEO Types
 
-* Attempting to choose a time using the Time Picker when inserting
+- Attempting to choose a time using the Time Picker when inserting
   a single punch will no longer cause script errors.
-* An issue where the Audit Trail Button was not displayed in the
+- An issue where the Audit Trail Button was not displayed in the
   Timecard Activity Table if exceptions were present has been resolved.
-* Quick Punch will no longer insert duplicate punches unless the
+- Quick Punch will no longer insert duplicate punches unless the
   'Add Duplicate Punches' check box on the Quick Punch Update form is
   checked. [(Chapter
   7 - Editing Timecard Activity)](../Edit_Time_Card_Activity.md#Duplicate_Punches)
-* The 'Clock Out If Clocked In' option on the Quick Punch Update
+- The 'Clock Out If Clocked In' option on the Quick Punch Update
   Form is now only displayed when performing a single punch.
-* Escort buttons have been added for all windows new to InfiniTime 7.05
-* A new escort button has been added which makes it possible to quick
+- Escort buttons have been added for all windows new to InfiniTime 7.05
+- A new escort button has been added which makes it possible to quick
   print a report from an escort window. In this way users may define
   the desired report selection criteria where previously it was only
   possible to print a saved report.
-* An escort button, entitled Supervisor Quick Punch Other Activity,
+- An escort button, entitled Supervisor Quick Punch Other Activity,
   has been added which allows supervisors to add other activity for
   any employee specified by the employee filter.
-* An escort button, entitled Employee Quick Punch Other Activity,
+- An escort button, entitled Employee Quick Punch Other Activity,
   has been added which allows employees to insert other activity.
-* An issue where errors occurred if the user attempted to reorder
+- An issue where errors occurred if the user attempted to reorder
   Escort Tabs in the Escort Design Update Form when there was only one
   Tab has been resolved.
-* Resolved an issue where the audit trail would not display the correct
+- Resolved an issue where the audit trail would not display the correct
   information under certain circumstances.
-* Clicking in any field now highlights the contents of the entire
+- Clicking in any field now highlights the contents of the entire
   field which makes editing easier.
-* An issue where Auto Reports would not print if the Date to Print
+- An issue where Auto Reports would not print if the Date to Print
   Next or Time to Print next fields were blank has been resolved.
-* The report library has been secured against unwanted alterations.
+- The report library has been secured against unwanted alterations.
   Only Administrators may copy and rename reports or alter report categories.
-* The Punch Information Window in the employee module now has a Procedure
+- The Punch Information Window in the employee module now has a Procedure
   Security Table which can be used to indicate security roles who can
   or cannot access the window. In this way the Punch Button can be disabled
   for employees, allowing administrators to permit employee access to
   the Employee Module to view their Timecard History and Schedule without
   punching.
-* Warnings have been added to the Policy Table in order to deter
+- Warnings have been added to the Policy Table in order to deter
   users from configuring Classes and Tenures improperly. [(Chapter
   4: Policy Update Form - General Information)](../Policy/General_Information.md#Configuring_Classes_And_Tenures)
-* VCR Buttons have been added to the Schedule Gantt chart in order
+- VCR Buttons have been added to the Schedule Gantt chart in order
   to simplify moving ahead or backward by one day. [(Chapter
   6 - Schedule Introduction)](../Schedule_Introduction.md)
-* In order to make hardware documentation easier to locate within
+- In order to make hardware documentation easier to locate within
   the Electronic Help System all Hardware Documentation, previously
   Chapter 20 - Hardware Setup, is now available from the top level of
   the Table Of Contents.
-* Added a From field to the Email Tab for
+- Added a From field to the Email Tab for
   Reports and Payroll Exports. This field makes it possible for the
   user to define the reply email address Reports and Payroll export
   files will be sent from. [(Chapter 10 - Reports:
   Email)](../Email.md)
-* Access Control Diagrams for all Synel
+- Access Control Diagrams for all Synel
   Readers have been updated to include more detail regarding wiring,
   required parts, and electrical specifications.
-* + Apollo - [Bell
+- - Apollo - [Bell
     Scheduling and Setup](SoftwareAdministration/Reader_Config/Bell_Scheduling_and_Setup.md)
-  + Apollo - [Access
+  - Apollo - [Access
     Control](SoftwareAdministration/Reader_Config/Apollo_Access_Control.md)
-  + Atlas - [Bell
+  - Atlas - [Bell
     Scheduling and Setup](SoftwareAdministration/Reader_Config/Bell_Scheduling_and_Setup_for_the_Atlas_Reader.md)
-  + Atlas - [Access
+  - Atlas - [Access
     Control](SoftwareAdministration/Reader_Config/Atlas_Access_Control.md)
-  + Omega - [Bell
+  - Omega - [Bell
     Scheduling and Setup](SoftwareAdministration/Reader_Config/Bell_Scheduling_and_Setup_for_the_Omega_Reader.md)
-  + Omega - [Access
+  - Omega - [Access
     Control](SoftwareAdministration/Reader_Config/Omega_Access_Control.md)
-  + Orion / Odyssey - [Bell
+  - Orion / Odyssey - [Bell
     Scheduling and Setup](SoftwareAdministration/Reader_Config/Bell_Scheduling_and_Setup_for_the_Reader.md)
-  + Orion / Odyssey - [Access
+  - Orion / Odyssey - [Access
     Control](Access_Control/Access_Control_for_the_Reader.md)
-* For security purposes the social security number
+- For security purposes the social security number
   and Badge ID Fields have been removed from the default employee grid.
   If desired they may be manually added to the Employee Table Grid using
   the 'Select Grid Columns' Grid Feature.
-* For security purposes report, payroll export, and
+- For security purposes report, payroll export, and
   export files are no longer placed in the Output folder for processing
   and packaging. All files are now securely created, processed, and
   packaged in a non published location and are emailed, printed, sent
   via FTP, or exported as appropriate.
-* Accruals Rate Mapping now accepts values greater
+- Accruals Rate Mapping now accepts values greater
   than 999.99 for the Minimum and Maximum Amount Worked Fields.
-* The Delete button is now available as intended
+- The Delete button is now available as intended
   when Other Activity records are highlighted in the timecard activity
   table.
-* Other Activity Entries will now be removed by the
+- Other Activity Entries will now be removed by the
   purge feature as intended.
-* The Employee Security Filter Window will no longer
+- The Employee Security Filter Window will no longer
   be filtered according to the departments an employee is permitted
   to view. This makes it possible for a supervisor to set permissions
   for their employee as appropriate.
-* Payroll Exports will now prompt the user to fill
+- Payroll Exports will now prompt the user to fill
   out fields on the Required Information tab if they are left blank.
-* An option has been added to reports which alters
+- An option has been added to reports which alters
   the function of the Department Filter making it possible to filter
   by Activity Department, or the department where an employee is working,
   rather than default department.
-* An issue leading to script errors when using the
+- An issue leading to script errors when using the
   Company Timecard Employee Filter Button to filter by exceptions has
   been resolved.
-* An issue leading to script errors when searching
+- An issue leading to script errors when searching
   for an employee that does not exist within the Company Timecard Activity
   Table has been resolved.
-* An issue where the Quick Punch form would was not
+- An issue where the Quick Punch form would was not
   automatically updated when an Other Activity of the Amount Type was
   chosen has been resolved. It is now possible to enter Other Amounts
   greater than $24.
-* It is no longer possible to assign a single shift
+- It is no longer possible to assign a single shift
   to an employee multiple times.
-* Employee IDs, Login IDs, and Passwords will no
+- Employee IDs, Login IDs, and Passwords will no
   longer save a preceding or trailing space. Spaces will automatically
   be trimmed from these fields to prevent issues with parsing on exports.
-* Each group level must have a default group description.
+- Each group level must have a default group description.
   InfiniTime will automatically
   set a default group description if a default group is not found.
-* The duplicate schedule button on the Schedule Gantt
+- The duplicate schedule button on the Schedule Gantt
   chart now functions as intended.
-* A 'Do Not Print' check box has been added
+- A 'Do Not Print' check box has been added
   for auto reports to provide more flexibility for automatic report
   processes.
-* An issue where the presence of a forward
+- An issue where the presence of a forward
   (/) or backward (\) slash in the company name prevented InfiniTime from performing successful
   backups has been resolved.
-* The Punch button within the Employee Module
+- The Punch button within the Employee Module
   and InfiniTime Punch
   Module can now be disabled to prevent employees from punching in or
   out using the InfiniTime
   software.
-* Multilevel supervisor review has been implemented
+- Multilevel supervisor review has been implemented
   to allow multiple supervisors to review a single timecard. Additionally,
   options within Payroll Export can warn the user if a predefined number
   of supervisors have not reviewed an employee's activity.
-* A warning will now be displayed if the user
+- A warning will now be displayed if the user
   attempts to enter a value in the Missed Punch Threshold field that
   is less an 8 or more than 12 hours. Please refer to [Chapter
   4 - Missed Punch Threshold](../Policy/Overtime.md#Missing_Punch_Threshold) for more information on the Missed
   Punch Threshold setting.
-* Per customer request, 'Employees by Supervisor'
+- Per customer request, 'Employees by Supervisor'
   has been added as a new report which lists employees according to
   the supervisor selected in their employee record.
-* The Punch Type Filter is now only displayed on
+- The Punch Type Filter is now only displayed on
   Employee Filter for  the In and Out Board as intended.
-* Multiple options have been added to expand the
+- Multiple options have been added to expand the
   functionality available for Zephyr and Luna Readers. These options
   are available under the Zephyr / Luna Options tab of the Reader Address
   Update form. Please refer to Chapter 14: Zephyr / Luna Options for
   additional information.
-* An issue preventing Absent exceptions from properly
+- An issue preventing Absent exceptions from properly
   displaying on Timecard Reports under certain conditions has been resolved.
-* Additional Documentation has been added for the
+- Additional Documentation has been added for the
   Luna Reader.
-* + [Net
+- - [Net
     Speed Configuration / Technical Note](../CH20_WanLunaTS.md#NetSpeed)
-  + [New Communication
+  - [New Communication
     Type: Poll From File](../CommTypes_Luna_PFF.md)
-  + [Using and
+  - [Using and
     Configuring Poll From File with a Luna Reader](../Luna_PFF_Config.md)
-  + [Updating the
+  - [Updating the
     Bios Manually for the Luna Reader](../Luna_UpdateBFF.md)
-* Additional Documentation has been added for the
+- Additional Documentation has been added for the
   Zephyr Reader.
-* + [Net
+- - [Net
     Speed Configuration / Technical Note](../CH20_WANZEPHYRTS.md#NetSpeed)
-  + [New Communication
+  - [New Communication
     Type: Poll From File](../CommType_ZephyrPFF.md)
-  + [Using
+  - [Using
     and Configuring Poll From File with a Zephyr Reader](../ConfigurePollfromFileZephyr.md)
-  + [Updating
+  - [Updating
     the Bios Manually for the Zephyr Reader](../Zephyr_UpdateBFF.md)
-* A cosmetic issue where Accrual Date Ranges would
+- A cosmetic issue where Accrual Date Ranges would
   not properly display for Accruals using the Anniversary Reset Type
   has been resolved.
-* Timezones will automatically be set to the
+- Timezones will automatically be set to the
   match the timezone of the InfiniTime
   Server when inserting readers or upgrading from previous versions
   of the software.
-* Group Descriptions assigned to employees
+- Group Descriptions assigned to employees
   can no longer be deleted.
-* Supervisors can now be imported using the
+- Supervisors can now be imported using the
   Employee File Import Type.
-* Groups can now be imported using the Employee
+- Groups can now be imported using the Employee
   File Import Type.
-* The software interface has been altered to
+- The software interface has been altered to
   deter users from configuring overtime incorrectly. It is no longer
   possible to enter a value into Overtime 2, Overtime 3, or Overtime
   4 if Overtime 1 has not yet been configured.
-* Hour totals on the Postable Schedule report
+- Hour totals on the Postable Schedule report
   will now include paid breaks.
-* To prevent errors when communicating with
+- To prevent errors when communicating with
   clocks InfiniTime will
   now warn the user and prevent them from saving an employee record
   if the Employee Login ID, Employee Login Password, or Employee Badge
   ID contain non-numeric characters. This is only enforced if clocks
   exist in the database.
-* The 'Warn When Scheduling Overtime' feature has
+- The 'Warn When Scheduling Overtime' feature has
   been removed from InfiniTime
   due to operational inconsistencies.
-* Conditional Override is now compatible with the
+- Conditional Override is now compatible with the
   Employee Inactive Flag for exports of the Employee File type. This
   makes it possible to export any alphanumeric value when the Inactive
   Flag is blank (IE: The Employee is active) or when the Inactive Flag
   is set to 1 (IE: The Employee is inactive.)
-* When importing timecard activity the Type field
+- When importing timecard activity the Type field
   is no longer required. This change helps to eliminate difficulties
   with importing timecard activity. Previously the Type was limited
   to two valid values: "Clock In" or "Clock Out."
   If the Type was not one of these valid values the record was ignored.
-* Exceptions have been added to the system to track
+- Exceptions have been added to the system to track
   compliance with Federal Department of Transportation rules 1 to 3.
   The rules are described as follows:
-* + Employee must take a ten hour break from clock
+- - Employee must take a ten hour break from clock
     out to clock in. Report a Rule 1 Violation if break is less than
     10 hours.
-  + Following a ten hour break an employee may
+  - Following a ten hour break an employee may
     drive for up to 14 hours. Any working duration over 14 hours is
     considered a Rule 2 Violation.
-  + Employee may not work more than 60 hours in
+  - Employee may not work more than 60 hours in
     a seven day period. The seven day period is reset if there is
     a consecutive break of 34 hours at any point. If this rule is
     broken a Rule 3 Violation is reported.
-* Schedule Override now functions as intended.
-* Polling logic for the InfiniTime
+- Schedule Override now functions as intended.
+- Polling logic for the InfiniTime
   Housekeeping service has been altered to increase efficiency.
-* Additional Overtime Exceptions have been added.
-* + Approved Overtime: This exception occurs when
+- Additional Overtime Exceptions have been added.
+- - Approved Overtime: This exception occurs when
     employees have approved overtime.
-  + Unapproved Overtime: This exception occurs
+  - Unapproved Overtime: This exception occurs
     when employees have unapproved overtime.
-* Documentation for the Import Features have been
+- Documentation for the Import Features have been
   expanded extensively. A review of this section is highly recommended
   prior to performing an import.
-* A supervisor review history window has been added
+- A supervisor review history window has been added
   to enable users to view a list of all supervisors who have reviewed
   activity.
-* A 'How to' has been added with instructions for
+- A 'How to' has been added with instructions for
   Disabling the Punch Button on the Employee Module.
-* A new field, Additional Payroll ID, has been added
+- A new field, Additional Payroll ID, has been added
   to the Payroll Profile tab of the employee update form. This field
   is optional and is used in select custom payroll interfaces.
-* The Employee Wage Field has been altered to permit
+- The Employee Wage Field has been altered to permit
   a third decimal for payroll interfaces that require  three decimal
   accuracy.
-* It is now possible to copy schedules from one page
+- It is now possible to copy schedules from one page
   to another in the schedule gantt chart.
-* Rounding rules for punches of the Clock In type
+- Rounding rules for punches of the Clock In type
   now have a range of 0 Minutes to 15 for Round Forward.
-* The shift column of the Company Timecard Activity
+- The shift column of the Company Timecard Activity
   Table now displays the appropriate shift based upon the shift an employee
   works on a given day.
-* The Timecard Detail Report will now display an
+- The Timecard Detail Report will now display an
   asterisk only when an activity record has been edited or inserted
   manually.
-* Maximum Negative Accrual now functions as intended.
+- Maximum Negative Accrual now functions as intended.
   The user will receive a warning when attempting to insert other activity
   that would cause an employee to cross the maximum negative accrual
   threshold.
-* Added additional documentation for Employee
+- Added additional documentation for Employee
   Filter Logic to clarify the use of multiple filters.
-* Added additional documentation for advanced
+- Added additional documentation for advanced
   accrual configurations such as Rate Mapping.
-* The user will now be warned appropriately when
+- The user will now be warned appropriately when
   inserting other activity or approving a time off request if a Maximum
   Negative Accrual amount is set.
-* The default documents used with InfiniTime have been altered. These
+- The default documents used with InfiniTime have been altered. These
   alterations are purely behind the scenes and will not affect the user,
   the default shortcuts supplied with InfiniTime
   will continue to function with no alterations.
-* Additional Options have been added to the Timecard
+- Additional Options have been added to the Timecard
   Summary Report which permits the user to customize report content.
-* Support for Telephone Punch has been added to the
+- Support for Telephone Punch has been added to the
   InfiniTime Application
   as an add on module. Telephone punch makes it possible for employees
   to punch in and out via a telephone. Punches are stored in an Access
@@ -5612,150 +5627,150 @@ Software Changes
   Oracle Database on a regular basis. Additional information about Telephone
   Punch can be found in the [Telephone
   Punch Introduction.](../Telephone_Punch_Hardware_Introduction.md)
-* Support for Valid Telephone Numbers for individual
+- Support for Valid Telephone Numbers for individual
   employees via Telephone Punch has been added.
-* Additional functionality and options have been
+- Additional functionality and options have been
   added to the Zephyr and Luna terminals. Please refer to Zephyr and
   Luna Reader Settings for more information.
-* Time and Attendance Readers configured within the
+- Time and Attendance Readers configured within the
   InfiniTime Application
   are identified by an internal ID number. To avoid confusion this internal
   ID number is no longer used during the polling process to determine
   the polling order. Readers will now be polled according to the Reader
   description alphabetically from A - Z.
-* The InfiniTIme Housekeeping Service is now a multi-threaded
+- The InfiniTIme Housekeeping Service is now a multi-threaded
   process whereby various processes such as Payroll Exports, Housekeeping,
   and Polling can be performed simultaneously rather than in a round
   robin fashion. Refer to the InfiniTime
   Housekeeping Service for more information.
-* The display of Other Activity Hours on reports
+- The display of Other Activity Hours on reports
   has been altered slightly. If an other activity type is set to count
   as regular hours it will be displayed in the Regular Hours column
   and Other Hours column. The hours will not be totaled twice.
-* Resolved an issue which caused the Custom Pay Cycle
+- Resolved an issue which caused the Custom Pay Cycle
   to operate unexpectedly under certain conditions.
-* Resolved an issue where Security Role configuration
+- Resolved an issue where Security Role configuration
   would not copy as expected when using the copy button.
-* Resolved an issue where Quick Schedule would not
+- Resolved an issue where Quick Schedule would not
   save a Valid From Date if a Valid To Date was not specified and vice
   versa.
-* Resolved an issue where accrual totals would not
+- Resolved an issue where accrual totals would not
   resume accruing once an employee used a portion of their available
   time after the Stop At Amount is reached.
-* Resolved an issue where Rate Mapping for Holidays
+- Resolved an issue where Rate Mapping for Holidays
   did not function under certain conditions.
-* Resolved an issue where Average Hours would not
+- Resolved an issue where Average Hours would not
   calculate properly for Holidays.
-* Reviewed the operation of Holidays and resolved
+- Reviewed the operation of Holidays and resolved
   multiple issues where holiday hours would not calculate as expected:
-* 1. + Holiday hours were not calculating as expected
+- 1. - Holiday hours were not calculating as expected
        when Auto Breaks were used
-     + Holiday hours were not calculating as expected
+     - Holiday hours were not calculating as expected
        when Breaks were used
-     + Holiday records were not displayed if both
+     - Holiday records were not displayed if both
        the Holiday Starts on Day before and Day Before Holiday must
        be worked options were set to Yes.
-     + Holiday hours were not calculating as expected
+     - Holiday hours were not calculating as expected
        when Holiday Starts on Day Before was enabled and employees
        worked overnight.
-     + Holiday hours were not calculating as expected
+     - Holiday hours were not calculating as expected
        when Holiday Ends on Day After was enabled and employees worked
        into the next day.
-* Resolved an issue where Paid Break Limits were
+- Resolved an issue where Paid Break Limits were
   not functioning properly for Minimum or Maximum Break Lengths.
-* Resolved an issue where Auto Clock In and Auto
+- Resolved an issue where Auto Clock In and Auto
   Clock Out would insert multiple punches for the employees scheduled
   start or end time on a single day.
-* A warning will now be displayed when saving an
+- A warning will now be displayed when saving an
   employee record with an alphanumeric Login ID, Password, or Badge
   if a clock is configured within the InfiniTime
   Application. An employee with an alphanumeric Login ID, Password,
   or Badge will not be sent to the clock and as such will be unable
   to punch in or out.
-* It is no longer possible for users to assign a
+- It is no longer possible for users to assign a
   security role with a higher class priority than the role they are
   assigned to.  The Security Role Class Hierarchy is defined as:
-* 1. + Administrator
-     + Payroll Clerk
-     + Supervisor
-     + Employee
-* 'Do Not Auto Fill Employee ID when Inserting Employees'
+- 1. - Administrator
+     - Payroll Clerk
+     - Supervisor
+     - Employee
+- 'Do Not Auto Fill Employee ID when Inserting Employees'
   has been added to the Company Update Form. Enabling this option will
   stop InfiniTime from
   automatically generating an Employee ID, Login ID, and Password when
   creating an employee. Refer to the Company Update Form for more information.
-* Resolved an issue where the Description for Override
+- Resolved an issue where the Description for Override
   was not displayed correctly when configuring an Import.
-* Override is now supported for Link To Field within
+- Override is now supported for Link To Field within
   the Import.
-* The Timecard Editor, Report Selection, and Payroll
+- The Timecard Editor, Report Selection, and Payroll
   Export will refer to the current user's policy when determining the
   date range. This simplifies the program interface for companies requiring
   multiple policies for different pay cycles.
-* Resolved an issue where all punches are marked
+- Resolved an issue where all punches are marked
   with an asterisk on the Timecard Detail Report even if they are not
   edited.
-* Override now prompts for a True or False value
+- Override now prompts for a True or False value
   for Boolean Values for Import Configuration.
-* Resolved an issue where Split Punches at end of
+- Resolved an issue where Split Punches at end of
   week did not operate as expected under certain conditions.
-* Resolved an issue where Split Punches at end of
+- Resolved an issue where Split Punches at end of
   pay period did not operate as expected under certain conditions.
-* A warning will be displayed if the user attempts to enter a value
+- A warning will be displayed if the user attempts to enter a value
   for Overtime 2, 3, or 4 that is lower than a prior overtime type.
   IE: Overtime 2: Daily Overtime cannot be set to 8 Hours while Overtime1:
   Daily Overtime is set to 12 Hours.
-* The Gannt Chart now has a tool top that shows the Department, Job,
+- The Gannt Chart now has a tool top that shows the Department, Job,
   and Task scheduled.
-* The Gannt Chart will now display the schedule Department, Job,
+- The Gannt Chart will now display the schedule Department, Job,
   and Task on the schedule bar if space allows.
-* Employee Wages can now be varied based upon specific combinations
+- Employee Wages can now be varied based upon specific combinations
   of Department, Job, and Task. Refer to the Job Costing - Wages section
   for more information.
-* Resolved an issue where the Pay Period Start date would always
+- Resolved an issue where the Pay Period Start date would always
   set to Today when attempting to set a custom pay period.
-* Resolved an issue where it was not possible to insert Payroll Overrides
+- Resolved an issue where it was not possible to insert Payroll Overrides
   in prior versions.
-* Added support for Half Hour Rounding under the [Rounding
+- Added support for Half Hour Rounding under the [Rounding
   Tab](../Policy/Unscheduled_Time.md) of the Policies.
-* Added multiple fields for [Human
+- Added multiple fields for [Human
   Resource Related information](../Employee_Setup/HR_Profile.md).
-* Backup can now be used from Client Machines. It is no longer necessary
+- Backup can now be used from Client Machines. It is no longer necessary
   to be on the InfiniTime
   Server to perform a backup of the InfiniTime
   Database.
-* The Payroll Export process has been reviewed and is now optimized
+- The Payroll Export process has been reviewed and is now optimized
   for faster exports.
-* Resolved an issue where Auto Punch will no longer insert punches
+- Resolved an issue where Auto Punch will no longer insert punches
   for employees before their hire date or after their termination date.
-* Added support for using quick punch to insert punches between an
+- Added support for using quick punch to insert punches between an
   existing punch pair.
-* It is now possible to disable employee messaging within the employee
+- It is now possible to disable employee messaging within the employee
   module via Security Role Configuration.
-* The copy button on the left hand side of the Report Library can
+- The copy button on the left hand side of the Report Library can
   now be hidden as intended.
-* Resolved an issue where the Audit Trail was not required. If the
+- Resolved an issue where the Audit Trail was not required. If the
   Audit Trail is enabled on the Company Update Form users will be required
   to enter a message about why they are editing punches after each change.
-* Support for sending bell schedules to the Zephyr, Luna, Juno, and
+- Support for sending bell schedules to the Zephyr, Luna, Juno, and
   Athena via the InfiniTime
   Application has been added. Previously it was only possible to add
   bell schedules to these hardware terminals via the Clock Menu / Bios.
   Refer to [Bell Setup](../ZK_Bell_Schedules.md) for additional
   information.
-* The Termination Reason Field will not autofill as intended.
-* Data Processing has been removed from the Reader Update Form as
+- The Termination Reason Field will not autofill as intended.
+- Data Processing has been removed from the Reader Update Form as
   it no longer serves a purpose within the InfiniTime
   Application.
-* Resolved an issue where it was not possible to hide the security
+- Resolved an issue where it was not possible to hide the security
   filters button on the Login Tab of the Employee Update Form.
-* If Auto Punch to Schedule is configured the Auto Break Tab will
+- If Auto Punch to Schedule is configured the Auto Break Tab will
   be hidden. These settings cannot be enabled simultaneously.
-* Inactive employees will no longer be exported from the payroll
+- Inactive employees will no longer be exported from the payroll
   export by default. An option is available to export timecard activity
   for employees who were inactivated during the time range of the export.
-* Support for PIN Entry has been added for the Luna Terminal.
-* Synel Terminals have been phased out of development. New features
+- Support for PIN Entry has been added for the Luna Terminal.
+- Synel Terminals have been phased out of development. New features
   will not be supported or developed for Synel Terminals from this point
   onward.
 
@@ -5764,58 +5779,58 @@ Software Changes
 Software
 Changes
 
-* Employee List Report now sorts as intended. Department Sorting
+- Employee List Report now sorts as intended. Department Sorting
   will no longer be enabled by default.
-* Resolved an issue where Quick Assign required the Filter to be
+- Resolved an issue where Quick Assign required the Filter to be
   set before choosing Shifts. Shifts will now be assigned to employees
   as expected regardless of when filters are set.
-* Resolved an issue where HP1000 Terminals would generate an error
+- Resolved an issue where HP1000 Terminals would generate an error
   if a Department Number with a leading zero was entered while choosing
   a department.
-* Resolved a typo identified on the Job List Report where the R was
+- Resolved a typo identified on the Job List Report where the R was
   missing in Job Number.
-* Resolved an issue where unassigned punches received from ZK Terminals
+- Resolved an issue where unassigned punches received from ZK Terminals
   would generate an invalid punch error making it impossible to poll
   additional punches from the terminal.
-* Resolved an issue where Other Activity Hours would be miscalculated
+- Resolved an issue where Other Activity Hours would be miscalculated
   if Outside of Schedule Hours were mapped to an Overtime Bucket.
 
 ### InfiniTime 7.05b
 
 Software Issues Resolved
 
-* Luna clock was
+- Luna clock was
   not updating the new firmware.
-* Thor clock was
+- Thor clock was
   not updating correct firmware.
-* Thor clock fix
+- Thor clock fix
   for no-image-found error on the employee wallpaper.
-* Fixed Time Sheet
+- Fixed Time Sheet
   issues when approving exceptions.
 
 ### InfiniTime 7.05c
 
 Software Issues Resolved
 
-* Fix for the qcursorScheduleQueue
+- Fix for the qcursorScheduleQueue
   error
-* Added new Thor
+- Added new Thor
   Firmware Update
-* Fix for the auto
+- Fix for the auto
   clock in where the first day of the employee's work does not pickup
   the auto clock in
 
 ### InfiniTime 7.05d
 
-* Added the TCGrid
+- Added the TCGrid
   Virtual directory
-* Removed InfiniTimeGrid3 Virtual directory
+- Removed InfiniTimeGrid3 Virtual directory
 
 ### InfiniTime 7.05e
 
-* Fixed dateTimeFormat
+- Fixed dateTimeFormat
   error on the reports
-* Zero hour report
+- Zero hour report
   takes into account the adjusted hire date and not just the hire date
   as previous version
 
@@ -5823,66 +5838,66 @@ Software Issues Resolved
 
 Software Issues Resolved
 
-* Fixed Script errors
+- Fixed Script errors
   on the payroll export
-* Fixed Script errors
+- Fixed Script errors
   on backup
-* Fixed accrual problem
+- Fixed accrual problem
   with Fiscal year and allowing zero entry for month and day
-* Fixed issue on
+- Fixed issue on
   payroll exports, where you could not click on OK or Save.
 
 ### InfiniTime 7.05g
 
 Software Issues Resolved
 
-* Resolved an issue for Payroll Exports
+- Resolved an issue for Payroll Exports
   where Daily Exports with Mapped Amount fields would not show other
   activity hours if there were not regular hours on the day.
-* Resolved an issue with a background
+- Resolved an issue with a background
   process responsible for cleaning temporary data from the Oracle Database.
   In some cases this issue would cause script errors upon opening the
   Report Library, making it impossible to print reports.
-* The Insert Button within the Timecard
+- The Insert Button within the Timecard
   Table now functions appropriately if used when a record with only
   a single punch is highlighted. A single punch will now be inserted
   instead of a complete record with an In and Out Punch.
-* Resolved an issue which caused
+- Resolved an issue which caused
   the Missing Break Exception to unexpectedly occur on days where an
   employee received activity for an other activity type set to count
   toward regular hours.
-* Other Activity can now be inserted
+- Other Activity can now be inserted
   as a negative amount. This feature can be used to offset employee
   hours as needed and is particularly useful for cancelling an auto
   paid break. To accomplish this create an other activity type with
   the same Payroll Mapping Code as that used for Regular Hours. Then
   insert a negative amount equal to the employee's paid break.
-* Other Amounts now have a maximum
+- Other Amounts now have a maximum
   value of $9,999,999.
 
 Software Requirements & Supported Environments
 
-* InfiniTime
+- InfiniTime
   now provides support for the following 64 Bit Operating Systems:
-* Windows 2008 Server Standard 64
+- Windows 2008 Server Standard 64
   Bit
-* Windows 2008 Server Enterprise
+- Windows 2008 Server Enterprise
   64 Bit
-* Windows Vista Business 64 Bit
-* Windows Vista Ultimate 64 Bit
+- Windows Vista Business 64 Bit
+- Windows Vista Ultimate 64 Bit
 
 ### InfiniTime 7.05h
 
 Software
 Issues Resolved
 
-* Corrected problem where housekeeping
+- Corrected problem where housekeeping
   is not generating exceptions or auto punches consistently.
-* Fixed problem in Employee signature
+- Fixed problem in Employee signature
   message where number of characters are limited to 4 characters.
-* Added new Mini-Timecard with Details
+- Added new Mini-Timecard with Details
   report.
-* Resolved issue of Thor badge readers
+- Resolved issue of Thor badge readers
   not showing on drop-down list in the reader configuration form.
 
 ### InfiniTime 7.05i
@@ -5890,51 +5905,51 @@ Issues Resolved
 Software
 Issues Resolved
 
-* Fixed Mini Timecard
+- Fixed Mini Timecard
   Report showing the times incorrect where it would put the out punch
   as an in punch.
-* Fixed Mini Timecard
+- Fixed Mini Timecard
   Report to allow Other Activity to show on the report when there are
   no hours for that activity.
-* Lookup buttons
+- Lookup buttons
   will no longer display when security has been configured to hide a
   lookup field.
-* Resolved an issue
+- Resolved an issue
   which caused SYSID fields to display when editing security.
-* Resolved a spelling
+- Resolved a spelling
   error on the Reader Address Update Form.
-* Resolved an issue
+- Resolved an issue
   which caused the Early Departure Exception to occur incorrectly if
   an employee was scheduled to work in two departments back to back.
-* Corrected an error
+- Corrected an error
   on the Policy Update Form. The ['Latest
   Clock Out Time' Setting](../Policy/Schedule_Settings_General_Tab.md#LatestClockOutTime) was incorrectly labeled "Latest Clock
   In Time"
-* The Average Hours
+- The Average Hours
   Setting on the Holiday Master Holiday Update Form will now be hidden
   if 'All Worked Hours Are Holiday Pay' is set to Yes. The Average Hours
   feature is not supported with this setting.
-* Resolved an issue
+- Resolved an issue
   which caused all departments in a multi-company environment to display
   on the Quick Assign Department Lookup.
-* Resolved an issue
+- Resolved an issue
   on the payroll export where hours were not exported correctly when
   employees worked under multiple departments for a single job or task.
-* Resolved an issue
+- Resolved an issue
   which prevented the backdoor program for the Athena, Juno, Luna, and
   Zephyr Terminals from functioning.
-* The 'Do Not Auto
+- The 'Do Not Auto
   Fill Employee ID When Inserting Employees' option will now fill the
   Badge ID Automatically if the InfiniTime
   License only has Biometric Terminals.
-* Removed the Badges
+- Removed the Badges
   Tab from the Reader Address Update Form for the Thor Terminal. The
   Badges Tab will now only be displayed for Synel Clocks as appropriate.
-* Added ['External
+- Added ['External
   Devices' Tab](../Reader_Settings_-_External_Devices.md) to the Reader Settings Section of the Reader Address
   Update form for the Thor Terminal. This tab includes settings for
   Wiegand Badge & Barcode Readers, and Relay Configuration.
-* The [External
+- The [External
   Bell setting](../Thor_Fingerprint_-_Menu___Bios.md#Ext) on the Thor Terminal must be set to Yes in order
   for External Bells to function. InfiniTime
   now automatically sets this option to Yes during the reader update
@@ -5953,18 +5968,18 @@ items which were found to be operating as intended. For clarity, these
 items and their requirements have been listed below.
 
 | Reported Item: | The View Total Hours Function Key cannot be assigned to the Scout Clock After it is deleted. |
-| Steps to Reproduce: | 1. Ensure a Scout Clock    has been configured for use with InfiniTime    via the Reader Configuration table. (Lookups - Reader Configuration) 2. Open the System    Monitor, Highlight the Scout Terminal, and Click on Change. 3. Click on Reader    Settings on the Left Side. 4. Click on the Plus    Sign next to F2 to expand functions assigned to the F2 Key. 5. Click on View Hour    Totals to highlight it and press the Delete Key. 6. Click Insert. View    Hour Totals will not be listed.     This only occurs when the Total Hours Type Drop down on the General Tab is set to 'None' |
+| Steps to Reproduce: | 1. Ensure a Scout Clock has been configured for use with InfiniTime via the Reader Configuration table. (Lookups - Reader Configuration) 2. Open the System Monitor, Highlight the Scout Terminal, and Click on Change. 3. Click on Reader Settings on the Left Side. 4. Click on the Plus Sign next to F2 to expand functions assigned to the F2 Key. 5. Click on View Hour Totals to highlight it and press the Delete Key. 6. Click Insert. View Hour Totals will not be listed. This only occurs when the Total Hours Type Drop down on the General Tab is set to 'None' |
 
 | Reported Item: | Employees working overnight do not receive holiday hours from 12:00 AM to 12:00 PM on the date of the holiday. |
-| Steps to Reproduce: | 1. 1. Configure a       Holiday as follows:       1. Set All          Worked Hours are Holiday Pay = Yes.       2. Set Max          Other Activity Hours = 12.       3. Set a date          for the holiday.    2. Ensure the Holiday       Schedule Type is assigned to an employee.    3. Punch an employee       in on the day before the holiday at 11:00 PM.    4. Punch out for       the employee on the date of the holiday at 7:00 AM.    5. The hours between       12:00 AM and 7:00 AM will not count toward the holiday. 2. This occurs    because the Holiday Calculation is based on the day an employee    punches in.. In order for overnight employees to receive holiday    pay for any hours worked between 12:00 AM and 11:59 PM on    the date of the holiday the holiday must be configured as    follows: 3. * Set All Worked Hours are Holiday Pay = Yes.    * Set Max Other Activity Hours = 12.    * Set a date for the holiday.    * Set Holiday Starts on Day Before = Yes at      11:59 PM.    * Set Holiday Ends on Holiday = Yes at 11:59      PM. |
+| Steps to Reproduce: | 1. 1. Configure a Holiday as follows: 1. Set All Worked Hours are Holiday Pay = Yes. 2. Set Max Other Activity Hours = 12. 3. Set a date for the holiday. 2. Ensure the Holiday Schedule Type is assigned to an employee. 3. Punch an employee in on the day before the holiday at 11:00 PM. 4. Punch out for the employee on the date of the holiday at 7:00 AM. 5. The hours between 12:00 AM and 7:00 AM will not count toward the holiday. 2. This occurs because the Holiday Calculation is based on the day an employee punches in.. In order for overnight employees to receive holiday pay for any hours worked between 12:00 AM and 11:59 PM on the date of the holiday the holiday must be configured as follows: 3. _ Set All Worked Hours are Holiday Pay = Yes. _ Set Max Other Activity Hours = 12. _ Set a date for the holiday. _ Set Holiday Starts on Day Before = Yes at 11:59 PM. \* Set Holiday Ends on Holiday = Yes at 11:59 PM. |
 
-* An issue with the operation of Tamper on the Thor Terminal has
+- An issue with the operation of Tamper on the Thor Terminal has
   been resolved. Tamper is intended to activate Relay 2 and any relays
   set to the bells function under the following conditions:
-* When the Back Plate of the Thor is
+- When the Back Plate of the Thor is
   Removed.
 
-- When an employee continuously enters an incorrect password.
+* When an employee continuously enters an incorrect password.
   Relay 2 will activate after a preset number of failed attempts
   which can be set under System Settings - Display within the
   Thor Menu / Bios.
@@ -5999,110 +6014,105 @@ with the appropriate item. However, the final transaction records the
 first item in the list of Departments, Jobs, or Tasks respectively. The
 following steps can be performed to work around this issue:
 
-1.
-Press the Function Key Corresponding to the Transfer Function on the Thor.
+1.  Press the Function Key Corresponding to the Transfer Function on the Thor.
 
-2.
-Enter the Number of the Department, Job, and / or Task you wish to select.
-The cursor will highlight the item.
+2.  Enter the Number of the Department, Job, and / or Task you wish to select.
+    The cursor will highlight the item.
 
-3.
-Press the Up or Down arrow on the directional pad to highlight to a different
-item in the list. Use the directional pad to highlight the desired item.
+3.  Press the Up or Down arrow on the directional pad to highlight to a different
+    item in the list. Use the directional pad to highlight the desired item.
 
-4.
-Press OK to select the desired item. The transaction will be recorded
-properly.
+4.  Press OK to select the desired item. The transaction will be recorded
+    properly.
 
 Software Issues Resolved
 
-* Resolved an issue
+- Resolved an issue
   which prohibited the approval of multiple records with overtime on
   a single day.
-* Resolved
+- Resolved
   an issue where the Security Key was visible to employees on the Employee
   Security Role when sending Messages, Schedule Change Requests, or
   Time Off Requests.
-* Resolved
+- Resolved
   an issue which made it possible to delete the last employee in a multi
   company environment.
-* The
+- The
   Default Wiegand Format String has been changed to ensure maximum compatibility.
   Wiegand26, which defines a generic 26 bit badge format, can be used
   to communicate with External Wiegand Readers using badges without
   a site code. A specific code however must be used with External Wiegand
   Readers using badges with a site code. The Default Wiegand Format
   String has been changed from 'wiegand26' to 'pccccccccccccccccccccccccp:eeeeeeeeeeeeeooooooooooooo'
-* Resolved
+- Resolved
   an issue with Consecutive Day Overtime where both Regular and Overtime
   hours were posted to the overtime bucket selected for Regular Hours
   even if Overtime Hours were configured to post to a different overtime
   bucket.
-* Resolved
+- Resolved
   a Typo on the Reader Configuration Update Form under the Reader Settings
   Category. Wiegand is now spelt correctly.
-* Resolved
+- Resolved
   an issue where Accrued Hours were reported incorrectly if the sum
   of Accrued Hours and Base Amount were greater than the Stop At value.
   In this scenario accrued hours were reported as the Stop At amount
   and the total available hours were reported as Total Accrued Hours
-  + Base.
-* Resolved
+  - Base.
+- Resolved
   an issue with the Unscheduled Time Mapping Policy Settings. Hours
   can now be mapped as intended for employees with schedules that cross
   midnight.
-* Resolved
+- Resolved
   an issue with the Thor Terminal which caused the error "FM Connection
-  is Nothing! Poll and Update of clock *<Clock
-  Name>*" The issue was related to use of the Time Off
+  is Nothing! Poll and Update of clock clock name The issue was related to use of the Time Off
   Request or Schedule Change Request on the Thor Terminal.
-* Resolved
+- Resolved
   an issue with Shift Differentials that span midnight whereby an employee
   would not receive credit for differential hours appropriately if they
   took a break before midnight.
-* Resolved
+- Resolved
   an issue with the DOT Off Duty Exception which caused it not to occur
   as intended. The DOT Off Duty Exception now occurs correctly if the
   employee does not have a 10 hour break between periods of work.
-* Resolved
+- Resolved
   an issue with the Attendance Review report whereby all days would
   be filled with the Non Worked Day Character if any value was entered
   in the Non Worked Day field under the Report Options Tab.
-* BuildDB
+- BuildDB
   is intended to run an extended set of commands for customer's upgrading
   to InfiniTime 7 from
   earlier software versions such as InfiniTime
   6 or InfiniTime 5.
   An issue which caused the BuildDB to skip the extended command set
   has been resolved.
-* Resolved
+- Resolved
   an issue where Review would not mark Absent Records as reviewed. This
   caused employees to be falsely listed on the Employees Without Reviewed
   Timecards report. Absent Exceptions are not intended to show a blue
   review mark though employees will no longer be falsely listed on the
   Employees Without Reviewed Timecards report.
-* Resolved
+- Resolved
   an issue which stopped the Insert Button on the Shift Tab of Quick
   Assign from inserting shifts as appropriate.
-* Resolved
+- Resolved
   an issue with the Average Hours feature for Holidays which caused
   the Holidays to include an additional day in the calculation when
   averaging hours. For example, if days to average was set to three
   (3) hours would be averaged for four (4) days prior to the date of
   the holiday.
-* Resolved
+- Resolved
   an issue related to Change to Break and Rounding which caused employees
   to be paid for an unpaid break under the following conditions:
 
-+ First
+* First
   change to break is configured as an unpaid break.
-+ Second change to break is configured
+* Second change to break is configured
   as a paid break.
-+ Unscheduled Break Rounding is not
+* Unscheduled Break Rounding is not
   enabled.
-+ Unscheduled Clock In and Clock Out
+* Unscheduled Clock In and Clock Out
   rounding is set to quarter hour.
-+ An employee punches such that their
+* An employee punches such that their
   break would be considered an Unpaid Break IF break rounding was
   enabled.
 
@@ -6112,13 +6122,13 @@ Scout
 
 Functionality Issues Resolved
 
-* The View
+- The View
   Hour Totals Function now operates as intended. Hours and hundredths
   of hours will now be correctly reported by the Scout Terminal. The
   InfiniTime Application
   must be configured with a polling interval of 5 seconds or less for
   the View Hour Totals Function to operate.
-* Resolved
+- Resolved
   an issue with the communication libraries used to communicate with
   the Scout Terminal which caused Dynamic DNS to be inoperable with
   Scout Readers.
@@ -6131,9 +6141,9 @@ An issue with the operation
 of Tamper has been resolved. Tamper is intended to activate Relay 2 under
 the following conditions:
 
-* When the
+- When the
   Back Plate of the Thor is Removed.
-* When an employee
+- When an employee
   continuously enters an incorrect password. Relay 2 will activate after
   a preset number of failed attempts which can be set under System Settings
   - Display within the Thor Menu / Bios.
@@ -6141,7 +6151,7 @@ the following conditions:
 For this
 reason, Relay 2 is recommended ONLY FOR USE WITH BELLS OR A BUZZER.
 
- If
+If
 an access control device should be wired to Relay 2 Security could be
 circumvented simply by removing the back plate from the Thor.
 
@@ -6151,7 +6161,7 @@ to disable tamper will be available in InfiniTime
 
 New Functionality
 
-* The
+- The
   EPSON TM-T88IV Thermal Printer has been introduced as an add on to
   the Thor and is available for purchase from Inception Technologies.
   The EPSON TM-T88IV can be used with the Thor Terminal to print a variety
@@ -6160,23 +6170,23 @@ New Functionality
   clicking on each report or by referring to the Thor Reports section
   of this document.
 
-* [Total
+- [Total
   Hours Report](../Reader_Settings_-_Printer_Settings.md#TotalHoursReport) - Prints total Regular, OT1, OT2,
   OT3, and OT4 hours for a single employee according to
   the 'Total Hours' Date Range set for the Thor Terminal
   on the Reader Address Update Form.
-* [Accrual
-  Totals Report](../Reader_Settings_-_Printer_Settings.md#Accrual Totals Report) - Prints Accrued Hours, Used
+- [Accrual
+  Totals Report](../Reader*Settings*-\_Printer_Settings.md#Accrual Totals Report) - Prints Accrued Hours, Used
   Hours, and Remaining Hours for all Accrual Types assigned
   to a single employee.
-* [In
+- [In
   & Out Board Report](../Reader_Settings_-_Printer_Settings.md#In&Out) - Prints a list of all
   employees on the Thor Terminal and their current status.
   Employees who are punched out at the time of running the
   report will be marked as Out while employees who are punched
   in at the time of running the report will be marked as
   In.
-* [Timecard
+- [Timecard
   Report](../Reader_Settings_-_Printer_Settings.md#TimecardReport) - Prints a report comparable to the
   Timecard Detail Report available within the Report Library
   of the Manager Module for a single employee according
@@ -6184,86 +6194,86 @@ New Functionality
   on the Reader Address Update Form. The report shows individual
   punches and totals for Regular Hours, OT1, OT2, OT3, OT4,
   and Other Activity.
-* [Schedule
+- [Schedule
   Report](../Reader_Settings_-_Printer_Settings.md#ScheduleReports) - Prints schedule records for a single
   employee according to the 'Schedule' Date Range set for
   the Thor Terminal on the Reader Address Update Form.
-* [Punch
+- [Punch
   Receipt Report](../Reader_Settings_-_Printer_Settings.md#PunchReceipt) - Prints Employee Information
   and the time of their last punch. The Punch Receipt Report
   is accessible from the Last Punch Function Key though
   it can also be printed after each successful Time and
   Attendance Transaction via an option on the Reader Settings
   table.
-* [Messages
+- [Messages
   Report](../Reader_Settings_-_Printer_Settings.md#MessageReports) - Prints messages from the Thor. Messages,
   Requests for Time Off, and Requests for Schedule Change
   can be printed from the Messages Menu accessed from the
   Employee Info Function Key.
 
-* A
+- A
   USB Barcode Reader has been introduced as an add on to the Thor and
   is available for purchase from Inception Technologies. The USB Barcode
   Reader can be plugged directly into the Thor Terminal for use with
   Code 3 of 9 badges for Job Costing and / or Time and Attendance.
-* The
+- The
   Directional Pad is used to move the cursor from field to field and
   item to item within the Thor Menu / Bios. The active item will now
   be highlighted to show the position of the cursor.
-* The
+- The
   Thor Terminal now supports a maximum Employee Login ID Length of 9
   Digits. The maximum Employee Login ID Length was expanded from 5 digits
   in 7.05i to 9 digits in 7.06j.
 
 Functionality Issues Resolved
 
-* The
+- The
   Internal Bell can now be disabled as intended by setting 'Bell In
   Clock' to OFF within the Thor Menu / Bios.
-* The
+- The
   Del ID Card Only function found on the Delete User Menu accessed from
   the User Management Table of the Thor Menu now functions as expected.
   Using this function removes all badges from the selected employee.
-* Resolved an issue
+- Resolved an issue
   which caused the View Schedule Window accessed from the Schedule option
   under the Employee Info Function to display employee schedules improperly
   under some conditions. For example if an employee was scheduled to
   work in Department A from 8AM to 12PM and Department B from 12PM to
   4PM on 7/1/09 the Thor would display 7/1/09 8AM to 12PM in place of
   all expected schedule records.
-* Resolved an issue
+- Resolved an issue
   where the Wiegand Format String for Indala External Proximity Readers
   could not be sent to the Thor Terminal via the Update Process. The
   issue caused the update to freeze at 'Sending Config Information'
-* Resolved an issue
+- Resolved an issue
   where the Thor would freeze, display a black screen with a flashing
   cursor, and reboot under specific conditions when attempting to enter
   Other Activity for an employee. The issue occurs in the following
   scenario in 7.05i:
 
-+ Ensure the
+* Ensure the
   Hours Function is assigned to a function Key on the Thor.
-+ Press
+* Press
   the corresponding function key and enter an employee ID when prompted.
-+ Press
+* Press
   F3 to select Other Activity.
-+ Press
+* Press
   ESC to exit the Other Activity Menu.
-+ Press
+* Press
   F3 to select Other Activity.
-+ Press
+* Press
   any two keys on the numeric pad. The Thor will display a black
   screen with a flashing cursor and will then reboot.
 
-* The
+- The
   Reset Option available within the Thor Menu under System Settings
   has been altered to operate as intended. The Reset Option sets all
   options and settings within the Thor to their default settings. Default
   settings configured by the Reset Option are listed [here.](../Thor_Fingerprint_-_Menu___Bios.md#Reset)
-* Resolved
+- Resolved
   an issue where Supervisor requests to Add a Punch, Delete a Punch,
   or Change a Punch were not recorded correctly on the Thor Terminal.
-* Resolved
+- Resolved
   an issue where Lockout did not function on the Thor Terminal. Employees
   would be locked out at all times regardless of the schedule. Employees
   will no longer be locked out during the window defined by their schedule.
@@ -6273,112 +6283,112 @@ Functionality Issues Resolved
   employee attempts to punch outside of this window the Thor will prompt
   for Supervisor Override. Additional information on the operation of
   lockout can be found [here.](../Punching_In___Out_Using_Schedule_Lockout.md)
-* Resolved
+- Resolved
   an issue where the Access Menu (Menu - User Mng - Access) was not
   displayed on the Thor Terminal as intended. The Access Menu is now
   properly hidden and shown according to the Terminal Mode set on the
   Reader Settings Tab. The Access Menu is displayed in all terminal
   modes except Time and Attendance.
-* Resolved
+- Resolved
   an issue where Access Control Schedules were not populated properly
   on the Thor Terminal. Schedules are now sent to the clock correctly
   instead of one day ahead. For example, In 7.05i a schedule defined
   as 8AM - 5PM on Monday would be sent to the Thor as 8AM - 5PM on Tuesday.
-* Resolved
+- Resolved
   an issue where the Key Board configuration would be cleared during
   the update process if the Reader Settings Menu was not viewed prior
   to updating the Thor. To work around this issue on 7.05i perform the
   following steps:
 
-* Open
+- Open
   the System Monitor, Highlight the Scout Terminal, and
   Click on Change.
-* Click
+- Click
   on Reader Settings on the Left Side.
-* Click
+- Click
   on OK to save.
 
-- Resolved
+* Resolved
   an issue where Dual Mode Time & Attendance and Access
   Control did not send Access Control Schedules to the Thor.
 
 Cosmetic
 Issues Resolved
 
-* Altered
+- Altered
   status messages, prompts,  and warnings throughout the Thor Menu
   / Bios to increase clarity. The following alterations were made:
 
-+ Fixed
+* Fixed
   a Typo in the 'Delete Password' prompt on the Delete User Menu
   accessed from the User Management Table of the Thor Menu. Changed
   from 'OKDelete Password?' to 'Delete Password?'
-+ Fixed a Typo in the 'Delete User'
+* Fixed a Typo in the 'Delete User'
   prompt on the Delete User Menu accessed from the User Management
   Table of the Thor Menu. Changed from 'OKDelete User?' to 'Delete
   User?'
-+ Fixed a Typo in the 'Delete Fingerprint'
+* Fixed a Typo in the 'Delete Fingerprint'
   prompt on the Delete User Menu accessed from the User Management
   Table of the Thor Menu. Changed from 'OKDelete Fingerprint?' to
   'Delete Fingerprint?'
-+ Fixed
+* Fixed
   a Typo in the 'Delete Card' prompt on the Delete User Menu accessed
   from the User Management Table of the Thor Menu. Changed from
   'OKDelete Card?' to 'Delete Card?'
-+ A
+* A
   warning message is displayed on the Thor when the back plate is
   removed. To avoid confusion the Tamper Warning Message has been
   changed from 'System Broken' to 'Back Plate Not Attached!'
-+ The
+* The
   message displayed when an employee with the user security role
   attempted to access the Menu / Bios was unclear. The message has
   been changed from 'Illegal Management!' to 'Access Denied!'
-+ The
+* The
   message displayed when an employee with the user security role
   attempted to access the Supervisor Tools Function was unclear.
   The message has been changed from 'Illegal Management!' to 'Access
   Denied!'
-+ There
+* There
   was no message displayed when an employee with the supervisor
   security role attempted to access the Menu of the Thor. A message
   has been added and will now display 'Access Denied!' as intended.
-+ Fixed
+* Fixed
   a Typo in the 'Changes Saved' message on the Display Settings
   screen of the Thor Menu / Bios. Changed from 'Setup Success, Press
   OK Back!' to 'Changes saved successfully!'
-+ When
+* When
   attempting to Update the Thor Bios manually a message is displayed
   to alert the user if a USB Drive is not attached to the Thor.
   To avoid confusion this message has been altered from 'PenDrive
   not find!' to 'USB Drive not found!'
-+ When
+* When
   attempting to download data from the Thor to a USB Drive a message
   is displayed to alert the user if a USB Drive is not attached
   to the Thor. To avoid confusion this message has been altered
   from 'PenDrive not find!' to 'USB Drive not found!'
 
-* Confirmation
+- Confirmation
   messages for Delete Password, Delete User, Delete Fingerprint, and
   Delete Card on the Delete user Menu accessed from the User Management
   Table of the Thor Bios were truncated due to screen size and character
   limitations. The messages have been repositioned to the lower center
   portion of the screen to ensure they are displayed properly.
-* The
+- The
   Power Key Option accessed from System Settings - Misc Settings within
   the Thor Menu / Bios was unclear. The option has been altered as follows:
 
-+ 'Lock'
+* 'Lock'
   was changed to 'Disabled' If the Power Key option is set to Disabled
   the Power Key on the keypad cannot be used to turn off the Thor
   clock.The Power Key looks like a small bullseye on the lower right
   corner of the keypad.
-+ 'UnLock'
+* 'UnLock'
   was changed to 'Enabled' If the Power Key Option is set to Enabled
   the Power Key on the keypad can be used to turn off the clock.
   The Power Key looks like a small bullseye on the lower right corner
   of the keypad.
 
-* To
+- To
   avoid confusion 'PenDrive' has been replaced with 'USB Drive' throughout
   the Thor Menu / Bios.
 
@@ -6391,11 +6401,11 @@ for new functionality.
 Upgrade
 Notes / Considerations
 
-* The Microsoft Windows 2000 Operating
+- The Microsoft Windows 2000 Operating
   System is no longer supported for the InfiniTime
   7 Server Installation.
 
-+ InfiniTime 7.06
+* InfiniTime 7.06
   includes support for Safari, Firefox, Internet Explorer 8, and
   Internet Explorer 7. During
   product quality assurance tests Safari was found to be the fastest
@@ -6406,258 +6416,256 @@ Notes / Considerations
 User
 Interface Changes
 
-* Lookup Fields
+- Lookup Fields
   will be cleared when a value is entered that does not match an item
   in the database. For example, the Policy Field on the Settings Tab
   of the Employee Table allows the user to select from a list of policies
   in the database. If a value is entered in the Policy Field that does
   not match the name of a policy in the database the field will be cleared
   when the user clicks on another field.
-* [Holiday
+- [Holiday
   Options](../Dates_Tab.md) such as Holiday Starts Day Before, Holiday Ends on Holiday,
   Holiday Ends Day After, and Holiday Based on Employee's Schedule are
   only relevant when employee's are required to work on the Holiday.
   For this reason these options will be disabled if 'All Worked Hours
   are Holiday Pay' is set to No.
-* A Stop At
+- A Stop At
   Amount is required in order for Carry Over to function properly with
   Employee Accruals. If there is no value in the 'Stop At' field the
   Carry Over Check Box will be hidden on the Accrual Type Details Update
   Form.
-* Units (seconds,
+- Units (seconds,
   minutes, hours, etc.) have been added to the following forms for clarity:
 
-+ Policy
+* Policy
   Update Form: Break Rules
-+ Policy
+* Policy
   Update Form: Overtime Tab
-+ Policy
+* Policy
   Update Form: Rounding Rules - Scheduled Rounding Tab
-+ Policy
+* Policy
   Update Form: Rounding Rules - Unscheduled Rounding Tab
-+ Shift
+* Shift
   Differential Form: Differential Pay Tab
-+ Department
+* Department
   update form: Differential Pay Tab
-+ Job
+* Job
   Update Form: Premium Pay Tab
-+ Task
+* Task
   Update Form: Premium Pay Tab
 
-* The Policy
+- The Policy
   Update Form will now prompt users to set the Shift Differential Pay
   Method after Shift Differentials are added to the policy.
-* The System
+- The System
   Wide Date Format can now be changed from the Cosmetic Options Tab
   on the Company Update Form. Supported formats are listed below with
   examples.
 
 | Date Format | Appearance |
-| mm/dd/yyyy |  |
-| dd/mm/yyyy |  |
-| yyyy/mm/dd |  |
-| yyyymmdd |  |
+| mm/dd/yyyy | |
+| dd/mm/yyyy | |
+| yyyy/mm/dd | |
+| yyyymmdd | |
 
-* The System
+- The System
   Wide Time Format can now be changed from the Cosmetic Options Tab
   on the Company Update Form. Supported formats are listed below with
   examples.
 
 | Time Format | Appearance |
-| hh:mm tt |  |
-| HH:mm |  |
-| hh:mm |  |
+| hh:mm tt | |
+| HH:mm | |
+| hh:mm | |
 
-* The
+- The
   Window Skin can be altered from the Cosmetic Options Tab on the Company
   Update Form. Supported skins are listed below with example images
   to show their appearance.
 
 | Skin Name | Appearance |
-| Vista |  |
-| Black |  |
-| Default |  |
-| Forest |  |
-| Hay |  |
-| Office 2007 |  |
-| Outlook |  |
-| Simple |  |
-| Sunset |  |
-| Telerik |  |
-| Web20 |  |
-| WebBlue |  |
+| Vista | |
+| Black | |
+| Default | |
+| Forest | |
+| Hay | |
+| Office 2007 | |
+| Outlook | |
+| Simple | |
+| Sunset | |
+| Telerik | |
+| Web20 | |
+| WebBlue | |
 
 New
 Functionality
 
-* [Support
+- [Support
   for Multiple Recipients](../Messaging_Introduction.md#MultipleRecipients) has been added for Time Off Requests and
   Schedule Change Requests.
-* The Important Dates Report now supports future dates. When running
+- The Important Dates Report now supports future dates. When running
   the Important Dates Report simply ensure the date range includes the
   date of the Important Date(s) you wish the report to display. The
   'To Date' should be a date in the future.
-* [Exceptions can now be assigned
+- [Exceptions can now be assigned
   to policies.](../CH4_Policy_Exceptions.md) This makes it possible to set different exceptions
   for different groups of employees in addition to setting specific
   Exception Thresholds for different groups of employees.
-* [Employee hours
+- [Employee hours
   can now be automatically adjusted for Daylight Savings Time.](../Policy/Overtime.md#DaylightSavings) The
   'Add/Subtract Daylight Savings Hour When Time Changes' check box has
   been added to the General Tab of Overtime Rules Section of the Policy
   Update Form.
-* The Payroll Detail and Payroll Summary Reports now support separate
+- The Payroll Detail and Payroll Summary Reports now support separate
   columns for Regular and Overtime Wages. A brief description of each
   wage related option is provided below.
-* Overtime
+- Overtime
   One Wages - Displays wages for Overtime One Hours.
-* Overtime
+- Overtime
   Two Wages - Displays wages for Overtime Two Hours.
-* Overtime
+- Overtime
   Three Wages - Displays wages for Overtime Three Hours.
-* Overtime
+- Overtime
   Four Wages - Displays wages for Overtime Four Hours.
-* Regular
+- Regular
   Hours Wages - Displays wages for Regular Hours.
-* Wages
+- Wages
   - Displays Total Wages for all Hours Types.
-* The Form Security
+- The Form Security
   Table has been updated to include a 'Required' tab which allows user
   to customize the InfiniTime
   Software by setting fields as required. One possible use of this feature
   is to ensure specific fields are filled out by supervisors when entering
   employees. More information can be found [here.](SoftwareOverview/Modules/User_Interface/FormCompletion/CH2Configuring_Required_Fields.md)
-* "Change
+- "Change
   Schedule" and "Time Off" Requests will now warn the
   user if they make a request more than a year in advance. The user
   must confirm their intentions to submit a Change Schedule or Time
   Off request which will reduce the likelihood of accidental entries
   in the distant future. An example of the warning can be reviewed [here.](../Messaging_Introduction.md#FutureDates)
-* Overtime
+- Overtime
   Pay can now be configured to pay as a Rate, a Percentage of Employee
   Wages, or as an Amount as listed below. Additional Information can
   be found under the [Overtime Settings](../Overtime_Settings.md)
   section of this document.
-* Amount: Employees
+- Amount: Employees
   will be paid a specified dollar amount in addition to their base wage.
-* Percentage
+- Percentage
   of Employee Wage: Employees will be paid an additional percentage
   of their base wage.
-* Rate:
+- Rate:
   Employees will be paid a specified hourly rate.
-* Procedure Security
+- Procedure Security
   Controls have been added to the Company Update Form. It is now possible
   to grant or deny access to the Company Update Form based on Security
   Role.
-* Default Company
+- Default Company
   Update Form Security Settings will grant access only to Administrators
   and Payroll Clerks.
-* A new escort button 'Process Selected
+- A new escort button 'Process Selected
   Payroll Export' has been added which exports a user selected Payroll
   Export when the button is clicked.
-* All
+- All
   reports related to Employee Timecard, Payroll, or other employee information
   can now be sorted by Groups.
-* Dollar
+- Dollar
   Amounts are now associated with Accrual Totals based on the employee's
   Default Wage. Total Accrued Earnings and Total Remaining Earnings
   are calculated as listed below. An [Example
   Report showing Employee Accrual Dollar Amounts](../Reports/Employee_Information/employee_accruals.md) is provided for
   clarity.
-* Total Accrued
+- Total Accrued
   Earnings: Time Accrued for Accrual Period \* Default Wage
-* Total
+- Total
   Remaining Earnings: Remaining Amount for Accrual Period \* Default
   Wage
-* Additional options
+- Additional options
   have been added to the Employee Accruals report for use with Accrual
   Dollar Amounts. Dollar Amounts will only be displayed on the Employee
   Accruals report when these options are enabled. An example report
   can be seen [here.](../Reports/Employee_Information/employee_accruals.md)
-* 'Print
+- 'Print
   Accrued Earnings?' - Prints Total Accrued Earnings on the Employee
   Accruals Report when set to Yes.
-* 'Print
+- 'Print
   Remaining Accrued Earnings?' - Prints Total Remaining Earnings on
   the Employee Accruals Report when set to Yes.
-* The Group Category
+- The Group Category
   has been removed from the left side of the Employee Update Form. [Group Settings](../Employee_Setup/Groups.md) are now located
   on the Settings Tab of the Demographics Category as shown below.
 
 To Access the Group
 Settings:
 
-+ Open
+- Open
   the Employee Table.
-+ Highlight
+- Highlight
   the desired employee and click Change.
-+ Click
+- Click
   on the Settings Tab.
-+ Click
+- Click
   on the Groups Sub Tab.
 
 ![](/img/image-404.png)
 
-* 'Do Not Add
+- 'Do Not Add
   Default Groups to Employee On Insert' has been added as an option
   on the Company Update Form. If this option is checked Default Groups
   will not be automatically assigned to new employees. Users adding
   employees to the InfiniTime
   Application will be required to manually select employee groups.
-* Security Roles
+- Security Roles
   are now prioritized by Class. For security reasons no user may assign
   a Security Role with a higher priority class than their own security
   role. Class priorities are listed below in descending priority (IE:
   Highest - Lowest).
 
-+ Payroll
+* Payroll
   Clerk
-+ Supervisor
-+ Employee
+* Supervisor
+* Employee
 
-* [Premium Pay](../Pay_Premium_Introduction.md) has been added
+- [Premium Pay](../Pay_Premium_Introduction.md) has been added
   as an option for Departments, Jobs, and Tasks. Premium Pay makes it
   possible to define premiums for working in a given Department, Job,
   or Task. Premiums can be configured as an additional dollar amount
   per hour (Amount) , a percent wage increase (Percent), or an alternate
   rate (Rate).
-* Export
+- Export
   Files, such as Employee Information or Department Information, can
   now be emailed by configuring options on the Email Tab of the Export
   Update Form.
-* Activity
+- Activity
   Jobs can now be imported from a comma delimited file by using the
-  Import Tool and selecting '[Activity
-  Job Information File](SoftwareAdministration/ImportExport/Target_Fields_Available_to_be_imported.md#JobImport)' as the file type.
-* Activity
+  Import Tool and selecting ....as the file type.
+- Activity
   Tasks can now be imported from a comma delimited file by using the
   Import Tool and selecting '[Activity
   Task Information File](SoftwareAdministration/ImportExport/Target_Fields_Available_to_be_imported.md#Task Import)' as the file type.
-* Shift
+- Shift
   Assignments can now be imported from a comma delimited file by using
-  the Import Tool and selecting '[Employee
-  Shifts File](SoftwareAdministration/ImportExport/Target_Fields_Available_to_be_imported.md#Shifts)' as the file type.
-* Automated
+  the Import Tool and selecting ... as the file type.
+- Automated
   reports utilize printer drivers to generate reports. When selecting
   a printer for use with automated reports it is important to select
   a printer that is physically attached to the InfiniTime
   Server. A warning will be displayed to inform users that an Image
   Printer such as 'Microsoft XPS Document Writer' cannot be used with
   Automated reports.
-* [Edit Lockout can now be overridden
+- [Edit Lockout can now be overridden
   by security role.](../Policy/Pay_Cycle.md#Lockout) This makes it possible to select security roles
   which are exempt from Edit Lockout. This feature is especially useful
   for payroll clerks who are responsible for checking and editing employee
   timecards after they have been submitted by supervisors. Lockout Override
   makes it possible for supervisors to be locked out of timecards while
   payroll clerks were permitted to edit time as needed.
-* [Support for 'Split Punches
+- [Support for 'Split Punches
   at End of Day' has been added.](../Policy/Pay_Cycle.md#SplitPunches) This makes it possible to split
   punches for overnight employees at the end of each day. It is important
   to note that the time at which the day ends can be changed by setting
   both the Clock In and Clock Out Missed Punch Day Change Times to the
   same time.
-* [Support for arbitrary pay cycles](../Policy/Pay_Cycle.md),
+- [Support for arbitrary pay cycles](../Policy/Pay_Cycle.md),
   or those without consistent dates, has been added through manual entry
   of the Pay Period Start and End Dates. A new option, 'Manual', has
   been added to the Pay Cycle drop down on the Policy Update Form. Selecting
@@ -6666,21 +6674,21 @@ Settings:
 
 ![](/img/image-404.png)
 
-* Employee
+- Employee
   Timecard File and Employee Accrual Totals File Exports now include
   a date range filter which make it possible to export timecard records
   or employee accrual totals for a specific time period.
-* Added
+- Added
   support for Canadian Public Holidays via the '[Employee
   Required to Work](../Dates_Tab.md#RequiredToWork)' option. This option makes it possible to require
   employees to work a certain number of hours over a given number of
   days prior to the Holiday in order to be eligible for the holiday.
-* Added
+- Added
   support for Employee Schedule Based Holidays via the '[Holiday
   Based on Employee's Schedule](../Dates_Tab.md#ScheduleBased)' option. If this option is set to
   Yes the holiday start and end times will automatically be adjusted
   to match the employee's schedule.
-* Altered
+- Altered
   the operation of Average Hours to more accurately match customer needs.
   Average hours can now be set to calculate average hours over a number
   of days prior to the holiday or over a number of work weeks prior
@@ -6700,44 +6708,44 @@ in the average hours calculation. The boxed date indicates the date of
 the holiday. Notice how the 21 Day Average includes the days immediately
 before the date of the holiday that fall during the same week of the holiday.
 
-+ [Days
+- [Days
   off](../CH5_Days_Off.md) can now be scheduled via the Scheduled Days Off Feature.
   Scheduling a day off ensures employees will not receive the Absent
   exception on a day they would typically work.
-+ The Right Click Pop Up Menu in the
+- The Right Click Pop Up Menu in the
   Company and Employee Timecard Tables now have options to [Add
   Scheduled Days Off](../Editing_Exceptions_on_the_Time_Card_Activity.md#DayOff) and to [View
   All Scheduled Days Off](../Editing_Exceptions_on_the_Time_Card_Activity.md#ListDaysOff).
-+ Support for Report Sorting by Employee
+- Support for Report Sorting by Employee
   ID has been added for all reports except those listed below.
 
-- Employee List by Supervisor
-- Employee Profiles
-- Job Daily Summary
-- Job List
-- Job Summary
-- Department Payroll Detail
-- Department Payroll Summary
-- Labor Cost Summary
-- Activity Daily Summary
-- Activity summary
-- Department Daily Summary
-- Company Performance Analysis
-- Day Schedule with Employee Groups
-- Department Performance Analysis
-- Monthly Schedule with Employee
+* Employee List by Supervisor
+* Employee Profiles
+* Job Daily Summary
+* Job List
+* Job Summary
+* Department Payroll Detail
+* Department Payroll Summary
+* Labor Cost Summary
+* Activity Daily Summary
+* Activity summary
+* Department Daily Summary
+* Company Performance Analysis
+* Day Schedule with Employee Groups
+* Department Performance Analysis
+* Monthly Schedule with Employee
   Group
-- System Monitor Configuration
-- Who Is Enrolled
+* System Monitor Configuration
+* Who Is Enrolled
 
-+ A new exception 'Exceeded Accrual' has been added. This exception
+- A new exception 'Exceeded Accrual' has been added. This exception
   occurs when an employee uses more time than was available in their
   Accrual Type. The Exceeded Accrual exception can only be viewed
   on the Employee Exception Detail Report. When using the Employee
   Exception Detail report to view the Exceeded Accrual Exception
   the Date Range should match the Accrual Period for the Accrual
   Type in question.
-+ A new exception 'Approaching Exceeded Accrual' has been added.
+- A new exception 'Approaching Exceeded Accrual' has been added.
   The Approaching Exceeded Accrual exception occurs when an employee
   uses enough accrued time to cross the threshold set for the exception.
   For example if an employee has 40 hours of vacation and the Approaching
@@ -6747,13 +6755,13 @@ before the date of the holiday that fall during the same week of the holiday.
   Exception Detail report to view the Exceeded Accrual Exception
   the Date Range should match the Accrual Period for the Accrual
   Type in question.
-+ Jobs and Tasks can now be specified when Scheduling Skeleton
+- Jobs and Tasks can now be specified when Scheduling Skeleton
   Trained Task Slots on the Schedule Skeleton Chart Window..
 
 Software
 Issues Resolved
 
-* Accrual
+- Accrual
   Expiration Logic has been altered for Accruals with a Calendar Reset
   Type. In prior versions of InfiniTime
   Accruals using the Calendar Reset Type would expire after 365 Days
@@ -6761,66 +6769,66 @@ Issues Resolved
   entered by the user. InfiniTime
   7.06 calculaltes Accrual Expiration for Calendar Reset Type as: Accrual
   Period Ending Date + any expiration period entered by the user.
-* Employee
+- Employee
   Default Jobs and Tasks are now associated with Break Hours inserted
   by Auto Break as intended.
-* Resolved
+- Resolved
   an issue which prevented Other Activity Entries from being imported
   using the Timecard File Type in the Import Tool.
-* Resolved
+- Resolved
   an issue which caused script errors on the Schedule Gannt Chart if
   the user attempted to drag a second schedule entry while changes to
   another record were being saved. It is no longer possible to drag
   a second schedule entry until changes to the first entry are saved.
-* Altered the functionality of the Payroll Export. Timecard records
+- Altered the functionality of the Payroll Export. Timecard records
   will no longer be automatically exported for inactive employees. An
   option, 'Include employees Terminated During the Export Range' has
   been added to the Payroll Export Update Form which will include inactive
   employees if they were terminated during the date range of the payroll
   export.
-* Resolved an issue which caused an extra window to open when accessing
+- Resolved an issue which caused an extra window to open when accessing
   the Electronic Help System from within InfiniTime.
-* The Holiday Deduction Type will default to Timecard if no Accruals
+- The Holiday Deduction Type will default to Timecard if no Accruals
   are configured within InfiniTime.
   The Accruals Deduction type will not be available.
-* Resolved an issue where the Maximum Negative Accrual Warning would
+- Resolved an issue where the Maximum Negative Accrual Warning would
   not display as expected if the user inserted consecutive days of other
   activity.
-* Resolved an issue where the Maximum Negative Accrual Warning would
+- Resolved an issue where the Maximum Negative Accrual Warning would
   not display as expected when employee accrual usage exceeded the maximum
   negative amount.
-* Resolved an issue where Quick Punch could be used to assign Tasks
+- Resolved an issue where Quick Punch could be used to assign Tasks
   to a Timecard record without a Job. A warning is now displayed alerting
   the user that a Job must be selected in order to assign a Task.
-* Resolved an issue where punching out at the end of a working day
+- Resolved an issue where punching out at the end of a working day
   after multiple department transfers will remove Job and Task information
   from the timecard.
-* Resolved an issue where the 'Holiday Starts On' and 'Holiday Ends
+- Resolved an issue where the 'Holiday Starts On' and 'Holiday Ends
   On' settings were required to pay Holiday Hours for any hours worked
   by an employee from 12:00 AM to 1159 PM on the date of the holiday.
   For example, the image below depicts a simple holiday setup. All hours
   worked between 12:00 AM and 11:59 PM on 11/26/09 will be posted to
   the holiday record.
-* Resolved an issue where Quick Assign would permit the user
+- Resolved an issue where Quick Assign would permit the user
   to assign a task to an employee without a job. In order for an employee
   to be assigned a default task they must have a default job.
 
 Hardware
 Issues Resolved:
 
-* The Key Beep
+- The Key Beep
   Feature for the Juno Terminal can now be enabled or disabled as intended.
   This item only applies to new Juno Terminals as the issue was hardware
   related.
-* The default External
+- The default External
   Wiegand String for the Thor has been altered to provide support for
   Site Codes.
-* External Wiegand
+- External Wiegand
   Reader Settings can now be configured from within the InfiniTime Application for the Athena.
-* The default External
+- The default External
   Wiegand String for the Athena has been altered to provide support
   for Site Codes.
-* Resolved an issue with sending Employee Timecards to the Thor terminal
+- Resolved an issue with sending Employee Timecards to the Thor terminal
   which caused updates to take several hours under certain conditions.
 
 ### InfiniTime 7.06a
@@ -6831,31 +6839,31 @@ Software from 7.06 to 7.06a are listed below.
 
 Software Issues Resolved
 
-* It is no longer necessary to enter
+- It is no longer necessary to enter
   the CAPTCHA code twice in order to login to an InfiniTime
   Database with multiple companies.
-* An issue has been resolved which
+- An issue has been resolved which
   caused the Report Library to close when exporting a report that was
   also configured to Print a Preview.
-* An issue has been resolved which
+- An issue has been resolved which
   caused the Report Library to close when sending a report via email
   that was also configured to Print a Preview.
-* The Reader Address Field for TCP/IP
+- The Reader Address Field for TCP/IP
   Schlage Hand Readers is now user editable. This feature provides support
   for the New  Handpunch 2000 Bios released by Schalge.
-* Issues leading to script errors
+- Issues leading to script errors
   in the Employee Module when Accruals have not been configured in the
   database have been resolved.
-* An issue has been resolved which
+- An issue has been resolved which
   prevented the Poll From File Selection window from displaying when
   attempting to Force Poll a clock set as the 'File' communication Type.
-* Cosmetic Options such as Date and
+- Cosmetic Options such as Date and
   Time Format now have default values, preventing these options from
   being blank which can lead to script errors.
 
 Hardware Issues Resolved
 
-* InfiniTime
+- InfiniTime
   7.06a includes support for the new  Schlage HP2000 Bios. It should
   be noted that the Reader Address must be set to 1 for TCP/IP HP 200
   Readers with the New Schlage Bios.
@@ -6946,7 +6954,7 @@ Save makes editing employee timecards comparable to working with a spreadsheet.
 Saving
 Changes to a Single Timecard Record
 
-* If
+- If
   there is only a single record for the selected date range, focus must
   be removed from the record before any changes will be saved. In the
   example below, an employee missed a punch on the first day of a pay
@@ -6954,7 +6962,7 @@ Changes to a Single Timecard Record
 
 ![](/img/image-404.png)
 
-* In
+- In
   Line Edit refers to entering changes directly in the timecard record.
   Use tab to move the cursor to the Out Date field and set the desired
   date. Then use Tab again to move the cursor to the Out Time field
@@ -6963,14 +6971,14 @@ Changes to a Single Timecard Record
 
 ![](/img/image-404.png)
 
-* Once
+- Once
   the desired values have been entered, press the Down Arrow Key. If
   Delayed Save is disabled the change will be saved immediately and
   the hour totals will display.
 
 ![](/img/image-404.png)
 
-* If
+- If
   Delayed Save is enabled the Save Button will display. Click on the
   Save button to save the changes and calculate hour totals.
 
@@ -7017,40 +7025,40 @@ outlined below.
 Exporting
 Employee Clock ID and Passwords
 
-* Login to
+- Login to
   the Manager Module as an Administrator
-* Click on
+- Click on
   Tools - Import and Export - Export
-* Click Insert
+- Click Insert
   to Create a New Export Definition
-* Enter Clock
+- Enter Clock
   ID Verification as the Export Structure Description
-* Enter CLOCKID.CSV
+- Enter CLOCKID.CSV
   as the Comma-Separated File to Export
-* Check the
+- Check the
   Insert Header Record Option
-* Check the
+- Check the
   Empty Destination file before export option
-* Click on
+- Click on
   the Map Destination Fields Tab
-* Type 'id'
+- Type 'id'
   in the left search field and click Search
-* Highlight
+- Highlight
   the Employee Login ID Field and click the right arrow button (>)
   to map the field
-* Type 'Clock'
+- Type 'Clock'
   in the left search field and click Search
-* Highlight
+- Highlight
   the Employee Clock ID field and click the right arrow button (>)
   to map the field
-* Highlight
+- Highlight
   the Employee Clock Password Field and click the right arrow button
   (>) to map the field
-* Click OK
+- Click OK
   to save the Export Definition
-* A new window
+- A new window
   will open and prompt you to download the export file
-* Open the
+- Open the
   Export File with Excel and review the Clock ID and Clock Password
   for each employee. All values should be numeric. If alphanumeric Clock
   IDs or Passwords are found, they should be set to a numeric value.
@@ -7085,14 +7093,15 @@ Clients](../ClientInstall_OffSite.md)
 
 New Software Functionality
 
-* Thor, Juno,
+- Thor, Juno,
   Luna, Athena, and Zephyr Terminals now take grace periods into account
   when determining lockout schedules. Currently, the lockout window
   is calculated as follows:
 
 Schedule Start Time
+
 - Clock In On Time Grace Period - Clock In Early Grace Period = Start
-of Lock Out Window
+  of Lock Out Window
 
 IE:     8:00
 AM                  -
@@ -7116,15 +7125,15 @@ Out Late Grace Period are defined. InfiniTime
 Hardware Lockout, at this time hardware lockout functions as detailed
 above.
 
-* Employee Alternate
+- Employee Alternate
   Badges can now be imported using the Import Tool.
-* When adding
+- When adding
   a new company to a multi-company database, it is no longer necessary
   to keep a copy of the report files in the ImportReports directory.
   Report Files will now be automatically copied from the first company.
   This also makes it possible to insert Custom Reports and Report Categories
   in the first company, which will be copied to new companies.
-* A warning will
+- A warning will
   be displayed after upgrading to 7.06c prompting users to activate
   their software. This warning will be displayed each time a user logs
   into the InfiniTime
@@ -7133,61 +7142,61 @@ above.
   found [here.](../INSTCH8_Initial_Activation_Exising_Customer_with_HASP_Keys.md)
   For new customers with software license keys, instructions for activation
   can be found [here.](../INST_CH8_Initial_Software_Activation.md)
-* Due to the
+- Due to the
   significant increase in performance and user friendly spreadsheet-like
   nature of the Timecard while Delayed Save is enabled, all new installations
   will have Delayed Save on Timecard enabled by default. If the customer
   wishes to use the traditional timecard where changes are saved each
   time a record is altered, the 'Delayed Save On Timecard Editors' company
   option must be unchecked.
-* Placing Serverdown.txt
+- Placing Serverdown.txt
   in the Program File Location now allows access from Localhost shortcuts.
   All other attempts to access the InfiniTime
   Software, such as from client machines, will be denied. This functionality
   is useful for Software Administrators who wish to take a backup while
   ensuring no clients are accessing the application.
-* The Employee
+- The Employee
   Update Form now displays the name of the employee being edited in
   the Title Bar of the window for each category on the left side of
   the form such as Accrual Totals, Badge Numbers, Benefits, etc.
-* The Policy
+- The Policy
   Update Form now displays the name of the policy being edited in the
   Title Bar of the window for each category on the left side of the
   form such as Break Rules, Exceptions, General etc.
-* The Reader
+- The Reader
   Address Update Form now displays the Reader Description of the reader
   being edited in the Title Bar of the window for each category on the
   left side of the form such as Available Activity Types, Available
   Departments, Bell Schedules, etc.
-* 'Week Before
+- 'Week Before
   Last' is now an available Date Range for the InfiniTime
   7 Software Application.
-* The Supervisor
+- The Supervisor
   Field, a required field on the Employee Update Form, will now be set
   to 'System Administrator'  for the System Administrator employee
   by the Installation. This will ensure new users do not receive warnings
   regarding entering a value in the Supervisor field when viewing the
   System Administrator Employee record for the first time.
-* The length
+- The length
   of the Employee and Supervisor Message Fields on the Timecard Reports
   have been expanded to 255 Characters.
-* [A
+- [A
   New Option, Print Footer, has been added to the In And Out Board Report.](../Reports/Employee_Information/In___Out_Board.md#Footer)
   When enabled, a Footer will be displayed at the bottom of the report
   indicating the total number of employees that are Clocked In and Clocked
   Out. A Sub Footer is also displayed for each Department, Job, Task,
   and / or Supervisor when the report is grouped by Department, Job,
   Task, Group, or Supervisor.
-* The Schedule
+- The Schedule
   Skeleton Window no longer displays Inactive Employees.
-* For clarity
+- For clarity
   purposes, In and Out Board functionality has been altered to display
   a Red X rather than a Green Check Mark for employees that have no
   timecard activity.
-* User Input
+- User Input
   for Default Field Settings on the Security Procedure Form is now validated
   for proper length and data type.
-* Escort Windows designed by users within the InfiniTime
+- Escort Windows designed by users within the InfiniTime
   Application can now be exported to a file which can be transferred
   to other InfiniTime
   Server's and imported.
@@ -7197,7 +7206,7 @@ you would like to share with other InfiniTime
 users? After upgrading to 7.06c, export your Escort and email the .ESB
 File to:
 
-[EscortSubmission@InfiniTime.com](EscortSubmission@InfiniTime.com "Submit an Escort by Email")
+[EscortSubmission@Infinitime.com](mailto:EscortSubmission@Infinitime.com)
 
 Submitted
 Escorts will be reviewed and compiled into a collection to be made available
@@ -7206,14 +7215,14 @@ for InfiniTime 7.08.
 
 Installation Changes
 
-* A
+- A
   USB Driver for the USB to Serial Converter device sold by Inception
   Technologies is now installed during installation and update of the
   InfiniTime Application.
   The USB to Serial Converter is used for [USB
-  Communication with Juno Readers](../Juno_Direct_Connection_(USB).md) and [USB
-  communication with Zephyr Readers.](../CH23_HRDW_Zephyr_Direct_Connect_(USB).md)
-* Microsoft
+  Communication with Juno Readers](<../Juno_Direct_Connection_(USB).md>) and [USB
+  communication with Zephyr Readers.](<../CH23_HRDW_Zephyr_Direct_Connect_(USB).md>)
+- Microsoft
   Windows Server 2008 R2 x64\*\* is now listed as a supported operating
   system. In order to provide support for Windows Server 2008 R2 the
   InfiniTime 7 Installer
@@ -7221,32 +7230,32 @@ Installation Changes
   these items are removed manually by Server Administrators the InfiniTime Application will cease
   to function:
 
-+ ASP.NET 1.1
-+ ASP.NET
+* ASP.NET 1.1
+* ASP.NET
   1.1 SP1
-+ ASP.NET
+* ASP.NET
   1.1 Security Patches
 
-*\*\*Note:*
+_\*\*Note:_
 Pre-Install and Post Install instructions are identical for Windows Server
 2008 R2 and Windows Server 2008. Refer to the Windows 2008 Server installation
 instructions for both Windows Server 2008 R2 and Windows Server 2008.
 
-* A
+- A
   [client
   installer](../CH5_ClientInstall_Overview.md) which prepares a machine for remotely accessing the
   InfiniTime Application
   is now available on the InfiniTime
   FTP Site:
-* [ftp://www.infinitime.com/public/InfiniTime/ClientInstall/](ftp://www.infinitime.com/public/InfiniTime/ClientInstall/ "InfiniTime Client Install")
-* The InfiniTime 7.06c
+- [ftp://www.infinitime.com/public/InfiniTime/ClientInstall/](ftp://www.infinitime.com/public/InfiniTime/ClientInstall/ "InfiniTime Client Install")
+- The InfiniTime 7.06c
   Update installer alters C:\Windows\Microsoft.NET\Framework\v2.0.50727\CONFIG\machine.config
   to set the deployment retail attribute to True. This setting disables
   background processing for debugging purposes and can result in increased
   software performance.
-* Due to Software Licensing Changes, an available USB Port is no
+- Due to Software Licensing Changes, an available USB Port is no
   longer listed as a hardware requirement.
-* Minimum Requirements for the InfiniTime
+- Minimum Requirements for the InfiniTime
   Software have been raised as performance issues have been verified
   when using Windows XP Machines with less than 2GB of RAM. Minimum
   software requirements have been raised to 2GB of RAM. Customers who
@@ -7255,7 +7264,7 @@ instructions for both Windows Server 2008 R2 and Windows Server 2008.
 
 Software Architecture Changes
 
-* In order to reduce
+- In order to reduce
   customer costs and offer competitive pricing the HASP Key used for
   Licensing the InfiniTime
   Application has been eliminated. A hardware HASP Key will no longer
@@ -7266,7 +7275,7 @@ Software Architecture Changes
 For
 more details, read about the [InfiniTime Software Licensing Solution.](../InfiniTime_Software_Licensing_-_Index.md)
 
-* The Software Licensing
+- The Software Licensing
   Solution replaces the HASP Key hardware licensing solution for new
   InfiniTime Orders.
   Elimination of the USB HASP Key removes the requirement of a USB Port
@@ -7280,170 +7289,170 @@ more details, read about the [InfiniTime Software Licensing Solution.](../Infini
 
 Software Issues Resolved
 
-* The Date Read and Time Read fields on the
+- The Date Read and Time Read fields on the
   Incoming Messages grid now fill as intended when a Message of the
   Note Type is viewed for the first time.
-* Resolved an issue where the user interface
+- Resolved an issue where the user interface
   did not recognize dates with a day value of 13 or higher when the
   System Date format was set to dd/mm/yyyy
-* Resolved an issue where the Schedule Grid
+- Resolved an issue where the Schedule Grid
   on the Shift Update Form did not update properly when moving from
   day to day with the previous day or next day buttons.
-* Resolved an issue where a javascript error
+- Resolved an issue where a javascript error
   would occur when attempting to delete a schedule record on the Default
   Schedule Tab of the Employee Valid Telephone Number Update Form. This
   issue only occurred for customers with the Telephone Punch Module.
-* Autofill now functions with the '-Disable
+- Autofill now functions with the '-Disable
   Security Filters for Timecard Activity Selections' company option.
   When this feature is enabled, auto fill for the Department Field in
   the Timecard can be used for any department and will not be restricted
   by the settings on the supervisor's security filter.
-* Fixed a typographical error on the Required
+- Fixed a typographical error on the Required
   Field Warning Dialog box. The warning now displays 'The Following
   Errors were found' instead of 'The Following Errors where found'
-* The date format, yyyyMMdd was removed due
+- The date format, yyyyMMdd was removed due
   to compatibility issues. This System Date Format is no longer supported
   by InfiniTime.
-* Resolved an issue where Script Errors would
+- Resolved an issue where Script Errors would
   occur when attempting to remove the Task Field from the In & Out
   Board Using the Select Grid Columns Button.
-* Resolved an issue where Script Errors would
+- Resolved an issue where Script Errors would
   occur when using the dd/mm/yyyy System Date Format and attempting
   to set the Reference Date Field on the Default Schedule Tab of the
   Department Valid Telephone Number Update Form to a Default Value.
-* Resolved an issue where Script Errors would
+- Resolved an issue where Script Errors would
   occur when using the dd/mm/yyyy System Date Format and attempting
   to set the Reference Date Field on the Default Schedule tab of the
   Shift Update Form to a Default Value.
-* Script Errors will no longer occur when
+- Script Errors will no longer occur when
   closing the Employee Update Form before the form was fully loaded
   after altering the Security Filter for an employee.
-* Resolved an issue where dates with a Day
+- Resolved an issue where dates with a Day
   Value of 13 or Higher are considered invalid date formats by the User
   Interface when using the dd/mm/yyyy System Date Format.
-* Resolved an issue where the Previous Day
+- Resolved an issue where the Previous Day
   and Next Day Buttons did not update the Schedule Grid to display the
   appropriate schedule for the highlighted tab when working with Custom
   Schedule Cycles.
-* Base Amounts are no longer cleared from
+- Base Amounts are no longer cleared from
   Accrual Period to Accrual Period as employees move from one accrual
   type to another.
-* Resolved an issue where the Incoming Messages
+- Resolved an issue where the Incoming Messages
   Grid did not display results when searching for the name of an employee,
   even if messages had been received from the employee.
-* Resolved an issue which caused the Save
+- Resolved an issue which caused the Save
   Grid Button on the In & Out Board not to function.
-* Resolved an issue which caused the Print
+- Resolved an issue which caused the Print
   Button on the In & Out Board Grid not to function.
-* Resolved an issue with Shift Based Payroll
+- Resolved an issue with Shift Based Payroll
   Exports where only one department would be exported if employees worked
   in Multiple Departments that were not associated with a Shift Differential.
-* Resolved an issue where the 'PGP Encrypt
+- Resolved an issue where the 'PGP Encrypt
   File' option on the Export Update Form and the Import Update Form
   controlled the display of the Schedule Auto Export Tab rather than
   the PGP tab. The Schedule Auto Export Tab is now always displayed,
   while the PGP Tab is now properly hidden based upon the value of the
   PGP Encrypt File option.
-* Grid Column Settings for the Use Schedule
+- Grid Column Settings for the Use Schedule
   Skeleton Window now save when the Schedule Button is clicked. This
   allows Fields such as the Hire Date and Phone Number to be hidden
   from view.
-* The Day Before Holiday Must be Worked Option
+- The Day Before Holiday Must be Worked Option
   now properly recognizes a Holiday with an Other Activity Type set
   to 'Count as Day Worked' as a worked day. This allows holidays to
   occur on consecutive days with use of the 'Day Before Holiday Must
   be Worked' option.
-* Resolved an issue with Split Punch at End
+- Resolved an issue with Split Punch at End
   of Day where punches would not properly split if employees had an
   unpaid or paid break before Midnight on a night where they worked
   over Midnight. In this scenario, the end of day was set to Midnight.
-* Resolved an issue with Split Punch at End
+- Resolved an issue with Split Punch at End
   of Day where punches would not properly split if employees had an
   unpaid or paid break before the end of day on a night where they worked
   over the end of day. In this scenario, the end of day was set to a
   value other than Midnight, such as 2:00 AM.
-* Resolved an issue where all open windows
+- Resolved an issue where all open windows
   would close when Clicking Cancel from the Map Destination Fields Tab
   of the Import Update Form.
-* Script errors no longer occur in the Company
+- Script errors no longer occur in the Company
   Timecard Table if the user attempts to use the Employee Search Field
   while the Date Range is set to custom and the From Date Field has
   been blanked out.
-* Script errors no longer occur in the Company
+- Script errors no longer occur in the Company
   Timecard Table if the user attempts to use the Employee Search Field
   while the Date Range is set to custom and the To Date Field has been
   blanked out.
-* The Incoming Messages Grid Configuration
+- The Incoming Messages Grid Configuration
   Window is now properly sized by the Safari Web Browser.
-* Tag / UnTag / Tag All / UnTag All Buttons
+- Tag / UnTag / Tag All / UnTag All Buttons
   are now properly displayed on the Pay Type and Pay Method Filter Tabs
   of the Range Selections Tab on the Payroll Export Employee Filter
   Update Form.
-* Resolved an issue which caused the Safari
+- Resolved an issue which caused the Safari
   Web Browser to crash when attempting to perform any payroll export.
-* Resolved an issue which caused a script
+- Resolved an issue which caused a script
   error when clicking on the Lookup Button for the Security Role Field
   on the Employee Update Form when logged in as an employee assigned
   to a security role with the 'Payroll Clerk' class.
-* Resolved an issue with Lockout Override
+- Resolved an issue with Lockout Override
   where Quick Punch could not be used during a period that was locked
   out when logged in as a user assigned to a security role listed in
   the Lockout Override Roles list. Quick Punch can now be used as intended
   by users assigned to security roles listed in the Lockout Override
   Roles list.
-* Resolved an issue with the Split Punches
+- Resolved an issue with the Split Punches
   At End of Day feature where InfiniTime
   attempted to insert split punches even if a punch already existed
   at the end of day time. This issue caused deadlock errors and stopped
   punches from polling and posting for the employee(s) with a punch
   at the end of day time.
-* Resolved an issue where the Review Button
+- Resolved an issue where the Review Button
   in the Timecard Table would not properly review Absent Exceptions
   during the date range selected for review.
-* Resolved an issue where the 'Alert When
+- Resolved an issue where the 'Alert When
   Unreviewed Exceptions are Found for Exported Employees' payroll export
   option would display a warning for reviewed Tardy, Early Departure,
   or Absent exceptions occurring during a pay period. The warning will
   no longer be displayed for these exceptions when they are properly
   reviewed.
-* Resolved an issue where the Missing Break
+- Resolved an issue where the Missing Break
   Exception occurred on days with only Other Activity Hours of an Other
   Activity Type set to Count As Regular Hours. The Missing Break Exception
   will no longer occur under this condition.
-* Resolved an issue which caused the Missing
+- Resolved an issue which caused the Missing
   Break Exception not to trigger according to the set Threshold as expected.
-* Resolved an issue where the Report Selection
+- Resolved an issue where the Report Selection
   Criteria Update form was not sized properly under certain conditions
   causing the Misc. Selections Tab to be unaccessible.
-* Resolved an issue which disabled the ability
+- Resolved an issue which disabled the ability
   to backspace text typed into the Message Field of the Message Database
   Update form for Internet Explorer 8 and Safari.
-* Resolved an issue which disabled the ability
+- Resolved an issue which disabled the ability
   to backspace text typed into the Employee Message Field of the Employee
   Update form for Internet Explorer 8 and Safari.
-* Resolved an issue where the Tag Buttons
+- Resolved an issue where the Tag Buttons
   are not displayed on the Pay Method and Pay Type tabs of the Misc
   Selections Tab on the Report Update Form.
-* The duplicate checking tab of the Import
+- The duplicate checking tab of the Import
   Update Form now displays the Tag, Tag, Untag, Tag All, and Untag All
   buttons as intended.
-* Resolved an issue which caused HTTP 404
+- Resolved an issue which caused HTTP 404
   errors when attempting to access the various categories on the left
   side of the Policy Update Form as a supervisor with View Only Rights.
-* Resolved an issue which caused HTTP 404
+- Resolved an issue which caused HTTP 404
   errors when attempting to access the various categories on the left
   side of the Reader Address Update Form as a supervisor with View Only
   Rights.
-* Resolved an issue which caused HTTP 404
+- Resolved an issue which caused HTTP 404
   errors when attempting to access the various categories on the left
   side of the Employee Update Form as a supervisor with View Only Rights.
-* Resolved an issue which caused the Report
+- Resolved an issue which caused the Report
   Selection Criteria Update form to be displayed improperly when using
   the Quick Print Button on an Escort.
-* The Audit Description Update Form will
+- The Audit Description Update Form will
   now close as intended when the OK button is clicked after entering
   a reason for editing the timecard.
-* Resolved an issue where the Lookup Button
+- Resolved an issue where the Lookup Button
   would not properly save the selected item when setting a Default Value
   for the Security Role Field on the Default Tab of the Form Security
   Table for the Employee Update Form.
@@ -7451,137 +7460,137 @@ Software Issues Resolved
 Identified and resolved typographical errors
 in the Builddb Log File. The following items were identified:
 
-* \*\*\*A
+- \*\*\*A
   will no longer display after 'Moving Table Spaces'
-* \*\*\*
+- \*\*\*
   Deletetd All Foreign Keys Successfully \*\*\* has been corrected to \*\*\*
   Deleted All Foreign Keys Successfully \*\*\*
-* \*\*\*
+- \*\*\*
   Deletetd All Procedures Successfully \*\*\* has been corrected to \*\*\*
   Deleted All Procedures Successfully \*\*\*
-* \*\*\*
+- \*\*\*
   Deletetd All Functions Successfully \*\*\* has been corrected to \*\*\*
   Deleted All Functions Successfully \*\*\*
-* \*\*\*
+- \*\*\*
   Deletetd All Functions Successfully \*\*\* has been corrected to \*\*\*
   Deleted All Functions Successfully \*\*\*
-* \*\*\*
+- \*\*\*
   Deletetd All Views Successfully \*\*\* has been corrected to \*\*\* Deleted
   All Views Successfully \*\*\*
-* \*\*\*
+- \*\*\*
   Deletetd All Packages Successfully \*\*\* has been corrected to \*\*\* Deleted
   All Packages Successfully \*\*\*
-* \*\*\*
+- \*\*\*
   Deletetd All Tables Successfully \*\*\* has been corrected to \*\*\* Deleted
   All Tables Successfully \*\*\*
-* \*\*\*
+- \*\*\*
   Deletetd All Sequencers Successfully \*\*\* has been corrected to \*\*\*
   Deleted All Sequencers Successfully \*\*\*
-* Resolved
+- Resolved
   an issue which caused the Bell Schedule Update Form to display Sunday
   Bell Schedules on the tab labeled 'Sat'. Bell Schedules set for Saturday
   will now display on the 'Sat' tab as expected.
-* Resolved
+- Resolved
   an issue which caused Escort Windows created in 7.05j to display improperly
   after upgrading to 7.06. Symptoms include:
-* Blank Escort
+- Blank Escort
   Design
-* Missing Buttons,
+- Missing Buttons,
   Tabs, and Labels on the Escort Design Form
-* Resolved
+- Resolved
   an issue where Consecutive Day Overtime Hours did not calculate properly
   when a gap in consecutive working days crossed the Start of Week.
-* Resolved
+- Resolved
   an issue where attempts to use an Other Activity Type set to Deduct
   From an Accrual Type would be denied if the Carry Over Setting was
   enabled and did not have an expiration date set.
-* Resolved
+- Resolved
   an issue which caused the Tag, Untag, Tag-All, and Un-Tag All Buttons
   to be absent from the Duplicate Checking Tab of the Import Update
   Form.
-* Resolved
+- Resolved
   an issue which caused Daily Totals and the Date Field to be blank
   for the Timecard Detail and Timecard Detail with Weekly Totals Reports
   when multiple group levels were present in the database.
-* Resolved
+- Resolved
   an issue which caused Daily Totals and the Date Field to be blank
   for the Timecard Detail and Timecard Detail with Weekly Totals Reports
   when no group levels were present in the database.
-* Resolved
+- Resolved
   an issue which caused Available Accrual Hours to calculate improperly
   when a base amount is entered such that Base Amount + Accrued Time
   > Stop At Amount. Available Accrual hours will now calculate properly
-  even if Base Amount + Accrued Time > Stop At Amount. It is important
-  to note that manually entered base amounts can result in Available
-  Accrual Hours that are greater than the stop Amount.
-* Resolved
+  > even if Base Amount + Accrued Time > Stop At Amount. It is important
+  > to note that manually entered base amounts can result in Available
+  > Accrual Hours that are greater than the stop Amount.
+- Resolved
   an issue which caused the Message Database Update Form, as called
   from the Escort Button "Time Off Request Update Form", to
   display 'Approve' and 'Decline' buttons which permitted employees
   to approve and deny their Time Off Requests.
-* Resolved
+- Resolved
   an issue which permitted employees to access the Approve and Decline
   Buttons when sending a Schedule Change Request from the Employee Module.
   It is no longer possible for employees to approve their own schedule
   change requests.
-* Resolved
+- Resolved
   an issue which permitted employees to access the Approve and Decline
   Buttons when sending a Time Off Request from the Employee Module.
   It is no longer possible for employees to approve their own Time Off
   Requests.
-* Resolved
+- Resolved
   an issue where the Use Schedule Skeleton Window did not correctly
   filter employees according to task in certain scenarios.
-* Resolved
+- Resolved
   an issue where the 'Hire Date Plus' accrual setting does not function
   when an employee is hired in the last 360 days and the first calculation
   of accrual hours occurs in the next calendar year.
-* Resolved
+- Resolved
   an issue where Employee Punches were not posted correctly when the
   Reader Drop Down was used to select a different reader than the initially
   selected reader or when set to 'All'.
-* Resolved
+- Resolved
   an issue which prevented Employee Pictures from being imported on
   the Employee Update Form.
-* Resolved
+- Resolved
   an issue where all group levels in a multi-company database were displayed
   on the Quick Assign Form under certain conditions.
-* Resolved
+- Resolved
   an issue which caused a script error upon opening the Report Library
   under certain conditions: "String was not recognized as a Valid
   Date Time."
-* Resolved
+- Resolved
   an issue which caused errors to occur when updating the Juno Timeclock
   under certain conditions.
-* Resolved
+- Resolved
   an issue where Scheduled Payroll Exports would not export detail records
   when run automatically by the Housekeeping Service.
-* Resolved
+- Resolved
   an issue which caused the software to display 'Activity Task Description
   is Required' when creating Trained Task Skeleton Schedules even if
   no Jobs or Tasks were present in the database.
-* Resolved
+- Resolved
   an issue which caused the In and Out Board not to display Green Check
   Marks as expected for employees who were clocked in.
-* Resolved
+- Resolved
   an issue which prevented Other Activity Types without the 'Count As
   Regular hours' option enabled from deducting properly from Accrued
   Hours.
-* Resolved
+- Resolved
   an issue which caused Escort Controls such as Images, Labels, Buttons,
   and Hyperlinks to be added to the incorrect tab after viewing a tab
   and returning to the first tab in design view.
-* Resolved
-  an issue which caused an error " 'Rsa\_szPrinterName' has a selectedValue
+- Resolved
+  an issue which caused an error " 'Rsa_szPrinterName' has a selectedValue
   which is invalid because it does not exist in the list of items"
   when attempting to view or change Auto Report Schedules for a saved
   report with Email Addresses defined in the 'Send To' Grid of the Email
   Tab.
-* Resolved
+- Resolved
   an issue which caused Escort Labels to display as a single line even
   if the label is designed with dimensions that caused the text to be
   displayed on multiple lines in Escort Design View.
-* Resolved
+- Resolved
   an issue which prevented audit trail comments entered when editing
   employee timecard records from being saved to the database.
 
@@ -7668,20 +7677,20 @@ to enable the Effective Date Accrual Option. In order to prepare for the
 InfiniTime 7.08 upgrade,
 the following steps must be taken:
 
-* Prior
+- Prior
   to upgrading to InfiniTime
   7.08 the effective date for each Accrual Type should be set to the
   date the organization started using the InfiniTime
   Application to track employee accruals, or when accrued hours were
   last cut over from an outside system using base amounts.
-* For
+- For
   each employee, Base Amounts should be set to reflect the number of
   hours employees had available on the effective date for each accrual
   type such as Sick Time or Vacation Time. In most situations, no actions
   are necessary as Base Amounts were set for employees when switching
   to InfiniTime from
   the prior accrual system.
-* After
+- After
   Upgrading the InfiniTime
   7.08, check Remaining Accrual Hours for each employee using the Employee
   Accruals Report to confirm Employee Accrual Totals are correct.
@@ -7698,7 +7707,7 @@ system used for accrual tracking. For example, the employee below had
 8 hours of Sick Time and 24 Hours of Vacation time carried forward from
 the prior accrual tracking system.
 
-*Employee Accrual Totals on InfiniTime 7.06c*
+_Employee Accrual Totals on InfiniTime 7.06c_
 
 ![](/img/image-404.png)
 
@@ -7723,22 +7732,22 @@ records are not created for accrual periods prior to March 13, 2009 an
 effective date of 03/13/2009 must be set on each accrual calculation used
 by Company XYZ. Steps to set the Effective Date are listed below.
 
-* Login to the
+- Login to the
   Manager Module as an Administrator.
-* Click on Lookups
+- Click on Lookups
   - Calculations Setup - Accrual Types.
-* Select the first
+- Select the first
   Accrual Type in the list and click Change.
-* Click on the
+- Click on the
   Accrual Calculations tab.
-* Select the first
+- Select the first
   Accrual Calculation in the list.
-* Click Change.
-* Enter the Desired
+- Click Change.
+- Enter the Desired
   Effective Date in the Effective Date Field.
-* Click OK to
+- Click OK to
   Save the Changes.
-* Repeat these
+- Repeat these
   steps for each Accrual Calculation on each Accrual Type within the
   software.
 
@@ -7761,14 +7770,14 @@ This option is most appropriate for companies
 who carry over accrued hours from accrual period to accrual period and
 do not own the Accruals Plus Module. The following steps must be taken:
 
-+ Upgrade
+- Upgrade
   to InfiniTime 7.08.
-+ For
+- For
   each employee, Base Amounts should be set to reflect the actual
   number of hours used during each accrual period prior to the date
   the organization switched to InfiniTime
   for tracking Employee Accruals.
-+ After
+- After
   making adjustments to Base Amounts for each employee, check Remaining
   Accrual Hours for each employee using the Employee Accruals Report
   to confirm Employee Accrual Totals are correct.
@@ -7785,7 +7794,7 @@ system used for accrual tracking. For example, the employee below had
 8 hours of Sick Time and 24 Hours of Vacation time carried forward from
 the prior accrual tracking system.
 
-*Employee Accrual Totals on InfiniTime 7.06c*
+_Employee Accrual Totals on InfiniTime 7.06c_
 
 ![](/img/image-404.png)
 
@@ -7855,7 +7864,7 @@ Software. This issue has been resolved. It is recommended that any customers
 using the Juno or Luna Terminals upgrade to InfiniTime
 7.08 to prevent punch loss caused by this issue.
 
- Recommended Update
+Recommended Update
 for Published InfiniTime
 Servers with Remote Clients
 
@@ -7878,27 +7887,27 @@ must include the exact description of the target field. An Example files
 with required fields and appropriate headers is available for each import
 type and can be downloaded from the InfiniTime FTP Site.
 
-* Employee
+- Employee
   File
-* Department
+- Department
   File
-* Employee
+- Employee
   Accrual Totals File
-* Employee
+- Employee
   Groups File
-* Employee
+- Employee
   Shifts File
 
 InfiniTime
 7.08 Known Issues
 
-+ The 'Save Grid As' Feature, which makes
+- The 'Save Grid As' Feature, which makes
   it possible to export grid records from the InfiniTime
   Software to various file formats such as Excel and word cannot
   be used more than once without closing and reopening the window
   in Safari. This issue is related to the Grid Tool used by InfiniTime, which will be updated
   in a future version of the software.
-+ InfiniTime
+- InfiniTime
   users may find that the header columns displaying the Day, Date,
   and Times do not align with schedule records on the Schedule Gannt
   Chart. This issue occurs in Internet Explorer 8 when Compatibility
@@ -7906,7 +7915,7 @@ InfiniTime
   7.08 Users who utilize the Gannt Chart should enable Compatibility
   View for the InfiniTime
   URL.
-+ InfiniTime
+- InfiniTime
   requires specific registry permissions and access rights in order
   to properly license and activate the InfiniTime
   Software. Altering NTFS Permissions associated with InfiniTime or Oracle Registry
@@ -7919,7 +7928,7 @@ InfiniTime
   operating system and not an upgrade such as Windows XP Home Upgraded
   to Windows XP Professional. Additional information can be found
   [here](../CH7_ServerTS_TechInfoError.md).
-+ After installing and using the Safari
+- After installing and using the Safari
   5 for the first time on either the InfiniTime
   Server or a Client Machine, Safari may terminate unexpectedly
   when performing basic actions such as Inserting an Accrual Type,
@@ -7930,11 +7939,11 @@ InfiniTime
 
 New Software Functionality
 
-* InfiniTime now provides
+- InfiniTime now provides
   support for Apple's latest version of Safari, Safari 5.02.
-* Backup Files retrieved from the TimeWolf 4 Application may now
+- Backup Files retrieved from the TimeWolf 4 Application may now
   be restored by InfiniTime.
-* TimeWolf 4 to InfiniTime
+- TimeWolf 4 to InfiniTime
   7 is now a supported upgrade path. It should be noted that moving
   from InfiniTime 7 to
   Timewolf 4 is considered a downgrade and is not supported. Steps and
@@ -7957,24 +7966,23 @@ Upgrading from Timewolf
 
 [6. Verify Imported Data](../INST_CH6_TW4toIT7_5.md)
 
-* In
+- In
   order to make the Timecard User Interface more user friendly, the
   Date Range for Review and Purge will automatically be set to match
   the date range being viewed on the Timecard. For example, while editing
   employee hours for last pay period, if the review button is clicked
   the Review Date Range will be preset to Last Pay Period.
-* In
+- In
   order to make the Timecard User Interface more user friendly, the
   Timecard Table will return to the page the user was viewing rather
   than returning to Page 1 after Recalculate or Review are performed.
   This allows the user to continue editing employee timecards where
   they left off, rather than forcing the user to switch pages on the
   timecard to find where they were.
-* [Schedule
-  Gannt Chart entries](SoftwareAdministration/ImportExport/Target_Fields_Available_to_be_imported.md#EmployeeSchedulesFile) can now be imported from a comma delimited
+- ... can now be imported from a comma delimited
   file by using the Import Tool and selecting 'Employee Schedules File'
   as the file type.
-* Timecard
+- Timecard
   Notes have been added to the Company, Employee, and Employee Module
   Timecards for users with appropriate security rights. Timecard notes
   allow supervisors to enter comments for Punch Pairs. While similar
@@ -7996,30 +8004,30 @@ Timecard Notes](../SW_CH7_Notes_View.md)
 [Timecard
 Notes Report](../SW_CH7_Notes_Report.md)
 
-* The [Attendance
+- The [Attendance
   Review Report](../Reports/Schedule_Reports/attendance_review.md) now has the ability to display a Character for days
   on which employee's had Other Activity.
-* The Title Bar
+- The Title Bar
   for the Employee Update Form will now display 'New Record' when inserting
   a new employee.
-* The Title Bar
+- The Title Bar
   for the Policy Update Form will now display 'New Record' when inserting
   a new policy.
-* The Tile Bar for
+- The Tile Bar for
   the Reader Address Update Form will now display 'New Record' when
   inserting a new Reader Address Record.
-* The Job and Task
+- The Job and Task
   tabs will now be hidden on the Selection Criteria Update Form when
   Quick Printing or creating Saved Reports if there are no Jobs or Tasks
   in the InfiniTime Database.
-* The Group by Job
+- The Group by Job
   Report option will now be hidden on the Report Options Tab for all
   reports with the option if there are no Groups in the InfiniTime Database.
-* The Group by Task
+- The Group by Task
   option will now be hidden on the Report Options Tab for all reports
   with the option if there are no Tasks in the InfiniTime
   Database.
-* When opening InfiniTime
+- When opening InfiniTime
   with Firefox or Safari an extra window is opened which cannot be closed
   by InfiniTime. The
   extra window now displays a notification informing the user the window
@@ -8027,7 +8035,7 @@ Notes Report](../SW_CH7_Notes_Report.md)
 
 ![](/img/image-404.png)
 
-* An additional option, Timecard Review
+- An additional option, Timecard Review
   History, has been added to multiple reports. When enabled, Timecard
   Review history displays a list of supervisors, including Supervisor
   Name, Supervisor Position, and Last Review Time, for each employee
@@ -8039,13 +8047,13 @@ Notes Report](../SW_CH7_Notes_Report.md)
   of an employee's Timecard Records for the selected date range. The
   Timecard Review History Option has been added to the following reports:
 
-+ Timecard
+* Timecard
   Detail
-+ Timecard Detail
+* Timecard Detail
   with Weekly Totals
-+ Timecard With
+* Timecard With
   Clock Description
-+ Timecard With
+* Timecard With
   Phone Numbers
 
 Example
@@ -8053,18 +8061,18 @@ Timecard Detail Report with Timecard Review History:
 
 ![](/img/image-404.png)
 
-* The Insert Button
+- The Insert Button
   on the Company Timecard Table, Employee Timecard Table, and Employee
   Module Timecard Table now properly inserts timecard records with respect
   to the Clock In and Clock Out Missed Punch Day Change Policy Settings
   for employees who work overnight.
-* [Additional functionality
+- [Additional functionality
   has been added to the 'Holiday Based on Employee's schedule' feature](../Dates_Tab.md#ScheduleBased).
   Employees are no longer required to work in order to receive Holiday
   Hours according to their schedule for Holiday Dates configured with
   'Holiday Based on Employee's Schedule' and 'All Worked Hours are Holiday
   Pay' both set to Yes.
-* An additional option, Department Selection Filters Activity, has
+- An additional option, Department Selection Filters Activity, has
   been added to all Timecard Detail and Payroll Reports with the exception
   of the Labor Cost Payroll Summary Report. When enabled, Timecard Activity
   is filtered according to tagged departments. Timecard records will
@@ -8074,11 +8082,11 @@ Timecard Detail Report with Timecard Review History:
 
 Installation Changes
 
-* InfiniTime now provides
+- InfiniTime now provides
   support for Microsoft Windows 7 Professional and Ultimate Editions.
   Windows 7 Professional and Windows 7 Ultimate are supported on both
   32-bit and 64-bit platforms.
-* Due to reports of slower performance on Workstation Machines with
+- Due to reports of slower performance on Workstation Machines with
   Desktop Operating systems such as Windows XP Professional with only
   1GB of RAM, InfiniTime
   7 now requires 2GB of RAM. The InfiniTime
@@ -8087,12 +8095,12 @@ Installation Changes
 
 Software Issues Resolved
 
-* Resolved an issue which permitted users to add more than one Holiday
+- Resolved an issue which permitted users to add more than one Holiday
   on a single date for the same Holiday Type. Attempts to insert more
   than one holiday on a single date will cause a warning to be displayed
   indicating the Employee Holiday Date must be unique and will stop
   the duplicate holiday from being added to the database.
-* Resolved an issue where importing an employee with a Security Role
+- Resolved an issue where importing an employee with a Security Role
   that did not exist in the database led to Script Errors when attempting
   to access various areas within the InfiniTime
   Software such as the Schedule GANNT Chart. The resulting script errors
@@ -8104,20 +8112,20 @@ Software Issues Resolved
   it is likely that the Employee's Security Role was mistyped in the
   import file, resulting in the creation of a new security role with
   Employee Level Security Rights.
-* The 'Change' Right Click Menu Item is no longer available on the
+- The 'Change' Right Click Menu Item is no longer available on the
   Monthly View of the Schedule Gannt Chart. The change button was not
   originally intended for use in this view.
-* InfiniTime Juno
+- InfiniTime Juno
   and Zephyr Terminals now take Scheduled Rounding Grace Periods into
   account when defining time windows during which employees may punch
   in or out when Clock In and / or Clock Out Lockout are enabled.
-* Resolved an issue which caused a Java Script error when right clicking
+- Resolved an issue which caused a Java Script error when right clicking
   on a Timecard Record if the Type Column was hidden in the Timecard
   Grid. The Type Column may now be hidden if desired without issue.
-* Resolved an issue which caused form elements to overlap when the
+- Resolved an issue which caused form elements to overlap when the
   Exceptions Drop down was set to selected on the Selected Exceptions
   Tab of the In & Out Board Filter Update Form.
-* Form Elements such as Field Labels, Increment / Decrement Buttons,
+- Form Elements such as Field Labels, Increment / Decrement Buttons,
   and check boxes are now hidden as intended when their corresponding
   fields are set to hidden for the following forms and fields:
 
@@ -8163,171 +8171,171 @@ Software Issues Resolved
 | Company Update Form | Inactivity Time Out |
 | Company Update Form | User Passwords Expire In |
 
-* Resolved
+- Resolved
   an issue which led to a script error if the Rounding Method was set
   to 'Net Round each Day' on the Policy Rounding Rules Update Form.
-* The
+- The
   Activity Job Description field is no longer displayed on the Select
   Sort Columns Table as called from the Employee Wage Table if there
   are no Activity Jobs present in the TimeWolf Database.
-* The
+- The
   Activity Task Description field is no longer displayed on the Select
   Sort Columns Table as called from the Employee Wage Table if there
   are no Activity Tasks present in the TimeWolf Database.
-* The
+- The
   Activity Job Description field is no longer displayed on the Grid
   Column Selection Table as called from the Employee Wage Table if there
   are no Activity Jobs present in the InfiniTime
   Database.
-* The
+- The
   Activity Task Description field is no longer displayed on the Grid
   Column Selection Table as called from the Employee Wage Table if there
   are no Activity Tasks present in the InfiniTime
   Database.
-* Resolved
+- Resolved
   an issue which prevented the In and Out Board Report from properly
   displaying the Last Punch In and Out Times when the 'Display In and
   Out Times' option was set to Yes. The In and Out Board Report now
   properly displays this information.
-* Resolved
+- Resolved
   an issue with the Attendance Review report where working days were
   incorrectly reported when running the Attendance Review Report for
   a date range spanning multiple months.
-* Resolved
+- Resolved
   an issue with Ignore Duplicate Scan where Duplicate Scans would not
   be recognized and ignored as intended if the employee's Last Punch
   was a Clock In.
-* Resolved
+- Resolved
   an issue which prevented the Quick Punch Update Form from closing
   after clicking OK if the Lookup Button was used to select an Other
   Activity Type.
-* Resolved
+- Resolved
   an issue where a Print Job was not generated for Automated Reports
   without an Export File Name or an Email Address. A print job is now
   properly generated by the InfiniTime
   Housekeeping Service and Automated reports will print to hard copy
   as intended.
-* Resolved
+- Resolved
   an issue where User Defined Fields of the Document Type did not properly
   export from the InfiniTime
   Oracle Database. Documents stored in User Defined Fields can now be
   viewed as intended.
-* Resolved
+- Resolved
   an issue where the Billing Info. Button was displayed on the Company
   Update Form after viewing the Form Security Table for the window.
-* Resolved an issue
+- Resolved an issue
   with the Day Before Holiday Must be Worked Option whereby Holidays
   would not be awarded to employees for two consecutive Holiday Dates
   even if the Holiday Other Activity Type was set to Count as Day Worked.
   InfiniTime now properly
   recognizes the Count As Day Worked Other Activity Option for the Day
   Before Holiday Must be worked option.
-* Resolved an issue
+- Resolved an issue
   with the Day Before Holiday Must be Worked Option whereby holidays
   would not be awarded to employees even if the employee worked on the
   date before the holiday.
-* Resolved an issue
+- Resolved an issue
   with the Day After Holiday Must be Worked Option whereby holidays
   would not be awarded to employees even if the employee worked on the
   date before the holiday.
-* Resolved an issue
+- Resolved an issue
   where reviewing an Other Activity Record using the right click menu
   item 'Toggle Supervisor Review' immediately after editing the Other
   Activity Hours Amount caused the Other Activity Record to be removed
   from the Company Timecard Table.
-* Resolved an issue
+- Resolved an issue
   where closing the Form Security Table, as called from the Form Security
   Key on the Employee Module Timecard Tab, caused a Script Error.
-* Resolved an issue
+- Resolved an issue
   where closing the Browse Security Form, as called from the Form Security
   Key on the Employee Module Timecard Tab, caused a Script Error
-* The InfiniTime User Interface no longer
+- The InfiniTime User Interface no longer
   permits users to add multiple holidays on the same date to a single
   holiday type. The holiday system is not intended to support multiple
   holidays on the same date in this manner.
-* Resolved an issue
+- Resolved an issue
   which caused the Source Grid Fields to not be displayed on the Export
   Update Form for the Activity Job Information File.
-* Resolved an issue
+- Resolved an issue
   which caused the Source Grid Fields to not be displayed on the Export
   Update Form for the Activity Task Information File.
-* A
+- A
   warning will be displayed if the Valid From Date is greater than the
   Valid To Date when adding Employee Alternate Wages using the Employee
   Wage Update Form. The Valid From Date must be less than the Valid
   To Date.
-* Resolved an issue
+- Resolved an issue
   which prevented the VCR fields on the Employee Wage Update form from
   finding records that matched the text entered in the VCR Search Field.
-* Resolved an issue
+- Resolved an issue
   with the Delete Other Activity right click menu item which caused
   the Company and Employee Timecard windows to close. The Software Activation
   warning would then be displayed repeatedly until the software was
   closed if the InfiniTime
   Software had not been activated. The Delete Other Activity right click
   menu item now functions as intended.
-* As a required
+- As a required
   field, Payroll Mapping Codes for Other Activity Types created during
   the Timewolf 3 to InfiniTime
   7 upgrade process will be set to match the Other Activity Type Description.
-* As a required
+- As a required
   field, Payroll Mapping Numbers for Other Activity Types created during
   the Timewolf 3 to InfiniTime
   7 upgrade process will be set to match the Other Activity Type Code
   Number.
-* Resolved an issue
+- Resolved an issue
   where schedules with a custom length of more than seven days were
   not properly displayed on the Schedule Gannt Chart in the Weekly View.
   Multiple lines are no longer displayed for a single record.
-* Resolved an issue
+- Resolved an issue
   which made it possible for employees assigned to a security role without
   the ability to edit security to gain access to the Security Key for
   any form with VCR buttons.
-* Resolved an issue
+- Resolved an issue
   which prevented the Default Button on the Form Security Table from
   functioning for all windows.
-* Resolved an issue
+- Resolved an issue
   which prevented the Tag, Untag, Tag-All, and Un-Tag All buttons from
   displaying as intended on the Pay Type and Pay Method Tabs of the
   In & Out Board Filter Update Form.
-* Resolved an issue
+- Resolved an issue
   which caused the Local Tax Authority Table to be displayed when using
   the VCR Buttons on the Local Tax  Authority Update Form.
-* The red asterisk
+- The red asterisk
   used to indicate required fields that have been left null or with
   data of the wrong format now aligns with the Clock ID Field on the
   Employee Update Form if the field is left blank or an alphanumeric
   value is entered in the field.
-* The red asterisk
+- The red asterisk
   used to indicate required fields that have been left null or with
   data of the wrong format now aligns with the Clock ID Password on
   the Employee Update Form if the field is left blank or an alphanumeric
   value is entered in the field.
-* Resolved an issue
+- Resolved an issue
   which caused a script error and prevented users from saving schedules
   with Valid To and From Dates using the Quick Schedule Form.
-* Resolved an issue
+- Resolved an issue
   which displayed the 'Data Could Not Be Loaded' application error when
   printing the Payroll Detail or Payroll Summary Reports with Overtime
   Hours One Wages, Overtime Hours Two Wages, and Regular Hours One Wages.
-* Resolved an issue
+- Resolved an issue
   which caused the InfiniTime
   Application's ASP.NET session to terminate unexpectedly if a Purge
   Action was performed for a date range with no timecard activity while
   Audit Trail and Delayed Save were both enabled.
-* Resolved an issue
+- Resolved an issue
   where the Activity Job Cost Center Field was not exported for Payroll
   Interfaces of the Shift Activity Export Type. Shift Activity Payroll
   Interfaces export one record for each day per employee for each Department
   / Job / Task and Activity Type / Shift Differential Combination.
-* The
+- The
   Escort Export Button will no longer be displayed on the Escort Settings
   Description Table if there are no Escorts in the Database.
-* Resolved
+- Resolved
   an issue where entering an apostrophe ( ' ) in any Search Field would
   cause a script error. Apostrophe's will now be filtered out of the
   Search Field.
-* Resolved
+- Resolved
   an issue which permitted fields such as the Access Control Group Description
   to be set to required even if they were not present on the Employee
   Update Form. For example, if there are no Groups,  Accruals,
@@ -8335,92 +8343,92 @@ Software Issues Resolved
   the corresponding field was set to required it was not possible to
   close the Employee Update Form. Fields hidden in this manner can no
   longer be set to required.
-* Resolved
+- Resolved
   an issue where Inactive Records were included in the AutoFill results
   for the State Tax Authority Lookup Field. Inactive Records are now
   properly filtered out of the AutoFill Results for the State Tax Authority
   Lookup Field.
-* Resolved
+- Resolved
   an issue where Inactive Records were included in the AutoFill results
   for the Local Tax Authority Lookup Field. Inactive Records are now
   properly filtered out of the AutoFill Results for the Local Tax Authority
   Lookup Field.
-* Resolved
+- Resolved
   an issue which caused a JavaScript error when closing the Browse Security
   Table as called from the Employee Accrual Totals Table.
-* Resolved
+- Resolved
   an issue where the Thor Function Keys were cleared when viewing the
   Reader Address Update Form for a second time after setting up the
   Thor Terminal.
-* Resolved
+- Resolved
   an issue where the Scout Function Keys were cleared when viewing the
   Reader Address Update Form for a second time after setting up the
   Scout Terminal.
-* Resolved
+- Resolved
   an issue which caused the Script Error "'Items' is null or not
   an object" when right clicking on an open area of the Schedule
   Gannt Chart.
-* Resolved
+- Resolved
   an issue with the Employee Security Filter where un-tagging an employee
   without viewing the Department Filter caused a Script Error.
-* For
+- For
   Security Purposes, the Misc. Selections Tab is now hidden for reports
   assigned to the Print Timecard, Print Schedule, and Print Accruals
   Buttons within the Employee Module. This prevents employees from tagging
   Pay Methods or Pay Types to view information for other employees.
-* For
+- For
   Security Purposes, a Pay Method Selected Option was added to the Misc.
   Selections Tab of the Report Selection Criteria Update Form. This
   makes it possible to control the status of the Tag, Tag All, Un-Tag,
   and Un-Tag All buttons on the Pay Methods Tab for each security role.
-* For
+- For
   Security Purposes, a Pay Types Selected Option was added to the Misc.
   Selections Tab of the Report Selection Criteria Update Form. This
   makes it possible to control the status of the Tag, Tag All, Un-Tag,
   and Un-Tag All buttons on the Pay Types Tab for each security role.
-* For
+- For
   Security Purposes, the options listed below on the Report Selection
   Criteria Update Form are always disabled for reports assigned to the
   Print Timecard, Print Schedule, and Print Accruals Buttons within
   the Employee Module. This prevents employees from selecting Departments,
   Jobs, Tasks, Other Activities, and Exceptions.
 
-+ Report Setting Activity Jobs Selected
+* Report Setting Activity Jobs Selected
   Option
-+ Report Setting Activity Tasks Selected Option
-+ Report Setting Departments Selected Option
-+ Report Setting Employees Selected Option
-+ Report Setting Groups Selected Option
-+ Report Setting Other Activities Selected Option
-+ Report Setting Pay Methods Selected Option
-+ Report Setting Pay Types Selected Option
+* Report Setting Activity Tasks Selected Option
+* Report Setting Departments Selected Option
+* Report Setting Employees Selected Option
+* Report Setting Groups Selected Option
+* Report Setting Other Activities Selected Option
+* Report Setting Pay Methods Selected Option
+* Report Setting Pay Types Selected Option
 
 Resolved an Issue with the Picture Column on the Map Destination Fields
 tab of the Import Update Form where the Picture was not displayed properly
 for Time Fields with a Double Digit Hour and Single Digit Minute such
 as 11:04 AM.
 
-* Resolved an Issue with the Picture Column on the Map Destination
+- Resolved an Issue with the Picture Column on the Map Destination
   Fields tab of the Import Update Form where the Picture was not displayed
   properly for Date Fields with a Double Digit Month and Single Digit
   Day such as 11/4/10.
-* Resolved an issue with the Reader Address Update Form where it
+- Resolved an issue with the Reader Address Update Form where it
   was not possible to save changes to a Reader Address Record after
   checking the Poll Time Fixed option used with Daily Polling intervals.
-* InfiniTime 7.08
+- InfiniTime 7.08
   provides increased reliability for remote client sessions subject
   to intermittent Internet connectivity.
-* Resolved an issue in the Company Timecard, Employee Timecard, and
+- Resolved an issue in the Company Timecard, Employee Timecard, and
   Employee Module Timecard which caused an additional record to be displayed
   in the Timecard Table when using In Line Edit to change the date of
   both the In Punch and the Out Punch to another date while the Delayed
   Save Option was enabled.
-* Resolved an issue in the Company Timecard, Employee Timecard, and
+- Resolved an issue in the Company Timecard, Employee Timecard, and
   Employee Module Timecard which caused an additional record to be displayed
   in the Timecard Table when using In Line Edit to change the date of
   both the In Punch and the Out Punch to another date while the Delayed
   Save Option was disabled.
-* Resolved an issue with Punch to Schedule where employees where
+- Resolved an issue with Punch to Schedule where employees where
   punches were not correctly generated, regardless of whether the employee
   punched in during the early, on time, or late Clock In Grace Period,
   for Schedules spanning multiple departments. An example schedule from
@@ -8438,198 +8446,196 @@ AM - 10:00 AM Sales
 10:00
 AM - 4:00 PM Marketing
 
-* Resolved an issue
+- Resolved an issue
   where Paid Break hours were incorrectly counted toward a Shift Differential
   starting at midnight for employees who took a paid break prior to
   midnight when working overnight on the last day of a pay period.
-* Resolved an issue
+- Resolved an issue
   where Late Departure Clock Out Punches for overnight working periods
   were incorrectly flagged as Early Departure.
-* Resolved an issue
+- Resolved an issue
   which caused duplicate Clock IDs and Passwords when initially setting
   the Clock ID and Clock Password field values during the upgrade process
   from a Pre-7.06c InfiniTime
   Installation
-* The Clock ID and Clock Password fields are now populated as intended
-  when upgrading from TimeWolf 3 to InfiniTime
-  7.
-* Resolved an issue where work hours were incorrectly calculated
+- The Clock ID and Clock Password fields are now populated as intended
+  when upgrading from TimeWolf 3 to InfiniTime 7.
+- Resolved an issue where work hours were incorrectly calculated
   for overnight employees punching out between 2:00 AM and 3:00 AM on
   when transitioning from Daylight Savings to Standard Time on the First
   Sunday of November.
-* Resolved an issue where Quick Punch would not insert Employee Timecard
+- Resolved an issue where Quick Punch would not insert Employee Timecard
   or Other Activity records for employees whose full name (First, Last)
   was longer than 80 Characters.
-* Resolved an issue where the errors listed below occurred when updating
+- Resolved an issue where the errors listed below occurred when updating
   the Juno Terminal immediately after the Clear All Data function was
   performed on the Juno Terminal. The Juno terminal can now be updated
   after performing Clear All Data without issue.
-* 'Error Deleting User ID *Employee
-  Clock ID* from reader *Reader Description'*
-* *'*Error: Error Deleting
+- 'Error Deleting User ID _Employee
+  Clock ID_ from reader _Reader Description'_
+- *'*Error: Error Deleting
   User ID When No Biometric Information on send of Juno Employee Information
-  for *Reader Description*'
-* The Original Schedule is now removed from the Schedule Gannt Chart
+  for _Reader Description_'
+- The Original Schedule is now removed from the Schedule Gannt Chart
   as intended when scheduling a Day Off for a Day Time Schedule with
   the 'Only For Schedules that Start and End on Day Off' option checked.
   This caused multiple Scheduled Day Off records to be listed on the
   Schedule Gannt Chart, and if the schedules overlapped, caused multiple
   lines on a single day.
-* The Original Schedule is now removed from the Schedule Gannt Chart
+- The Original Schedule is now removed from the Schedule Gannt Chart
   as intended when scheduling a Day Off for an Over Night Schedule with
   the 'Only For Schedules that Start and End on Day Off' option unchecked.
   This caused multiple Scheduled Day Off records to be listed on the
   Schedule Gannt Chart.
-* Resolved an issue where schedule related exceptions such as Early,
+- Resolved an issue where schedule related exceptions such as Early,
   Tardy, Early Departure, and Late Departure were incorrectly generated
   for overnight working periods.
-* Resolved an issue which led to a script error stating "The
+- Resolved an issue which led to a script error stating "The
   End argument has to be greater then the start argument." on the
   Schedule Gannt Chart under certain conditions.
-* Resolved an issue which prevented users from Deleting Bell Schedules
+- Resolved an issue which prevented users from Deleting Bell Schedules
   on the Bell Schedule Update Form using the delete button and instead
   caused all open windows to close.
-* The Payroll Export Update Form no longer permits the From Date
+- The Payroll Export Update Form no longer permits the From Date
   to be greater than the To Date. Users will be prompted to set the
   From Date appropriately if it is greater than the To Date when attempting
   to save a payroll export.
-* Resolved an issue which led to a script error when attempting to
+- Resolved an issue which led to a script error when attempting to
   copy a payroll export with a description of 50 Characters or more
   in length.
-* The [Filter
-  Button on the Export Update Form](SoftwareAdministration/ImportExport/Export_Update_Form.md#ExportFilter) is now properly displayed only
+- The ...is now properly displayed only
   for Export Types that support filtering by employees. Export Types
   which support use of the Filter Button are as follows: Employee File,
   Employee Accrual Totals File, Employee Groups File, Employee Shifts
   File, Employee Timecard File, Employee Badges File, and Employee Schedules
   File.
-* The Filter Button on the Export Update Form is now properly hidden
+- The Filter Button on the Export Update Form is now properly hidden
   for Export Types that do not support filtering by employees. Export
   Types which do not support use of the Filter Button are as follows:
   Departments File, Other Activity Type File, Employee Group Level File,
   Employee Group Description File, Activity Job Information File, and
   Activity Task Information File.
-* Resolved an issue which caused the Activity Job Information File
+- Resolved an issue which caused the Activity Job Information File
   export type to fail to export as expected.
-* Resolved an issue which caused the Activity Task Information File
+- Resolved an issue which caused the Activity Task Information File
   export type to fail to export as expected.
-* Parse Current Value has been removed as an Override Option for
+- Parse Current Value has been removed as an Override Option for
   User Fields on the Export Override Update Form. As an override type,
   Parse Current Value does not apply to User Fields which are filled
   with only a single value and do not contain any delimiters such as
   spaces, dashes, or slashes.
-* Resolved an issue with the Concatenation Override Type, which prevented
+- Resolved an issue with the Concatenation Override Type, which prevented
   the Concatenated Field Drop Down from being populated will all available
   fields for the Selected Export Type. The Concatenation Override Type
   can now be used with User Fields to string multiple existing InfiniTime Fields and user defined
-  alphanumeric strings together in a single field. IE: "*Last
-  Name, First Name Middle Initial." / Smith, John C.* could
+  alphanumeric strings together in a single field. IE: "_Last
+  Name, First Name Middle Initial." / Smith, John C._ could
   be exported to a user field by concatenating Employee Last Name with
   Employee First name and Employee Middle Initial. A trailing comma
   and space would be added after the Employee Last Name Field, a trailing
   space would be added after the Employee First Name Field, and a period
   would be added after the Employee Middle Initial Field.
-* Resolved an interface issue on the Export Override Update Form
+- Resolved an interface issue on the Export Override Update Form
   which caused the grid to extend beyond the bounds of the form if there
   were more than nine Concatenation Override or Conditional Override
   records defined.
-* Punctuation has been removed from each field listed below for the
+- Punctuation has been removed from each field listed below for the
   Employee File Import Type in order to facilitate use of Map by Name.
   The presence of punctuation in the fields listed below prevented them
   from being mapped using Map by Name as intended:
 
-+ Employee First
+* Employee First
   Dir. Dep. ABA Routing Number
-+ Employee First
+* Employee First
   Dir. Dep. Acct Type
-+ Employee First
+* Employee First
   Dir. Dep. Amount
-+ Employee First
+* Employee First
   Dir. Dep. Amt Type
-+ Employee First
+* Employee First
   Dir. Dep. Bank Account Number
-+ Employee First
+* Employee First
   Dir. Dep. End Date
-+ Employee First
+* Employee First
   Dir. Dep. Name on Account
-+ Employee First
+* Employee First
   Dir. Dep. Priority
-+ Employee First
+* Employee First
   Dir. Dep. Start Date
-+ Employee Fourth
+* Employee Fourth
   Dir. Dep. ABA Routing Number
-+ Employee Fourth
+* Employee Fourth
   Dir. Dep. Acct Type
-+ Employee Fourth
+* Employee Fourth
   Dir. Dep. Amount
-+ Employee Fourth
+* Employee Fourth
   Dir. Dep. Amt Type
-+ Employee Fourth
+* Employee Fourth
   Dir. Dep. Bank Account Number
-+ Employee Fourth
+* Employee Fourth
   Dir. Dep. End Date
-+ Employee Fourth
+* Employee Fourth
   Dir. Dep. Name on Account
-+ Employee Fourth
+* Employee Fourth
   Dir. Dep. Priority
-+ Employee Fourth
+* Employee Fourth
   Dir. Dep. Start Date
-+ Employee Second
+* Employee Second
   Dir. Dep. ABA Routing Number
-+ Employee Second
+* Employee Second
   Dir. Dep. Acct Type
-+ Employee Second
+* Employee Second
   Dir. Dep. Amount
-+ Employee Second
+* Employee Second
   Dir. Dep. Amt Type
-+ Employee Second
+* Employee Second
   Dir. Dep. Bank Account Number
-+ Employee Second
+* Employee Second
   Dir. Dep. End Date
-+ Employee Second
+* Employee Second
   Dir. Dep. Name on Account
-+ Employee Second
+* Employee Second
   Dir. Dep. Priority
-+ Employee Second
+* Employee Second
   Dir. Dep. Start Date
-+ Employee Third
+* Employee Third
   Dir. Dep. ABA Routing Number
-+ Employee Third
+* Employee Third
   Dir. Dep. Acct Type
-+ Employee Third
+* Employee Third
   Dir. Dep. Amount
-+ Employee Third
+* Employee Third
   Dir. Dep. Amt Type
-+ Employee Third
+* Employee Third
   Dir. Dep. Bank Account Number
-+ Employee Third
+* Employee Third
   Dir. Dep. End Date
-+ Employee Third
+* Employee Third
   Dir. Dep. Name on Account
-+ Employee Third
+* Employee Third
   Dir. Dep. Priority
-+ Employee Third
+* Employee Third
   Dir. Dep. Start Date
-+ Group Level
+* Group Level
   Five Desc.
-+ Group Level
+* Group Level
   Four Desc.
-+ Group Level
+* Group Level
   One Desc.
-+ Group Level
+* Group Level
   Three Desc
-+ Group Level
+* Group Level
   Two Desc.
 
-* Resolved an issue where the Department
+- Resolved an issue where the Department
   File Import type did not fill the Pay Amount field for Overtime Three.
   An amount, percent, or rate can now be imported into the Overtime
   Three Pay Amount Field as intended.
-* Resolved an issue where using Map by
+- Resolved an issue where using Map by
   Name with the Employee Accrual Totals File import type would cause
   the grid on the Import Update Form to extend beyond the bounds of
   the form.
-* The Employee Accrual Totals File Import
+- The Employee Accrual Totals File Import
   type is intended only for importing base amounts and cannot be used
   to set Accrued Hours, Used Hours, Remaining Accrual Hours, or Accrual
   Wages. For this reason, fields not associated with importing Accrual
@@ -8637,12 +8643,12 @@ AM - 4:00 PM Marketing
   Import Type. Please see the Target Fields Available for Import for
   the Employee Accrual Totals File Import Type for a complete list of
   available and required fields for importing Accrual Base Amounts.
-* Resolved an issue which caused the
+- Resolved an issue which caused the
   Employee Group File Import Type to create an additional Employee Group
   Assignment instead of performing an in place update of existing Employee
   Group Assignments. As intended, an employee can now only be assigned
   to a single group description for each group level.
-* The Employee Shifts File Import type
+- The Employee Shifts File Import type
   is intended only for importing employee shift assignments and cannot
   be used to assign Shifts to Departments or Policies. For this reason,
   fields not associated with importing Employee Shift Assignments have
@@ -8650,7 +8656,7 @@ AM - 4:00 PM Marketing
   see the Target Fields Available for Import for the Employee Shifts
   File Import Type for a complete list of available and required fields
   for assigning Shifts to Employees using the Import Tool.
-* Resolved an issue which permitted the Employee Shifts File Import
+- Resolved an issue which permitted the Employee Shifts File Import
   type to assign a shift to an employee even if the Shift was not configured
   to be Used for Scheduling. Imported records that would assign a shift
   which does not have the Used for Scheduling Option checked will now
@@ -8660,9 +8666,9 @@ AM - 4:00 PM Marketing
   that shifts created by the Import Tool will not have a schedule associated
   with them. Users must manually assign a schedule to Shifts created
   using the import tool.
-* A [new
+- A [new
   string Registry Entry titled 'Hardware ID Only'](../InfiniTime_7.0_Registry_Keys.md#HARDWAREID) has been added
-  under 'HKEY\_LOCAL\_MACHINE\SOFTWARE\Inception Technologies\InfiniTime\7.0'.
+  under 'HKEY_LOCAL_MACHINE\SOFTWARE\Inception Technologies\InfiniTime\7.0'.
   Customers who experience difficulties with the Software Activation
   System can set the value of this registry key to TRUE to use an alternate
   calculation to generate the Unique Hardware ID for License and Activation
@@ -8670,39 +8676,39 @@ AM - 4:00 PM Marketing
   activation for customer's who experience this issue. It should be
   noted that this option can be left to its default value of FALSE for
   most installations.
-* Resolved an issue with the Request Message Database Update Form
+- Resolved an issue with the Request Message Database Update Form
   which would cause the Approve and Deny Buttons to be visible the sender
   of a Time Off or Schedule Change Request after viewing and closing
   the Form Security Table. With a default security role configuration,
   this issue would have permitted Payroll Clerks to approve their own
   Time Off or Schedule Change Requests.
-* The Process Selected Payroll Export Escort Button will now properly
+- The Process Selected Payroll Export Escort Button will now properly
   prompt users to select a Payroll Export if the Payroll Export Description
   field is left blank.
-* The Quick Print Report Escort Button will now properly prompt users
+- The Quick Print Report Escort Button will now properly prompt users
   to select a Saved Report if the Report Description field is left blank.
-* Resolved an issue with the Unassigned Punches Table which caused
+- Resolved an issue with the Unassigned Punches Table which caused
   a vertical scroll bar to be displayed if there was at least one unassigned
   punch listed on the table.
-* Resolved an issue with the Policy Table which caused a horizontal
+- Resolved an issue with the Policy Table which caused a horizontal
   scroll bar to be displayed if all buttons (Insert, Change, Delete,
   and View) are displayed on the form.
-* Resolved an issue that led to a script error when copying a policy
+- Resolved an issue that led to a script error when copying a policy
   with Policy Specific Exceptions.
-* Resolved an issue which caused the Policy Update Form to stop responding
+- Resolved an issue which caused the Policy Update Form to stop responding
   if either the Start of Week or Current Pay Period From Date were changed
   under certain scenarios.
-* Resolved an issue where incorrect VCR Buttons were displayed on
+- Resolved an issue where incorrect VCR Buttons were displayed on
   the Policy Update Form when viewing the first Policy listed on the
   Policy Table.
 
 New Software Functionality: Accrual Calculations
 System
 
-* Accrual records are automatically created for each accrual period
+- Accrual records are automatically created for each accrual period
   back to the Date of Hire or the Effective Date if configured. It is
   no longer necessary to recalculate to populate Employee Accrual Totals.
-* The InfiniTime Accruals
+- The InfiniTime Accruals
   Plus Module now permits employees to continue earning Accrual Hours
   up to the Stop At Amount after time is used. When ['Continue
   to Accrue To Stop At Amount After Time is Used'](../Accruals/accrual_calculations_update_form.md#ContinueToAccrue) is enabled, the
@@ -8714,7 +8720,7 @@ System
   checked. This feature is intended for use with accrual calculations
   that award increments of accrual hours over time or for a certain
   number of hours worked.
-* Other Activity Types may now be counted among Hours Worked for
+- Other Activity Types may now be counted among Hours Worked for
   the purpose of the Accrue X Hours For Every Y Hours Worked Accrual
   Calculation by checking the ['Count
   as Hours Worked for Accrual Calculations'](../Company/Other_Activity_Types.md#OtherAct_CountTowardAccrual) option on the Other
@@ -8723,15 +8729,15 @@ System
 Software
 Issues Resolved: Accrual Calculations System
 
-* Resolved an issue where using the Accruals Plus Effective Date
+- Resolved an issue where using the Accruals Plus Effective Date
   Feature would cause employees to accrue time before their hire date
   if the Effective Date was in the same year as the employee's hire
   date.
-* Resolved an issue with the 'Accrue X Hours per 1 Month' accrual
+- Resolved an issue with the 'Accrue X Hours per 1 Month' accrual
   calculation where only 11 intervals were triggered per year. InfiniTime will now properly recognize
   each month passed during the accrual period and accumulate employee
   accrual hours at 12 iterations per accrual period.
-* The method for calculating accrued hours via the 'Accrue X Hours
+- The method for calculating accrued hours via the 'Accrue X Hours
   per 1 Month' accrual calculation has been altered to prevent employees
   from accruing hours before they have been earned. In prior versions
   of InfiniTime 7.0,
@@ -8748,42 +8754,42 @@ Issues Resolved: Accrual Calculations System
   accrual period, then hours are accrued on the last day of the month.
   [For clarity, detailed
   examples are available.](../Accruals/AccrueByMonthExamples.md)
-* Base Amounts are no longer cleared
+- Base Amounts are no longer cleared
   when employees move from Accrual Type to Accrual Type as they remain
   with the company.
-* The Negative Accrual Hours Warning
+- The Negative Accrual Hours Warning
   is displayed appropriately if a Supervisor attempts to approve a time
   off request or insert Other Activity Hours for multiple days in the
   future.
-* For example, if an employee has 10
+- For example, if an employee has 10
   Hours available and the time off request is for 2 days at 8 hours
   each for a total of 16 hours, the Negative Accrual Warning will now
   be displayed.
-* Negative Base Amounts are now taken
+- Negative Base Amounts are now taken
   into account for the Negative Accrual Hours Warning.
-* For example, if an employee accrued
+- For example, if an employee accrued
   16 Hours of Sick Time a negative base amount of 12 hours would result
   in 4 hours available. A request for 8 Hours of time off will now be
   denied appropriately.
-* Employee Accrual Total records for
+- Employee Accrual Total records for
   past accrual periods are no longer affected when an employee moves
   from one accrual type to another based on tenure settings.
 
 Hardware Issues Resolved
 
-* An issue with
+- An issue with
   the Juno and Luna Biometric Terminals was identified which caused
   Employee Punches to be lost if an employee punched at the same time
   as the Juno or Luna terminal was being polled by the InfiniTime Software. This issue has
   been resolved. It is recommended that any customers using the Juno
   or Luna Terminals upgrade to InfiniTime
   7.08 to prevent punch loss caused by this issue.
-* Resolved an issue where the Juno Terminal
+- Resolved an issue where the Juno Terminal
   played "Punch Accepted" when employees attempted to punch
   in before the ReCheck Min Duration expired. The Juno terminal now
   properly plays "Access Denied" and displays 'Access Denied,'
   on screen.
-* Updated Hardware Documentation for
+- Updated Hardware Documentation for
   the ReCheck Min feature for the Juno and Thor Terminals. The ReCheck
   Min feature defines a duration after the last punch out time, in minutes,
   during which employees may not punch in. This setting prevents employees
@@ -8793,7 +8799,7 @@ Hardware Issues Resolved
   employee should attempt to punch in before the ReCheck Min duration
   expires, the Terminal will display 'Access Denied,' and play "Access
   Denied."
-* The Password Validation Prompt displayed
+- The Password Validation Prompt displayed
   on the Juno Terminal has been altered to accurately represent the
   terminal's hardware. The Juno terminal now displays 'Enter Admin PIN
   Place Finger' instead of 'Enter Admin PIN Scan Admin Badge'.

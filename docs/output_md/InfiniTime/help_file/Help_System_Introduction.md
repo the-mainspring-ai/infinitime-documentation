@@ -1,13 +1,6 @@
 xml version="1.0" encoding="utf-8" ?
 
-
-
-
-
 Help System Introduction
-
-
-
 
 # Help System Introduction
 
@@ -37,17 +30,17 @@ After reviewing the InfiniTime
 Overview Section of this document, users will be prepared to perform the
 following essential tasks.
 
-* Create the Employee Profile for all InfiniTime
+- Create the Employee Profile for all InfiniTime
   Administrators
-* Create the Employee Profile for all InfiniTime
+- Create the Employee Profile for all InfiniTime
   Supervisors
-* Confirm all Client Machines are properly configured to access the
+- Confirm all Client Machines are properly configured to access the
   InfiniTime Software
   and / or Delegate this task to your internal IT Personnel
-* Manually Enter or Import Employee Details using the Import Tool
-* Comfortable navigating throughout the InfiniTime
+- Manually Enter or Import Employee Details using the Import Tool
+- Comfortable navigating throughout the InfiniTime
   User Interface
-* Familiar with available buttons and items on the Main Toolbar and
+- Familiar with available buttons and items on the Main Toolbar and
   Menu
 
 Additional details regarding initial configuration can be found in the
@@ -74,13 +67,13 @@ Content within the Electronic User Guide is organized to match the InfiniTime Im
 A summary of each section is provided below.
 
 | Section | Description | Intended Audience |
-| [InfiniTime Overview](Overview/ovr_SoftwareOverview.md#so1_InfiniTime_Software_Overview_Introduction) | Provides  a complete walkthrough of the InfiniTime Application including:     -   Deployment Options     -   Methods for accessing the InfiniTime Software from client machines     -   An Overview of Available Modules     -   An Overview of Basic Software Settings and the User Interface | * First Time Users * As a refresher on basic concepts and topics |
-| Quick Start Guide | Provides  a walkthrough of the InfiniTime Application with a focus on initial configuration. | * InfiniTime   Administrators * HR / Payroll Managers responsible for Implementing InfiniTime |
-| Installation Documentation | Provides Software Installation Instructions, Minimum Requirements, Upgrade Instructions, and details regarding the InfiniTime Software Licensing System. | * InfiniTime   Administrators |
-| Software Documentation | Provides detailed information, including a general overview and specific examples, for each area of the InfiniTime Software. | * InfiniTime   Administrators * HR / Payroll Managers responsible for Implementing InfiniTime * Employee Supervisors * End Users |
-| Software Documentation - Configuration | Provides detailed information, including a general overview and specific examples, for areas of the InfiniTime Software related to initial software configuration prior to production use.   NOTE: It is not uncommon for organizations who are first moving to an electronic time and attendance system to make adjustments to software configuration over the first few pay periods as previously unknown details regarding the nature of their operating environment are discovered. | * InfiniTime   Administrators * HR / Payroll Managers responsible for Implementing InfiniTime |
-| [Software Documentation - Configuration - InfiniTime Configuration Takeaways](Overview/Configuration_Takeaways/EssentialConfig.md#conf_InfiniTime_Configuration_-_Takeaways___Essential_Concepts) | Lists initial configuration tasks, including details on optional and required areas of the InfiniTime Software. This section is essential reading for all InfiniTime Administrators and HR / Payroll Managers responsible for implementing InfiniTime. | * InfiniTime   Administrators * HR / Payroll Managers responsible for Implementing InfiniTime |
-| Hardware Documentation | Provides an overview of Time and Attendance Hardware Devices supported by the InfiniTime Software. Includes:  * Employee Enrollment * Configuration * Usage | * InfiniTime   Administrators * HR / Payroll Managers responsible for Implementing InfiniTime |
+| [InfiniTime Overview](Overview/ovr_SoftwareOverview.md#so1_InfiniTime_Software_Overview_Introduction) | Provides  a complete walkthrough of the InfiniTime Application including:   -   Deployment Options    -   Methods for accessing the InfiniTime Software from client machines    -   An Overview of Available Modules    -   An Overview of Basic Software Settings and the User Interface | _ First Time Users _ As a refresher on basic concepts and topics |
+| Quick Start Guide | Provides  a walkthrough of the InfiniTime Application with a focus on initial configuration. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime |
+| Installation Documentation | Provides Software Installation Instructions, Minimum Requirements, Upgrade Instructions, and details regarding the InfiniTime Software Licensing System. | _ InfiniTime Administrators |
+| Software Documentation | Provides detailed information, including a general overview and specific examples, for each area of the InfiniTime Software. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime _ Employee Supervisors _ End Users |
+| Software Documentation - Configuration | Provides detailed information, including a general overview and specific examples, for areas of the InfiniTime Software related to initial software configuration prior to production use. NOTE: It is not uncommon for organizations who are first moving to an electronic time and attendance system to make adjustments to software configuration over the first few pay periods as previously unknown details regarding the nature of their operating environment are discovered. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime |
+| [Software Documentation - Configuration - InfiniTime Configuration Takeaways](Overview/Configuration_Takeaways/EssentialConfig.md#conf_InfiniTime_Configuration_-_Takeaways___Essential_Concepts) | Lists initial configuration tasks, including details on optional and required areas of the InfiniTime Software. This section is essential reading for all InfiniTime Administrators and HR / Payroll Managers responsible for implementing InfiniTime. | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime |
+| Hardware Documentation | Provides an overview of Time and Attendance Hardware Devices supported by the InfiniTime Software. Includes: _ Employee Enrollment _ Configuration _ Usage | _ InfiniTime Administrators _ HR / Payroll Managers responsible for Implementing InfiniTime |
 
 Searching the InfiniTime
 7.0 Electronic User Guide
@@ -132,8 +125,6 @@ The Latest Software Update and Help Files are available at the FTP site
 below. Installation files are password protected. Please contact Inception
 Technologies or your Authorized InfiniTime
 Dealer in order to retrieve a password for the setup files.
-
-<ftp://www.infinitime.com/public/InfiniTime/>
 
 Reader Troubleshooting
 

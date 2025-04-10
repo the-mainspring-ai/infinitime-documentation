@@ -1,13 +1,6 @@
 xml version="1.0" encoding="utf-8" ?
 
-
-
-
-
 Reports
-
-
-
 
 # InfiniTime Reports - Introduction
 
@@ -80,7 +73,7 @@ saved reports shown above.
 
 #### Saved Reports - Essential Concepts
 
-* Saved Reports can be created, viewed, executed, and edited by all
+- Saved Reports can be created, viewed, executed, and edited by all
   users with access to the Report Library. It is not possible to limit
   the saved reports an individual can access on the Report Library.
   It is however possible to expose only specific saved reports to a
@@ -92,7 +85,7 @@ saved reports shown above.
   security rights within InfiniTime
   can be found in the [Security
   Section](../Security/Security_Overview.md#sec01_Security_Overview) of this document.
-* Saved Reports should be configured for all day to day, week to
+- Saved Reports should be configured for all day to day, week to
   week, and payroll related tasks / functions as appropriate for your
   organization. In this way, Supervisors and InfiniTime
   Administrators can quickly access relevant Time and Attendance Details
@@ -101,17 +94,17 @@ saved reports shown above.
   For example, most customers choose to create saved reports for their
   preferred timecard reports for both Current Pay Period and Last Pay
   Period.
-* Supervisors for specific Departments, Locations, etc. should include
+- Supervisors for specific Departments, Locations, etc. should include
   a unique Label in their saved reports such as their Department or
   Location Name such that all other supervisors are aware they specifically
   created the report for their use.
-* Supervisors and InfiniTime
+- Supervisors and InfiniTime
   Administrators should exercise caution when altering a saved report
   they did not initially create, especially if the report is configured
   to automatically email on a regular basis. Remember - another user
   may be performing specific actions such as reviewing employee timecards
   or personnel review based on the report.
-* There is no limit to the number of saved reports that can be created
+- There is no limit to the number of saved reports that can be created
   for each report within InfiniTime.
 
 ### Customizing the Report Library
@@ -125,29 +118,29 @@ then be copied and moved to user created report categories.  A brief
 description of each report category included within InfiniTime
 is provided below.
 
-* Employee Information Reports
+- Employee Information Reports
   - This set of reports provides information on employees that is not
-  related to Time Activity. Examples include Employee accruals, comments,
-  and an employee list.
-* Job Cost Reports - Designed
+    related to Time Activity. Examples include Employee accruals, comments,
+    and an employee list.
+- Job Cost Reports - Designed
   for reviewing Job and Task hours distributions. Intended for labor
   costing analysis. The Job Cost Reports Category will not be displayed
   if there are no Jobs or Tasks configured within InfiniTime.
-* Management Reports â Designed
+- Management Reports â Designed
   for management purposes only, these reports assist with exception
   tracking, auditing, and other management related tasks.
-* Payroll Reports â Payroll
+- Payroll Reports â Payroll
   reports assist employers by providing a summary of employee earnings
   based upon an employeeâs hours and specified wage. It is important
   to note that these reports do not compute deductions and are considered
   gross pay.
-* Schedule Reports â Various
+- Schedule Reports â Various
   types of schedule reports can be printed to obtain hard copies of
   employee work schedules for viewing purposes.
-* System Reports â The System
+- System Reports â The System
   Reports provide information about your InfiniTime
   software and related hardware configuration.
-* Timecard Reports - The
+- Timecard Reports - The
   Timecard Reports provide a variety of report types that display a
   summary or detailed information of employees timecard activity.
 
@@ -231,15 +224,16 @@ The user created report may be placed into a separate report category,
 renamed, or be configured with its own set of Saved Reports.
 
 Import
+
 - Populates the selected User Created Report with a Crystal Report
-File selected from the local hard disk by the user. Only Crystal Report
-files designed and provided by Inception Technologies
-for use with InfiniTime
-should be imported into the report library using this feature. It is important
-to note that all Default Reports and User Created Reports created by copying
-a Default Report will be populated with a Crystal Report File by default.
-User Created Reports created via insert will initially contain no crystal
-report file and as a result, cannot be executed.
+  File selected from the local hard disk by the user. Only Crystal Report
+  files designed and provided by Inception Technologies
+  for use with InfiniTime
+  should be imported into the report library using this feature. It is important
+  to note that all Default Reports and User Created Reports created by copying
+  a Default Report will be populated with a Crystal Report File by default.
+  User Created Reports created via insert will initially contain no crystal
+  report file and as a result, cannot be executed.
 
 Quick Print -
 Opens the Report Selection Criteria Update Form. Permits
@@ -257,28 +251,34 @@ files designed by and specifically provided for use with InfiniTime by Inception
 ![](/img/image-404.png)
 
 Description
+
 - Enter a description for the User Created Report.
 
 Category
+
 - Used to assign the report to a report category. Users may click on the
-Lookup Button to select from existing report categories as shown below.
+  Lookup Button to select from existing report categories as shown below.
 
 Report Category Table
 
 ![](/img/image-404.png)
 
 Select
+
 - Assigns the previously selected report to the highlighted Report Category.
 
 Insert
+
 - Permits entry of a new report category. Opens the Report Category Update
-Form.
+  Form.
 
 Change
+
 - Opens the Report Category Update Form for the Selected Report Category.
-Users may then edit the Report Category Description.
+  Users may then edit the Report Category Description.
 
 Delete
+
 - Deletes the selected report category.
 
 WARNING:
@@ -388,7 +388,7 @@ Misc. Selections: Select individual
 employees to be included in the report. Change the drop down box from
 All to Selected, and tag employees you wish to include in the report.
 
-*Note*:  It is not uncommon
+_Note_:  It is not uncommon
 for users to Choose âSelectedâ in order to specify individual employees,
 departments, jobs, tasks or groups and then forget to tag specific employees,
 departments,  jobs, tasks or groups. Employees are not selected if
@@ -446,8 +446,7 @@ InfiniTime uses the Windows
 Operating System on the InfiniTime
 Server . If you should experience issues with auto reports please refer
 to the [Automatic Reports Requirements](Reports.md#AutoReq)
-and the [SMTP
-Email Setup and Troubleshooting Document](../../RESOURCES/SMTP_Email_Setup_And_Troubleshooting.pdf).
+and the
 
 # Auto Report Schedule
 
@@ -479,12 +478,13 @@ appear in the Report Library Update Form.  This is how you will be
 able to distinguish between other Auto Report Schedules you may create.
 
 Printer
+
 - InfiniTime uses printer
-drivers to prepare reports for proper display on your computer. Select
-a printer that is installed and attached to your machine. Do not select
-an image printer. The warning below will be displayed when saving the
-Auto Report Schedule. Reports without a valid printer may not print or
-display properly.
+  drivers to prepare reports for proper display on your computer. Select
+  a printer that is installed and attached to your machine. Do not select
+  an image printer. The warning below will be displayed when saving the
+  Auto Report Schedule. Reports without a valid printer may not print or
+  display properly.
 
 ![](/img/image-404.png)
 
@@ -493,11 +493,12 @@ Frequency
  The options are: Once, Daily, Weekly, and Monthly.
 
 Do Not Print
+
 - The Do Not Print check box is only displayed when a report is configured
-to be sent to a remote party via email or FTP. Reports will be printed
-according to the automatic report schedule by default. This box should
-be checked if you wish to email or send a report via FTP without printing
-the report.
+  to be sent to a remote party via email or FTP. Reports will be printed
+  according to the automatic report schedule by default. This box should
+  be checked if you wish to email or send a report via FTP without printing
+  the report.
 
 Date to
 Print â This is the date that you want the system to print the
@@ -531,7 +532,7 @@ with saved criteria. A list of requirements and items that are known to
 interfere with the intended processing of auto reports can be found below.
 Each requirement must be met for auto reports to function as intended.
 
- It should also be noted that saved report settings configured
+It should also be noted that saved report settings configured
 with an email address will only be emailed according to the settings on
 the auto report schedule and email tabs. They will not be printed automatically.
 A single saved report setting cannot be used to automatically email and
@@ -540,38 +541,38 @@ administrator may need to assist you with configuring the following items.
 
 To automatically email a report the following criteria must be observed:
 
-* The InfiniTime
+- The InfiniTime
   Server must have an active Internet connection.
-* Power Management must be
+- Power Management must be
   disabled on the Network Interface Card of the InfiniTime
   Server.
-* The InfiniTime
+- The InfiniTime
   Housekeeping Service must be started and running.
-* The InfiniTime
+- The InfiniTime
   Server does not need to have a user logged into the console. However,
   it must at least be powered on and idle at the Windows Login Splash
   Screen.
-* A printer must be installed
+- A printer must be installed
   on the InfiniTime Server.
-* A printer must be set as
+- A printer must be set as
   the default printer.
-* The Print Spooler Service
+- The Print Spooler Service
   must be started and running on the InfiniTime
   Server.
-* Your fully qualified domain
+- Your fully qualified domain
   name may need to be configured in the advanced delivery options of
   the SMTP Virtual Server created by InfiniTime
   depending on your domain policies.
-* An auto schedule must be
+- An auto schedule must be
   configured within a saved report setting.
-* A destination name and
+- A destination name and
   email address must be defined on the email tab of the saved report
   setting.
-* The server must be granted
+- The server must be granted
   permissions to relay email through the SMTP Virtual Server installed
   by InfiniTime.
 
-* Depending on your network
+- Depending on your network
   configuration and domain settings it may be necessary to forward all
   outgoing email messages from the InfiniTime
   SMTP Virtual Server to a Smart Host. Generally the Smart Host will
@@ -580,27 +581,27 @@ To automatically email a report the following criteria must be observed:
 
 To automatically print a report the following criteria must be observed:
 
-* The InfiniTime
+- The InfiniTime
   Server must have an active Internet or Local Area Network connection
   if the destination printer is not directly connected to the InfiniTime Server.
-* Power Management must be
+- Power Management must be
   disabled on the Network Interface Card of the InfiniTime
   Server if the destination printer is not directly connected to the
   InfiniTime server.
-* The InfiniTime
+- The InfiniTime
   Housekeeping Service must be started and running.
-* The InfiniTime
+- The InfiniTime
   Server does not need to have a user logged into the console. However,
   it must atleast be powered on and idle at the Windows Login Splash
   Screen.
-* A printer must be installed
+- A printer must be installed
   on the InfiniTime Server.
-* A printer must be set as
+- A printer must be set as
   the default printer.
-* The Print Spooler Service
+- The Print Spooler Service
   must be started and running on the InfiniTime
   Server.
-* An auto schedule must be
+- An auto schedule must be
   configured within a saved report setting.
 
 # Options
@@ -682,20 +683,22 @@ Print Standard Breaks - Disabling
 this option removes the Break Column from the report.
 
 Print Time in Hours and Minutes
+
 - InfiniTime reports activity
-in hundredths of an hour by default. Setting this option to Yes displays
-activity totals in hours and minutes.
+  in hundredths of an hour by default. Setting this option to Yes displays
+  activity totals in hours and minutes.
 
 Print Timecard Review History
+
 - When enabled, Timecard Review history displays a list of supervisors,
-including Supervisor Name, Supervisor Position, and Last Review Time,
-for each employee who have reviewed all
-of the employees Timecard Records for the selected date range. A supervisor's
-name will not be listed if all records during the date range are not reviewed
-by the supervisor. Only the Timecard Review History header will be displayed
-if there are no supervisors who have reviewed all of an employee's Timecard
-Records for the selected date range. The Timecard Review History option
-is available on the following reports:
+  including Supervisor Name, Supervisor Position, and Last Review Time,
+  for each employee who have reviewed all
+  of the employees Timecard Records for the selected date range. A supervisor's
+  name will not be listed if all records during the date range are not reviewed
+  by the supervisor. Only the Timecard Review History header will be displayed
+  if there are no supervisors who have reviewed all of an employee's Timecard
+  Records for the selected date range. The Timecard Review History option
+  is available on the following reports:
 
 * Timecard
   Detail
@@ -730,30 +733,30 @@ menu items as well.
 
 To Configure Reports for Use With The Employee Module:
 
-* Open the Report Library by Clicking on the reports button as displayed
+- Open the Report Library by Clicking on the reports button as displayed
   below.
 
 ![](/img/image-404.png)
 
-* Click on the plus sign to show the reports within a particular
+- Click on the plus sign to show the reports within a particular
   category.
 
 ![](/img/image-404.png)
 
-* Select the report you wish to designate for use from the Employee
+- Select the report you wish to designate for use from the Employee
   Module.
 
 ![](/img/image-404.png)
 
-* Click Change.
+- Click Change.
 
 ![](/img/image-404.png)
 
-* Click on the Options Tab.
+- Click on the Options Tab.
 
 ![](/img/image-404.png)
 
-* Check the button you wish to assign the report to.
+- Check the button you wish to assign the report to.
 
 ![](/img/image-404.png)
 
@@ -799,23 +802,23 @@ A list of all customizable reports within
 the InfiniTime Application
 is provided below.
 
-* Dept.
+- Dept.
   Payroll Detail
-* Dept.
+- Dept.
   Payroll Summary
-* Payroll
+- Payroll
   Detail
-* Payroll
+- Payroll
   Summary
-* Department
+- Department
   Daily Summary
-* Department
+- Department
   Summary
-* Shift
+- Shift
   Daily Summary
-* Shift
+- Shift
   Summary
-* Timecard
+- Timecard
   Summary
 
 General Settings
@@ -910,11 +913,11 @@ Overtime One Hours has not been approved.
 Unapproved Overtime Hours Four - Shows all
 Overtime One Hours that has not been approved.
 
-*Note:*
+_Note:_
 Other Activity Hours Types displayed in a report column will not count
 toward the Other Amount or Other Hours Column.
 
-*Note:*
+_Note:_
 To make a column blank simply assign it to an Other Activity Type that
 has not been assigned. Unassigned Other Activity Types are set to 'None.'
 Read below for additional information.
@@ -945,12 +948,12 @@ Additional Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
 | Group By Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
 | Group Level to group by: | No | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
 | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The  report can then be distributed as necessary. |
@@ -959,11 +962,11 @@ Additional Options:
 | Page Break by Task? | No | This option will allow you to page break the report by Task, making it easier to give the reports to Task Supervisors for review. |
 | Print Inactive Employees? | No | This option will allow you to print information for both Active and Inactive Employees. |
 | Print Time in Hours and Minutes? | No | InfiniTime reports activity in hundredths of an hour by default. Setting this option to Yes displays activity totals in hours and minutes. |
-| Show Company Grand Total? |  | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
+| Show Company Grand Total? | | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
 | Sort by Employee Number | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None   the option is considered disabled and employees will not be grouped by   tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None  the option is considered disabled and employees will not be grouped by  tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:          1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Importing Crystal Report Files & Configuring Categories
 
@@ -977,27 +980,25 @@ Dealer or Inception Technologies Sales Contact.
 When submitting your request please have the following details available
 if possible:
 
-* If the request involves alterations to an existing
+- If the request involves alterations to an existing
   report:
-* + Describe desired alterations in detail.
-  + Provide an example. Examples can be created
+- - Describe desired alterations in detail.
+  - Provide an example. Examples can be created
     by exporting the existing report to excel and altering fields
     and columns to reflect the desired results or by simply printing
     the report and writing in the alterations.
-  + Provide Contact Name, Phone, and Email.
-  + Specify Software Version and Registered Company
+  - Provide Contact Name, Phone, and Email.
+  - Specify Software Version and Registered Company
     Name.
 
-  
-
-* If the request is for a new report:
-* + Describe in detail all columns and the type
+- If the request is for a new report:
+- - Describe in detail all columns and the type
     of information contained within.
-  + Provide an example. Examples can be created
+  - Provide an example. Examples can be created
     within excel from scratch or by using a current report as a reference
     for the general report layout.
-  + Provide Contact Name, Phone, and Email.
-  + Specify Software Version and Registered Company
+  - Provide Contact Name, Phone, and Email.
+  - Specify Software Version and Registered Company
     Name.
 
 ##### Importing Custom Report Files Designed by Inception Technologies
@@ -1011,12 +1012,12 @@ the application manually if necessary.
 To Import a Custom Report:
 
 1. Open the Report Library by clicking on
-the Report Button on the main toolbar.
+   the Report Button on the main toolbar.
 
 ![](/img/image-404.png)
 
 2. Browse to the report category where the
-custom report will be added.
+   custom report will be added.
 
 ![](/img/image-404.png)
 
@@ -1025,12 +1026,12 @@ custom report will be added.
 ![](/img/image-404.png)
 
 4. Highlight the copied report. Click on
-the Import button which is now displayed.
+   the Import button which is now displayed.
 
 ![](/img/image-404.png)
 
 5. Click on the Magnify Glass and browse
-to the Crystal Report file you would like to import.
+   to the Crystal Report file you would like to import.
 
 ![](/img/image-404.png)
 
@@ -1058,8 +1059,9 @@ be retrieved by end users. Available options include email, direct download,
 FTP transfer, and by accessing the output folder on the InfiniTime Server.
 
 Email
+
 - Report Files can be sent via email by completing the Email Tab on the
-Reader Address Update form.
+  Reader Address Update form.
 
 Direct
 Download - Report Files can be downloaded directly from InfiniTime via a Web Browser. To download
@@ -1126,16 +1128,16 @@ your choice. The following fields will become available and must be filled
 out. An example is shown below. Keep the items that follow in mind when
 entering this information.
 
-* A domain name or IP Address can be
+- A domain name or IP Address can be
   used in the Host Address Field.
-* Do not include the ftp:// prefix in
+- Do not include the ftp:// prefix in
   the Host Address Field.
-* The Directory field can be left blank
+- The Directory field can be left blank
   if you are uploading to the root of the FTP Site.
-* If you wish to upload to a specific
+- If you wish to upload to a specific
   folder on the FTP site you must specify the full path using a preceding
   forward slash ( / ) as shown in the image below.
-* The Login Name can be a Local Windows
+- The Login Name can be a Local Windows
   Account, a Domain Account, or Anonymous. Enter the Login Name in one
   of the following formats:
 
@@ -1144,9 +1146,9 @@ Local Windows Accounts:
 ![](/img/image-404.png)
 
 1. Enter the Host Address There
-are two valid formats for the host address field as detailed below.
-Do not include the
-ftp:// prefix in this field.
+   are two valid formats for the host address field as detailed below.
+   Do not include the
+   ftp:// prefix in this field.
 
 | Valid Host Address Formats | |
 | Format Type | Example |
@@ -1154,28 +1156,28 @@ ftp:// prefix in this field.
 | Domain Name | www.InfiniTime.com |
 
 2. Enter the Directory. Remember to include
-a preceding forward slash as shown.
+   a preceding forward slash as shown.
 
 3. Enter the Login Name in the following
-format: "HOSTNAME\USER"  For Example if your FTP Server's
-hostname is FTPSERVER and the user you wish to connect as is FTPUSER then
-you would enter the following:
+   format: "HOSTNAME\USER"  For Example if your FTP Server's
+   hostname is FTPSERVER and the user you wish to connect as is FTPUSER then
+   you would enter the following:
 
 FTPSERVER\FTPUSER
 
 4. Enter the user's password.
 
 5. Specify the port to use when connecting
-to the FTP Server. This does not generally need to be altered.
+   to the FTP Server. This does not generally need to be altered.
 
 Domain Accounts:
 
 ![](/img/image-404.png)
 
 1. Enter the Host Address. There
-are two valid formats for the host address field as detailed below.
-Do not include the
-ftp:// prefix in this field.
+   are two valid formats for the host address field as detailed below.
+   Do not include the
+   ftp:// prefix in this field.
 
 | Valid Host Address Formats | |
 | Format Type | Example |
@@ -1183,28 +1185,28 @@ ftp:// prefix in this field.
 | Domain Name | www.InfiniTime.com |
 
 2. Enter the Directory. Remember to include
-a preceding forward slash as shown.
+   a preceding forward slash as shown.
 
 3. Enter the Login Name in the following
-format: "DOMAIN\USER"  For Example if your FTP Server's
-domain is InfiniTime and
-the user you wish to connect as is FTPUSER then you would enter the following:
+   format: "DOMAIN\USER"  For Example if your FTP Server's
+   domain is InfiniTime and
+   the user you wish to connect as is FTPUSER then you would enter the following:
 
 InfiniTime\FTPUSER
 
 4. Enter the user's password.
 
 5. Specify the port to use when connecting
-to the FTP Server. This does not generally need to be altered.
+   to the FTP Server. This does not generally need to be altered.
 
 Anonymous User:
 
 ![](/img/image-404.png)
 
 1. Enter the Host Address. There
-are two valid formats for the host address field as detailed below.
-Do not include the
-ftp:// prefix in this field.
+   are two valid formats for the host address field as detailed below.
+   Do not include the
+   ftp:// prefix in this field.
 
 | Valid Host Address Formats | |
 | Format Type | Example |
@@ -1212,14 +1214,14 @@ ftp:// prefix in this field.
 | Domain Name | www.InfiniTime.com |
 
 2. Enter the Directory. Remember to include
-a preceding forward slash as shown.
+   a preceding forward slash as shown.
 
 3. Enter Anonymous as the Login Name.
 
 4. Leave the password field blank.
 
 5. Specify the port to use when connecting
-to the FTP Server. This does not generally need to be altered.
+   to the FTP Server. This does not generally need to be altered.
 
 Technical Note:
 Microsoft IIS includes an option to permit only anonymous connections
@@ -1248,9 +1250,10 @@ Additional information on each report can be viewed by clicking on the
 report name below..
 
 Employee List
+
 - Displays Employee ID, Employee Name, Department, Job Title, Date
-of Hire, Badge ID, Login ID, and Clock ID for employees included in the
-Report Selection Criteria Employee Filter. Useful For:
+  of Hire, Badge ID, Login ID, and Clock ID for employees included in the
+  Report Selection Criteria Employee Filter. Useful For:
 
 * Printing a
   list of active employees within the InfiniTime
@@ -1263,7 +1266,7 @@ Report Selection Criteria Employee Filter. Useful For:
   employees to which a given supervisor has access, according to the
   supervisor's Security Filter.
 
-+ This is
+- This is
   accomplished by logging into the Manager Module as the supervisor
   in question and running the Employee List report without an employee
   filter. The Security Filter set for the Supervisor will be applied
@@ -1293,45 +1296,50 @@ records have been approved by an employee's supervisor and / or by the
 employee prior to running payroll.
 
 Payroll Detail
+
 - Displays Employee Worked Hours and Other Activity Hours / Amounts
-for the selected date range. Totals are calculated for each date with
-hours. Wage Totals are calculated based on Employee Policy, Default Wage,
-and Alternate Wage configuration.
+  for the selected date range. Totals are calculated for each date with
+  hours. Wage Totals are calculated based on Employee Policy, Default Wage,
+  and Alternate Wage configuration.
 
 Payroll Summary
+
 - Displays Employee Worked Hours and Other Activity Hours / Amounts
-for the selected date range. Totals are calculated for the entire date
-range for each Worked Hours Type / Other Activity Type in the selected
-date range. Wage Totals are calculated based on Employee Policy, Default
-Wage, and Alternate Wage configuration.
+  for the selected date range. Totals are calculated for the entire date
+  range for each Worked Hours Type / Other Activity Type in the selected
+  date range. Wage Totals are calculated based on Employee Policy, Default
+  Wage, and Alternate Wage configuration.
 
 Attendance Review
+
 - Designed as a periodic employee performance report, the Attendance
-Review Report is useful for identifying trends in employee performance
-(IE: Tardy, Absent, Early Departure, consistent requests for personal
-or sick time on a certain day of the week or month etc.). Depending on
-how the report options are configured, the attendance review report can
-show the individual calendar days on which an employee 1.) Worked 2.)
-Did not work 3.) Had Other Activity 4. Had Exceptions. Additionally, the
-report also shows the total number of worked days and the total number
-of hours associated with schedule related exceptions such as Absent, Tardy,
-Early Departure etc. It is important to note that the Attendance Review
-report is based on a comparison of the employee's schedule hours, worked
-hours, and the resulting exceptions. If exceptions and / or employee schedules
-are not configured the capabilities of this report are reduced.
+  Review Report is useful for identifying trends in employee performance
+  (IE: Tardy, Absent, Early Departure, consistent requests for personal
+  or sick time on a certain day of the week or month etc.). Depending on
+  how the report options are configured, the attendance review report can
+  show the individual calendar days on which an employee 1.) Worked 2.)
+  Did not work 3.) Had Other Activity 4. Had Exceptions. Additionally, the
+  report also shows the total number of worked days and the total number
+  of hours associated with schedule related exceptions such as Absent, Tardy,
+  Early Departure etc. It is important to note that the Attendance Review
+  report is based on a comparison of the employee's schedule hours, worked
+  hours, and the resulting exceptions. If exceptions and / or employee schedules
+  are not configured the capabilities of this report are reduced.
 
 Postable Schedule
+
 - Designed as a printable weekly schedule report, the Postable
-Schedule report is ideal for posting employee schedules in advance. The
-postable schedule report supports single working periods, multiple working
-periods in different departments, and Other Activity Schedules such as
-Vacation Time. Scheduled Hours for each employee are also totaled and
-displayed on the report.
+  Schedule report is ideal for posting employee schedules in advance. The
+  postable schedule report supports single working periods, multiple working
+  periods in different departments, and Other Activity Schedules such as
+  Vacation Time. Scheduled Hours for each employee are also totaled and
+  displayed on the report.
 
 Activity Summary
+
 - Displays the total number of hours by Worked Hours / Other Activity
-Type for each employee with Timecard Activity during the selected date
-range.
+  Type for each employee with Timecard Activity during the selected date
+  range.
 
 Timecard Detail
 With Weekly Totals - Displays the total number of hours by Worked
@@ -1341,9 +1349,10 @@ basis. This report is ideal for regular review of employee hours on a
 weekly basis..
 
 Timecard Summary
+
 - Displays total Regular Hours, Break Hours, OT1 Hours, OT2 Hours,
-OT3 Hours, OT4 Hours, Other Hours, and Other Amount for the selected date
-range for each employee with Timecards during the selected date range.
+  OT3 Hours, OT4 Hours, Other Hours, and Other Amount for the selected date
+  range for each employee with Timecards during the selected date range.
 
 # Report Examples
 
@@ -1684,8 +1693,6 @@ in both current and future years.
 
 Options:
 
-  
-
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
@@ -1782,9 +1789,9 @@ Example:
 
 Notes/Usage:
 
-* Useful for viewing hours distribution across multiple jobs for
+- Useful for viewing hours distribution across multiple jobs for
   a specific employees on a day by day basis.
-* Provides a Grand Total for each Day in the Selected Date Range
+- Provides a Grand Total for each Day in the Selected Date Range
   for each employee.
 
 Options:
@@ -1807,7 +1814,7 @@ Example:
 
 Notes/Usage:
 
-* Useful for viewing hours distribution across multiple jobs for
+- Useful for viewing hours distribution across multiple jobs for
   specific employees across a date range.
 
 Options:
@@ -1830,9 +1837,9 @@ Example:
 
 Notes/Usage:
 
-* Useful for viewing labor distribution across multiple jobs on a
+- Useful for viewing labor distribution across multiple jobs on a
   day by day basis.
-* Displays a grand total record for each job on each date in the
+- Displays a grand total record for each job on each date in the
   selected date range.
 
 Options:
@@ -1869,9 +1876,9 @@ Example:
 
 Notes/Usage:
 
-* Useful for viewing labor distribution across multiple jobs for
+- Useful for viewing labor distribution across multiple jobs for
   a date range.
-* Displays a grand total record for each job with hours in the selected
+- Displays a grand total record for each job with hours in the selected
   date range.
 
 Options:
@@ -1921,11 +1928,11 @@ Report Example:
 
 Notes/Usage:
 
-* Useful for reviewing alterations to timecard punches performed
+- Useful for reviewing alterations to timecard punches performed
   during a specific date range.
-* Useful for reviewing all alterations to timecard punches within
+- Useful for reviewing all alterations to timecard punches within
   a specific date range, regardless of when the alterations were made.
-* Displays Full Audit Details for Insert, Change, and Delete Actions.
+- Displays Full Audit Details for Insert, Change, and Delete Actions.
 
 Options:
 
@@ -2154,30 +2161,30 @@ Example:
 
 Notes/Usage:
 
-* Depending on how report options are configured, the Unreviewed
+- Depending on how report options are configured, the Unreviewed
   Timecard Report has the ability to display employees who:
 
-+ Have one or more timecard records during the date range which
+* Have one or more timecard records during the date range which
   have not been reviewed by their supervisor
-+ Have one or more timecard records during the date range which
+* Have one or more timecard records during the date range which
   have not been reviewed by the employee
-+ Have one or more timecard records during the date range which
+* Have one or more timecard records during the date range which
   have not been reviewed by at least X different users
 
-* It is important to note that any changes to a timecard record after
+- It is important to note that any changes to a timecard record after
   it is marked 'Reviewed' will remove the 'Reviewed' Status. This is
   by design.
-* In order to view all employees that have not yet been reviewed
+- In order to view all employees that have not yet been reviewed
   by the employee's supervisor within the specified period, run this
   report with the default selection criteria and alter only the date
   range.
-* In order to view all employees that have one or more unreviewed
+- In order to view all employees that have one or more unreviewed
   timecard records, with no specific requirement as to who performed
   the review, run this report for the desired date range and default
   selection criteria with the following options:
 
-+ Alert When Number of Reviews are Less Than 1
-+ Alert When Timecards are Not Reviewed by Supervisor = No
+* Alert When Number of Reviews are Less Than 1
+* Alert When Timecards are Not Reviewed by Supervisor = No
 
 Options:
 
@@ -2311,15 +2318,15 @@ Options:
 | Count OT3 Hours Toward Total Working Hours? | Yes | Permits the user to control the hours types counted toward Total Working Hours. If this option is set to No, OT3 Hours will not be counted toward Total Working Hours for purposes of calculating the Overtime Utilization Percentage. |
 | Count OT4 Hours Toward Total OT Hours? | Yes | Permits the user to control the hours types counted toward Total OT Hours. If this option is set to No, OT4 Hours will not be counted toward Total OT Hours for purposes of calculating the Overtime Utilization Percentage. |
 | Count OT4 Hours Toward Total Working Hours? | Yes | Permits the user to control the hours types counted toward Total Working Hours. If this option is set to No, OT4 Hours will not be counted toward Total Working Hours for purposes of calculating the Overtime Utilization Percentage. |
-| Count Other Hours for Tagged Other Activity Types toward Total Working Hours? | No | Permits the user to control the hours types counted toward Total Working Hours. If this option is set to Yes, Other Hours for all tagged other Activity Types which are not\* set to count as Regular Hours will be counted toward Total Worked Hours.    If this option is set to No, Other Activity Types with  'Count as Regular Hours' unchecked will not be counted toward Total Working Hours or Total OT Hours even if they are tagged. |
+| Count Other Hours for Tagged Other Activity Types toward Total Working Hours? | No | Permits the user to control the hours types counted toward Total Working Hours. If this option is set to Yes, Other Hours for all tagged other Activity Types which are not\* set to count as Regular Hours will be counted toward Total Worked Hours. If this option is set to No, Other Activity Types with  'Count as Regular Hours' unchecked will not be counted toward Total Working Hours or Total OT Hours even if they are tagged. |
 | Count REG Hours toward Total Working Hours? | Yes | Permits the user to control the hours types counted toward Total Working Hours. If this option is set to No, Regular Hours will not be counted toward Total Working Hours for purposes of calculating the Overtime Utilization Percentage. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged department(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:   1.) Only employees with hours in the tagged department(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:   1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary. |
 | Page Break by Job? | No | This option will allow you to page break the report by, making it easier to give the reports to Job Supervisors for review. |
@@ -2329,8 +2336,8 @@ Options:
 | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
 | Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the tagged task(s) on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:     1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
-| Total Hours for Tagged Other Activity Types according to Report Hours Options? | No | Permits the user to control the hours types counted toward Total Working Hours and Total OT Hours for Other Activity Types which are set to count as regular hours. If this option is set to Yes, Regular, OT1, OT2, OT3, and OT4 hours for Tagged Other Activity Types will be counted toward Total Working Hours and Total OT Hours in accordance with the 'Count REG/OT1/OT2/OT3/OT4' Toward 'Total OT Hours/Total Working Hours' options.    If this option is set to No, Other Activity Types set to 'Count as Regular Hours' will not be counted toward Total Working Hours or Total OT Hours even if they are tagged. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:   1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Total Hours for Tagged Other Activity Types according to Report Hours Options? | No | Permits the user to control the hours types counted toward Total Working Hours and Total OT Hours for Other Activity Types which are set to count as regular hours. If this option is set to Yes, Regular, OT1, OT2, OT3, and OT4 hours for Tagged Other Activity Types will be counted toward Total Working Hours and Total OT Hours in accordance with the 'Count REG/OT1/OT2/OT3/OT4' Toward 'Total OT Hours/Total Working Hours' options. If this option is set to No, Other Activity Types set to 'Count as Regular Hours' will not be counted toward Total Working Hours or Total OT Hours even if they are tagged. |
 
 ## Scheduled Overtime Early Warning
 
@@ -2349,36 +2356,36 @@ Report Example:
 
 Notes / Usage:
 
-* This report is especially useful for organizations with Dynamic
+- This report is especially useful for organizations with Dynamic
   Scheduling (IE: Staffing Requirements increase due to workload / Customer
   Demand) and can be used to manage / reduce unnecessary overtime.
-* The Scheduled Overtime Early Warning Report is most useful when
+- The Scheduled Overtime Early Warning Report is most useful when
   executed toward the end of the week, such as on Wednesday and Thursday.
-* In this way, supervisors can identify employees who would earn
+- In this way, supervisors can identify employees who would earn
   overtime if they worked their remaining scheduled hours.
-* The Scheduled Overtime Early Warning Report answers four important
+- The Scheduled Overtime Early Warning Report answers four important
   questions for personnel managers:
 
-+ a. How many hours does the employee have for the work week
+* a. How many hours does the employee have for the work week
   already?
-+ b. How many hours is the employee scheduled for in the rest
+* b. How many hours is the employee scheduled for in the rest
   of the work week?
-+ c. How many hours would the employee have for the work week
+* c. How many hours would the employee have for the work week
   if they worked their remaining scheduled hours? Would the employee
   exceed 40 hours?
-+ d. If so, when would the employee hit 40 hours?
+* d. If so, when would the employee hit 40 hours?
 
 Options:
 
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged department(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:   1.) Only employees with hours in the tagged department(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Employee Signature Message | None | Permits the user to specify a disclaimer or message to be displayed under the employee signature line. The Employee Signature message will only be displayed on the Report if 'Print Employee Signature Line?' is set to Yes. |
 | Group by Supervisor | No | This option will group employees specified by the Employee Filter according to their assigned Supervisor. |
 | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:   1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary. |
@@ -2389,12 +2396,12 @@ Options:
 | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
 | Print Supervisor Signature Line? | No | A supervisor signature line will be displayed at the bottom of the results for each employee if this option is enabled. Generally Page Break by Employee should be enabled when using this feature. |
 | Print Time in Hours and Minutes? | No | This option changes the Time Format from Hours and Hundredths of Hours (IE: 8.50 Hours for an 8:00 AM to 4:30 PM shift) to Hours and Minutes (IE: 8h 30m) |
-| Show only Employees with Overtime? | Yes | If this option is set to Yes, only employees who would receive overtime hours according to their Forecasted Hours Total (IE: Worked Hours to Date for the selected date range + Scheduled Hours for remaining days in the selected date range) will be displayed on the report.    If this option is set to No, all employees will be displayed on the report. |
+| Show only Employees with Overtime? | Yes | If this option is set to Yes, only employees who would receive overtime hours according to their Forecasted Hours Total (IE: Worked Hours to Date for the selected date range + Scheduled Hours for remaining days in the selected date range) will be displayed on the report. If this option is set to No, all employees will be displayed on the report. |
 | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
 | Supervisor Signature Message | None | Permits the user to specify a disclaimer or message to be displayed under the supervisor signature line. The Supervisor Signature message will only be displayed on the Report if 'Print Supervisor Signature Line?' is set to Yes. |
 | Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the tagged task(s) on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:     1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:   1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Timecard Note Report
 
@@ -2408,10 +2415,10 @@ Report Example:
 
 Notes/Usage:
 
-* The Timecard Note report is useful
+- The Timecard Note report is useful
   for displaying all timecard notes for a given date range when reviewing
   employee timecard records prior to payroll.
-* Unlike Audit Trail Comments, Timecard
+- Unlike Audit Trail Comments, Timecard
   Notes are not required for every altered punch. Timecard Notes are
   only inserted by supervisors for comments of material importance.
 
@@ -2508,7 +2515,7 @@ Example:
 
 Notes/Usage:
 
-* This report is useful for reviewing total hours distribution and
+- This report is useful for reviewing total hours distribution and
   gross pay for specific departments over a date range.
 
 Options:
@@ -2532,9 +2539,9 @@ Example:
 
 Notes/Usage:
 
-* Useful for analyzing performance for hourly employees in sales
+- Useful for analyzing performance for hourly employees in sales
   related roles.
-* Sales Amounts are entered as a projected total for each employee
+- Sales Amounts are entered as a projected total for each employee
   in the report - individual employees can be analyzed with exact sales
   amounts by running the report for individual employees with the respective
   employee's Sales Amount set in the Options Tab.
@@ -2562,7 +2569,7 @@ Example:
 
 Notes/Usage:
 
-* Useful for reviewing employee gross wages on a day by day basis
+- Useful for reviewing employee gross wages on a day by day basis
   with totals for the Selected Date Range.
 
 Options:
@@ -2589,17 +2596,17 @@ Page 2:
 
 Notes / Usage:
 
-* The Payroll Interface Layout Report prints two pages for each entry
+- The Payroll Interface Layout Report prints two pages for each entry
   on the Payroll Export Table.
-* The first page of the Payroll Interface Layout Report shows configured
+- The first page of the Payroll Interface Layout Report shows configured
   values for Payroll Export Options and Settings.
-* The second page of the Payroll Interface Layout Report shows the
+- The second page of the Payroll Interface Layout Report shows the
   field by field layout of the payroll interface.
-* When a payroll export is executed, Employee Hours and Earnings
+- When a payroll export is executed, Employee Hours and Earnings
   for the date range selected on the Payroll Export record will be exported
   in the format shown on the Payroll Interface Layout Report's field
   by field layout.
-* The Payroll Interface Layout Report will be blank if there are
+- The Payroll Interface Layout Report will be blank if there are
   no Payroll Exports configured on the Payroll Export Table as accessed
   from the Payroll Button on the Main Toolbar of the Manager Module.
 
@@ -2624,7 +2631,7 @@ Example:
 
 Notes/Usage:
 
-* Useful for reviewing employee gross wages with totals for the Selected
+- Useful for reviewing employee gross wages with totals for the Selected
   Date Range.
 
 Options:
@@ -2724,13 +2731,13 @@ Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by Department. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with hours in the tagged department(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:    1.) Only employees with hours in the tagged department(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Employee Signature Message | None | Permits the user to specify a disclaimer or message to be displayed under the employee signature line. The Employee Signature message will only be displayed on the Report if 'Print Employee Signature Line?' is set to Yes. |
 | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their assigned Supervisor. |
 | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.    When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:    1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Non-Worked Day Character | None | This option allows you to input the character to be displayed on the report for a non-worked day. By default, Non-Working Days are not marked. |
 | Other Activity Only? | No | When this option is enabled, Working Hours are excluded from the By Category Section AND the Total Days section does not count days with working hours toward the Total Days Count. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
@@ -2744,9 +2751,9 @@ Options:
 | Print Supervisor Signature Line? | No | A supervisor signature line will be displayed at the bottom of the results for each employee if this option is enabled. Generally Page Break by Employee should be enabled when using this feature. |
 | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
 | Supervisor Signature Message: | None | Permits the user to specify a disclaimer or message to be displayed under the supervisor signature line. The Supervisor Signature message will only be displayed on the Report if 'Print Supervisor Signature Line?' is set to Yes. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the tagged task(s) on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:      1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:    1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Worked Day Character | W | This option allows you to input the character to be displayed on the report for a worked day, the default value is 'W' |
 
 # Company Performance Analysis
@@ -2766,22 +2773,22 @@ Report Example:
 
 Notes/Usage:
 
-* The Company Performance Analysis Report calculates total durations
+- The Company Performance Analysis Report calculates total durations
   for the following hour types and exceptions:
 
-+ Worked Hours (Regular, Paid Break, OT1, OT2, OT3, OT4)
-+ Scheduled Hours (Scheduled Working Hours, Scheduled Paid
+* Worked Hours (Regular, Paid Break, OT1, OT2, OT3, OT4)
+* Scheduled Hours (Scheduled Working Hours, Scheduled Paid
   Break Hours)
-+ Absent Hours
-+ Tardy Minutes
-+ Long Break Minutes
-+ Early Departure Minutes
+* Absent Hours
+* Tardy Minutes
+* Long Break Minutes
+* Early Departure Minutes
 
-* The Company Performance Analysis Report requires that employee
+- The Company Performance Analysis Report requires that employee
   schedules and respective exceptions such as Absent, Tardy, Long Break,
   and Early Departure be configured in order to total durations for
   each hours type.
-* The Attendance Review Report provides similar information, but
+- The Attendance Review Report provides similar information, but
   with more detail on an employee by employee basis, and is generally
   favored by customers.
 
@@ -2803,7 +2810,7 @@ Report Example:
 
 Notes/Usage:
 
-* The Day Scheduled Report is executed for a month and will display
+- The Day Scheduled Report is executed for a month and will display
   the first to last day of month regardless of the exact date range
   chosen. For example, if the report is executed for 6/1/13 to 6/8/13
   the report will generate for 6/1/13 to 6/30/13.
@@ -2812,16 +2819,16 @@ Options:
 
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
-| Day Not Worked Character |  | Specifies a character to be displayed when a day is not worked. |
+| Day Not Worked Character | | Specifies a character to be displayed when a day is not worked. |
 | Day Worked Character | W | Specifies a character to be displayed when a day is worked. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with hours in the tagged department(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged department(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Group by Department? | No | This option will group employees specified by the Employee Filter by Department. |
 | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
 | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
 | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default employees will be grouped according to their default job as assigned on their employee record. When set to Scheduled employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Only Print Department If Not Default Department? | Yes | If this option is set to No, the Department will be printed for every schedule with a Department assigned. Otherwise, Departments will only be printed on the report if an employee is scheduled outside of their default task. |
 | Only Print Job If Not Default Job? | Yes | If this option is set to No, the Job will be printed for every schedule with a Job assigned. Otherwise, Jobs will only be printed on the report if an employee is scheduled outside of their default job. |
 | Only Print Task If Not Default Task? | Yes | If this option is set to No, the Task will be printed for every schedule with a Task assigned. Otherwise, Tasks will only be printed on the report if an employee is scheduled outside of their default task. |
@@ -2836,7 +2843,7 @@ Options:
 | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
 | Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:       1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:     1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Day Schedule With Employee Groups
 
@@ -2850,7 +2857,7 @@ Report Example:
 
 Notes/Usage:
 
-* The Day Scheduled Report is executed for a month and will display
+- The Day Scheduled Report is executed for a month and will display
   the first to last day of month regardless of the exact date range
   chosen. For example, if the report is executed for 6/1/13 to 6/8/13
   the report will generate for 6/1/13 to 6/30/13.
@@ -2859,14 +2866,14 @@ Options:
 
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
-| Day Not Worked Character |  | Specifies a character to be displayed when a day is not worked. |
+| Day Not Worked Character | | Specifies a character to be displayed when a day is not worked. |
 | Day Worked Character | W | Specifies a character to be displayed when a day is worked. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with hours in the tagged department(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged department(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Group by Department? | No | This option will group employees specified by the Employee Filter by Department. |
 | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default employees will be grouped according to their default job as assigned on their employee record. When set to Scheduled employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Number of Blank Lines After Group? | 0 | Permits the user to adjust the amount of blank space after the group header. Useful for writing notes onto the printed report. |
 | Only Print Department If Not Default Department? | Yes | If this option is set to No, the Department will be printed for every schedule with a Department assigned. Otherwise, Departments will only be printed on the report if an employee is scheduled outside of their default task. |
 | Only Print Job If Not Default Job? | Yes | If this option is set to No, the Job will be printed for every schedule with a Job assigned. Otherwise, Jobs will only be printed on the report if an employee is scheduled outside of their default job. |
@@ -2879,7 +2886,7 @@ Options:
 | Print Weekly Hour Totals? | No | When set to Yes a total record will be displayed after each scheduled week to show total scheduled hours. |
 | Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:       1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:     1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Department Performance Analysis
 
@@ -2895,22 +2902,22 @@ Report Example:
 
 Notes/Usage:
 
-* The Department Performance Analysis Report calculates total durations
+- The Department Performance Analysis Report calculates total durations
   for the following hour types and exceptions:
 
-+ Worked Hours (Regular, Paid Break, OT1, OT2, OT3, OT4)
-+ Scheduled Hours (Scheduled Working Hours, Scheduled Paid
+* Worked Hours (Regular, Paid Break, OT1, OT2, OT3, OT4)
+* Scheduled Hours (Scheduled Working Hours, Scheduled Paid
   Break Hours)
-+ Absent Hours
-+ Tardy Minutes
-+ Long Break Minutes
-+ Early Departure Minutes
+* Absent Hours
+* Tardy Minutes
+* Long Break Minutes
+* Early Departure Minutes
 
-* The Department Performance Analysis Report requires that employee
+- The Department Performance Analysis Report requires that employee
   schedules and respective exceptions such as Absent, Tardy, Long Break,
   and Early Departure be configured in order to total durations for
   each hours type.
-* The Attendance Review Report provides similar information, but
+- The Attendance Review Report provides similar information, but
   with more detail on an employee by employee basis, and is generally
   favored by customers.
 
@@ -2922,7 +2929,7 @@ Options:
 
 # Monthly Schedule
 
- Displays a monthly schedule for the specified employees according
+Displays a monthly schedule for the specified employees according
 to the date range specified. Schedules must be configured in order to
 build this report.
 
@@ -2933,9 +2940,9 @@ Example:
 
 Notes/Usage:
 
-* The Monthly Schedule Report is best suited for employees with contiguous
+- The Monthly Schedule Report is best suited for employees with contiguous
   working periods at various Start and End times throughout the month.
-* Ideal for posting in an accessible location to show when employees
+- Ideal for posting in an accessible location to show when employees
   are expected to report to work for given dates.
 
 Options:
@@ -2943,13 +2950,13 @@ Options:
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Scheduled in Department' will show employees that are scheduled in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with Schedules in the tagged department(s) will be displayed on the report.  2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with Schedules in the tagged department(s) will be displayed on the report. 2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Group by Department? | None | This option will group employees specified by the Employee Filter according by Department. |
 | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their assigned Supervisor. |
 | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.    When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Only Print Department If Not Default Department? | Yes | If this option is set to No, the Department will be printed for every schedule with a Department assigned. Otherwise, Departments will only be printed on the report if an employee is scheduled outside of their default task. |
 | Only Print Job If Not Default Job? | Yes | If this option is set to No, the Job will be printed for every schedule with a Job assigned. Otherwise, Jobs will only be printed on the report if an employee is scheduled outside of their default job. |
 | Only Print Task If Not Default Task? | Yes | If this option is set to No, the Task will be printed for every schedule with a Task assigned. Otherwise, Tasks will only be printed on the report if an employee is scheduled outside of their default task. |
@@ -2962,9 +2969,9 @@ Options:
 | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
 | Print Weekly Hour Totals? | No | This option permits display of Total Scheduled Hours for each week during the selected date range. By default, Weekly Hour Totals are not displayed. |
 | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the tagged task(s) on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:       1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:     1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Monthly Schedule With Employee Groups
 
@@ -2979,10 +2986,10 @@ Example:
 
 Notes/Usage:
 
-* Intended for use with the Groups Tab of the Report Selection Criteria.
-* Prints a full Monthly Schedule for all employees in each tagged
+- Intended for use with the Groups Tab of the Report Selection Criteria.
+- Prints a full Monthly Schedule for all employees in each tagged
   group.
-* If groups belonging to different group levels are tagged (IE:
+- If groups belonging to different group levels are tagged (IE:
   Company: XYZ Pool Management and Location: Phoenix, AZ) and an employee
   belongs to multiple tagged items, the employee will be displayed on
   the report once for each group they are assigned to that is included
@@ -2993,11 +3000,11 @@ Options:
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Scheduled in Department' will show employees that are scheduled in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Schedules in the tagged department(s) will be displayed on the report.  2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with Schedules in the tagged department(s) will be displayed on the report. 2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Group by Department? | None | This option will group employees specified by the Employee Filter according by Department. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.    When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Only Print Department If Not Default Department? | Yes | If this option is set to No, the Department will be printed for every schedule with a Department assigned. Otherwise, Departments will only be printed on the report if an employee is scheduled outside of their default task. |
 | Only Print Job If Not Default Job? | Yes | If this option is set to No, the Job will be printed for every schedule with a Job assigned. Otherwise, Jobs will only be printed on the report if an employee is scheduled outside of their default job. |
 | Only Print Task If Not Default Task? | Yes | If this option is set to No, the Task will be printed for every schedule with a Task assigned. Otherwise, Tasks will only be printed on the report if an employee is scheduled outside of their default task. |
@@ -3008,9 +3015,9 @@ Options:
 | Page Break by Task? | No | This option will allow you to page break the report by Task, making it easier to give the reports to Task Supervisors for review. |
 | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
 | Print Weekly Hour Totals? | No | This option permits display of Total Scheduled Hours for each week during the selected date range. By default, Weekly Hour Totals are not displayed. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the tagged task(s) on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:      1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Performance Analysis
 
@@ -3027,8 +3034,8 @@ Example:
 
 Notes/Usage:
 
-* Useful for evaluating employee performance.
-* The Attendance Review Report provides similar information, but
+- Useful for evaluating employee performance.
+- The Attendance Review Report provides similar information, but
   with more detail, and is generally favored by customers.
 
 Options:
@@ -3037,12 +3044,12 @@ Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by Department. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with hours in the tagged department(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged department(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their assigned Supervisor. |
 | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.    When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:     1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary. |
@@ -3051,9 +3058,9 @@ Options:
 | Page Break by Task? | No | This option will allow you to page break the report by Task, making it easier to give the reports to Task Supervisors for review. |
 | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
 | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the tagged task(s) on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:       1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:     1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Postable Schedule
 
@@ -3070,14 +3077,14 @@ Example:
 
 Notes/Usage:
 
-* Intended to be printed for individual work weeks.
-* If the report is executed for a date range that includes more
+- Intended to be printed for individual work weeks.
+- If the report is executed for a date range that includes more
   than one week, the report will print once for all employees included
   in the Selection Criteria for the First Week, and then once again
   for the second week.
-* Ideal for organizations with dynamic scheduling needs where
+- Ideal for organizations with dynamic scheduling needs where
   employee schedules vary on a regular basis.
-* Ideal for posting in an accessible area to show employees exactly
+- Ideal for posting in an accessible area to show employees exactly
   what Department / Job / Task they are assigned to for a given working
   period.
 
@@ -3086,13 +3093,13 @@ Options:
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Scheduled in Department' will show employees that are scheduled in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Schedules in the tagged department(s) will be displayed on the report.  2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with Schedules in the tagged department(s) will be displayed on the report. 2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Group by Department? | None | This option will group employees specified by the Employee Filter according by Department. |
 | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their assigned Supervisor. |
 | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.    When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Only Print Department If Not Default Department? | Yes | If this option is set to No, the Department will be printed for every schedule with a Department assigned. Otherwise, Departments will only be printed on the report if an employee is scheduled outside of their default task. |
 | Only Print Job If Not Default Job? | Yes | If this option is set to No, the Job will be printed for every schedule with a Job assigned. Otherwise, Jobs will only be printed on the report if an employee is scheduled outside of their default job. |
 | Only Print Task If Not Default Task? | Yes | If this option is set to No, the Task will be printed for every schedule with a Task assigned. Otherwise, Tasks will only be printed on the report if an employee is scheduled outside of their default task. |
@@ -3105,9 +3112,9 @@ Options:
 | Print Detailed Schedule? | No | When Set to Yes, all Scheduled Working Periods for each date on the report will be displayed. By Default, when set to No, only the first In Time and last Out Time will be displayed. |
 | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
 | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the tagged task(s) on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:      1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Schedule Gantt Chart
 
@@ -3127,19 +3134,19 @@ Options:
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Scheduled in Department' will show employees that are scheduled in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Schedules in the tagged department(s) will be displayed on the report.  2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with Schedules in the tagged department(s) will be displayed on the report. 2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Group by Department? | None | This option will group employees specified by the Employee Filter according by Department. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.    When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Job? | No | This option will allow you to page break the report by Job, making it easier to give the reports to Job Supervisors for review. |
 | Page Break by Task? | No | This option will allow you to page break the report by Task, making it easier to give the reports to Task Supervisors for review. |
 | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the tagged task(s) on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:      1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # System Reports
 
@@ -3159,7 +3166,7 @@ Example:
 
 Notes/Usage:
 
-* Useful for reviewing configuration for Hardware Terminals connected
+- Useful for reviewing configuration for Hardware Terminals connected
   to the InfiniTime Software.
 
 Options:
@@ -3179,31 +3186,31 @@ Example:
 
 Notes/Usage:
 
-* Useful for determining if specific employees have a Fingerprint,
+- Useful for determining if specific employees have a Fingerprint,
   Hand Geometry Template, or Both stored in the database.
-* Through use of the 'Print Employees That Are' option, the Who is
+- Through use of the 'Print Employees That Are' option, the Who is
   Enrolled Report can be used to determine specific employees who do
   not have a Fingerprint, Hand Template, or either present in the database.
-* Employees can then be enrolled as appropriate.
+- Employees can then be enrolled as appropriate.
 
 Options:
 
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Scheduled in Department' will show employees that are scheduled in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Schedules in the tagged department(s) will be displayed on the report.  2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with Schedules in the tagged department(s) will be displayed on the report. 2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Group by Department? | None | This option will group employees specified by the Employee Filter according by Department. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.    When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs. When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Employee Worked On Job employees will be grouped according to the job they worked in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Job? | No | This option will allow you to page break the report by Job, making it easier to give the reports to Job Supervisors for review. |
 | Page Break by Task? | No | This option will allow you to page break the report by Task, making it easier to give the reports to Task Supervisors for review. |
 | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in.    In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None the option is considered disabled and employees will not be grouped by tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. In most cases, Customers choose to execute the Attendance Review Report with Department, Job, and Task Grouping at the default values of 'None'. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the tagged task(s) on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:      1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Timecard Reports
 
@@ -3220,7 +3227,7 @@ Example:
 
 Notes/Usage:
 
-* Useful for reviewing employee hours, including Shift Differential
+- Useful for reviewing employee hours, including Shift Differential
   Hours, on a day by day basis.
 
 Options:
@@ -3229,19 +3236,19 @@ Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Schedules in the tagged department(s) will be displayed on the report.  2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
-| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the   option is considered disabled and employees will not be grouped by jobs.   When set to Employee Default Job employees will be grouped according to   their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Schedule Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with Schedules in the tagged department(s) will be displayed on the report. 2.) Only Schedule records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the  option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to  their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Job? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review. |
 | Page Break by Task? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review. |
 | Print Company Grand Totals? | No | This option will allow you to display the company grand total at the end of the report. |
 | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None   the option is considered disabled and employees will not be grouped by   tasks. When set to Employee Default Task employees will be grouped according   to their default task as assigned on their employee record. When set to   Scheduled Task employees will be grouped according to the task they were   scheduled to work in. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None  the option is considered disabled and employees will not be grouped by  tasks. When set to Employee Default Task employees will be grouped according  to their default task as assigned on their employee record. When set to  Scheduled Task employees will be grouped according to the task they were  scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Job filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:      1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Activity Summary
 
@@ -3256,28 +3263,28 @@ Example:
 
 Notes/Usage:
 
-* Useful for viewing employee hours by hours type, including shift
+- Useful for viewing employee hours by hours type, including shift
   differentials, across a date range.
 
 Options:
 
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0  logo on the report. |
-| Department Grouping Type? | None | When this option is set, Department Headers will be printed on the  Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default department even if they worked in multiple departments.    If 'Activity' is selected, employee hours will be distributed across each respective department the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Department. |
+| Department Grouping Type? | None | When this option is set, Department Headers will be printed on the  Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default department even if they worked in multiple departments. If 'Activity' is selected, employee hours will be distributed across each respective department the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Department. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show only employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
-| Job Grouping Type? | None | When this option is set, Job Headers will be printed on the Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default Job even if they worked in multiple Jobs.    If 'Activity' is selected, employee hours will be distributed across each respective job the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Job. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Job Grouping Type? | None | When this option is set, Job Headers will be printed on the Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default Job even if they worked in multiple Jobs. If 'Activity' is selected, employee hours will be distributed across each respective job the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Job. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Job? | No | This option will allow you to page break the report by Job, making it easier to give the reports to Job Supervisors for review. |
 | Page Break by Task? | No | This option will allow you to page break the report by Task, making it easier to give the reports to Task Supervisors for review. |
 | Print Company Grand Totals? | No | This option will allow you to display the company grand total at the end of the report. |
 | Print Inactive Employees? | No | This option will allow you to print information for both active and inactive employees. |
-| Task Grouping Type? | None | When this option is set, Task Headers will be printed on the Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default Task even if they worked in multiple Tasks.    If 'Activity' is selected, employee hours will be distributed across each respective task the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Task. |
+| Task Grouping Type? | None | When this option is set, Task Headers will be printed on the Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default Task even if they worked in multiple Tasks. If 'Activity' is selected, employee hours will be distributed across each respective task the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Task. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Job filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:      1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Timecard Summary with Schedule Variance
 
@@ -3295,22 +3302,22 @@ Report Example:
 
 Notes/Usage:
 
-* The Timecard Summary with Schedule Variance Report is executed
+- The Timecard Summary with Schedule Variance Report is executed
   on a day by day basis. For each day, the report shows all employees
   who worked in a given Department / Job / Task Combination in accordance
   with the Report Selection Criteria and Department / Job / Task Grouping
   Options.
-* Daily Totals for each employee and Department / Job / Task Combination
+- Daily Totals for each employee and Department / Job / Task Combination
   are displayed.
-* It is recommended that the report be executed with specific Departments,
+- It is recommended that the report be executed with specific Departments,
   specific Jobs, or specific Tasks tagged.
-* When used for analyzing Department Schedules and Hours, the Department
+- When used for analyzing Department Schedules and Hours, the Department
   Grouping Type should be set to Activity and the Job / Task Grouping
   Types should be set to None.
-* Similarly, when used for analyzing Job Schedules and Hours, Job
+- Similarly, when used for analyzing Job Schedules and Hours, Job
   Grouping Type should be set to Activity and the Department / Task
   Grouping Types should be set to None.
-* Similarly, when used for analyzing Task Schedules and Hours, Task
+- Similarly, when used for analyzing Task Schedules and Hours, Task
   Grouping Type should be set to Activity and the Department / Job Grouping
   Types should be set to None.
 
@@ -3318,14 +3325,14 @@ Options:
 
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0  logo on the report. |
-| Department Grouping Type? | None | When this option is set, Department Headers will be printed on the  Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default department even if they worked in multiple departments.    If 'Activity' is selected, employee hours will be distributed across each respective department the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Department. |
+| Department Grouping Type? | None | When this option is set, Department Headers will be printed on the  Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default department even if they worked in multiple departments. If 'Activity' is selected, employee hours will be distributed across each respective department the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Department. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show only employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
 | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their assigned Supervisor. |
 | Group Level to Group By? | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Job Grouping Type? | None | When this option is set, Job Headers will be printed on the Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default Job even if they worked in multiple Jobs.    If 'Activity' is selected, employee hours will be distributed across each respective job the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Job. |
+| Job Grouping Type? | None | When this option is set, Job Headers will be printed on the Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default Job even if they worked in multiple Jobs. If 'Activity' is selected, employee hours will be distributed across each respective job the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Job. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:      1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Overtime Selection | N/A | Permits filtering of results according to the presence of Approved or Unapproved Overtime Hours for an employee during the selected date range. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
@@ -3337,9 +3344,9 @@ Options:
 | Print Time in Hours and Minutes? | No | InfiniTime reports activity in hundredths of an hour by default. Setting this option to Yes displays activity totals in hours and minutes. |
 | Show Company Grand Total? | No | This option will allow you to display the company grand total at the end of the report. |
 | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
-| Task Grouping Type? | None | When this option is set, Task Headers will be printed on the Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default Task even if they worked in multiple Tasks.    If 'Activity' is selected, employee hours will be distributed across each respective task the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Task. |
+| Task Grouping Type? | None | When this option is set, Task Headers will be printed on the Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default Task even if they worked in multiple Tasks. If 'Activity' is selected, employee hours will be distributed across each respective task the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Task. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Job filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:      1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Department Activity Daily Summary
 
@@ -3354,28 +3361,28 @@ Report Example:
 
 Notes/Usage:
 
-* Useful for reviewing Total Hours Worked for specific departments
+- Useful for reviewing Total Hours Worked for specific departments
   on a Day by Day basis.
 
 Options:
 
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0  logo on the report. |
-| Department Grouping Type? | None | When this option is set, Department Headers will be printed on the  Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default department even if they worked in multiple departments.    If 'Activity' is selected, employee hours will be distributed across each respective department the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Department. |
+| Department Grouping Type? | None | When this option is set, Department Headers will be printed on the  Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default department even if they worked in multiple departments. If 'Activity' is selected, employee hours will be distributed across each respective department the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Department. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show only employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:         1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
-| Job Grouping Type? | None | When this option is set, Job Headers will be printed on the Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default Job even if they worked in multiple Jobs.    If 'Activity' is selected, employee hours will be distributed across each respective job the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Job. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Job Grouping Type? | None | When this option is set, Job Headers will be printed on the Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default Job even if they worked in multiple Jobs. If 'Activity' is selected, employee hours will be distributed across each respective job the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Job. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:         1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Job? | No | This option will allow you to page break the report by Job, making it easier to give the reports to Job Supervisors for review. |
 | Page Break by Task? | No | This option will allow you to page break the report by Task, making it easier to give the reports to Task Supervisors for review. |
 | Print Company Grand Totals? | No | This option will allow you to display the company grand total at the end of the report. |
 | Print Inactive Employees? | No | This option will allow you to print information for both active and inactive employees. |
-| Task Grouping Type? | None | When this option is set, Task Headers will be printed on the Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default Task even if they worked in multiple Tasks.    If 'Activity' is selected, employee hours will be distributed across each respective task the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Task. |
+| Task Grouping Type? | None | When this option is set, Task Headers will be printed on the Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default Task even if they worked in multiple Tasks. If 'Activity' is selected, employee hours will be distributed across each respective task the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Task. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Job filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:         1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:       1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Department Activity Summary
 
@@ -3390,28 +3397,28 @@ Report Example:
 
 Notes/Usage:
 
-* Useful for reviewing Total Hours Worked by hours type for specific
+- Useful for reviewing Total Hours Worked by hours type for specific
   departments over a date range.
 
 Options:
 
 | Option | Default Value | Description |
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0  logo on the report. |
-| Department Grouping Type? | None | When this option is set, Department Headers will be printed on the  Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default department even if they worked in multiple departments.    If 'Activity' is selected, employee hours will be distributed across each respective department the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Department. |
+| Department Grouping Type? | None | When this option is set, Department Headers will be printed on the  Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default department even if they worked in multiple departments. If 'Activity' is selected, employee hours will be distributed across each respective department the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Department. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show only employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:         1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
-| Job Grouping Type? | None | When this option is set, Job Headers will be printed on the Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default Job even if they worked in multiple Jobs.    If 'Activity' is selected, employee hours will be distributed across each respective job the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Job. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Job Grouping Type? | None | When this option is set, Job Headers will be printed on the Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default Job even if they worked in multiple Jobs. If 'Activity' is selected, employee hours will be distributed across each respective job the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Job. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:         1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:       1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Job? | No | This option will allow you to page break the report by Job, making it easier to give the reports to Job Supervisors for review. |
 | Page Break by Task? | No | This option will allow you to page break the report by Task, making it easier to give the reports to Task Supervisors for review. |
 | Print Company Grand Totals? | No | This option will allow you to display the company grand total at the end of the report. |
 | Print Inactive Employees? | No | This option will allow you to print information for both active and inactive employees. |
-| Task Grouping Type? | None | When this option is set, Task Headers will be printed on the Report.    If 'Employee Default' is selected, employee hours will be listed under their assigned default Task even if they worked in multiple Tasks.    If 'Activity' is selected, employee hours will be distributed across each respective task the employee worked in.    If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Task. |
+| Task Grouping Type? | None | When this option is set, Task Headers will be printed on the Report. If 'Employee Default' is selected, employee hours will be listed under their assigned default Task even if they worked in multiple Tasks. If 'Activity' is selected, employee hours will be distributed across each respective task the employee worked in. If 'None' is selected, this option is considered disabled and employee timecard records will not be grouped by Task. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Job filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:         1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:       1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Department Daily Summary
 
@@ -3426,7 +3433,7 @@ Example:
 
 Notes / Usage:
 
-* Useful for viewing how employee
+- Useful for viewing how employee
   hours are distributed across multiple departments on a day by day
   basis.
 
@@ -3447,7 +3454,7 @@ Report Example:
 
 Notes/Usage:
 
-* Useful for viewing how employee hours are distributed across
+- Useful for viewing how employee hours are distributed across
   multiple departments across a date range.
 
 Options:
@@ -3468,9 +3475,9 @@ Example:
 
 Notes/Usage:
 
-* Useful for performing a quick review of Employee in and out times
+- Useful for performing a quick review of Employee in and out times
   and hourly totals for a given work week.
-* The Mini Timecard report displays only the first In Punch and Last
+- The Mini Timecard report displays only the first In Punch and Last
   Out Punch for each respective date.
 
 Options:
@@ -3479,12 +3486,12 @@ Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
 | Group By Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
 | Group Level to group by: | No | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
 | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The  report can then be distributed as necessary. |
@@ -3495,9 +3502,9 @@ Options:
 | Print Inactive Employees? | No | This option will allow you to print information for both Active and Inactive Employees. |
 | Print Supervisor Signature Line? | No | When set to yes a signature line is displayed at the bottom of the report for supervisors to sign. This option is generally used in combination with the 'Page Break by Employee' or 'Page break by Supervisor' options. |
 | Sort by Employee Number | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None   the option is considered disabled and employees will not be grouped by   tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None  the option is considered disabled and employees will not be grouped by  tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:          1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Mini Timecard With Details
 
@@ -3510,9 +3517,9 @@ Report Example:
 
 Notes/Usage:
 
-* Useful for performing a quick review of Employee in and out times
+- Useful for performing a quick review of Employee in and out times
   and hourly totals for a given work week.
-* The Mini Timecard with Details report displays all punch pairs
+- The Mini Timecard with Details report displays all punch pairs
   for each respective date included in the date range.
 
 Options:
@@ -3521,12 +3528,12 @@ Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
 | Group By Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
 | Group Level to group by: | No | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
 | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The  report can then be distributed as necessary. |
@@ -3537,9 +3544,9 @@ Options:
 | Print Inactive Employees? | No | This option will allow you to print information for both Active and Inactive Employees. |
 | Print Supervisor Signature Line? | No | When set to yes a signature line is displayed at the bottom of the report for supervisors to sign. This option is generally used in combination with the 'Page Break by Employee' or 'Page break by Supervisor' options. |
 | Sort by Employee Number | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None   the option is considered disabled and employees will not be grouped by   tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None  the option is considered disabled and employees will not be grouped by  tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:          1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Shift Daily Summary
 
@@ -3554,7 +3561,7 @@ Example:
 
 Notes/Usage:
 
-* Ideal for reviewing how employee hours are distributed across multiple
+- Ideal for reviewing how employee hours are distributed across multiple
   shifts on a day by day basis. Especially useful for organizations
   who pay shift differentials.
 
@@ -3575,7 +3582,7 @@ Report Example:
 
 Notes/Usage:
 
-* Ideal for reviewing how employee hours are distributed across multiple
+- Ideal for reviewing how employee hours are distributed across multiple
   shifts across a date range. Especially useful for organizations who
   pay shift differentials.
 
@@ -3596,7 +3603,7 @@ Report Example:
 
 Notes/Usage:
 
-* Useful for viewing how employee hours are distributed across various
+- Useful for viewing how employee hours are distributed across various
   hours types on a day by day basis for a given date range.
 
 Options:
@@ -3616,18 +3623,16 @@ Report Example:
 
 Notes/Usage:
 
-* The Timecard Detail Report is one of the most commonly used reports
+- The Timecard Detail Report is one of the most commonly used reports
   for reviewing employee timecards, especially prior to running payroll.
-* The Timecard Detail Report displays all timecard punches and other
+- The Timecard Detail Report displays all timecard punches and other
   activity records present for employees during the date range set on
   the Report Selection Criteria.
-* The Timecard Detail Report includes the Timecard Review History
+- The Timecard Detail Report includes the Timecard Review History
   option which displays a list of all supervisors and their Position,
   as set on their Employee Profile, who have reviewed all of the employee's
   timecards during the respective date range. An example of the Timecard
-  Review History table is shown bel  
-    
-    
+  Review History table is shown bel
   ![](/img/image-404.png)
 
 Options:
@@ -3636,15 +3641,15 @@ Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
 | Employee Signature Message? | None | Permits the user to specify a disclaimer or message to be displayed under the employee signature line. The Employee Signature message will only be displayed on the Report if 'Print Employee Signature Line?' is set to Yes. |
 | Group By Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
 | Group Level to group by: | No | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Hide Audit Trail Asterisk? | No | If this option is set to Yes, the Audit Trail Asterisk will not be shown on the Timecard Detail Report. By default, when this option is set to No, any timecard punches with an audit trail record will be marked with an asterisk (\*).    Audit Trail records are automatically created by the InfiniTime software when timecard records are altered by supervisors and / or payroll personnel. |
+| Hide Audit Trail Asterisk? | No | If this option is set to Yes, the Audit Trail Asterisk will not be shown on the Timecard Detail Report. By default, when this option is set to No, any timecard punches with an audit trail record will be marked with an asterisk (\*). Audit Trail records are automatically created by the InfiniTime software when timecard records are altered by supervisors and / or payroll personnel. |
 | Hide Exceptions? | No | This option, when set to Yes, will prevent the Timecard Detail report from displaying exceptions such as Absent and Missed punch. By default, Exceptions are displayed on the Timecard Detail Report. |
 | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The  report can then be distributed as necessary. |
@@ -3657,13 +3662,13 @@ Options:
 | Print Time in Hours and Minutes? | No | InfiniTime reports activity in hundredths of an hour by default. Setting this option to Yes displays activity totals in hours and minutes. |
 | Print Timecard Review History? | No | When enabled, Timecard Review history displays a list of supervisors, including Supervisor Name, Supervisor Position, and Last Review Time, for each employee who have reviewed all of the employees Timecard Records for the selected date range. A supervisor's name will not be listed if all records during the date range are not reviewed by the supervisor. Only the Timecard Review History header will be displayed if there are no supervisors who have reviewed all of an employee's Timecard Records for the selected date range. |
 | Print Weekly Totals? | No | Enabling this option adds a subtotal row for each week to the Timecard Detail report. |
-| Punch Description Displays? | Nothing | The Timecard Detail Report includes a small space to the right of the In and Out Times which permits display of additional details. By default, the Punch Description is blank. The user may select from the following options to display additional details in the Punch Description:    Clock Description - Prints the Clock Name for the hardware reader from which the punch was polled on the Timecard Detail Report.  Grace Periods - Prints Early and Tardy indicators, along with the number of early and / or tardy minutes, on the Timecard Detail Report.  Telephone Number - Prints the Telephone Number from which the employee called in to punch on the Timecard Detail report. Only supported for InfiniTime customers with Telephone Punch. |
-| Show Company Grand Total? |  | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
+| Punch Description Displays? | Nothing | The Timecard Detail Report includes a small space to the right of the In and Out Times which permits display of additional details. By default, the Punch Description is blank. The user may select from the following options to display additional details in the Punch Description: Clock Description - Prints the Clock Name for the hardware reader from which the punch was polled on the Timecard Detail Report. Grace Periods - Prints Early and Tardy indicators, along with the number of early and / or tardy minutes, on the Timecard Detail Report. Telephone Number - Prints the Telephone Number from which the employee called in to punch on the Timecard Detail report. Only supported for InfiniTime customers with Telephone Punch. |
+| Show Company Grand Total? | | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
 | Sort by Employee Number | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
 | Supervisor Signature Message: | None | Permits the user to specify a disclaimer or message to be displayed under the supervisor signature line. The Supervisor Signature message will only be displayed on the Report if 'Print Supervisor Signature Line?' is set to Yes. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None   the option is considered disabled and employees will not be grouped by   tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None  the option is considered disabled and employees will not be grouped by  tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:          1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Timecard Detail With Weekly Totals
 
@@ -3677,14 +3682,14 @@ Report Example:
 
 Notes/Usage:
 
-* Ideal for customers with Bi-Weekly Pay Periods.
-* The Timecard Detail with Weekly Totals Report is one of the most
+- Ideal for customers with Bi-Weekly Pay Periods.
+- The Timecard Detail with Weekly Totals Report is one of the most
   commonly used reports for reviewing employee timecards, especially
   prior to running payroll.
-* The Timecard Detail with Weekly Totals Report displays weekly totals
+- The Timecard Detail with Weekly Totals Report displays weekly totals
   in addition to all timecard punches and other activity records present
   for employees during the date range set on the Report Selection Criteria.
-* The Timecard Detail Report with Weekly Totals includes the Timecard
+- The Timecard Detail Report with Weekly Totals includes the Timecard
   Review History option which displays a list of all supervisors and
   their Position, as set on their Employee Profile, who have reviewed
   all of the employee's timecards during the respective date range.
@@ -3696,15 +3701,15 @@ Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
 | Employee Signature Message? | None | Permits the user to specify a disclaimer or message to be displayed under the employee signature line. The Employee Signature message will only be displayed on the Report if 'Print Employee Signature Line?' is set to Yes. |
 | Group By Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
 | Group Level to group by: | No | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Hide Audit Trail Asterisk? | No | If this option is set to Yes, the Audit Trail Asterisk will not be shown on the Timecard Detail Report. By default, when this option is set to No, any timecard punches with an audit trail record will be marked with an asterisk (\*).    Audit Trail records are automatically created by the InfiniTime software when timecard records are altered by supervisors and / or payroll personnel. |
+| Hide Audit Trail Asterisk? | No | If this option is set to Yes, the Audit Trail Asterisk will not be shown on the Timecard Detail Report. By default, when this option is set to No, any timecard punches with an audit trail record will be marked with an asterisk (\*). Audit Trail records are automatically created by the InfiniTime software when timecard records are altered by supervisors and / or payroll personnel. |
 | Hide Exceptions? | No | This option, when set to Yes, will prevent the Timecard Detail report from displaying exceptions such as Absent and Missed punch. By default, Exceptions are displayed on the Timecard Detail Report. |
 | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The  report can then be distributed as necessary. |
@@ -3717,13 +3722,13 @@ Options:
 | Print Time in Hours and Minutes? | No | InfiniTime reports activity in hundredths of an hour by default. Setting this option to Yes displays activity totals in hours and minutes. |
 | Print Timecard Review History? | No | When enabled, Timecard Review history displays a list of supervisors, including Supervisor Name, Supervisor Position, and Last Review Time, for each employee who have reviewed all of the employees Timecard Records for the selected date range. A supervisor's name will not be listed if all records during the date range are not reviewed by the supervisor. Only the Timecard Review History header will be displayed if there are no supervisors who have reviewed all of an employee's Timecard Records for the selected date range. |
 | Print Weekly Totals? | Yes | Enabling this option adds a subtotal row for each week to the Timecard Detail report. Note that this option is enabled by default for the Timecard Detail with Weekly Totals Report. |
-| Punch Description Displays? | Nothing | The Timecard Detail Report includes a small space to the right of the In and Out Times which permits display of additional details. By default, the Punch Description is blank. The user may select from the following options to display additional details in the Punch Description:    Clock Description - Prints the Clock Name for the hardware reader from which the punch was polled on the Timecard Detail Report.  Grace Periods - Prints Early and Tardy indicators, along with the number of early and / or tardy minutes, on the Timecard Detail Report.  Telephone Number - Prints the Telephone Number from which the employee called in to punch on the Timecard Detail report. Only supported for InfiniTime customers with Telephone Punch. |
-| Show Company Grand Total? |  | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
+| Punch Description Displays? | Nothing | The Timecard Detail Report includes a small space to the right of the In and Out Times which permits display of additional details. By default, the Punch Description is blank. The user may select from the following options to display additional details in the Punch Description: Clock Description - Prints the Clock Name for the hardware reader from which the punch was polled on the Timecard Detail Report. Grace Periods - Prints Early and Tardy indicators, along with the number of early and / or tardy minutes, on the Timecard Detail Report. Telephone Number - Prints the Telephone Number from which the employee called in to punch on the Timecard Detail report. Only supported for InfiniTime customers with Telephone Punch. |
+| Show Company Grand Total? | | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
 | Sort by Employee Number | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
 | Supervisor Signature Message: | None | Permits the user to specify a disclaimer or message to be displayed under the supervisor signature line. The Supervisor Signature message will only be displayed on the Report if 'Print Supervisor Signature Line?' is set to Yes. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None   the option is considered disabled and employees will not be grouped by   tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None  the option is considered disabled and employees will not be grouped by  tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:          1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Timecard Summary
 
@@ -3737,7 +3742,7 @@ Report Example:
 
 Notes/Usage:
 
-* Useful for viewing how employee hours are distributed across various
+- Useful for viewing how employee hours are distributed across various
   hours types for a given date range.
 
 Options:
@@ -3759,9 +3764,9 @@ Report Example:
 
 Notes/Usage:
 
-* The Timecard With Clock Description is identical to the Timecard
+- The Timecard With Clock Description is identical to the Timecard
   Detail report with one exception.
-* By default, the Punch Description field of the Timecard With Clock
+- By default, the Punch Description field of the Timecard With Clock
   Description Report shows the Clock Description.
 
 Options:
@@ -3770,15 +3775,15 @@ Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
 | Employee Signature Message? | None | Permits the user to specify a disclaimer or message to be displayed under the employee signature line. The Employee Signature message will only be displayed on the Report if 'Print Employee Signature Line?' is set to Yes. |
 | Group By Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
 | Group Level to group by: | No | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Hide Audit Trail Asterisk? | No | If this option is set to Yes, the Audit Trail Asterisk will not be shown on the Timecard Detail Report. By default, when this option is set to No, any timecard punches with an audit trail record will be marked with an asterisk (\*).    Audit Trail records are automatically created by the InfiniTime software when timecard records are altered by supervisors and / or payroll personnel. |
+| Hide Audit Trail Asterisk? | No | If this option is set to Yes, the Audit Trail Asterisk will not be shown on the Timecard Detail Report. By default, when this option is set to No, any timecard punches with an audit trail record will be marked with an asterisk (\*). Audit Trail records are automatically created by the InfiniTime software when timecard records are altered by supervisors and / or payroll personnel. |
 | Hide Exceptions? | No | This option, when set to Yes, will prevent the Timecard Detail report from displaying exceptions such as Absent and Missed punch. By default, Exceptions are displayed on the Timecard Detail Report. |
 | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The  report can then be distributed as necessary. |
@@ -3791,13 +3796,13 @@ Options:
 | Print Time in Hours and Minutes? | No | InfiniTime reports activity in hundredths of an hour by default. Setting this option to Yes displays activity totals in hours and minutes. |
 | Print Timecard Review History? | No | When enabled, Timecard Review history displays a list of supervisors, including Supervisor Name, Supervisor Position, and Last Review Time, for each employee who have reviewed all of the employees Timecard Records for the selected date range. A supervisor's name will not be listed if all records during the date range are not reviewed by the supervisor. Only the Timecard Review History header will be displayed if there are no supervisors who have reviewed all of an employee's Timecard Records for the selected date range. |
 | Print Weekly Totals? | No | Enabling this option adds a subtotal row for each week to the Timecard Detail report. |
-| Punch Description Displays? | Clock Description | By Default, the Timecard Detail with Clock Description displays the Clock Description on the report.    The Timecard Detail Report includes a small space to the right of the In and Out Times which permits display of additional details. By default, the Punch Description is blank. The user may select from the following options to display additional details in the Punch Description:    Clock Description - Prints the Clock Name for the hardware reader from which the punch was polled on the Timecard Detail Report.  Grace Periods - Prints Early and Tardy indicators, along with the number of early and / or tardy minutes, on the Timecard Detail Report.  Telephone Number - Prints the Telephone Number from which the employee called in to punch on the Timecard Detail report. Only supported for InfiniTime customers with Telephone Punch. |
-| Show Company Grand Total? |  | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
+| Punch Description Displays? | Clock Description | By Default, the Timecard Detail with Clock Description displays the Clock Description on the report. The Timecard Detail Report includes a small space to the right of the In and Out Times which permits display of additional details. By default, the Punch Description is blank. The user may select from the following options to display additional details in the Punch Description: Clock Description - Prints the Clock Name for the hardware reader from which the punch was polled on the Timecard Detail Report. Grace Periods - Prints Early and Tardy indicators, along with the number of early and / or tardy minutes, on the Timecard Detail Report. Telephone Number - Prints the Telephone Number from which the employee called in to punch on the Timecard Detail report. Only supported for InfiniTime customers with Telephone Punch. |
+| Show Company Grand Total? | | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
 | Sort by Employee Number | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
 | Supervisor Signature Message: | None | Permits the user to specify a disclaimer or message to be displayed under the supervisor signature line. The Supervisor Signature message will only be displayed on the Report if 'Print Supervisor Signature Line?' is set to Yes. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None   the option is considered disabled and employees will not be grouped by   tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None  the option is considered disabled and employees will not be grouped by  tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:          1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 
 # Timecard With Phone Numbers
 
@@ -3811,9 +3816,9 @@ Report Example:
 
 Notes/Usage:
 
-* The Timecard With Clock Description is identical to the Timecard
+- The Timecard With Clock Description is identical to the Timecard
   Detail report with one exception.
-* By default, the Punch Description field of the Timecard With Phone
+- By default, the Punch Description field of the Timecard With Phone
   Numbers Report shows the Telephone Number from which an employee called
   into the Telephone Punch System.
 
@@ -3823,15 +3828,15 @@ Options:
 | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. |
 | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. |
 | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. |
-| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with Timecards in the tagged department(s) will be displayed on the report.  2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
+| Department Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with Timecards in the tagged department(s) will be displayed on the report. 2.) Only Timecard records assigned to the tagged department(s) will be used to calculate totals for display on the report. All other timecard records for employees will be ignored when this option is set to Yes. |
 | Employee Signature Message? | None | Permits the user to specify a disclaimer or message to be displayed under the employee signature line. The Employee Signature message will only be displayed on the Report if 'Print Employee Signature Line?' is set to Yes. |
 | Group By Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. |
 | Group Level to group by: | No | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
-| Hide Audit Trail Asterisk? | No | If this option is set to Yes, the Audit Trail Asterisk will not be shown on the Timecard Detail Report. By default, when this option is set to No, any timecard punches with an audit trail record will be marked with an asterisk (\*).    Audit Trail records are automatically created by the InfiniTime software when timecard records are altered by supervisors and / or payroll personnel. |
+| Hide Audit Trail Asterisk? | No | If this option is set to Yes, the Audit Trail Asterisk will not be shown on the Timecard Detail Report. By default, when this option is set to No, any timecard punches with an audit trail record will be marked with an asterisk (\*). Audit Trail records are automatically created by the InfiniTime software when timecard records are altered by supervisors and / or payroll personnel. |
 | Hide Exceptions? | No | This option, when set to Yes, will prevent the Timecard Detail report from displaying exceptions such as Absent and Missed punch. By default, Exceptions are displayed on the Timecard Detail Report. |
 | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. |
 | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. |
-| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:          1.) Only employees with hours in the tagged Job(s) will be displayed on the report.  2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Job Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged departments as follows:        1.) Only employees with hours in the tagged Job(s) will be displayed on the report. 2.) Only timecard records assigned to the tagged Job(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
 | Page Break by Department? | No | This option will allow you page break the report by Department, making it easier to give the report to department heads for review if needed. |
 | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. |
 | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The  report can then be distributed as necessary. |
@@ -3844,10 +3849,10 @@ Options:
 | Print Time in Hours and Minutes? | No | InfiniTime reports activity in hundredths of an hour by default. Setting this option to Yes displays activity totals in hours and minutes. |
 | Print Timecard Review History? | No | When enabled, Timecard Review history displays a list of supervisors, including Supervisor Name, Supervisor Position, and Last Review Time, for each employee who have reviewed all of the employees Timecard Records for the selected date range. A supervisor's name will not be listed if all records during the date range are not reviewed by the supervisor. Only the Timecard Review History header will be displayed if there are no supervisors who have reviewed all of an employee's Timecard Records for the selected date range. |
 | Print Weekly Totals? | No | Enabling this option adds a subtotal row for each week to the Timecard Detail report. |
-| Punch Description Displays? | Telephone Number | By Default, the Timecard Detail with Phone Numbers displays phone numbers in the Punch Description.    The Timecard Detail Report includes a small space to the right of the In and Out Times which permits display of additional details. By default, the Punch Description is blank. The user may select from the following options to display additional details in the Punch Description:    Clock Description - Prints the Clock Name for the hardware reader from which the punch was polled on the Timecard Detail Report.  Grace Periods - Prints Early and Tardy indicators, along with the number of early and / or tardy minutes, on the Timecard Detail Report.  Telephone Number - Prints the Telephone Number from which the employee called in to punch on the Timecard Detail report. Only supported for InfiniTime customers with Telephone Punch. |
-| Show Company Grand Total? |  | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
+| Punch Description Displays? | Telephone Number | By Default, the Timecard Detail with Phone Numbers displays phone numbers in the Punch Description. The Timecard Detail Report includes a small space to the right of the In and Out Times which permits display of additional details. By default, the Punch Description is blank. The user may select from the following options to display additional details in the Punch Description: Clock Description - Prints the Clock Name for the hardware reader from which the punch was polled on the Timecard Detail Report. Grace Periods - Prints Early and Tardy indicators, along with the number of early and / or tardy minutes, on the Timecard Detail Report. Telephone Number - Prints the Telephone Number from which the employee called in to punch on the Timecard Detail report. Only supported for InfiniTime customers with Telephone Punch. |
+| Show Company Grand Total? | | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. |
 | Sort by Employee Number | No | This option will group employees specified by the Employee Filter according to their Employee ID. |
 | Supervisor Signature Message: | None | Permits the user to specify a disclaimer or message to be displayed under the supervisor signature line. The Supervisor Signature message will only be displayed on the Report if 'Print Supervisor Signature Line?' is set to Yes. |
-| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None   the option is considered disabled and employees will not be grouped by   tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
+| Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None  the option is considered disabled and employees will not be grouped by  tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. |
 | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
-| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:          1.) Only employees with hours in the tagged tasks will be displayed on the report.  2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |
+| Task Selection Filters Activity? | No | If this option is set to Yes, employee Timecard Records displayed on the report will be filtered according to tagged tasks as follows:        1.) Only employees with hours in the tagged tasks will be displayed on the report. 2.) Only timecard records assigned to the tagged task(s) will be used to calculate totals for display on the report. All other timecard records for employees will ignored when this option is set to Yes. |

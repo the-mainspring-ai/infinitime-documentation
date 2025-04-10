@@ -1,14 +1,6 @@
 xml version="1.0" encoding="utf-8" ?
 
-
-
-
-
-
 Software Overview
-
-
-
 
 # InfiniTime Software Overview
 
@@ -21,24 +13,24 @@ Software Overview provides background information on  in InfiniTime's available
 addition to essential tasks and concepts. Upon completing this section,
 users can expect to have an understanding of:
 
-* How to access InfiniTime
+- How to access InfiniTime
   from a Client Machine
-* Modules available with the InfiniTime
+- Modules available with the InfiniTime
   Software and their intended uses
-* The InfiniTime
+- The InfiniTime
   User Interface
 
-+ How to distinguish between Optional Fields and Required Fields
-+ How to use various tools such as In Line Edit, Auto-Complete,
+* How to distinguish between Optional Fields and Required Fields
+* How to use various tools such as In Line Edit, Auto-Complete,
   and the Time / Date Selection Tools to simplify data entry
-+ What makes the InfiniTime
+* What makes the InfiniTime
   User Interface Unique when compared with other Web Applications
 
-* Using the Main Toolbar within the Manager Module
-* Company Related Options
-* Employee Related Settings and Related Tasks such as inserting
+- Using the Main Toolbar within the Manager Module
+- Company Related Options
+- Employee Related Settings and Related Tasks such as inserting
   an employee
-* Basic InfiniTime
+- Basic InfiniTime
   Security Concepts such as Security Roles, Default Security Roles,
   Security Filters, and Employee Supervisors
 
@@ -190,7 +182,7 @@ Software.
 
 Obtaining the hostname from your InfiniTime Server:
 
-*Technical Note:*
+_Technical Note:_
 These steps must be performed on the InfiniTime
 Server.
 
@@ -255,8 +247,8 @@ attempting to access the server using the old IP Address.
 
 To obtain the local IP address of the InfiniTime Server:
 
-*Technical
-Note:* These steps must be performed on the InfiniTime
+_Technical
+Note:_ These steps must be performed on the InfiniTime
 Server.
 
 Click on Start.
@@ -364,15 +356,15 @@ Administrator, includes a shortcut to each module.
 In the Manager
 Module you canâ¦
 
-* View employee information
-* View and edit employee activity
-* Run reports
-* Schedule setup
-* Access Escort Windows
-* In & Out Board Access
-* Most of the users time spent with the application will be in the
+- View employee information
+- View and edit employee activity
+- Run reports
+- Schedule setup
+- Access Escort Windows
+- In & Out Board Access
+- Most of the users time spent with the application will be in the
   manager module.
-* Basically all administrative tasks such as adjusting employee schedules,
+- Basically all administrative tasks such as adjusting employee schedules,
   editing timecards, and printing reports can be performed within the
   manager module.
 
@@ -381,22 +373,22 @@ Module you canâ¦
 In the Employee
 Moduleâ¦
 
-* Employees can view a history of their timecard information back
+- Employees can view a history of their timecard information back
   to when they started using the system.
-* Employees can view current schedule information.
-* Employees can Run Reports designated for use within the employee
+- Employees can view current schedule information.
+- Employees can Run Reports designated for use within the employee
   module by software Administrators.
-* Send messages to their supervisor in the form of:
+- Send messages to their supervisor in the form of:
 
-+ Comments
-+ Requests for Schedule Change
-+ Requests for Vacation / Time Off
+* Comments
+* Requests for Schedule Change
+* Requests for Vacation / Time Off
 
-* Employees can Clock In and Out
-* Employees can view the In & Out Board
-* Self Service:
+- Employees can Clock In and Out
+- Employees can view the In & Out Board
+- Self Service:
 
-+ Even if your organization chooses not to use the employee module
+* Even if your organization chooses not to use the employee module
   for punching in and out it still may be useful to allow employees
   to view and print their schedule and access a history of their
   time in the system. Use of the Employee Module for self service
@@ -408,17 +400,17 @@ Moduleâ¦
 In the Escort
 Module you canâ¦
 
-* Identify tasks that an employee performs on a regular basis within
+- Identify tasks that an employee performs on a regular basis within
   InfiniTime and place
   a button corresponding to only those tasks on a window.
-* Serves as a Customized Portal to the InfiniTime
+- Serves as a Customized Portal to the InfiniTime
   Application
-* Layout is completely user customizable with the ability to add
+- Layout is completely user customizable with the ability to add
   labels, links, and images.
-* Very useful for employees who are not highly computer literate
+- Very useful for employees who are not highly computer literate
   or who might be overwhelmed by the number of features in the manager
   module..
-* Escort users donât have to learn the entire application â only
+- Escort users donât have to learn the entire application â only
   the areas they use on a regular basis. IE: You want to run a report.
   With escort the user only has to click on a single button where in
   the manager module they would have to Open the Report Library, Find
@@ -430,13 +422,13 @@ Module you canâ¦
 In the Punch
 Module you canâ¦
 
-* The Punch Module is In essence a stripped down version of the employee
+- The Punch Module is In essence a stripped down version of the employee
   module.
-* Provides a basic software time clock interface.
-* Allows employees to punch in or out as necessary.
-* Can be used by employees who are offsite but have access to a computer
+- Provides a basic software time clock interface.
+- Allows employees to punch in or out as necessary.
+- Can be used by employees who are offsite but have access to a computer
   and the internet (Software must be published)
-* Can be used to collect Employee Punches in place of hardware units
+- Can be used to collect Employee Punches in place of hardware units
   such as the Scout / Zephyr ect. for both Local and Remote Users.
 
 ![](/img/image-404.png)
@@ -456,13 +448,13 @@ depending on security concerns.
 FTP
 Inputâ¦
 
-* Files
+- Files
   used with import utilities within the InfiniTime
   application are automatically copied to this location.
-* It
+- It
   is not necessary to copy files for import to this location ahead of
   time.
-* Files
+- Files
   within this directory that have import templates associated with them
   should not be renamed or have the column headers altered.
 
@@ -474,7 +466,7 @@ as desired to permit or deny file access.
 FTP
 Outputâ¦
 
-* Files
+- Files
   created by InfiniTime
   Export and Payroll Export utilities are created in this directory
   and can be accessed using the FTP Output shortcut from any client
@@ -487,13 +479,13 @@ Server to permit or deny file access.
 
 ### Basic Software Settings and User Interface Review - Introduction
 
-InfiniTime is a [Web Application](void(0);) unlike any other. In contrast with most
+InfiniTime is a ... unlike any other. In contrast with most
 browser applications InfiniTime
 was developed as a multitasking application and is not page loaded. As
 a multitasking application InfiniTime
 allows users to perform several tasks at the same time, eliminating the
 need to close what you are doing, and open another browser to perform
-another task. Such [multitasking](void(0);) features that are normally
+another task. Such ... features that are normally
 only available in a Windows application. This unique browser environment
 exclusive to web Time and Attendance products from Inception Technologies
 provides a high level of productivity. InfiniTime
@@ -523,25 +515,30 @@ software. Double click the correct shortcut to access the desired module.
 ![](/img/image-404.png)
 
 User Name
+
 - The User Name is the ID used to access the software.  This ID is
-given to the user by the administrator along with the User Password.
+  given to the user by the administrator along with the User Password.
 
 Password
+
 - The User Password is the Password used to access the software.  This
-Password is given to the user by the administrator along with the User
-ID.
+  Password is given to the user by the administrator along with the User
+  ID.
 
 Ok Button
+
 - The OK Button will validate the User Name and Password to log into the
-software.
+  software.
 
 Cancel Button
+
 - The Cancel Button will not save the changes made to a record and/or
-exit out of the screen that you are currently in.
+  exit out of the screen that you are currently in.
 
 Change Password
+
 - Prompts the user to [change
-their password.](Security/Security_Overview.md#sec05_Ability_to_Change_Passwords_Upon_Login)
+  their password.](Security/Security_Overview.md#sec05_Ability_to_Change_Passwords_Upon_Login)
 
 Users accessing any module of the software for the first time may enter
 the default username and password into the login window as shown below.
@@ -594,6 +591,7 @@ shown below, can be used to view different details on a single form.
 ![](/img/image-404.png)
 
 Company Update Form
+
 - General Tab
 
 Company Info
@@ -812,14 +810,14 @@ will never expire.
 
 System Date Format
 
- Sets
+Sets
 the Date Format used throughout the InfiniTime
 Application. Supported formats are listed below with examples.
 
 | Date Format | Appearance |
-| mm/dd/yyyy |  |
-| dd/mm/yyyy |  |
-| yyyy/mm/dd |  |
+| mm/dd/yyyy | |
+| dd/mm/yyyy | |
+| yyyy/mm/dd | |
 
 System Time Format
 
@@ -828,9 +826,9 @@ used throughout the InfiniTime
 Application. Supported formats are listed below with examples.
 
 | Time Format | Appearance |
-| hh:mm tt |  |
-| HH:mm |  |
-| hh:mm |  |
+| hh:mm tt | |
+| HH:mm | |
+| hh:mm | |
 
 System Window Skin
 
@@ -839,24 +837,24 @@ used throughout the InfiniTime
 Application. Supported skins are listed below with examples.
 
 | Skin Name | Appearance |
-| Vista |  |
-| Black |  |
-| Default |  |
-| Forest |  |
-| Hay |  |
-| Office 2007 |  |
-| Outlook |  |
-| Simple |  |
-| Sunset |  |
-| Telerik |  |
-| Web20 |  |
-| WebBlue |  |
+| Vista | |
+| Black | |
+| Default | |
+| Forest | |
+| Hay | |
+| Office 2007 | |
+| Outlook | |
+| Simple | |
+| Sunset | |
+| Telerik | |
+| Web20 | |
+| WebBlue | |
 
 Recalculate Button
 
 ![](/img/image-404.png) - This feature allows the user to recalculate
-timecard activity *for
-the whole company*.  A recalculate should be performed after
+timecard activity _for
+the whole company_.  A recalculate should be performed after
 making any changes to the policies, or after inserting, changing, or deleting
 Holiday Dates. For example, if you should decided to enable rounding for
 punches to the nearest quarter hour this will effect employee hour totals.
@@ -889,31 +887,31 @@ the corresponding exception as appropriate. Initially, it is important
 to understand the following concepts regarding InfiniTime
 Exceptions:
 
-* Exceptions can be configured in two ways:
+- Exceptions can be configured in two ways:
 
-+ Company Wide Exceptions - Company Wide Exceptions are tracked
+* Company Wide Exceptions - Company Wide Exceptions are tracked
   for all employees. Company Wide Exceptions can be configured from
   the Exception Types Tab of the Company Update Form or from the
   Exception Type Table: Company - Setup - Exception Types on the
   Main Toolbar.
-+ Policy Specific Exceptions - Policy Specific Exceptions are
+* Policy Specific Exceptions - Policy Specific Exceptions are
   tracked only for employees assigned to the respective policy.
   Policy Specific Exceptions can be configured in the Exceptions
   Section on the Policy Update Form which can be accessed via: Company
   - Setup - Policies on the Main Toolbar.
 
-* InfiniTime
+- InfiniTime
   offers multiple exceptions for detailed employee performance tracking.
   Schedules are required for most exceptions. For example, it is simply
   not possible for InfiniTime
   to determine if an employee is late without a schedule defining when
   the employee is expected to report to work..
 
-* Two exceptions which can be tracked without the use of schedules
+- Two exceptions which can be tracked without the use of schedules
   are:
 
-+ Missed Punch
-+ Overtime
+* Missed Punch
+* Overtime
 
 The Missed Punch Exception is recommended for use in all production
 InfiniTime installations.
@@ -953,14 +951,14 @@ and are one of the most flexible scheduling methods. Initially, it is
 important to understand the following concepts regarding Scheduling and
 InfiniTime Shifts:
 
-* Scheduling provides the ability to track additional exceptions
+- Scheduling provides the ability to track additional exceptions
   such as tardy, late departure, early departure, early arrival ect.
   If schedules are not configured for employees these exceptions will
   never trigger.
-* Shifts can also be used to configure shift differentials where
+- Shifts can also be used to configure shift differentials where
   employees receive an additional amount or percentage per hour while
   working within a specific time window.
-* Additional information regarding configuring employee schedules
+- Additional information regarding configuring employee schedules
   can be found in the [Schedule
   Configuration section](Scheduling/Scheduling.md#sch01_What_do_I_want_to_accomplish_by_using_schedules_) of this document.
 
@@ -978,17 +976,17 @@ Work. Initially, it is important to understand the following concepts
 regarding InfiniTime Departments
 and Job Costing:
 
-* InfiniTime includes
+- InfiniTime includes
   four default departments as shown in the image above. If desired these
   departments can be removed. It should be noted that InfiniTime will only permit a department
   to be deleted if the department 1.)  Is not assigned to any employees.
   2.) Is not assigned to any timecard records.
-* The default department is highlighted blue in the department table.
+- The default department is highlighted blue in the department table.
   When a new employee is inserted they are automatically assigned the
   default department.
-* There is no limit to the number of departments that can be inserted
+- There is no limit to the number of departments that can be inserted
   into the software.
-* Job Costing permits customers to track employee hours under various
+- Job Costing permits customers to track employee hours under various
   levels. Job costing is generally utilized in organizations where employee
   labor costs are of special interest when compared to the cost of finished
   goods such as manufacturing related organizations or where hours are
@@ -1046,9 +1044,9 @@ on change. Initially, it is important to understand the following concepts
 relating to Department Configuration. Keep these in mind when preparing
 a list of your organization's departments for use during software configuration.
 
-* The Department Name and Department Number are unique fields. Multiple
+- The Department Name and Department Number are unique fields. Multiple
   departments cannot share the same department name or number.
-* Department Cost Center - The cost center is used as a payroll identifier,
+- Department Cost Center - The cost center is used as a payroll identifier,
   providing the ability to match departments within InfiniTime to Hours
   Categories such as Tasks, Jobs, Classes, and/or Activities within
   a 3rd Party Payroll Application. Departments are generally identified
@@ -1056,20 +1054,20 @@ a list of your organization's departments for use during software configuration.
   within a payroll application. The Department Cost Center must be configured
   for customers who wish to track how employee hours are distributed
   between departments in their payroll application.
-* The Default Schedule Tab of the Department Update Form is one
+- The Default Schedule Tab of the Department Update Form is one
   method for defining employee schedules. Department schedules effect
   all employees assigned to the specific department. This scheduling
   method is most useful if the majority of employees within a department
   work the same schedule. Additional information can be found within
   [the Scheduling Section](Scheduling/Scheduling.md#sch05_Scheduling_By_Department)
   of this document.
-* The Premium Pay Tab of
+- The Premium Pay Tab of
   the Department Update Form can be used to configure a specific wage
   for different Hours Types (IE: Regular Hours, Overtime Hours, etc.)
   worked in the respective Department. Additional information can be
   found within [the Pay Premiums
   Section](Configuration/Product_Configuration.md#pp01_Pay_Premiums_Introduction) of this document.
-* The Hours Mapping Tab of the Department Update Form can be used
+- The Hours Mapping Tab of the Department Update Form can be used
   to direct specific hours types worked in the respective Department
   to a different Hours Type. This feature is often utilized for Payroll
   Export purposes to separate hours that are paid at different rates.
@@ -1228,11 +1226,12 @@ on the Menu is provided below.
 The File Menu provides access to:
 
 Escort
+
 - Opens the Escort Window assigned to the currently logged in user.
-If the logged in user does not have an escort window assigned a warning
-will be displayed. Additional details on Escort Configuration and Usage
-can be found in the [Escort
-section](Escort/Escort_Overview.md#esc01_Escort_Overview) of this document.
+  If the logged in user does not have an escort window assigned a warning
+  will be displayed. Additional details on Escort Configuration and Usage
+  can be found in the [Escort
+  section](Escort/Escort_Overview.md#esc01_Escort_Overview) of this document.
 
 In
 and Out Board - Opens the In & Out Board which lists all
@@ -1246,8 +1245,9 @@ on Backup / Restore Configuration and Usage can be found in the [Backup / Restor
 this document.
 
 Exit
+
 - Closes the InfiniTime
-Manager Module.
+  Manager Module.
 
 ### Company Menu
 
@@ -1256,14 +1256,15 @@ Manager Module.
 The Company Menu provides access to:
 
 Activity
+
 - Opens the Company Timecard Table. The Company Timecard Table
-is best suited for editing timecards and is intended for use when reviewing
-timecards for multiple employees. As such, the Company Timecard Table
-is often used on a Daily basis by InfiniTime
-Payroll Clerks and employee Supervisors. Additional Details on use of
-the Company Timecard Table and Editing Employee Timecards can be found
-in the [Timecard Editing Section](TimecardEditing/TimecardEditing.md#tim01_Timecard_Editing_Overview)
-of this document.
+  is best suited for editing timecards and is intended for use when reviewing
+  timecards for multiple employees. As such, the Company Timecard Table
+  is often used on a Daily basis by InfiniTime
+  Payroll Clerks and employee Supervisors. Additional Details on use of
+  the Company Timecard Table and Editing Employee Timecards can be found
+  in the [Timecard Editing Section](TimecardEditing/TimecardEditing.md#tim01_Timecard_Editing_Overview)
+  of this document.
 
 Setup:
 
@@ -1282,11 +1283,12 @@ Notifications Section](Policies/Policy_Overview.md#pol33_Exception_Type_Update_F
 this document.
 
 Departments
+
 - Opens the Department Table which displays the same information
-as the Departments Tab of the Company Update Form. Additional details
-on job costing and InfiniTime
-Departments configuration can be found in the [Job
-Costing Section of this document.](Configuration/Product_Configuration.md#cnf01_Job_Costing_Introduction)
+  as the Departments Tab of the Company Update Form. Additional details
+  on job costing and InfiniTime
+  Departments configuration can be found in the [Job
+  Costing Section of this document.](Configuration/Product_Configuration.md#cnf01_Job_Costing_Introduction)
 
 Employees -
  Opens the Employee Table which displays a list of all employees
@@ -1343,19 +1345,21 @@ can be found in the [InfiniTime Administration - Reader
 Configuration section of this document.](ovr_SoftwareAdministration.md#ru1_Reader_Configuration_Table)
 
 Shifts
+
 - Opens the Shifts Table which displays
-a list of all Shifts configured in the software. Shifts are one of the
-several scheduling options available within InfiniTime
-and are one of the most flexible scheduling methods. Additional information
-regarding configuring employee schedules can be found in the [Schedule Configuration section](Scheduling/Scheduling.md#sch14_Configuring_Shifts_for_Scheduling_Purposes)
-of this document.
+  a list of all Shifts configured in the software. Shifts are one of the
+  several scheduling options available within InfiniTime
+  and are one of the most flexible scheduling methods. Additional information
+  regarding configuring employee schedules can be found in the [Schedule Configuration section](Scheduling/Scheduling.md#sch14_Configuring_Shifts_for_Scheduling_Purposes)
+  of this document.
 
 Reports
+
 - Opens the Report Library which lists
-all of the reports included with InfiniTime
-broken down by major categories such as Timecard Reports, Payroll Reports,
-Management Reports ect. Additional details on available reports and use
-of the Report Library can be found in the [Reports Section](Reports/Reports.md#rpt01_InfiniTime_Reports_-_Introduction) of this document.
+  all of the reports included with InfiniTime
+  broken down by major categories such as Timecard Reports, Payroll Reports,
+  Management Reports ect. Additional details on available reports and use
+  of the Report Library can be found in the [Reports Section](Reports/Reports.md#rpt01_InfiniTime_Reports_-_Introduction) of this document.
 
 Payroll
 Exports - Opens the Payroll Export Table which lists all Payroll
@@ -1447,10 +1451,11 @@ details regarding Other Activity Types can be found in the [Other Activity Confi
 Section](Configuration/Product_Configuration.md#ota01_Other_Activity_Types) of this document.
 
 Policies
+
 - Opens the Policy Table which
-displays a list of all policies configured in the software. Additional
-details regarding configuring policies are provided in the [Policy Configuration Section](Policies/Policy_Overview.md#pol1_Policy_Overview)
-of this document.
+  displays a list of all policies configured in the software. Additional
+  details regarding configuring policies are provided in the [Policy Configuration Section](Policies/Policy_Overview.md#pol1_Policy_Overview)
+  of this document.
 
 ### Lookups - Employee Setup Introduction
 
@@ -1474,11 +1479,12 @@ Notifications Section](Policies/Policy_Overview.md#pol33_Exception_Type_Update_F
 this document.
 
 Departments
+
 - Opens the Department Table which
-displays the same information as the Departments Tab of the Company Update
-Form. Additional details on job costing and InfiniTime
-Departments configuration can be found in the [Job Costing Section](Configuration/Product_Configuration.md#cnf06_Configuring_Departments) of
-this document.
+  displays the same information as the Departments Tab of the Company Update
+  Form. Additional details on job costing and InfiniTime
+  Departments configuration can be found in the [Job Costing Section](Configuration/Product_Configuration.md#cnf06_Configuring_Departments) of
+  this document.
 
 Escort
 Settings - Opens the Escort Settings Description
@@ -1494,15 +1500,16 @@ details on use and configuration of Escort Windows can be found in the
 Configuration Section](Escort/Escort_Overview.md#esc01_Escort_Overview) of this document.
 
 Groups
+
 - Opens the Group Table which displays
-all Group Levels and Group Descriptions configured within InfiniTime. Group
-Levels and Group Descriptions can be used to organize employees into organizational
-units (IE: All employees at the Phoenix, AZ Location. All Employees employed
-by Company A, All Employees employed by Company B etc.) to be used for
-filtering purposes throughout the InfiniTime
-Software. Additional details regarding use and configuration of Employee
-Groups can be found in the [Groups
-Configuration Section](Configuration/Product_Configuration.md#gr01_Groups_Introduction) of this document.
+  all Group Levels and Group Descriptions configured within InfiniTime. Group
+  Levels and Group Descriptions can be used to organize employees into organizational
+  units (IE: All employees at the Phoenix, AZ Location. All Employees employed
+  by Company A, All Employees employed by Company B etc.) to be used for
+  filtering purposes throughout the InfiniTime
+  Software. Additional details regarding use and configuration of Employee
+  Groups can be found in the [Groups
+  Configuration Section](Configuration/Product_Configuration.md#gr01_Groups_Introduction) of this document.
 
 Human
 Resources Lookups:
@@ -1571,14 +1578,15 @@ Settings Section](ovr_SoftwareOverview.md#so153_Employee_Profiles_and_Related_Se
 document.
 
 Worker's Comp. Categories
+
 - Opens the Worker Compensation Code
-Table which lists all Worker's Compensation Code Categories configured
-within InfiniTime. Workers
-Comp. Categories are used to assign employees to specific workplace exposure
-codes in accordance with the rules and regulations set forth by the National
-Council of Compensation Insurance (NCCI) and can be used for tracking
-purposes to show employee distribution across various workplace exposure
-codes.
+  Table which lists all Worker's Compensation Code Categories configured
+  within InfiniTime. Workers
+  Comp. Categories are used to assign employees to specific workplace exposure
+  codes in accordance with the rules and regulations set forth by the National
+  Council of Compensation Insurance (NCCI) and can be used for tracking
+  purposes to show employee distribution across various workplace exposure
+  codes.
 
 Important
 Date Names - Opens the Important
@@ -1697,25 +1705,27 @@ availability types can be found in [the
 Schedule Configuration section of this document.](Scheduling/Scheduling.md#sch38_Employee_Availability___Benefits_and_Configuring)
 
 Shifts
+
 - Opens the Shifts Table which displays
-a list of all Shifts configured in the software. Shifts are one of the
-several scheduling options available within InfiniTime
-and are one of the most flexible scheduling methods. Additional information
-regarding configuring employee schedules can be found in [the
-Schedule Configuration section of this document.](Scheduling/Scheduling.md#sch14_Configuring_Shifts_for_Scheduling_Purposes)
+  a list of all Shifts configured in the software. Shifts are one of the
+  several scheduling options available within InfiniTime
+  and are one of the most flexible scheduling methods. Additional information
+  regarding configuring employee schedules can be found in [the
+  Schedule Configuration section of this document.](Scheduling/Scheduling.md#sch14_Configuring_Shifts_for_Scheduling_Purposes)
 
 Skeletons
+
 - Opens the Schedule Skeletons Table
-which displays a list of all Schedule Skeletons configured within InfiniTime. Schedule Skeletons are
-schedule snapshots for specific operating scenarios with different staffing
-requirements for a given organization. For example, Friday nights at a
-restaurant typically require a full staff where as morning shifts might
-require only minimal staff. Skeletons make it possible to search for specific
-employees according to their individual abilities as defined by Trained
-Tasks in addition to their previously identified Availability Schedule,
-or when they have indicated they are available to report to work. Additional information regarding use
-and configuration of employee schedules and Skeletons can be found in [the Schedule
-Configuration section of this document.](Scheduling/Scheduling.md#sch44_Schedule_Skeletons___Benefits_and_Configuring)
+  which displays a list of all Schedule Skeletons configured within InfiniTime. Schedule Skeletons are
+  schedule snapshots for specific operating scenarios with different staffing
+  requirements for a given organization. For example, Friday nights at a
+  restaurant typically require a full staff where as morning shifts might
+  require only minimal staff. Skeletons make it possible to search for specific
+  employees according to their individual abilities as defined by Trained
+  Tasks in addition to their previously identified Availability Schedule,
+  or when they have indicated they are available to report to work. Additional information regarding use
+  and configuration of employee schedules and Skeletons can be found in [the Schedule
+  Configuration section of this document.](Scheduling/Scheduling.md#sch44_Schedule_Skeletons___Benefits_and_Configuring)
 
 Trained
 Tasks - Opens the Trained Tasks Table which displays a list
@@ -1760,7 +1770,7 @@ Timecard - Purge](TimecardEditing/TimecardEditing.md#tim05a_Purge) section of th
 Quick Punch History - Opens
 the Quick Punch History Table. The
 Quick Punch History Table maintains a running list of all quick punch
-actions that have been performed since database creation. 
+actions that have been performed since database creation.
 Additional Details on the use of Quick
 Punch can be found in the Company Timecard - Quick Punch section of this
 document.
@@ -1771,10 +1781,11 @@ a running list of all quick schedule actions that have been performed
 since database creation.
 
 Supervisor Review History
+
 - Opens the Supervisor Review History
-Table. The Supervisor Review
-History Table maintains a running list of all Supervisor Review actions
-that have been performed since database creation.
+  Table. The Supervisor Review
+  History Table maintains a running list of all Supervisor Review actions
+  that have been performed since database creation.
 
 Clock Tools:
 
@@ -1801,8 +1812,9 @@ Software Administrators with an overview of automated processes performed
 by the InfiniTime Housekeeping
 Service in addition to access to Hardware Device Configuration. Additional
 Details on use of the System Monitor can be found in the [InfiniTime Administration
+
 - Clock Tools](ovr_SoftwareAdministration.md#ct2_System_Monitor_Window) section of
-this document.
+  this document.
 
 Unassigned Punches - Opens
 the Unassigned Punches Table.
@@ -1821,22 +1833,24 @@ into a single comma delimited file for internal reporting purposes.
 ![](/img/image-404.png)
 
 Export
+
 - Opens the Export Definition table
-which lists all Export Templates previously configured within InfiniTime. Additional
-Details on the use and configuration of the Export Tool can be found in
-the [InfiniTime
-Administration
+  which lists all Export Templates previously configured within InfiniTime. Additional
+  Details on the use and configuration of the Export Tool can be found in
+  the [InfiniTime
+  Administration
 - Import & Export - Export](ovr_SoftwareAdministration.md#exp1_Export_Introduction)
-section of this document.
+  section of this document.
 
 Import
+
 - Opens the Import Definition table
-which lists all Import Templates previously configured within InfiniTime. Additional
-Details on the use and configuration of the Export Tool can be found in
-the [InfiniTime
-Administration
+  which lists all Import Templates previously configured within InfiniTime. Additional
+  Details on the use and configuration of the Export Tool can be found in
+  the [InfiniTime
+  Administration
 - Import & Export - Import](ovr_SoftwareAdministration.md#imp1_Import_Introduction)
-section of this document.
+  section of this document.
 
 Payroll
 Export - Opens the Payroll Export
@@ -1857,6 +1871,7 @@ employees at once which makes it possible to significantly reduce man
 hours required to perform the initial software configuration and / or
 maintenance tasks when working with large numbers of employees. Additional
 Details on the use of Quick Assign can be found in the [Configuration
+
 - Quick Assign section](Configuration/Product_Configuration.md#qa01_Quick_Assign_Introduction) of this document.
 
 ### Report Library Menu
@@ -1897,14 +1912,16 @@ Licensing Section](../Licensing_Introduction.md) of this
 document.
 
 Index
+
 - Opens the InfiniTime
-Electronic Help Documentation Index which includes all Help Topics listed
-by content subject.
+  Electronic Help Documentation Index which includes all Help Topics listed
+  by content subject.
 
 Search
+
 - Opens the InfiniTime
-Electronic Help Documentation Search Pane which can be used to search
-the Electronic Help Documentation contents for specific key words or phrases.
+  Electronic Help Documentation Search Pane which can be used to search
+  the Electronic Help Documentation contents for specific key words or phrases.
 
 Table
 of Contents - Opens the InfiniTime
@@ -1999,7 +2016,7 @@ also be altered with the use of keyboard shortcuts.
 
 To use keyboard shortcuts to alter InfiniTime Date Fields:
 
-* Click in the date field that you
+- Click in the date field that you
   wish to alter. The field is yellow when it is active and ready for
   use with keyboard shortcuts.
 
@@ -2030,16 +2047,16 @@ the list. VCR buttons are always displayed in a set of four.
 ![](/img/image-404.png)
 
 | Description | Referred to As | Graphic |
-| The first or left most button, moves to the first record or entry in the table. | âFirstâ VCR Button |  |
-| The second button moves back a record or entry in the table. | âPreviousâ VCR Button |  |
-| The third button moves forward a record or entry in the table. | âNextâ VCR Button |  |
-| The last or right most button moves to the last record or entry in the table. | âLastâ VCR Button |  |
+| The first or left most button, moves to the first record or entry in the table. | âFirstâ VCR Button | |
+| The second button moves back a record or entry in the table. | âPreviousâ VCR Button | |
+| The third button moves forward a record or entry in the table. | âNextâ VCR Button | |
+| The last or right most button moves to the last record or entry in the table. | âLastâ VCR Button | |
 
 The VCR Search Filter allows the user to
 enter a word, letter or phrase, and filter the records that can be accessed
 with the VCR buttons accordingly.
 
-*For Example*:
+_For Example_:
 In a company with a few hundred employees advancing through the employees
 one by one would not be practical. Typing Stephen into the search filter
 and clicking on one of the VCR buttons will:
@@ -2135,7 +2152,7 @@ a picture to an employee's record
 
 ![](/img/image-404.png)
 
-* The
+- The
   full path of the previously selected file will be displayed in the
   File Selection Window. Click OK to import the file and save the image
   as part of the employee's profile.
@@ -2156,7 +2173,7 @@ field that does not match an item in the database InfiniTime
 will automatically clear the field and prompt the user to enter a valid
 value.
 
-*EXAMPLE*:
+_EXAMPLE_:
 If the System Administrator account were to be entered for the Supervisor,
 typing the first letter of the last name (A) will show the entered information
 (A) and automatically complete the rest of the field. Selected information
@@ -2178,9 +2195,9 @@ while many are optional and can be filled out at a later date. The following
 table contains information about field coloring.
 
 | Color | Description |
-| Yellow | *Active Cell*: If you click in a field the background turns yellow. This helps users identify which field they are working in. |
-| Blue | *Required Field:* Any fields in blue must be filled out. Should you miss or skip over any blue fields the InfiniTime software will warn you and prompt you to fill it out properly. InfiniTime permits the Software Administrator to specify fields they wish to consider required throughout the software. This functionality allows the Software Administrator to strictly control and enforce accurate tracking of employee information. For more information refer to [Configuring Required Fields.](Security/Security_Overview.md#sec18_Required_Fields) |
-| White | *Optional Field*: Any fields in white are optional and do not have to be filled out. The software can be used for basic time and attendance purposes without the entry of Optional Fields and values. If it doubt, refer to the Help Documentation for the respective section of the program. All fields and options within InfiniTime are documented with an explanation of how the option can be used within the InfiniTime Electronic Help System. |
+| Yellow | _Active Cell_: If you click in a field the background turns yellow. This helps users identify which field they are working in. |
+| Blue | _Required Field:_ Any fields in blue must be filled out. Should you miss or skip over any blue fields the InfiniTime software will warn you and prompt you to fill it out properly. InfiniTime permits the Software Administrator to specify fields they wish to consider required throughout the software. This functionality allows the Software Administrator to strictly control and enforce accurate tracking of employee information. For more information refer to [Configuring Required Fields.](Security/Security_Overview.md#sec18_Required_Fields) |
+| White | _Optional Field_: Any fields in white are optional and do not have to be filled out. The software can be used for basic time and attendance purposes without the entry of Optional Fields and values. If it doubt, refer to the Help Documentation for the respective section of the program. All fields and options within InfiniTime are documented with an explanation of how the option can be used within the InfiniTime Electronic Help System. |
 
 User
 Configurable Required Fields - InfiniTime
@@ -2203,7 +2220,7 @@ by the user.
 
 Configuring Required Fields
 
-* To set required
+- To set required
   fields for a window, open the window you wish to configure and click
   on the Security Key.
 
@@ -2217,23 +2234,23 @@ be used as an example.
 
 ![](/img/image-404.png)
 
-* The Form Security Table will be displayed.
+- The Form Security Table will be displayed.
   Click on the Required tab.
 
 ![](/img/image-404.png)
 
-* Search for the
+- Search for the
   field(s) you wish to set as required.
 
 ![](/img/image-404.png)
 
-* Click on the drop
+- Click on the drop
   down box for each desired field and set the Required Status to True.
   Click Close to save your changes.
 
 ![](/img/image-404.png)
 
-* In this example,
+- In this example,
   additional required fields were set for the Employee Update form.
   If a user attempts to add an employee without fill out out all required
   fields InfiniTime will
@@ -2371,20 +2388,20 @@ interface.
 
 To save the results:
 
-* Click
+- Click
   on File.
-* Click on Save or Save As.
-* Browse to the desired location
+- Click on Save or Save As.
+- Browse to the desired location
   on your computer.
-* Enter a file name.
-* Click Save.
+- Enter a file name.
+- Click Save.
 
-*Technical
-Note*: Internet Explorer 7.0 may alert you that it is possible for
+_Technical
+Note_: Internet Explorer 7.0 may alert you that it is possible for
 the page to not save correctly. Click OK. There should be no complications
 with saving the grid results as long as the file is saved with the .htm
 or .html extensions. The default file name when saving in the HTML format
-is dbnetgrid\_aspx.html and can be changed at the users discretion as long
+is dbnetgrid_aspx.html and can be changed at the users discretion as long
 as the extension is not altered.
 
 Save
@@ -2398,29 +2415,29 @@ interface.
 
 To save the results:
 
-* Click on File.
+- Click on File.
 
 ![](/img/image-404.png)
 
-* Click on Save or
+- Click on Save or
   Save as.
 
 ![](/img/image-404.png)
 
-* Browse to the desired
+- Browse to the desired
   location on your computer.
-* Enter a file name.
-* Click on the Save
+- Enter a file name.
+- Click on the Save
   as type Drop down box
 
 ![](/img/image-404.png)
 
-* Select Word Document
+- Select Word Document
   from the list
 
 ![](/img/image-404.png)
 
-* Click Save.
+- Click Save.
 
 ![](/img/image-404.png)
 
@@ -2439,29 +2456,29 @@ interface.
 
 To save the results:
 
-* Click on File.
+- Click on File.
 
 ![](/img/image-404.png)
 
-* Click on Save or
+- Click on Save or
   Save as.
 
 ![](/img/image-404.png)
 
-* Browse to the desired
+- Browse to the desired
   location on your computer.
-* Enter a file name.
-* Click on the Save
+- Enter a file name.
+- Click on the Save
   as type Drop down box
 
 ![](/img/image-404.png)
 
-* Select Microsoft
+- Select Microsoft
   Excel Workbook from the list
 
 ![](/img/image-404.png)
 
-* Click Save.
+- Click Save.
 
 ![](/img/image-404.png)
 
@@ -2480,28 +2497,28 @@ interface.
 
 To save the results:
 
-* Click on File.
+- Click on File.
 
 ![](/img/image-404.png)
 
-* Click on Save or Save as.
+- Click on Save or Save as.
 
 ![](/img/image-404.png)
 
-* Browse to the desired location
+- Browse to the desired location
   on your computer.
-* Enter
+- Enter
   a file name.
-* Click on the Save as type Drop
+- Click on the Save as type Drop
   down box
 
 ![](/img/image-404.png)
 
-* Select XML Files from the list.
+- Select XML Files from the list.
 
 ![](/img/image-404.png)
 
-* Click Save.
+- Click Save.
 
 ![](/img/image-404.png)
 
@@ -2516,44 +2533,44 @@ interface.
 
 To save the results:
 
-* Click on File.
+- Click on File.
 
 ![](/img/image-404.png)
 
-* Click on Save or Save as.
+- Click on Save or Save as.
 
 ![](/img/image-404.png)
 
-* Browse to the desired location
+- Browse to the desired location
   on your computer.
-* Enter a file name. The .csv extension
+- Enter a file name. The .csv extension
   must be added to the end of the filename in order to save the file
   in the csv format.
 
 ![](/img/image-404.png)
 
-* Click on the Save as type Drop
+- Click on the Save as type Drop
   down box
 
 ![](/img/image-404.png)
 
-* Select Unicode Text from the list.
+- Select Unicode Text from the list.
 
 ![](/img/image-404.png)
 
-* Click Save.
+- Click Save.
 
 ![](/img/image-404.png)
 
 The default name for CSV Files is dbnetgrid.
 This can be changed at the users discretion.
 
-*Technical Note*:
+_Technical Note_:
 You may be prompted that the document contains features that are not compatible
 with Unicode Text. Save the file anyway, as by typing the .csv extension
 the file is automatically saved in a comma-delimited format.
 
-*Technical Note*:
+_Technical Note_:
 Comma Delimited Files generated by InfiniTime
 should be opened for viewing with Excel or Notepad.
 
@@ -2646,7 +2663,7 @@ levels at the top of the sequence take precedence over those at the bottom.
 Level 1 has the highest priority. Items can be removed from the sequence
 by clicking delete.
 
-*Note*:
+_Note_:
 Only those columns that are displayed by the grid, as chosen during Grid
 column configuration, will be available for sorting purposes.
 
@@ -2681,9 +2698,9 @@ for each role based on your companyâs unique access requirements.
 
 Configuring Grid Security:
 
-* Select the security
+- Select the security
   role you wish to configure.
-* Select
+- Select
   appropriate settings for each button.
 
 ![](/img/image-404.png)
@@ -2786,8 +2803,9 @@ fields that were missed.
 ![](/img/image-404.png)
 
 Employee Number
+
 - This unique number is a required field and it is used as a point
-of reference for the employee record.
+  of reference for the employee record.
 
 Inactive -
 Checking this box will change the employeeâs status to inactive. Inactive
@@ -2885,11 +2903,12 @@ State, County or Province, Zip/Postal Code, Phone Number -  Enter
 the appropriate contact information for the employee.
 
 Cell Number
+
 - Enter the employee's cell phone number. This field is primarily intended
-for Employee and Supervisor Exception Notifications, which when enabled,
-are automatically sent to employees and / or supervisors when exceptions
-occur. Only numeric digits should be entered in this field. Do not enter
-dashes or parenthesis to separate the area code from the local phone number.
+  for Employee and Supervisor Exception Notifications, which when enabled,
+  are automatically sent to employees and / or supervisors when exceptions
+  occur. Only numeric digits should be entered in this field. Do not enter
+  dashes or parenthesis to separate the area code from the local phone number.
 
 Cell
 Provider - The Cell Provider is displayed as a required field
@@ -2931,10 +2950,11 @@ Job Title - Describe
 the Employee's Job Title in this field.
 
 Employment Status
+
 - Select the appropriate Employment Status from the Employment
-Status Type table for the employee. Click
-on the Lookup Magnify Glass to the right of the Employment Status field
-to open the Employment Status Table.
+  Status Type table for the employee. Click
+  on the Lookup Magnify Glass to the right of the Employment Status field
+  to open the Employment Status Table.
 
 ### Employment Status Types Table
 
@@ -2947,27 +2967,31 @@ across various Employment Status types.
 ![](/img/image-404.png)
 
 Insert
+
 - Adds a blank record to the Employment Status Types Table. To
-assign an Employment Status Type to an employee, select the desired Employment
-Status and click on the select button.
+  assign an Employment Status Type to an employee, select the desired Employment
+  Status and click on the select button.
 
 Delete
+
 - Deletes the selected Employment Status from the Employment Status
-Types Table. If an Employment Status is assigned to employees InfiniTime will not permit it to be
-deleted.
+  Types Table. If an Employment Status is assigned to employees InfiniTime will not permit it to be
+  deleted.
 
 Email Address
+
 - Enter the Primary Email Address to be kept on file for the employee. If enabled,
-Employee Email Exception Notifications will be sent to this email
-address.
+  Employee Email Exception Notifications will be sent to this email
+  address.
 
 Twitter Screen
 Name - Enter the employee's Twitter Screen Name to be kept
 on file for Public Relationship management purposes if desired.
 
 SS/SI/NI Number
+
 - Social Security, Social Insurance, or National Insurance Number
-field of the employee and must be a unique number.
+  field of the employee and must be a unique number.
 
 Default Wage -
 Denotes the employee's default hourly wage. The Default Wage is
@@ -2985,18 +3009,21 @@ open the Equal Employment Opportunity Types Table.
 ![](/img/image-404.png)
 
 Insert
+
 - Adds a blank record to the Employment Status Types Table. To
-assign an Employment Status Type to an employee, select the desired Employment
-Status and click on the select button.
+  assign an Employment Status Type to an employee, select the desired Employment
+  Status and click on the select button.
 
 Delete
+
 - Deletes the selected Employment Status from the Employment Status
-Types Table. If an Employment Status is assigned to employees InfiniTime will not permit it to be
-deleted.
+  Types Table. If an Employment Status is assigned to employees InfiniTime will not permit it to be
+  deleted.
 
 WCC Description
+
 - Click on the Lookup Magnify Glass to the right of the Employment
-Status field to open the Equal Employment Opportunity Types Table.
+  Status field to open the Equal Employment Opportunity Types Table.
 
 ### Workers Compensation Code Table
 
@@ -3008,29 +3035,33 @@ Insurance (NCCI).
 ![](/img/image-404.png)
 
 Insert
+
 - Opens the Worker Compensation Code Update Form which can be used
-to enter new Workers Compensation Code Descriptions to the Workers Compensation
-Code Table. One record should be created for each Workers Compensation
-Code used by your organization.
+  to enter new Workers Compensation Code Descriptions to the Workers Compensation
+  Code Table. One record should be created for each Workers Compensation
+  Code used by your organization.
 
 ![](/img/image-404.png)
 
 Change
+
 - Opens the Workers Compensation Code Update form for the selected
-Workers Compensation Code. The InfiniTime
-Administrator may then alter the Workers Compensation code as desired.
+  Workers Compensation Code. The InfiniTime
+  Administrator may then alter the Workers Compensation code as desired.
 
 Delete
+
 - Deletes the selected Workers Compensation Code from the Workers
-Compensation Code Table. If an Employment Status is assigned to employees
-InfiniTime will not permit
-it to be deleted.
+  Compensation Code Table. If an Employment Status is assigned to employees
+  InfiniTime will not permit
+  it to be deleted.
 
 Emergency Contact
 Information - Enter the Name, Relationship, and Phone number for
 the employee's emergency contact to be kept on file in case of emergency.
 
 Date of Birth
+
 - Date employee was born.
 
 Date of Hire -
@@ -3059,8 +3090,9 @@ Date - Enter the date of the employee's last wage review to be
 kept on file.
 
 Last Raise Date
+
 - Enter the date of the employee's last raise review to be kept
-on file.
+  on file.
 
 ### Payroll Profile Tab
 
@@ -3222,7 +3254,7 @@ for report filtering. To assign a group description to an employee simply
 click on the drop down box and select the group you wish to assign to
 the employee. To remove an employee from a group click the delete button.
 
-*NOTE*:
+_NOTE_:
 The Groups Tab will be blank if Group Levels and Group Descriptions have
 not been configured within the InfiniTime
 Database.
@@ -3246,38 +3278,42 @@ Employee Module. More information is provided below.
 ![](/img/image-404.png)
 
 ID and Password
+
 - These fields are required and are used to login to the various
-InfiniTime Manager Modules.
-You can either ask your employees to provide you with an ID and password
-or designate one for them. The ID and Password should be easy for the
-employees to remember. These fields will accept any characters, (alpha
-or numeric) or a combination of characters.
+  InfiniTime Manager Modules.
+  You can either ask your employees to provide you with an ID and password
+  or designate one for them. The ID and Password should be easy for the
+  employees to remember. These fields will accept any characters, (alpha
+  or numeric) or a combination of characters.
 
 Clock ID and Password
+
 - These fields are required and are used to identify employees
-at hardware time and attendance terminals. The Clock ID and Password must
-be numeric only and may not contain letters. It is recommended that the
-Clock ID and Password be easy for employees to remember as they will need
-to use them regularly at the terminal to punch in and out.
+  at hardware time and attendance terminals. The Clock ID and Password must
+  be numeric only and may not contain letters. It is recommended that the
+  Clock ID and Password be easy for employees to remember as they will need
+  to use them regularly at the terminal to punch in and out.
 
 Badge ID Number
+
 - Enter the employeeâs barcode or magstripe badge number in this
-field to assign that card to the employee. All digits of the number must
-be included for the system to identify the card and employee.  If
-the card has a pair of asterisks, do not include the asterisks.
+  field to assign that card to the employee. All digits of the number must
+  be included for the system to identify the card and employee.  If
+  the card has a pair of asterisks, do not include the asterisks.
 
 Technical Note: The Badge Field will not be displayed
 if the software license has a badge reader count of zero (0).
 
 Security Filter
+
 - The Security Filter Button opens the Employee Security Filter
-Update Form which permits InfiniTime
-Administrators to define the specific Employees, Departments, Jobs, and
-Tasks which the respective employee may access within the InfiniTime Software. The Employee
-Security Filter is considered an integral piece of the InfiniTime Software's security system.
-Additional details on the use and configuration of Employee Security Filters
-can be found in the [Security
-Configuration Section](Security/Security_Overview.md#sec16_Security_Filters) of this document.
+  Update Form which permits InfiniTime
+  Administrators to define the specific Employees, Departments, Jobs, and
+  Tasks which the respective employee may access within the InfiniTime Software. The Employee
+  Security Filter is considered an integral piece of the InfiniTime Software's security system.
+  Additional details on the use and configuration of Employee Security Filters
+  can be found in the [Security
+  Configuration Section](Security/Security_Overview.md#sec16_Security_Filters) of this document.
 
 User Must Change
 Password at Next Logon - this checkbox if checked
@@ -3290,7 +3326,8 @@ Employee Login to the Following TCP/IP Addresses - In this
 section you can enter different TCP/IP Addresses of computers this specific
 employee can access the software you can read more about the valid IP
 addresses in the [Security
-- Valid IP Addresses Section](Security/Security_Overview.md#sec23_Valid_IP_Addresses_-_Overview) of this document.
+
+- Valid IP Addresses Section](Security/Security*Overview.md#sec23_Valid_IP_Addresses*-\_Overview) of this document.
 
 ### Accrual Totals Section
 
@@ -3308,7 +3345,7 @@ from the computer for a moment when reviewing employee Accrual Totals,
 notice that the Title Bar of the Employee Accrual Totals Table shows the
 Employee's name. In fact - all sections of the Employee Update Form display
 the name of the employee whose Employee Profile is displayed. It is important
-to note that the Employee Accrual Totals Table displays *all*
+to note that the Employee Accrual Totals Table displays _all_
 employee accrual total records for each Accrual Calculation across all
 Accrual Types in the employee's assigned Accrual Class from date of hire
 (or effective date) to the current date. Employee accrual total records
@@ -3343,7 +3380,7 @@ Date - Displays the Start Date and the Through Date for each Employee
 Accrual Totals record. This date range is determined by the Carry Over
 Reset Type set for the respective Accrual Calculation. Additional details
 on available Carry Over Reset Types such as Calendar Year, Anniversary,
-and Fiscal Year *(Accruals Plus Only)*
+and Fiscal Year _(Accruals Plus Only)_
 can be found in the [Accruals
 Configuration Section](Configuration/Accrual_Configuration.md#acc01_Employee_Accruals_Introduction) of this document.
 
@@ -3363,10 +3400,11 @@ to employee accrual totals for individuals by either adding or subtracting
 hours from the employee's accrual total records.
 
 Carry Over Amount
+
 - Displays the total number
-of hours carried forward from the prior accrual period. The Carry Over
-Amount will be blank if the respective accrual calculation does not have
-Carry Over enabled.
+  of hours carried forward from the prior accrual period. The Carry Over
+  Amount will be blank if the respective accrual calculation does not have
+  Carry Over enabled.
 
 Time Accrued -
 Displays the total number of hours accrued for the respective accrual
@@ -3384,8 +3422,9 @@ configured to deduct from the Accrual Calculation. IE: Sick Time, Vacation
 Time, etc.
 
 Time Remaining
+
 - Displays the total number of hours remaining for use during the
-respective accrual period.
+  respective accrual period.
 
 Accrued Wages
 Earned - Reflects Accrued Hours in Dollars. Accrued Wages Earned
@@ -3432,20 +3471,20 @@ of zero (0).
 Inserting
 Badge Numbers
 
-* Click Insert
+- Click Insert
 
 ![](/img/image-404.png).gif)
 
-* Enter the badge number that will
+- Enter the badge number that will
   be used to swipe in and out for the new department.
 
 ### Employee Badge Update Form
 
 ![](/img/image-404.png).gif)
 
-* Select
+- Select
   the department that will be associated with the above badge.
-* Click OK to save the entry.
+- Click OK to save the entry.
 
 ![](/img/image-404.png).gif)
 
@@ -3484,8 +3523,9 @@ must be entered.
 ![](/img/image-404.png)
 
 Insert
+
 - Click Insert to create a new Benefit
-Plan Type then enter a description for the respective Benefit Plan Type.
+  Plan Type then enter a description for the respective Benefit Plan Type.
 
 Delete
 - Click on an existing Benefit Plan Type to select it, then
@@ -3507,8 +3547,9 @@ Benefits. This field is required and must be entered.
 ![](/img/image-404.png)
 
 Insert
+
 - Click Insert to create a new Benefit
-Plan Cost then enter a description for the respective Benefit Plan Cost.
+  Plan Cost then enter a description for the respective Benefit Plan Cost.
 
 Delete
 - Click on an existing Benefit Plan Cost to select it, then
@@ -3523,21 +3564,25 @@ to the employer if the employee decides to waive their right to the offered
 benefit plan type.
 
 Waiver Saving
+
 - If desired, enter a dollar amount to indicate the savings to
-the employer if the employee decides to waive their right to the offered
-benefit plan type.
+  the employer if the employee decides to waive their right to the offered
+  benefit plan type.
 
 Pension System
+
 - Enter the name or description for the employees chosen overall
-benefit and / or pension package to be kept on record if desired.
+  benefit and / or pension package to be kept on record if desired.
 
 Pension Number
+
 - If desired, enter the identifier for the employee's chosen overall
-benefit and / or pension package to be kept on record.
+  benefit and / or pension package to be kept on record.
 
 Enrollment Date
+
 - If desired, enter the date on which the employee first enrolled
-in the respective benefit Plan Type.
+  in the respective benefit Plan Type.
 
 ### Dependants Section
 
@@ -3577,18 +3622,19 @@ type. Each holiday that will be assigned to the specified employee must
 be configured and inserted individually using this option.
 
 Change
+
 - Opens the Employee Holiday Update Form for the selected Holiday Date.
-The InfiniTime Administrator
-may then alter the Holiday's configuration as desired. It is important
-to note that InfiniTime
-does not permit the Holiday Date to be changed once a Holiday Date has
-been configured and timecard records have been created for the holiday
-date. A new Holiday entry must be created for every specific date on which
-employees are to be automatically awarded paid and / or unpaid leave hours
-according to holiday settings. For example, Holiday Dates for 2012 should
-be created for 2012 and retained within the database after 2012 is over.
-Holiday Dates for 2013 should then be configured for each respective holiday
-observed by the organization.
+  The InfiniTime Administrator
+  may then alter the Holiday's configuration as desired. It is important
+  to note that InfiniTime
+  does not permit the Holiday Date to be changed once a Holiday Date has
+  been configured and timecard records have been created for the holiday
+  date. A new Holiday entry must be created for every specific date on which
+  employees are to be automatically awarded paid and / or unpaid leave hours
+  according to holiday settings. For example, Holiday Dates for 2012 should
+  be created for 2012 and retained within the database after 2012 is over.
+  Holiday Dates for 2013 should then be configured for each respective holiday
+  observed by the organization.
 
 Technical Note: Customer's who choose to ignore
 the above instruction and change holiday dates from year to year may observe
@@ -3606,6 +3652,7 @@ with the holiday. However, users on earlier versions of the software may
 observe this issue if the above instruction is ignored.
 
 Delete
+
 - Deletes the selected Holiday Date from the Employee's Profile.
 
 ### Holiday Master Holiday Update Form
@@ -3645,26 +3692,27 @@ creating Employee Important Dates. This field is required and must be
 entered.
 
 Reference Date
+
 - Enter the first date on which the important date should occur.
-The Important Date will display on the Important Dates report for the
-respective employee for the first time on this date. The important date
-will then reoccur in accordance with the Important Date Interval.
+  The Important Date will display on the Important Dates report for the
+  respective employee for the first time on this date. The important date
+  will then reoccur in accordance with the Important Date Interval.
 
 Interval -
 Select the desired interval from the drop down menu. The following options
 are available:
 
-* Annually - Causes the Important Date to
+- Annually - Causes the Important Date to
   reoccur every year on the same Month and Day.
-* Monthly - Causes the Important Date to
+- Monthly - Causes the Important Date to
   reoccur every month.
-* Bi-Weekly - Causes the Important Date to
+- Bi-Weekly - Causes the Important Date to
   reoccur every two weeks (14 days).
-* Weekly - Causes the Important Date to reoccur
+- Weekly - Causes the Important Date to reoccur
   every week (7 Days).
-* Daily - Causes the Important Date to reoccur
+- Daily - Causes the Important Date to reoccur
   every day.
-* Custom - Permits the user to enter a custom
+- Custom - Permits the user to enter a custom
   interval, in days, for the important date to reoccur. IE: 90 Days,
   120 Days, etc
 
@@ -3677,13 +3725,15 @@ Insert
 enter a new Important Date Name.
 
 Change
+
 - Opens the Important Date Update Form for the selected Holiday Date.
-The user may then alter the Important Date Name as desired.
+  The user may then alter the Important Date Name as desired.
 
 Delete
+
 - Deletes the selected Important Date Name. It should be noted that InfiniTime will not permit an Important
-Date Name to be deleted if it has been assigned to an Important Date for
-an employee.
+  Date Name to be deleted if it has been assigned to an Important Date for
+  an employee.
 
 ### Messages Section
 
@@ -3742,11 +3792,11 @@ found in the [Scheduling Configuration
 section](Scheduling/Scheduling.md#sch02a_What_type_of_scheduling_best_fits_the_needs_of_my_company_) of this document.
 
 | Scheduling Method | Schedule Hierarchy Priority |
-| Schedule GANNT Chart Entries  * Created via Skeletons * Created via Quick Schedule * Created via 'New Working' on the Right Click Menu of the   GANNT Chart | 1 |
-| Employee Default Schedules  * Defined within Employee Profiles (IE: Employee Update Form   - Scheduling Information Section - Default Schedule Tab) | 2 |
-| Shifts Assigned to an Employee  * Shifts are Configured via the Shift Table * Shifts are assigned to employees within Employee Profiles   (IE: Employee Update Form - Scheduling Info Section - Shifts   Tab) | 3 |
-| Department Default Schedules  * Defined for a specific Department on the Department Update   Form * Associated with Employees based on their Department as   assigned within Employee Profiles (IE: Employee Update Form   - Demographics Section - Settings Tab) | 4 |
-| Policy Default Schedules  * Defined for a specific Policy on the Policy Update Form * Associated with Employees based on their Policy as assigned   within Employee Profiles (IE: Employee Update Form - Demographics   Section - Settings Tab). | 5 |
+| Schedule GANNT Chart Entries _ Created via Skeletons _ Created via Quick Schedule _ Created via 'New Working' on the Right Click Menu of the GANNT Chart | 1 |
+| Employee Default Schedules _ Defined within Employee Profiles (IE: Employee Update Form - Scheduling Information Section - Default Schedule Tab) | 2 |
+| Shifts Assigned to an Employee _ Shifts are Configured via the Shift Table _ Shifts are assigned to employees within Employee Profiles (IE: Employee Update Form - Scheduling Info Section - Shifts Tab) | 3 |
+| Department Default Schedules _ Defined for a specific Department on the Department Update Form _ Associated with Employees based on their Department as assigned within Employee Profiles (IE: Employee Update Form - Demographics Section - Settings Tab) | 4 |
+| Policy Default Schedules _ Defined for a specific Policy on the Policy Update Form _ Associated with Employees based on their Policy as assigned within Employee Profiles (IE: Employee Update Form - Demographics Section - Settings Tab). | 5 |
 
 For example, the default schedule defined
 on an employeeâs policy would be ignored if a default schedule were configured
@@ -3785,14 +3835,16 @@ been completed.
 ![](/img/image-404.png)
 
 Start Time
+
 - In this field you can enter the start time for the Regular Hours, Paid
-Break, and Unpaid Break.
+  Break, and Unpaid Break.
 
 End Time
-- In this field you can enter the end time for the Regular Hours, Paid
-Break, and Unpaid Break.
 
-*NOTE*:
+- In this field you can enter the end time for the Regular Hours, Paid
+  Break, and Unpaid Break.
+
+_NOTE_:
  It is often difficult to schedule breaks. As a rule, scheduling
 related exceptions are rigid and function in accordance with Rounding
 and Grace Period Settings on an employee's policy. Exceptions will be
@@ -3802,19 +3854,22 @@ a specific time such as in a production environment where breaks are triggered
 by site wide bells or chimes. Otherwise, Breaks should not be scheduled.
 
 Valid From
+
 - Is the date in which the schedule will start to be valid.
 
 Valid To
+
 - Is the date in which the schedule will end being valid.
 
-*NOTE*:
+_NOTE_:
 The Valid From and Valid To fields are not required, if the fields are
 blank then the schedule will always be valid.
 
 Copy Button
+
 - The copy button will open the Copy Quick Default Schedule Window which
-can be used to copy the schedule configured for a specific day of the
-week o other days of the week.
+  can be used to copy the schedule configured for a specific day of the
+  week o other days of the week.
 
 ### Copy Quick Default Schedule Window
 
@@ -3824,12 +3879,14 @@ the copy button to bring up the following form:
 ![](/img/image-404.png)
 
 Copy From
+
 - Use the pull down menu to select the day you wish to copy schedule configuration
-from.
+  from.
 
 Copy To
+
 - Place a check in each box that you wish to copy the schedule to then
-click OK to copy schedule configuration to each selected Day of the Week.
+  click OK to copy schedule configuration to each selected Day of the Week.
 
 ### Shifts Tab
 
@@ -3849,11 +3906,11 @@ periods.
 
 Assigning a shift to an employee:
 
-* Click Insert.
+- Click Insert.
 
 ![](/img/image-404.png).gif)
 
-* Type the name of the shift you
+- Type the name of the shift you
   wish to assign into the box or use the Lookup Magnify Glass to select
   the desired shift from the Shift Table.
 
@@ -3871,19 +3928,19 @@ Types can be found in the Schedule Configuration Section of this document.
 
 To assign an Availability Schedule to an employee do the following:
 
-* Open the employee table
-* Select the employee you want to assign the availability
-* In the Employee Update form go to the Schedule Information section
+- Open the employee table
+- Select the employee you want to assign the availability
+- In the Employee Update form go to the Schedule Information section
   of the update form
-* Click on the Availability Tab
+- Click on the Availability Tab
 
 ![](/img/image-404.png)
 
-* Click on the insert button.
+- Click on the insert button.
 
 ![](/img/image-404.png)
 
-* On the description, click on the magnify glass to select an availability
+- On the description, click on the magnify glass to select an availability
   or just start typing the name of the availability and it will auto
   fill.
 
@@ -3913,10 +3970,11 @@ trained task.
 ![](/img/image-404.png)
 
 Delete
+
 - Deletes the selected Trained Task from the employee's profile. If a
-trained task is removed from an employee's profile, the employee will
-not be listed as available on the Use Skeleton Window or the Find Available
-Window for the respective trained task.
+  trained task is removed from an employee's profile, the employee will
+  not be listed as available on the Use Skeleton Window or the Find Available
+  Window for the respective trained task.
 
 ### Days Off Tab
 
@@ -3974,16 +4032,18 @@ option is used by InfiniTime to differentiate between Schedules that cross
 midnight and those that do not.
 
 Change
+
 - Deletes the selected Trained Task from the employee's profile. If a
-trained task is removed from an employee's profile, the employee will
-not be listed as available on the Use Skeleton Window or the Find Available
-Window for the respective trained task.
+  trained task is removed from an employee's profile, the employee will
+  not be listed as available on the Use Skeleton Window or the Find Available
+  Window for the respective trained task.
 
 Delete
+
 - Deletes the selected Trained Task from the employee's profile. If a
-trained task is removed from an employee's profile, the employee will
-not be listed as available on the Use Skeleton Window or the Find Available
-Window for the respective trained task.
+  trained task is removed from an employee's profile, the employee will
+  not be listed as available on the Use Skeleton Window or the Find Available
+  Window for the respective trained task.
 
 ### Valid Department Section
 
@@ -4006,12 +4066,14 @@ as a Valid Department for the respective employee.
 ![](/img/image-404.png)
 
 Change
+
 - Opens the Employee Valid Department Update Form for the selected Valid
-Department. The InfiniTime
-Administrator may then change the department as desired using either auto
-fill or the Lookup Magnify Glass..
+  Department. The InfiniTime
+  Administrator may then change the department as desired using either auto
+  fill or the Lookup Magnify Glass..
 
 Delete
+
 - Deletes the selected Valid Department from the employee's profile.
 
 ### Valid Telephone Numbers Section
@@ -4041,12 +4103,14 @@ accept calls from the respective phone number 24x7.
 ![](/img/image-404.png)
 
 Change
+
 - Opens the Valid Telephone Number Update Form for the selected Valid
-Telephone Number. The InfiniTime
-Administrator may then make changes to either the Telephone Number or
-the associated schedule as desired.
+  Telephone Number. The InfiniTime
+  Administrator may then make changes to either the Telephone Number or
+  the associated schedule as desired.
 
 Delete
+
 - Deletes the selected Valid Telephone Number from the employee's profile.
 
 ### User Defined Fields Section
@@ -4062,17 +4126,18 @@ License numbers and type for transportation related companies.
 ![](/img/image-404.png)
 
 Change
+
 - Opens the Employee User Defined Field Update Form for the selected User
-Defined Field. The InfiniTime
-Administrator may then enter the desired value for the respective employee.
-The Employee User Defined Field Update Form appears slightly differently
-depending on the Field Type of the selected User Defined Field. For example,
-Character User Defined Fields have a simple text box. Simply enter the
-desired value to store in the employee's record. List User Defined Fields
-have a drop down, click on the drop down to select the employee's assigned
-value from the list. Document Fields prompt the user to select the desired
-document from the hard disk to be stored in the InfiniTime
-Oracle Database.
+  Defined Field. The InfiniTime
+  Administrator may then enter the desired value for the respective employee.
+  The Employee User Defined Field Update Form appears slightly differently
+  depending on the Field Type of the selected User Defined Field. For example,
+  Character User Defined Fields have a simple text box. Simply enter the
+  desired value to store in the employee's record. List User Defined Fields
+  have a drop down, click on the drop down to select the employee's assigned
+  value from the list. Document Fields prompt the user to select the desired
+  document from the hard disk to be stored in the InfiniTime
+  Oracle Database.
 
 ### Wages Section
 
@@ -4096,31 +4161,35 @@ Insert
 ![](/img/image-404.png)
 
 Department
+
 - If the employee must work in a specific
-department to be eligible for the wage, specify the department here by
-entering the first few letters of the department name or select the department
-from the Department Table using the Lookup Magnify Glass.
+  department to be eligible for the wage, specify the department here by
+  entering the first few letters of the department name or select the department
+  from the Department Table using the Lookup Magnify Glass.
 
 Job
--  If the employee must work in
-a specific job to be eligible for the wage, specify the job here by entering
-the first few letters of the job name or select the job from the Job Table
-using the Lookup Magnify Glass.
+
+- If the employee must work in
+  a specific job to be eligible for the wage, specify the job here by entering
+  the first few letters of the job name or select the job from the Job Table
+  using the Lookup Magnify Glass.
 
 Task
--  If the employee must work in
-a specific task to be eligible for the wage, specify the task here by
-entering the first few letters of the task name or select the task from
-the Task Table using the Lookup Magnify Glass.
+
+- If the employee must work in
+  a specific task to be eligible for the wage, specify the task here by
+  entering the first few letters of the task name or select the task from
+  the Task Table using the Lookup Magnify Glass.
 
 Pay
 Method - Select the appropriate pay
 method for use with the wage.
 
 Amount
+
 - Enter the desired Hourly, Salary
-(Per Pay Period), or Per Diem Dollar Amount to be awarded when the employe
-works in the respective Department / Job / Task combination.
+  (Per Pay Period), or Per Diem Dollar Amount to be awarded when the employe
+  works in the respective Department / Job / Task combination.
 
 Valid
 From Date - The Valid From Date and
@@ -4140,11 +4209,13 @@ wage will be valid from the employee's hire date or the Valid From Date
 to the to the Valid To Date.
 
 Change
+
 - Opens the Employee Wage Update Form for the selected Alternate Wage.
-The InfiniTime Administrator
-may then make changes as desired.
+  The InfiniTime Administrator
+  may then make changes as desired.
 
 Delete
+
 - Deletes the selected Alternate Wage from the employee's profile.
 
 Additional details regarding
@@ -4193,11 +4264,13 @@ to Full Duty Date - This is the date the employee may return to
 work without restrictions.
 
 Change
+
 - Opens the Employee Wage Update Form for the selected Alternate Wage.
-The InfiniTime Administrator
-may then make changes as desired.
+  The InfiniTime Administrator
+  may then make changes as desired.
 
 Delete
+
 - Deletes the selected Alternate Wage from the employee's profile.
 
 ### Software Overview - Essential Takeaways
@@ -4210,17 +4283,17 @@ Fee Based Implementation process. InfiniTime
 Users who have read the Software Overview Documentation should be prepared
 to perform the following tasks:
 
-* Create the Employee Profile for all InfiniTime
+- Create the Employee Profile for all InfiniTime
   Administrators
-* Create the Employee Profile for all InfiniTime
+- Create the Employee Profile for all InfiniTime
   Supervisors
-* Confirm all Client Machines are properly configured to access the
+- Confirm all Client Machines are properly configured to access the
   InfiniTime Software
   and / or Delegate this task to your internal IT Personnel
-* Manually Enter or Import Employee Details using the Import Tool
-* Comfortable navigating throughout the InfiniTime
+- Manually Enter or Import Employee Details using the Import Tool
+- Comfortable navigating throughout the InfiniTime
   User Interface
-* Familiarity with the different buttons / items on the Main Toolbar
+- Familiarity with the different buttons / items on the Main Toolbar
   and Menu
 
 The above tasks should be performed before proceeding with reviewing

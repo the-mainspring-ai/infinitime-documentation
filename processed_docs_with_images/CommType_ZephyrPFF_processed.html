@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Adobe RoboHelp 10" name="generator"/>
+<title>Zephyr: Poll From File</title>
+<link href="default.css" rel="StyleSheet" type="text/css"/>
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script charset="utf-8" language="javascript1.2" src="whmsg.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript" src="whver.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript1.2" src="whutils.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript1.2" src="whproxy.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript1.2" src="whlang.js" type="text/javascript"></script>
+<script charset="utf-8" language="javascript1.2" src="whtopic.js" type="text/javascript"></script>
+</head>
+<body><script language="javascript1.2" type="text/javascript">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Hardware Documentation\nZephyr\nTypes of Communications\nZephyr: Poll From File");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("TC32.htm", "", ">", "Home", "Help_System_Introduction.htm");
+document.write("<a href="https://version9.infinitimeonline.net/InfiniTime/help%20file/\&quot;ethernet_hardware_terminals__configuration_scenarios_for_remote_sites.htm\&quot;">Hardware Documentation<\/a> > <a href="https://version9.infinitimeonline.net/InfiniTime/help%20file/\&quot;Zephyr_Introduction.htm\&quot;">Zephyr<\/a> > <a href="https://version9.infinitimeonline.net/InfiniTime/help%20file/\&quot;Zephyr_Direct_Connect_RS232.htm\&quot;">Types of Communications<\/a> > Zephyr: Poll From File<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('TC32.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script language="JavaScript1.2" src="ehlpdhtm.js" type="text/javascript"></script>
+<h1>Zephyr: Poll From File</h1>
+<p>Poll from file makes it possible to gather punches from a remote site with a thumb drive which eliminates the need for a direct or Ethernet connection between the reader and the InfiniTime Server. Punches can be downloaded from the clock and stored in a text file on a thumb drive, which can be sent via email to an individual with access to the InfiniTime Software. When using the poll from file feature there are a few things to keep in mind. Additional information on the configuration and use of Poll From File is available in the <a href="ConfigurePollfromFileZephyr.htm">Zephyr Reader Setup: Poll From File</a> section of this document.</p>
+<p> </p>
+<ul style="list-style: disc;">
+<li class="p">
+<p>It is important to understand there is no communication between the Zephyr Terminal and the InfiniTime software when Poll From File is being used. Employees must be manually added, removed, updated, and managed on the Zephyr Terminal itself.</p>
+</li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+<li class="p">
+<p>If labor switching or other activity entry is desired the clock must be connected to the InfiniTime Software in order to perform an update. Other Activity Entries and Department information is passed through the normal Poll From File Process but it is not possible to enter Departments or Other Activity Types manually at the clock.</p>
+</li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+<li class="p">
+<p>In an Ethernet or direct connect environment InfiniTime is responsible for updating the time on the clock. Poll From File clocks must be updated manually or configured for use with daylight savings time.</p>
+</li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+<li class="p">
+<p>Downloading Punches from the clock does not delete punches from the clock</p>
+</li>
+</ul>
+<script language="javascript1.2" type="text/javascript">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

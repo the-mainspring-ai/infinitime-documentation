@@ -35,7 +35,7 @@ Setup:
    Configuration, Break Rules, Exceptions, Overtime Calculations, Rounding
    Rules, and Scheduling Rules.
 3. Complete
-   the [InfiniTime Questionnaire Answer Sheet](../../RESOURCES/Questionnaire_InfiniTime_Setup_Answer_Sheet.pdf)
+   the [InfiniTime Questionnaire Answer Sheet](https://version9.infinitimeonline.net/InfiniTime/RESOURCES/Questionnaire_InfiniTime_Setup_Answer_Sheet.pdf)
    for each group of employees who require different Policy Settings
    and are eligible for different Shift Differentials.
 4. Use
@@ -183,9 +183,9 @@ employees. The InfiniTime
 Questionnaire and corresponding answer sheet can be downloaded from the
 links below.
 
-[InfiniTime Questionnaire](../../RESOURCES/Questionnaire_InfiniTime_Setup.pdf)
+[InfiniTime Questionnaire](https://version9.infinitimeonline.net/InfiniTime/RESOURCES/Questionnaire_InfiniTime_Setup.pdf)
 
-[InfiniTime Questionnaire Answer Sheet](../../RESOURCES/Questionnaire_InfiniTime_Setup_Answer_Sheet.pdf)
+[InfiniTime Questionnaire Answer Sheet](https://version9.infinitimeonline.net/InfiniTime/RESOURCES/Questionnaire_InfiniTime_Setup_Answer_Sheet.pdf)
 
 ### Step 4 - Use the Answer Sheet completed for each group of employees to configure Policies within InfiniTime
 
