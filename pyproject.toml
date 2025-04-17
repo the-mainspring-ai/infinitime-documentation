@@ -9,5 +9,6 @@ dependencies = [
     "markdownify>=1.1.0",
     "openai>=1.63.0",
     "pydantic-ai[examples]>=0.0.18",
+    "python-dotenv>=1.1.0",
     "requests>=2.32.3",
 ]
