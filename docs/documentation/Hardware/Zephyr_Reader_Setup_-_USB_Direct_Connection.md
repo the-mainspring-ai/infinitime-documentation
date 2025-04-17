@@ -1,21 +1,15 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Zephyr Reader Setup - USB Direct Connection"
+description: "Guide to connecting and configuring the Zephyr Reader via USB direct connection with InfiniTime software."
+---
 
 Zephyr Reader Setup - USB Direct Connection
-
-
-
 
 # Zephyr Reader Setup - USB Direct Connection
 
 After connecting the Zephyr to the InfiniTime server and ensuring the menu settings are configured properly, follow the steps below to connect to the Zephyr from the InfiniTime Application.
 
 Adding a USB Direct Connect Zephyr to the InfiniTime Software
-
-  
 
 1. Click on Lookups
 

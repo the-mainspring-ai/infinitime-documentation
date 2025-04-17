@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Update Luna Reader BIOS from File"
+description: "Guide on manually updating the Luna Reader BIOS using a configuration file from a USB thumb drive."
+---
 
 Update Bios From File
-
-
-
 
 # Update Bios From File
 

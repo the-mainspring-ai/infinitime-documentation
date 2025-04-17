@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Access Control Setup for Odyssey 780 and Orion 760 Terminals"
+description: "Guide to configuring and wiring access control for Odyssey 780 and Orion 760 terminals, including software requirements and hardware setup instructions."
+---
 
 Access Control for the Reader
-
-
-
 
 # Access Control Wiring and Setup for the Reader
 
@@ -15,9 +11,9 @@ Odyssey 780 and Orion 760  terminals can be used to unlock an attached door whe
 
 InfiniTime Software Requirements
 
-* Access Control usage requires purchase of the Access Control Module. Contact your Inception Technologies Sales Representative for more information.
+- Access Control usage requires purchase of the Access Control Module. Contact your Inception Technologies Sales Representative for more information.
 
-* Access Control Groups and Schedules must be configured for the reader. Refer to Chapter 3: Access Control Groups Setup for more information.
+- Access Control Groups and Schedules must be configured for the reader. Refer to Chapter 3: Access Control Groups Setup for more information.
 
 Access Control Wiring: Hardware Components
 
@@ -29,7 +25,7 @@ For those unfamiliar with the electrical parts contained in the diagrams below i
 
 In the normal state, or when unpowered, the relay coil is not energized and the relay contacts are in their normal state. In the normal state the normally open contacts are open and the normally closed contacts are closed as the name suggests. When activated the coil becomes energized forming a magnetic field which causes the relay contacts to close or open respectively. This is referred to as the picked state where power is applied to the relay and the relay coil is energized. The relay will make a small clicking sound when it is picked. The relay contacts will switch their state, the normally open contact will be closed and the normally closed contact will be open. The contacts will remain in this position until power to the coil is removed at which point the contacts will revert to their normal state. The InfiniTime Application controls the duration for which the relay is picked. Generally when using access control the wiring is setup in order to open the door when the relay is picked. The diagrams below provide example wiring circuits for door control based upon the voltage and current requirements of the door strike in use.  Inception Technologies takes no responsibility for the wiring and setup of Access Control equipment. Customers attempting to wire their own access control devices without the assistance of a professional electrician do so at their own risk. Inception Technologies is not responsible for damage to equipment caused by improper wiring.
 
-*WARNING*: The internal relay is rated to withstand a voltage range of 0 to 24V DC and a current load of up to 1A. Using an external power supply of more than 24 VDC will damage internal components of the Odyssey 780 and Orion 760 Terminals. To prevent damage to the terminal, the door strike should not draw more than 1A current. An external relay must be used to separate the clock from high voltage / current circuitry.
+_WARNING_: The internal relay is rated to withstand a voltage range of 0 to 24V DC and a current load of up to 1A. Using an external power supply of more than 24 VDC will damage internal components of the Odyssey 780 and Orion 760 Terminals. To prevent damage to the terminal, the door strike should not draw more than 1A current. An external relay must be used to separate the clock from high voltage / current circuitry.
 
 Access Control Connection - High Voltage / Current Door Strike: Using SY-124
 
@@ -65,15 +61,15 @@ If the door does not unlock as expected first test the wiring at the Internal Re
 
 Custom Wiring Diagram:
 
-* Ensure the DC Power source is connected properly and functioning.
-* Ensure the AC Power source is connected properly and functioning.
-* Ensure the AC Power source and Door Strike are wired to the proper relay contacts and to each other. One side of the AC power source should be connected to the Normally Closed contact while the other is connected to a contact on the door strike. The second contact of the door strike should be connected to the common contact of the relay.
+- Ensure the DC Power source is connected properly and functioning.
+- Ensure the AC Power source is connected properly and functioning.
+- Ensure the AC Power source and Door Strike are wired to the proper relay contacts and to each other. One side of the AC power source should be connected to the Normally Closed contact while the other is connected to a contact on the door strike. The second contact of the door strike should be connected to the common contact of the relay.
 
 SY-124 Diagram:
 
-* Ensure the DC Power adapter is connected to the SY-124 properly and plugged in. The Red Power LED should illuminate.
-* Ensure the AC Power source is connected properly and functioning.
-* Ensure the Normally Open (NO) Contact of the Internal SY-780 / SY-760 relay is connected to the orange wire of the connection box.
-* Ensure the Common (R1) contact of the Internal SY-780 / SY-760 relay is connected to the brown wire of the connection box.
-* Ensure a straight through ethernet cable is used between the connection box and the SY-124. If possible, test the cable with a cable tester or replace the cable.
-* Ensure the AC Power source and Door Strike are wired to the proper relay contacts and to each other. One side of the AC power source should be connected to the Normally Closed contact while the other is connected to a contact on the door strike. The second contact of the door strike should be connected to the common contact of the relay.
+- Ensure the DC Power adapter is connected to the SY-124 properly and plugged in. The Red Power LED should illuminate.
+- Ensure the AC Power source is connected properly and functioning.
+- Ensure the Normally Open (NO) Contact of the Internal SY-780 / SY-760 relay is connected to the orange wire of the connection box.
+- Ensure the Common (R1) contact of the Internal SY-780 / SY-760 relay is connected to the brown wire of the connection box.
+- Ensure a straight through ethernet cable is used between the connection box and the SY-124. If possible, test the cable with a cable tester or replace the cable.
+- Ensure the AC Power source and Door Strike are wired to the proper relay contacts and to each other. One side of the AC power source should be connected to the Normally Closed contact while the other is connected to a contact on the door strike. The second contact of the door strike should be connected to the common contact of the relay.

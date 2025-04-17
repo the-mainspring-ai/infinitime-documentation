@@ -1,3 +1,8 @@
+---
+title: "Scheduling in InfiniTime Application"
+description: "An overview of scheduling features including employee tracking, punch rounding, access control, and schedule management within the InfiniTime app."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 

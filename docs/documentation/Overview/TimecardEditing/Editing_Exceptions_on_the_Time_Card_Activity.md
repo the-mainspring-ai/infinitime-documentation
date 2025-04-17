@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Editing Exceptions on the Time Card Activity"
+description: "Guide to viewing and editing employee exceptions in the Time Card Activity table, including fixing missed punch exceptions and managing employee activity."
+---
 
 Editing Exceptions on the Time Card Activity
-
-
-
 
 # Editing Exceptions on the Time Card Activity Table
 
@@ -83,15 +79,15 @@ Insert Scheduled Punches - Selecting this option will insert scheduled punches f
 
 Audit Trail - Selecting this option will open the Audit Trail Table which displays detailed information about changes made to employee timecards such as who made changes to a punch and when.
 
-  Exceptions - Displays a list of all exceptions occurring on the record.
+Exceptions - Displays a list of all exceptions occurring on the record.
 
-  Purge - Selecting this option will open the Purge Time Record Update Form which can be used to delete all timecard activity within a selected date range.
+Purge - Selecting this option will open the Purge Time Record Update Form which can be used to delete all timecard activity within a selected date range.
 
-  Quick Punch - Quick Punch inserts identical punches over a specified date range.  Selecting this option will bring up the Quick punch Window.
+Quick Punch - Quick Punch inserts identical punches over a specified date range.  Selecting this option will bring up the Quick punch Window.
 
-  Re-Calculate - Recalculates timecard activity, applying current policy rules, schedule settings, and other relative settings to Employee Punches in the InfiniTIme Software.
+Re-Calculate - Recalculates timecard activity, applying current policy rules, schedule settings, and other relative settings to Employee Punches in the InfiniTIme Software.
 
-  Review - Selecting this option will open the Supervisor Review Window which allows the user to select one or more employees for review of their timecard activity.
+Review - Selecting this option will open the Supervisor Review Window which allows the user to select one or more employees for review of their timecard activity.
 
 Fixing an Early Exception
 
@@ -351,7 +347,7 @@ Approve/Unapprove  OT One - Selecting this option will either approve  the ove
 
 Change Schedule - Selecting this option will allow you to change the employee's schedule for that day. Altering the schedule to match the hours worked by the employee or simply removing the schedule altogether will remove the exception.
 
- Schedule Day Off - Opens the Schedule Day off Update Form Days which allows the user to schedule an employee to be absent for a day. When a day off is scheduled employees will not receive exceptions on the Scheduled Day Off. Days Off are a useful feature for companies who utilize the Points System and wish to ensure employees who are approved for an absence will not be penalized. Refer to [Days Off](CH5_Days_Off.md) for more information.
+Schedule Day Off - Opens the Schedule Day off Update Form Days which allows the user to schedule an employee to be absent for a day. When a day off is scheduled employees will not receive exceptions on the Scheduled Day Off. Days Off are a useful feature for companies who utilize the Points System and wish to ensure employees who are approved for an absence will not be penalized. Refer to [Days Off](CH5_Days_Off.md) for more information.
 
 View List of Day(s) Off - Displays the Schedule Day Off Table which lists all days that have been scheduled off for the employee.
 

@@ -1,3 +1,8 @@
+---
+title: "Quick Assign Introduction"
+description: "Overview of InfiniTime's Quick Assign feature for efficient bulk configuration of employee settings using the Employee Filter."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 

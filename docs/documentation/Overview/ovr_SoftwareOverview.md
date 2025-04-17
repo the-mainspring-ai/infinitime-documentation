@@ -1,8 +1,6 @@
 ---
-title: Software Overview
-sidebar_label: Software Overview
-description: A comprehensive introduction to InfiniTime software, including core concepts, modules, and basic usage
-keywords: [software, overview, modules, interface, getting started]
+title: "InfiniTime Software Overview"
+description: "A comprehensive guide for new users to understand InfiniTime modules, access methods, user interface, and essential features." 
 ---
 
 # InfiniTime Software Overview

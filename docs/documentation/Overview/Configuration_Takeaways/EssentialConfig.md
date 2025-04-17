@@ -1,3 +1,8 @@
+---
+title: "InfiniTime Configuration - Essential Concepts and Features"
+description: "A concise overview of key configuration aspects and features of the InfiniTime Time and Attendance solution for effective payroll integration and organizational needs."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 EssentialConfig

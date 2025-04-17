@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Timecard Detail Documentation"
+description: "Overview of the Timecard Detail feature, showing employee activity, in/out times, totals, and exceptions within a specified date range."
+---
 
 Timecard Detail
-
-
-
 
 # Timecard Detail
 

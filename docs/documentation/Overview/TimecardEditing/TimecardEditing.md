@@ -1,3 +1,8 @@
+---
+title: "Timecard Editing Overview"
+description: "Learn about the methods for viewing and editing employee timecards in InfiniTime, including the Company and Employee Timecard Tables and their optimal use cases."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 
@@ -2169,4 +2174,4 @@ Options:
  | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. | 
  | Show System Audits? | No | This option will allow you display all system audits on the report.  System Audits include auto punch, Auto breaks, change to breaks. | 
  | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. | 
- | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. | 
+ | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |

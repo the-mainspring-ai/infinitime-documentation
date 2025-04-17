@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Payroll Summary Report"
+description: "A detailed overview of hourly totals and estimated wages for various activity types within a specified date range, including sick time, regular hours, and overtime."
+---
 
 Payroll Summary
-
-
-
 
 # Payroll Summary
 

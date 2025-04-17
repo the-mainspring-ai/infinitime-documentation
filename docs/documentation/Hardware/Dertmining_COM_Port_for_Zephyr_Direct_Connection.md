@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Determining COM Port for Zephyr Direct Connection"
+description: "Guide to identify and assign COM ports for USB and serial connections on Windows for Zephyr device communication."
+---
 
 Dertmining COM Port for Zephyr Direct Connection
-
-
-
 
 # Dertmining COM Port for Zephyr Direct Connection
 
@@ -23,9 +19,9 @@ To determine the COM Port Windows has assigned to the USB to Serial Converter fo
 
 Windows XP          Windows                  Windows
 
-  2003 & 2008               Vista
+2003 & 2008               Vista
 
-  Server
+Server
 
 ![](/img/02_Start_Button.gif)        ![](/img/CH23_HRDW_VistaDevMGMT.gif)                    ![](/img/TS4.gif)
 
@@ -49,7 +45,7 @@ Windows XP                                   �
 
 ![](/img/Start.gif)
 
-7. The Prolific USB-to-Serial Comm Port will be displayed. Take note of this value and continue to [Zephyr Reader Setup - USB Direct Connect](CH23_HRDW_Zephyr_Direct_Connect_(USB).md) to configure InfiniTime for use with your USB Zephyr Reader. The image below shows the Prolific USB-to Serial Comm Port as COM4.
+7. The Prolific USB-to-Serial Comm Port will be displayed. Take note of this value and continue to [Zephyr Reader Setup - USB Direct Connect](<CH23_HRDW_Zephyr_Direct_Connect_(USB).md>) to configure InfiniTime for use with your USB Zephyr Reader. The image below shows the Prolific USB-to Serial Comm Port as COM4.
 
 ![](/img/CH23_HRDW_COM4.gif)
 

@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Ethernet Hardware Terminals: Configuration Scenarios for Remote Sites"
+description: "An overview of configuration scenarios for Ethernet hardware terminals in remote site setups, including protocols and IP addressing."
+---
 
 Ethernet Hardware Terminals: Configuration Scenarios for Remote Sites
-
-
-
 
 # Ethernet Hardware Terminals: Configuration Scenarios for Remote Sites
 
@@ -47,18 +43,18 @@ Port - The best way to understand the role of a port in network communication is
 
 TCP & UDP - Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are two protocols or sets of rules which govern how traffic is sent between ports on a network. It is important to understand that a device expecting TCP data on a specific port will not function if the data is sent with UDP instead, though some devices will support both. A list of the Ethernet Clocks offered by Inception Technologies are listed below along with the port and protocol used by the clock.
 
- | Manufacturer | Model | Port | Protocol | 
-| --- | --- | --- | --- |
- | Schlage | Scout 1000, 2000, 3000 & 4000 | 3001 | TCP | 
- | ZK Software | Athena | 4370 | UDP | 
- | ZK Software | Juno | 4370 | UDP | 
- | ZK Software | Thor | 4370 | UDP | 
- | ZK Software | Luna | 4370 | UDP | 
- | ZK Software | Zephyr | 4370 | UDP | 
- | Synel Industries | Apollo 715 | 3734 | TCP or UDP | 
- | Synel Industries | Atlas 777 | 3734 | TCP or UDP | 
- | Synel Industries | Orion 760 & Odyssey 780 | 3734 | TCP or UDP | 
- | Synel Industries | Omega 755 | 3734 | TCP or UDP | 
+| Manufacturer     | Model                         | Port | Protocol   |
+| ---------------- | ----------------------------- | ---- | ---------- |
+| Schlage          | Scout 1000, 2000, 3000 & 4000 | 3001 | TCP        |
+| ZK Software      | Athena                        | 4370 | UDP        |
+| ZK Software      | Juno                          | 4370 | UDP        |
+| ZK Software      | Thor                          | 4370 | UDP        |
+| ZK Software      | Luna                          | 4370 | UDP        |
+| ZK Software      | Zephyr                        | 4370 | UDP        |
+| Synel Industries | Apollo 715                    | 3734 | TCP or UDP |
+| Synel Industries | Atlas 777                     | 3734 | TCP or UDP |
+| Synel Industries | Orion 760 & Odyssey 780       | 3734 | TCP or UDP |
+| Synel Industries | Omega 755                     | 3734 | TCP or UDP |
 
 Network Address Translation (NAT) - As mentioned above NAT provides a mechanism for translating between Internal and Public IP Addresses. Without NAT it would not be possible for computers or devices on a private network to communicate across the internet. The image below shows successful communication between Host B and Host A. The NAT Table for each router is also shown to illustrate how an Internal IP Address is mapped to a Public IP Address. Though multiple methods exist for mapping Public IP Addresses to Internal Addresses, a static NAT mapping is generally used for configuring an Ethernet clock at a remote site. A static NAT mapping is used to map a specific Public IP Address to a specific Internal IP Address. In this way the internal device can always be reached at a specific public address. The example below illustrates NAT mappings as each internal device will always be assigned the same Public IP Address.
 
@@ -90,14 +86,14 @@ NAT - The diagram below illustrates the configuration of NAT for a remote site w
 
 Requirements - The following items are required in order for communication between the InfiniTime Server and the Thor Terminal to be successful. If you have difficulties communicating with your remote terminal verify each of the following items are configured correctly. You may also wish to refer to the troubleshooting guide below. The example does not accurately depict all possible network configurations. As a general rule any hardware or software firewall located between the source (The InfiniTime Server) and the destination (The Thor Terminal) must be configured to pass traffic on the chosen port and to trust the local network.
 
-* Software Firewall on the InfiniTime Server must permit outbound traffic on port 4370
-* Router at Main Office must permit inbound traffic on port 4370 on the Private Interface
-* Router at Main Office must permit outbound traffic on port 4370 on the Public Interface
-* ISP must pass traffic on port 4370. If you have difficulties with communication contact your ISP to verify the chosen port is open.
-* Router at Branch Office must permit outbound traffic on port 4370 on the Private Interface
-* Router at Branch Office must permit inbound traffic on port 4370 on the Public Interface
-* Router at Branch Office must be configured appropriately for NAT with a static mapping between the Public IP Address and the Internal IP Address of the Ethernet terminal.
-* Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
+- Software Firewall on the InfiniTime Server must permit outbound traffic on port 4370
+- Router at Main Office must permit inbound traffic on port 4370 on the Private Interface
+- Router at Main Office must permit outbound traffic on port 4370 on the Public Interface
+- ISP must pass traffic on port 4370. If you have difficulties with communication contact your ISP to verify the chosen port is open.
+- Router at Branch Office must permit outbound traffic on port 4370 on the Private Interface
+- Router at Branch Office must permit inbound traffic on port 4370 on the Public Interface
+- Router at Branch Office must be configured appropriately for NAT with a static mapping between the Public IP Address and the Internal IP Address of the Ethernet terminal.
+- Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
 
 Port Forwarding - The diagram below illustrates the configuration of Port Forwarding for a remote site with a single Public IP Address where the Time and Attendance terminal will be the only item on the internal network.
 
@@ -105,14 +101,14 @@ Port Forwarding - The diagram below illustrates the configuration of Port Forwar
 
 Requirements - The following items are required in order for communication between the InfiniTime Server and the Thor Terminal to be successful. If you have difficulties communicating with your remote terminal verify each of the following items are configured correctly. You may also wish to refer to the troubleshooting guide below. The example does not accurately depict all possible network configurations. As a general rule any hardware or software firewall located between the source (The InfiniTime Server) and the destination (The Thor Terminal) must be configured to pass traffic on the chosen port and to trust the local network.
 
-* Software Firewall on the InfiniTime Server must permit outbound traffic on port 4370
-* Router at Main Office must permit inbound traffic on port 4370 on the Private Interface
-* Router at Main Office must permit outbound traffic on port 4370 on the Public Interface
-* ISP must pass traffic on port 4370. If you have difficulties with communication contact your ISP to verify the chosen port is open.
-* Router at Branch Office must permit outbound traffic on port 4370 on the Private Interface
-* Router at Branch Office must permit inbound traffic on port 4370 on the Public Interface
-* Port forwarding must be configured to send traffic to the default port as listed in the previous table for your Time and Attendance Terminal. It is not possible to change the listening port for these terminals.
-* Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
+- Software Firewall on the InfiniTime Server must permit outbound traffic on port 4370
+- Router at Main Office must permit inbound traffic on port 4370 on the Private Interface
+- Router at Main Office must permit outbound traffic on port 4370 on the Public Interface
+- ISP must pass traffic on port 4370. If you have difficulties with communication contact your ISP to verify the chosen port is open.
+- Router at Branch Office must permit outbound traffic on port 4370 on the Private Interface
+- Router at Branch Office must permit inbound traffic on port 4370 on the Public Interface
+- Port forwarding must be configured to send traffic to the default port as listed in the previous table for your Time and Attendance Terminal. It is not possible to change the listening port for these terminals.
+- Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
 
 Single Remote Site with a single Static Public IP Address // Multiple Internal Devices
 
@@ -122,14 +118,14 @@ Port Forwarding - The diagram below illustrates the configuration of Port Forwar
 
 Requirements - The following items are required in order for communication between the InfiniTime Server and the Thor Terminal to be successful. If you have difficulties communicating with your remote terminal verify each of the following items are configured correctly. You may also wish to refer to the troubleshooting guide below. The example does not accurately depict all possible network configurations. As a general rule any hardware or software firewall located between the source (The InfiniTime Server) and the destination (The Thor Terminal) must be configured to pass traffic on the chosen port and to trust the local network.
 
-* Software Firewall on the InfiniTime Server must permit outbound traffic on ports 4370 and 4371.
-* Router at Main Office must permit inbound traffic on ports 4370  and 4371 on the Private Interface
-* Router at Main Office must permit outbound traffic on ports 4370  and 4371  on the Public Interface
-* ISP must pass traffic on ports 4370  and 4371 . If you have difficulties with communication contact your ISP to verify the chosen port is open.
-* Router at Branch Office must permit outbound traffic on ports 4370  and 4371  on the Private Interface
-* Router at Branch Office must permit inbound traffic on ports 4370  and 4371 on the Public Interface
-* Port forwarding must be configured to send traffic to the default port as listed in the previous table for your Time and Attendance Terminal. It is not possible to change the listening port for these terminals. As shown in the diagram traffic from multiple public ports can be directed to the default port for separate Internal IP Addresses.
-* Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
+- Software Firewall on the InfiniTime Server must permit outbound traffic on ports 4370 and 4371.
+- Router at Main Office must permit inbound traffic on ports 4370  and 4371 on the Private Interface
+- Router at Main Office must permit outbound traffic on ports 4370  and 4371  on the Public Interface
+- ISP must pass traffic on ports 4370  and 4371 . If you have difficulties with communication contact your ISP to verify the chosen port is open.
+- Router at Branch Office must permit outbound traffic on ports 4370  and 4371  on the Private Interface
+- Router at Branch Office must permit inbound traffic on ports 4370  and 4371 on the Public Interface
+- Port forwarding must be configured to send traffic to the default port as listed in the previous table for your Time and Attendance Terminal. It is not possible to change the listening port for these terminals. As shown in the diagram traffic from multiple public ports can be directed to the default port for separate Internal IP Addresses.
+- Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
 
 Single Remote Site with multiple Static Public IP Addresses // Multiple Internal Devices
 
@@ -149,15 +145,15 @@ Infinitime Server wishes to send data to ABCCO.dyn-dns.com at port 4370 and 4371
 
 Requirements - The following items are required in order for communication between the InfiniTime Server and the Thor Terminals to be successful. If you have difficulties communicating with your remote terminals verify each of the following items are configured correctly. You may also wish to refer to the troubleshooting guide below. The example does not accurately depict all possible network configurations. As a general rule any hardware or software firewall located between the source (The InfiniTime Server) and the destination (The Thor Terminal) must be configured to pass traffic on the chosen port and to trust the local network.
 
-* Software Firewall on the InfiniTime Server must permit outbound traffic on ports 4370  and 4371
-* Router at Main Office must permit inbound traffic on ports 4370  and 4371  on the Private Interface
-* Router at Main Office must permit outbound traffic on ports 4370  and 4371  on the Public Interface
-* ISP must pass traffic on ports 4370  and 4371. If you have difficulties with communication contact your ISP to verify the chosen port is open.
-* Router at Branch Office must permit outbound traffic on ports 4370  and 4371 on the Private Interface
-* Router at Branch Office must permit inbound traffic on ports 4370  and 4371 on the Public Interface
-* Dynamic DNS must be configured appropriately to route traffic to your network.
-* Port forwarding must be configured to send traffic to the default port as listed in the previous table for your Time and Attendance Terminal. It is not possible to change the listening port for these terminals. As shown in the diagram traffic from multiple public ports can be directed to the default port for separate Internal IP Addresses.
-* Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
+- Software Firewall on the InfiniTime Server must permit outbound traffic on ports 4370  and 4371
+- Router at Main Office must permit inbound traffic on ports 4370  and 4371  on the Private Interface
+- Router at Main Office must permit outbound traffic on ports 4370  and 4371  on the Public Interface
+- ISP must pass traffic on ports 4370  and 4371. If you have difficulties with communication contact your ISP to verify the chosen port is open.
+- Router at Branch Office must permit outbound traffic on ports 4370  and 4371 on the Private Interface
+- Router at Branch Office must permit inbound traffic on ports 4370  and 4371 on the Public Interface
+- Dynamic DNS must be configured appropriately to route traffic to your network.
+- Port forwarding must be configured to send traffic to the default port as listed in the previous table for your Time and Attendance Terminal. It is not possible to change the listening port for these terminals. As shown in the diagram traffic from multiple public ports can be directed to the default port for separate Internal IP Addresses.
+- Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
 
 Single Remote Site with a single Dynamic Public IP Address // Single Internal Device
 
@@ -173,15 +169,15 @@ Infinitime Server wishes to send data to ABCCO.dyn-dns.com at port 4370. Remembe
 
 Requirements - The following items are required in order for communication between the InfiniTime Server and the Thor Terminals to be successful. If you have difficulties communicating with your remote terminals verify each of the following items are configured correctly. You may also wish to refer to the troubleshooting guide below. The example does not accurately depict all possible network configurations. As a general rule any hardware or software firewall located between the source (The InfiniTime Server) and the destination (The Thor Terminal) must be configured to pass traffic on the chosen port and to trust the local network.
 
-* Software Firewall on the InfiniTime Server must permit outbound traffic on port 4370
-* Router at Main Office must permit inbound traffic on port 4370 on the Private Interface
-* Router at Main Office must permit outbound traffic on port 4370 on the Public Interface
-* ISP must pass traffic on port 4370. If you have difficulties with communication contact your ISP to verify the chosen port is open.
-* Router at Branch Office must permit outbound traffic on port 4370 on the Private Interface
-* Router at Branch Office must permit inbound traffic on port 4370 on the Public Interface
-* Dynamic DNS must be configured appropriately to route traffic to your network.
-* Port forwarding must be configured to send traffic to the default port as listed in the previous table for your Time and Attendance Terminal. It is not possible to change the listening port for these terminals. As shown in the diagram traffic from multiple public ports can be directed to the default port for separate Internal IP Addresses.
-* Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
+- Software Firewall on the InfiniTime Server must permit outbound traffic on port 4370
+- Router at Main Office must permit inbound traffic on port 4370 on the Private Interface
+- Router at Main Office must permit outbound traffic on port 4370 on the Public Interface
+- ISP must pass traffic on port 4370. If you have difficulties with communication contact your ISP to verify the chosen port is open.
+- Router at Branch Office must permit outbound traffic on port 4370 on the Private Interface
+- Router at Branch Office must permit inbound traffic on port 4370 on the Public Interface
+- Dynamic DNS must be configured appropriately to route traffic to your network.
+- Port forwarding must be configured to send traffic to the default port as listed in the previous table for your Time and Attendance Terminal. It is not possible to change the listening port for these terminals. As shown in the diagram traffic from multiple public ports can be directed to the default port for separate Internal IP Addresses.
+- Router at Branch Office must be configured to respond to PING as InfiniTime requires the ability to ping the destination IP Address.
 
 Single Remote Site with multiple Dynamic Public IP Addresses // Multiple Internal Devices
 
@@ -193,36 +189,37 @@ Even though there are multiple points of failure a standard troubleshooting proc
 
 1.) Ping the Static IP Address assigned to the Time and Attendance Terminal from another computer on the remote network. If the Ethernet terminal should fail to respond verify the items below. Additional instructions for configuring these items can be found in the Hardware Manual for your specific terminal.
 
-* + Verify your Ethernet Terminal is plugged in.
-  + Check for issues related to the Ethernet cable.
-  + - Replace the cable if any cuts or slices are evident in the cable run.
+- - Verify your Ethernet Terminal is plugged in.
+  - Check for issues related to the Ethernet cable.
+  - - Replace the cable if any cuts or slices are evident in the cable run.
     - Fix the cable if the cable ends are improperly terminated.
     - Test the cable with a laptop to verify the cable is properly wired, or use a wire tester if available.
     - Verify the cable is connected to the correct port on your Ethernet terminal.
     - Try using a different port on your hub, switch, or router.
     - The Ethernet Cable run should not exceed 100 meters. (328 ft.)
-  + Verify Network Information is correct
-* The Ethernet Terminal must be assigned a static IP address. Contact your network administrator if you are unsure if the address you have is static.
-* Default Gateway
-* Subnet Mask
+  - Verify Network Information is correct
+- The Ethernet Terminal must be assigned a static IP address. Contact your network administrator if you are unsure if the address you have is static.
+- Default Gateway
+- Subnet Mask
 
-* Check Ethernet Terminal Configuration
-* + Ethernet Terminal IP Address
-  + Ethernet Terminal Subnet
-  + Default Gateway
-  + Peer Address should be set to 000.000.000.000\*
-  + Host Bits\*
+- Check Ethernet Terminal Configuration
+- - Ethernet Terminal IP Address
+  - Ethernet Terminal Subnet
+  - Default Gateway
+  - Peer Address should be set to 000.000.000.000\*
+  - Host Bits\*
 
 \*Only applies to specific Time and Attendance Hardware Models.
 
-* Check Software Configuration
-* + IP address
-  + Port
-  + Reader Address
+- Check Software Configuration
+- - IP address
 
-2.) Ping the Public IP Address of the remote router. If the router should fail to reply verify the items below.
+    - Port
+    - Reader Address
 
-* The router must be configured to respond to PING.
-* Verify the Internet Connection at the main and remote site(s) is up.
+    2.) Ping the Public IP Address of the remote router. If the router should fail to reply verify the items below.
 
-3.) If communication errors should still occur after verifying the aforementioned items there is most likely an issue with NAT or Port Forwarding. It is also possible that traffic is being blocked before it gets to the destination. Verify all hardware or software firewalls between the source and destination are configured to permit traffic on the chosen ports. It may also help to check with your ISP to see if they are blocking traffic on any ports.
+- The router must be configured to respond to PING.
+- Verify the Internet Connection at the main and remote site(s) is up.
+
+  3.) If communication errors should still occur after verifying the aforementioned items there is most likely an issue with NAT or Port Forwarding. It is also possible that traffic is being blocked before it gets to the destination. Verify all hardware or software firewalls between the source and destination are configured to permit traffic on the chosen ports. It may also help to check with your ISP to see if they are blocking traffic on any ports.

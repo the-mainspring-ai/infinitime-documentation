@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Day Schedule with Employee Groups"
+description: "A guide to viewing and managing employee schedules by groups within a specified date range."
+---
 
 Day Schedule With Employee Groups
-
-
-
 
 # Day Schedule With Employee Groups
 

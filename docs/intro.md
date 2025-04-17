@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+title: "InfiniTime Documentation"
+description: "Comprehensive guide to understanding and using the InfiniTime time management and employee scheduling system."
 ---
 
 # InfiniTime

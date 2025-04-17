@@ -1,3 +1,8 @@
+---
+title: "Employee With Exceptions Report"
+description: "A report listing employees with exceptions within a specified date range, with options to filter by exception type and customize display settings."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 

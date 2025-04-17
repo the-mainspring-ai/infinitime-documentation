@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Job Daily Summary Documentation"
+description: "Overview of the Job Daily Summary feature that displays total hours per day grouped by job within a specified date range."
+---
 
 Job Daily Summary
-
-
-
 
 # Job Daily Summary
 

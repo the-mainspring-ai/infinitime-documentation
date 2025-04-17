@@ -1,3 +1,8 @@
+---
+title: "Glossary of InfiniTime Terms"
+description: "A comprehensive glossary explaining key terms related to employee hours, jobs, and summaries within the InfiniTime application."
+---
+
 # Glossary
 
 | Term                       | Description                                                                                                    |

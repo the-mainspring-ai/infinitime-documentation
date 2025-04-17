@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Timecard Summary Documentation"
+description: "Overview of the Timecard Summary feature, showing employee activity and hourly totals based on selected criteria."
+---
 
 Timecard Summary
-
-
-
 
 # Timecard Summary
 

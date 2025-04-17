@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Reader and Printer Settings for Thor Terminal"
+description: "Guide to configuring printer attachment and report printing options on the Thor Terminal with TM-T88IV thermal printer."
+---
 
 Reader Settings - Printer Settings
-
-
-
 
 # Reader Settings - Printer Settings
 
@@ -39,7 +35,7 @@ To View the View Total Hours Screen:
 
 Accrual Totals Report - Prints all records displayed on the Accrual Totals Screen for an individual employee
 
- To View the Accrual Totals Screen:
+To View the Accrual Totals Screen:
 
 1. Ensure the Hours Function is assigned to a function key and record(s) are present in the âEmployee Accrual Totals Tableâ for an employee.
 2. Enter the Hours Function Menu from the main menu.

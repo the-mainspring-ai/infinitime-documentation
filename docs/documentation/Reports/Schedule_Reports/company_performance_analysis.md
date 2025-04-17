@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Company Performance Analysis"
+description: "Overview of employee work hours, tardy exceptions, long breaks, and early departures with comparative charts and detailed metrics."
+---
 
 Company Performance Analysis
-
-
-
 
 # Company Performance Analysis
 

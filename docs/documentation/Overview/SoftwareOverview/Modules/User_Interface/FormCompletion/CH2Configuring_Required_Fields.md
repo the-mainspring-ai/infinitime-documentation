@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Configuring Required Fields in Infinitime"
+description: "Guide on how to set and manage required fields within the Infinitime application to ensure accurate employee data entry and enforcement."
+---
 
 Configuring Required Fields
-
-
-
 
 # Configurable Required Fields
 

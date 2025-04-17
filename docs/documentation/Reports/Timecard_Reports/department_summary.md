@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Department Summary Report"
+description: "Overview of hourly totals by department and activity type with customizable options and example visualization."
+---
 
 Department Summary
-
-
-
 
 # Department Summary
 

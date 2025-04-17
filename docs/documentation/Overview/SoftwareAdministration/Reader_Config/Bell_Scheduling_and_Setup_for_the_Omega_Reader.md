@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Bell Scheduling and Setup for the Omega Reader"
+description: "Guide to configuring bell schedules and hardware setup for the Omega Reader using InfiniTime software."
+---
 
 Bell Scheduling and Setup for the Omega Reader
-
-
-
 
 # Bell Scheduling and Setup for the Reader
 
@@ -15,9 +11,9 @@ The Omega terminal can be used to ring an attached bell according to schedules c
 
 InfiniTime Software Requirements
 
-* Bell usage requires purchase of the Bells Module. Contact your Inception Technologies Sales Representative for more information.
+- Bell usage requires purchase of the Bells Module. Contact your Inception Technologies Sales Representative for more information.
 
-* Bell Schedules must be configured for the reader. Refer to the âReader Configuration Table â Bell Schedulesâ section of this document for more information.
+- Bell Schedules must be configured for the reader. Refer to the âReader Configuration Table â Bell Schedulesâ section of this document for more information.
 
 Bell Wiring: Hardware Components
 
@@ -29,7 +25,7 @@ For those unfamiliar with the electrical parts contained in the diagrams below i
 
 In the normal state, or when unpowered, the relay coil is not energized and the relay contacts are in their normal state. In the normal state the normally open contacts are open and the normally closed contacts are closed as the name suggests. When activated the coil becomes energized forming a magnetic field which causes the relay contacts to close or open respectively. This is referred to as the picked state where power is applied to the relay and the relay coil is energized. The relay will make a small clicking sound when it is picked, at which point the relay contacts switch their state, the normally open contact will be closed and the normally closed contact will be open. The contacts will remain in this position until power to the coil is removed at which point the contacts will revert to their normal state. The InfiniTime Application controls the duration for which the relay is picked. Generally when using a bell the wiring is setup in order to ring the bell when the relay is picked. The diagrams below provide example wiring circuits for bell control based upon the voltage and current requirements of the bell in use.  Inception Technologies takes no responsibility for the wiring and setup of Bells and Access Control equipment. Customers attempting to wire their own access control without the assistance of a professional electrician do so at their own risk. Inception Technologies is not responsible for damage to equipment caused by improper wiring.
 
-*WARNING*: The internal relay is rated to withstand a voltage range of 0 to 24V DC and a current load of up to 1A. Using an external power supply of more than 24 VDC will damage internal components of the Omega terminal. To prevent damage to the terminal, external bells should not draw more than 1A current. An external relay must be used to separate the clock from high voltage / current circuitry.
+_WARNING_: The internal relay is rated to withstand a voltage range of 0 to 24V DC and a current load of up to 1A. Using an external power supply of more than 24 VDC will damage internal components of the Omega terminal. To prevent damage to the terminal, external bells should not draw more than 1A current. An external relay must be used to separate the clock from high voltage / current circuitry.
 
 Bell Connection - High Voltage / Current Bells: Using SY-124
 
@@ -65,17 +61,17 @@ If the bell does not ring as expected first test the wiring at the Internal Rela
 
 Custom Wiring Diagram:
 
-* Ensure the DC Power source is connected properly and functioning.
-* Ensure the AC Power source is connected properly and functioning.
-* Ensure Pin 7 (Orange) from the connection box is connected to one end of the relay coil.
-* Ensure Pin 2 (Brown) from the connection box is connected to one end of the DC Power Adapter.
-* Ensure the second end of the DC Power adapter is connected to the relay coil.
-* Ensure the AC Power source and bell or buzzer are wired to the proper relay contacts and to each other. One side of the AC power source should be connected to the Normally Open contact while the other is connected to a contact on the bell or buzzer. The second contact of the bell or buzzer should be connected to the common contact of the relay.
-* Ensure a straight through ethernet cable is used between the connection box and the SY-124. If possible, test the cable with a cable tester or replace the cable.
+- Ensure the DC Power source is connected properly and functioning.
+- Ensure the AC Power source is connected properly and functioning.
+- Ensure Pin 7 (Orange) from the connection box is connected to one end of the relay coil.
+- Ensure Pin 2 (Brown) from the connection box is connected to one end of the DC Power Adapter.
+- Ensure the second end of the DC Power adapter is connected to the relay coil.
+- Ensure the AC Power source and bell or buzzer are wired to the proper relay contacts and to each other. One side of the AC power source should be connected to the Normally Open contact while the other is connected to a contact on the bell or buzzer. The second contact of the bell or buzzer should be connected to the common contact of the relay.
+- Ensure a straight through ethernet cable is used between the connection box and the SY-124. If possible, test the cable with a cable tester or replace the cable.
 
 SY-124 Diagram:
 
-* Ensure the DC Power adapter is connected to the SY-124 properly and plugged in. The Red Power LED should illuminate.
-* Ensure the AC Power source is connected properly and functioning.
-* Ensure a straight through ethernet cable is used between the Omega terminal and the SY-124. If possible, test the cable with a cable tester or replace the cable.
-* Ensure the AC Power source and bell or buzzer are wired to the proper relay contacts and to each other. One side of the AC power source should be connected to the Normally Open contact while the other is connected to a contact on the bell or buzzer. The second contact of the bell or buzzer should be connected to the common contact of the relay.
+- Ensure the DC Power adapter is connected to the SY-124 properly and plugged in. The Red Power LED should illuminate.
+- Ensure the AC Power source is connected properly and functioning.
+- Ensure a straight through ethernet cable is used between the Omega terminal and the SY-124. If possible, test the cable with a cable tester or replace the cable.
+- Ensure the AC Power source and bell or buzzer are wired to the proper relay contacts and to each other. One side of the AC power source should be connected to the Normally Open contact while the other is connected to a contact on the bell or buzzer. The second contact of the bell or buzzer should be connected to the common contact of the relay.

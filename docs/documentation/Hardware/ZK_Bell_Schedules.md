@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Bell Schedule Configuration Guide"
+description: "Learn how to set up and manage bell schedules on Luna, Zephyr, Athena, and Juno terminals, including hardware limitations and setup steps."
+---
 
 Bell Schedules
-
-
-
 
 # Bell Schedules
 

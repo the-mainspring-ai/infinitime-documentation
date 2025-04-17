@@ -1,3 +1,8 @@
+---
+title: "Employee Setup in InfiniTime"
+description: "Guide to setting up and managing employee information in the InfiniTime software, including manual entry and CSV import options."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 

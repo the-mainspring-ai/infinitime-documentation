@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Messaging System Overview"
+description: "A guide to using InfiniTime's internal messaging system for employee communication, including sending messages, privacy considerations, and message management."
+---
 
 Messaging Introduction
-
-
-
 
 # Messaging Introduction
 
@@ -17,8 +13,8 @@ Sending Messages
 
 Messages can be sent from within the manager module or employee module. Larger buttons and clearer messaging controls are available from the Employee module, as the employee module is centered on employee software usage rather than employee management. Messaging functionality is not restricted within the employee module. All messaging features are available in both the Manager and Employee Modules.
 
-* [Messaging within the Employee Module](Messaging_within_the_Employee_Module.md)
-* [Messaging within the Manager Module](Messaging_within_the_Manager_Module.md)
+- [Messaging within the Employee Module](Messaging_within_the_Employee_Module.md)
+- [Messaging within the Manager Module](Messaging_within_the_Manager_Module.md)
 
 Messaging Options and Warnings
 

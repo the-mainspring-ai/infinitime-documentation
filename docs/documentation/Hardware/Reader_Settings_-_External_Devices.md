@@ -1,6 +1,7 @@
-xml version="1.0" encoding="utf-8"?
-
-Reader Settings - External Devices
+---
+title: "Reader Settings - External Devices"
+description: "Overview of external device support and configuration for the Thor Terminal, including Wiegand readers, barcode scanners, and printers."
+---
 
 # Reader Settings - External Devices
 

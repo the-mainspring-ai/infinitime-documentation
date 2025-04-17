@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Timecard With Phone Numbers"
+description: "Displays employee activity for each day within a specified date range, including in/out times, totals, exceptions, and phone numbers."
+---
 
 Timecard With Phone Numbers
-
-
-
 
 # Timecard With Phone Numbers
 

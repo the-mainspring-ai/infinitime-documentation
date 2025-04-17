@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Postable Schedule Documentation"
+description: "Guidance on generating and viewing detailed employee schedules for department or individual posting."
+---
 
 Postable Schedule
-
-
-
 
 # Postable Schedule
 

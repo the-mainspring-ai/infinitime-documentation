@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Time Card Activity for Company"
+description: "Guide to viewing and editing employee time card activity, including employee list, activity details, and interface functionalities."
+---
 
 Time Card Activity For Company
-
-
-
 
 # Time Card Activity For Company
 

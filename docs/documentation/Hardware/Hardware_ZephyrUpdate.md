@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Updating the Zephyr Clock"
+description: "Step-by-step instructions for manually updating the Zephyr clock to ensure employee data and program are current, including accessing configuration tools and system monitor."
+---
 
 Updating the Zephyr Clock
-
-
-
 
 # Updating the Zephyr Clock
 
@@ -37,5 +33,5 @@ Open the Reader Address Configuration Table:
 
 The Zephyr program will be loaded to the Zephyr Clock along with Employee, Department, and Other Activity information. Once it has completed uploading all information to the Zephyr Clock the program will return to the Reader Configuration Update Form.
 
-* Select OK to close and Save.
-* Select Close to close the Reader Table
+- Select OK to close and Save.
+- Select Close to close the Reader Table

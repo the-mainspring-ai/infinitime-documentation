@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Policy Exceptions in InfiniTime"
+description: "Guide to managing employee exceptions through policy-based and global methods in InfiniTime, including access and insertion steps."
+---
 
 Policy Exceptions
-
-
-
 
 # Policy Exceptions
 

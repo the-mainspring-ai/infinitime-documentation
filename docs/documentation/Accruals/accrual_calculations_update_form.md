@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Accrual Calculations Update Form"
+description: "Guide to updating and managing accrual configurations for different accrual categories such as Personal, Sick, and Vacation Time."
+---
 
 Accrual Calculations Update Form
-
-
-
 
 # Accrual Calculations Update Form
 
@@ -45,9 +41,9 @@ Month(s) - When the Month(s) Unit is selected, employees will be awarded accrual
 
 Reset Type:  Select when you would like InfiniTimeâ¢ to reset the accruals.
 
-* Calender Year â InfiniTimeâ¢ will reset on January 1st of each year.
-* Anniversary â InfiniTimeâ¢ will reset on the employees date of hire.
-* Fiscal Year â InfiniTimeâ¢ will reset on a specific day set forth by the company, by selecting the Fiscal month and Fiscal day.
+- Calender Year â InfiniTimeâ¢ will reset on January 1st of each year.
+- Anniversary â InfiniTimeâ¢ will reset on the employees date of hire.
+- Fiscal Year â InfiniTimeâ¢ will reset on a specific day set forth by the company, by selecting the Fiscal month and Fiscal day.
 
 Stop At Amount:  Enter the maximum amount of time an employee can accrue. Once this level has been reached, no further time will be accrued.
 
@@ -59,9 +55,9 @@ Maximum Negative Accrual: Enter the maximum negative amount of accruals allowed,
 
 End Of Cycle Bonus: Enter amount of hours given to the employee as bonus at the end of the cycle. The end of the cycle varies depending on the reset type chosen.
 
-* Calendar Year: Accruals Reset on January 1.
-* Hire Date: Accruals Reset on the employees Hire date.
-* Fiscal Year: Accruals Reset on the Specified Fiscal Month and Day.
+- Calendar Year: Accruals Reset on January 1.
+- Hire Date: Accruals Reset on the employees Hire date.
+- Fiscal Year: Accruals Reset on the Specified Fiscal Month and Day.
 
 Carry Over: Check this box if the accrual can be carried over to the next cycle.
 

@@ -1,3 +1,8 @@
+---
+title: "Escort Overview"
+description: "A guide to InfiniTime Escort, a customizable portal for streamlined access to tasks and controls tailored to specific employee needs." 
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 Escort Overview

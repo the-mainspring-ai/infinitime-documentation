@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "User Defined Fields Report"
+description: "Overview of options and usage for displaying user-defined fields related to employees, including grouping and display settings."
+---
 
 User Defined Fields
-
-
-
 
 # User Defined Fields
 
@@ -17,21 +13,21 @@ Notes/Usage:
 
 Options:
 
- | Option | Default Value | Description | 
-| --- | --- | --- |
- | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. | 
- | Group by Department? | No | This option will group employees specified by the Employee Filter according to their Default Department. | 
- | Group by Job? | No | This option will group employees specified by the Employee Filter according to their Default Job. | 
- | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. | 
- | Group by Task? | No | This option will group employees specified by the Employee Filter according to their Default Task. | 
- | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. | 
- | Page Break by Department? | No | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed. | 
- | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. | 
- | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary. | 
- | Page Break by Job? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review. | 
- | Page Break by Supervisor? | No | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review. | 
- | Page Break by Task? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review. | 
- | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. | 
- | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. | 
+| Option                        | Default Value | Description                                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Allow Graphics On the Report? | Yes           | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report.                                                                                                                                                                                                                                                                                                       |
+| Group by Department?          | No            | This option will group employees specified by the Employee Filter according to their Default Department.                                                                                                                                                                                                                                                                                           |
+| Group by Job?                 | No            | This option will group employees specified by the Employee Filter according to their Default Job.                                                                                                                                                                                                                                                                                                  |
+| Group by Supervisor?          | No            | This option will group employees specified by the Employee Filter according to their Default Supervisor.                                                                                                                                                                                                                                                                                           |
+| Group by Task?                | No            | This option will group employees specified by the Employee Filter according to their Default Task.                                                                                                                                                                                                                                                                                                 |
+| Group level to group by:      | None          | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
+| Page Break by Department?     | No            | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed.                                                                                                                                                                                                                         |
+| Page Break by Employee?       | No            | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review.                                                                                                                                                                                                                                            |
+| Page Break by Group?          | No            | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary.                                                                                                                                                                                                       |
+| Page Break by Job?            | No            | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review.                                                                                                                                                                                                                                       |
+| Page Break by Supervisor?     | No            | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review.                                                                                                                                                                                                                                                       |
+| Page Break by Task?           | No            | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review.                                                                                                                                                                                                                                      |
+| Print Inactive Employees?     | No            | This option will allow you to print information of the inactive employees along with the active ones.                                                                                                                                                                                                                                                                                              |
+| Sort by Employee Number?      | No            | This option will group employees specified by the Employee Filter according to their Employee ID.                                                                                                                                                                                                                                                                                                  |
 
 [Report List](../Report_List.md)

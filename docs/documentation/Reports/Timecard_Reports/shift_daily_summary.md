@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Shift Daily Summary Report"
+description: "A customizable report providing a summary of employee activity by department and shift, excluding detailed daily activity."
+---
 
 Shift Daily Summary
-
-
-
 
 # Shift Daily Summary
 

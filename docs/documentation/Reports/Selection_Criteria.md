@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Report Selection Criteria Guide"
+description: "Overview of how to use filters and criteria to generate employee reports, including date range and employee selection options."
+---
 
 Selection Criteria
-
-
-
 
 # Selection Criteria
 
@@ -33,4 +29,4 @@ Selected Other Activities: Select individual other activity types to be included
 
 Misc. Selections: Select individual employees to be included in the report. Change the drop down box from All to Selected, and tag employees you wish to include in the report.
 
-*Note*:  It is not uncommon for users to Choose âSelectedâ in order to specify individual employees, departments, jobs, tasks or groups and then forget to tag specific employees, departments,  jobs, tasks or groups. Employees are not selected if a green checkmark is not displayed to the left of their name. Should selected be chosen, and no employees specified, selection criteria will automatically revert to the âAllâ selection in order to avoid an error.
+_Note_:  It is not uncommon for users to Choose âSelectedâ in order to specify individual employees, departments, jobs, tasks or groups and then forget to tag specific employees, departments,  jobs, tasks or groups. Employees are not selected if a green checkmark is not displayed to the left of their name. Should selected be chosen, and no employees specified, selection criteria will automatically revert to the âAllâ selection in order to avoid an error.

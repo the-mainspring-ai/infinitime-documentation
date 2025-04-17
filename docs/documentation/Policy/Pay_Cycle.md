@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Pay Cycle Configuration"
+description: "Guide to setting up and understanding employee pay cycles, including start of week, pay periods, and related options in payroll management."
+---
 
 Pay Cycle
-
-
-
 
 # Pay Cycle
 
@@ -25,15 +21,15 @@ Start Of Week - Defines the starting day of the week. Think of the start of week
 
 Pay Cycle - Describes the date ranges for which employees are paid. It is important to note that the Pay Cycle is independent of the dates employee's receive their paychecks. InfiniTime is a Time and Attendance Application and focuses primarily on dates worked by employees rather than cutting paychecks. Paychecks can be, and often are, given to employees independently of the actual pay cycle. For example, many companies choose to hold employee paychecks back for one pay period. Pay Cycle dates describe only the dates employees are working from one pay period to the next. With this in mind, select the Pay Cycle that best describes the group of employees that will be assigned to the policy.  InfiniTimeâ¢ offers 6 pay cycle options:
 
-1. *Weekly*:  If you pay your employees weekly simply select weekly from the drop down menu and enter the beginning date of your pay period on the Current Pay Period From Date box.  Once you have entered the date check and confirm the reference date below that window.
+1. _Weekly_:  If you pay your employees weekly simply select weekly from the drop down menu and enter the beginning date of your pay period on the Current Pay Period From Date box.  Once you have entered the date check and confirm the reference date below that window.
 
-2. *Bi-Weekly*:  If you pay your employees bi-weekly simply select Bi-Weekly from the drop down menu and enter the beginning date of your pay period on the Current Pay Period From Date box.  Once you have entered the date check and confirm the reference date below that window.
+2. _Bi-Weekly_:  If you pay your employees bi-weekly simply select Bi-Weekly from the drop down menu and enter the beginning date of your pay period on the Current Pay Period From Date box.  Once you have entered the date check and confirm the reference date below that window.
 
-3. *Monthly*:  If you pay your employees monthly simply select Monthly from the drop down menu.  A window appears with a date, enter your pay period starting day.  Confirm the Pay Period From Date. If it is not correct make any necessary modifications.  Once you have entered these dates check and confirm the reference dates.
+3. _Monthly_:  If you pay your employees monthly simply select Monthly from the drop down menu.  A window appears with a date, enter your pay period starting day.  Confirm the Pay Period From Date. If it is not correct make any necessary modifications.  Once you have entered these dates check and confirm the reference dates.
 
-4. *Semi-Monthly*:  If you pay your employees semi monthly simply select Semi Monthly from the drop down menu.  Two windows appear with a date, enter the appropriate date for the first and second pay period.  Confirm the Pay Period From Date.  If it is not correct make any necessary modifications.  Once you have entered these dates check and confirm the reference dates.
+4. _Semi-Monthly_:  If you pay your employees semi monthly simply select Semi Monthly from the drop down menu.  Two windows appear with a date, enter the appropriate date for the first and second pay period.  Confirm the Pay Period From Date.  If it is not correct make any necessary modifications.  Once you have entered these dates check and confirm the reference dates.
 
-5. *Custom*: If your pay cycle is a specific number of days in length and does not start or end in respect to the work week or specific days of the month a Custom Pay Cycle can be used. Select Custom from the drop down menu and enter the length of your pay period, in days, in the Custom Interval Amount field. Set the Current Pay Period From Date to the start date of the current pay period and confirm the Current Pay Period To Date and the Last Pay Period Dates are set correctly.
+5. _Custom_: If your pay cycle is a specific number of days in length and does not start or end in respect to the work week or specific days of the month a Custom Pay Cycle can be used. Select Custom from the drop down menu and enter the length of your pay period, in days, in the Custom Interval Amount field. Set the Current Pay Period From Date to the start date of the current pay period and confirm the Current Pay Period To Date and the Last Pay Period Dates are set correctly.
 
 6. Manual: If your pay cycle does not adhere to other Pay Cycle Methods available from within InfiniTime the Manual Pay Cycle can be used. A manual pay cycle requires the user to manually set the Pay Period Start and End Dates for both the Current and Last Pay Period on a regular basis. It is suggested that Pay Cycle dates for the next pay period be set on the last day of the current pay period after or just before close of business.
 
@@ -87,7 +83,7 @@ The example below depicts a BiWeekly Pay Period with Monday as the Start of Week
 
 End of Pay Period: If this option is selected employee working hours will be split at the end of the pay period. Remember, the End of the Pay Period is determined by the Pay Cycle and the time at which the day ends. End of Day on the Last day in the pay cycle is considered the end of the pay period. With this in mind the End of Day setting is important when splitting Punches at the End of the Pay Period. By default, midnight is considered the end of day though this can be changed by setting the 'Clock In Missed Punch Day Change Time' and 'Clock Out Missed Punch Day Change Time' settings on the General Tab of the Overtime Rules section of the policy to the same time. It should be noted that punches will only be split at the end of the pay period. Employees who work across the end of day at other times during the pay period will show missing punches on their timecard.
 
-*For example*: An employee working on the last day of the pay period on a midnight shift starts at 8:00pm and clocks out at 6:00am the following morning on the new pay period.  For the last pay period he will receive hours worked as 8:00pm to 11:59pm and begin the new pay period with 12:00am to 6:00am.
+_For example_: An employee working on the last day of the pay period on a midnight shift starts at 8:00pm and clocks out at 6:00am the following morning on the new pay period.  For the last pay period he will receive hours worked as 8:00pm to 11:59pm and begin the new pay period with 12:00am to 6:00am.
 
 Number Of Days After Pay Period Until Edit Lockout - This option sets the number of days after the pay period ends that the administrator can edit any time card activity.  After that amount the administrator cannot make any more changes to the time card activity.
 

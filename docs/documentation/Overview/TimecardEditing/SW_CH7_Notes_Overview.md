@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Timecard Notes Overview"
+description: "A guide to using Timecard Notes for supervisors to add comments to employee timecard punches, including use cases and benefits."
+---
 
 Timecard Notes: Overview
-
-
-
 
 # Timecard Notes: Overview
 
@@ -15,10 +11,10 @@ Timecard Notes make it possible for supervisors to enter a comment or paragraph 
 
 Timecard notes are useful for the following scenarios:
 
-* Documenting why an Employee Arrived Late
-* Documenting why an Employee Left Early
-* Documenting reasons for Missed Breaks, Short Breaks, or Long Breaks
-* Associating notes and comments with employee timecard punches as needed.
+- Documenting why an Employee Arrived Late
+- Documenting why an Employee Left Early
+- Documenting reasons for Missed Breaks, Short Breaks, or Long Breaks
+- Associating notes and comments with employee timecard punches as needed.
 
 Timecard Notes can be viewed from within the Company, Employee, and Employee Module Timecard tables from the Note Tab on Audit Database Table or via the Timecard Note Report. Additional details can be found below.
 

@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Update Bios from File for ZK Terminals"
+description: "Guide on manually updating BIOS on ZK terminals using the emfw.cfg file from the InfiniTime installation directory."
+---
 
 Update Bios from File
-
-
-
 
 # Update Bios From File
 

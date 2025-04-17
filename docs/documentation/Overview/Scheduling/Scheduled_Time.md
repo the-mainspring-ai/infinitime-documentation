@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Scheduled Time and Grace Period Settings in InfiniTime"
+description: "An overview of Scheduled Time, Grace Period Settings, and punch rounding features in InfiniTime for accurate time tracking and reporting."
+---
 
 Scheduled Time
-
-
-
 
 # Scheduled Time
 
@@ -23,9 +19,9 @@ Grace periods are powerful settings that determine:
 
 InfiniTimeâ¢ has three separate tabs for grace period options, which allows you to customize each type of punch.
 
-* Clock In Punch Rounding
-* Break Punch Rounding
-* Clock Out Punch Rounding
+- Clock In Punch Rounding
+- Break Punch Rounding
+- Clock Out Punch Rounding
 
 Early Grace Period:  This setting is relative to the On Time Grace Period Setting. This spin box allows you to enter a number in whole minutes and 1/100ths  of a minute, that a punch will be counted as Early. To be counted as Early, a punch would have to fall between the scheduled time minus the On Time Grace Period setting, and the Early Grace Period setting. Punches that occur prior to the Early Grace Period are considered Unscheduled. A zero entered here will not use the Early Grace Period.
 
@@ -33,7 +29,7 @@ On Time Grace Period:  This setting determines how many minutes, prior to the e
 
 Late Grace Period:  This setting allows you to enter a number in whole minutes and 1/100ths of a minute, that a punch will be counted as Late. To be counted as Late, a punch would have to fall between the scheduled time and the Late Grace Period settings. Punches that occur after the Late Grace Period are considered Unscheduled. A zero entered here will not use the Late Grace Period.
 
-*For Example*: An employee is scheduled to begin work at 8:00 AM and end work at 4:00 PM, and the Clock In/Clock Out Grace Periods are set as follows:
+_For Example_: An employee is scheduled to begin work at 8:00 AM and end work at 4:00 PM, and the Clock In/Clock Out Grace Periods are set as follows:
 
 Early Grace Period:  30 Minutes
 

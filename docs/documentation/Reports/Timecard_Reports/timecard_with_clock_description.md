@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Timecard With Clock Description"
+description: "Displays employee activity, in/out times, totals, exceptions, and clock descriptions within a specified date range."
+---
 
 Timecard With Clock Description
-
-
-
 
 # Timecard With Clock Description
 

@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Overtime Settings Configuration Guide"
+description: "Learn how to configure daily and weekly overtime settings, including multiple overtime buckets and pay rates, for accurate payroll processing."
+---
 
 Overtime Settings
-
-
-
 
 # Overtime Settings
 

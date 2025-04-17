@@ -1,21 +1,15 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Juno Reader Setup - USB Direct Connect"
+description: "Guide for connecting and configuring the Juno Reader via USB Direct Connect with InfiniTime software."
+---
 
 Juno Reader Setup - USB Direct Connect
-
-
-
 
 # Juno Reader Setup - USB Direct Connect
 
 After connecting the Juno to the InfiniTime server and ensuring the menu settings are configured properly, follow the steps below to connect to the Juno from the InfiniTime Application.
 
 Adding a USB Direct Connect Juno to the InfiniTime Software
-
-  
 
 1. Click on Lookups
 

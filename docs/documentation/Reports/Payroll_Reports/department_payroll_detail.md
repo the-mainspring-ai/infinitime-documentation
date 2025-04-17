@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Department Payroll Detail Report"
+description: "A report that displays daily department totals and dollar amounts for payroll analysis, with customizable options."
+---
 
 Department Payroll Detail
-
-
-
 
 # Department Payroll Detail
 

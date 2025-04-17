@@ -1,3 +1,8 @@
+---
+title: "Guide to User Defined Fields"
+description: "Learn how to add and manage custom employee information using User Defined Fields in the software."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 

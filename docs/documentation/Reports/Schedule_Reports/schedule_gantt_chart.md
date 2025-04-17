@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Schedule Gantt Chart"
+description: "A tool for generating visual employee schedule reports similar to Gantt Charts, aiding in clear schedule display."
+---
 
 Schedule Gantt Chart
-
-
-
 
 # Schedule Gantt Chart
 

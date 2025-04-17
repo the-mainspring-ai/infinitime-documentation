@@ -1,3 +1,8 @@
+---
+title: "Employee Accruals Overview"
+description: "Learn how InfiniTime's Accrual Features help track and manage employee paid leave such as sick, vacation, and personal time, including balances and history." 
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 Accrual Configuration

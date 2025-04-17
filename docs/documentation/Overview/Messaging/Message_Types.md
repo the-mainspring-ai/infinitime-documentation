@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "InfiniTime Message Types Overview"
+description: "Overview of the three message types in InfiniTime: Notes, Schedule Change Requests, and their purposes."
+---
 
 Message Types
-
-
-
 
 # Message Types
 

@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Department Performance Analysis"
+description: "Overview of department-wise scheduled vs. actual hours, including exception metrics such as tardy, long breaks, and early departures."
+---
 
 Department Performance Analysis
-
-
-
 
 # Department Performance Analysis
 

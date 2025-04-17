@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Policy Table Guide"
+description: "A comprehensive overview of creating, modifying, and managing policies within the Policy Table system."
+---
 
 Policy Table
-
-
-
 
 # Policy Table
 
@@ -25,6 +21,6 @@ Name -  This is the given name of the policy
 
 Re-Calculate - Clicking this button will re-calculate the timecard activity of all employees assigned to the highlighted policy.
 
-* Re-Calculation should be done if you make any changes to the policy.  Any changes that will change the way the timecard activity is calculated, like overtime, rounding or schedule rules.
+- Re-Calculation should be done if you make any changes to the policy.  Any changes that will change the way the timecard activity is calculated, like overtime, rounding or schedule rules.
 
 Copy - Copies the highlighted policy. All settings configured for the highlighted policy will be copied. To copy a policy simply click on the policy you wish to copy and click the copy button.

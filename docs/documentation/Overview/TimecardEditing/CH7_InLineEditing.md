@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "In Line Timecard Editing"
+description: "A guide to efficiently editing timecards directly within the system using In Line Edit, navigation, and related features."
+---
 
 In Line Timecard Editing
-
-
-
 
 # In Line Timecard Editing
 

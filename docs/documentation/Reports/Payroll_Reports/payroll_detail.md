@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Payroll Detail Report"
+description: "A detailed report displaying hourly totals, in/out punches, and estimated wages with customizable options."
+---
 
 Payroll Detail
-
-
-
 
 # Payroll Detail
 

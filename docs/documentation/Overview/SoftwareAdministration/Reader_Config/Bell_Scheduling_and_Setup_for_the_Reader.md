@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Bell Scheduling and Setup for the Reader"
+description: "Guide to configuring bell schedules and hardware setup for Odyssey 780 and Orion 760 terminals using InfiniTime software."
+---
 
 Bell Scheduling and Setup for the Reader
-
-
-
 
 # Bell Scheduling and Setup for the Reader
 
@@ -15,9 +11,9 @@ Odyssey 780 and Orion 760 terminals can be used to ring an attached bell accordi
 
 InfiniTime Software Requirements
 
-* Bell usage requires purchase of the Bells Module. Contact your Inception Technologies Sales Representative for more information.
+- Bell usage requires purchase of the Bells Module. Contact your Inception Technologies Sales Representative for more information.
 
-* Bell Schedules must be configured for the reader. Refer to the âReader Configuration Table â Bell Schedulesâ section of this document for more information.
+- Bell Schedules must be configured for the reader. Refer to the âReader Configuration Table â Bell Schedulesâ section of this document for more information.
 
 Bell Wiring: Hardware Components
 
@@ -29,7 +25,7 @@ For those unfamiliar with the electrical parts contained in the diagrams below i
 
 In the normal state, or when unpowered, the relay coil is not energized and the relay contacts are in their normal state. In the normal state the normally open contacts are open and the normally closed contacts are closed as the name suggests. When activated the coil becomes energized forming a magnetic field which causes the relay contacts to close or open respectively. This is referred to as the picked state where power is applied to the relay and the relay coil is energized. The relay will make a small clicking sound when it is picked. The relay contacts will switch their state, the normally open contact will be closed and the normally closed contact will be open. The contacts will remain in this position until power to the coil is removed at which point the contacts will revert to their normal state. The InfiniTime Application controls the duration for which the relay is picked. Generally when using a bell the wiring is setup in order to ring the bell when the relay is picked. The diagrams below provide example wiring circuits for bell control based upon the voltage and current requirements of the bell in use.  Inception Technologies takes no responsibility for the wiring and setup of Bells and Access Control equipment. Customers attempting to wire their own access control without the assistance of a professional electrician do so at their own risk. Inception Technologies is not responsible for damage to equipment caused by improper wiring.
 
-*WARNING*: The internal relay is rated to withstand a voltage range of 0 to 24V DC and a current load of up to 1A. Using an external power supply of more than 24 VDC will damage internal components of the Odyssey 780 and Orion 760 Terminals. To prevent damage to the terminal, external bells should not draw more than 1A current. An external relay must be used to separate the clock from high voltage / current circuitry.
+_WARNING_: The internal relay is rated to withstand a voltage range of 0 to 24V DC and a current load of up to 1A. Using an external power supply of more than 24 VDC will damage internal components of the Odyssey 780 and Orion 760 Terminals. To prevent damage to the terminal, external bells should not draw more than 1A current. An external relay must be used to separate the clock from high voltage / current circuitry.
 
 Bell Connection - High Voltage / Current Bells: Using SY-124
 
@@ -65,15 +61,15 @@ If the bell does not ring as expected first test the wiring at the Internal Rela
 
 Custom Wiring Diagram:
 
-* Ensure the DC Power source is connected properly and functioning.
-* Ensure the AC Power source is connected properly and functioning.
-* Ensure the AC Power source and Bell are connected to the proper relay contacts and to each other. The one side of the AC power source should be connected to the Normally Open contact while the other is connected to a contact on the bell or buzzer. The second contact of the bell or buzzer should be connected to the common contact of the relay.
+- Ensure the DC Power source is connected properly and functioning.
+- Ensure the AC Power source is connected properly and functioning.
+- Ensure the AC Power source and Bell are connected to the proper relay contacts and to each other. The one side of the AC power source should be connected to the Normally Open contact while the other is connected to a contact on the bell or buzzer. The second contact of the bell or buzzer should be connected to the common contact of the relay.
 
 SY-124 Diagram:
 
-* Ensure the DC Power adapter is connected to the SY-124 properly and plugged in. The Red Power LED should illuminate.
-* Ensure the AC Power source is connected properly and functioning.
-* Ensure the Normally Open (NO) Contact of the Internal SY-780 / SY-760 relay is connected to the orange wire of the connection box.
-* Ensure the Common (R1) contact of the Internal SY-780 / SY-760 relay is connected to the brown wire of the connection box.
-* Ensure a straight through ethernet cable is used between the connection box and the SY-124. If possible, test the cable with a cable tester or replace the cable.
-* Ensure the AC Power source and Bell are connected to the proper relay contacts and to each other. The one side of the AC power source should be connected to the Normally Open contact while the other is connected to a contact on the bell or buzzer. The second contact of the bell or buzzer should be connected to the common contact of the relay.
+- Ensure the DC Power adapter is connected to the SY-124 properly and plugged in. The Red Power LED should illuminate.
+- Ensure the AC Power source is connected properly and functioning.
+- Ensure the Normally Open (NO) Contact of the Internal SY-780 / SY-760 relay is connected to the orange wire of the connection box.
+- Ensure the Common (R1) contact of the Internal SY-780 / SY-760 relay is connected to the brown wire of the connection box.
+- Ensure a straight through ethernet cable is used between the connection box and the SY-124. If possible, test the cable with a cable tester or replace the cable.
+- Ensure the AC Power source and Bell are connected to the proper relay contacts and to each other. The one side of the AC power source should be connected to the Normally Open contact while the other is connected to a contact on the bell or buzzer. The second contact of the bell or buzzer should be connected to the common contact of the relay.

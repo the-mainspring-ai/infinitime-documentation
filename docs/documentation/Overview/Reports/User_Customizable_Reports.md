@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "User Customizable Reports in InfiniTime 7"
+description: "Overview of customizable reporting features in InfiniTime 7, including quick print and saved reports, replacing the previous crystal reports add-on."
+---
 
 User Customizable Reports
-
-
-
 
 # User Customizable Reports
 
@@ -21,15 +17,15 @@ Customizable InfiniTime Reports
 
 A list of all customizable reports within the InfiniTime Application is provided below.
 
-* Dept. Payroll Detail
-* Dept. Payroll Summary
-* Payroll Detail
-* Payroll Summary
-* Department Daily Summary
-* Department Summary
-* Shift Daily Summary
-* Shift Summary
-* Timecard Summary
+- Dept. Payroll Detail
+- Dept. Payroll Summary
+- Payroll Detail
+- Payroll Summary
+- Department Daily Summary
+- Department Summary
+- Shift Daily Summary
+- Shift Summary
+- Timecard Summary
 
 General Settings
 
@@ -91,9 +87,9 @@ Unapproved Overtime Hours Three - Shows all Overtime One Hours has not been appr
 
 Unapproved Overtime Hours Four - Shows all Overtime One Hours that has not been approved.
 
-*Note:* Other Activity Hours Types displayed in a report column will not count toward the Other Amount or Other Hours Column.
+_Note:_ Other Activity Hours Types displayed in a report column will not count toward the Other Amount or Other Hours Column.
 
-*Note:* To make a column blank simply assign it to an Other Activity Type that has not been assigned. Unassigned Other Activity Types are set to 'None.' Read below for additional information.
+_Note:_ To make a column blank simply assign it to an Other Activity Type that has not been assigned. Unassigned Other Activity Types are set to 'None.' Read below for additional information.
 
 Other Activity Types
 
@@ -109,24 +105,24 @@ To display other activity types in a column on customizable reports the other ac
 
 Additional Options:
 
- | Option | Default Value | Description | 
-| --- | --- | --- |
- | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report. | 
- | Department Grouping Type? | None | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None. | 
- | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. | 
- | Group By Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. | 
- | Group Level to group by: | No | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. | 
- | Job Grouping Type? | None | Determines how employees will be grouped by Jobs. When set to None the   option is considered disabled and employees will not be grouped by jobs.   When set to Employee Default Job employees will be grouped according to   their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for. | 
- | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. | 
- | Page Break by Department? | No | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed. | 
- | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. | 
- | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The  report can then be distributed as necessary. | 
- | Page Break by Job? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review. | 
- | Page Break by Supervisor? | No | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review. | 
- | Page Break by Task? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review. | 
- | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. | 
- | Print Time In Hours and Minutes? | No | When set to Yes, Punch In and Punch Out Times on the report will be displayed in Hours and Minutes rather than hours and hundredths of an hour. | 
- | Show Company Grand Total? | No | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns. | 
- | Sort by Employee Number | No | This option will group employees specified by the Employee Filter according to their Employee ID. | 
- | Task Grouping Type? | None | Determines how employees will be grouped by Tasks. When set to None   the option is considered disabled and employees will not be grouped by   tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in. | 
- | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Tob filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. | 
+| Option                           | Default Value               | Description                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------------------------------- | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Allow Graphics On the Report?    | Yes                         | This option allows you to choose if you want to print the InfiniTime 7.0 logo on the report.                                                                                                                                                                                                                                                                                                       |
+| Department Grouping Type?        | None                        | This option allows you to group the report by the employees Activity Department, meaning that the hours will distribute to all the departments the employee worked, or group by Employee Default Department,which will put all the time worked in their default department even if they worked on other departments, or the last option is None.                                                   |
+| Department Selection Based On?   | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range.             |
+| Group By Supervisor?             | No                          | This option will group employees specified by the Employee Filter according to their Default Supervisor.                                                                                                                                                                                                                                                                                           |
+| Group Level to group by:         | No                          | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
+| Job Grouping Type?               | None                        | Determines how employees will be grouped by Jobs. When set to None the  option is considered disabled and employees will not be grouped by jobs.  When set to Employee Default Job employees will be grouped according to  their default job as assigned on their employee record. When set to Scheduled Job employees will be grouped according to the job they were scheduled for.               |
+| Job Selection Based On:          | Employee Default Job        | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range.                                                   |
+| Page Break by Department?        | No                          | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed.                                                                                                                                                                                                                         |
+| Page Break by Employee?          | No                          | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review.                                                                                                                                                                                                                                            |
+| Page Break by Group?             | No                          | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The  report can then be distributed as necessary.                                                                                                                                                                                                      |
+| Page Break by Job?               | No                          | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review.                                                                                                                                                                                                                                       |
+| Page Break by Supervisor?        | No                          | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review.                                                                                                                                                                                                                                                       |
+| Page Break by Task?              | No                          | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review.                                                                                                                                                                                                                                      |
+| Print Inactive Employees?        | No                          | This option will allow you to print information of the inactive employees along with the active ones.                                                                                                                                                                                                                                                                                              |
+| Print Time In Hours and Minutes? | No                          | When set to Yes, Punch In and Punch Out Times on the report will be displayed in Hours and Minutes rather than hours and hundredths of an hour.                                                                                                                                                                                                                                                    |
+| Show Company Grand Total?        | No                          | When set to Yes a total record will be added to the bottom of the report to show total company hours  for selected columns.                                                                                                                                                                                                                                                                        |
+| Sort by Employee Number          | No                          | This option will group employees specified by the Employee Filter according to their Employee ID.                                                                                                                                                                                                                                                                                                  |
+| Task Grouping Type?              | None                        | Determines how employees will be grouped by Tasks. When set to None  the option is considered disabled and employees will not be grouped by  tasks. When set to Employee Default Task employees will be grouped according to their default task as assigned on their employee record. When set to Scheduled Task employees will be grouped according to the task they were scheduled to work in.   |
+| Task Selection Based On:         | Employee Default Task       | This option will allow you to select how the Tob filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range.                                               |

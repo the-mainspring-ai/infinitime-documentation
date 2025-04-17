@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Updating the Juno Reader"
+description: "Step-by-step instructions for manually updating the Juno Reader to ensure employee data and program are current."
+---
 
 Updating the Juno Reader
-
-
-
 
 # Updating the Juno Reader
 
@@ -37,5 +33,5 @@ Open the Reader Address Configuration Table:
 
 The Juno program will be loaded to the Juno Clock along with Employee, Department, and Other Activity information. Once it has completed uploading all information to the Juno Clock the program will return to the Reader Configuration Update Form.
 
-* Select OK to close and Save.
-* Select Close to close the Reader Table
+- Select OK to close and Save.
+- Select Close to close the Reader Table

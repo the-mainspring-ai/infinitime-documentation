@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Department Daily Summary Report"
+description: "A customizable report displaying daily timecard activity, including activity type, department, and hours for each employee within a specified date range."
+---
 
 Department Daily Summary
-
-
-
 
 # Department Daily Summary
 

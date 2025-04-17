@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Viewing Timecard Notes"
+description: "Guide on how to view and review employee timecard notes within the audit database and reports."
+---
 
 Viewing Timecard Notes
-
-
-
 
 # Viewing Timecard Notes
 

@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Schedule Settings and Rules"
+description: "Overview of schedule enforcement rules, including clock-in and clock-out lockouts, grace periods, and warning alerts in InfiniTime™."
+---
 
 Schedule Settings General Tab
-
-
-
 
 # Schedule Settings / Rules
 
@@ -25,12 +21,12 @@ Auto Clock In:
 
 When selected, InfiniTimeâ¢ will automatically clock in an employee according to the employeeâs schedule after the Offset time has passed from the schedule time.
 
-*Example*:
+_Example_:
 
-* Auto Clock In must be checked
-* Offset time is set to 5 minutes
-* Employeeâs schedule is 8:00 am to 4:00 PM
-* If the employee does not clock in by 8:05 am the system will automatically clock him in at his schedule time of 8:00 am.(This example is with the settings above)
+- Auto Clock In must be checked
+- Offset time is set to 5 minutes
+- Employeeâs schedule is 8:00 am to 4:00 PM
+- If the employee does not clock in by 8:05 am the system will automatically clock him in at his schedule time of 8:00 am.(This example is with the settings above)
 
 Auto Clock Out:
 
@@ -40,17 +36,17 @@ Auto Punch To Schedule:
 
 When selected, InfiniTimeâ¢ will automatically punch the employee according to his/her schedule.  This feature is used if the employee is not required to clock in and out for lunch and the lunch is scheduled, or if the employee has different departments that he/she is assigned to during the day and is not required to clock out of one department and into another.
 
-*Example*:
+_Example_:
 
-* Employee schedule is 8:00 am to 4:30 PM with a scheduled unpaid break at 11:30 am to 12:00 PM. The employee will only have to clock in at 8:00 am and clock out at 4:30 PM, then the system will automatically insert the 11:30 am and 12:00 PM punches.
-* Employee schedule is 8:00 am to 10:00 am in the Administration department then from 10:00 am to 4:30 PM in the Shipping department with a scheduled lunch from 12:00 PM to 1:00 PM.  The employee will only have to clock in at 8:00 am and clock out at 4:30 PM, then the system will automatically insert the other punches in the schedule clocking the employee out of the Administration department and in into the Shipping department, also inserting the lunch punches.
+- Employee schedule is 8:00 am to 4:30 PM with a scheduled unpaid break at 11:30 am to 12:00 PM. The employee will only have to clock in at 8:00 am and clock out at 4:30 PM, then the system will automatically insert the 11:30 am and 12:00 PM punches.
+- Employee schedule is 8:00 am to 10:00 am in the Administration department then from 10:00 am to 4:30 PM in the Shipping department with a scheduled lunch from 12:00 PM to 1:00 PM.  The employee will only have to clock in at 8:00 am and clock out at 4:30 PM, then the system will automatically insert the other punches in the schedule clocking the employee out of the Administration department and in into the Shipping department, also inserting the lunch punches.
 
 The following requirements must be met in order for Auto Punch to Schedule to insert punches as expected:
 
-* Employees must punch in at the start of their work day.
-* Employees must punch out at the end of their work day.
-* Employees should not punch for breaks or manually switch from Department to Department.
-* Employees must punch in during [Scheduled Grace Periods.](../Scheduled_Time.md)
+- Employees must punch in at the start of their work day.
+- Employees must punch out at the end of their work day.
+- Employees should not punch for breaks or manually switch from Department to Department.
+- Employees must punch in during [Scheduled Grace Periods.](../Scheduled_Time.md)
 
 Check Activity Department For Schedule Rounding
 
@@ -58,7 +54,7 @@ If this box is checked, InfiniTime will ignore the schedule associated with the 
 
 Example:
 
-* Employee is in the Administration department with a schedule of 8:00am to 5:00pm. And that same employee clock into a different department Sales which has a schedule of 12:00pm to 6:00 PM now the program will use the schedule of the Sales department and not the schedule of the Administration department which is his/hers home department.
+- Employee is in the Administration department with a schedule of 8:00am to 5:00pm. And that same employee clock into a different department Sales which has a schedule of 12:00pm to 6:00 PM now the program will use the schedule of the Sales department and not the schedule of the Administration department which is his/hers home department.
 
 Shift Differential Options
 
@@ -70,10 +66,10 @@ Shift Differential Pay Method â A Shift Differential Pay Method must be sel
 
 The best method for explaining shift differentials is to review an example scenario. ABC Medical employs Registered Nurses (RNs) who receive differential pay for working during evening and early morning hours as outlined below.
 
- | Differential Name | Rate | Start Time | End Time | 
-| --- | --- | --- | --- |
- | Evening Differential | $1.00 | 8:00 PM | 12:00 AM | 
- | Morning Differential | $1.25 | 12:00 AM | 4:00 AM | 
+| Differential Name    | Rate  | Start Time | End Time |
+| -------------------- | ----- | ---------- | -------- |
+| Evening Differential | $1.00 | 8:00 PM    | 12:00 AM |
+| Morning Differential | $1.25 | 12:00 AM   | 4:00 AM  |
 
 Punch In â When the Punch In pay method is chosen employees are paid the premium in effect at the time they punch in. For clarity multiple examples are shown below.
 
@@ -115,9 +111,9 @@ Unscheduled Work Hours Distribution:
 
 This feature allows you to distribute the hours worked by an employee that are not scheduled.  You may assign regular hours to count as overtime.
 
-*Example*:
+_Example_:
 
-* If an employee is only scheduled to work from 8:00 am to 2:00 PM but on one day the employee worked until 3:00 PM, the hour from 2:00 PM to 3:00 PM is not scheduled and will be posted as overtime if âUnscheduled Regular Hours into OTâ was set to Overtime 1..
+- If an employee is only scheduled to work from 8:00 am to 2:00 PM but on one day the employee worked until 3:00 PM, the hour from 2:00 PM to 3:00 PM is not scheduled and will be posted as overtime if âUnscheduled Regular Hours into OTâ was set to Overtime 1..
 
 Earliest Allowed Clock In Time:
 

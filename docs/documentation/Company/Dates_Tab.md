@@ -1,4 +1,7 @@
-xml version="1.0" encoding="utf-8"?
+---
+title: "Holiday Schedule and Management"
+description: "Guide to managing holidays, including inserting new holidays, configuring holiday options, and viewing scheduled holidays in the Dates Tab."
+---
 
 Dates Tab
 

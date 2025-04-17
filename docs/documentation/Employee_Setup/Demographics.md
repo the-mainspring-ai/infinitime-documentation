@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Employee Demographics Guide"
+description: "Learn how to enter and manage basic employee information, including required fields, status, and attaching photos in the Demographics tab."
+---
 
 Demographics
-
-
-
 
 # Demographics
 

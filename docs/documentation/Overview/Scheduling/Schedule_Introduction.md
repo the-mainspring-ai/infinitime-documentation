@@ -1,3 +1,8 @@
+---
+title: "Schedule Feature Overview"
+description: "Learn how to access and configure employee schedules in InfiniTime™, including inputting expected hours and managing schedules through the main menu."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 

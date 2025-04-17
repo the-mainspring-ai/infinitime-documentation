@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Managing Employee Groups in InfiniTime"
+description: "Guide on assigning and managing employee groups, setting default groups, and understanding group-based report filtering in InfiniTime."
+---
 
 Groups
-
-
-
 
 # Groups
 
@@ -17,7 +13,7 @@ InfiniTime requires groups to be assigned to each employee when groups are prese
 
 The Groups tab will display all available Groups that an employee can be assigned to. Assigning employees to groups provides additional options for report filtering. To assign a group description to an employee simply click on the drop down box and select the group you wish to assign to the employee. To remove an employee from a group click the delete button.
 
-*NOTE*: The Group Selection Drop down box will not appear if no groups are defined in the InfiniTime software. Refer to the Group Section of this document for information about configuring groups.
+_NOTE_: The Group Selection Drop down box will not appear if no groups are defined in the InfiniTime software. Refer to the Group Section of this document for information about configuring groups.
 
 ![](/img/groups.gif)
 

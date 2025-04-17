@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Determine COM Port for Juno Direct Communication"
+description: "Guide to identify the COM port assigned to USB or serial connections for Juno device communication on Windows systems."
+---
 
 Determine COM Port for Juno Direct Communication
-
-
-
 
 # Determine COM Port for Juno Direct Communication
 
@@ -23,9 +19,9 @@ To determine the COM Port Windows has assigned to the USB to Serial Converter fo
 
 Windows XP          Windows                  Windows
 
-  2003 & 2008               Vista
+2003 & 2008               Vista
 
-  Server
+Server
 
 ![](/img/02_Start_Button.gif)        ![](/img/CH23_HRDW_VistaDevMGMT.gif)                    ![](/img/TS4.gif)
 

@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Guide to Managing Other Activity Types"
+description: "Learn how to access, create, edit, and delete various non-working paid time activities such as Tips, Personal Time, and Sick Time within the software."
+---
 
 Other Activity Types
-
-
-
 
 # Other Activity Types
 
@@ -42,20 +38,20 @@ Payroll Mapping Number â Enter a mapping number. The payroll mapping number
 
 The Compupay â Mapped Interface Format is one such payroll interface. An outline of the Compupay - Mapped interface format is provided below. The outline shows a row of headers which represent information that would be exported when performing a payroll export. The resulting export file can then be imported directly into the Compupay application. It is important to understand how Other Activity Types are automatically exported to the appropriate column according to their Payroll Mapping Number. Other Activity Types with Payroll Mapping Number 1 will be totaled in the column labeled Mapped Amount 1. Other Activity Types with Payroll Mapping Number 2 will be totaled in the column labeled Mapped Amount 2.
 
- | Employee ID | Activity Dept Number | Regular Hours | Overtime Hours | Mapped Amnt. 1 | Mapped Amnt. 2 | Mapped Amnt. 3 | 
-| --- | --- | --- | --- | --- | --- | --- |
+| Employee ID | Activity Dept Number | Regular Hours | Overtime Hours | Mapped Amnt. 1 | Mapped Amnt. 2 | Mapped Amnt. 3 |
+| ----------- | -------------------- | ------------- | -------------- | -------------- | -------------- | -------------- |
 
 Payroll Mapping Code - Enter a mapping code number. Much like the Payroll Mapping Number, the payroll mapping code can be the same for multiple other activity types, however it is generally used as a unique code to identify an activity type. Payroll Mapping Codes are agreed upon by each company and the firm responsible for their payroll. With this in mind it is not surprising that Payroll Mapping Codes often vary from company to company. These codes are generally known to payroll personnel or the company responsible for your payroll. An example of common payroll codes is provided below.
 
- | Other Activity Type | Example Payroll Mapping Codes | 
-| --- | --- |
- | Regular Hours | REG, 1 | 
- | Overtime 1 Hours | OT1, OT, OVT | 
- | Overtime 2 Hours | OT2, DBL, SAT, WEEKEND | 
- | Holiday Hours | HOL, HOLIDAY | 
- | Vacation Hours | VAC, VACATION | 
- | Sick Time Hours | SICK, SIC, SIK | 
- | Personal Time Hours | PER, PERS, PERSONAL | 
+| Other Activity Type | Example Payroll Mapping Codes |
+| ------------------- | ----------------------------- |
+| Regular Hours       | REG, 1                        |
+| Overtime 1 Hours    | OT1, OT, OVT                  |
+| Overtime 2 Hours    | OT2, DBL, SAT, WEEKEND        |
+| Holiday Hours       | HOL, HOLIDAY                  |
+| Vacation Hours      | VAC, VACATION                 |
+| Sick Time Hours     | SICK, SIC, SIK                |
+| Personal Time Hours | PER, PERS, PERSONAL           |
 
 Count As Regular Hours- When this check box is checked hours entered under this other activity type will count as regular hours and count toward overtime.
 

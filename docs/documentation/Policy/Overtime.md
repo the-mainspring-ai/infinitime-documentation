@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Overtime Rules and Settings"
+description: "Guide to configuring overtime levels, excessive hours, and missing punch thresholds for employee time tracking."
+---
 
 Overtime
-
-
-
 
 # Overtime Rules
 
@@ -43,7 +39,7 @@ Overtime Must Be Approved:  Checking this box will flag overtime hours as unapp
 
 Deduct Daily Overtime from Weekly Overtime:  By default, any daily overtime hours will count towards the weekly total hours as well.  Selecting this check box will cause the overtime calculated on a daily basis not to count towards the weekly total. Selecting this check box with âOvertime Daily If Over Hoursâ set to zero or blank will not have any effect on overtime.
 
-*For Example*, an employee with a policy that has Overtime settings:
+_For Example_, an employee with a policy that has Overtime settings:
 
 Overtime One Daily If Over Hours:  8.00 Hours
 
@@ -59,5 +55,5 @@ The employee works 12.00 hours a day for four days, which is 48.00 hours, and 13
 
 Add / Subtract Daylight Savings Hour When Time Changes: When this option is checked InfiniTime automatically adjusts working hours for any employees who work across the time change that occurs when Daylight Savings Time Starts in March or Ends in November. For states that observe Daylight Savings Time the time is shifted ahead one hour on the second Sunday of March at 2:00 AM and behind one hour on the first Sunday of November at 2:00 AM. When this option is enabled InfiniTime will adjust employee hours as follows:
 
-* Employees whose working period crosses 2:00 AM on the first Sunday of November will have one hour added to the total working duration.
-* Employees whose working period crosses 2:00 AM on the second Sunday of March will have one hour subtracted from the total working duration.
+- Employees whose working period crosses 2:00 AM on the first Sunday of November will have one hour added to the total working duration.
+- Employees whose working period crosses 2:00 AM on the second Sunday of March will have one hour subtracted from the total working duration.

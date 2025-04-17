@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Thor Fingerprint - Menu & Bios"
+description: "Guide to configuring clock settings, employee information, and troubleshooting for the Thor Fingerprint terminal, including menu access and InfiniTime software integration."
+---
 
 Thor Fingerprint - Menu & Bios
-
-
-
 
 # Thor Fingerprint - Menu & Bios
 
@@ -15,9 +11,9 @@ The Thor Menu & Bios can be used to configure clock settings such as Communicati
 
 When the Thor terminal is connected to the InfiniTime Application the functions below must be performed via the menu. Most other options can be configured from within the InfiniTime Application after communication is established.
 
-* Initial Communication Options configuration
-* Communication Troubleshooting
-* Performing a "Cold Boot" // Clearing Clock Settings
+- Initial Communication Options configuration
+- Communication Troubleshooting
+- Performing a "Cold Boot" // Clearing Clock Settings
 
 When the Thor terminal is located offsite and Time and Attendance Punches are gathered solely via Poll From File it may not be possible to connect to the clock from the InfiniTime Application. Therefore Hardware Settings must be configured at the clock rather than through the Reader Options within the InfiniTime Software. Once communication is achieved many BIOS settings can be altered from within the InfiniTime software.
 
@@ -45,7 +41,7 @@ Managing Users on the InfiniTime Thor
 
 1. New User - Creates a new employee record on the InfiniTime Thor. The user will be prompted for an Employee ID, Name, Security Role, And to enroll a Fingerprint. Employees should not be entered into the Thor Terminal from the clock itself. Remember InfiniTime will remove employee records from the Thor terminal during the update process if they are not present in the InfiniTime Database. For this reason employee records should be created within the InfiniTime Application and sent to the Thor Terminal through the update process.
 
-2. Manage - Displays a list of all employees present on the Thor Terminal. The following information is displayed for each employee:
+1. Manage - Displays a list of all employees present on the Thor Terminal. The following information is displayed for each employee:
 
 Security Indicator - The Lock icon indicates the employee has supervisor or administrator access.
 
@@ -159,16 +155,16 @@ Delete Picture - Removes Screensaver Images from the Thor Terminal. This feature
 
 4. Keyboard - The Keyboard Configuration Menu can be used to alter the Function Key Configuration for the Thor Terminal. Functions can be reassigned to different function keys if desired or they can be disabled entirely by configuring the function key to 'None' Default Function Key assignments are listed below.
 
- | Function | Key | 
-| --- | --- |
- | Transfer | F1 | 
- | Access Control | F2 | 
- | Hours | F3 | 
- | Last Punch | F4 | 
- | In/Out Board | F5 | 
- | Employee Info | F6 | 
- | Employee Request | F7 | 
- | Supervisor Tools | F8 | 
+| Function         | Key |
+| ---------------- | --- |
+| Transfer         | F1  |
+| Access Control   | F2  |
+| Hours            | F3  |
+| Last Punch       | F4  |
+| In/Out Board     | F5  |
+| Employee Info    | F6  |
+| Employee Request | F7  |
+| Supervisor Tools | F8  |
 
 5. Display - Configuration menu includes Clock Display and Screen Saver configuration options in addition to fail limits for Fingerprint and PIN Entry identification.
 
@@ -206,7 +202,7 @@ External Wiegand Pulse Width - 1000
 
 External Wiegand Pulse Interval - 2200
 
-           System Settings
+System Settings
 
 Keybeep - Enabled
 
@@ -220,15 +216,15 @@ Recheck Min - 0
 
 System Display Settings
 
-          Sleep Time = 0
+Sleep Time = 0
 
-          System Misc. Settings
+System Misc. Settings
 
-           Ext. Bell = ON
+Ext. Bell = ON
 
-           Int. Bell = ON
+Int. Bell = ON
 
-           Power Key = Enabled
+Power Key = Enabled
 
 7. Bell - Displays Bell Schedules currently configured on the Thor Terminal. Bell Schedules are configured within the InfiniTime Application and sent to the Thor Terminal during the update process.
 

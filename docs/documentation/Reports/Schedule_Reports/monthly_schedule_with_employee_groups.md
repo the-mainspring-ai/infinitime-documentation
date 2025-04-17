@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Monthly Schedule with Employee Groups"
+description: "A report displaying monthly schedules for specified employee groups based on configured schedules and date range."
+---
 
 Monthly Schedule With Employee Groups
-
-
-
 
 # Monthly Schedule With Employee Groups
 

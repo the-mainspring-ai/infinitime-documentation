@@ -1,3 +1,8 @@
+---
+title: "Payroll Export Guide"
+description: "Learn how to export employee hours and earnings from InfiniTime for seamless integration with accounting and payroll software, reducing manual data entry and saving time."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 

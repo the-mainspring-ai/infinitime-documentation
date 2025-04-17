@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "HR Profile Documentation"
+description: "Guide to managing employee information such as benefits, contact details, employment status, and wages within the HR Profile tab."
+---
 
 HR Profile
-
-
-
 
 # HR Profile
 

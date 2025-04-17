@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Punching In & Out Using Schedule Lockout"
+description: "Guide on how the schedule lockout feature controls employee punching times with the Thor Terminal, including handling violations and overrides."
+---
 
 Punching In & Out Using Schedule Lockout
-
-
-
 
 # Punching In & Out Using Schedule Lockout
 
@@ -21,4 +17,4 @@ If the employee attempts to punch outside of the window defined by their schedul
    2. After authentication the employee's punch will be accepted accepted by the InfiniTime Software even though the employee is outside of their normal schedule.
    3. If the Supervisor is not going to override the lockout press NO and the punch will not be accepted.
 
-*Note*: Any employee assigned to a security role with the 'Supervisor in Readers' option enabled will not be locked out, they will always be able to clock in & out.  The Schedule Violation message will not display even if they are in violation because the employee has the ability to override the lockout. For this reason the lockout is ignored.  See Security Roles Introduction for more information on Security Roles
+_Note_: Any employee assigned to a security role with the 'Supervisor in Readers' option enabled will not be locked out, they will always be able to clock in & out.  The Schedule Violation message will not display even if they are in violation because the employee has the ability to override the lockout. For this reason the lockout is ignored.  See Security Roles Introduction for more information on Security Roles

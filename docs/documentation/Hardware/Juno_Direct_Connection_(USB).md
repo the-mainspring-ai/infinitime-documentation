@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Juno Direct USB Connection Guide"
+description: "Learn how to connect your Juno device directly to the InfiniTime server via USB for fast data transfer and easy setup."
+---
 
 Juno Direct Connection (USB)
-
-
-
 
 # Juno Direct Connection (USB)
 
@@ -31,10 +27,10 @@ The setup menu can be entered by pressing the MENU button and swiping a badge th
 
 Scrolling between options is done by pressing the Up Arrow (F2) key and Down Arrow (F3) key, to select an option press on the OK (F4) key.  To exit the Setup Menu press ESC (F1) key.  Entrance to the Setup Menu enables configuration for the following options:
 
-* User Manage
-* Options
-* Usb Drive Mng
-* Sys Info
+- User Manage
+- Options
+- Usb Drive Mng
+- Sys Info
 
 Configuring the Juno for USB Direct Connection
 

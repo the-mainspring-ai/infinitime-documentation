@@ -1,3 +1,8 @@
+---
+title: "InfiniTime Administration Guide"
+description: "Comprehensive overview of InfiniTime 7.08 software administration tools and utilities for managing access, backups, hardware configuration, and data review."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 InfiniTime Administration

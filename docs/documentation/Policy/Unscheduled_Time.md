@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Unscheduled Time Rounding Rules in InfiniTime™"
+description: "Overview of how InfiniTime™ handles rounding for unscheduled time punches and the importance of enabling all rounding types for accurate time tracking."
+---
 
 Unscheduled Time
-
-
-
 
 # Unscheduled Time
 
@@ -17,29 +13,29 @@ Some companies have rules regarding how fractions of hours are calculated. These
 
 It is strongly recommended to enable all rounding types, when using rounding. Specifically, using Clock in and Clock Out unscheduled rounding without using Break rounding is not recommended. This scenario can cause confusion because the rounding calculation changes multiple times throughout the day as employees punch in and out. In some specific cases this type of rounding can also result in an additional minute of pay due to rounding configuration.
 
-*Please note*: fractions of calculated hours appear as hundredths or tenths of an hour.
+_Please note_: fractions of calculated hours appear as hundredths or tenths of an hour.
 
 No Rounding:  This selection calculates the fraction to the nearest hundredth of an hour;  which is the InfiniTimeâ¢ default.  In this selection, no rounding takes place.
 
 Tenth Hour:  This selection rounds the calculated hours to the nearest tenth of an hour.
 
-*Example*: An employee punches in at 8:00 AM. He punches out at 2:02 PM. The resulting total is 6.12 rounded to 6.1 hours where the 2:02 PM punch is rounded to 2:00 PM.
+_Example_: An employee punches in at 8:00 AM. He punches out at 2:02 PM. The resulting total is 6.12 rounded to 6.1 hours where the 2:02 PM punch is rounded to 2:00 PM.
 
 1/4 Hour:  This selection will round calculated hours to the nearest 1/4 hour, centered on 7 minutes back, and 8 minutes forward.
 
-*Examples*:
+_Examples_:
 
-* 8 minutes forward â An employee punches in at 8:00 AM. They punch out at 3:08 PM. The resulting total is 7.25 hours rounding the 3:08 PM to 3:15 PM.
-* 7 minutes backward â An employee punches in at 8:00 AM. They punch out at 3:07 PM. The resulting total is 7.0 hours rounding the 3:07 PM to 3:00 PM.
+- 8 minutes forward â An employee punches in at 8:00 AM. They punch out at 3:08 PM. The resulting total is 7.25 hours rounding the 3:08 PM to 3:15 PM.
+- 7 minutes backward â An employee punches in at 8:00 AM. They punch out at 3:07 PM. The resulting total is 7.0 hours rounding the 3:07 PM to 3:00 PM.
 
 All calculated totals will end in .25 or multiples of .25.
 
 Modified 1/4 Hour:  This selection will round calculated hours to the nearest 1/4 hour based on a 5 minute 10 minute split.
 
-*Examples*:
+_Examples_:
 
-* An employee punches in at 8:09 AM.  They punch out at 4:00 PM.  The resulting total is 8.00 hours.
-* An employee punches in at 8:10 AM.  They punch out at 4:00 PM.  The resulting total is 7.75 hours.
+- An employee punches in at 8:09 AM.  They punch out at 4:00 PM.  The resulting total is 8.00 hours.
+- An employee punches in at 8:10 AM.  They punch out at 4:00 PM.  The resulting total is 7.75 hours.
 
 All calculated totals will end in .25 or multiples of .25.
 
@@ -65,35 +61,35 @@ Net Round Each Punch Pair â This method will round the punches by pairs of 
 
 Net Round Each Day â This method will round the total duration for all of the punch pairs for the day. When Net Round Each Day is selected, the Break and Clock Out tabs will be unavailable as they no longer apply.
 
-*Examples*:
+_Examples_:
 
-* Quarter hour is checked
-* Round Back If Equal To or Less Than = 7 minutes
-* Round Forward If Equal To or Greater Than = 8 minutes
+- Quarter hour is checked
+- Round Back If Equal To or Less Than = 7 minutes
+- Round Forward If Equal To or Greater Than = 8 minutes
 
 Rounding Method = Net Round Each Punch
 
- | Actual Punch | Time Calculated per Day (Punched as) | 
-| --- | --- |
- | 12:07 PM Clock-Out Unpaid Break | 4.00 Hours | 
- | 12:48 PM Clock-In Unpaid Break | | 
- | 4:12 PM Clock-Out | 3.50 Hours | 
- | Total Time Recorded = | 7.50 hours | 
+| Actual Punch                    | Time Calculated per Day (Punched as) |
+| ------------------------------- | ------------------------------------ |
+| 12:07 PM Clock-Out Unpaid Break | 4.00 Hours                           |
+| 12:48 PM Clock-In Unpaid Break  |                                      |
+| 4:12 PM Clock-Out               | 3.50 Hours                           |
+| Total Time Recorded =           | 7.50 hours                           |
 
 Rounding Method = Net Round Each Punch Pair
 
- | Actual Punch | Time Calculated per Day (Punched as) | 
-| --- | --- |
- | 12:07 PM Clock-Out Unpaid Break | 4.00 Hours | 
- | 12:42 PM Clock-In Unpaid Break | | 
- | 4:12 PM Clock-Out | 3.50 Hours | 
- | Total Time Recorded = | 7.50 hours | 
+| Actual Punch                    | Time Calculated per Day (Punched as) |
+| ------------------------------- | ------------------------------------ |
+| 12:07 PM Clock-Out Unpaid Break | 4.00 Hours                           |
+| 12:42 PM Clock-In Unpaid Break  |                                      |
+| 4:12 PM Clock-Out               | 3.50 Hours                           |
+| Total Time Recorded =           | 7.50 hours                           |
 
 Rounding Method = Net Round Each Day
 
- | Actual Punch | Time Calculated per Day (Punched as) | 
-| --- | --- |
- | 12:07 PM Clock-Out Unpaid Break | 4.13 Hours | 
- | 12:42 PM Clock-In Unpaid Break | | 
- | 4:12 PM Clock-Out | 2.87 Hours | 
- | Total Time Recorded = | 7.00 hours | 
+| Actual Punch                    | Time Calculated per Day (Punched as) |
+| ------------------------------- | ------------------------------------ |
+| 12:07 PM Clock-Out Unpaid Break | 4.13 Hours                           |
+| 12:42 PM Clock-In Unpaid Break  |                                      |
+| 4:12 PM Clock-Out               | 2.87 Hours                           |
+| Total Time Recorded =           | 7.00 hours                           |

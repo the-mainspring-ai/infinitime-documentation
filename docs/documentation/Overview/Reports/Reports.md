@@ -1,3 +1,8 @@
+---
+title: "InfiniTime Reports Overview"
+description: "A guide to accessing and understanding the various reports available in InfiniTime, including informational and data-driven reports for employee and timecard management."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 Reports

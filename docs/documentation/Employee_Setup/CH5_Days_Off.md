@@ -1,3 +1,8 @@
+---
+title: "Days Off Scheduling Guide"
+description: "Learn how to schedule and manage employee days off to prevent penalties and ensure accurate attendance tracking."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 

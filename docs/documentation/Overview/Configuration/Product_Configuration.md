@@ -1,3 +1,8 @@
+---
+title: "InfiniTime Configuration and Job Costing Overview"
+description: "Guide to InfiniTime configuration with a focus on Job Costing, its benefits, and usage in tracking employee hours and costs."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 InfiniTime Configuration

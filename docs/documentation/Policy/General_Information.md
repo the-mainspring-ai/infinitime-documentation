@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Policy Update Form - General Information"
+description: "Overview of the General tab in the policy update form, including fields like Name, Class, Default Class, and Employees Working From, along with navigation options."
+---
 
 General Information
-
-
-
 
 # General Information
 
@@ -51,22 +47,22 @@ In many cases policy settings may change according to the length of time an empl
 
 ![](/img/CH4_Policy5.gif)
 
- | Policy Name | Class | Default Class | Working From | Working To | 
-| --- | --- | --- | --- | --- |
- | 1st to 5th Years Part Time | Part Time | Part Time | 0 | 5 | 
- | 5th to 10 Years Part Time | Part Time | Part Time | 5 | 10 | 
- | 10 + Years Part Time | Part Time | Part Time | 10 | 99 | 
- | 1st to 5th Years Full Time | Full Time | Full Time | 0 | 5 | 
- | 5th to 10 Years Full Time | Full Time | Full Time | 5 | 10 | 
- | 10 + Years Full Time | Full Time | Full Time | 10 | 99 | 
- | Salary Employees | Salary | Salary | 0 | 99 | 
+| Policy Name                | Class     | Default Class | Working From | Working To |
+| -------------------------- | --------- | ------------- | ------------ | ---------- |
+| 1st to 5th Years Part Time | Part Time | Part Time     | 0            | 5          |
+| 5th to 10 Years Part Time  | Part Time | Part Time     | 5            | 10         |
+| 10 + Years Part Time       | Part Time | Part Time     | 10           | 99         |
+| 1st to 5th Years Full Time | Full Time | Full Time     | 0            | 5          |
+| 5th to 10 Years Full Time  | Full Time | Full Time     | 5            | 10         |
+| 10 + Years Full Time       | Full Time | Full Time     | 10           | 99         |
+| Salary Employees           | Salary    | Salary        | 0            | 99         |
 
 The table above shows the class and tenure configuration for all of the example companies policies.  In this example there are three distinct policy groups. Full Time Employees, Part Time Employees, and Salary Employees represent the three categories of employees with different policy settings. As shown, it is often helpful to separate employees into categories with identical policy configurations in order to simplify the policy configuration process. Generally the easiest way to separate employees is according to pay type - Full Time, Part Time, and Salary. These categories usually have separate policy settings. Keep in mind if all employees within your company have the same policy settings it is not necessary to configure classes or tenures. Simply create one policy and configure it as appropriate. Once all classes have been identified the points at which policy settings change must then be chosen. In this example employees receive additional benefits after five and ten years of employment. With this in mind tenure ranges will be zero (0) to five (5) representing the policy for both full time and part time new hires, five (5) to ten (10) representing the policy for employees that have been with the company for more than five years be they full time or part time, and ten (10) to ninety-nine (99) representing full or part time employees that have been with the company for more than ten years.
 
 There are a few key points to keep in mind when configuring classes and tenures:
 
-* Each group of policies must have their own class.
-* + Tenures may not overlap within a single class.
-  + There may not be gaps between tenures from one policy within a group to the next. The tenures must flow in a sequential order with all years represented from zero (0) to ninety-nine (99).
+- Each group of policies must have their own class.
+- - Tenures may not overlap within a single class.
+  - There may not be gaps between tenures from one policy within a group to the next. The tenures must flow in a sequential order with all years represented from zero (0) to ninety-nine (99).
 
 When saving a policy record, if a gap between tenures exists or if tenures overlap within that class of policies a warning will be displayed as shown below. Check to ensure sequential flow of tenures from one policy to the next.

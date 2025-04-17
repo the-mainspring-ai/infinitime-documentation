@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Timecard Daily Summary"
+description: "Displays an activity summary with daily totals for employees within a specified date range."
+---
 
 Timecard Daily Summary
-
-
-
 
 # Timecard Daily Summary
 

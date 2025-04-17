@@ -1,3 +1,8 @@
+---
+title: "InfiniTime Messaging System"
+description: "Overview of the internal messaging feature in InfiniTime for employee communication, including usage, privacy considerations, and message management."
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 

@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Configuring and Using Poll From File"
+description: "Guide on setting up and manually polling punches from a file into the InfiniTime Database using a clock and software configuration."
+---
 
 Configuring a Poll From File Clock
-
-
-
 
 # Configuring and Using Poll From File
 

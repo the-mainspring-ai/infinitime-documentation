@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Configuring and Using Poll From File"
+description: "Guide on manually polling punch data from a file into the InfiniTime Database using Luna terminals."
+---
 
 Configuring and Using Poll From File
-
-
-
 
 # Configuring and Using Poll From File
 

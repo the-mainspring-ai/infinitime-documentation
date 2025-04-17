@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Timecard Detail with Weekly Totals"
+description: "Displays employee activity, in/out times, exceptions, and weekly totals within a specified date range."
+---
 
 Timecard Detail With Weekly Totals
-
-
-
 
 # Timecard Detail With Weekly Totals
 

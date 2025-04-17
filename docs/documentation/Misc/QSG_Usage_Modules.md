@@ -1,3 +1,8 @@
+---
+title: "InfiniTime Modules Overview"
+description: "A comprehensive guide to InfiniTime's web application features, including multitasking, employee tracking, and timecard management." 
+---
+
 xml version="1.0" encoding="utf-8" ?
 
 
@@ -46,4 +51,4 @@ Software Application:
 | --- | --- |
  | Employee Module | Allows the employee to Punch in or out of work, view current and archived timecard information, print selected reports, request time off, and view vacation accruals. This moduleâs security can be customized by Software Administrators in order to allow or prevent access to certain functions. | 
  | Punch Module | Permits employees to punch only. No other software access is available in this module. | 
- | Escort | Allows you to create custom portals to the InfiniTime software for ease of use. Virtually every function within the InfiniTime software may be assigned to a button on an escort window, making it possible to place everyday tasks in one easy to access location. Once an escort window has been designed it may be assigned to groups of employees or individuals. There is no limit to the amount of escort windows that may be defined. If desired you may configure an escort for each employee within your company. | 
+ | Escort | Allows you to create custom portals to the InfiniTime software for ease of use. Virtually every function within the InfiniTime software may be assigned to a button on an escort window, making it possible to place everyday tasks in one easy to access location. Once an escort window has been designed it may be assigned to groups of employees or individuals. There is no limit to the amount of escort windows that may be defined. If desired you may configure an escort for each employee within your company. |

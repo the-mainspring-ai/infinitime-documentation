@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Edit Time Card Activity Guide"
+description: "Step-by-step instructions on how to insert punches and edit time card activities using the system's buttons and forms."
+---
 
 Edit Time Card Activity
-
-
-
 
 # Edit Time Card Activity
 
@@ -15,17 +11,17 @@ Edit Time Card Activity
 
 Inserting Punches using the ![](/img/CH7_Timecard3.gif) button
 
-* 1. Click on the ![](/img/CH7_Timecard5.gif) button.
+- 1. Click on the ![](/img/CH7_Timecard5.gif) button.
   2. In the activity window a new line will appear filled out with the pair punches for the employee.
 
 ![](/img/CH7_Timecard7.gif)
 
-* 3. Fill in the information of the date and punch information.  To maneuver across the record you can Tab over the fields like if you were using a spread sheet
+- 3. Fill in the information of the date and punch information.  To maneuver across the record you can Tab over the fields like if you were using a spread sheet
   4. Once you fill the required information hit Enter to save the record.
 
 Inserting Punches using the ![](/img/quick_punch_button.gif) button
 
-* 1. Click on the ![](/img/CH7_Timecard7.gif) button.
+- 1. Click on the ![](/img/CH7_Timecard7.gif) button.
   2. The Quick Punch Update Form will come up
 
 ![](/img/CH7_Timecard3.gif).gif)

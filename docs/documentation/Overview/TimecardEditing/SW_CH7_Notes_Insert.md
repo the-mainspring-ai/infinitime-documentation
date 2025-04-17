@@ -1,13 +1,9 @@
-xml version="1.0" encoding="utf-8"?
-
-
-
-
+---
+title: "Inserting Timecard Notes"
+description: "A step-by-step guide on how to add notes to timecard records using the Right Click Menu in InfiniTime."
+---
 
 Inserting Timecard Notes
-
-
-
 
 # Inserting Timecard Notes
 
