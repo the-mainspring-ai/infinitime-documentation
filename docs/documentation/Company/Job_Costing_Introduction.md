@@ -3,8 +3,6 @@ title: "Job Costing Introduction"
 description: "An overview of Job Costing, its benefits, and how it tracks employee hours, departments, jobs, and tasks within an organization."
 ---
 
-Job Costing Introduction
-
 # Job Costing Introduction
 
 Job Costing makes it possible for the user to track employee hours under various levels. Job Costing is generally used in businesses where employee labor costs are of special interest when compared to the cost of finished goods such as manufacturing or production related organizations. Even though Job Costing adds a great deal of functionality to the InfiniTime Application it is not used by all companies and as such is disabled by default. Job Costing related fields such as Job and Task will not be displayed within the application if Job Costing is disabled.

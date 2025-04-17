@@ -3,8 +3,6 @@ title: "Employee Outgoing Messages Report"
 description: "A guide to viewing and customizing the Employee Outgoing Messages report, showing messages sent by employees within a specified period."
 ---
 
-Employee Outgoing Messages
-
 # Employee Outgoing Messages
 
 Displays a list of all the Outgoing messages an employee has made for a specific period of time.

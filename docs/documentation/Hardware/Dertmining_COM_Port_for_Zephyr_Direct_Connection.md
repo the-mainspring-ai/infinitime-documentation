@@ -3,8 +3,6 @@ title: "Determining COM Port for Zephyr Direct Connection"
 description: "Guide to identify and assign COM ports for USB and serial connections on Windows for Zephyr device communication."
 ---
 
-Dertmining COM Port for Zephyr Direct Connection
-
 # Dertmining COM Port for Zephyr Direct Connection
 
 Serial Ports and USB Ports on the back of a computer tower are assigned logical identifiers, referred to as COM ports within Windows Operating Systems. COM ports are used to communicate with external devices attached to the port through the RS-232 or USB communication standards. Physical serial ports on the back of a computer are generally assigned to COM 1 or COM 2 as shown below. Physical USB Ports are generally assigned to COM 3 to COM 15. Refer to the appropriate section of this document for RS232 Communications, which use Serial Ports, or USB communications, which use USB Ports.

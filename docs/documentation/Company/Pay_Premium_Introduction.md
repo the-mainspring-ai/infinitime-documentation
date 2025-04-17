@@ -3,9 +3,7 @@ title: "Pay Premium Introduction"
 description: "An overview of configuring and using Premium Pay for employee bonuses based on shift, department, job, or task, including different pay types and scenarios."
 ---
 
-CH22_Pay Premium Introduction
-
-# Pay Premium Introduction
+CH22_# Pay Premium Introduction
 
 Premium Pay makes it possible to define Premiums, or bonuses in the form of an increased wage, which are paid to employees based upon the Shift, Department, Job, or Task the employee works on. Premiums can be configured separately for the Regular, Overtime One, Overtime Two, Overtime Three, and Overtime Four hour types. This flexibility makes it possible to meet the needs of a variety of special payment scenarios. It should be noted that, though possible, different Premium Types and Pay Methods are not intended for use in a single company. Pay Premiums are optional and are intended for special scenarios that require specific rules for Medical, Union, and Manufacturing employees. Approximately 20 to 40 out of 100 companies (20% - 40%) require Premium Pay to calculate wages appropriately for employees.
 

@@ -3,8 +3,6 @@ title: "Determine COM Port for Juno Direct Communication"
 description: "Guide to identify the COM port assigned to USB or serial connections for Juno device communication on Windows systems."
 ---
 
-Determine COM Port for Juno Direct Communication
-
 # Determine COM Port for Juno Direct Communication
 
 Serial Ports and USB Ports on the back of a computer tower are assigned logical identifiers, referred to as COM ports within Windows Operating Systems. COM ports are used to communicate with external devices attached to the port through the RS-232 or USB communication standards. Physical serial ports on the back of a computer are generally assigned to COM 1 or COM 2 as shown below. Physical USB Ports are generally assigned to COM 3 to COM 15. Refer to the appropriate section of this document for RS232 Communications, which use Serial Ports, or USB communications, which use USB Ports.

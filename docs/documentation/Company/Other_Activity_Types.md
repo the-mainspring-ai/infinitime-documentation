@@ -3,8 +3,6 @@ title: "Guide to Managing Other Activity Types"
 description: "Learn how to access, create, edit, and delete various non-working paid time activities such as Tips, Personal Time, and Sick Time within the software."
 ---
 
-Other Activity Types
-
 # Other Activity Types
 
 Other Activity Types provide users with an interface for tracking Tips, Personal Time, Holiday Pay, Sick Time, and other forms of non-working paid time. Other Activity can be entered in a monetary or hourly amount. The Other Activity Table is used to create, edit or remove other activity types from the software.

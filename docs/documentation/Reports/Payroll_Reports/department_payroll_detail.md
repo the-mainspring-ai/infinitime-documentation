@@ -3,8 +3,6 @@ title: "Department Payroll Detail Report"
 description: "A report that displays daily department totals and dollar amounts for payroll analysis, with customizable options."
 ---
 
-Department Payroll Detail
-
 # Department Payroll Detail
 
 Displays department totals by day and calculates corresponding dollar totals.

@@ -3,8 +3,6 @@ title: "Messaging within the Employee Module"
 description: "Guide to accessing and viewing incoming and outgoing messages in the Employee Module."
 ---
 
-Messaging within the Employee Module
-
 # Messaging within the Employee Module
 
 To access the Messaging Table:

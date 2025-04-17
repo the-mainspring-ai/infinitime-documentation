@@ -3,8 +3,6 @@ title: "Policy Table Guide"
 description: "A comprehensive overview of creating, modifying, and managing policies within the Policy Table system."
 ---
 
-Policy Table
-
 # Policy Table
 
 The Policy table is where you create and modify policies to suit your companyâs requirements.  You can add as many policies as you need by clicking the Insert button.  To change a policy, highlight the desired policy and click the Change button.  You can also change the policies by double clicking the desired policy.

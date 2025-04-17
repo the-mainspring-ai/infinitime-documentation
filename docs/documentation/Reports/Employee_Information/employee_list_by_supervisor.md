@@ -3,8 +3,6 @@ title: "Employee List By Supervisor"
 description: "A report displaying employees grouped by their supervisors, including employee details and customizable options for formatting and grouping."
 ---
 
-Employee List By Supervisor
-
 # Employee List By Supervisor
 
 Displays a list of all employees grouped by the supervisor they are assigned.  Employee ID, Employee Name, Default Department, Job Title, Hire Date, and Employee Badge numbers are also included on this report.

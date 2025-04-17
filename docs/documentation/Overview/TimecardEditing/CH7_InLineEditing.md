@@ -3,8 +3,6 @@ title: "In Line Timecard Editing"
 description: "A guide to efficiently editing timecards directly within the system using In Line Edit, navigation, and related features."
 ---
 
-In Line Timecard Editing
-
 # In Line Timecard Editing
 
 When it is necessary to edit timecards, such as when an employee forgets to punch or when employees have legitimate excuses for arriving late or leaving early, In Line Edit is by far the most efficient method for quickly correcting timecards. In Line Edit, combined with the Delayed Save feature as well as the tab and arrow keys for moving between fields and records, behaves in a spreadsheet-like manner which most users are familiar with. Details regarding the use of In Line Edit and related features are outlined below.

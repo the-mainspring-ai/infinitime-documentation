@@ -3,8 +3,6 @@ title: "Managing Employee Groups in InfiniTime"
 description: "Guide on assigning and managing employee groups, setting default groups, and understanding group-based report filtering in InfiniTime."
 ---
 
-Groups
-
 # Groups
 
 InfiniTime requires groups to be assigned to each employee when groups are present in the system. The first group description inserted for every group level will automatically be set as the default group and will be assigned to any employee who does not have a group assigned. If this is undesirable Inception Technologies recommends creating a group entitled unassigned. Any employees who are not intended to be assigned to a group should then be assigned to the unassigned group. It should be noted that any group can be designated as the default. Keep in mind that new employees will automatically be assigned to the default group and will remain on the default group until their groups are manually assigned.

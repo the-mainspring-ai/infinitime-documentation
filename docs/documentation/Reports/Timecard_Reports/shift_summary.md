@@ -3,8 +3,6 @@ title: "Shift Summary Report"
 description: "A customizable report displaying employee activity summaries by department and shift for a specified date range."
 ---
 
-Shift Summary
-
 # Shift Summary
 
 Displays a summary of employee activity separated by department and shifts for the date range specified by the Selection Criteria.

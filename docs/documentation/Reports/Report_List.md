@@ -3,8 +3,6 @@ title: "Report List - InfiniTime Documentation"
 description: "Overview of available reports in InfiniTime, including employee information and other key functions."
 ---
 
-Report List
-
 # Report List
 
 InfiniTime includes many reports, each performing its own function. A list and brief summary of each report is available below.

@@ -3,8 +3,6 @@ title: "Employee Accruals Report"
 description: "Overview of the Employee Accruals Report, including its purpose, usage, and available options for displaying employee accrued hours and balances."
 ---
 
-Employee Accruals
-
 # Employee Accruals
 
 The Employee Accruals Report will display the total accrued hours along with the amount of time used and the remaining balance of the accrual.

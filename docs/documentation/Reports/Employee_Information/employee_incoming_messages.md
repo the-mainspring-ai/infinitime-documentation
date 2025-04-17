@@ -3,8 +3,6 @@ title: "Employee Incoming Messages Report"
 description: "A guide to generating and understanding the Employee Incoming Messages report, which lists messages received by employees over a specified period."
 ---
 
-Employee Incoming Messages
-
 # Employee Incoming Messages
 
 This report will print a list of all the incoming messages an employee has received in a specific period of time.

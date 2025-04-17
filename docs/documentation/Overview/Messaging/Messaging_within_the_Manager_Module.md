@@ -3,8 +3,6 @@ title: "Messaging within the Manager Module"
 description: "Guide to accessing and viewing messages in the Manager Module, including incoming and outgoing message histories."
 ---
 
-Messaging within the Manager Module
-
 # Messaging within the Manager Module
 
 To access the Messaging Table:

@@ -3,8 +3,6 @@ title: "Time Card Activity for Company"
 description: "Guide to viewing and editing employee time card activity, including employee list, activity details, and interface functionalities."
 ---
 
-Time Card Activity For Company
-
 # Time Card Activity For Company
 
 The time card activity table is where a supervisor can view and edit time card activity for the employees, and also review time cards before the payroll process.

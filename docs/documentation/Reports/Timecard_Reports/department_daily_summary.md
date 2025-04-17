@@ -3,8 +3,6 @@ title: "Department Daily Summary Report"
 description: "A customizable report displaying daily timecard activity, including activity type, department, and hours for each employee within a specified date range."
 ---
 
-Department Daily Summary
-
 # Department Daily Summary
 
 Displays a summary of timecard activity information for each department within the date range specified by Selection Criteria. The activity type, department, and total hours for the period are displayed for each employee.

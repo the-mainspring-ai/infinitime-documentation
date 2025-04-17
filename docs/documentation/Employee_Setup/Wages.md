@@ -3,8 +3,6 @@ title: "Configuring Alternate Wages in InfiniTime"
 description: "Guide on how to set up and manage department-specific wages for employees in InfiniTime payroll system."
 ---
 
-Wages
-
 # Wages
 
 ![](/img/Wages.gif)

@@ -3,8 +3,6 @@ title: "Employee New Hire Report"
 description: "A report displaying recently hired employees within a selected date range, including details such as Employee ID, Name, Department, Job Title, Hire Date, and Badge Number."
 ---
 
-Employee New Hire
-
 # Employee New Hire
 
 Displays a list of employees that have been hired in the specific date range selected on the selection criteria of the report.  Employee ID, Employee Name, Default Department, Job Title, Hire Date, and Employee Badge numbers are also included on this report.

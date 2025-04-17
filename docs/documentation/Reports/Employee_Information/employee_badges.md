@@ -3,8 +3,6 @@ title: "Employee Badges Report"
 description: "Guide for printing employee badges with customizable options including barcode or magnetic stripe, orientation, and graphics."
 ---
 
-Employee Badges
-
 # Employee Badges
 
 This report will allow you to print your own employee badges, either barcode or magnetic stripe badges, also it allows you to choose from vertical or horizontal badge alignment. Employee ID, Employee Name, Employee Picture, Default Department, Job Title are included on the badge.

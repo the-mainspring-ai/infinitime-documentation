@@ -3,8 +3,6 @@ title: "Reader and Printer Settings for Thor Terminal"
 description: "Guide to configuring printer attachment and report printing options on the Thor Terminal with TM-T88IV thermal printer."
 ---
 
-Reader Settings - Printer Settings
-
 # Reader Settings - Printer Settings
 
 The Thor Terminal is equipped for use with the TM-T88IV Thermal Printer. The software and the Thor allows you to print several reports straight from the terminal if you have the thermal printer attached.

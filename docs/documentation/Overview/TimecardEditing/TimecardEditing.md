@@ -3,16 +3,7 @@ title: "Timecard Editing Overview"
 description: "Learn about the methods for viewing and editing employee timecards in InfiniTime, including the Company and Employee Timecard Tables and their optimal use cases."
 ---
 
-xml version="1.0" encoding="utf-8" ?
-
-
-
-
-
 TimecardEditing
-
-
-
 
 # Timecard Editing Overview
 
@@ -23,16 +14,16 @@ specific tasks as outlined below.
 Company
 Timecard Table
 
-* Lists all employees within the company
-* Ideal for Timecard Editing
-* Most efficient for reviewing timecards for multiple employees
+- Lists all employees within the company
+- Ideal for Timecard Editing
+- Most efficient for reviewing timecards for multiple employees
 
 Employee
 Timecard Table
 
-* Displays Timecards, Hour Totals, Exceptions, Shift Differential
+- Displays Timecards, Hour Totals, Exceptions, Shift Differential
   Totals, and Department Totals in an âExpress Viewâ format.
-* Ideal for Reviewing Exceptions and Timecard History for an Individual
+- Ideal for Reviewing Exceptions and Timecard History for an Individual
 
 Similar to other windows and tables found within the InfiniTime Application the Timecard
 Tables are displayed in a grid format. The Company Timecard Table is composed
@@ -69,23 +60,23 @@ Employee Timecard Table â Express View
 To access the Company
 Timecard Table, which displays Timecard Records for all employees:
 
-* Click on the ![](/img/InLineEdit_4.jpg) button
+- Click on the ![](/img/InLineEdit_4.jpg) button
   on the tool bar
 
 ![](/img/InLineEdit_1.jpg)
 
-* The Company Timecard Table will be displayed..
+- The Company Timecard Table will be displayed..
 
 ### Accessing the Employee Timecard Table
 
 To access the Time card
 Activity for a specific employee:
 
-* Click on the ![](/img/TCard001.png) button
+- Click on the ![](/img/TCard001.png) button
   on the tool bar.
-* The Employee Table will be displayed.
-* Highlight the employee that you want to see activity for.
-* Click on the ![](/img/image93.gif) button to access the Employee
+- The Employee Table will be displayed.
+- Highlight the employee that you want to see activity for.
+- Click on the ![](/img/image93.gif) button to access the Employee
   Timecard Activity Table.
 
 ### Timecard Editing Modes
@@ -100,7 +91,6 @@ timecard editing method. It is important to note that the Company and
 Employee Timecard tables must be closed and reopened in order for alterations
 to the Timecard Editing Mode Company settings to take effect.
 
-
 The Timecard Editing Mode is controlled by the 'Delayed Save on Timecard
 Editors' and 'Delayed Edit on Timecard Editors' Functional Options on
 the Company Update Form:
@@ -114,12 +104,12 @@ options tab as shown below.
 
 ![](/img/SW_CH11_NOTES_0002.gif)
 
- | Delayed Save on Timecard Editors Status | Delayed Edit on Timecard Editors Status | Timecard Edit Mode | 
-| --- | --- | --- |
- | Unchecked | Unchecked | * Save Immediately -   The 'Save Button' will not be displayed on the Company Timecard.   Alterations to individual Timecard Records will be saved immediately   when focus is removed from the record. If only one record   is present in the Timecard Table, Tab must be used to remove   focus from the record. * Edit Immediately -   Timecard Records are loaded with all in line   edit controls (IE: Time Picker & Date Selection Tool)   and may be edited immediately.     This mode is considered outdated. InfiniTime 7.08 includes delayed save which permits timecards to be edited like a spreadsheet and reduces the number of transactions sent between the InfiniTime Client machine and Server providing improved performance. | 
- | Checked | Unchecked | * Delayed Save -    A 'Save Button' will be displayed after a timecard record   is altered and focus is removed from the record. Additional   timecard records may then be altered prior to saving the changes.   In this way, the Timecard Table can be edited like a spreadsheet   moving from cell to cell to edit punch dates and times as   needed before saving the changes. Changes to altered timecard   records are saved when: A. The user clicks the save button.   B. The user switches pages in the timecard table. C. The user   switches to another employee. Delayed Save also permits the   user to click Cancel in order to revert to the original timecard   records and cancel recent changes. * Edit Immediately -   Timecard Records are loaded with all in line edit controls   (IE: Time Picker & Date Selection Tool) and may be edited   immediately.     This mode is enabled by default for new InfiniTime installations and is ideal for normal use in most operating environments where InfiniTime is deployed on a local area network or wide area network. The Delayed Save functionality and user friendly spreadsheet - like interface provide increased performance by reducing the number of round trips between the InfiniTime Client Machine and InfiniTime Server. | 
- | Unchecked | Checked | * Save Immediately -   The 'Save Button' will not be displayed on the Company Timecard.   Alterations to individual Timecard Records will be saved immediately   when focus is removed from the record. If only one record   is present in the Timecard Table, Tab must be used to remove   focus from the record. * Delayed Edit -   Timecard Records are loaded in View Only Mode. In Line Edit   Controls such as the Time Picker & Date Selection Tool   are not displayed. The User must click on 'Change' before   timecard records can be edited.     This mode enables delayed edit, which significantly reduces the time required to load the Timecard Grid, especially for clients connecting to the InfiniTime server over a higher latency WAN Connection with high bandwidth utilization. Users who observe delays while editing timecards, especially when switching from employee to employee and waiting for timecards to be displayed, may wish to enable Delayed Edit.    This mode is not recommended as delayed save is not enabled. This will increase the number of transactions sent back and forth between the InfiniTime Client Machine and the InfiniTime Server. Customers who use this mode are often used to the Save Immediately interface from prior versions of the InfiniTime Software and specifically choose not to enable delayed save. | 
- | Checked | Checked | * Delayed Save -    A 'Save Button' will be displayed after a timecard record   is altered and focus is removed from the record. Additional   timecard records may then be altered prior to saving the changes.   In this way, the Timecard Table can be edited like a spreadsheet   moving from cell to cell to edit punch dates and times as   needed before saving the changes. Changes to altered timecard   records are saved when: A. The user clicks the save button.   B. The user switches pages in the timecard table. C. The user   switches to another employee. Delayed Save also permits the   user to click Cancel in order to revert to the original timecard   records and cancel recent changes. * Delayed Edit -   Timecard Records are loaded in View Only Mode. In Line Edit   Controls such as the Time Picker & Date Selection Tool   are not displayed. The User must click on 'Change' before   timecard records can be edited.     This mode enables delayed edit, which significantly reduces the time required to load the Timecard Grid, especially for clients connecting to the InfiniTime server over a higher latency WAN Connection with high bandwidth utilization. Users who observe delays while editing timecards, especially when switching from employee to employee and waiting for timecards to be displayed, may wish to enable Delayed Edit.    This is the recommended Timecard Edit Mode for customers with users accessing the InfiniTime Software over a higher latency / high bandwidth utilization WAN connection. The Delayed Save functionality and user friendly spreadsheet - like interface provide increased performance by reducing the number of round trips between the InfiniTime Client Machine and InfiniTime Server. | 
+| Delayed Save on Timecard Editors Status | Delayed Edit on Timecard Editors Status | Timecard Edit Mode                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unchecked                               | Unchecked                               | _ Save Immediately - The 'Save Button' will not be displayed on the Company Timecard. Alterations to individual Timecard Records will be saved immediately when focus is removed from the record. If only one record is present in the Timecard Table, Tab must be used to remove focus from the record. _ Edit Immediately - Timecard Records are loaded with all in line edit controls (IE: Time Picker & Date Selection Tool) and may be edited immediately. This mode is considered outdated. InfiniTime 7.08 includes delayed save which permits timecards to be edited like a spreadsheet and reduces the number of transactions sent between the InfiniTime Client machine and Server providing improved performance.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Checked                                 | Unchecked                               | _ Delayed Save -  A 'Save Button' will be displayed after a timecard record is altered and focus is removed from the record. Additional timecard records may then be altered prior to saving the changes. In this way, the Timecard Table can be edited like a spreadsheet moving from cell to cell to edit punch dates and times as needed before saving the changes. Changes to altered timecard records are saved when: A. The user clicks the save button. B. The user switches pages in the timecard table. C. The user switches to another employee. Delayed Save also permits the user to click Cancel in order to revert to the original timecard records and cancel recent changes. _ Edit Immediately - Timecard Records are loaded with all in line edit controls (IE: Time Picker & Date Selection Tool) and may be edited immediately. This mode is enabled by default for new InfiniTime installations and is ideal for normal use in most operating environments where InfiniTime is deployed on a local area network or wide area network. The Delayed Save functionality and user friendly spreadsheet - like interface provide increased performance by reducing the number of round trips between the InfiniTime Client Machine and InfiniTime Server.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Unchecked                               | Checked                                 | _ Save Immediately - The 'Save Button' will not be displayed on the Company Timecard. Alterations to individual Timecard Records will be saved immediately when focus is removed from the record. If only one record is present in the Timecard Table, Tab must be used to remove focus from the record. _ Delayed Edit - Timecard Records are loaded in View Only Mode. In Line Edit Controls such as the Time Picker & Date Selection Tool are not displayed. The User must click on 'Change' before timecard records can be edited. This mode enables delayed edit, which significantly reduces the time required to load the Timecard Grid, especially for clients connecting to the InfiniTime server over a higher latency WAN Connection with high bandwidth utilization. Users who observe delays while editing timecards, especially when switching from employee to employee and waiting for timecards to be displayed, may wish to enable Delayed Edit. This mode is not recommended as delayed save is not enabled. This will increase the number of transactions sent back and forth between the InfiniTime Client Machine and the InfiniTime Server. Customers who use this mode are often used to the Save Immediately interface from prior versions of the InfiniTime Software and specifically choose not to enable delayed save.                                                                                                                                                                                                                                                                                                                                                                                             |
+| Checked                                 | Checked                                 | _ Delayed Save -  A 'Save Button' will be displayed after a timecard record is altered and focus is removed from the record. Additional timecard records may then be altered prior to saving the changes. In this way, the Timecard Table can be edited like a spreadsheet moving from cell to cell to edit punch dates and times as needed before saving the changes. Changes to altered timecard records are saved when: A. The user clicks the save button. B. The user switches pages in the timecard table. C. The user switches to another employee. Delayed Save also permits the user to click Cancel in order to revert to the original timecard records and cancel recent changes. _ Delayed Edit - Timecard Records are loaded in View Only Mode. In Line Edit Controls such as the Time Picker & Date Selection Tool are not displayed. The User must click on 'Change' before timecard records can be edited. This mode enables delayed edit, which significantly reduces the time required to load the Timecard Grid, especially for clients connecting to the InfiniTime server over a higher latency WAN Connection with high bandwidth utilization. Users who observe delays while editing timecards, especially when switching from employee to employee and waiting for timecards to be displayed, may wish to enable Delayed Edit. This is the recommended Timecard Edit Mode for customers with users accessing the InfiniTime Software over a higher latency / high bandwidth utilization WAN connection. The Delayed Save functionality and user friendly spreadsheet - like interface provide increased performance by reducing the number of round trips between the InfiniTime Client Machine and InfiniTime Server. |
 
 ### Standard Timecard Editing Tools
 
@@ -172,13 +162,13 @@ is one of the most used features within the Timecard table as it provides
 users with the ability to insert timecard activity for multiple days.
 Typical uses for quick punch include the following:
 
-* Inserting a single punch for one or more employees
-* Inserting punch pairs for one or more employees
-* Inserting Other Activity (Sick, Vacation, Jury Duty, Etc)
-* Inserting a Single Punch, Punch Pair, and / or Other Activity for
+- Inserting a single punch for one or more employees
+- Inserting punch pairs for one or more employees
+- Inserting Other Activity (Sick, Vacation, Jury Duty, Etc)
+- Inserting a Single Punch, Punch Pair, and / or Other Activity for
   One or More Days
-* Inserting Other Amounts (Tips)
-* Inserting Punches According to an Employee's Schedule
+- Inserting Other Amounts (Tips)
+- Inserting Punches According to an Employee's Schedule
 
 Quick
 Punch Update Form - Overview
@@ -186,9 +176,10 @@ Punch Update Form - Overview
 ![](/img/TCard008.png).gif)
 
 Description
+
 - The description displays information regarding the employee for which
-activity is being inserted and the employee inserting activity. This information
-is recorded in the audit trail.
+  activity is being inserted and the employee inserting activity. This information
+  is recorded in the audit trail.
 
 Note: The description information will not
 reflect employees specified by the employee filter. Though an audit trail
@@ -200,8 +191,9 @@ Select the date range that you wish to insert the Quick punches.  *If the Quick
 is for one day only, then the start and end dates will be the same.*
 
 Punch Type
+
 - Use the drop down menu to select the type of punch, choose from regular
-punch, schedule punch, single punch, or other activity.
+  punch, schedule punch, single punch, or other activity.
 
 Regular
 Punch - Inserts a set of punches. The first time specified is the
@@ -213,13 +205,15 @@ example if the employee is scheduled to work from 8:00 AM to 5:00 PM InfiniTime 
 the employee in at 8:00 AM and out at 5:00 PM.
 
 Single Punch
+
 - Inserts a single punch. InfiniTime
-automatically determines the punch type based upon the timecard activity
-already present on the date where the single punch is inserted.
+  automatically determines the punch type based upon the timecard activity
+  already present on the date where the single punch is inserted.
 
 Other Activity
+
 - Inserts other activity such as holiday time, vacation time, sick time,
-and personal time.
+  and personal time.
 
 Use Default
 Department - if this is checked the punches will be posted using
@@ -238,12 +232,15 @@ default Task of the employee, if not checked you can choose a Task using
 the magnify glass or typing in the Task name to post those punches.
 
 Start Time
+
 - Select the time that the quick punch will clock the employee in at.
 
 End Time
+
 - Select the time that the quick punch will clock the employee out at.
 
 Duration
+
 - The number of hours that will be totaled is shown here.
 
 Add
@@ -268,6 +265,7 @@ Only â If this is checked it will only insert punches for weekdays
 only and not the weekend, Saturday and Sunday.
 
 Description
+
 - This is an audit description of the insertion of punches.
 
 ![](/img/InLineEdit_MP2.gif) - The filter
@@ -414,14 +412,14 @@ Fields
    below can also be used at this time.
 3. Type the desired value.
 
- | Shortcut Key | Description | 
-| --- | --- |
- | + | Adds one day to the displayed date | 
- | - | Subtracts one day from the displayed date | 
- | T | Sets the field to the Current Date | 
- | HOME | Sets the field to the Current Date | 
- | SHIFT + HOME | Sets the field to the January 1st of the respective year | 
- | SHIFT + END | Sets the field to the December 31st of the respective year | 
+| Shortcut Key | Description                                                |
+| ------------ | ---------------------------------------------------------- |
+| +            | Adds one day to the displayed date                         |
+| -            | Subtracts one day from the displayed date                  |
+| T            | Sets the field to the Current Date                         |
+| HOME         | Sets the field to the Current Date                         |
+| SHIFT + HOME | Sets the field to the January 1st of the respective year   |
+| SHIFT + END  | Sets the field to the December 31st of the respective year |
 
 ### Changing the Time
 
@@ -556,12 +554,14 @@ Delete In Punch - Deletes the In Punch for the respective
 punch pair from the Timecard Table.
 
 Delete Out Punch
+
 - Deletes the Out Punch for the respective punch pair from the
-Timecard Table.
+  Timecard Table.
 
 Delete Punch Pair
+
 - Deletes the punch pair from the timecard table. The Delete Punch
-Pair Right Click Menu option is functionally identical to the Delete Button.
+  Pair Right Click Menu option is functionally identical to the Delete Button.
 
 Delete All Punches
 And Insert Schedule Punches -
@@ -573,10 +573,11 @@ For Day - Selecting this option will delete the punches for that
 specific day.
 
 Toggle Calc Override
+
 - This option enables and / or disables Calculation Override. When
-enabled, calculation override ignores hour totals calculated by InfiniTime
-and allows the user to manually enter Regular, Overtime 1, Overtime 2,
-Overtime 3, and Overtime 4 hours.
+  enabled, calculation override ignores hour totals calculated by InfiniTime
+  and allows the user to manually enter Regular, Overtime 1, Overtime 2,
+  Overtime 3, and Overtime 4 hours.
 
 Toggle Supervisor
 Review - This option enables
@@ -595,36 +596,35 @@ For convenience, the Employee Wage Update form will be automatically populated
 with the Date Range set on the Timecard Table when using Wage Override.
 An example of wage override is shown below.
 
-1.
-John Smith was called in to perform emergency maintenance on a Production
-Server on 4/16/2013.
+1.  John Smith was called in to perform emergency maintenance on a Production
+    Server on 4/16/2013.
 
 ![](/img/image77.gif)
 
 2. Per John Smith's employment package, he
-is entitled to $12 / Hour base instead of his usual $10 wage if he is
-called in outside of business hours. To edit the wage, right click on
-any timecard record in the grid and click Wage Override. The Employee
-Wage Override Table will be displayed.
+   is entitled to $12 / Hour base instead of his usual $10 wage if he is
+   called in outside of business hours. To edit the wage, right click on
+   any timecard record in the grid and click Wage Override. The Employee
+   Wage Override Table will be displayed.
 
 ![](/img/image17.jpg)
 
 3. Click Insert to open the Employee Wage
-Update Form. Enter the desired Department, Pay Method, Amount, and Valid
-From / To Date Range. Notice that the Valid From and Valid To Date range
-will be pre-filled to match the Date Range set on the Company Timecard.
-Click OK to save the Wage Override Entry after entering the Department,
-Pay Method, and Amount. It is important to note that Job Costing Details
-(Department, Job, and Task) are not required fields. If no department
-is specified, the wage will be applied to all timecard records during
-the specified date range.
+   Update Form. Enter the desired Department, Pay Method, Amount, and Valid
+   From / To Date Range. Notice that the Valid From and Valid To Date range
+   will be pre-filled to match the Date Range set on the Company Timecard.
+   Click OK to save the Wage Override Entry after entering the Department,
+   Pay Method, and Amount. It is important to note that Job Costing Details
+   (Department, Job, and Task) are not required fields. If no department
+   is specified, the wage will be applied to all timecard records during
+   the specified date range.
 
 ![](/img/TCard010.png)
 
 4. Notice how the wage for Information Technology
-Hours on 4/16/2013 is set to $12.00 / hour. The Overtime One Hourly Wage
-is automatically calculated as $18 - a 50% increase on top of the base
-wage based on the Overtime 1 Wage Settings.
+   Hours on 4/16/2013 is set to $12.00 / hour. The Overtime One Hourly Wage
+   is automatically calculated as $18 - a 50% increase on top of the base
+   wage based on the Overtime 1 Wage Settings.
 
 ![](/img/Timecards_Button.gif)
 
@@ -643,18 +643,21 @@ day off is scheduled employees will not receive exceptions on the Scheduled
 Day Off. Days Off are a useful feature for companies who utilize the Points
 System and wish to ensure employees who are approved for an absence will
 not be penalized. Refer to the [Scheduling
-- Days Off section of this document](../Scheduling/Scheduling.md#sch32_New_Day_Off_-_Scheduling_a_Day_Off) for more information.
+
+- Days Off section of this document](../Scheduling/Scheduling.md#sch32*New_Day_Off*-\_Scheduling_a_Day_Off) for more information.
 
 View
 List of Day(s) Off - Displays the Schedule Day Off Table which
 lists all days that have been scheduled off for the employee.
 
 Audit Trail
+
 - Selecting this option will open the Audit Trail Table which displays
-detailed information about changes made to employee timecards such as
-who made changes to a punch and when.
+  detailed information about changes made to employee timecards such as
+  who made changes to a punch and when.
 
 Exceptions
+
 - Displays a list of all exceptions occurring on the record.
 
 Note - Permits
@@ -669,17 +672,20 @@ Selecting this option will open the Purge Time Record Update Form which
 can be used to delete all timecard activity within a specific date range.
 
 Quick Punch
+
 - Quick Punch inserts identical punches over a specified date range.  Selecting
-this option will open the Quick Punch Window.
+  this option will open the Quick Punch Window.
 
 Re-Calculate
+
 - Recalculates timecard activity, applying current policy rules, schedule
-settings, and other related settings to Employee Punches in the InfiniTime Software.
+  settings, and other related settings to Employee Punches in the InfiniTime Software.
 
 Review
+
 - Selecting this option will open the Supervisor Review Window which allows
-the user to select one or more employees for review of their timecard
-activity.
+  the user to select one or more employees for review of their timecard
+  activity.
 
 ### Right Click Menu - Editing Exceptions and More
 
@@ -700,7 +706,7 @@ The Missed Punch Exception shows in the
 activity grid as a RED block. Punch information will also be missing from
 the block.
 
-* Right click on the missed punch
+- Right click on the missed punch
   to bring up a list of commands to fix the exception.
 
 ![](/img/image72.gif)
@@ -715,6 +721,7 @@ For Day - Selecting this option will delete the punches for that
 specific day.
 
 Insert Punch Pair
+
 - Selecting this option will allow you to insert the missing punch.
 
 Insert First Scheduled
@@ -726,15 +733,17 @@ Out Punch - Selecting this option will insert the last scheduled
 out punch, do this if the exception is in the last out punch.
 
 Change Schedule
+
 - Selecting this option will allow you to change the employee's schedule
-for that day. Altering the schedule to match the hours worked by the employee
-or simply removing the schedule altogether will remove the exception.
+  for that day. Altering the schedule to match the hours worked by the employee
+  or simply removing the schedule altogether will remove the exception.
 
 Toggle Calc Override
+
 - This option enables and / or disables Calculation Override. When enabled,
-calculation override ignores hour totals calculated by InfiniTime and allows the user to
-manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
-4 hours.
+  calculation override ignores hour totals calculated by InfiniTime and allows the user to
+  manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
+  4 hours.
 
 Toggle Supervisor
 Review - This option enables and / or disables Supervisor review
@@ -745,17 +754,19 @@ and is intended to indicate a record has been reviewed by an employee's
 supervisor and has been approved.
 
 Wage Override
+
 - Provides convenient access to the Wages Update Form, which can
-also be accessed from the Wages Section of the Employee Update Form for
-individual employees. In this way, supervisors may define alternate wages
-for a specific date range. For convenience, the Employee Wage Update form
-will be automatically populated with the Date Range set on the Timecard
-Table when using Wage Override.
+  also be accessed from the Wages Section of the Employee Update Form for
+  individual employees. In this way, supervisors may define alternate wages
+  for a specific date range. For convenience, the Employee Wage Update form
+  will be automatically populated with the Date Range set on the Timecard
+  Table when using Wage Override.
 
 Change Schedule
+
 - Selecting this option will allow you to change the employee's schedule
-for that day. Altering the schedule to match the hours worked by the employee
-or simply removing the schedule altogether will remove the exception.
+  for that day. Altering the schedule to match the hours worked by the employee
+  or simply removing the schedule altogether will remove the exception.
 
 Schedule
 Day Off - Opens the Schedule Day off Update Form Days which
@@ -764,18 +775,21 @@ day off is scheduled employees will not receive exceptions on the Scheduled
 Day Off. Days Off are a useful feature for companies who utilize the Points
 System and wish to ensure employees who are approved for an absence will
 not be penalized. Refer to the [Scheduling
-- Days Off section of this document](../Scheduling/Scheduling.md#sch32_New_Day_Off_-_Scheduling_a_Day_Off) for more information.
+
+- Days Off section of this document](../Scheduling/Scheduling.md#sch32*New_Day_Off*-\_Scheduling_a_Day_Off) for more information.
 
 View
 List of Day(s) Off - Displays the Schedule Day Off Table which
 lists all days that have been scheduled off for the employee.
 
 Audit Trail
+
 - Selecting this option will open the Audit Trail Table which displays
-detailed information about changes made to employee timecards such as
-who made changes to a punch and when.
+  detailed information about changes made to employee timecards such as
+  who made changes to a punch and when.
 
 Exceptions
+
 - Displays a list of all exceptions occurring on the record.
 
 Note - Permits
@@ -790,17 +804,20 @@ Selecting this option will open the Purge Time Record Update Form which
 can be used to delete all timecard activity within a selected date range.
 
 Quick Punch
+
 - Quick Punch inserts identical punches over a specified date range.  Selecting
-this option will bring up the Quick punch Window.
+  this option will bring up the Quick punch Window.
 
 Re-Calculate
+
 - Recalculates timecard activity, applying current policy rules, schedule
-settings, and other relative settings to Employee Punches in the InfiniTime Software.
+  settings, and other relative settings to Employee Punches in the InfiniTime Software.
 
 Review
+
 - Selecting this option will open the Supervisor Review Window which allows
-the user to select one or more employees for review of their timecard
-activity.
+  the user to select one or more employees for review of their timecard
+  activity.
 
 Alternatively, you may simply wish to directly
 edit the employeeâs punch by clicking in the field you wish to change,
@@ -816,7 +833,7 @@ by a blank entry with the word âAbsentâ in red lettering. This excepti
 is only triggered if you have a schedule set and the employee failed to
 report to work or forgot to punch in and out on that scheduled day.
 
-* Right click on the Absent to bring
+- Right click on the Absent to bring
   up a list of commands to fix the exception.
 
 ![](/img/Unapproved_OT.gif)
@@ -833,7 +850,8 @@ to be absent for a day. When a day off is scheduled employees will not
 receive exceptions on the Scheduled Day Off. Days Off are a useful feature
 for companies who utilize the Points System and wish to ensure employees
 who are approved for an absence will not be penalized. Refer to the [Scheduling
-- Days Off section of this document](../Scheduling/Scheduling.md#sch32_New_Day_Off_-_Scheduling_a_Day_Off) for more information.
+
+- Days Off section of this document](../Scheduling/Scheduling.md#sch32*New_Day_Off*-\_Scheduling_a_Day_Off) for more information.
 
 View
 List of Day(s) Off - Selecting this option displays a list of all
@@ -858,6 +876,7 @@ displays detailed information about changes made to employee timecards
 such as who made changes to a punch and when.
 
 Exceptions
+
 - Displays a list of all exceptions occurring on the record.
 
 Purge -
@@ -869,13 +888,15 @@ Quick Punch inserts identical punches over a specified date range.  Selecting
 this option will bring up the Quick punch Window.
 
 Re-Calculate
+
 - Recalculates timecard activity, applying current policy rules, schedule
-settings, and other relative settings to Employee Punches in the InfiniTime Software.
+  settings, and other relative settings to Employee Punches in the InfiniTime Software.
 
 Review
+
 - Selecting this option will open the Supervisor Review Window which allows
-the user to select one or more employees for review of their timecard
-activity.
+  the user to select one or more employees for review of their timecard
+  activity.
 
 Fixing
 the Early and Early Departure Exceptions
@@ -896,18 +917,21 @@ the Early Clock Out Grace Period. These exceptions are only triggered
 if a schedule is present for the respective date and the employee punched
 in or out during the Early Grace Period as defined on the employee's policy.
 
-* Right click on the Early Punch
+- Right click on the Early Punch
   to bring up a list of commands to fix the exception.
 
 ![](/img/TCard002.png)
 
 Insert Punch Pair
+
 - Selecting this option will insert a punch pair for the specific day.
 
 Delete In Punch
+
 - Selecting this option will delete the in punch for the day.
 
 Delete Punch Pair
+
 - Selecting this option will delete the punch pair.
 
 Delete All Punches
@@ -915,10 +939,11 @@ For Day - Selecting this option will delete all the punches for
 that specific day.
 
 Toggle Calc Override
+
 - This option enables and / or disables Calculation Override. When enabled,
-calculation override ignores hour totals calculated by InfiniTime and allows the user to
-manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
-4 hours.
+  calculation override ignores hour totals calculated by InfiniTime and allows the user to
+  manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
+  4 hours.
 
 Toggle Supervisor
 Review - This option enables and / or disables Supervisor review
@@ -936,9 +961,10 @@ the Employee Wage Update form will be automatically populated with the
 Date Range set on the Timecard Table when using Wage Override.
 
 Change Schedule
+
 - Selecting this option will allow you to change the employee's schedule
-for that day. Altering the schedule to match the hours worked by the employee
-or simply removing the schedule altogether will remove the exception.
+  for that day. Altering the schedule to match the hours worked by the employee
+  or simply removing the schedule altogether will remove the exception.
 
 Delete All Punches
 And Insert Scheduled Punches - Selecting this option will delete
@@ -946,24 +972,27 @@ the punches for the day and insert the punches that are scheduled for
 that employee in that day.
 
 Schedule Day Off
+
 - Opens the Schedule Day off Update Form Days which allows the user to
-schedule an employee to be absent for a day. When a day off is scheduled
-employees will not receive exceptions on the Scheduled Day Off. Days Off
-are a useful feature for companies who utilize the Points System and wish
-to ensure employees who are approved for an absence will not be penalized.
-Refer to the [Scheduling
-- Days Off section of this document](../Scheduling/Scheduling.md#sch32_New_Day_Off_-_Scheduling_a_Day_Off) for more information.
+  schedule an employee to be absent for a day. When a day off is scheduled
+  employees will not receive exceptions on the Scheduled Day Off. Days Off
+  are a useful feature for companies who utilize the Points System and wish
+  to ensure employees who are approved for an absence will not be penalized.
+  Refer to the [Scheduling
+- Days Off section of this document](../Scheduling/Scheduling.md#sch32*New_Day_Off*-\_Scheduling_a_Day_Off) for more information.
 
 View List of Day(s)
 Off - Displays the Schedule Day Off Table which lists all days
 that have been scheduled off for the employee.
 
 Audit Trail
+
 - Selecting this option will open the Audit Trail Table which displays
-detailed information about changes made to employee timecards such as
-who made changes to a punch and when.
+  detailed information about changes made to employee timecards such as
+  who made changes to a punch and when.
 
 Exceptions
+
 - Displays a list of all exceptions occurring on the record.
 
 Note - Permits
@@ -978,17 +1007,20 @@ Selecting this option will open the Purge Time Record Update Form which
 can be used to delete all timecard activity within a selected date range.
 
 Quick Punch
+
 - Quick Punch inserts identical punches over a specified date range.  Selecting
-this option will bring up the Quick punch Window.
+  this option will bring up the Quick punch Window.
 
 Re-Calculate
+
 - Recalculates timecard activity, applying current policy rules, schedule
-settings, and other relative settings to Employee Punches in the InfiniTime Software.
+  settings, and other relative settings to Employee Punches in the InfiniTime Software.
 
 Review
+
 - Selecting this option will open the Supervisor Review Window which allows
-the user to select one or more employees for review of their timecard
-activity.
+  the user to select one or more employees for review of their timecard
+  activity.
 
 Alternatively, you may simply wish to directly
 edit the employeeâs punch by clicking in the field you wish to change,
@@ -1011,19 +1043,22 @@ only triggered if a schedule is present for that day and the employee
 punched in or out late according to schedule grace periods as defined
 in the employeeâs policy.
 
-* Right click on the Late Punch to
+- Right click on the Late Punch to
   bring up a list of commands to fix the exception.
 
 ![](/img/SW_CH11_NOTES_0004.gif)
 
 Insert Punch Pair
+
 - Selecting this option will insert a punch pair for the specific day.
 
 Delete In Punch
+
 - Selecting this option will delete the in punch for respective timecard
-record.
+  record.
 
 Delete Punch Pair
+
 - Selecting this option will delete the punch pair.
 
 Delete All Punches
@@ -1031,10 +1066,11 @@ For Day - Selecting this option will delete all the punches for
 that specific day.
 
 Toggle Calc Override
+
 - This option enables and / or disables Calculation Override. When enabled,
-calculation override ignores hour totals calculated by InfiniTime and allows the user to
-manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
-4 hours.
+  calculation override ignores hour totals calculated by InfiniTime and allows the user to
+  manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
+  4 hours.
 
 Toggle Supervisor
 Review - This option enables and / or disables Supervisor review
@@ -1045,17 +1081,19 @@ and is intended to indicate a record has been reviewed by an employee's
 supervisor and has been approved.
 
 Wage Override
+
 - Provides convenient access to the Wages Update Form, which can
-also be accessed from the Wages Section of the Employee Update Form for
-individual employees. In this way, supervisors may define alternate wages
-for a specific date range. For convenience, the Employee Wage Update form
-will be automatically populated with the Date Range set on the Timecard
-Table when using Wage Override.
+  also be accessed from the Wages Section of the Employee Update Form for
+  individual employees. In this way, supervisors may define alternate wages
+  for a specific date range. For convenience, the Employee Wage Update form
+  will be automatically populated with the Date Range set on the Timecard
+  Table when using Wage Override.
 
 Change Schedule
+
 - Selecting this option will allow you to change the employee's schedule
-for that day. Altering the schedule to match the hours worked by the employee
-or simply removing the schedule altogether will remove the exception.
+  for that day. Altering the schedule to match the hours worked by the employee
+  or simply removing the schedule altogether will remove the exception.
 
 Delete All Punches
 And Insert Scheduled Punches - Selecting this option will delete
@@ -1063,24 +1101,27 @@ the punches for the day and insert the punches that are scheduled for
 that employee on the respective date.
 
 Schedule Day Off
+
 - Opens the Schedule Day off Update Form Days which allows the user to
-schedule an employee to be absent for a day. When a day off is scheduled
-employees will not receive exceptions on the Scheduled Day Off. Days Off
-are a useful feature for companies who utilize the Points System and wish
-to ensure employees who are approved for an absence will not be penalized.
-Refer to the [Scheduling
-- Days Off Section](../Scheduling/Scheduling.md#sch32_New_Day_Off_-_Scheduling_a_Day_Off) of this document for more information.
+  schedule an employee to be absent for a day. When a day off is scheduled
+  employees will not receive exceptions on the Scheduled Day Off. Days Off
+  are a useful feature for companies who utilize the Points System and wish
+  to ensure employees who are approved for an absence will not be penalized.
+  Refer to the [Scheduling
+- Days Off Section](../Scheduling/Scheduling.md#sch32*New_Day_Off*-\_Scheduling_a_Day_Off) of this document for more information.
 
 View List of Day(s)
 Off - Displays the Schedule Day Off Table which lists all days
 that have been scheduled off for the employee.
 
 Audit Trail
+
 - Selecting this option will open the Audit Trail Table which displays
-detailed information about changes made to employee timecards such as
-who made changes to a punch and when.
+  detailed information about changes made to employee timecards such as
+  who made changes to a punch and when.
 
 Exceptions
+
 - Displays a list of all exceptions occurring on the record.
 
 Note - Permits
@@ -1095,17 +1136,20 @@ Selecting this option will open the Purge Time Record Update Form which
 can be used to delete all timecard activity within a selected date range.
 
 Quick Punch
+
 - Quick Punch inserts identical punches over a specified date range.  Selecting
-this option will bring up the Quick punch Window.
+  this option will bring up the Quick punch Window.
 
 Re-Calculate
+
 - Recalculates timecard activity, applying current policy rules, schedule
-settings, and other relative settings to Employee Punches in the InfiniTime Software.
+  settings, and other relative settings to Employee Punches in the InfiniTime Software.
 
 Review
+
 - Selecting this option will open the Supervisor Review Window which allows
-the user to select one or more employees for review of their timecard
-activity.
+  the user to select one or more employees for review of their timecard
+  activity.
 
 Alternatively, you may simply wish to directly
 edit the employeeâs punch by clicking in the field you wish to change,
@@ -1121,19 +1165,22 @@ when an employee punches outside of their scheduled grace periods as defined
 on the employee's policy.  This exception is recognizable by a Yellow
 Field as shown above.
 
-* Right click on the Outside of Schedule
+- Right click on the Outside of Schedule
   Punch to bring up a list of commands to fix the exception.
 
 ![](/img/SupReviewHistoryTable.gif)
 
 Insert Punch Pair
+
 - Selecting this option will insert a punch pair for the specific day.
 
 Delete In Punch
+
 - Selecting this option will delete the in punch for respective timecard
-record.
+  record.
 
 Delete Punch Pair
+
 - Selecting this option will delete the punch pair.
 
 Delete All Punches
@@ -1141,10 +1188,11 @@ For Day - Selecting this option will delete all the punches for
 that specific day.
 
 Toggle Calc Override
+
 - This option enables and / or disables Calculation Override. When enabled,
-calculation override ignores hour totals calculated by InfiniTime and allows the user to
-manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
-4 hours.
+  calculation override ignores hour totals calculated by InfiniTime and allows the user to
+  manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
+  4 hours.
 
 Toggle Supervisor
 Review - This option enables and / or disables Supervisor review
@@ -1155,17 +1203,19 @@ and is intended to indicate a record has been reviewed by an employee's
 supervisor and has been approved.
 
 Wage Override
+
 - Provides convenient access to the Wages Update Form, which can
-also be accessed from the Wages Section of the Employee Update Form for
-individual employees. In this way, supervisors may define alternate wages
-for a specific date range. For convenience, the Employee Wage Update form
-will be automatically populated with the Date Range set on the Timecard
-Table when using Wage Override.
+  also be accessed from the Wages Section of the Employee Update Form for
+  individual employees. In this way, supervisors may define alternate wages
+  for a specific date range. For convenience, the Employee Wage Update form
+  will be automatically populated with the Date Range set on the Timecard
+  Table when using Wage Override.
 
 Change Schedule
+
 - Selecting this option will allow you to change the employee's schedule
-for that day. Altering the schedule to match the hours worked by the employee
-or simply removing the schedule altogether will remove the exception.
+  for that day. Altering the schedule to match the hours worked by the employee
+  or simply removing the schedule altogether will remove the exception.
 
 Delete All Punches
 And Insert Scheduled Punches - Selecting this option will delete
@@ -1173,24 +1223,27 @@ the punches for the day and insert the punches that are scheduled for
 that employee on the respective date.
 
 Schedule Day Off
+
 - Opens the Schedule Day off Update Form Days which allows the user to
-schedule an employee to be absent for a day. When a day off is scheduled
-employees will not receive exceptions on the Scheduled Day Off. Days Off
-are a useful feature for companies who utilize the Points System and wish
-to ensure employees who are approved for an absence will not be penalized.
-Refer to the [Scheduling
-- Days Off Section](../Scheduling/Scheduling.md#sch32_New_Day_Off_-_Scheduling_a_Day_Off) of this document for more information.
+  schedule an employee to be absent for a day. When a day off is scheduled
+  employees will not receive exceptions on the Scheduled Day Off. Days Off
+  are a useful feature for companies who utilize the Points System and wish
+  to ensure employees who are approved for an absence will not be penalized.
+  Refer to the [Scheduling
+- Days Off Section](../Scheduling/Scheduling.md#sch32*New_Day_Off*-\_Scheduling_a_Day_Off) of this document for more information.
 
 View List of Day(s)
 Off - Displays the Schedule Day Off Table which lists all days
 that have been scheduled off for the employee.
 
 Audit Trail
+
 - Selecting this option will open the Audit Trail Table which displays
-detailed information about changes made to employee timecards such as
-who made changes to a punch and when.
+  detailed information about changes made to employee timecards such as
+  who made changes to a punch and when.
 
 Exceptions
+
 - Displays a list of all exceptions occurring on the record.
 
 Note - Permits
@@ -1205,17 +1258,20 @@ Selecting this option will open the Purge Time Record Update Form which
 can be used to delete all timecard activity within a selected date range.
 
 Quick Punch
+
 - Quick Punch inserts identical punches over a specified date range.  Selecting
-this option will bring up the Quick punch Window.
+  this option will bring up the Quick punch Window.
 
 Re-Calculate
+
 - Recalculates timecard activity, applying current policy rules, schedule
-settings, and other relative settings to Employee Punches in the InfiniTime Software.
+  settings, and other relative settings to Employee Punches in the InfiniTime Software.
 
 Review
+
 - Selecting this option will open the Supervisor Review Window which allows
-the user to select one or more employees for review of their timecard
-activity.
+  the user to select one or more employees for review of their timecard
+  activity.
 
 Alternatively, you may simply wish to directly edit the employeeâs punch
 by clicking in the field you wish to change, deleting the present information,
@@ -1238,12 +1294,15 @@ in order to report short breaks.
 ![](/img/Tcard06.gif)
 
 Insert Punch Pair
+
 - Selecting this option will insert a punch pair for the specific day.
 
 Delete Out Punch
+
 - Selecting this option will delete the out punch for the day.
 
 Delete Punch Pair
+
 - Selecting this option will delete the punch pair.
 
 Delete All Punches
@@ -1266,17 +1325,19 @@ and is intended to indicate a record has been reviewed by an employee's
 supervisor and has been approved.
 
 Wage Override
+
 - Provides convenient access to the Wages Update Form, which can
-also be accessed from the Wages Section of the Employee Update Form for
-individual employees. In this way, supervisors may define alternate wages
-for a specific date range. For convenience, the Employee Wage Update form
-will be automatically populated with the Date Range set on the Timecard
-Table when using Wage Override.
+  also be accessed from the Wages Section of the Employee Update Form for
+  individual employees. In this way, supervisors may define alternate wages
+  for a specific date range. For convenience, the Employee Wage Update form
+  will be automatically populated with the Date Range set on the Timecard
+  Table when using Wage Override.
 
 Change Schedule
+
 - Selecting this option will allow you to change the employee's schedule
-for that day. Altering the schedule to match the hours worked by the employee
-or simply removing the schedule altogether will remove the exception.
+  for that day. Altering the schedule to match the hours worked by the employee
+  or simply removing the schedule altogether will remove the exception.
 
 Delete All Punches
 And Insert Scheduled Punches - Selecting this option will delete
@@ -1284,24 +1345,27 @@ the punches for the day and insert the punches that are scheduled for
 that employee in that day.
 
 Schedule Day Off
+
 - Opens the Schedule Day off Update Form Days which allows the user to
-schedule an employee to be absent for a day. When a day off is scheduled
-employees will not receive exceptions on the Scheduled Day Off. Days Off
-are a useful feature for companies who utilize the Points System and wish
-to ensure employees who are approved for an absence will not be penalized.
-Refer to the [Scheduling
-- Days Off Section](../Scheduling/Scheduling.md#sch32_New_Day_Off_-_Scheduling_a_Day_Off) of this document for more information.
+  schedule an employee to be absent for a day. When a day off is scheduled
+  employees will not receive exceptions on the Scheduled Day Off. Days Off
+  are a useful feature for companies who utilize the Points System and wish
+  to ensure employees who are approved for an absence will not be penalized.
+  Refer to the [Scheduling
+- Days Off Section](../Scheduling/Scheduling.md#sch32*New_Day_Off*-\_Scheduling_a_Day_Off) of this document for more information.
 
 View List of Day(s)
 Off - Displays the Schedule Day Off Table which lists all days
 that have been scheduled off for the employee.
 
 Audit Trail
+
 - Selecting this option will open the Audit Trail Table which displays
-detailed information about changes made to employee timecards such as
-who made changes to a punch and when.
+  detailed information about changes made to employee timecards such as
+  who made changes to a punch and when.
 
 Exceptions
+
 - Displays a list of all exceptions occurring on the record.
 
 Purge -
@@ -1309,17 +1373,20 @@ Selecting this option will open the Purge Time Record Update Form which
 can be used to delete all timecard activity within a selected date range.
 
 Quick Punch
+
 - Quick Punch inserts identical punches over a specified date range.  Selecting
-this option will bring up the Quick punch Window.
+  this option will bring up the Quick punch Window.
 
 Re-Calculate
+
 - Recalculates timecard activity, applying current policy rules, schedule
-settings, and other relative settings to Employee Punches in the InfiniTime Software.
+  settings, and other relative settings to Employee Punches in the InfiniTime Software.
 
 Review
+
 - Selecting this option will open the Supervisor Review Window which allows
-the user to select one or more employees for review of their timecard
-activity.
+  the user to select one or more employees for review of their timecard
+  activity.
 
 Fixing Long Break Exception
 
@@ -1333,13 +1400,16 @@ in order to report long breaks.
 ![](/img/TCard006.png)
 
 Insert Punch Pair
+
 - Selecting this option will insert a punch pair for the specific day.
 
 Delete In Punch
+
 - Selecting this option will delete the in punch for respective timecard
-record.
+  record.
 
 Delete Punch Pair
+
 - Selecting this option will delete the punch pair.
 
 Delete All Punches
@@ -1347,10 +1417,11 @@ For Day - Selecting this option will delete all the punches for
 that specific day.
 
 Toggle Calc Override
+
 - This option enables and / or disables Calculation Override. When enabled,
-calculation override ignores hour totals calculated by InfiniTime and allows the user to
-manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
-4 hours.
+  calculation override ignores hour totals calculated by InfiniTime and allows the user to
+  manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
+  4 hours.
 
 Toggle Supervisor
 Review - This option enables and / or disables Supervisor review
@@ -1361,17 +1432,19 @@ and is intended to indicate a record has been reviewed by an employee's
 supervisor and has been approved.
 
 Wage Override
+
 - Provides convenient access to the Wages Update Form, which can
-also be accessed from the Wages Section of the Employee Update Form for
-individual employees. In this way, supervisors may define alternate wages
-for a specific date range. For convenience, the Employee Wage Update form
-will be automatically populated with the Date Range set on the Timecard
-Table when using Wage Override.
+  also be accessed from the Wages Section of the Employee Update Form for
+  individual employees. In this way, supervisors may define alternate wages
+  for a specific date range. For convenience, the Employee Wage Update form
+  will be automatically populated with the Date Range set on the Timecard
+  Table when using Wage Override.
 
 Change Schedule
+
 - Selecting this option will allow you to change the employee's schedule
-for that day. Altering the schedule to match the hours worked by the employee
-or simply removing the schedule altogether will remove the exception.
+  for that day. Altering the schedule to match the hours worked by the employee
+  or simply removing the schedule altogether will remove the exception.
 
 Delete All Punches
 And Insert Scheduled Punches - Selecting this option will delete
@@ -1379,24 +1452,27 @@ the punches for the day and insert the punches that are scheduled for
 that employee on the respective date.
 
 Schedule Day Off
+
 - Opens the Schedule Day off Update Form Days which allows the user to
-schedule an employee to be absent for a day. When a day off is scheduled
-employees will not receive exceptions on the Scheduled Day Off. Days Off
-are a useful feature for companies who utilize the Points System and wish
-to ensure employees who are approved for an absence will not be penalized.
-Refer to the [Scheduling
-- Days Off Section](../Scheduling/Scheduling.md#sch32_New_Day_Off_-_Scheduling_a_Day_Off) of this document for more information.
+  schedule an employee to be absent for a day. When a day off is scheduled
+  employees will not receive exceptions on the Scheduled Day Off. Days Off
+  are a useful feature for companies who utilize the Points System and wish
+  to ensure employees who are approved for an absence will not be penalized.
+  Refer to the [Scheduling
+- Days Off Section](../Scheduling/Scheduling.md#sch32*New_Day_Off*-\_Scheduling_a_Day_Off) of this document for more information.
 
 View List of Day(s)
 Off - Displays the Schedule Day Off Table which lists all days
 that have been scheduled off for the employee.
 
 Audit Trail
+
 - Selecting this option will open the Audit Trail Table which displays
-detailed information about changes made to employee timecards such as
-who made changes to a punch and when.
+  detailed information about changes made to employee timecards such as
+  who made changes to a punch and when.
 
 Exceptions
+
 - Displays a list of all exceptions occurring on the record.
 
 Note - Permits
@@ -1411,17 +1487,20 @@ Selecting this option will open the Purge Time Record Update Form which
 can be used to delete all timecard activity within a selected date range.
 
 Quick Punch
+
 - Quick Punch inserts identical punches over a specified date range.  Selecting
-this option will bring up the Quick punch Window.
+  this option will bring up the Quick punch Window.
 
 Re-Calculate
+
 - Recalculates timecard activity, applying current policy rules, schedule
-settings, and other relative settings to Employee Punches in the InfiniTime Software.
+  settings, and other relative settings to Employee Punches in the InfiniTime Software.
 
 Review
+
 - Selecting this option will open the Supervisor Review Window which allows
-the user to select one or more employees for review of their timecard
-activity.
+  the user to select one or more employees for review of their timecard
+  activity.
 
 Approving and Un-approving
 Overtime
@@ -1442,17 +1521,21 @@ Menu Options.
 ![](/img/image55.gif)
 
 Insert Punch Pair
+
 - Selecting this option will insert a punch pair for the specific day.
 
 Delete In Punch
+
 - Selecting this option will delete the in punch for the respective punch
-pair.
+  pair.
 
 Delete Out Punch
+
 - Selecting this option will delete the out punch for the respective punch
-pair.
+  pair.
 
 Delete Punch Pair
+
 - Selecting this option will delete the punch pair.
 
 Delete All Punches
@@ -1465,10 +1548,11 @@ For Day - Selecting this option will delete all the punches for
 that specific day.
 
 Toggle Calc Override
+
 - This option enables and / or disables Calculation Override. When enabled,
-calculation override ignores hour totals calculated by InfiniTime and allows the user to
-manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
-4 hours.
+  calculation override ignores hour totals calculated by InfiniTime and allows the user to
+  manually enter Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime
+  4 hours.
 
 Toggle Supervisor
 Review - This option enables and / or disables Supervisor review
@@ -1479,12 +1563,13 @@ and is intended to indicate a record has been reviewed by an employee's
 supervisor and has been approved.
 
 Wage Override
+
 - Provides convenient access to the Wages Update Form, which can
-also be accessed from the Wages Section of the Employee Update Form for
-individual employees. In this way, supervisors may define alternate wages
-for a specific date range. For convenience, the Employee Wage Update form
-will be automatically populated with the Date Range set on the Timecard
-Table when using Wage Override.
+  also be accessed from the Wages Section of the Employee Update Form for
+  individual employees. In this way, supervisors may define alternate wages
+  for a specific date range. For convenience, the Employee Wage Update form
+  will be automatically populated with the Date Range set on the Timecard
+  Table when using Wage Override.
 
 Approve/Unapprove
  OT One - The Approve / Unapprove OT One right click menu
@@ -1505,11 +1590,12 @@ punch pair are Approved (Displayed in green text) then Approve/Unnapprove
 OT One will unapprove the OT One Hours.
 
 Change Schedule
-- Selecting this option will allow you to change the employee's schedule
-for that day. Altering the schedule to match the hours worked by the employee
-or simply removing the schedule altogether will remove the exception.
 
- Schedule
+- Selecting this option will allow you to change the employee's schedule
+  for that day. Altering the schedule to match the hours worked by the employee
+  or simply removing the schedule altogether will remove the exception.
+
+Schedule
 Day Off - Opens the Schedule Day off Update Form Days which allows
 the user to schedule an employee to be absent for a day. When a day off
 is scheduled employees will not receive exceptions on the Scheduled Day
@@ -1523,11 +1609,13 @@ Off - Displays the Schedule Day Off Table which lists all days
 that have been scheduled off for the employee.
 
 Audit Trail
+
 - Selecting this option will open the Audit Trail Table which displays
-detailed information about changes made to employee timecards such as
-who made changes to a punch and when.
+  detailed information about changes made to employee timecards such as
+  who made changes to a punch and when.
 
 Exceptions
+
 - Displays a list of all exceptions occurring on the record.
 
 Note - Permits
@@ -1542,17 +1630,20 @@ Selecting this option will open the Purge Time Record Update Form which
 can be used to delete all timecard activity within a selected date range.
 
 Quick Punch
+
 - Quick Punch inserts identical punches over a specified date range.  Selecting
-this option will bring up the Quick punch Window.
+  this option will bring up the Quick punch Window.
 
 Re-Calculate
+
 - Recalculates timecard activity, applying current policy rules, schedule
-settings, and other relative settings to Employee Punches in the InfiniTime Software.
+  settings, and other relative settings to Employee Punches in the InfiniTime Software.
 
 Review
+
 - Selecting this option will open the Supervisor Review Window which allows
-the user to select one or more employees for review of their timecard
-activity.
+  the user to select one or more employees for review of their timecard
+  activity.
 
 ### Related Tools - History and Undo Tools for Quick Punch, Purge, and Review
 
@@ -1566,9 +1657,10 @@ the purge was performed in addition to the employee performing the Purge
 action.
 
 Quick Punch History
+
 - Lists all Quick Punch Actions performed. Includes the date and
-time the Quick Punch was performed in addition to the employee performing
-the Quick Punch action.
+  time the Quick Punch was performed in addition to the employee performing
+  the Quick Punch action.
 
 Supervisor Review
 History - Lists all Review Actions performed. Includes the date
@@ -1781,12 +1873,12 @@ table, or if the user moves to another page.
 
 ### Save Immediately Mode w/ Edit Immediately
 
-* Save Immediately - The
+- Save Immediately - The
   'Save Button' will not be displayed on the Company Timecard. Alterations
   to individual Timecard Records will be saved immediately when focus
   is removed from the record. If only one record is present in the Timecard
   Table, Tab must be used to remove focus from the record.
-* Edit Immediately - Timecard
+- Edit Immediately - Timecard
   Records are loaded with all in line edit controls (IE: Time Picker
   & Date Selection Tool) and may be edited immediately.
 
@@ -1991,10 +2083,11 @@ Select the date range that you wish to Purge.  *If the purge is for one day onl
 and end dates will be the same.*
 
 ![](/img/Employee-Button.gif)
+
 - The filter button will allow you to purge timecard activity for multiple
-employees at a time. Employees can be filtered in multiple ways including
-by department or group. Refer to the user interface section of this document
-for more information.
+  employees at a time. Employees can be filtered in multiple ways including
+  by department or group. Refer to the user interface section of this document
+  for more information.
 
 # Reviewing Time Card Activity
 
@@ -2008,9 +2101,10 @@ activity.
 ![](/img/Long-Break-Exception.gif)
 
 Description
+
 - The description displays information regarding the employee for which
-activity is being reviewed and the employee reviewing activity. This information
-is recorded in the Supervisor Review History Table.
+  activity is being reviewed and the employee reviewing activity. This information
+  is recorded in the Supervisor Review History Table.
 
 Date Range -
 Select the date range that you wish to review.  *If the review is for one day only, then the start
@@ -2059,13 +2153,13 @@ basis.
 
 Timecard notes are useful for the following scenarios:
 
-* Documenting why
+- Documenting why
   an Employee Arrived Late
-* Documenting why
+- Documenting why
   an Employee Left Early
-* Documenting reasons
+- Documenting reasons
   for Missed Breaks, Short Breaks, or Long Breaks
-* Associating notes
+- Associating notes
   and comments with employee timecard punches as needed.
 
 Timecard Notes can be viewed
@@ -2089,16 +2183,16 @@ Tables as detailed below.
 3. Click on Note.
 
 4. Enter the desired note / comment. Timecard Notes permit up to 499
-Characters.
+   Characters.
 
 ![](/img/Unapproved_OT.gif)
 
 5. Click OK to associate the note with the timecard record.
 
 6. If Delayed Save is enabled, focus must be removed from the Timecard
-record by clicking on another timecard record or using Tab to remove focus
-from the timecard record in order to display the save button. The user
-may then click Save to save the previously entered note.
+   record by clicking on another timecard record or using Tab to remove focus
+   from the timecard record in order to display the save button. The user
+   may then click Save to save the previously entered note.
 
 Technical Note:
 Timecard Notes are associated with the In Punch of the selected punch
@@ -2120,7 +2214,7 @@ Pay Period or Current Pay Period.
 ![](/img/image146.gif)
 
 2. Right Click on the Timecard Record you wish to check for Timecard
-Notes.
+   Notes.
 
 ![](/img/TCard016.png)
 
@@ -2154,24 +2248,24 @@ timecard records prior to payroll.
 
 Options:
 
- | Option | Default Value | Description | 
-| --- | --- | --- |
- | Allow Graphics On the Report? | Yes | This option allows you to choose if you want to print the InfiniTime logo on the report. | 
- | Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range. | 
- | Group by Department? | No | This option will group employees specified by the Employee Filter according to their Default Department. | 
- | Group by Employee? | No | This option will group employees specified by the Employee Filter by Last Name. | 
- | Group by Job? | No | This option will group employees specified by the Employee Filter according to their Default Job. | 
- | Group by Supervisor? | No | This option will group employees specified by the Employee Filter according to their Default Supervisor. | 
- | Group by Task? | No | This option will group employees specified by the Employee Filter according to their Default Task. | 
- | Group level to group by: | None | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. | 
- | Job Selection Based On: | Employee Default Job | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range. | 
- | Page Break by Department? | No | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed. | 
- | Page Break by Employee? | No | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review. | 
- | Page Break by Group? | No | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary. | 
- | Page Break by Job? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review. | 
- | Page Break by Supervisor? | No | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review. | 
- | Page Break by Task? | No | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review. | 
- | Print Inactive Employees? | No | This option will allow you to print information of the inactive employees along with the active ones. | 
- | Show System Audits? | No | This option will allow you display all system audits on the report.  System Audits include auto punch, Auto breaks, change to breaks. | 
- | Sort by Employee Number? | No | This option will group employees specified by the Employee Filter according to their Employee ID. | 
- | Task Selection Based On: | Employee Default Task | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range. |
+| Option                         | Default Value               | Description                                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------------ | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Allow Graphics On the Report?  | Yes                         | This option allows you to choose if you want to print the InfiniTime logo on the report.                                                                                                                                                                                                                                                                                                           |
+| Department Selection Based On? | Employee Default Department | This option will allow you to select how the Department  filter is used to select employees. By default, departments tagged on the selection criteria will cause InfiniTime to display employees assigned to that department on the report. Alternatively, selecting 'Worked in Department' will show employees that worked in the selected department during the selected date range.             |
+| Group by Department?           | No                          | This option will group employees specified by the Employee Filter according to their Default Department.                                                                                                                                                                                                                                                                                           |
+| Group by Employee?             | No                          | This option will group employees specified by the Employee Filter by Last Name.                                                                                                                                                                                                                                                                                                                    |
+| Group by Job?                  | No                          | This option will group employees specified by the Employee Filter according to their Default Job.                                                                                                                                                                                                                                                                                                  |
+| Group by Supervisor?           | No                          | This option will group employees specified by the Employee Filter according to their Default Supervisor.                                                                                                                                                                                                                                                                                           |
+| Group by Task?                 | No                          | This option will group employees specified by the Employee Filter according to their Default Task.                                                                                                                                                                                                                                                                                                 |
+| Group level to group by:       | None                        | This option will sort employees specified by the Employee Filter according to their group description for the selected group level. For example, a company with multiple locations might have a Group Level of 'Location' and Group Descriptions of 'Pittsburgh' , 'Phoenix' , and 'Jacksonville'. Selecting the 'Location' group level would sort employees according to their assigned location. |
+| Job Selection Based On:        | Employee Default Job        | This option will allow you to select how the Job filter is used to select employees. By default, jobs tagged on the selection criteria will cause InfiniTime to display employees assigned to the job on the report. Alternatively, selecting 'Worked in Job'' will show employees that worked in the selected job during the chosen date range.                                                   |
+| Page Break by Department?      | No                          | This option will allow you page break the report based on the Employee's Default Department, making it easier to give the report to department heads for review if needed.                                                                                                                                                                                                                         |
+| Page Break by Employee?        | No                          | This option will allow you to page break the report based on each employee, making it easier to give the report to the individual employees for review.                                                                                                                                                                                                                                            |
+| Page Break by Group?           | No                          | This option will allow you to page break the report based on each Group Description and is intended for use with 'Group Level to Group By.' The report can then be distributed as necessary.                                                                                                                                                                                                       |
+| Page Break by Job?             | No                          | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Job Supervisors for review.                                                                                                                                                                                                                                       |
+| Page Break by Supervisor?      | No                          | This option will allow you to page break the report based on Employee Supervisors, making it easier to distribute to Supervisors for review.                                                                                                                                                                                                                                                       |
+| Page Break by Task?            | No                          | This option will allow you to page break the report based on the Employee's Default Job, making it easier to give the reports to Task Supervisors for review.                                                                                                                                                                                                                                      |
+| Print Inactive Employees?      | No                          | This option will allow you to print information of the inactive employees along with the active ones.                                                                                                                                                                                                                                                                                              |
+| Show System Audits?            | No                          | This option will allow you display all system audits on the report.  System Audits include auto punch, Auto breaks, change to breaks.                                                                                                                                                                                                                                                              |
+| Sort by Employee Number?       | No                          | This option will group employees specified by the Employee Filter according to their Employee ID.                                                                                                                                                                                                                                                                                                  |
+| Task Selection Based On:       | Employee Default Task       | This option will allow you to select how the Task filter is used to select employees. By default, tasks tagged on the selection criteria will cause InfiniTime to display employees assigned to the task on the report. Alternatively, selecting 'Worked in Task'' will show employees that worked in the selected task during the chosen date range.                                              |

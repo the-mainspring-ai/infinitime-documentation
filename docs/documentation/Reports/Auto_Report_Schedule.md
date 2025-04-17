@@ -3,8 +3,6 @@ title: "Auto Report Schedule Configuration"
 description: "Guide to setting up and managing automated report schedules in InfiniTime, including creation, modification, and deletion of report schedules with email and printing options."
 ---
 
-Auto Report Schedule
-
 # Auto Report Schedule
 
 ![](/img/rep9.gif)

@@ -3,8 +3,6 @@ title: "Department Summary Report"
 description: "Overview of hourly totals by department and activity type with customizable options and example visualization."
 ---
 
-Department Summary
-
 # Department Summary
 
 Displays hourly totals for each department according to selection criteria. Timecard Activity totals are separated by activity type.

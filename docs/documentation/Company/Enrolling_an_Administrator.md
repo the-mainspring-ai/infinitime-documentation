@@ -3,8 +3,6 @@ title: "Enrolling an Administrator"
 description: "Guide on how to enroll administrators with fingerprint and password options, including security roles and enrollment steps."
 ---
 
-Enrolling an Administrator
-
 # Enrolling an Administrator
 
 In the User Manage Menu select Enroll Admin

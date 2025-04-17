@@ -3,8 +3,6 @@ title: "In & Out Board Report"
 description: "A report displaying current employee clock-in and clock-out statuses for security and headcount purposes."
 ---
 
-In & Out Board
-
 # In & Out Board
 
 Displays the working status for the employees specified by Selection Criteria. Employees currently clocked in will be reported as IN and employees currently clocked out will be reported as OUT.

@@ -3,9 +3,7 @@ title: "Zephyr Direct Connect (USB) Setup Guide"
 description: "Learn how to connect the Zephyr device directly to the InfiniTime server via USB, including cable options and setup steps."
 ---
 
-CH23_HRDW_Zephyr Direct Connect (USB)
-
-# Zephyr Direct Connect (USB)
+CH23_HRDW_# Zephyr Direct Connect (USB)
 
 The Zephyr can be connected directly to a USB Port on the InfiniTime server through use of a USB to Serial Converter, which is included with the purchase of a Zephyr Reader. The included three foot USB to Serial cable permits placement of the Zephyr within close proximity of the server. If the Zephyr must be placed farther from the server, a USB Extension cable can be purchased from your local electronics and computer supply store. Standard, or passive, USB Cables are available up to 16.5 Feet while active cables which boost signal strength to allow for longer distances are available in longer lengths.
 

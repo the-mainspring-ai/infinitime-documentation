@@ -3,8 +3,6 @@ title: "InfiniTime Message Types Overview"
 description: "Overview of the three message types in InfiniTime: Notes, Schedule Change Requests, and their purposes."
 ---
 
-Message Types
-
 # Message Types
 
 InfiniTime includes three separate message types. Each type of message has a specific purpose. A detailed outline of these message types is provided below:

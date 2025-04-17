@@ -3,10 +3,6 @@ title: "InfiniTime Configuration and Job Costing Overview"
 description: "Guide to InfiniTime configuration with a focus on Job Costing, its benefits, and usage in tracking employee hours and costs."
 ---
 
-xml version="1.0" encoding="utf-8" ?
-
-InfiniTime Configuration
-
 # InfiniTime Configuration
 
 ### Job Costing Introduction
@@ -99,11 +95,11 @@ level would refer to Jobs within InfiniTime
 and the second task level would refer to Tasks within InfiniTime.
 The chart below shows an example of this configuration.
 
- | Job / Customer (Configured As InfiniTime Departments) | Task 1 (Configured as InfiniTime Jobs) | Task 2 (Configured as InfiniTime Tasks) | 
-| --- | --- | --- |
- | Invoice 1160072 | Installation | Old Cabinet Removal | 
- | Invoice 1160072 | Installation | Hang Wall Cabinets | 
- | Invoice 1160072 | Installation | Install Base Cabinets | 
+| Job / Customer (Configured As InfiniTime Departments) | Task 1 (Configured as InfiniTime Jobs) | Task 2 (Configured as InfiniTime Tasks) |
+| ----------------------------------------------------- | -------------------------------------- | --------------------------------------- |
+| Invoice 1160072                                       | Installation                           | Old Cabinet Removal                     |
+| Invoice 1160072                                       | Installation                           | Hang Wall Cabinets                      |
+| Invoice 1160072                                       | Installation                           | Install Base Cabinets                   |
 
 Three Levels: If
 all three of the above information types are of interest to your company
@@ -117,16 +113,16 @@ within InfiniTime. Example
 job costing configurations using Three Levels with Internal Departments,
 Job / Customers, and Tasks are provided below.
 
- | Internal Department (Configured As InfiniTime Departments) | Customer (Configured as InfiniTime Jobs) | Task (Configured as InfiniTime Tasks) | 
-| --- | --- | --- |
- | Frame Construction | Gilbert's Crab Boats | Welding | 
- | Hull Construction | Gilbert's Crab Boats | Sanding | 
- | Assembly | Gilbert's Crab Boats | Assembly | 
+| Internal Department (Configured As InfiniTime Departments) | Customer (Configured as InfiniTime Jobs) | Task (Configured as InfiniTime Tasks) |
+| ---------------------------------------------------------- | ---------------------------------------- | ------------------------------------- |
+| Frame Construction                                         | Gilbert's Crab Boats                     | Welding                               |
+| Hull Construction                                          | Gilbert's Crab Boats                     | Sanding                               |
+| Assembly                                                   | Gilbert's Crab Boats                     | Assembly                              |
 
- | Internal Department (Configured As InfiniTime Departments) | Job Number (Configured as InfiniTime Jobs) | Task (Configured as InfiniTime Tasks) | 
- | Frame Construction | 17251 | Welding | 
- | Hull Construction | 17251 | Sanding | 
- | Assembly | 17251 | Assembly | 
+| Internal Department (Configured As InfiniTime Departments) | Job Number (Configured as InfiniTime Jobs) | Task (Configured as InfiniTime Tasks) |
+| Frame Construction | 17251 | Welding |
+| Hull Construction | 17251 | Sanding |
+| Assembly | 17251 | Assembly |
 
 Three Levels w/ Internal
 Departments, Customers, & Jobs: In
@@ -137,11 +133,11 @@ correspond to Customers and Jobs respectively. Remember all activity is
 associated with a department within InfiniTime.
 An example of this configuration is shown below.
 
- | Internal Department (Configured As InfiniTime Departments) | Customer (Configured as InfiniTime Jobs) | Job Number (Configured as InfiniTime Tasks) | 
-| --- | --- | --- |
- | Custom Programming | Jan's Software | 100235 | 
- | Custom Reports | Wellington School District | 200257 | 
- | Technical Support | Wellington School District | 300987 | 
+| Internal Department (Configured As InfiniTime Departments) | Customer (Configured as InfiniTime Jobs) | Job Number (Configured as InfiniTime Tasks) |
+| ---------------------------------------------------------- | ---------------------------------------- | ------------------------------------------- |
+| Custom Programming                                         | Jan's Software                           | 100235                                      |
+| Custom Reports                                             | Wellington School District               | 200257                                      |
+| Technical Support                                          | Wellington School District               | 300987                                      |
 
 Three levels w/ Two Levels
 as Tasks: In some scenarios Customers
@@ -150,12 +146,12 @@ levels must be tracked. With this configuration the first level generally
 corresponds to Internal Department while the second and third levels correspond
 to tasks. An example of this configuration is shown below.
 
- | Internal Department (Configured As InfiniTime Departments) | Task 1 (Configured InfiniTime Jobs) | Task 2 (Configured as InfiniTimeTasks) | 
-| --- | --- | --- |
- | Cabinets | Installation | Old Cabinet Removal | 
- | Cabinets | Installation | Hang Wall Cabinets | 
- | Cabinets | Installation | Install Base Cabinets | 
- | Administration | Auditing | Taxes | 
+| Internal Department (Configured As InfiniTime Departments) | Task 1 (Configured InfiniTime Jobs) | Task 2 (Configured as InfiniTimeTasks) |
+| ---------------------------------------------------------- | ----------------------------------- | -------------------------------------- |
+| Cabinets                                                   | Installation                        | Old Cabinet Removal                    |
+| Cabinets                                                   | Installation                        | Hang Wall Cabinets                     |
+| Cabinets                                                   | Installation                        | Install Base Cabinets                  |
+| Administration                                             | Auditing                            | Taxes                                  |
 
 Ultimately the type of information tracked
 using Departments, Jobs, and Tasks is up to the user. Simply because they
@@ -222,16 +218,16 @@ simply all be set to 10.
 Example Item List: ABC
 Carpentry & Contractors
 
- | Item | Type | Item Number | 
-| --- | --- | --- |
- | Construction | Department | 10 | 
- | Electrical | Department | 20 | 
- | Philly Mae Pizzeria | Job | 10000 | 
- | Suzzies Pizzeria | Job | 10001 | 
- | Framing | Task | 1001 | 
- | Drywall | Task | 1002 | 
- | Wiring | Task | 2010 | 
- | Engineering | Task | 2011 | 
+| Item                | Type       | Item Number |
+| ------------------- | ---------- | ----------- |
+| Construction        | Department | 10          |
+| Electrical          | Department | 20          |
+| Philly Mae Pizzeria | Job        | 10000       |
+| Suzzies Pizzeria    | Job        | 10001       |
+| Framing             | Task       | 1001        |
+| Drywall             | Task       | 1002        |
+| Wiring              | Task       | 2010        |
+| Engineering         | Task       | 2011        |
 
 The above example shows a subset of all Tasks,
 Departments, and Customers currently active at ABC Carpentry & Contractors.
@@ -261,15 +257,15 @@ automatically filled. They also have the option of using the Lookup Tool
 which displays all available Departments, Jobs, or Tasks in a searchable
 list.
 
- | Data Collection Terminal | Supported Labor Transfer Method | 
-| --- | --- |
- | Athena | Item List | 
- | Juno | Item List | 
- | Luna | Item List | 
- | Scout | Transfer by Item Number | 
- | Thor | Transfer by Item Number | 
- | Zephyr | Item List | 
- | InfiniTime Employee & Punch Modules | Item Lookup | 
+| Data Collection Terminal            | Supported Labor Transfer Method |
+| ----------------------------------- | ------------------------------- |
+| Athena                              | Item List                       |
+| Juno                                | Item List                       |
+| Luna                                | Item List                       |
+| Scout                               | Transfer by Item Number         |
+| Thor                                | Transfer by Item Number         |
+| Zephyr                              | Item List                       |
+| InfiniTime Employee & Punch Modules | Item Lookup                     |
 
 Note: Allow PC Punch Labor Switching must
 be checked before employees will be able to choose their Department, Task,
@@ -316,11 +312,11 @@ and any related information. Depending on the information being tracked
 within InfiniTime the list
 should contain the following:
 
- | Information Type | Department Description Field | Department Cost Center Field | Department Number Field | 
-| --- | --- | --- | --- |
- | Internal Departments | Department Name | Alphanumeric Code or other Payroll Identifier | Department Number | 
- | Customers / Jobs | Customer or Job Name | Alphanumeric Code or other Payroll Identifier | Customer / Job Number | 
- | Tasks | Task Name | Alphanumeric Code or other Payroll Identifier | Task Number | 
+| Information Type     | Department Description Field | Department Cost Center Field                  | Department Number Field |
+| -------------------- | ---------------------------- | --------------------------------------------- | ----------------------- |
+| Internal Departments | Department Name              | Alphanumeric Code or other Payroll Identifier | Department Number       |
+| Customers / Jobs     | Customer or Job Name         | Alphanumeric Code or other Payroll Identifier | Customer / Job Number   |
+| Tasks                | Task Name                    | Alphanumeric Code or other Payroll Identifier | Task Number             |
 
 3.) Create one department for each listed
 item. Ensure the Cost Center and Department Numbers are configured appropriately.
@@ -528,11 +524,11 @@ and any related information. Depending on the information being tracked
 within InfiniTime the list
 should contain the following:
 
- | Information Type | Job Description Field | Job Cost Center Field | Job Number Field | 
-| --- | --- | --- | --- |
- | Internal Departments | Department Name | Alphanumeric Code or other Payroll Identifier | Department Number | 
- | Customers / Jobs | Customer or Job Name | Alphanumeric Code or other Payroll Identifier | Customer / Job Number | 
- | Tasks | Task Name | Alphanumeric Code or other Payroll Identifier | Task Number | 
+| Information Type     | Job Description Field | Job Cost Center Field                         | Job Number Field      |
+| -------------------- | --------------------- | --------------------------------------------- | --------------------- |
+| Internal Departments | Department Name       | Alphanumeric Code or other Payroll Identifier | Department Number     |
+| Customers / Jobs     | Customer or Job Name  | Alphanumeric Code or other Payroll Identifier | Customer / Job Number |
+| Tasks                | Task Name             | Alphanumeric Code or other Payroll Identifier | Task Number           |
 
 3.) Create one job for each listed item.
 Ensure the Cost Center and Department Numbers are configured appropriately.
@@ -666,11 +662,11 @@ tasks and any related information. Depending on the information being
 tracked within InfiniTime
 the list should contain the following:
 
- | Information Type | Task Description Field | Task Cost Center Field | Task Number Field | 
-| --- | --- | --- | --- |
- | Internal Departments | Department Name | Alphanumeric Code or other Payroll Identifier | Department Number | 
- | Customers / Jobs | Customer or Job Name | Alphanumeric Code or other Payroll Identifier | Customer / Job Number | 
- | Tasks | Task Name | Alphanumeric Code or other Payroll Identifier | Task Number | 
+| Information Type     | Task Description Field | Task Cost Center Field                        | Task Number Field     |
+| -------------------- | ---------------------- | --------------------------------------------- | --------------------- |
+| Internal Departments | Department Name        | Alphanumeric Code or other Payroll Identifier | Department Number     |
+| Customers / Jobs     | Customer or Job Name   | Alphanumeric Code or other Payroll Identifier | Customer / Job Number |
+| Tasks                | Task Name              | Alphanumeric Code or other Payroll Identifier | Task Number           |
 
 3.) Create one task for each listed item.
 Ensure the Cost Center and Department Numbers are configured appropriately.
@@ -1092,11 +1088,11 @@ each Job Costing level are displayed below. Refer to the [Job
 Costing Introduction: Job Transfer](../../Job_Costing_Introduction.md#Labor Transfer) section of this document for more
 information.
 
- | Item | Unique Identifier | 
-| --- | --- |
- | Departments | Department Number | 
- | Jobs | Job Number | 
- | Tasks | Task Number | 
+| Item        | Unique Identifier |
+| ----------- | ----------------- |
+| Departments | Department Number |
+| Jobs        | Job Number        |
+| Tasks       | Task Number       |
 
 Note: The hardware terminals and software
 modules listed above are the only supported methods for tracking multi-level
@@ -1104,19 +1100,19 @@ Job Costing information. A table listing supported Job Costing Levels
 for all InfiniTime Readers
 is provided below for quick reference.
 
- | Clock Model | Supported Job Costing Levels | Supported Information Types | 
-| --- | --- | --- |
- | Apollo SY715 | 1 | Department | 
- | Athena | 2 | Department, Job | 
- | Atlas SY777 | 1 | Department | 
- | Juno | 2 | Department, Job | 
- | Luna | 2 | Department, Job | 
- | Omega SY755 | 1 | Department | 
- | Orion SY760 | 1 | Department | 
- | Odyssey SY780 | 1 | Department | 
- | Scout | 3 | Department, Job, Task | 
- | Thor | 3 | Department, Job, Task | 
- | Zephyr | 2 | Department, Job | 
+| Clock Model   | Supported Job Costing Levels | Supported Information Types |
+| ------------- | ---------------------------- | --------------------------- |
+| Apollo SY715  | 1                            | Department                  |
+| Athena        | 2                            | Department, Job             |
+| Atlas SY777   | 1                            | Department                  |
+| Juno          | 2                            | Department, Job             |
+| Luna          | 2                            | Department, Job             |
+| Omega SY755   | 1                            | Department                  |
+| Orion SY760   | 1                            | Department                  |
+| Odyssey SY780 | 1                            | Department                  |
+| Scout         | 3                            | Department, Job, Task       |
+| Thor          | 3                            | Department, Job, Task       |
+| Zephyr        | 2                            | Department, Job             |
 
 ### Job Costing - Wages
 
@@ -1177,17 +1173,17 @@ record is the wage the employee will be paid.
 
 Example 1
 
- | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) | 
-| --- | --- | --- |
- | West Coast Marina | 117852 | Painting | 
+| Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
+| ----------------------------- | ------------------------ | ------------------- |
+| West Coast Marina             | 117852                   | Painting            |
 
 ![](/img/HoursMapping15.gif)
 
 Example 2
 
- | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) | 
-| --- | --- | --- |
- | West Coast Marina | 117852 | Painting | 
+| Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
+| ----------------------------- | ------------------------ | ------------------- |
+| West Coast Marina             | 117852                   | Painting            |
 
 ![](/img/EmployeeProfile_035.png)
 
@@ -1214,17 +1210,17 @@ the combination of Department and Task.
 
 Example 1
 
- | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) | 
-| --- | --- | --- |
- | West Coast Marina | 117852 | Painting | 
+| Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
+| ----------------------------- | ------------------------ | ------------------- |
+| West Coast Marina             | 117852                   | Painting            |
 
 ![](/img/Conf_Holidays006.png)
 
 Example 2
 
- | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) | 
-| --- | --- | --- |
- | West Coast Marina | 117876 | Painting | 
+| Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
+| ----------------------------- | ------------------------ | ------------------- |
+| West Coast Marina             | 117876                   | Painting            |
 
 ![](/img/OTA_29.png)
 
@@ -1250,9 +1246,9 @@ exact working Department, Job, and Task is present.
 
 Example 1
 
- | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) | 
-| --- | --- | --- |
- | Ahbor Harbor | 117852 | Painting | 
+| Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
+| ----------------------------- | ------------------------ | ------------------- |
+| Ahbor Harbor                  | 117852                   | Painting            |
 
 ![](/img/ColSel_Down.gif)
 
@@ -1262,9 +1258,9 @@ record takes precedence as it is matched first due to the Wage Hierarchy.
 
 Example 2
 
- | Working Department (Customer) | Working Job (Job Number) | Working Task (Task) | 
-| --- | --- | --- |
- | West Coast Marina | 117876 | Painting | 
+| Working Department (Customer) | Working Job (Job Number) | Working Task (Task) |
+| ----------------------------- | ------------------------ | ------------------- |
+| West Coast Marina             | 117876                   | Painting            |
 
 ![](/img/OTA_29.png)
 
@@ -1354,8 +1350,8 @@ Types with Payroll Mapping Number 1 will be totaled in the column labeled
 Mapped Amount 1. Other Activity Types with Payroll Mapping Number 2 will
 be totaled in the column labeled Mapped Amount 2.
 
- | Employee ID | Activity Dept Number | Regular Hours | Overtime Hours | Mapped Amnt. 1 | Mapped Amnt. 2 | Mapped Amnt. 3 | 
-| --- | --- | --- | --- | --- | --- | --- |
+| Employee ID | Activity Dept Number | Regular Hours | Overtime Hours | Mapped Amnt. 1 | Mapped Amnt. 2 | Mapped Amnt. 3 |
+| ----------- | -------------------- | ------------- | -------------- | -------------- | -------------- | -------------- |
 
 Payroll
 Mapping Codes
@@ -1424,12 +1420,12 @@ used as a unique code to identify an Hours / Earnings Type.
 Common
 Payroll Code Examples:
 
- | Other Activity Type | Example Payroll Mapping Codes | 
-| --- | --- |
- | Holiday Hours | HOL, HOLIDAY | 
- | Vacation Hours | VAC, VACATION | 
- | Sick Time Hours | SICK, SIC, SIK | 
- | Personal Time Hours | PER, PERS, PERSONAL | 
+| Other Activity Type | Example Payroll Mapping Codes |
+| ------------------- | ----------------------------- |
+| Holiday Hours       | HOL, HOLIDAY                  |
+| Vacation Hours      | VAC, VACATION                 |
+| Sick Time Hours     | SICK, SIC, SIK                |
+| Personal Time Hours | PER, PERS, PERSONAL           |
 
 Attendance
 Review Report Character - Enter a single character to be displayed
@@ -1771,15 +1767,15 @@ the recurring Employee Timecard Review and Editing process. Other Hours
 and Other Amount entries can be inserted in multiple ways as outlined
 in the table below.
 
- | Method of Entry | Overview | 
-| --- | --- |
- | Manually via Quick Punch | Other Activity Hours and / or Dollar Amounts can be entered manually using the Quick Punch Feature from the Company Timecard or Employee Timecard. This method is commonly used to insert hours for Other Activity Types whose occurrence cannot be anticipated such as Sick Time or Personal Time. | 
- | Manually via Approval of a Time Off Request | Other Activity Hours are inserted by InfiniTime upon approval of a Time Off Request sent by an employee. This feature is regularly used by organizations who do one or more of the following: _ Schedule Vacation Time in advance _ Use Find Available for Scheduling Purposes _ Use Schedule Skeletons for Scheduling Purposes _ Use GANNT Chart Scheduling | 
- | Manually via Function Keys at a Hardware Terminal (IE: Thor, Zephyr, Scout) | Other Activity Hours and / or Dollar Amounts can be entered manually via Function Keys at Hardware Terminals configured to communicate with the InfiniTime Software. This provides a convenient interface for entering Other Activity Hours immediately while at the Job Site and / or Work Area without accessing the InfiniTime Manager Module. | 
- | Manually via Telephone Punch Menu Prompts using Telephone Punch | Other Activity Hours and / or Dollar Amounts can be entered manually via Telephone Punch Menu Prompts by calling into the Telephone Punch Menu and selecting the appropriate menu options. This provides a convenient interface for entering Other Activity Hours and / or Dollars immediately while in the field without accessing the InfiniTime Manager Module. InfiniTime Telephone Punch is ideal for organizations with a high transaction volume. (IE: Thousands of Employees Punching multiple times per day over a wide geographic area). | 
- | Automatically via Holiday Dates for a Non-Working Holiday | InfiniTime Holiday Types permit specific Dates to be defined as Holidays. InfiniTime can then automatically insert Other Activity Hours, such as 'Holiday Time', for employees eligible for Paid Holidays. | 
- | Automatically via Holiday Dates for a Working Holiday | InfiniTime Holiday Types permit specific Dates to be defined as Holidays. For organizations with employees who receive different pay rates for working on a Holiday Date, InfiniTime can be configured to automatically separate and track hours paid at different rates for eligible employees through use of one or more of the following features as appropriate based on your organization's rules: _ Working vs Non Working Holiday Benefits _ Other Activity Options: Count As Regular Hours _ Other Activity Options: Only Count as Regular Hours if Scheduled _ Holiday Hours Mapping _ Unscheduled Hours Mapping _ Other Activity Hours Mapping | 
- | Automatically via Stand By Time | Stand by time is intended for use with on call employees. When Stand By Time is configured on a given policy, Other Hours are automatically inserted for a specific Other Activity Type for each Day Of Week configured for Stand By Time for all employees assigned to the policy. | 
+| Method of Entry                                                             | Overview                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Manually via Quick Punch                                                    | Other Activity Hours and / or Dollar Amounts can be entered manually using the Quick Punch Feature from the Company Timecard or Employee Timecard. This method is commonly used to insert hours for Other Activity Types whose occurrence cannot be anticipated such as Sick Time or Personal Time.                                                                                                                                                                                                                                                                                                                                                      |
+| Manually via Approval of a Time Off Request                                 | Other Activity Hours are inserted by InfiniTime upon approval of a Time Off Request sent by an employee. This feature is regularly used by organizations who do one or more of the following: _ Schedule Vacation Time in advance _ Use Find Available for Scheduling Purposes _ Use Schedule Skeletons for Scheduling Purposes _ Use GANNT Chart Scheduling                                                                                                                                                                                                                                                                                             |
+| Manually via Function Keys at a Hardware Terminal (IE: Thor, Zephyr, Scout) | Other Activity Hours and / or Dollar Amounts can be entered manually via Function Keys at Hardware Terminals configured to communicate with the InfiniTime Software. This provides a convenient interface for entering Other Activity Hours immediately while at the Job Site and / or Work Area without accessing the InfiniTime Manager Module.                                                                                                                                                                                                                                                                                                        |
+| Manually via Telephone Punch Menu Prompts using Telephone Punch             | Other Activity Hours and / or Dollar Amounts can be entered manually via Telephone Punch Menu Prompts by calling into the Telephone Punch Menu and selecting the appropriate menu options. This provides a convenient interface for entering Other Activity Hours and / or Dollars immediately while in the field without accessing the InfiniTime Manager Module. InfiniTime Telephone Punch is ideal for organizations with a high transaction volume. (IE: Thousands of Employees Punching multiple times per day over a wide geographic area).                                                                                                       |
+| Automatically via Holiday Dates for a Non-Working Holiday                   | InfiniTime Holiday Types permit specific Dates to be defined as Holidays. InfiniTime can then automatically insert Other Activity Hours, such as 'Holiday Time', for employees eligible for Paid Holidays.                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Automatically via Holiday Dates for a Working Holiday                       | InfiniTime Holiday Types permit specific Dates to be defined as Holidays. For organizations with employees who receive different pay rates for working on a Holiday Date, InfiniTime can be configured to automatically separate and track hours paid at different rates for eligible employees through use of one or more of the following features as appropriate based on your organization's rules: _ Working vs Non Working Holiday Benefits _ Other Activity Options: Count As Regular Hours _ Other Activity Options: Only Count as Regular Hours if Scheduled _ Holiday Hours Mapping _ Unscheduled Hours Mapping _ Other Activity Hours Mapping |
+| Automatically via Stand By Time                                             | Stand by time is intended for use with on call employees. When Stand By Time is configured on a given policy, Other Hours are automatically inserted for a specific Other Activity Type for each Day Of Week configured for Stand By Time for all employees assigned to the policy.                                                                                                                                                                                                                                                                                                                                                                      |
 
 ### Usage Purposes
 
@@ -1789,17 +1785,17 @@ possible to enter adjustments to specific Hours and Earning Types. Specific
 purposes for Other Activity Types and common uses for each are listed
 below.
 
- | Usage Purpose | Example(s) | 
-| --- | --- |
- | Add Other Hours to be Paid to Employees | Add Jury Duty Hours | 
- | Adjust Other Hours to be Paid to Employees | Negate System Holiday Record | 
- | Add Other Amounts to be Paid to Employees | Add additional pretax earnings such as Sales Commission to an employee's timecard | 
- | Adjust Other Amounts to be Paid to Employees | Subtract additional pretax earnings such as Sales Commissions from an employee's timecard | 
- | Add Taxable Earnings | Add Tips to an Employee's Timecard | 
- | Adjust Taxable Earnings | Subtract Tips from an Employee's Timecard | 
- | Add to Units Tracked | Add Piece Counts to an Employee's Timecard | 
- | Adjust Units Tracked | Subtract Piece Counts from an Employee's Timecard | 
- | Deduct Used Benefits from an Accrual Type | Deduct Other Hours inserted for One or More Other Activity Types from an employee's Available Accrued Balance for an Accrual Type | 
+| Usage Purpose                                | Example(s)                                                                                                                        |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Add Other Hours to be Paid to Employees      | Add Jury Duty Hours                                                                                                               |
+| Adjust Other Hours to be Paid to Employees   | Negate System Holiday Record                                                                                                      |
+| Add Other Amounts to be Paid to Employees    | Add additional pretax earnings such as Sales Commission to an employee's timecard                                                 |
+| Adjust Other Amounts to be Paid to Employees | Subtract additional pretax earnings such as Sales Commissions from an employee's timecard                                         |
+| Add Taxable Earnings                         | Add Tips to an Employee's Timecard                                                                                                |
+| Adjust Taxable Earnings                      | Subtract Tips from an Employee's Timecard                                                                                         |
+| Add to Units Tracked                         | Add Piece Counts to an Employee's Timecard                                                                                        |
+| Adjust Units Tracked                         | Subtract Piece Counts from an Employee's Timecard                                                                                 |
+| Deduct Used Benefits from an Accrual Type    | Deduct Other Hours inserted for One or More Other Activity Types from an employee's Available Accrued Balance for an Accrual Type |
 
 ### Usage Purpose Examples
 
@@ -1810,10 +1806,10 @@ Types to track hours for various categories of Paid and Unpaid Leave.
 Several examples of common types of Paid and Unpaid Leave tracked by InfiniTime Customers are provided
 below.
 
- | Vacation Time | Sick Time | Personal Time | 
-| --- | --- | --- |
- | Jury Duty | Bereavement | Marriage | 
- | Maternity Leave | Paternity Leave | Family Leave | 
+| Vacation Time   | Sick Time       | Personal Time |
+| --------------- | --------------- | ------------- |
+| Jury Duty       | Bereavement     | Marriage      |
+| Maternity Leave | Paternity Leave | Family Leave  |
 
 Adding
 Other Hours to be paid to an employee with a Positive Entry
@@ -1956,9 +1952,9 @@ currency amounts for various categories of earnings. Several
 examples of common types of earnings tracked by InfiniTime
 Customers are provided below.
 
- | Sales Commissions | Misc. Earnings | 
-| --- | --- |
- | Expense Reimbursements | | 
+| Sales Commissions      | Misc. Earnings |
+| ---------------------- | -------------- |
+| Expense Reimbursements |                |
 
 Adding Other Amounts
 
@@ -2049,8 +2045,8 @@ by the employer such as Tips or Employee Meals, can be tracked using Other
 Activity Types of the Amount Type. Once entered, Taxable Earnings can
 be transferred to payroll for tracking purposes.
 
- | Tips | Meals | 
-| --- | --- |
+| Tips | Meals |
+| ---- | ----- |
 
 Adding
 Taxable Earnings
@@ -2148,8 +2144,8 @@ the Total Piece Count can be used to calculate a Piece rate, or a per
 unit premium can be paid to the employee at a set currency amount per
 unit.
 
- | Piece Count | Per Unit Premiums Paid at a Flat Dollar Amount for each Unit (IE: A Per Client Premium for Diving Instructors Leading a Night Dive) | 
-| --- | --- |
+| Piece Count | Per Unit Premiums Paid at a Flat Dollar Amount for each Unit (IE: A Per Client Premium for Diving Instructors Leading a Night Dive) |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 
 Adding
 Units Tracked
@@ -2246,9 +2242,9 @@ available balance. Additional details can be found regarding configuring
 Other Activity Types that Deduct in the Accrual Overview Section of this
 document. Related topics are provided below.
 
- | Vacation Time | Sick Time | 
-| --- | --- |
- | Personal Time | Comp. Time | 
+| Vacation Time | Sick Time  |
+| ------------- | ---------- |
+| Personal Time | Comp. Time |
 
 Related Topics:
 
@@ -2644,60 +2640,60 @@ The number of hours entered into the Other Activity Hours field will serve
 as the maximum number of hours an employee can receive. Two Examples are
 illustrated below with the following settings:
 
- | Average Hours | Yes | 
-| --- | --- |
- | Days to Average | 21 | 
- | Other Activity Hours | 10.00 | 
- | All Hours Worked are Holiday Pay | No | 
+| Average Hours                    | Yes   |
+| -------------------------------- | ----- |
+| Days to Average                  | 21    |
+| Other Activity Hours             | 10.00 |
+| All Hours Worked are Holiday Pay | No    |
 
- | Day | Hours Worked: Scenario 1 | Hours Worked: Scenario 2 | 
- | 11/5 | 8.25 | 11.50 | 
- | 11/6 | 8.00 | 11.25 | 
- | 11/9 | 8.00 | 12.00 | 
- | 11/10 | 6.50 | 12.00 | 
- | 11/11 | 6.20 | 8.50 | 
- | 11/12 | 7.50 | 11.50 | 
- | 11/13 | 8.00 | 12.00 | 
- | 11/16 | 8.55 | 12.00 | 
- | 11/17 | 9.00 | 12.50 | 
- | 11/18 | 8.00 | 11.00 | 
- | 11/19 | 8.00 | 11.00 | 
- | 11/20 | 8.00 | 12.00 | 
- | 11/23 | 8.25 | 12.00 | 
- | 11/24 | 7.50 | 8.00 | 
- | 11/25 | 8.02 | 8.50 | 
- | Average | 7.85 | 11.05 | 
- | Friday (Holiday) | 7.85 | 10.00 | 
+| Day | Hours Worked: Scenario 1 | Hours Worked: Scenario 2 |
+| 11/5 | 8.25 | 11.50 |
+| 11/6 | 8.00 | 11.25 |
+| 11/9 | 8.00 | 12.00 |
+| 11/10 | 6.50 | 12.00 |
+| 11/11 | 6.20 | 8.50 |
+| 11/12 | 7.50 | 11.50 |
+| 11/13 | 8.00 | 12.00 |
+| 11/16 | 8.55 | 12.00 |
+| 11/17 | 9.00 | 12.50 |
+| 11/18 | 8.00 | 11.00 |
+| 11/19 | 8.00 | 11.00 |
+| 11/20 | 8.00 | 12.00 |
+| 11/23 | 8.25 | 12.00 |
+| 11/24 | 7.50 | 8.00 |
+| 11/25 | 8.02 | 8.50 |
+| Average | 7.85 | 11.05 |
+| Friday (Holiday) | 7.85 | 10.00 |
 
 Example:
 Average Hours by Weeks
 
 ![](/img/DeptPrem_EX_3.gif)
 
- | Average Hours | Yes | 
-| --- | --- |
- | Weeks to Average | 3 | 
- | Other Activity Hours | 10.00 | 
- | All Hours Worked are Holiday Pay | No | 
+| Average Hours                    | Yes   |
+| -------------------------------- | ----- |
+| Weeks to Average                 | 3     |
+| Other Activity Hours             | 10.00 |
+| All Hours Worked are Holiday Pay | No    |
 
- | Day | Hours Worked: Scenario 1 | Hours Worked: Scenario 2 | 
- | 11/2 | 8.25 | 11.50 | 
- | 11/3 | 8.00 | 11.25 | 
- | 11/4 | 8.00 | 12.00 | 
- | 11/5 | 6.50 | 12.00 | 
- | 11/6 | 6.20 | 8.50 | 
- | 11/9 | 7.50 | 11.50 | 
- | 11/10 | 8.00 | 12.00 | 
- | 11/11 | 8.55 | 12.00 | 
- | 11/12 | 9.00 | 12.50 | 
- | 11/13 | 8.00 | 11.00 | 
- | 11/16 | 8.00 | 11.00 | 
- | 11/17 | 8.00 | 12.00 | 
- | 11/18 | 8.25 | 12.00 | 
- | 11/19 | 7.50 | 8.00 | 
- | 11/20 | 8.02 | 8.50 | 
- | Daily Average | 7.85 | 11.05 | 
- | Friday (Holiday) | 7.85 | 10.00 | 
+| Day | Hours Worked: Scenario 1 | Hours Worked: Scenario 2 |
+| 11/2 | 8.25 | 11.50 |
+| 11/3 | 8.00 | 11.25 |
+| 11/4 | 8.00 | 12.00 |
+| 11/5 | 6.50 | 12.00 |
+| 11/6 | 6.20 | 8.50 |
+| 11/9 | 7.50 | 11.50 |
+| 11/10 | 8.00 | 12.00 |
+| 11/11 | 8.55 | 12.00 |
+| 11/12 | 9.00 | 12.50 |
+| 11/13 | 8.00 | 11.00 |
+| 11/16 | 8.00 | 11.00 |
+| 11/17 | 8.00 | 12.00 |
+| 11/18 | 8.25 | 12.00 |
+| 11/19 | 7.50 | 8.00 |
+| 11/20 | 8.02 | 8.50 |
+| Daily Average | 7.85 | 11.05 |
+| Friday (Holiday) | 7.85 | 10.00 |
 
 ### Available Holiday Options & Conditions - Hours Mapping Tab
 
@@ -2946,66 +2942,66 @@ details that must be gathered in order to configure holidays for a customer._
 
 **Holiday Types:**
 
- | | | | | 
+| | | | |
 ||
- | **Holiday Type Description** | **Holiday Type Class** | **Holiday Type Default Class** | **Holiday Type Tenure** | 
- | Full Time Production Holidays | Full Time Production | Full Time Production | 0 to 99 Years | 
- | Full Time Admin Holidays | Full Time Admin | Full Time Admin | 0 to 99 Years | 
- | Part Time Holidays | Part Time | Part Time | 0 to 99 Years | 
+| **Holiday Type Description** | **Holiday Type Class** | **Holiday Type Default Class** | **Holiday Type Tenure** |
+| Full Time Production Holidays | Full Time Production | Full Time Production | 0 to 99 Years |
+| Full Time Admin Holidays | Full Time Admin | Full Time Admin | 0 to 99 Years |
+| Part Time Holidays | Part Time | Part Time | 0 to 99 Years |
 
 ### _âFull Time Production Holidaysâ - Holiday Dates:_
 
- | | | | | 
+| | | | |
 ||
- | **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** | 
- | 1/1/12 | New Years Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
- | 2/20/12 | Presidents Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
- | 5/28/12 | Memorial Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
- | 7/4/12 | Independence Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
- | 9/3/12 | Labor Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
- | 11/22/12 | Thanksgiving Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
- | 11/23/12 | Day After Thanksgiving | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
- | 12/24/12 | Christmas Eve | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
- | 12/25/12 | Christmas Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
- | 12/31/12 | New Years Eve | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 | 
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| 1/1/12 | New Years Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 2/20/12 | Presidents Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 5/28/12 | Memorial Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 7/4/12 | Independence Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 9/3/12 | Labor Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 11/22/12 | Thanksgiving Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 11/23/12 | Day After Thanksgiving | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 12/24/12 | Christmas Eve | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 12/25/12 | Christmas Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 12/31/12 | New Years Eve | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
 
 ### _âFull Time Admin Holidaysâ - Holiday Dates:_
 
- | | | | | 
+| | | | |
 ||
- | **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** | 
- | 1/1/12 | New Years Day | 8 Hrs: Holiday | None | 
- | 2/20/12 | Presidents Day | 8 Hrs: Holiday | None | 
- | 5/28/12 | Memorial Day | 8 Hrs: Holiday | None | 
- | 7/4/12 | Independence Day | 8 Hrs: Holiday | None | 
- | 9/3/12 | Labor Day | 8 Hrs: Holiday | None | 
- | 11/22/12 | Thanksgiving Day | 8 Hrs: Holiday | None | 
- | 11/23/12 | Day After Thanksgiving | 8 Hrs: Holiday | None | 
- | 12/24/12 | Christmas Eve | 8 Hrs: Holiday | None | 
- | 12/25/12 | Christmas Day | 8 Hrs: Holiday | None | 
- | 12/31/12 | New Years Eve | 8 Hrs: Holiday | None | 
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| 1/1/12 | New Years Day | 8 Hrs: Holiday | None |
+| 2/20/12 | Presidents Day | 8 Hrs: Holiday | None |
+| 5/28/12 | Memorial Day | 8 Hrs: Holiday | None |
+| 7/4/12 | Independence Day | 8 Hrs: Holiday | None |
+| 9/3/12 | Labor Day | 8 Hrs: Holiday | None |
+| 11/22/12 | Thanksgiving Day | 8 Hrs: Holiday | None |
+| 11/23/12 | Day After Thanksgiving | 8 Hrs: Holiday | None |
+| 12/24/12 | Christmas Eve | 8 Hrs: Holiday | None |
+| 12/25/12 | Christmas Day | 8 Hrs: Holiday | None |
+| 12/31/12 | New Years Eve | 8 Hrs: Holiday | None |
 
 ### _âPart Time Holidaysâ - Holiday Dates:_
 
- | | | | | 
+| | | | |
 ||
- | **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** | 
- | NONE: Â·        Part Time Employees are not eligible for Holidays. No Holiday Dates should be added to the âPart Time Holidaysâ Holiday Type. | | | | 
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| NONE: Â·        Part Time Employees are not eligible for Holidays. No Holiday Dates should be added to the âPart Time Holidaysâ Holiday Type. | | | |
 
 ### _Employee ID 202 â Employee Specific Holiday Dates:_
 
- | | | | | 
+| | | | |
 ||
- | **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** | 
- | 2/22/12 | Ash Wednesday | 8 Hrs: Personal Time | None | 
- | 4/6/12 | Good Friday | 8 Hrs: Personal Time | None | 
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| 2/22/12 | Ash Wednesday | 8 Hrs: Personal Time | None |
+| 4/6/12 | Good Friday | 8 Hrs: Personal Time | None |
 
 ### _Employee ID 708 â Employee Specific Holiday Dates:_
 
- | | | | | 
+| | | | |
 ||
- | **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** | 
- | 12/9/12 | Hanukkah | 8 Hrs: Personal Time | None | 
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| 12/9/12 | Hanukkah | 8 Hrs: Personal Time | None |
 
 ### **ABC Company Holiday Types within InfiniTime:**
 
@@ -3062,11 +3058,11 @@ and Unscheduled Hours worked on Holiday Dates within InfiniTime,
 let us first discuss common incentives and benefits awarded to employees
 for Holiday Dates.
 
- | Method | Description | 
-| --- | --- |
- | Fixed Benefits | Employees receive a preset number of hours at a specific pay rate for each Holiday Date, based on specific conditions as set on the Holiday Date. | 
- | Premium Pay for Worked Hours | Employees receive a premium pay rate for worked hours (Scheduled, Unscheduled, or Both) on a Holiday Date. | 
- | Fixed Benefits with Premium Pay for Worked Hours | Employees receive both a preset number of hours at their base rate for each Holiday Date in addition to a premium | 
+| Method                                           | Description                                                                                                                                       |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fixed Benefits                                   | Employees receive a preset number of hours at a specific pay rate for each Holiday Date, based on specific conditions as set on the Holiday Date. |
+| Premium Pay for Worked Hours                     | Employees receive a premium pay rate for worked hours (Scheduled, Unscheduled, or Both) on a Holiday Date.                                        |
+| Fixed Benefits with Premium Pay for Worked Hours | Employees receive both a preset number of hours at their base rate for each Holiday Date in addition to a premium                                 |
 
 #### Holiday Configuration - Fixed Benefits
 
@@ -3080,13 +3076,13 @@ number of scenarios exist for individual employees on a given holiday
 date as outlined below. Holiday Options and Conditions can be set to award
 or deny Fixed Benefits for specific scenarios as outlined below.
 
- | Schedule Exists on Holiday Date | Working Status | Note | 
-| --- | --- | --- |
- | Yes | Working | Award: _ Holiday Dates can be configured to award Fixed Benefits only on Holiday Dates where employees work a minimum number of hours. See ' Employee Required To Work' below. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee works on a Holiday Date. See 'Not a Holiday If Worked' below. | 
- | Yes | Not Working // Facility Closed | Award: _ Holiday Dates can be configured to award Fixed Benefits on all Holiday Dates regardless of whether employees work. To award Fixed Benefits in all situations, 'Employee Required to Work' should be blank and 'Not a Holiday if Worked' should be No. _ If the 'Employee Required To Work' option is used to require employees to work in order to receive Fixed Benefits, InfiniTime will not insert Other Hours in this scenario. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee doesn't work a minimum number of hours on the holiday date. See 'Employee Required To Work' below. | 
- | Yes | Not Working // Employee Called Out Sick | Award: _ Holiday Dates can be configured to award Fixed Benefits on all Holiday Dates regardless of whether employees work. To award Fixed Benefits in all situations, 'Employee Required to Work' should be blank and 'Not a Holiday if Worked' should be No. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee doesn't work a minimum number of hours on the holiday date. See 'Employee Required To Work' below. _ If employees do not receive Fixed Benefits on Holidays when they call out sick, [an Other Activity Entry can be used to offset the Holiday Pay Hours automatically created by InfiniTime.](Product_Configuration.md#ota33_Other_Hours) | 
- | No | Working // Employee Called In For Duty | Award: _ Holiday Dates can be configured to award Fixed Benefits only on Holiday Dates where employees work a minimum number of hours. See ' Employee Required To Work' below. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee works on a Holiday Date. See 'Not a Holiday If Worked' below. | 
- | No | Not Working | Award: _ Holiday Dates can be configured to award Fixed Benefits on all Holiday Dates regardless of whether employees work. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee doesn't work a minimum number of hours on the holiday date. | 
+| Schedule Exists on Holiday Date | Working Status                          | Note                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Yes                             | Working                                 | Award: _ Holiday Dates can be configured to award Fixed Benefits only on Holiday Dates where employees work a minimum number of hours. See ' Employee Required To Work' below. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee works on a Holiday Date. See 'Not a Holiday If Worked' below.                                                                                                                                                                                                                                                                                                                                                                |
+| Yes                             | Not Working // Facility Closed          | Award: _ Holiday Dates can be configured to award Fixed Benefits on all Holiday Dates regardless of whether employees work. To award Fixed Benefits in all situations, 'Employee Required to Work' should be blank and 'Not a Holiday if Worked' should be No. _ If the 'Employee Required To Work' option is used to require employees to work in order to receive Fixed Benefits, InfiniTime will not insert Other Hours in this scenario. Deny: \_ Holiday Dates can be configured to deny Fixed Benefits if an employee doesn't work a minimum number of hours on the holiday date. See 'Employee Required To Work' below.                                                            |
+| Yes                             | Not Working // Employee Called Out Sick | Award: _ Holiday Dates can be configured to award Fixed Benefits on all Holiday Dates regardless of whether employees work. To award Fixed Benefits in all situations, 'Employee Required to Work' should be blank and 'Not a Holiday if Worked' should be No. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee doesn't work a minimum number of hours on the holiday date. See 'Employee Required To Work' below. \_ If employees do not receive Fixed Benefits on Holidays when they call out sick, [an Other Activity Entry can be used to offset the Holiday Pay Hours automatically created by InfiniTime.](Product_Configuration.md#ota33_Other_Hours) |
+| No                              | Working // Employee Called In For Duty  | Award: _ Holiday Dates can be configured to award Fixed Benefits only on Holiday Dates where employees work a minimum number of hours. See ' Employee Required To Work' below. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee works on a Holiday Date. See 'Not a Holiday If Worked' below.                                                                                                                                                                                                                                                                                                                                                                |
+| No                              | Not Working                             | Award: _ Holiday Dates can be configured to award Fixed Benefits on all Holiday Dates regardless of whether employees work. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee doesn't work a minimum number of hours on the holiday date.                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 Fixed
 Benefits - Holiday Options and Conditions
@@ -3158,11 +3154,11 @@ Holiday Date. [Additional
 details on the difference between the 'Day(s)' and the 'Week(s)' selection
 can be found above.](Product_Configuration.md#context_AverageHours)
 
- | Employee must work X Hours... | Required Configuration | 
-| --- | --- |
- | ...On the Holiday Date | Where X is the number of hours the employee must work on the Holiday Date in order to received Fixed Benefits.   The Employee Required To Work Unit Field, as highlighted in yellow, should be left blank. | 
- | ...Over Y days immediately prior to the Holiday Date | _ Where X is the number of hours the employee must work in order to received Fixed Benefits. _ Where Y is the number of days immediately prior to the Holiday Date for which hours will be totaled to determine if the employee is eligible for Fixed Benefits. | 
- | ...Over Y Work Weeks prior to the Work Week of the Holiday Date | _ Where X is the number of hours the employee must work in order to received Fixed Benefits. _ Where Y is the number of work weeks prior to the Holiday Date for which hours will be totaled to determine if the employee is eligible for Fixed Benefits. | 
+| Employee must work X Hours...                                   | Required Configuration                                                                                                                                                                                                                                          |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ...On the Holiday Date                                          | Where X is the number of hours the employee must work on the Holiday Date in order to received Fixed Benefits.   The Employee Required To Work Unit Field, as highlighted in yellow, should be left blank.                                                      |
+| ...Over Y days immediately prior to the Holiday Date            | _ Where X is the number of hours the employee must work in order to received Fixed Benefits. _ Where Y is the number of days immediately prior to the Holiday Date for which hours will be totaled to determine if the employee is eligible for Fixed Benefits. |
+| ...Over Y Work Weeks prior to the Work Week of the Holiday Date | _ Where X is the number of hours the employee must work in order to received Fixed Benefits. _ Where Y is the number of work weeks prior to the Holiday Date for which hours will be totaled to determine if the employee is eligible for Fixed Benefits.       |
 
 Average
 Hours - Optional. Average hours can be used to calculate average
@@ -3201,13 +3197,13 @@ holiday date as outlined below. Holiday Options and Conditions can be
 set to award or deny Premium Pay for Worked Hours for specific scenarios
 as outlined below.
 
- | Schedule Exists on Holiday Date | Working Status | Note | 
-| --- | --- | --- |
- | Yes | Working | Award: _ Holiday Dates can be configured to award Fixed Benefits only on Holiday Dates where employees work a minimum number of hours. See 'Employee Required To Work' below. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee works on a Holiday Date. See 'Not a Holiday If Worked' below. _ Holiday Dates can be configured to limit the total number of hours eligible for Premium Pay Benefits. See 'Max Other Activity Hours' below. _ Holiday Dates can be configured to limit the total number of hours eligible for Premium Pay Benefits based on an employee's scheduled working hours on the Holiday Date. See 'Holiday Based on Employee's Schedule' below. | 
- | Yes | Not Working // Facility Closed | Not Applicable: _ Premium Pay Benefits are only paid on worked hours. If an employee does not work on a Holiday Date, Premium Pay Benefits do not apply. | 
- | Yes | Not Working // Employee Called Out Sick | Not Applicable: _ Premium Pay Benefits are only paid on worked hours. If an employee does not work on a Holiday Date, Premium Pay Benefits do not apply. | 
- | No | Working // Employee Called In For Duty | Award: _ Holiday Dates can be configured to award Fixed Benefits only on Holiday Dates where employees work a minimum number of hours. See 'Employee Required To Work' below. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee works on a Holiday Date. See 'Not a Holiday If Worked' below. _ Holiday Dates can be configured to limit the total number of hours eligible for Premium Pay Benefits. See 'Max Other Activity Hours' below. _ Holiday Dates can be configured to limit the total number of hours eligible for Premium Pay Benefits based on an employee's scheduled working hours on the Holiday Date. See 'Holiday Based on Employee's Schedule' below. | 
- | No | Not Working | Not Applicable: \* Premium Pay Benefits are only paid on worked hours. If an employee does not work on a Holiday Date, Premium Pay Benefits do not apply. | 
+| Schedule Exists on Holiday Date | Working Status                          | Note                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Yes                             | Working                                 | Award: _ Holiday Dates can be configured to award Fixed Benefits only on Holiday Dates where employees work a minimum number of hours. See 'Employee Required To Work' below. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee works on a Holiday Date. See 'Not a Holiday If Worked' below. _ Holiday Dates can be configured to limit the total number of hours eligible for Premium Pay Benefits. See 'Max Other Activity Hours' below. _ Holiday Dates can be configured to limit the total number of hours eligible for Premium Pay Benefits based on an employee's scheduled working hours on the Holiday Date. See 'Holiday Based on Employee's Schedule' below. |
+| Yes                             | Not Working // Facility Closed          | Not Applicable: \_ Premium Pay Benefits are only paid on worked hours. If an employee does not work on a Holiday Date, Premium Pay Benefits do not apply.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Yes                             | Not Working // Employee Called Out Sick | Not Applicable: \_ Premium Pay Benefits are only paid on worked hours. If an employee does not work on a Holiday Date, Premium Pay Benefits do not apply.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| No                              | Working // Employee Called In For Duty  | Award: _ Holiday Dates can be configured to award Fixed Benefits only on Holiday Dates where employees work a minimum number of hours. See 'Employee Required To Work' below. Deny: _ Holiday Dates can be configured to deny Fixed Benefits if an employee works on a Holiday Date. See 'Not a Holiday If Worked' below. _ Holiday Dates can be configured to limit the total number of hours eligible for Premium Pay Benefits. See 'Max Other Activity Hours' below. _ Holiday Dates can be configured to limit the total number of hours eligible for Premium Pay Benefits based on an employee's scheduled working hours on the Holiday Date. See 'Holiday Based on Employee's Schedule' below. |
+| No                              | Not Working                             | Not Applicable: \* Premium Pay Benefits are only paid on worked hours. If an employee does not work on a Holiday Date, Premium Pay Benefits do not apply.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 Premium
 Pay For Worked Hours - Holiday Options and Conditions
@@ -3305,11 +3301,11 @@ Weeks prior to the Holiday Date. [Additional
 details on the difference between the 'Day(s)' and the 'Week(s)' selection
 can be found above.](Product_Configuration.md#context_AverageHours)
 
- | Employee must work X Hours... | Required Configuration | 
-| --- | --- |
- | ...On the Holiday Date | Where X is the number of hours the employee must work on the Holiday Date in order to received Premium Pay Benefits for all worked hours.    The Employee Required To Work Unit Field, as highlighted in yellow, should be left blank. | 
- | ...Over Y days immediately prior to the Holiday Date | _ Where X is the number of hours the employee must work  in order to received Premium Pay Benefits for all worked hours. _ Where Y is the number of days immediately prior to the Holiday Date for which hours will be totaled to determine if the employee is eligible for Fixed Benefits. | 
- | ...Over Y Work Weeks prior to the Work Week of the Holiday Date | _ Where X is the number of hours the employee must work in order to received Premium Pay Benefits for all worked hours. _ Where Y is the number of work weeks prior to the Holiday Date for which hours will be totaled to determine if the employee is eligible for Fixed Benefits. | 
+| Employee must work X Hours...                                   | Required Configuration                                                                                                                                                                                                                                                                      |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ...On the Holiday Date                                          | Where X is the number of hours the employee must work on the Holiday Date in order to received Premium Pay Benefits for all worked hours.    The Employee Required To Work Unit Field, as highlighted in yellow, should be left blank.                                                      |
+| ...Over Y days immediately prior to the Holiday Date            | _ Where X is the number of hours the employee must work  in order to received Premium Pay Benefits for all worked hours. _ Where Y is the number of days immediately prior to the Holiday Date for which hours will be totaled to determine if the employee is eligible for Fixed Benefits. |
+| ...Over Y Work Weeks prior to the Work Week of the Holiday Date | _ Where X is the number of hours the employee must work in order to received Premium Pay Benefits for all worked hours. _ Where Y is the number of work weeks prior to the Holiday Date for which hours will be totaled to determine if the employee is eligible for Fixed Benefits.        |
 
 #### Holiday Configuration - Fixed Benefits + Premium Pay for Worked Hours
 
@@ -3385,10 +3381,10 @@ Mapping Hierarchy](Product_Configuration.md#hm19_3._Understand_how_the_Hours_Map
 Hours must be mapped in to separate Overtime buckets as shown below, even
 though they are paid at a the same rate on regular working days.
 
- | Policy / Set of Employees | OT1 Hours (Daily OT) | OT2 Hours (Unscheduled Regular Hours) | OT3 Hours (Unscheduled OT1 Hours) | OT4 Hours | 
-| --- | --- | --- | --- | --- |
- | Hourly Operations Employees | Daily > 10 Hours Paid at 150% of Base Rate | Unscheduled Regular Hours Paid at 200% of Base Rate | Unscheduled OT1 Hours Paid at 200% of Base Rate | N/A | 
- | Salary Administrative Employees | Daily > 8 Hours Paid at 150% of Base Rate | Unscheduled Regular Hours Paid at 200% of Base Rate | Unscheduled OT1 Hours Paid at 200% of Base Rate | N/A | 
+| Policy / Set of Employees       | OT1 Hours (Daily OT)                       | OT2 Hours (Unscheduled Regular Hours)               | OT3 Hours (Unscheduled OT1 Hours)               | OT4 Hours |
+| ------------------------------- | ------------------------------------------ | --------------------------------------------------- | ----------------------------------------------- | --------- |
+| Hourly Operations Employees     | Daily > 10 Hours Paid at 150% of Base Rate | Unscheduled Regular Hours Paid at 200% of Base Rate | Unscheduled OT1 Hours Paid at 200% of Base Rate | N/A       |
+| Salary Administrative Employees | Daily > 8 Hours Paid at 150% of Base Rate  | Unscheduled Regular Hours Paid at 200% of Base Rate | Unscheduled OT1 Hours Paid at 200% of Base Rate | N/A       |
 
 2. List
    each set of Employees Eligible for Holiday Benefits on Different Calendar
@@ -3407,10 +3403,10 @@ Only a single Holiday Type is required for XYZ Hospitality as shown below.
 XYZ Hospitality pays both Fixed Benefits
 and Premium Pay for Worked Hours for the following holiday dates.
 
- | Calendar Dates - Hourly Operations Employees and Salary Administrative Employees | | | | 
-| --- |
- | 1/1/2013 | 2/18/13 | 7/4/13 | 11/28/13 | 
- | 1/21/13 | 2/27/13 | 9/2/13 | 12/25/13 | 
+| Calendar Dates - Hourly Operations Employees and Salary Administrative Employees |         |        |          |
+| -------------------------------------------------------------------------------- | ------- | ------ | -------- |
+| 1/1/2013                                                                         | 2/18/13 | 7/4/13 | 11/28/13 |
+| 1/21/13                                                                          | 2/27/13 | 9/2/13 | 12/25/13 |
 
 4. Create
    One Holiday Type for each Set of Employees
@@ -3418,8 +3414,8 @@ and Premium Pay for Worked Hours for the following holiday dates.
 Since all employees at XYZ Hospitality
 receive the same Holiday Benefits, only one Holiday Type is required.
 
- | XYZ Hospitality Holiday Types | 
-| --- |
+| XYZ Hospitality Holiday Types |
+| ----------------------------- |
 
 5. Create One Fixed
    Benefit Holiday Date for each Calendar Date. Configure Holiday Options
@@ -3430,9 +3426,9 @@ The table
 below shows the Pay Code, Pay Rate, and Other Activity Type configuration
 for Fixed Holiday Dates as used by XYZ Hospitality.
 
- | Other Activity Type & Other Activity Options | Regular Hours | OT1 Hours (Daily OT) | OT2 Hours (Unscheduled Regular Hours) | OT3 Hours (Unscheduled OT1 Hours) | OT4 Hours | 
-| --- | --- | --- | --- | --- | --- |
- | Holiday Pay _ Count as Regular Hours Not Checked _ Count as Day Worked Checked | Paid at Base Rate Payroll Mapping Code 'HP' | N/A | N/A | N/A | N/A | 
+| Other Activity Type & Other Activity Options                                   | Regular Hours                               | OT1 Hours (Daily OT) | OT2 Hours (Unscheduled Regular Hours) | OT3 Hours (Unscheduled OT1 Hours) | OT4 Hours |
+| ------------------------------------------------------------------------------ | ------------------------------------------- | -------------------- | ------------------------------------- | --------------------------------- | --------- |
+| Holiday Pay _ Count as Regular Hours Not Checked _ Count as Day Worked Checked | Paid at Base Rate Payroll Mapping Code 'HP' | N/A                  | N/A                                   | N/A                               | N/A       |
 
 An example
 of a Fixed Holiday Date is shown below.
@@ -3451,13 +3447,13 @@ this configuration, if supervisors should neglect to insert employee holiday
 hours an adjustment can be made to pay additional hours to the employee
 during the next pay period.
 
- | Schedule Exists on Holiday Date | Working Status | Fixed Holiday Benefits Awarded? | 
-| --- | --- | --- |
- | Yes | Working | Yes - Automatically Inserted by Fixed Benefit Holiday - 8 Holiday Pay Hours. Employees must also work the day before and day after the holiday date in order to receive Holiday Pay. | 
- | Yes | Not Working // Facility Closed | Yes - Manually Inserted by Supervisors - 8 Holiday Pay Hours. Employees who work the day before and day after the holiday date are eligible to receive Holiday Pay. Holiday Pay Hours must be manually inserted by XYZ Hospitality Supervisors in this scenario. InfiniTime will not automatically award Holiday Pay Hours in this scenario because the employee did not work at least 1 hour on the holiday date. | 
- | Yes | Not Working // Employee Called Out Sick | No - No Supervisor Action Required.  InfiniTime will not award Holiday Pay Hours in this scenario because the employee did not work at least 1 hour on the holiday date. | 
- | No | Working // Employee Called In For Duty | Yes - Automatically Inserted by Fixed Benefit Holiday - 8 Holiday Pay Hours. Employees must also work the day before and day after the holiday date in order to receive Holiday Pay. | 
- | No | Not Working | No - No Supervisor Action Required.  InfiniTime will not award Holiday Pay Hours in this scenario because the employee did not work at least 1 hour on the holiday date. In this scenario, the holiday date was a Day Off as part of the employee's normal schedule. XYZ Hospitality does not pay Holiday Benefits on Holiday dates where employees do not report to work and are not scheduled to work. | 
+| Schedule Exists on Holiday Date | Working Status                          | Fixed Holiday Benefits Awarded?                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Yes                             | Working                                 | Yes - Automatically Inserted by Fixed Benefit Holiday - 8 Holiday Pay Hours. Employees must also work the day before and day after the holiday date in order to receive Holiday Pay.                                                                                                                                                                                                                               |
+| Yes                             | Not Working // Facility Closed          | Yes - Manually Inserted by Supervisors - 8 Holiday Pay Hours. Employees who work the day before and day after the holiday date are eligible to receive Holiday Pay. Holiday Pay Hours must be manually inserted by XYZ Hospitality Supervisors in this scenario. InfiniTime will not automatically award Holiday Pay Hours in this scenario because the employee did not work at least 1 hour on the holiday date. |
+| Yes                             | Not Working // Employee Called Out Sick | No - No Supervisor Action Required.  InfiniTime will not award Holiday Pay Hours in this scenario because the employee did not work at least 1 hour on the holiday date.                                                                                                                                                                                                                                           |
+| No                              | Working // Employee Called In For Duty  | Yes - Automatically Inserted by Fixed Benefit Holiday - 8 Holiday Pay Hours. Employees must also work the day before and day after the holiday date in order to receive Holiday Pay.                                                                                                                                                                                                                               |
+| No                              | Not Working                             | No - No Supervisor Action Required.  InfiniTime will not award Holiday Pay Hours in this scenario because the employee did not work at least 1 hour on the holiday date. In this scenario, the holiday date was a Day Off as part of the employee's normal schedule. XYZ Hospitality does not pay Holiday Benefits on Holiday dates where employees do not report to work and are not scheduled to work.           |
 
 Notice how
 a Fixed Holiday Date is configured for each Calendar Date on which employees
@@ -3475,9 +3471,9 @@ The table below shows the Pay Code,
 Pay Rate, and Other Activity Type configuration for Premium Pay for Worked
 Hours Holiday Dates as used by XYZ Hospitality.
 
- | Other Activity Type & Other Activity Options | Regular Hours | OT1 Hours (Daily OT) | OT2 Hours (Unscheduled Regular Hours) | OT3 Hours (Unscheduled OT1 Hours) | OT4 Hours | 
-| --- | --- | --- | --- | --- | --- |
- | Holiday Worked _ Count as Regular Hours Checked _ Count as Day Worked Checked | _ Scheduled Regular Hours on a Holiday Date _ Paid at 200% Base Rate _ Payroll Mapping Code 'HW' | _ Scheduled Overtime Hours on a Holiday Date (Daily > 8 / > 10 Depending on Employee Policy) _ Paid at 250% Base Rate _ Payroll Mapping Code 'HWOT' | _ Unscheduled Regular Hours on a Holiday Date _ Paid at 300% Base Rate _ Payroll Mapping Code 'HWUH' | _ Unscheduled OT1 Hours on a Holiday Date _ Paid at 350% Base Rate _ Payroll Mapping Code 'HWUO' | \* N/A | 
+| Other Activity Type & Other Activity Options                                  | Regular Hours                                                                                     | OT1 Hours (Daily OT)                                                                                                                                 | OT2 Hours (Unscheduled Regular Hours)                                                                 | OT3 Hours (Unscheduled OT1 Hours)                                                                 | OT4 Hours |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | --------- |
+| Holiday Worked _ Count as Regular Hours Checked _ Count as Day Worked Checked | _ Scheduled Regular Hours on a Holiday Date _ Paid at 200% Base Rate \_ Payroll Mapping Code 'HW' | _ Scheduled Overtime Hours on a Holiday Date (Daily > 8 / > 10 Depending on Employee Policy) _ Paid at 250% Base Rate \_ Payroll Mapping Code 'HWOT' | _ Unscheduled Regular Hours on a Holiday Date _ Paid at 300% Base Rate \_ Payroll Mapping Code 'HWUH' | _ Unscheduled OT1 Hours on a Holiday Date _ Paid at 350% Base Rate \_ Payroll Mapping Code 'HWUO' | \* N/A    |
 
 An example
 of a Premium Pay for Worked Hours Holiday Date is shown below.
@@ -3488,13 +3484,13 @@ With this
 configuration, Premium Pay for Worked Hours Holiday Benefits will tracked
 automatically in the scenarios shown below.
 
- | Schedule Exists on Holiday Date | Working Status | Fixed Holiday Benefits Awarded? | 
-| --- | --- | --- |
- | Yes | Working | Yes - Worked Hours are automatically posted to the Holiday Worked Other Activity Type and separated according to hours type. Employees must also work the day before and day after the holiday date in order to receive Holiday Pay. | 
- | Yes | Not Working // Facility Closed | No - No Supervisor Action Required.  InfiniTime will not award Premium Pay for Worked Hours Holiday Benefits in this scenario because the employee did not work. | 
- | Yes | Not Working // Employee Called Out Sick | No - No Supervisor Action Required.  InfiniTime will not award Premium Pay for Worked Hours Holiday Benefits in this scenario because the employee did not work. | 
- | No | Working // Employee Called In For Duty | Yes - Worked Hours are automatically posted to the Holiday Worked Other Activity Type and separated according to hours type. Employees must also work the day before and day after the holiday date in order to receive Holiday Pay. | 
- | No | Not Working | No - No Supervisor Action Required.  InfiniTime will not award Premium Pay for Worked Hours Holiday Benefits in this scenario because the employee did not work. | 
+| Schedule Exists on Holiday Date | Working Status                          | Fixed Holiday Benefits Awarded?                                                                                                                                                                                                      |
+| ------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Yes                             | Working                                 | Yes - Worked Hours are automatically posted to the Holiday Worked Other Activity Type and separated according to hours type. Employees must also work the day before and day after the holiday date in order to receive Holiday Pay. |
+| Yes                             | Not Working // Facility Closed          | No - No Supervisor Action Required.  InfiniTime will not award Premium Pay for Worked Hours Holiday Benefits in this scenario because the employee did not work.                                                                     |
+| Yes                             | Not Working // Employee Called Out Sick | No - No Supervisor Action Required.  InfiniTime will not award Premium Pay for Worked Hours Holiday Benefits in this scenario because the employee did not work.                                                                     |
+| No                              | Working // Employee Called In For Duty  | Yes - Worked Hours are automatically posted to the Holiday Worked Other Activity Type and separated according to hours type. Employees must also work the day before and day after the holiday date in order to receive Holiday Pay. |
+| No                              | Not Working                             | No - No Supervisor Action Required.  InfiniTime will not award Premium Pay for Worked Hours Holiday Benefits in this scenario because the employee did not work.                                                                     |
 
 Notice how
 a Premium Pay for Worked Hours Holiday Date is configured for each Calendar
@@ -3994,14 +3990,14 @@ to reduce the impact of the Hours Mapping Hierarchy. InfiniTime
 Administrators should chose and configure the specific Hours Mapping Type(s)
 which best meets the needs of their organization as outlined below.
 
- | Premium Type | Location within InfiniTime | Description | 
-| --- | --- | --- |
- | Policy Unscheduled Hours Mapping | 1. Click on Lookups, Calculations Setup, Policies. 2. Click on the Schedule Settings / Rules Section. 3. Unscheduled Hours Mapping Settings are displayed on the General Tab. | Unscheduled Hours Mapping Settings are applied to all employees assigned to a policy. Policy Unscheduled Hours Mapping settings are configured separately for each policy within InfiniTime.   Policy Unscheduled Hours Mapping Settings are commonly used to separate all Unscheduled Hours into a single Overtime Bucket such as OT4. | 
- | Holiday Hours Mapping | 1. Click on Lookups - Calculations Setup - Holiday Schedule Types. 2. Click Change while highlighting an existing Holiday Type or click Insert. 3. Click on the Dates Tab. 4. Click Change while highlighting an existing Holiday Date or click Insert. 5. Click on the Hours Mapping Tab. The Hours Mapping Tab is only available for Holiday Dates with 'All Worked Hours are Holiday Pay' = Yes. | Holiday Hours Mapping Settings are applied to all employees assigned to the respective Holiday Type with Worked Hours on the respective Holiday Date. Holiday Hours Mapping Settings are commonly used to separate all Unscheduled Hours worked on a Holiday into a separate bucket such as OT4. | 
- | Other Activity Hours Mapping | 1. Click on Lookups, Calculations Setup, Other Activity Types. 2. Click Change while highlighting an existing Other Activity Type or click Insert. 3. Click on the Hours Mapping Tab. The Hours Mapping Tab is only displayed for Other Activity Types with 'Count as Regular Hours' or 'Only Count as Regular Hours if Scheduled' checked. | Other Activity Hours Mapping Settings are applied to Other Hours for other activity types with Hours Mapping Configured. Other Activity Hours Mapping Settings are configured separately for each Other Activity Type. Other Activity Hours Mapping Settings are commonly used to pay a different rate for hours on a day where the employee was not scheduled to work for other Activity Types set to 'Count as Regular Hours.' The most prevalent scenario that requires Other Activity Hours Mapping is Unscheduled Hours worked on a Holiday Date where All Worked Hours are Holiday Pay is set to No. | 
- | Department Hours Mapping | 1. Click on the Department Button. 2. Click Change while highlighting an existing department or click Insert. 3. Click on the Hours Mapping Tab. | Department Hours Mapping Settings are applied to Worked Hours in a given department and are configured separately for each Department.   Department Hours Mapping Settings are commonly used to separate hours worked for a given department into a specific Overtime Bucket to be paid at a premium rate per hour. | 
- | Job Hours Mapping | 1. Click on Lookups, Employee Setup, Job Costing Lookups, Activity Jobs. 2. Click Change while highlighting an existing job or click Insert. 3. Click on the Hours Mapping Tab. | Job Hours Mapping Settings are applied to Worked Hours in a given Job and are configured separately for each Job.   Job Hours Mapping Settings are commonly used to separate hours worked for a given job into a specific Overtime Bucket to be paid at a premium rate per hour. | 
- | Task Hours Mapping | 1. Click on Lookups, Employee Setup, Job Costing Lookups, Activity Tasks. 2. Click Change while highlighting an existing task or click Insert. 3. Click on the Hours Mapping Tab. | Task Hours Mapping Settings are applied to Worked Hours in a given Task and are configured separately for each Task.   Task Hours Mapping Settings are commonly used to separate hours worked for a given task into a specific Overtime Bucket to be paid at a premium rate per hour. | 
+| Premium Type                     | Location within InfiniTime                                                                                                                                                                                                                                                                                                                                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Policy Unscheduled Hours Mapping | 1. Click on Lookups, Calculations Setup, Policies. 2. Click on the Schedule Settings / Rules Section. 3. Unscheduled Hours Mapping Settings are displayed on the General Tab.                                                                                                                                                                                                                       | Unscheduled Hours Mapping Settings are applied to all employees assigned to a policy. Policy Unscheduled Hours Mapping settings are configured separately for each policy within InfiniTime.   Policy Unscheduled Hours Mapping Settings are commonly used to separate all Unscheduled Hours into a single Overtime Bucket such as OT4.                                                                                                                                                                                                                                                                    |
+| Holiday Hours Mapping            | 1. Click on Lookups - Calculations Setup - Holiday Schedule Types. 2. Click Change while highlighting an existing Holiday Type or click Insert. 3. Click on the Dates Tab. 4. Click Change while highlighting an existing Holiday Date or click Insert. 5. Click on the Hours Mapping Tab. The Hours Mapping Tab is only available for Holiday Dates with 'All Worked Hours are Holiday Pay' = Yes. | Holiday Hours Mapping Settings are applied to all employees assigned to the respective Holiday Type with Worked Hours on the respective Holiday Date. Holiday Hours Mapping Settings are commonly used to separate all Unscheduled Hours worked on a Holiday into a separate bucket such as OT4.                                                                                                                                                                                                                                                                                                           |
+| Other Activity Hours Mapping     | 1. Click on Lookups, Calculations Setup, Other Activity Types. 2. Click Change while highlighting an existing Other Activity Type or click Insert. 3. Click on the Hours Mapping Tab. The Hours Mapping Tab is only displayed for Other Activity Types with 'Count as Regular Hours' or 'Only Count as Regular Hours if Scheduled' checked.                                                         | Other Activity Hours Mapping Settings are applied to Other Hours for other activity types with Hours Mapping Configured. Other Activity Hours Mapping Settings are configured separately for each Other Activity Type. Other Activity Hours Mapping Settings are commonly used to pay a different rate for hours on a day where the employee was not scheduled to work for other Activity Types set to 'Count as Regular Hours.' The most prevalent scenario that requires Other Activity Hours Mapping is Unscheduled Hours worked on a Holiday Date where All Worked Hours are Holiday Pay is set to No. |
+| Department Hours Mapping         | 1. Click on the Department Button. 2. Click Change while highlighting an existing department or click Insert. 3. Click on the Hours Mapping Tab.                                                                                                                                                                                                                                                    | Department Hours Mapping Settings are applied to Worked Hours in a given department and are configured separately for each Department.   Department Hours Mapping Settings are commonly used to separate hours worked for a given department into a specific Overtime Bucket to be paid at a premium rate per hour.                                                                                                                                                                                                                                                                                        |
+| Job Hours Mapping                | 1. Click on Lookups, Employee Setup, Job Costing Lookups, Activity Jobs. 2. Click Change while highlighting an existing job or click Insert. 3. Click on the Hours Mapping Tab.                                                                                                                                                                                                                     | Job Hours Mapping Settings are applied to Worked Hours in a given Job and are configured separately for each Job.   Job Hours Mapping Settings are commonly used to separate hours worked for a given job into a specific Overtime Bucket to be paid at a premium rate per hour.                                                                                                                                                                                                                                                                                                                           |
+| Task Hours Mapping               | 1. Click on Lookups, Employee Setup, Job Costing Lookups, Activity Tasks. 2. Click Change while highlighting an existing task or click Insert. 3. Click on the Hours Mapping Tab.                                                                                                                                                                                                                   | Task Hours Mapping Settings are applied to Worked Hours in a given Task and are configured separately for each Task.   Task Hours Mapping Settings are commonly used to separate hours worked for a given task into a specific Overtime Bucket to be paid at a premium rate per hour.                                                                                                                                                                                                                                                                                                                      |
 
 2. Identify
    the Hour Type(s) to be mapped.
@@ -4030,18 +4026,18 @@ below.
   = Holiday Hours Mapping: Regular, OT1, and OT2 Hours worked on a Holiday
   Date.
 
- | Working Hours Type | Example | 
-| --- | --- |
- | Scheduled Regular Hours | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break   Scheduled Regular Hours are Working Hours which do not qualify for any Overtime Bucket that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, hours less than 8 in a day are considered Regular Hours. As shown above, the employee is scheduled from 8:00 AM to 5:00 PM. All hours worked between 8:00 AM and 5:00 PM will be considered Scheduled Hours. | 
- | Scheduled OT1 Hours | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break, 1 Hour Scheduled OT1   Scheduled OT1 Hours are OT1 Hours that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, hours between 8 and 10 in a day are considered OT1 Hours. Hours greater than 10 in a day are OT2 Hours and as such are not OT1 Hours. As shown above, the employee is scheduled from 8:00 AM to 6:00 PM. All hours worked between 5:00 PM and 6:00 PM are considered Scheduled Hours. | 
- | Scheduled OT2 Hours | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break, 2 Scheduled OT1 Hours, 1 Hour Scheduled OT2   Scheduled OT2 Hours are OT2 Hours that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, hours greater than 10 in a day are considered OT2 Hours. As shown above, the employee is scheduled from 6:00 AM to 6:00 PM. All hours worked between 5:00 PM and 6:00 PM are considered Scheduled Hours. | 
- | Scheduled OT3 Hours | Total Hours: 8 Scheduled OT3 Hours   Scheduled OT3 Hours are OT3 Hours that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, all hours worked on a Sunday are OT3 Hours. As shown above, the employee is scheduled from 6:00 AM to 6:00 PM. All hours worked between 5:00 PM and 6:00 PM are considered Scheduled Hours. | 
- | Scheduled OT4 Hours | Total Hours: 8 Scheduled OT4 Hours   Scheduled OT4 Hours are OT4 Hours that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, all hours worked on a Holiday Date are OT4 Hours. As shown above, the employee is scheduled from 6:00 AM to 3:00 PM on July 4th 2013. All hours worked between 6:00 AM and 3:00 PM are considered Scheduled Hours. | 
- | Unscheduled Regular Hours | Unscheduled Regular Hours w/ 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' disabled   Total Hours: 2 Unscheduled Regular Hours, 6 Scheduled Regular Hours, 1 Hour Unpaid Break   Unscheduled Regular Hours are Working Hours which do not qualify for any Overtime Bucket that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours less than 8 in a day are considered Regular Hours. As shown above, the employee is scheduled from 8:00 AM to 5:00 PM. All regular hours worked outside of 8:00 AM and 5:00 PM will be considered Unscheduled Regular Hours.\* NOTE: The 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' option on the Schedule Settings / Rules section of the policy is intended for organizations who require employees to work at least the scheduled number of hours on a given date prior to receiving Unscheduled Hours. As shown below, if 'Only Hours Worked In Excess of Scheduled Hours are Unscheduled' employees will only receive Unscheduled Hours for hours beyond the duration of their schedule. Unscheduled Regular Hours w/ 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' enabled Example 1: Worked Hours Do Not Exceed Scheduled Hours Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break When 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' is enabled, worked hours must exceed scheduled hours in order for employee's to receive Unscheduled Hours. As shown above, the employee is scheduled from 8:00 AM to 5:00 PM for a total of 8 Working Hours. In this scenario, since Regular Hours are Worked Hours Under 8 in a Day, it is not possible for an employee to receive Unscheduled Regular Hours. Example 2: Worked Hours Exceed Scheduled Hours Total Hours: 6 Scheduled Regular Hours, 1 Hour Unpaid Break, 2 Unscheduled Regular Hours When 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' is enabled, worked hours must exceed scheduled hours in order for employee's to receive Unscheduled Hours. As shown above, the employee is scheduled from 8:00 AM to 3:00 PM for a total of 6 Working Hours. In this scenario, since worked hours exceed scheduled hours, the employee receives two hours Unscheduled Regular Hours. | 
- | Unscheduled OT1 Hours | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break, 1 Hour Unscheduled OT1   Unscheduled OT1 Hours are OT1 Hours that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours between 8 and 10 in a day are considered OT1 Hours. Hours greater than 10 in a day are OT2 Hours and as such are not OT1 Hours. As shown above, the employee is scheduled from 8:00 AM to 5:00 PM. All hours worked between 5:00 PM and 7:00 PM are considered Unscheduled OT1 Hours. | 
- | Unscheduled OT2 Hours | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break, 2 Hour Unscheduled OT1, 1 Unscheduled OT2   Unscheduled OT2 Hours are OT2 Hours that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours over 10 in a day are considered OT2 Hours. As shown above, the employee is scheduled from 6:00 AM to 3:00 PM. All hours worked beyond 5:00 PM are considered Unscheduled OT2 Hours. | 
- | Unscheduled OT3 Hours | Total Hours: 8 Scheduled OT3 Hours, 1 Hour Unpaid Break, 3 Hours Unscheduled OT3   Unscheduled OT3 Hours are OT3 Hours that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours worked on a Sunday are considered OT3 Hours. As shown above, the employee is scheduled from 6:00 AM to 3:00 PM on Sunday 8/11/13. All hours worked beyond 3:00 PM are considered Unscheduled OT3 Hours. | 
- | Unscheduled OT4 Hours | Total Hours: 8 Scheduled OT4 Hours, 1 Hour Unpaid Break, 3 Hours Unscheduled OT4    Unscheduled OT4 Hours are OT4 Hours that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours worked on a Holiday are considered OT4 Hours. As shown above, the employee is scheduled from 6:00 AM to 3:00 PM. All hours worked beyond 3:00 PM are considered Unscheduled OT4 Hours. | 
+| Working Hours Type        | Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Scheduled Regular Hours   | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break   Scheduled Regular Hours are Working Hours which do not qualify for any Overtime Bucket that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, hours less than 8 in a day are considered Regular Hours. As shown above, the employee is scheduled from 8:00 AM to 5:00 PM. All hours worked between 8:00 AM and 5:00 PM will be considered Scheduled Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Scheduled OT1 Hours       | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break, 1 Hour Scheduled OT1   Scheduled OT1 Hours are OT1 Hours that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, hours between 8 and 10 in a day are considered OT1 Hours. Hours greater than 10 in a day are OT2 Hours and as such are not OT1 Hours. As shown above, the employee is scheduled from 8:00 AM to 6:00 PM. All hours worked between 5:00 PM and 6:00 PM are considered Scheduled Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Scheduled OT2 Hours       | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break, 2 Scheduled OT1 Hours, 1 Hour Scheduled OT2   Scheduled OT2 Hours are OT2 Hours that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, hours greater than 10 in a day are considered OT2 Hours. As shown above, the employee is scheduled from 6:00 AM to 6:00 PM. All hours worked between 5:00 PM and 6:00 PM are considered Scheduled Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Scheduled OT3 Hours       | Total Hours: 8 Scheduled OT3 Hours   Scheduled OT3 Hours are OT3 Hours that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, all hours worked on a Sunday are OT3 Hours. As shown above, the employee is scheduled from 6:00 AM to 6:00 PM. All hours worked between 5:00 PM and 6:00 PM are considered Scheduled Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Scheduled OT4 Hours       | Total Hours: 8 Scheduled OT4 Hours   Scheduled OT4 Hours are OT4 Hours that fall within the bounds of an employee's schedule. In this case, based on the policy settings above, all hours worked on a Holiday Date are OT4 Hours. As shown above, the employee is scheduled from 6:00 AM to 3:00 PM on July 4th 2013. All hours worked between 6:00 AM and 3:00 PM are considered Scheduled Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Unscheduled Regular Hours | Unscheduled Regular Hours w/ 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' disabled   Total Hours: 2 Unscheduled Regular Hours, 6 Scheduled Regular Hours, 1 Hour Unpaid Break   Unscheduled Regular Hours are Working Hours which do not qualify for any Overtime Bucket that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours less than 8 in a day are considered Regular Hours. As shown above, the employee is scheduled from 8:00 AM to 5:00 PM. All regular hours worked outside of 8:00 AM and 5:00 PM will be considered Unscheduled Regular Hours.\* NOTE: The 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' option on the Schedule Settings / Rules section of the policy is intended for organizations who require employees to work at least the scheduled number of hours on a given date prior to receiving Unscheduled Hours. As shown below, if 'Only Hours Worked In Excess of Scheduled Hours are Unscheduled' employees will only receive Unscheduled Hours for hours beyond the duration of their schedule. Unscheduled Regular Hours w/ 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' enabled Example 1: Worked Hours Do Not Exceed Scheduled Hours Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break When 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' is enabled, worked hours must exceed scheduled hours in order for employee's to receive Unscheduled Hours. As shown above, the employee is scheduled from 8:00 AM to 5:00 PM for a total of 8 Working Hours. In this scenario, since Regular Hours are Worked Hours Under 8 in a Day, it is not possible for an employee to receive Unscheduled Regular Hours. Example 2: Worked Hours Exceed Scheduled Hours Total Hours: 6 Scheduled Regular Hours, 1 Hour Unpaid Break, 2 Unscheduled Regular Hours When 'Only Hours Worked in Excess of Scheduled Hours are Unscheduled' is enabled, worked hours must exceed scheduled hours in order for employee's to receive Unscheduled Hours. As shown above, the employee is scheduled from 8:00 AM to 3:00 PM for a total of 6 Working Hours. In this scenario, since worked hours exceed scheduled hours, the employee receives two hours Unscheduled Regular Hours. |
+| Unscheduled OT1 Hours     | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break, 1 Hour Unscheduled OT1   Unscheduled OT1 Hours are OT1 Hours that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours between 8 and 10 in a day are considered OT1 Hours. Hours greater than 10 in a day are OT2 Hours and as such are not OT1 Hours. As shown above, the employee is scheduled from 8:00 AM to 5:00 PM. All hours worked between 5:00 PM and 7:00 PM are considered Unscheduled OT1 Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Unscheduled OT2 Hours     | Total Hours: 8 Scheduled Regular Hours, 1 Hour Unpaid Break, 2 Hour Unscheduled OT1, 1 Unscheduled OT2   Unscheduled OT2 Hours are OT2 Hours that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours over 10 in a day are considered OT2 Hours. As shown above, the employee is scheduled from 6:00 AM to 3:00 PM. All hours worked beyond 5:00 PM are considered Unscheduled OT2 Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Unscheduled OT3 Hours     | Total Hours: 8 Scheduled OT3 Hours, 1 Hour Unpaid Break, 3 Hours Unscheduled OT3   Unscheduled OT3 Hours are OT3 Hours that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours worked on a Sunday are considered OT3 Hours. As shown above, the employee is scheduled from 6:00 AM to 3:00 PM on Sunday 8/11/13. All hours worked beyond 3:00 PM are considered Unscheduled OT3 Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Unscheduled OT4 Hours     | Total Hours: 8 Scheduled OT4 Hours, 1 Hour Unpaid Break, 3 Hours Unscheduled OT4    Unscheduled OT4 Hours are OT4 Hours that fall outside the bounds of an employee's schedule. In this case, based on the policy settings above, hours worked on a Holiday are considered OT4 Hours. As shown above, the employee is scheduled from 6:00 AM to 3:00 PM. All hours worked beyond 3:00 PM are considered Unscheduled OT4 Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 ### Example Hours Mapping Configuration:
 
@@ -4070,14 +4066,14 @@ table below describes when Unscheduled OT1 and Unscheduled OT2 Hours would
 be mapped to OT3 if the above settings were configured for each Hours
 Mapping Type individually.
 
- | Hours Mapping Type | Unscheduled OT1 and Unscheduled OT2 Hours would be mapped to OT3... | 
-| --- | --- |
- | Policy Unscheduled Hours Mapping | Unscheduled OT1 and Unscheduled OT2 Hours would be mapped directly to OT3 for all employees assigned to the respective policy automatically. No additional actions, such as working on a specific Department / Job / Task or Other Activity Type are required. | 
- | Holiday Hours Mapping | All Unscheduled OT1 and Unscheduled OT2 Hours _worked on the Holiday Date_ would be mapped to OT3. | 
- | Other Activity Hours Mapping | All Unscheduled OT1 and Unscheduled OT2 Hours _for the respective Other Activity Type_ would be mapped to OT3. | 
- | Department Hours Mapping | All Unscheduled OT1 and Unscheduled OT2 Hours _assigned to the respective Department_ would be mapped to OT3. | 
- | Job Hours Mapping | All Unscheduled OT1 and Unscheduled OT2 Hours _assigned to the respective Job_ would be mapped to OT3. | 
- | Task Hours Mapping | All Unscheduled OT1 and Unscheduled OT2 Hours _assigned to the respective Task_ would be mapped to OT3. | 
+| Hours Mapping Type               | Unscheduled OT1 and Unscheduled OT2 Hours would be mapped to OT3...                                                                                                                                                                                            |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Policy Unscheduled Hours Mapping | Unscheduled OT1 and Unscheduled OT2 Hours would be mapped directly to OT3 for all employees assigned to the respective policy automatically. No additional actions, such as working on a specific Department / Job / Task or Other Activity Type are required. |
+| Holiday Hours Mapping            | All Unscheduled OT1 and Unscheduled OT2 Hours _worked on the Holiday Date_ would be mapped to OT3.                                                                                                                                                             |
+| Other Activity Hours Mapping     | All Unscheduled OT1 and Unscheduled OT2 Hours _for the respective Other Activity Type_ would be mapped to OT3.                                                                                                                                                 |
+| Department Hours Mapping         | All Unscheduled OT1 and Unscheduled OT2 Hours _assigned to the respective Department_ would be mapped to OT3.                                                                                                                                                  |
+| Job Hours Mapping                | All Unscheduled OT1 and Unscheduled OT2 Hours _assigned to the respective Job_ would be mapped to OT3.                                                                                                                                                         |
+| Task Hours Mapping               | All Unscheduled OT1 and Unscheduled OT2 Hours _assigned to the respective Task_ would be mapped to OT3.                                                                                                                                                        |
 
 3.  Understand how the Hours Mapping Hierarchy will affects Employee Hours
 
@@ -4119,11 +4115,11 @@ if an employees on the Production Employee's policy work Unscheduled Regular
 or OT1 Hours on a Holiday Date the Unscheduled OT2 Hours will be posted
 to OT4.
 
- | ABC Manufacturing Company - Hours Mapping Settings | | 
-| --- |
- | Hours Mapping Type | Hours Mapping Settings | 
- | Policy Unscheduled Hours Mapping | _ Scheduled Hours: + N/A _ Unscheduled Hours: + Unscheduled Regular HoursOT2 + Unscheduled OT1 HoursOT2 | 
- | Holiday Hours Mapping | _ Scheduled Hours: + N/A _ Unscheduled Hours: + Unscheduled OT2 HoursOT4 | 
+| ABC Manufacturing Company - Hours Mapping Settings |                                                                                                         |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Hours Mapping Type                                 | Hours Mapping Settings                                                                                  |
+| Policy Unscheduled Hours Mapping                   | _ Scheduled Hours: + N/A _ Unscheduled Hours: + Unscheduled Regular HoursOT2 + Unscheduled OT1 HoursOT2 |
+| Holiday Hours Mapping                              | _ Scheduled Hours: + N/A _ Unscheduled Hours: + Unscheduled OT2 HoursOT4                                |
 
 ABC Manufacturing - Policy
 Unscheduled Hours Mapping Example:
@@ -4202,13 +4198,13 @@ the Head Nurse role then the premium would be configured on the Head Nurse
 department. Similarly, if Head Nurse was a Job or Task then the premium
 would be configured on the Job or Task respectively.
 
- | Premium Type | Location within InfiniTime | Description | 
-| --- | --- | --- |
- | Shift Differentials | 1. Click on Lookups, Scheduling Setup, Shifts. 2. Click Change while highlighting an existing shift or click Insert. 3.Check the box labeled 'Used for Differential' 4. Click on the Differential Pay Tab. | Shift differentials are periods of time during which employees receive bonuses in the form of additional pay. Employees working during the hours defined by the shift differential will receive shift differential pay. | 
- | Department Premiums | 1. Click on the Department Button. 2. Click Change while highlighting an existing department or click Insert. 3. Click on the Premium Pay Tab. | Department premiums are configured separately for each department in InfiniTime. Employees will receive Department Premiums when working in a department configured with a Premium. | 
- | Job Premiums | 1. Click on Lookups, Employee Setup, Job Costing Lookups, Activity Jobs. 2. Click Change while highlighting an existing job or click Insert. 3. Click on the Premium Pay Tab. | Job premiums are configured separately for each Job in InfiniTime. Employees will receive Job Premiums when working in a Job configured with a Premium. | 
- | Task Premiums | 1. Click on Lookups, Employee Setup, Job Costing Lookups, Activity Tasks. 2. Click Change while highlighting an existing task or click Insert. 3. Click on the Premium Pay Tab. | Task premiums are configured separately for each Task in InfiniTime. Employees will receive Task Premiums when working in a Task configured with a Premium. | 
- | Overtime Premiums | 1. Click on Company, Setup, Policies. 2. Click Change while highlighting an existing policy or click Insert. 3. Click on Overtime Rules. [Refer to Overtime Settings for more information on Overtime Pay Methods.](../../Overtime_Settings.md) | Overtime Premiums are configured separately for each Overtime Type from OT1 to OT4. Employees will receive Overtime Premiums for any Overtime Type with a premium configured. For example, if a premium is set for OT1, any OT1 hours will be calculated as Premium Pay. | 
+| Premium Type        | Location within InfiniTime                                                                                                                                                                                                                      | Description                                                                                                                                                                                                                                                              |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Shift Differentials | 1. Click on Lookups, Scheduling Setup, Shifts. 2. Click Change while highlighting an existing shift or click Insert. 3.Check the box labeled 'Used for Differential' 4. Click on the Differential Pay Tab.                                      | Shift differentials are periods of time during which employees receive bonuses in the form of additional pay. Employees working during the hours defined by the shift differential will receive shift differential pay.                                                  |
+| Department Premiums | 1. Click on the Department Button. 2. Click Change while highlighting an existing department or click Insert. 3. Click on the Premium Pay Tab.                                                                                                  | Department premiums are configured separately for each department in InfiniTime. Employees will receive Department Premiums when working in a department configured with a Premium.                                                                                      |
+| Job Premiums        | 1. Click on Lookups, Employee Setup, Job Costing Lookups, Activity Jobs. 2. Click Change while highlighting an existing job or click Insert. 3. Click on the Premium Pay Tab.                                                                   | Job premiums are configured separately for each Job in InfiniTime. Employees will receive Job Premiums when working in a Job configured with a Premium.                                                                                                                  |
+| Task Premiums       | 1. Click on Lookups, Employee Setup, Job Costing Lookups, Activity Tasks. 2. Click Change while highlighting an existing task or click Insert. 3. Click on the Premium Pay Tab.                                                                 | Task premiums are configured separately for each Task in InfiniTime. Employees will receive Task Premiums when working in a Task configured with a Premium.                                                                                                              |
+| Overtime Premiums   | 1. Click on Company, Setup, Policies. 2. Click Change while highlighting an existing policy or click Insert. 3. Click on Overtime Rules. [Refer to Overtime Settings for more information on Overtime Pay Methods.](../../Overtime_Settings.md) | Overtime Premiums are configured separately for each Overtime Type from OT1 to OT4. Employees will receive Overtime Premiums for any Overtime Type with a premium configured. For example, if a premium is set for OT1, any OT1 hours will be calculated as Premium Pay. |
 
 Identify
 the Hours Type(s) eligible for the premium
@@ -4390,22 +4386,22 @@ premiums each configured with the Amount Pay method.
 - Policy Premium:           Amt
   - TWAGE =  Hourly Wage
 
- | Ex.# | Base Rate | Department Premium Amount | Job Premium Amount | Task Premium Amount | Policy Overtime Premium Amount | 
-| --- | --- | --- | --- | --- | --- |
- | 1 | $10.00 | $0.50 | $0.25 | $0.25 | $1.00 | 
- | 2 | $15.00 | $0.50 | $0.50 | $0.25 | $0.50 | 
+| Ex.# | Base Rate | Department Premium Amount | Job Premium Amount | Task Premium Amount | Policy Overtime Premium Amount |
+| ---- | --------- | ------------------------- | ------------------ | ------------------- | ------------------------------ |
+| 1    | $10.00    | $0.50                     | $0.25              | $0.25               | $1.00                          |
+| 2    | $15.00    | $0.50                     | $0.50              | $0.25               | $0.50                          |
 
 Note: Values from the table are used in the examples
 below.
 
 Example 1
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | $0.50 + $10.00 | $10.50 | 
- | JOB | $0.25 + $10.50 | $10.75 | 
- | TASK | $0.25 + $10.75 | $11.00 | 
- | POLICY | $0.50 + $11.00 | $11.50 | 
+| Premium Type | Calculation    | Resulting Hourly Wage |
+| ------------ | -------------- | --------------------- |
+| DEPT         | $0.50 + $10.00 | $10.50                |
+| JOB          | $0.25 + $10.50 | $10.75                |
+| TASK         | $0.25 + $10.75 | $11.00                |
+| POLICY       | $0.50 + $11.00 | $11.50                |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -4413,12 +4409,12 @@ wage for any hours qualifying for all premiums.
 
 Example 2
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | $0.50 + $15.00 | $15.50 | 
- | JOB | $0.50 + $15.50 | $16.00 | 
- | TASK | $0.25 + $16.00 | $16.25 | 
- | POLICY | $0.50 + $16.25 | $16.75 | 
+| Premium Type | Calculation    | Resulting Hourly Wage |
+| ------------ | -------------- | --------------------- |
+| DEPT         | $0.50 + $15.00 | $15.50                |
+| JOB          | $0.50 + $15.50 | $16.00                |
+| TASK         | $0.25 + $16.00 | $16.25                |
+| POLICY       | $0.50 + $16.25 | $16.75                |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -4438,22 +4434,22 @@ and Policy Overtime premiums each configured with the Percent Pay method.
 - Task Premium:              (% \* JWAGE) + JWage = TWAGE
 - Policy Premium:            (% \* TWAGE) + TWAGE = Hourly Wage
 
- | Ex.# | Base Rate | Department Premium Percent | Job Premium Percent | Task Premium Percent | Policy Overtime Premium Percent | 
-| --- | --- | --- | --- | --- | --- |
- | 1 | $10.00 | 5% | 10% | 10% | 15% | 
- | 2 | $15.00 | 5% | 5% | 5% | 15% | 
+| Ex.# | Base Rate | Department Premium Percent | Job Premium Percent | Task Premium Percent | Policy Overtime Premium Percent |
+| ---- | --------- | -------------------------- | ------------------- | -------------------- | ------------------------------- |
+| 1    | $10.00    | 5%                         | 10%                 | 10%                  | 15%                             |
+| 2    | $15.00    | 5%                         | 5%                  | 5%                   | 15%                             |
 
 Note: Values from the table are used in the examples
 below.
 
 Example 1
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | (.05 \* $10.00) + $10.00 | $10.50 | 
- | JOB | (.10 \* $10.50) + $10.50 | $11.55 | 
- | TASK | (.10 \* $11.55) + $11.55 | $12.71 | 
- | POLICY | (.15 \* $12.71) + $12.71 | $14.62 | 
+| Premium Type | Calculation              | Resulting Hourly Wage |
+| ------------ | ------------------------ | --------------------- |
+| DEPT         | (.05 \* $10.00) + $10.00 | $10.50                |
+| JOB          | (.10 \* $10.50) + $10.50 | $11.55                |
+| TASK         | (.10 \* $11.55) + $11.55 | $12.71                |
+| POLICY       | (.15 \* $12.71) + $12.71 | $14.62                |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -4461,12 +4457,12 @@ wage for any hours qualifying for all premiums.
 
 Example 2
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | (.05 \* $15.00) + $15.00 | $15.75 | 
- | JOB | (.05 \* $15.75) + $15.75 | $16.54 | 
- | TASK | (.05 \* $16.54) + $16.54 | $17.37 | 
- | POLICY | (.15 \* $17.37) + $17.37 | $19.98 | 
+| Premium Type | Calculation              | Resulting Hourly Wage |
+| ------------ | ------------------------ | --------------------- |
+| DEPT         | (.05 \* $15.00) + $15.00 | $15.75                |
+| JOB          | (.05 \* $15.75) + $15.75 | $16.54                |
+| TASK         | (.05 \* $16.54) + $16.54 | $17.37                |
+| POLICY       | (.15 \* $17.37) + $17.37 | $19.98                |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -4487,22 +4483,22 @@ and Policy Overtime premiums each configured with the Rate Pay method.
 - Policy Premium: Rate = Hourly
   Wage
 
- | Ex.# | Base Rate | Department Premium Rate | Job Premium Rate | Task Premium Rate | Policy Overtime Premium Rate | 
-| --- | --- | --- | --- | --- | --- |
- | 1 | $10.00 | $8.00 | $8.50 | $9.00 | $9.50 | 
- | 2 | $15.00 | $16.00 | $18.00 | $19.00 | $20.00 | 
+| Ex.# | Base Rate | Department Premium Rate | Job Premium Rate | Task Premium Rate | Policy Overtime Premium Rate |
+| ---- | --------- | ----------------------- | ---------------- | ----------------- | ---------------------------- |
+| 1    | $10.00    | $8.00                   | $8.50            | $9.00             | $9.50                        |
+| 2    | $15.00    | $16.00                  | $18.00           | $19.00            | $20.00                       |
 
 Note: Values from the table are used in the examples
 below.
 
 Example 1
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | $8.00 = Hourly Wage | $8.00 | 
- | JOB | $8.50 = Hourly Wage | $8.50 | 
- | TASK | $9.00 = Hourly Wage | $9.00 | 
- | POLICY | $9.50 = Hourly Wage | $9.50 | 
+| Premium Type | Calculation         | Resulting Hourly Wage |
+| ------------ | ------------------- | --------------------- |
+| DEPT         | $8.00 = Hourly Wage | $8.00                 |
+| JOB          | $8.50 = Hourly Wage | $8.50                 |
+| TASK         | $9.00 = Hourly Wage | $9.00                 |
+| POLICY       | $9.50 = Hourly Wage | $9.50                 |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -4510,12 +4506,12 @@ wage for any hours qualifying for all premiums.
 
 Example 2
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | $16.00 = Hourly Wage | $16.00 | 
- | JOB | $18.00 = Hourly Wage | $18.00 | 
- | TASK | $19.00 = Hourly Wage | $19.00 | 
- | POLICY | $20.00 = Hourly Wage | $20.00 | 
+| Premium Type | Calculation          | Resulting Hourly Wage |
+| ------------ | -------------------- | --------------------- |
+| DEPT         | $16.00 = Hourly Wage | $16.00                |
+| JOB          | $18.00 = Hourly Wage | $18.00                |
+| TASK         | $19.00 = Hourly Wage | $19.00                |
+| POLICY       | $20.00 = Hourly Wage | $20.00                |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -4537,22 +4533,22 @@ An example of this concept is provided below.
 - Policy Premium:           Rate
   =  Hourly Wage
 
- | Ex.# | Base Rate | Department Premium Amount | Job Premium Amount | Task Premium Amount | Policy Overtime Premium Rate | 
-| --- | --- | --- | --- | --- | --- |
- | 1 | $10.00 | $0.50 | $0.25 | $0.25 | $14.00 | 
- | 2 | $15.00 | $0.50 | $0.50 | $0.25 | $19.00 | 
+| Ex.# | Base Rate | Department Premium Amount | Job Premium Amount | Task Premium Amount | Policy Overtime Premium Rate |
+| ---- | --------- | ------------------------- | ------------------ | ------------------- | ---------------------------- |
+| 1    | $10.00    | $0.50                     | $0.25              | $0.25               | $14.00                       |
+| 2    | $15.00    | $0.50                     | $0.50              | $0.25               | $19.00                       |
 
 Note: Values from the table
 are used in the examples below.
 
 Example 1
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | $0.50 + $10.00 | $10.50 | 
- | JOB | $0.25 + $10.50 | $10.75 | 
- | TASK | $0.25 + $10.75 | $11.00 | 
- | POLICY | $14.00 = Hourly Wage | $14.00 | 
+| Premium Type | Calculation          | Resulting Hourly Wage |
+| ------------ | -------------------- | --------------------- |
+| DEPT         | $0.50 + $10.00       | $10.50                |
+| JOB          | $0.25 + $10.50       | $10.75                |
+| TASK         | $0.25 + $10.75       | $11.00                |
+| POLICY       | $14.00 = Hourly Wage | $14.00                |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -4560,12 +4556,12 @@ wage for any hours qualifying for all premiums.
 
 Example 2
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | $0.50 + $15.00 | $15.50 | 
- | JOB | $0.50 + $15.50 | $16.00 | 
- | TASK | $0.25 + $16.00 | $16.25 | 
- | POLICY | $19.00 = Hourly Wage | $19.00 | 
+| Premium Type | Calculation          | Resulting Hourly Wage |
+| ------------ | -------------------- | --------------------- |
+| DEPT         | $0.50 + $15.00       | $15.50                |
+| JOB          | $0.50 + $15.50       | $16.00                |
+| TASK         | $0.25 + $16.00       | $16.25                |
+| POLICY       | $19.00 = Hourly Wage | $19.00                |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -4587,22 +4583,22 @@ rate premiums. An example of this concept is provided below.
 - Policy Premium:           Rate
   =  Hourly Wage
 
- | Ex.# | Base Rate | Department Premium Rate | Job Premium Amount | Task Premium Amount | Policy Overtime Premium Amount | 
-| --- | --- | --- | --- | --- | --- |
- | 1 | $10.00 | $12.00 | $0.25 | $0.25 | $1.00 | 
- | 2 | $15.00 | $17.00 | $0.50 | $0.25 | $1.00 | 
+| Ex.# | Base Rate | Department Premium Rate | Job Premium Amount | Task Premium Amount | Policy Overtime Premium Amount |
+| ---- | --------- | ----------------------- | ------------------ | ------------------- | ------------------------------ |
+| 1    | $10.00    | $12.00                  | $0.25              | $0.25               | $1.00                          |
+| 2    | $15.00    | $17.00                  | $0.50              | $0.25               | $1.00                          |
 
 Note: Values from the table
 are used in the examples below.
 
 Example 1
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | $12.00 = Hourly Wage | $12.00 | 
- | JOB | $0.25 + $12.00 | $12.25 | 
- | TASK | $0.25 + $12.25 | $12.50 | 
- | POLICY | $1.00 + $12.50 | $13.50 | 
+| Premium Type | Calculation          | Resulting Hourly Wage |
+| ------------ | -------------------- | --------------------- |
+| DEPT         | $12.00 = Hourly Wage | $12.00                |
+| JOB          | $0.25 + $12.00       | $12.25                |
+| TASK         | $0.25 + $12.25       | $12.50                |
+| POLICY       | $1.00 + $12.50       | $13.50                |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -4610,12 +4606,12 @@ wage for any hours qualifying for all premiums.
 
 Example 2
 
- | Premium Type | Calculation | Resulting Hourly Wage | 
-| --- | --- | --- |
- | DEPT | $17.00 = Hourly Wage | $17.00 | 
- | JOB | $0.50 + $17.00 | $17.50 | 
- | TASK | $0.25 + $17.50 | $17.75 | 
- | POLICY | $1.00 + $17.75 | $18.75 | 
+| Premium Type | Calculation          | Resulting Hourly Wage |
+| ------------ | -------------------- | --------------------- |
+| DEPT         | $17.00 = Hourly Wage | $17.00                |
+| JOB          | $0.50 + $17.00       | $17.50                |
+| TASK         | $0.25 + $17.50       | $17.75                |
+| POLICY       | $1.00 + $17.75       | $18.75                |
 
 Note: The Hourly Wage shown in bold is the final
 wage after all premiums are applied. The employee would be paid the final
@@ -5127,21 +5123,21 @@ or process flow, is also provided below.
 
 InfiniTime Initial Configuration
 
- | Step | Task | Related Deliverable(s) | Related Documentation | 
-| --- | --- | --- | --- |
- | 1 | InfiniTime Installation | _ InfiniTime Server must meet minimum requirements. | _ Minimum Requirements _ Information Technology Brief | 
- | 2 | Distribute Client Shortcuts to all Client Machines | _ Client Shortcuts must be placed on All Client Machines for use by InfiniTime Administrators, Payroll Clerks, Supervisors, and End Users as appropriate. | _ [Client Access Overview](../ovr_SoftwareOverview.md#so2_Client_Access_Overview) | 
- | 3 | Create Employee Profile for all Supervisors and Administrators | _ Distribute Login IDs and Passwords to Supervisors and Software Administrators. | _ [Employee Profiles](../ovr_SoftwareOverview.md#so153_Employee_Profiles_and_Related_Settings) | 
- | 4 | Software Administrators should familiarize themselves with the InfiniTime Application and gather employee information from existing Human Resources and / or Payroll Software for import. | _ Complete the Employee Import Template. _ Import Employees into InfiniTime. | _ [InfiniTime Software Overview](../ovr_SoftwareOverview.md#so1_InfiniTime_Software_Overview_Introduction) \_ _ [InfiniTime Import Tool](../ovr_SoftwareAdministration.md#imp1_Import_Introduction) | 
- | 5 | Install all Hardware Time and Attendance Terminals and confirm Punch Flow | _ Install all Hardware Time and Attendance Terminals at the desired location _ Confirm Employee Filters are configured as appropriate for each Hardware Time and Attendance Terminal _ Confirm Punch Flow | _ [Refer to the Information Technology Brief](https://version9.infinitimeonline.net/InfiniTime/RESOURCES/SoftwareAdministration_ITBrief.pdf) _ Refer to Hardware Documentation for your chosen Time and Attendance Terminal Model | 
- | 6 | Software Administrators and Human Resources Managers should document current Time and Attendance Rules using the provided Questionnaire. | _ Complete the Questionnaire for each set of employees requiring distinct Time and Attendance Rules. _ Configure Policies within InfiniTime as appropriate for each set of employees with distinct Time and Attendance Rules | _ [Policy Overview](../Policies/Policy_Overview.md#pol1_Policy_Overview) | 
- | 7 | Software Administrators and Human Resources Managers should review available features and determine which optional features, if any, are desired. | _ Review available features as outlined below. \_ Configure each desired feature and assign settings to employees as appropriate using Quick Assign. | \_ InfiniTime Software Overview + [Manager Module Toolbar Buttons](../ovr_SoftwareOverview.md#so17_Manager_Module_Toolbar_Buttons___Menu) + [Manager Module Menu](../ovr_SoftwareOverview.md#so40_InfiniTime_Manager_Module_Menu) _ [Employee Profiles and Related Settings](../ovr_SoftwareOverview.md#so153_Employee_Profiles_and_Related_Settings) Optional Features: _ [Job Costing](Product_Configuration.md#cnf01_Job_Costing_Introduction) _ [Holidays](Product_Configuration.md#hol01_Holiday_Types_Configuration_-_Introduction) _ [Accruals](Accrual_Configuration.md#acc01_Employee_Accruals_Introduction) _ [Groups](Product_Configuration.md#gr01_Groups_Introduction) _ [Hours Mapping](Product_Configuration.md#hm1_Hours_Mapping) _ [Pay Premiums](Product_Configuration.md#pp01_Pay_Premiums_Introduction) _ [Scheduling](../Scheduling/Scheduling.md#sch01_What_do_I_want_to_accomplish_by_using_schedules_) \_ [Shift Differentials](../Policies/Policy_Overview.md#pol138_Schedule_Settings___Rules_-_Shift_Differentials_Tab) _ [Escort](../Escort/Escort_Overview.md#esc01_Escort_Overview) | 
- | 8 | Software Administrators and Human Resource Managers should: _ Review Hours and Earning Types currently tracked for employees and ensure Policies and Other Activity Types within InfiniTime are configured as needed to track all Hours and Earning Types of interest. _ Decide on the final method for transferring employee hours and earnings to Payroll. | _ Identify and List all Hours and Earning Types Tracked by your Organization + IE: Regular Hours, Overtime Hours, Paid Leave, Unpaid Leave, etc. _ Configure Other Activity Types within InfiniTime as appropriate. _ Configure Payroll Export as appropriate. | The following items are Required Features for tracking and transferring employee hours / earnings to payroll and must be configured for all InfiniTime Installations: _ [Other Activity Types](Product_Configuration.md#ota01_Other_Activity_Types) _ [Reports](../Reports/Reports.md#rpt01_InfiniTime_Reports_-_Introduction) OR [Payroll Export](../PayrollExport/Payroll_Export.md#pxh2_Introduction) | 
- | 9 | Software Administrators and Human Resource Managers should review the benefits of Scheduling and determine if InfiniTime Scheduling will be implemented. | _ Determine if InfiniTime Scheduling is of interest to your Organization _ Choose a Scheduling Method _ Configure Default Schedules as appropriate for employees _ Train Staff on use of the Scheduling Features to define employee schedules moving forward | _ [Scheduling Overview](../Scheduling/Scheduling.md#sch01_What_do_I_want_to_accomplish_by_using_schedules_) | 
- | 10 | Software Administrators and Human Resource Managers should familiarize themselves with InfiniTime Timecard Editing. | _ Understand available editing modes (Delayed Edit, Delayed Save, Delayed Edit Only, Both Delayed Edit & Delayed Save, Lockout) _ Understand In Line Editing _ Understand Quick Punch + Ability to use Quick Punch to insert punches for one or more employees on one or more days + Ability to use Quick Punch to Insert Other Activity / Other Amounts + Ability to use Preset and Custom Date Ranges with Quick Punch _ Understand the differences between the Company Timecard and Employee Timecard _ Select a small group of employees and insert timecards for Last Pay Period to match their actual worked hours / Paid Leave / Unpaid Leave etc. _ Review employee hours and totals as totaled on the Company Timecard and on Timecard Reports to ensure Policy Configuration accurately represents your organization's needs. _ Adjust Policy Settings if needed | _ [Timecard Editing Overview](../TimecardEditing/TimecardEditing.md#tim01_Timecard_Editing_Overview) | 
- | 11 | Software Administrators and Human Resource Managers should familiarize themselves with available reports and select specific reports for production use. | _ Determine which reports best fit the needs of your organization. _ Configure Scheduled Reports as desired. _ Confirm the SMTP Service on the InfiniTime Server is properly configured for use in your Workgroup and / or Domain. _ Understand relevant reporting features + Quick Print + Saved Reports | _ [Report Library Overview](../Reports/Reports.md#rpt01_InfiniTime_Reports_-_Introduction) _ [Automatic Report Requirements](../Reports/Reports.md#AutoReq) _ | 
- | 12 | Software Administrators and Human Resource Managers should familiarize themselves with available Security Roles and Security Configuration. | _ Security Roles and Security Features should be configured to meet the needs of your organization. _ All employees must be assigned to the appropriate security role based on their responsibilities within the InfiniTime Application. | _ [Security Overview](../Security/Security_Overview.md#sec01_Security_Overview) | 
- | 13 | A Parallel Payroll Run should be performed for the first two pay periods after InfiniTime has been configured to ensure all Hours and Earning Types have been identified and Employee Policies have been configured appropriately. | _ Employees should continue punching in and out with both the existing Time and Attendance Solution and the InfiniTime Software for one to two pay periods. _ Employee Hours and Earnings should be totaled from both the existing solution and the InfiniTime software and compared. This process helps ensure all hours and earning types have been identified and ensure  policies within InfiniTime have been configured appropriately. | \_ N/A | 
+| Step | Task                                                                                                                                                                                                                                                                                                                                                         | Related Deliverable(s)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Related Documentation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1    | InfiniTime Installation                                                                                                                                                                                                                                                                                                                                      | \_ InfiniTime Server must meet minimum requirements.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | _ Minimum Requirements _ Information Technology Brief                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 2    | Distribute Client Shortcuts to all Client Machines                                                                                                                                                                                                                                                                                                           | \_ Client Shortcuts must be placed on All Client Machines for use by InfiniTime Administrators, Payroll Clerks, Supervisors, and End Users as appropriate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | \_ [Client Access Overview](../ovr_SoftwareOverview.md#so2_Client_Access_Overview)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 3    | Create Employee Profile for all Supervisors and Administrators                                                                                                                                                                                                                                                                                               | \_ Distribute Login IDs and Passwords to Supervisors and Software Administrators.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | \_ [Employee Profiles](../ovr_SoftwareOverview.md#so153_Employee_Profiles_and_Related_Settings)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 4    | Software Administrators should familiarize themselves with the InfiniTime Application and gather employee information from existing Human Resources and / or Payroll Software for import.                                                                                                                                                                    | _ Complete the Employee Import Template. _ Import Employees into InfiniTime.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | _ [InfiniTime Software Overview](../ovr_SoftwareOverview.md#so1_InfiniTime_Software_Overview_Introduction) \_ _ [InfiniTime Import Tool](../ovr_SoftwareAdministration.md#imp1_Import_Introduction)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 5    | Install all Hardware Time and Attendance Terminals and confirm Punch Flow                                                                                                                                                                                                                                                                                    | _ Install all Hardware Time and Attendance Terminals at the desired location _ Confirm Employee Filters are configured as appropriate for each Hardware Time and Attendance Terminal \_ Confirm Punch Flow                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | _ [Refer to the Information Technology Brief](https://version9.infinitimeonline.net/InfiniTime/RESOURCES/SoftwareAdministration_ITBrief.pdf) _ Refer to Hardware Documentation for your chosen Time and Attendance Terminal Model                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 6    | Software Administrators and Human Resources Managers should document current Time and Attendance Rules using the provided Questionnaire.                                                                                                                                                                                                                     | _ Complete the Questionnaire for each set of employees requiring distinct Time and Attendance Rules. _ Configure Policies within InfiniTime as appropriate for each set of employees with distinct Time and Attendance Rules                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | \_ [Policy Overview](../Policies/Policy_Overview.md#pol1_Policy_Overview)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 7    | Software Administrators and Human Resources Managers should review available features and determine which optional features, if any, are desired.                                                                                                                                                                                                            | \_ Review available features as outlined below. \_ Configure each desired feature and assign settings to employees as appropriate using Quick Assign.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | \_ InfiniTime Software Overview + [Manager Module Toolbar Buttons](../ovr_SoftwareOverview.md#so17_Manager_Module_Toolbar_Buttons___Menu) + [Manager Module Menu](../ovr_SoftwareOverview.md#so40_InfiniTime_Manager_Module_Menu) _ [Employee Profiles and Related Settings](../ovr_SoftwareOverview.md#so153_Employee_Profiles_and_Related_Settings) Optional Features: _ [Job Costing](Product_Configuration.md#cnf01_Job_Costing_Introduction) _ [Holidays](Product_Configuration.md#hol01_Holiday_Types_Configuration_-_Introduction) _ [Accruals](Accrual_Configuration.md#acc01_Employee_Accruals_Introduction) _ [Groups](Product_Configuration.md#gr01_Groups_Introduction) _ [Hours Mapping](Product_Configuration.md#hm1_Hours_Mapping) _ [Pay Premiums](Product_Configuration.md#pp01_Pay_Premiums_Introduction) _ [Scheduling](../Scheduling/Scheduling.md#sch01_What_do_I_want_to_accomplish_by_using_schedules_) \_ [Shift Differentials](../Policies/Policy_Overview.md#pol138_Schedule_Settings___Rules_-_Shift_Differentials_Tab) \_ [Escort](../Escort/Escort_Overview.md#esc01_Escort_Overview) |
+| 8    | Software Administrators and Human Resource Managers should: _ Review Hours and Earning Types currently tracked for employees and ensure Policies and Other Activity Types within InfiniTime are configured as needed to track all Hours and Earning Types of interest. _ Decide on the final method for transferring employee hours and earnings to Payroll. | _ Identify and List all Hours and Earning Types Tracked by your Organization + IE: Regular Hours, Overtime Hours, Paid Leave, Unpaid Leave, etc. _ Configure Other Activity Types within InfiniTime as appropriate. \_ Configure Payroll Export as appropriate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | The following items are Required Features for tracking and transferring employee hours / earnings to payroll and must be configured for all InfiniTime Installations: _ [Other Activity Types](Product_Configuration.md#ota01_Other_Activity_Types) _ [Reports](../Reports/Reports.md#rpt01_InfiniTime_Reports_-_Introduction) OR [Payroll Export](../PayrollExport/Payroll_Export.md#pxh2_Introduction)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 9    | Software Administrators and Human Resource Managers should review the benefits of Scheduling and determine if InfiniTime Scheduling will be implemented.                                                                                                                                                                                                     | _ Determine if InfiniTime Scheduling is of interest to your Organization _ Choose a Scheduling Method _ Configure Default Schedules as appropriate for employees _ Train Staff on use of the Scheduling Features to define employee schedules moving forward                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | _ [Scheduling Overview](../Scheduling/Scheduling.md#sch01_What_do_I_want_to_accomplish_by_using_schedules_)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 10   | Software Administrators and Human Resource Managers should familiarize themselves with InfiniTime Timecard Editing.                                                                                                                                                                                                                                          | _ Understand available editing modes (Delayed Edit, Delayed Save, Delayed Edit Only, Both Delayed Edit & Delayed Save, Lockout) _ Understand In Line Editing _ Understand Quick Punch + Ability to use Quick Punch to insert punches for one or more employees on one or more days + Ability to use Quick Punch to Insert Other Activity / Other Amounts + Ability to use Preset and Custom Date Ranges with Quick Punch _ Understand the differences between the Company Timecard and Employee Timecard _ Select a small group of employees and insert timecards for Last Pay Period to match their actual worked hours / Paid Leave / Unpaid Leave etc. _ Review employee hours and totals as totaled on the Company Timecard and on Timecard Reports to ensure Policy Configuration accurately represents your organization's needs. \_ Adjust Policy Settings if needed | \_ [Timecard Editing Overview](../TimecardEditing/TimecardEditing.md#tim01_Timecard_Editing_Overview)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 11   | Software Administrators and Human Resource Managers should familiarize themselves with available reports and select specific reports for production use.                                                                                                                                                                                                     | _ Determine which reports best fit the needs of your organization. _ Configure Scheduled Reports as desired. _ Confirm the SMTP Service on the InfiniTime Server is properly configured for use in your Workgroup and / or Domain. _ Understand relevant reporting features + Quick Print + Saved Reports                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | _ [Report Library Overview](../Reports/Reports.md#rpt01_InfiniTime_Reports_-_Introduction) _ [Automatic Report Requirements](../Reports/Reports.md#AutoReq) \_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 12   | Software Administrators and Human Resource Managers should familiarize themselves with available Security Roles and Security Configuration.                                                                                                                                                                                                                  | _ Security Roles and Security Features should be configured to meet the needs of your organization. _ All employees must be assigned to the appropriate security role based on their responsibilities within the InfiniTime Application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | \_ [Security Overview](../Security/Security_Overview.md#sec01_Security_Overview)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 13   | A Parallel Payroll Run should be performed for the first two pay periods after InfiniTime has been configured to ensure all Hours and Earning Types have been identified and Employee Policies have been configured appropriately.                                                                                                                           | _ Employees should continue punching in and out with both the existing Time and Attendance Solution and the InfiniTime Software for one to two pay periods. _ Employee Hours and Earnings should be totaled from both the existing solution and the InfiniTime software and compared. This process helps ensure all hours and earning types have been identified and ensure  policies within InfiniTime have been configured appropriately.                                                                                                                                                                                                                                                                                                                                                                                                                                 | \_ N/A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 InfiniTime Day to Day Operational
 Use - Maintenance Tasks
@@ -5151,13 +5147,13 @@ InfiniTime Software Administrators,
 Payroll Clerks, and / or Supervisors to take specific actions within InfiniTime. Several such tasks are
 outlined below.
 
- | Event | Task Description | 
-| --- | --- |
- | Employee Turnover | _ When an employee is terminated, their employee record should be set to Inactive. Inactive Employee records do not count toward the maximum employee count per your organization's InfiniTime Software License. | 
- | New Hire | _ When a new employee is hired, they must be added to the InfiniTime Software using the Employee Table. Alternatively, employee records may also be imported using the Import Tool. After adding a new employee, be sure to assign all settings (Security Role, Policy, Department / Job / Task, Holiday Type, Accrual Type, Groups etc.) to the employee as appropriate. | 
- | New Year | _ Holiday Dates within InfiniTime are configured on a year by year basis. Holiday Dates must be configured for each Calendar Date on which employees receive benefits. Refer to the Holidays Section of this document for additional details on configuring Holiday Dates. | 
- | Change in Time and Attendance or Paid / Unpaid Leave Policies | _ Review and Alter InfiniTime Policies, Holidays, Accruals, Other Activity Types, and / or Schedules to reflect your organization's new rule set. | 
- | Employee Hours and Earnings Exported by InfiniTime do not match those exported from the existing Time and Attendance Solution during the Parallel Payroll Run | _ Review Employee Timecards. Ensure timecards match in both systems. _ Review Other Activity Types within InfiniTime. One or more Hours and Earning Types may exist in the Current Time and Attendance System that were not added to InfiniTime. \* Review Policy Configuration within InfiniTime. Policy settings may need to be adjusted and fine tuned during the few Payroll Periods. | 
+| Event                                                                                                                                                         | Task Description                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Employee Turnover                                                                                                                                             | \_ When an employee is terminated, their employee record should be set to Inactive. Inactive Employee records do not count toward the maximum employee count per your organization's InfiniTime Software License.                                                                                                                                                                         |
+| New Hire                                                                                                                                                      | \_ When a new employee is hired, they must be added to the InfiniTime Software using the Employee Table. Alternatively, employee records may also be imported using the Import Tool. After adding a new employee, be sure to assign all settings (Security Role, Policy, Department / Job / Task, Holiday Type, Accrual Type, Groups etc.) to the employee as appropriate.                |
+| New Year                                                                                                                                                      | \_ Holiday Dates within InfiniTime are configured on a year by year basis. Holiday Dates must be configured for each Calendar Date on which employees receive benefits. Refer to the Holidays Section of this document for additional details on configuring Holiday Dates.                                                                                                               |
+| Change in Time and Attendance or Paid / Unpaid Leave Policies                                                                                                 | \_ Review and Alter InfiniTime Policies, Holidays, Accruals, Other Activity Types, and / or Schedules to reflect your organization's new rule set.                                                                                                                                                                                                                                        |
+| Employee Hours and Earnings Exported by InfiniTime do not match those exported from the existing Time and Attendance Solution during the Parallel Payroll Run | _ Review Employee Timecards. Ensure timecards match in both systems. _ Review Other Activity Types within InfiniTime. One or more Hours and Earning Types may exist in the Current Time and Attendance System that were not added to InfiniTime. \* Review Policy Configuration within InfiniTime. Policy settings may need to be adjusted and fine tuned during the few Payroll Periods. |
 
 InfiniTime Day to Day Operational
 Use - Example Process Flow

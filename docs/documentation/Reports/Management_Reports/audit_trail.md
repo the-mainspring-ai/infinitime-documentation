@@ -3,8 +3,6 @@ title: "Audit Trail Report"
 description: "A detailed report showing changes made to employee timecards, including who made the changes and when, useful for tracking modifications."
 ---
 
-Audit Trail
-
 # Audit Trail
 
 Displays Audit information for the employees specified by Selection Criteria. Information about the changes made and which employee made the changes can be found on this report.

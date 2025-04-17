@@ -3,16 +3,7 @@ title: "Scheduling in InfiniTime Application"
 description: "An overview of scheduling features including employee tracking, punch rounding, access control, and schedule management within the InfiniTime app."
 ---
 
-xml version="1.0" encoding="utf-8" ?
-
-
-
-
-
 Scheduling
-
-
-
 
 ### Scheduling Introduction
 
@@ -21,22 +12,22 @@ Scheduling
 Schedules within the InfiniTime
 application serve several purposes:
 
-* Schedules enable tracking of employee performance through use of
+- Schedules enable tracking of employee performance through use of
   exceptions which notify managers when employees are early, tardy,
   absent, or if they forget to take a scheduled break.
-* Employee punches can be rounded directly to their scheduled start
+- Employee punches can be rounded directly to their scheduled start
   and end times based on grace periods configured within the employee's
   policy.
-* Employees can be locked out and prevented from punching if they
+- Employees can be locked out and prevented from punching if they
   should arrive outside of the grace periods for their assigned schedule.
   In this way, employees must seek management assistance if they should
   arrive outside of their scheduled time.
-* Employee arrival and departure can be managed through the scheduling
+- Employee arrival and departure can be managed through the scheduling
   process by 1.) Defining employee schedules. 2.) Providing Employees
   with access to their schedules via either a posted report or access
   to the employee module where employee's may print and view their own
   schedule as needed.
-* Differentiating between 'Scheduled' and 'Unscheduled' Hours for
+- Differentiating between 'Scheduled' and 'Unscheduled' Hours for
   use with Holiday and / or Policy Settings (IE: Policy Setting: Unscheduled
   Daily Overtime Hours are paid at 200% x an Employee's Base Rate and
   must be tracked separately from Daily Overtime Hours. Policy &
@@ -187,14 +178,14 @@ have many employees and three shifts. The Morning Shift is from 4:00 AM
 to 12:00 PM. The Afternoon Shift is from 12:00 PM to 8:00 PM. The Evening
 Shift is from 8:00 PM to 4:00 AM. The following shifts are needed:
 
- | Shift Name | Shift Start Time | Shift End Time | 
-| --- | --- | --- |
- | Production Morning | 4:00 AM | 12:00 PM | 
- | Production Afternoon | 12:00 PM | 8:00 PM | 
- | Production Evening | 8:00 PM | 4:00 AM | 
- | Manufacturing Morning | 4:00 AM | 12:00 PM | 
- | Manufacturing Afternoon | 12:00 PM | 8:00 PM | 
- | Manufacturing Evening | 8:00 PM | 4:00 AM | 
+| Shift Name              | Shift Start Time | Shift End Time |
+| ----------------------- | ---------------- | -------------- |
+| Production Morning      | 4:00 AM          | 12:00 PM       |
+| Production Afternoon    | 12:00 PM         | 8:00 PM        |
+| Production Evening      | 8:00 PM          | 4:00 AM        |
+| Manufacturing Morning   | 4:00 AM          | 12:00 PM       |
+| Manufacturing Afternoon | 12:00 PM         | 8:00 PM        |
+| Manufacturing Evening   | 8:00 PM          | 4:00 AM        |
 
 Using
 the GANNT Chart for Temporary Schedule Changes
@@ -369,12 +360,12 @@ as homework before attempting to continue with shift configuration.
 4. Identify the time when the shift ends and employees are expected
    to depart. Specify if the end time is different on certain days.
 
- | Employee Shifts Table | | | | 
-| --- |
- | Shift Name | Schedule Cycle  (Weekly or Custom\*) | Start Time | End Time | 
- | Manufacturing Line A â Rotation 1 | Custom (21 Days) | Days 1 â 7: 4:00 AM  Days 8 â 14: 12:00 PM  Days 15 â 21: 8:00 PM | Days 1 â 7: 12:00 PM  Days 8 â 14: 8:00 PM  Days 15 â 21: 4:00 AM | 
- | Manufacturing Line A â Rotation 2 | Custom (21 Days) | Days 1 â 7: 12:00 PM  Days 8 â 14: 8:00 PM  Days 15 â 21: 4:00 AM | Days 1 â 7: 8:00 PM  Days 8 â 14: 4:00 AM  Days 15 â 21: 12:00 PM | 
- | Manufacturing Line A â Rotation 3 | Custom (21 Days) | Days 1 â 7: 8:00 PM  Days 8 â 14: 4:00 AM  Days 15 â 21: 12:00 PM | Days 1 â 7: 4:00 AM  Days 8 â 14: 12:00 PM  Days 15 â 21: 8:00 PM | 
+| Employee Shifts Table             |                                     |                                                                 |                                                                 |
+| --------------------------------- | ----------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |
+| Shift Name                        | Schedule Cycle (Weekly or Custom\*) | Start Time                                                      | End Time                                                        |
+| Manufacturing Line A â Rotation 1 | Custom (21 Days)                    | Days 1 â 7: 4:00 AM Days 8 â 14: 12:00 PM Days 15 â 21: 8:00 PM | Days 1 â 7: 12:00 PM Days 8 â 14: 8:00 PM Days 15 â 21: 4:00 AM |
+| Manufacturing Line A â Rotation 2 | Custom (21 Days)                    | Days 1 â 7: 12:00 PM Days 8 â 14: 8:00 PM Days 15 â 21: 4:00 AM | Days 1 â 7: 8:00 PM Days 8 â 14: 4:00 AM Days 15 â 21: 12:00 PM |
+| Manufacturing Line A â Rotation 3 | Custom (21 Days)                    | Days 1 â 7: 8:00 PM Days 8 â 14: 4:00 AM Days 15 â 21: 12:00 PM | Days 1 â 7: 4:00 AM Days 8 â 14: 12:00 PM Days 15 â 21: 8:00 PM |
 
 \*Be sure to Include the number of Days for Schedules with a Custom Cycle
 as shown.
@@ -435,12 +426,14 @@ and ![](/img/Sched016.png) VCR Buttons at the top of the form are used
 to display additional days on the form as outlined below.
 
 ![](/img/sched3.gif)
+
 - Shifts the Day Tabs displayed on the Quick Default Schedule Form up
-one day. Used for Custom Schedule Cycles with more than 7 days.
+  one day. Used for Custom Schedule Cycles with more than 7 days.
 
 ![](/img/CH5_DaysOffTab_2.gif)
+
 - Shifts the Day Tabs displayed on the Quick Default Schedule Form down
-one day. Used for Custom Schedule Cycles with more than 7 days.
+  one day. Used for Custom Schedule Cycles with more than 7 days.
 
 9. In the Start Time field under the Regular Hours Column enter the
    time at which employees are expected to arrive for work for the day.
@@ -506,12 +499,12 @@ shift. If employees punch in outside of the grace periods for all shifts
 their schedule for the day will be set as the first shift assigned to
 the employee.
 
- | ABC Freight Facility - Shift Grace Periods | | | | 
-| --- |
- | Shift Name | Start Time | End Time | Clock In Grace Period | 
- | Morning | 7:00 AM | 3:00 PM | 6:50 AM - 7:10 AM | 
- | Day | 3:00 PM | 11:00 PM | 2:50 PM - 3:10 PM | 
- | Night | 11:00 PM | 7:00 PM | 10:50 PM - 11:10 PM | 
+| ABC Freight Facility - Shift Grace Periods |            |          |                       |
+| ------------------------------------------ | ---------- | -------- | --------------------- |
+| Shift Name                                 | Start Time | End Time | Clock In Grace Period |
+| Morning                                    | 7:00 AM    | 3:00 PM  | 6:50 AM - 7:10 AM     |
+| Day                                        | 3:00 PM    | 11:00 PM | 2:50 PM - 3:10 PM     |
+| Night                                      | 11:00 PM   | 7:00 PM  | 10:50 PM - 11:10 PM   |
 
 ### Shifts for Differential Purposes
 
@@ -524,10 +517,11 @@ receive an additional premium. Shift Differentials include six distinct
 types of related settings:
 
 Schedule
+
 - Required. Describes
-the period of time during which the Shift Differential Premium is paid
-by defining specific blocks of time on specific week days. (IE: 11:00
-PM to 7:00 AM, Mon through Sun).
+  the period of time during which the Shift Differential Premium is paid
+  by defining specific blocks of time on specific week days. (IE: 11:00
+  PM to 7:00 AM, Mon through Sun).
 
 Pay
 Premium Settings - Optional.
@@ -552,24 +546,27 @@ Wages](../Configuration/Product_Configuration.md#cnf17_Job_Costing_-_Wages), and
 Premiums Sections](../Configuration/Product_Configuration.md#pp01_Pay_Premiums_Introduction) of this document.
 
 Policy Assignment
+
 - Required. Shift Differentials
-must be assigned to individual policies on the Shift Differentials Tab
-of the Schedule Settings / Rules Section of the Policy Update Form. Only
-employees on a policy with one or more Shift Differentials assigned on
-the Shift Differentials Tab will be eligible to receive Shift Differential
-Hours.
+  must be assigned to individual policies on the Shift Differentials Tab
+  of the Schedule Settings / Rules Section of the Policy Update Form. Only
+  employees on a policy with one or more Shift Differentials assigned on
+  the Shift Differentials Tab will be eligible to receive Shift Differential
+  Hours.
 
 Pay Method
+
 - Required. Controls
-the method for determining which Shift Differential Schedule is applied
-to employee hours based on the time an employee worked, punched in, or
-punched out.
+  the method for determining which Shift Differential Schedule is applied
+  to employee hours based on the time an employee worked, punched in, or
+  punched out.
 
 Mapping Options
+
 - Optional. Used for
-Shift Differential Mapping. This topic is covered separately below. InfiniTime Administrators should familiarize
-themselves with basic Shift Differential settings before reviewing Shift
-Differential Mapping.
+  Shift Differential Mapping. This topic is covered separately below. InfiniTime Administrators should familiarize
+  themselves with basic Shift Differential settings before reviewing Shift
+  Differential Mapping.
 
 Payroll Export
 Options Related to Shift Differential - Optional. The Payroll Export
@@ -584,10 +581,10 @@ Payroll Export System.
 The table below provides an outline of Shift Differential
 Functionality and several guidelines:
 
- | A Shift Differential... | A Shift Differential... | 
-| --- | --- |
- | * Is tracked for all Employees   assigned to a given policy. If an employee assigned   to the policy has a Punch Pair or working period which qualifies   for the Shift Differential Schedule according to the selected   Pay Method, the employee will receive Shift Differential Hours. | * Is not arbitrary.   It is not possible to configure a shift differential to award   benefits to an employee based on external factors such as   working in a specific Department, Job, or Task. Pay Premiums   are intended for this purpose. | 
- | * Supports four different Pay   Methods. Follow the links below for additional information.  + [Punch   In](../Policies/Policy_Overview.md#pol131_Illustrated_Break_Down_of_Differentials_-_Punch_In_Pay_Method) - For each punch pair Employees receive the   Shift Differential in effect at the time they punch in. + [Punch   Out](../Policies/Policy_Overview.md#pol132_Illustrated_Break_Down_of_Differentials_-_Punch_Out_Pay_Method) - For each punch pair, employees receive the Shift   Differential in effect at the time they punch out. + [Majority   Hours](../Policies/Policy_Overview.md#shfpay3_Majority_Hours) - For each punch pair, Shift Differential Hours   are awarded for the Shift Differential with the most hours. + [Zone](../Policies/Policy_Overview.md#shfpay4_Zone)   - Shift Differentials are awarded according to the exact   Shift Differential Schedule. | * May not have a Schedule that   overlaps with any other Shift Differential assigned   to the respective policy. A single policy should only have   non-overlapping differentials. | 
+| A Shift Differential...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | A Shift Differential...                                                                                                                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \* Is tracked for all Employees assigned to a given policy. If an employee assigned to the policy has a Punch Pair or working period which qualifies for the Shift Differential Schedule according to the selected Pay Method, the employee will receive Shift Differential Hours.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | \* Is not arbitrary. It is not possible to configure a shift differential to award benefits to an employee based on external factors such as working in a specific Department, Job, or Task. Pay Premiums are intended for this purpose. |
+| \* Supports four different Pay Methods. Follow the links below for additional information. + [Punch In](../Policies/Policy_Overview.md#pol131_Illustrated_Break_Down_of_Differentials_-_Punch_In_Pay_Method) - For each punch pair Employees receive the Shift Differential in effect at the time they punch in. + [Punch Out](../Policies/Policy_Overview.md#pol132_Illustrated_Break_Down_of_Differentials_-_Punch_Out_Pay_Method) - For each punch pair, employees receive the Shift Differential in effect at the time they punch out. + [Majority Hours](../Policies/Policy_Overview.md#shfpay3_Majority_Hours) - For each punch pair, Shift Differential Hours are awarded for the Shift Differential with the most hours. + [Zone](../Policies/Policy_Overview.md#shfpay4_Zone) - Shift Differentials are awarded according to the exact Shift Differential Schedule. | \* May not have a Schedule that overlaps with any other Shift Differential assigned to the respective policy. A single policy should only have non-overlapping differentials.                                                            |
 
 Accessing
 the Shift Update Form
@@ -615,16 +612,19 @@ purposes.
 ![](/img/VCRFirstButton-Normal.gif)
 
 Insert
+
 - Opens the Shift Update Form. Used to create a new shift for either Sheduling
-or Differential Purposes.
+  or Differential Purposes.
 
 Change
+
 - Opens the Shift Update Form for the Selected Shift.
 
 Delete
+
 - Deletes the Selected Shift. If a shift configured for Shift Differential
-and assigned to a Policy is deleted, the Shift will automatically be removed
-from the Shift Differentials Tab of all policies it was assigned to.
+  and assigned to a Policy is deleted, the Shift will automatically be removed
+  from the Shift Differentials Tab of all policies it was assigned to.
 
 Shift Update
 Form
@@ -651,18 +651,20 @@ General Tab
 ![](/img/dif03.png)
 
 Name
-- Enter a Name for the Shift. This name will be displayed on Timecard
-Reports such as the Activity Summary Report to show total Shift Differential
-Hours and is also used to assign the shift to a policy.
 
-*What is a Shift Identifier?
+- Enter a Name for the Shift. This name will be displayed on Timecard
+  Reports such as the Activity Summary Report to show total Shift Differential
+  Hours and is also used to assign the shift to a policy.
+
+\*What is a Shift Identifier?
+
 - A shift identifier is similar to a Payroll Code, but instead of representing
-a single category of pay tracked by an organization, shift identifiers
-function as a modifier for other categories of pay by indicating that
-an additional dollar amount, an additional percentage of the pay categoryâs
-base rate, or an alternate hourly rate should be paid. Shift Identifiers
-are used by organizations who track Shift Differentials. Only Payroll
-Interface Formats which support Shift Differentials utilize Shift Identifiers.*
+  a single category of pay tracked by an organization, shift identifiers
+  function as a modifier for other categories of pay by indicating that
+  an additional dollar amount, an additional percentage of the pay categoryâs
+  base rate, or an alternate hourly rate should be paid. Shift Identifiers
+  are used by organizations who track Shift Differentials. Only Payroll
+  Interface Formats which support Shift Differentials utilize Shift Identifiers.\*
 
 For example, ABC Company pays regular Hours at Payroll Code 'RH' and Daily
 Overtime Hours at Payroll Code 'OT'. ABC Company also tracks Night Shift
@@ -675,7 +677,6 @@ on the Night Shift Differential. Similarly, Overtime Hours worked on the
 Night Shift Differential will show both 'OT' and 'NS'. This clearly indicates
 to the payroll system that the employee worked Regular Hours and that
 the hours are also eligible for the additional $1.00 per hour premium.
-
 
 Example Records: 'Paychex Preview With
 Shift Code' Payroll Interface
@@ -863,13 +864,16 @@ will be counted toward the respective Shift Differential.
 ![](/img/VCRLastButton-Normal.gif)
 
 Quick Schedule
+
 - Opens the Quick Default Schedule Form. Used to define a new Schedule
-for the respective Shift.
+  for the respective Shift.
 
 Change
+
 - Opens the Quick Default Schedule Form for the selected Schedule Record.
 
 Delete
+
 - Deletes the selected Schedule Record.
 
 To Define
@@ -893,8 +897,9 @@ Cycle View
 ![](/img/Sched024.png)
 
 Copy
+
 - Copies Scheduled Start and To Times from a given Day of Week to specific
-Days of Week as selected by the user.
+  Days of Week as selected by the user.
 
 Quick Default Schedule - Custom Schedule
 Cycle View
@@ -902,9 +907,10 @@ Cycle View
 ![](/img/Sched014.png)
 
 Copy
+
 - Copies Scheduled Start and To Times from a given Day of the Custom Schedule
-Cycle to specific Days of the Custom Schedule Cycle as selected by the
-user.
+  Cycle to specific Days of the Custom Schedule Cycle as selected by the
+  user.
 
 Notice that the Custom Schedule Cycle View
 displays only seven days at once. The ![](/img/sched2.gif) and ![](/img/Sched026.png) VCR Buttons at the top
@@ -912,12 +918,14 @@ of the form are used to display additional days on the form as outlined
 below.
 
 ![](/img/Quick-Default-Schedule.gif)
+
 - Shifts the Day Tabs displayed on the Quick Default Schedule Form up
-one day. Used for Custom Schedule Cycles with more than 7 days.
+  one day. Used for Custom Schedule Cycles with more than 7 days.
 
 ![](/img/sched1.gif)
+
 - Shifts the Day Tabs displayed on the Quick Default Schedule Form down
-one day. Used for Custom Schedule Cycles with more than 7 days.
+  one day. Used for Custom Schedule Cycles with more than 7 days.
 
 9. In the Start Time field under the Regular Hours Column enter the
    time at which the Shift Differential Premium Starts for the respective
@@ -935,12 +943,12 @@ one day. Used for Custom Schedule Cycles with more than 7 days.
     11:59 PM and Sunday does not have a Differential Schedule from 12:00
     AM to 7:00 AM.
 
- | | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | 
-| --- | --- | --- | --- | --- | --- | --- |
- | Start Time 1 | 11:00 PM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 
- | End Time 1 | 11:59 PM | 07:00 AM | 07:00 AM | 07:00 AM | 07:00 AM | 07:00 AM | 07:00 AM | 
- | Start Time 2 | | 11:00 PM | 11:00 PM | 11:00 PM | 11:00 PM | 11:00 PM | | 
- | End Time 2 | | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | | 
+|              | Sunday   | Monday   | Tuesday  | Wednesday | Thursday | Friday   | Saturday |
+| ------------ | -------- | -------- | -------- | --------- | -------- | -------- | -------- |
+| Start Time 1 | 11:00 PM | 12:00 AM | 12:00 AM | 12:00 AM  | 12:00 AM | 12:00 AM | 12:00 AM |
+| End Time 1   | 11:59 PM | 07:00 AM | 07:00 AM | 07:00 AM  | 07:00 AM | 07:00 AM | 07:00 AM |
+| Start Time 2 |          | 11:00 PM | 11:00 PM | 11:00 PM  | 11:00 PM | 11:00 PM |          |
+| End Time 2   |          | 11:59 PM | 11:59 PM | 11:59 PM  | 11:59 PM | 11:59 PM |          |
 
 9. The Paid Break and Unpaid Break Columns should be left blank.
    These fields are not utilized for Shift Differential Schedules.
@@ -960,12 +968,12 @@ How
 to Assign a Differential to a Policy
 
 1. Create the Shift Differential using the Shift Table. Ensure 'Use
-for Differential' is checked and that a Schedule has been configured.
+   for Differential' is checked and that a Schedule has been configured.
 
 2. Click on Lookups - Calculations Setup - Policies.
 
 3. The policy table will open. Select the policy you wish to assign
-Shift Differential(s) to then click on Change.
+   Shift Differential(s) to then click on Change.
 
 4. Click on the Schedule Settings / Rules Section.
 
@@ -974,12 +982,12 @@ Shift Differential(s) to then click on Change.
 6. Click Insert.
 
 7. Type the first few characters of the Shift Differential you wish
-to assign to the policy or use the Lookup Button to select the desired
-Shift Differential, then click OK.
+   to assign to the policy or use the Lookup Button to select the desired
+   Shift Differential, then click OK.
 
 8. The Shift Differential will be added to the Shift Differentials Tab.
-Repeat steps 6 and 7 to add additional Shift Differentials to the policy.
-Remember - a single policy may not have overlapping shift differentials.
+   Repeat steps 6 and 7 to add additional Shift Differentials to the policy.
+   Remember - a single policy may not have overlapping shift differentials.
 
 ![](/img/dif04.png)
 
@@ -998,9 +1006,9 @@ XYZ Medical has multiple locations. The company
 as a whole has two groups of employees with different policy configurations
 for Break Rules, Overtime, Scheduling Rules, and Rounding Rules as follows:
 
-* Hourly Employees have special break
+- Hourly Employees have special break
   and rounding rules.
-* Salary employees are not eligible
+- Salary employees are not eligible
   for overtime and are not required to punch for breaks.
 
 **Step
@@ -1022,27 +1030,27 @@ is a contiguous block of time paid at a certain rate or premium. Because
 of this a single shift differential can be configured for employees on
 the Evening Team A and Evening Team B Shifts.
 
- | | | | | | | 
+| | | | | | |
 ||
- | **Shift Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Shift Premium** | 
- | Evening Team A | 7:00 PM | 3:00 AM | Monday | Friday | $1.00 | 
- | Evening Team B | 9:00 PM | 5:00 AM | Monday | Friday | $1.00 | 
+| **Shift Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Shift Premium** |
+| Evening Team A | 7:00 PM | 3:00 AM | Monday | Friday | $1.00 |
+| Evening Team B | 9:00 PM | 5:00 AM | Monday | Friday | $1.00 |
 
- | | | | | | | 
- | --- | --- | --- | --- | --- | --- | 
- | **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** | 
- | Evening Teams | 7:00 PM | 5:00 AM | Monday | Friday | $1.00 | 
+|                       |                |              |               |             |                          |
+| --------------------- | -------------- | ------------ | ------------- | ----------- | ------------------------ |
+| **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** |
+| Evening Teams         | 7:00 PM        | 5:00 AM      | Monday        | Friday      | $1.00                    |
 
 Shift Differentials
 paid by XYZ Medical are listed below. Each differential must be configured
 as a Shift with the âUsed for Differentialâ option enabled.
 
- | | | | | | | 
+| | | | | | |
 ||
- | **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** | 
- | Weekend Differential | 12:00 AM | 11:59 PM | Saturday | Sunday | $0.75 | 
- | CNA Evening Differential | 10:00 PM | 6:00 AM | Monday | Friday | $1.00 | 
- | RN Evening Differential | 8:00 PM | 8:00 AM | Monday | Friday | $1.25 | 
+| **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** |
+| Weekend Differential | 12:00 AM | 11:59 PM | Saturday | Sunday | $0.75 |
+| CNA Evening Differential | 10:00 PM | 6:00 AM | Monday | Friday | $1.00 |
+| RN Evening Differential | 8:00 PM | 8:00 AM | Monday | Friday | $1.25 |
 
 When configuring shift differentials it is important to recognize the
 schedule must be split at midnight. Shift differentials are configured
@@ -1071,11 +1079,11 @@ customer:
    is important to split the schedule. For example a night differential
    of $0.75 covering 8:00 PM â 4:00 AM would be setup as below:
 
- | Start Time | 8:00 PM | 
-| --- | --- |
- | End Time | 11:59 PM | 
- | Start Time | 12:00 AM | 
- | End Time | 4:00 AM | 
+| Start Time | 8:00 PM  |
+| ---------- | -------- |
+| End Time   | 11:59 PM |
+| Start Time | 12:00 AM |
+| End Time   | 4:00 AM  |
 
 **Step
 3 â Identify Employee Groups who are eligible for different differentials.**
@@ -1084,14 +1092,14 @@ XYZ Medical
 has multiple groups of employees eligible for different shift differentials
 as outlined below:
 
-* Corporate
+- Corporate
   Office Employees are not eligible for shift differentials.
-* All
+- All
   Hourly and Salary Employees are eligible for Weekend Differentials.
-* All
+- All
   Certified Nurse Assistants are eligible for the CNA Evening and Weekend
   Differentials.
-* All
+- All
   Registered Nurses are eligible for the RN Evening and Weekend Differentials.
 
 **Step
@@ -1101,15 +1109,15 @@ different shift differentials or policy settings.**
 The following
 policies are required to meet the needs of XYZ Medical:
 
- | | | | 
+| | | |
 ||
- | **Policy Name** | **Unique Policy Settings** | **Eligible Shift Differentials** | 
- | Corporate Hourly | Break & Rounding Rules | None | 
- | Corporate Salary | Overtime & Break Rules | None | 
- | Hourly Employees | Break & Rounding Rules | Weekend Differential | 
- | Salary Employees | Overtime & Break Rules | Weekend Differential | 
- | Certified Nurse Assistants | None | Weekend & CNA Night Differentials | 
- | Registered Nurses | None | Weekend & RN Night Differentials | 
+| **Policy Name** | **Unique Policy Settings** | **Eligible Shift Differentials** |
+| Corporate Hourly | Break & Rounding Rules | None |
+| Corporate Salary | Overtime & Break Rules | None |
+| Hourly Employees | Break & Rounding Rules | Weekend Differential |
+| Salary Employees | Overtime & Break Rules | Weekend Differential |
+| Certified Nurse Assistants | None | Weekend & CNA Night Differentials |
+| Registered Nurses | None | Weekend & RN Night Differentials |
 
 In
 the above example employees classified as Certified Nurse Assistants and
@@ -1176,35 +1184,35 @@ for each available option.
 Related
 Settings:
 
- ABC
+ABC
 Medical employs Registered Nurses (RNs) who receive differential pay for
 working during evening and early morning hours as outlined below.
 
- | | | | | 
+| | | | |
 ||
- | Differential Name | Rate | Start Time | End Time | 
- | Evening Differential | $1.00 | 8:00 PM | 12:00 AM | 
- | Morning Differential | $1.25 | 12:00 AM | 4:00 AM | 
+| Differential Name | Rate | Start Time | End Time |
+| Evening Differential | $1.00 | 8:00 PM | 12:00 AM |
+| Morning Differential | $1.25 | 12:00 AM | 4:00 AM |
 
 **Punch In
 â** When the Punch In pay method
 is chosen employees are paid the premium in effect at the time they punch
 in. For clarity multiple examples are shown below.
 
- | Scenario Description | Illustrated Break Down of Differentials - Punch In Pay Method | 
-| --- | --- |
- | An RN arrives at the hospital early and is asked to lend a hand prior to their shift. They clock in at 7PM and work until 4AM. Because the RN clocked in at 7PM, which does not fall within a period eligible for differential pay, the RN will not receive a premium for their hours. | | 
- | An RN is called in to work from 10PM to 4AM. The employee punches in at 10:00 PM, which is during the period defined by the Evening Differential. All six hours (10PM to 4AM) will be paid at the Evening Differential rate. | | 
+| Scenario Description                                                                                                                                                                                                                                                                   | Illustrated Break Down of Differentials - Punch In Pay Method |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| An RN arrives at the hospital early and is asked to lend a hand prior to their shift. They clock in at 7PM and work until 4AM. Because the RN clocked in at 7PM, which does not fall within a period eligible for differential pay, the RN will not receive a premium for their hours. |                                                               |
+| An RN is called in to work from 10PM to 4AM. The employee punches in at 10:00 PM, which is during the period defined by the Evening Differential. All six hours (10PM to 4AM) will be paid at the Evening Differential rate.                                                           |                                                               |
 
 **Punch Out
 â** When the Punch Out pay method
 is chosen employees are paid the premium in effect at the time they punch
 out. For clarity multiple examples are shown below.
 
- | Scenario Description | Illustrated Break Down of Differentials - Punch Out Pay Method | 
-| --- | --- |
- | The typical RN Day shift is 11 AM to 7PM. Mary Joe is asked to stay for an additional two hours and works from 11AM to 9PM. Because Mary clocked out at 9PM, which falls within the Evening Differential, she will receive the Evening Differential Premium for all ten hours worked. | | 
- | An RN is called in to work from 8PM to 4AM. The employee punches out at 4:15 AM. The employee will not receive a premium for the worked hours because 4:15 AM does not fall within a period defined by a differential. | | 
+| Scenario Description                                                                                                                                                                                                                                                                  | Illustrated Break Down of Differentials - Punch Out Pay Method |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| The typical RN Day shift is 11 AM to 7PM. Mary Joe is asked to stay for an additional two hours and works from 11AM to 9PM. Because Mary clocked out at 9PM, which falls within the Evening Differential, she will receive the Evening Differential Premium for all ten hours worked. |                                                                |
+| An RN is called in to work from 8PM to 4AM. The employee punches out at 4:15 AM. The employee will not receive a premium for the worked hours because 4:15 AM does not fall within a period defined by a differential.                                                                |                                                                |
 
 **Majority
 Hours â** The Majority Hours
@@ -1214,9 +1222,9 @@ is then used for all differential hours for the day as illustrated below.
 If an employee should work an equal amount of hours across multiple differentials
 they will be paid the premium associated with the first differential.
 
- | Scenario Description | Illustrated Break Down of Differentials - Majority Hours Pay Method | 
-| --- | --- |
- | An RN is called in to work from 10:00 PM to 4:00 AM. The majority of the worked hours fall within the Morning Differential. As such the employee receives the Morning Differential premium ($1.25) for all hours worked. | | 
+| Scenario Description                                                                                                                                                                                                     | Illustrated Break Down of Differentials - Majority Hours Pay Method |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| An RN is called in to work from 10:00 PM to 4:00 AM. The majority of the worked hours fall within the Morning Differential. As such the employee receives the Morning Differential premium ($1.25) for all hours worked. |                                                                     |
 
 **Zone â**
 Zone is the most commonly used pay method
@@ -1226,9 +1234,9 @@ be called in to work from 10:00 PM to 4:00 AM they would receive two hours
 of Evening Differential Pay and Four Hours of Morning Differential Pay
 as follows:
 
- | Scenario Description | Illustrated Break Down of Differentials - Zone Pay Method | 
-| --- | --- |
- | An RN is called in to work from 10:00 PM to 4:00 AM. Hours from 10:00 PM to 12:00 AM are associated with the Evening Differential. Hours from 12:00 AM to 4:00 AM are associated with the Morning Differential. The employee is paid as follows:               2 Hours Evening Differential Premium             4 Hours Morning Differential Premium | | 
+| Scenario Description                                                                                                                                                                                                                                                                                                                             | Illustrated Break Down of Differentials - Zone Pay Method |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- |
+| An RN is called in to work from 10:00 PM to 4:00 AM. Hours from 10:00 PM to 12:00 AM are associated with the Evening Differential. Hours from 12:00 AM to 4:00 AM are associated with the Morning Differential. The employee is paid as follows:            2 Hours Evening Differential Premium            4 Hours Morning Differential Premium |                                                           |
 
 Shift
 Differential Mapping
@@ -1254,25 +1262,25 @@ Schedule Defined on a 'Primary Shift Differential' but pay shift differential
 hours according to the Schedule defined on a Secondary Differential. Shift
 mapping is subject to the following requirements and conditions:
 
-* Two Shifts must be configured
+- Two Shifts must be configured
   for differential. Use for differential must be checked for each shift.
 
 1 Primary Differential Shift
 
 1 Secondary Differential Shift
 
-* The Primary Shift Differential must
+- The Primary Shift Differential must
   be assigned to a Policy. The secondary Shift Differential should
   not be assigned to the policy.
-* The Primary differential shift includes
+- The Primary differential shift includes
   the map to setting, which points to the Secondary Differential Shift.
-* The employee must Punch In, Punch
+- The employee must Punch In, Punch
   Out, or Work During the Time Period defined on the Schedule of the
   Primary Shift Differential in order to qualify for differential payment.
   Differential hours will be totaled and paid according to Schedule,
   and Differential Pay Settings defined on the Secondary Differential
   Shift in addition to the Policy's Pay Method.
-* Differential
+- Differential
   Pay and Differential Amount Settings can be left blank on the Primary
   Differential Shift.
 
@@ -1298,24 +1306,24 @@ between the hours of 10:00 PM and 2:00 PM.
 
 Related Settings:
 
- | Primary RN Evening Differential - Determines Time Period during which employees must have worked hours to receive Shift Differential. | | | | | | | | 
-| --- |
- | | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | 
- | Start Time 1 | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 
- | End Time 1 | 02:00 AM | 02:00 AM | 02:00 AM | 02:00 AM | 02:00 AM | 02:00 AM | 02:00 AM | 
- | Start Time 2 | 10:00 PM | 10:00 PM | 10:00 PM | 10:00 PM | 10:00 PM | 10:00 PM | 10:00 PM | 
- | End Time 2 | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 
+| Primary RN Evening Differential - Determines Time Period during which employees must have worked hours to receive Shift Differential. |          |          |          |           |          |          |          |
+| ------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | -------- | --------- | -------- | -------- | -------- |
+|                                                                                                                                       | Sunday   | Monday   | Tuesday  | Wednesday | Thursday | Friday   | Saturday |
+| Start Time 1                                                                                                                          | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM  | 12:00 AM | 12:00 AM | 12:00 AM |
+| End Time 1                                                                                                                            | 02:00 AM | 02:00 AM | 02:00 AM | 02:00 AM  | 02:00 AM | 02:00 AM | 02:00 AM |
+| Start Time 2                                                                                                                          | 10:00 PM | 10:00 PM | 10:00 PM | 10:00 PM  | 10:00 PM | 10:00 PM | 10:00 PM |
+| End Time 2                                                                                                                            | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM  | 11:59 PM | 11:59 PM | 11:59 PM |
 
- | Secondary RN Evening Differential - Determines Time Period during which worked hours are applied toward Shift Differential. | | | | | | | | 
- | | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | 
- | Start Time 1 | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 
- | End Time 1 | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 
- | Start Time 2 | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 
- | End Time 2 | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 
+| Secondary RN Evening Differential - Determines Time Period during which worked hours are applied toward Shift Differential. | | | | | | | |
+| | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
+| Start Time 1 | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM |
+| End Time 1 | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM |
+| Start Time 2 | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM |
+| End Time 2 | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM |
 
- | Scenario Description | Illustrated Break Down of Differentials - Zone Pay Method | 
- | An RN who usually works the day shift, 8:00 AM to 4:00 PM, is asked to remain on duty due to an influx of patients. The RN stays until 9:30 PM. Even though the Secondary Differential Pays RN Evening Differential benefits from 8:00 PM to 6:00 AM, benefits are only triggered with the Zone Pay Method if an employee works between 10:00 PM and 2:00 AM. In this scenario, the employee would be paid as follows:               8 Regular Hours - No Differential             5.5 OT1 Hours - No Differential | | 
- | An RN who usually work the night shift, 8:00 PM to 4:00 AM, is asked to report for duty an hour early. The RN works from 7:00 PM to 4:00 AM. Since the employee has working hours during the 10:00 PM to 2:00 AM period, the employee will receive differential for all hours which fall within 8:00 PM to 4:00 AM as follows:               1 Regular Hours - No Differential             7 Regular Hours - Evening Differential             1 OT1 Hour - Evening Differential | | 
+| Scenario Description | Illustrated Break Down of Differentials - Zone Pay Method |
+| An RN who usually works the day shift, 8:00 AM to 4:00 PM, is asked to remain on duty due to an influx of patients. The RN stays until 9:30 PM. Even though the Secondary Differential Pays RN Evening Differential benefits from 8:00 PM to 6:00 AM, benefits are only triggered with the Zone Pay Method if an employee works between 10:00 PM and 2:00 AM. In this scenario, the employee would be paid as follows:            8 Regular Hours - No Differential            5.5 OT1 Hours - No Differential | |
+| An RN who usually work the night shift, 8:00 PM to 4:00 AM, is asked to report for duty an hour early. The RN works from 7:00 PM to 4:00 AM. Since the employee has working hours during the 10:00 PM to 2:00 AM period, the employee will receive differential for all hours which fall within 8:00 PM to 4:00 AM as follows:            1 Regular Hours - No Differential            7 Regular Hours - Evening Differential            1 OT1 Hour - Evening Differential | |
 
 **Punch In
 â** In the scenario below, ABC
@@ -1326,22 +1334,22 @@ punch in between the hours of 7:00 PM and 9:00 PM.
 Related
 Settings:
 
- | Primary RN Evening Differential - Determines Time Period during which employees must have worked hours to receive Shift Differential. | | | | | | | | 
-| --- |
- | | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | 
- | Start Time 1 | 7:00 PM | 7:00 PM | 7:00 PM | 7:00 PM | 7:00 PM | 7:00 PM | 7:00 PM | 
- | End Time 1 | 9:00 PM | 9:00 PM | 9:00 PM | 9:00 PM | 9:00 PM | 9:00 PM | 9:00 PM | 
+| Primary RN Evening Differential - Determines Time Period during which employees must have worked hours to receive Shift Differential. |         |         |         |           |          |         |          |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------- | ------- | --------- | -------- | ------- | -------- |
+|                                                                                                                                       | Sunday  | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday |
+| Start Time 1                                                                                                                          | 7:00 PM | 7:00 PM | 7:00 PM | 7:00 PM   | 7:00 PM  | 7:00 PM | 7:00 PM  |
+| End Time 1                                                                                                                            | 9:00 PM | 9:00 PM | 9:00 PM | 9:00 PM   | 9:00 PM  | 9:00 PM | 9:00 PM  |
 
- | Secondary RN Evening Differential - Determines Time Period during which worked hours are applied toward Shift Differential. | | | | | | | | 
- | | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | 
- | Start Time 1 | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 
- | End Time 1 | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 
- | Start Time 2 | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 
- | End Time 2 | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 
+| Secondary RN Evening Differential - Determines Time Period during which worked hours are applied toward Shift Differential. | | | | | | | |
+| | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
+| Start Time 1 | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM |
+| End Time 1 | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM |
+| Start Time 2 | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM |
+| End Time 2 | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM |
 
- | Scenario Description | Illustrated Break Down of Differentials - Punch In Pay Method | 
- | An RN is called in to work the last half of the Evening Shift and the first half of the Morning Shift. They clock in at 12:00 AM and work until 8:00 AM. Because the RN clocked in at 12:00 PM, which does not fall within the Primary Differential a period eligible for differential pay, the RN will not receive a premium for their hours. | | 
- | An RN arrives at the hospital early and is asked to lend a hand before the start of their shift. They clock in at 7:30 PM and work until 4:00 AM. Because the RN clocked in at 7:30 PM, which falls within the Primary RN Evening Differential of 7:00 PM to 9:00 PM, the employee will receive differential for all hours worked which fall within 8:00 PM to 4:00 AM. | | 
+| Scenario Description | Illustrated Break Down of Differentials - Punch In Pay Method |
+| An RN is called in to work the last half of the Evening Shift and the first half of the Morning Shift. They clock in at 12:00 AM and work until 8:00 AM. Because the RN clocked in at 12:00 PM, which does not fall within the Primary Differential a period eligible for differential pay, the RN will not receive a premium for their hours. | |
+| An RN arrives at the hospital early and is asked to lend a hand before the start of their shift. They clock in at 7:30 PM and work until 4:00 AM. Because the RN clocked in at 7:30 PM, which falls within the Primary RN Evening Differential of 7:00 PM to 9:00 PM, the employee will receive differential for all hours worked which fall within 8:00 PM to 4:00 AM. | |
 
 **Punch Out
 â** In the scenario below, ABC
@@ -1352,22 +1360,22 @@ punch out between the hours of 3:30 AM and 5:00 AM.
 Related
 Settings:
 
- | Primary RN Evening Differential - Determines Time Period during which employees must have worked hours to receive Shift Differential. | | | | | | | | 
-| --- |
- | | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | 
- | Start Time 1 | 3:30 AM | 3:30 AM | 3:30 AM | 3:30 AM | 3:30 AM | 3:30 AM | 3:30 AM | 
- | End Time 1 | 5:00 AM | 5:00 AM | 5:00 AM | 5:00 AM | 5:00 AM | 5:00 AM | 5:00 AM | 
+| Primary RN Evening Differential - Determines Time Period during which employees must have worked hours to receive Shift Differential. |         |         |         |           |          |         |          |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------- | ------- | --------- | -------- | ------- | -------- |
+|                                                                                                                                       | Sunday  | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday |
+| Start Time 1                                                                                                                          | 3:30 AM | 3:30 AM | 3:30 AM | 3:30 AM   | 3:30 AM  | 3:30 AM | 3:30 AM  |
+| End Time 1                                                                                                                            | 5:00 AM | 5:00 AM | 5:00 AM | 5:00 AM   | 5:00 AM  | 5:00 AM | 5:00 AM  |
 
- | Secondary RN Evening Differential - Determines Time Period during which worked hours are applied toward Shift Differential. | | | | | | | | 
- | | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | 
- | Start Time 1 | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 
- | End Time 1 | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 
- | Start Time 2 | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 
- | End Time 2 | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 
+| Secondary RN Evening Differential - Determines Time Period during which worked hours are applied toward Shift Differential. | | | | | | | |
+| | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
+| Start Time 1 | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM | 8:00 PM |
+| End Time 1 | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM | 11:59 PM |
+| Start Time 2 | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM | 12:00 AM |
+| End Time 2 | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM | 4:00 AM |
 
- | Scenario Description | Illustrated Break Down of Differentials - Punch Out Pay Method | 
- | An RN works their normal 8:00 PM to 4:00 AM shift, and is asked to stay late. They clock out at 5:30 AM. Because the RN clocked out at 5:30 AM, which does not fall within the Primary RN Evening Differential of 3:30 AM to 5:00 AM, the employee will not receive differential hours. The employee is paid as follows:                8 Regular Hours - No Differential             1.5 OT1 Hours - No Differential | | 
- | An RN works their normal 8:00 PM to 4:00 AM shift, running over by 30 minutes. They clock out at 4:30 AM. Because the RN clocked out at 4:30 AM, which falls withiin the Primary RN Evening Differential of 3:30 AM to 5:00 AM, the employee will receive differential for all hours worked which fall within the Secondary Differential Schedule (IE: 8:00 PM to 4:00 AM). The employee is paid as follows:                8 Regular Hours - Evening Differential             0.5 OT1 Hours - Evening Differential | | 
+| Scenario Description | Illustrated Break Down of Differentials - Punch Out Pay Method |
+| An RN works their normal 8:00 PM to 4:00 AM shift, and is asked to stay late. They clock out at 5:30 AM. Because the RN clocked out at 5:30 AM, which does not fall within the Primary RN Evening Differential of 3:30 AM to 5:00 AM, the employee will not receive differential hours. The employee is paid as follows:              8 Regular Hours - No Differential            1.5 OT1 Hours - No Differential | |
+| An RN works their normal 8:00 PM to 4:00 AM shift, running over by 30 minutes. They clock out at 4:30 AM. Because the RN clocked out at 4:30 AM, which falls withiin the Primary RN Evening Differential of 3:30 AM to 5:00 AM, the employee will receive differential for all hours worked which fall within the Secondary Differential Schedule (IE: 8:00 PM to 4:00 AM). The employee is paid as follows:              8 Regular Hours - Evening Differential            0.5 OT1 Hours - Evening Differential | |
 
 ### Employee Schedule Window - Introduction
 
@@ -1393,69 +1401,76 @@ Skeletons.](Scheduling.md#sch44_Schedule_Skeletons___Benefits_and_Configuring))
 #### Schedule Gannt Chart Buttons
 
 Schedule Date
+
 - Determines the date(s) to be displayed in the Schedule GANNT Chart Grid.
-The number of days displayed in the Shcedule GANNT Chart Grid depends
-on the selected View Type. For example, the Daily View Type will display
-schedules only for the date set on the Schedule Date field. The Weekly
-View Type will display seven days on the Schedule GANNT Chart starting
-with the Schedule Date. The Monthly View Type will display 31 days on
-the Schedule GANNT Chart starting with the Schedule Date.
+  The number of days displayed in the Shcedule GANNT Chart Grid depends
+  on the selected View Type. For example, the Daily View Type will display
+  schedules only for the date set on the Schedule Date field. The Weekly
+  View Type will display seven days on the Schedule GANNT Chart starting
+  with the Schedule Date. The Monthly View Type will display 31 days on
+  the Schedule GANNT Chart starting with the Schedule Date.
 
 View Type
+
 - Determines both the number of days displayed on the Schedule GANNT Chart
-Grid in addition to the exact method for displaying schedules. Available
-View Types are outlined below.
+  Grid in addition to the exact method for displaying schedules. Available
+  View Types are outlined below.
 
 Daily
+
 - Displays a single day, as specified by the Schedule Date, on the Schedule
-GANNT Chart for all employees included in the Filter. In the Daily View,
-the Schedule GANNT Chart is split by 5 minute increments for detailed
-scheduling purposes. Individual working periods and break periods, including
-Job Costing Details, are displayed on the daily view.
+  GANNT Chart for all employees included in the Filter. In the Daily View,
+  the Schedule GANNT Chart is split by 5 minute increments for detailed
+  scheduling purposes. Individual working periods and break periods, including
+  Job Costing Details, are displayed on the daily view.
 
 ![](/img/Sched015.png)
 
 Weekly
+
 - Displays seven days, starting with the Schedule Date, on the Schedule
-GANNT Chart for all employees included in the Filter. In the Weekly View,
-the Schedule GANNT Chart is split by one hour increments to show the distribution
-of employee schedules across individual days. Employee schedules for consecutive
-schedule blocks - regardless of type - are displayed as a single bar on
-the Weekly View Type. Consecutive Blocks display the Job Costing Details
-matching the first block on the day when hovered over by the mouse. Employee
-Schedules for non-consecutive blocks are displayed as separate bars with
-appropriate Job Costing Details. Users may hover the mouse over individual
-schedule blocks to view the full Job Costing assignment (Department, Job,
-and Task) associated with the schedule in addition to the Start and End
-Time for the block.
+  GANNT Chart for all employees included in the Filter. In the Weekly View,
+  the Schedule GANNT Chart is split by one hour increments to show the distribution
+  of employee schedules across individual days. Employee schedules for consecutive
+  schedule blocks - regardless of type - are displayed as a single bar on
+  the Weekly View Type. Consecutive Blocks display the Job Costing Details
+  matching the first block on the day when hovered over by the mouse. Employee
+  Schedules for non-consecutive blocks are displayed as separate bars with
+  appropriate Job Costing Details. Users may hover the mouse over individual
+  schedule blocks to view the full Job Costing assignment (Department, Job,
+  and Task) associated with the schedule in addition to the Start and End
+  Time for the block.
 
 ![](/img/sched1.gif)
 
 Monthly
+
 - Displays 31 days, starting with the Schedule Date, on the Schedule GANNT
-Chart for all employees included in the Filter. In the Monthly View, the
-Schedule GANNT Chart is not split by specific increments. It is not possible
-to discern the exact time of individual schedule blocks on the Monthly
-Schedule View. However, it is possible to quickly determine which days
-have no schedules. Employee schedules for consecutive schedule blocks
+  Chart for all employees included in the Filter. In the Monthly View, the
+  Schedule GANNT Chart is not split by specific increments. It is not possible
+  to discern the exact time of individual schedule blocks on the Monthly
+  Schedule View. However, it is possible to quickly determine which days
+  have no schedules. Employee schedules for consecutive schedule blocks
 - regardless of type - are displayed as a single block on the Monthly
-View Type. Consecutive Blocks display the Job Costing Details matching
-the first block on the day when hovered over by the mouse. Employee Schedules
-for non-consecutive blocks are displayed as separately with appropriate
-Job Costing Details. Users may hover the mouse over individual schedule
-blocks to view the full Job Costing assignment (Department, Job, and Task)
-associated with the schedule in addition to the Start and End Time for
-the block.
+  View Type. Consecutive Blocks display the Job Costing Details matching
+  the first block on the day when hovered over by the mouse. Employee Schedules
+  for non-consecutive blocks are displayed as separately with appropriate
+  Job Costing Details. Users may hover the mouse over individual schedule
+  blocks to view the full Job Costing assignment (Department, Job, and Task)
+  associated with the schedule in addition to the Start and End Time for
+  the block.
 
 ![](/img/Copy-Default-Schedule.gif)
 
 Filter
+
 - Permits selection of specific employees, departments, groups etc. for
-display on the Schedule GANNT Chart.
+  display on the Schedule GANNT Chart.
 
 Quick Schedule
+
 - Permits creation of schedules for multiple employees for one or more
-days using the Quick Schedule Interface.
+  days using the Quick Schedule Interface.
 
 ### Quick Schedule Record Update Form
 
@@ -1481,32 +1496,37 @@ been completed.
 ![](/img/dif09.png)
 
 Start Time
+
 - In this field you can enter the start time for the Regular Hours, Paid
-Break, and Unpaid Break.
+  Break, and Unpaid Break.
 
 End Time
-- In this field you can enter the end time for the Regular Hours, Paid
-Break, and Unpaid Break.
 
-*NOTE*:
+- In this field you can enter the end time for the Regular Hours, Paid
+  Break, and Unpaid Break.
+
+_NOTE_:
  It is often difficult to schedule breaks. Scheduling is very rigid,
 exceptions will be generated if employees do not take breaks as scheduled.
 It is generally only recommended to schedule breaks if they must be taken
 at a specific time.
 
 Valid From
+
 - Is the date in which the schedule will start to be valid.
 
 Valid To
+
 - Is the date in which the schedule will end being valid.
 
-*NOTE*:
+_NOTE_:
 The Valid From and Valid To fields are not required, if the fields are
 blank then the schedule will always be valid.
 
 Copy Button
+
 - The copy button will copy the schedule from a particular weekday to
-other weekdays.
+  other weekdays.
 
 ### Copying the Quick Schedule
 
@@ -1516,15 +1536,18 @@ the copy button to bring up the following form:
 ![](/img/Sched009.png)
 
 Copy From
+
 - Use the pull down menu to select the day that you wish to use as your
-template.
+  template.
 
 Copy To
+
 - Place a check in each box that you wish to copy the schedule to.
 
 Duplicate
+
 - Opens the Schedule Duplicate Items Time Window which permits schedules
-to be duplicated as follows:
+  to be duplicated as follows:
 
 - Schedules for a specific employee for a specific date
   range can be copied to one or more employees for a second
@@ -1610,7 +1633,7 @@ Schedules the selected employee for the time specified. The Schedule GANNT
 chart will be updated with this information after the Schedule Availability
 Employee table is closed.
 
-*Note*:
+_Note_:
 The begin and end times define the period that will be scheduled. Employees
 must be available during this period according to their availability schedule,
 otherwise no one will be displayed. Refer to the Availability section
@@ -1640,11 +1663,11 @@ and click on this button. The lower grid will be populated with employees
 that meet the criteria defined by the skeleton slot. Employees will not
 be displayed as available if:
 
-* They are already
+- They are already
   scheduled for work hours on the selected date.
-* They are not available
+- They are not available
   as determined by their availability schedule.
-* They are not trained
+- They are not trained
   for the selected task(s).
 
 Assign:
@@ -1669,20 +1692,23 @@ pages.
 Chart Filter.
 
 ![](/img/Insert-Menu.gif)
+
 - Previous Record - Moved backward through employees in the Schedule Gannt
-Chart Filter, one employee at a time.
+  Chart Filter, one employee at a time.
 
 ![](/img/dif05.png)
+
 - Next Record - Moved forward through employees in the Schedule Gannt
-Chart Filter, one employee at a time.
+  Chart Filter, one employee at a time.
 
 ![](/img/VCRFirstButton-Normal.gif)
+
 - Last Page - Displays the last 18 employees in the Schedule Gannt Chart
-Filter.
+  Filter.
 
 #### Right Click Menu
 
-* Right click on the schedule grid of a particular employee and a
+- Right click on the schedule grid of a particular employee and a
   menu of available commands will pop up.
 
 ![](/img/Sched007.png)
@@ -1692,38 +1718,38 @@ permits access to the individual Buttons present on the Schedule GANNT
 Chart such as Filter, Quick Schedule etc. Additionally, the following
 actions can be performed using the right click menu:
 
-* New
+- New
   Working - Inserts a scheduled block of working hours.
-* New
+- New
   Paid Break - Inserts a schedule block of paid break time.
-* New
+- New
   Un-Paid Break - Inserts a schedule block of un-paid break time.
-* New
+- New
   Other Activity - Inserts a schedule block of other activity
   such as vacation, sick time, personal time, etc.
-* New
+- New
   Day Off - Opens the Schedule Day off Update Form Days which
   allows the user to schedule an employee to be absent for a day. When
   a day off is scheduled employees will not receive exceptions on the
   Scheduled Day Off. Days Off are a useful feature for companies who
   utilize the Points System and wish to ensure employees who are approved
   for an absence will not be penalized.
-* Copy
+- Copy
   - Displayed on the right click menu only when right clicking
-  on an existing Schedule Block. Copies the respective schedule block.
-  The block can then be pasted to another employee or day by right clicking
-  on the time at which you want the block to start and then clicking
-  paste.
-* Cut
+    on an existing Schedule Block. Copies the respective schedule block.
+    The block can then be pasted to another employee or day by right clicking
+    on the time at which you want the block to start and then clicking
+    paste.
+- Cut
   - Displayed on the right click menu only when right clicking
-  on an existing Schedule Block. Copies the respective schedule block.
-  The block can then be moved to another employee or day by right clicking
-  on the time at which you want the block to start and then clicking
-  paste. The original block will then be removed.
-* Paste
+    on an existing Schedule Block. Copies the respective schedule block.
+    The block can then be moved to another employee or day by right clicking
+    on the time at which you want the block to start and then clicking
+    paste. The original block will then be removed.
+- Paste
   - Pastes the previously copied schedule block. The pasted block
-  will have the same Job Costing Details and duration as the original
-  schedule block, though it will be pasted at the
+    will have the same Job Costing Details and duration as the original
+    schedule block, though it will be pasted at the
 
 New
 Working - Scheduling Regular Work Hours
@@ -1825,18 +1851,18 @@ the new schedule will not be inserted for the respective employee.
 New
 Day Off - Scheduling a Day Off
 
-* Click
+- Click
   Insert.
 
 ![](/img/Sched003.png)
 
-* Enter
+- Enter
   the date you wish to add a day off for by typing in the Schedule Date
   Field or using the Calendar Button.
 
 ![](/img/VCRNextButton-Normal.gif)
 
-* If
+- If
   the employee's default schedule is a Day Time Schedule that does not
   cross midnight then check 'Only for Schedules that Start and End on
   Day Off.' If the employee's default schedule crosses midnight, do
@@ -1844,16 +1870,16 @@ Day Off - Scheduling a Day Off
   below lists examples of employee schedules and shows whether the 'Only
   For Schedules that Start and End on Day Off' button should be checked.
 
- | Employee Default Schedule for Date of Schedule Day Off | Status of 'Only For Schedules that Start and nd on Day off' option. | 
-| --- | --- |
- | 6:00 AM - 3:00 PM | Checked | 
- | 8:00 AM - 5:00 PM | Checked | 
- | 12:00 PM - 8:00 PM | Checked | 
- | 3:00 PM - 11:00 PM | Checked | 
- | 5:00 PM - 2:00 AM | Unchecked | 
- | 6:00 PM - 3:00 AM | Unchecked | 
- | 7:00 PM - 4:00 AM | Unchecked | 
- | 11:00 PM - 7:00 AM | Unchecked | 
+| Employee Default Schedule for Date of Schedule Day Off | Status of 'Only For Schedules that Start and nd on Day off' option. |
+| ------------------------------------------------------ | ------------------------------------------------------------------- |
+| 6:00 AM - 3:00 PM                                      | Checked                                                             |
+| 8:00 AM - 5:00 PM                                      | Checked                                                             |
+| 12:00 PM - 8:00 PM                                     | Checked                                                             |
+| 3:00 PM - 11:00 PM                                     | Checked                                                             |
+| 5:00 PM - 2:00 AM                                      | Unchecked                                                           |
+| 6:00 PM - 3:00 AM                                      | Unchecked                                                           |
+| 7:00 PM - 4:00 AM                                      | Unchecked                                                           |
+| 11:00 PM - 7:00 AM                                     | Unchecked                                                           |
 
 Note:
 Remember, it is important that the 'Only for Schedules That Start and
@@ -1968,16 +1994,16 @@ below.
 1. Interview employees to determine availability. Fill out the table
    below for each employee to indicate when they are available to work.
 
- | Employee Name | John Smith | | 
-| --- | --- |
- | Weekday | Start Time | End Time | 
- | Monday | 6:00 AM | 10:00 PM | 
- | Tuesday | 6:00 AM | 5:00 PM | 
- | Wednesday | 6:00 AM | 10:00 PM | 
- | Thursday | 6:00 AM | 5:00 PM | 
- | Friday | 6:00 AM | 10:00 PM | 
- | Saturday | 6:00 AM | 10:00 PM | 
- | Sunday | 2:00 PM | 10:00 PM | 
+| Employee Name | John Smith |          |
+| ------------- | ---------- | -------- |
+| Weekday       | Start Time | End Time |
+| Monday        | 6:00 AM    | 10:00 PM |
+| Tuesday       | 6:00 AM    | 5:00 PM  |
+| Wednesday     | 6:00 AM    | 10:00 PM |
+| Thursday      | 6:00 AM    | 5:00 PM  |
+| Friday        | 6:00 AM    | 10:00 PM |
+| Saturday      | 6:00 AM    | 10:00 PM |
+| Sunday        | 2:00 PM    | 10:00 PM |
 
 2. Configure
    each availability type.
@@ -1992,22 +2018,26 @@ all of the employees. To Configure an Availability Type:
 ![](/img/Train_task_Update_Form.gif)
 
 Description
+
 - This is the name given to an Availability Schedule, as entered on the
-Schedule Availability Update form.
+  Schedule Availability Update form.
 
 Insert
+
 - Opens the Schedule Availability Update form so you can create
-a new availability template.
+  a new availability template.
 
 Change
+
 - Opens the Schedule Availability Update Form of the record selected
-so you can edit the availability template.
+  so you can edit the availability template.
 
 Delete
+
 - Deletes the selected record from the Schedule availability Table.
-Schedule availability templates cannot be deleted if they are assigned
-to an employee. If an availability record should be deleted it cannot
-be restored.
+  Schedule availability templates cannot be deleted if they are assigned
+  to an employee. If an availability record should be deleted it cannot
+  be restored.
 
 2. Click on Insert.
    The Schedule Availability Update Form will be displayed.
@@ -2033,8 +2063,8 @@ be restored.
    Availability Schedule to a specific date range. In this way different
    Availability Schedules can be configured ahead of time.
 
-3. Assign
-   availability types to employees.
+10. Assign
+    availability types to employees.
 
 ![](/img/Differential-Pay.gif)
 
@@ -2132,21 +2162,25 @@ available employees.
 ![](/img/Sched004.png)
 
 Schedule
+
 - Opens the Schedule Skeleton Chart Window, which is used to assign trained
-tasks and schedule slots to the skeleton.
+  tasks and schedule slots to the skeleton.
 
 Insert
+
 - Opens the Schedule Skeleton Update Form, used to create a new Schedule
-Skeleton. Trained Tasks and Schedule Slots must then be assigned to the
-skeleton before it can be used to schedule employees.
+  Skeleton. Trained Tasks and Schedule Slots must then be assigned to the
+  skeleton before it can be used to schedule employees.
 
 Change
+
 - Opens the Schedule Skeleton Update Form for the selected skeleton. The
-user may then edit the Schedule Skeleton Description as desired.
+  user may then edit the Schedule Skeleton Description as desired.
 
 Delete
+
 - Deletes the selected Schedule Skeleton. If a Skeleton is deleted, it
-will no longer be available for scheduling purposes.
+  will no longer be available for scheduling purposes.
 
 Schedule Skeletons can be used to create a basic scheduling template
 which matches the requirements of your organization. Skeletons are designed
@@ -2163,12 +2197,12 @@ ABC Catering makes staff available to weddings, birthdays, and other
 events based upon the number of people in attendance. ABC Catering has
 configured skeletons to describe the following scenarios:
 
- | Number of Guests | Labor Requirements | 
-| --- | --- |
- | < 50 Guests | 3 Servers, 2 Cooks, 1 Bartender | 
- | 50 - 100 Guests | 8 Servers, 3 Cooks, 1 Bartender | 
- | 100 - 250 Guests | 12 Servers, 4 Cooks, 2 Bartenders | 
- | 250 - 500 Guests | 20 Servers, 5 Cooks, 3 Bartenders | 
+| Number of Guests | Labor Requirements                |
+| ---------------- | --------------------------------- |
+| < 50 Guests      | 3 Servers, 2 Cooks, 1 Bartender   |
+| 50 - 100 Guests  | 8 Servers, 3 Cooks, 1 Bartender   |
+| 100 - 250 Guests | 12 Servers, 4 Cooks, 2 Bartenders |
+| 250 - 500 Guests | 20 Servers, 5 Cooks, 3 Bartenders |
 
 #### Configuring Skeletons
 
@@ -2245,10 +2279,10 @@ When scheduling employees using Skeletons you may find an employee you
 wish to schedule does not show up in the lower pane. The following requirements
 must be met for an employee to be displayed as available:
 
-* The Employee must have the appropriate trained task assigned to
+- The Employee must have the appropriate trained task assigned to
   them in their employee record.
-* The Employee must be available during the time period defined on
+- The Employee must be available during the time period defined on
   the skeleton according to their Availability Type.
-* Employees that already have a schedule during any portion of the
+- Employees that already have a schedule during any portion of the
   time period defined by the selected skeleton will not be displayed
   in the lower pane as available.

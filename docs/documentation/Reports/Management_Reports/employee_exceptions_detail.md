@@ -3,8 +3,6 @@ title: "Employee Exceptions Detail Report"
 description: "A detailed report displaying unreviewed employee exceptions within a specified date range, with options to filter by exception type and include graphics."
 ---
 
-Employee Exceptions Detail
-
 # Employee Exceptions Detail
 
 Displays exceptions for the employees specified by Selection Criteria. All un-reviewed exceptions within the selected date range, as specified by Selection Criteria, will be displayed on this report.

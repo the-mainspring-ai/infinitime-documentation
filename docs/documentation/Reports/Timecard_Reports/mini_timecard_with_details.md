@@ -3,8 +3,6 @@ title: "Mini Timecard With Details"
 description: "A report providing an overview of employee activity, including in/out times and hourly totals, within a specified date range."
 ---
 
-Mini Timecard With Details
-
 # Mini Timecard With Details
 
 Displays an overview of employee activity within the specified date range.

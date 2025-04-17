@@ -3,8 +3,6 @@ title: "User Customizable Reports in InfiniTime 7"
 description: "Overview of customizable reporting features in InfiniTime 7, including quick print and saved reports, replacing the previous crystal reports add-on."
 ---
 
-User Customizable Reports
-
 # User Customizable Reports
 
 Unlike previous versions of InfiniTime, InfiniTime 7 does not include the crystal reports add on due to the complexity of the ASP.NET environment and licensing issues. As an alternative customizable reports have been added to the software which give the user the ability to pick and choose the information that will be displayed on the report. By changing the report options users can control the information displayed on the report. The customization process is outlined below.

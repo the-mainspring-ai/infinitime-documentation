@@ -3,8 +3,6 @@ title: "Important Date Report"
 description: "A guide to generating and using the Important Dates report, which displays upcoming significant dates for employees, with options for customization and grouping."
 ---
 
-Important Date
-
 # Important Date
 
 Displays a list of important dates, as defined within the employee table, for the specified employees.

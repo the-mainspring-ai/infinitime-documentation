@@ -3,17 +3,6 @@ title: "Schedule Feature Overview"
 description: "Learn how to access and configure employee schedules in InfiniTime™, including inputting expected hours and managing schedules through the main menu."
 ---
 
-xml version="1.0" encoding="utf-8" ?
-
-
-
-
-
-Schedule Introduction
-
-
-
-
 # Schedule Introduction
 
 The Schedule feature can be accessed through Company and Schedule from
@@ -26,7 +15,7 @@ of the program including the employee profile and in the policy update.
 
 Accessing The Schedule:
 
-* Click
+- Click
   on the Schedule button on the main menu bar.
 
 ![](/img/sched3.gif)
@@ -52,9 +41,10 @@ on the GANNT chart. Available options include a daily, weekly, and monthly
 view.
 
 Filter
--  This button will allow you to select employees for which schedule
-information will be displayed. Refer to the User Interface section of
-this document for further information on using the Employee Filter.
+
+- This button will allow you to select employees for which schedule
+  information will be displayed. Refer to the User Interface section of
+  this document for further information on using the Employee Filter.
 
 Duplicate
 
@@ -100,12 +90,12 @@ This button permits employee
 scheduling based upon availability. The below requirements must be met
 before the Find Available button may be used.
 
-* Availability must be configured. Inception
+- Availability must be configured. Inception
   Technologies recommends defining a separate availability entry for
   each employee. The availability entry should reflect normal hours
   where an employee is available for working.
 
-* Each
+- Each
   employee must have an availability record assigned within their employee
   record.
 
@@ -115,11 +105,11 @@ Available employees will
 be displayed in the lower grid as shown above.  Employees will not
 be displayed as available if:
 
-* They
+- They
   are already scheduled for work hours on the selected date.
-* They
+- They
   are not available as determined by their availability schedule.
-* They
+- They
   are not trained for the selected task(s).
 
 Schedule
@@ -131,7 +121,7 @@ Time: Select the start time for the period you wish to schedule.
 End
 Time: Select the end time for the period you wish to schedule.
 
-*Note*:
+_Note_:
 The begin and end times define the period that will be scheduled. Employees
 must be available during this period according to their availability schedule,
 otherwise no one will be displayed. Refer to the Availability section
@@ -173,11 +163,11 @@ on this button. The lower grid will be populated with employees that meet
 the criteria defined by the skeleton. Employees will not be displayed
 as available if:
 
-* They
+- They
   are already scheduled for work hours on the selected date.
-* They
+- They
   are not available as determined by their availability schedule.
-* They
+- They
   are not trained for the selected task(s).
 
 Assign:

@@ -3,8 +3,6 @@ title: "Messaging System Overview"
 description: "A guide to using InfiniTime's internal messaging system for employee communication, including sending messages, privacy considerations, and message management."
 ---
 
-Messaging Introduction
-
 # Messaging Introduction
 
 InfiniTime includes an internal messaging system, which can be used by employees to send notes to management, request a schedule change, or even request time off. Messaging is not intended to replace other standard means of communication such as email or instant messaging within the workplace. Messaging users should assume no privacy when sending messages. Any employee with access to the senderâs employee record within the employee table can view an account of all messages sent and received. Messages will be saved in the InfiniTime database indefinitely and can only be altered or deleted if they are unread by all intended recipients. Once a single recipient has viewed a message it cannot be removed from the InfiniTime database.

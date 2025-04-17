@@ -3,8 +3,6 @@ title: "Who Is Where Report"
 description: "A guide to generating and customizing the Who Is Where report, showing employee locations and department assignments."
 ---
 
-Who Is Where
-
 # Who Is Where
 
 Displays a list of all employees and which department they are currently clocked into.

@@ -3,8 +3,6 @@ title: "Attendance Review Report"
 description: "A guide to using the Attendance Review report to analyze employee attendance trends, exceptions, and activity types over a specified date range."
 ---
 
-Attendance Review
-
 # Attendance Review
 
 Displays a chart for the date range specified detailing missed days, paid time off, other activity types, and the number of days with exceptions.

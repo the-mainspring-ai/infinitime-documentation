@@ -3,8 +3,6 @@ title: "Juno Direct USB Connection Guide"
 description: "Learn how to connect your Juno device directly to the InfiniTime server via USB for fast data transfer and easy setup."
 ---
 
-Juno Direct Connection (USB)
-
 # Juno Direct Connection (USB)
 
 The Juno can be connected directly to a USB Port on the InfiniTime server through use of a USB to Serial Converter, which is included with the purchase of a Juno Reader. The included three foot USB to Serial cable permits placement of the Juno within close proximity of the server. If the Juno must be placed farther from the server, a USB Extension cable can be purchased from your local electronics and computer supply store. Standard, or passive, USB Cables are available up to 16.5 Feet while active cables which boost signal strength to allow for longer distances are available in longer lengths.

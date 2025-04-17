@@ -3,16 +3,7 @@ title: "Payroll Export Guide"
 description: "Learn how to export employee hours and earnings from InfiniTime for seamless integration with accounting and payroll software, reducing manual data entry and saving time."
 ---
 
-xml version="1.0" encoding="utf-8" ?
-
-
-
-
-
 Payroll Export
-
-
-
 
 # Payroll Export Section Overview
 
@@ -57,15 +48,15 @@ to a Third Party Payroll application are understood by Inception Technologies
 Staff and met by the final Payroll Export Format selected for production
 use.
 
- | The Custom Payroll Interface Development Process   is documented in the following diagram :  (Click to Download) | In order to meet the diverse needs of our Client Base, InfiniTime provides support for multiple types of hours costing (Referred to as Job Costing by Inception Technologies Representatives and the InfiniTime Help System) in addition to the tracking of Worked Hours (Regular Hours, Overtime Hours), Other Hours (Sick Time, Vacation Time), and Other Amounts (Direct Dollar Amounts such as Tips, Bonus Pay, etc.). In order to effectively configure the InfiniTime Application to export employee earnings and hours to Third Party Payroll Applications such as QuickBooks Pro, Paychex, or ADP a thorough understanding of how a given organization tracks employee hours and earnings â including Hours Costing Categories and Hours Types - is required. | 
-| --- | --- |
+| The Custom Payroll Interface Development Process  is documented in the following diagram : (Click to Download) | In order to meet the diverse needs of our Client Base, InfiniTime provides support for multiple types of hours costing (Referred to as Job Costing by Inception Technologies Representatives and the InfiniTime Help System) in addition to the tracking of Worked Hours (Regular Hours, Overtime Hours), Other Hours (Sick Time, Vacation Time), and Other Amounts (Direct Dollar Amounts such as Tips, Bonus Pay, etc.). In order to effectively configure the InfiniTime Application to export employee earnings and hours to Third Party Payroll Applications such as QuickBooks Pro, Paychex, or ADP a thorough understanding of how a given organization tracks employee hours and earnings â including Hours Costing Categories and Hours Types - is required. |
+| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-*Example
-Hours Costing Categories*
+_Example
+Hours Costing Categories_
 
- | Organizational Units (IE: Department) | Geographical Region (IE: City, State, Country, Plant or Site Name, Company) | Managerial Accounting Labor Type (IE: Direct or Indirect) | 
-| --- | --- | --- |
- | Job Role | Job / Invoice Number | Customer Number | 
+| Organizational Units (IE: Department) | Geographical Region (IE: City, State, Country, Plant or Site Name, Company) | Managerial Accounting Labor Type (IE: Direct or Indirect) |
+| ------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Job Role                              | Job / Invoice Number                                                        | Customer Number                                           |
 
 Categories
 & Examples of Hour Types Supported by InfiniTime
@@ -100,14 +91,14 @@ commercial Accounting or Payroll Related Software Suite with InfiniTime, your Pa
 Representative should have such a template available. Simply contact your
 Payroll Application Vendor, explain you are working with a Time and Attendance
 Software Vendor who is interested in exporting employee hours and earnings
-to their Payroll Application, and request a â***field by field layout for importing
+to their Payroll Application, and request a â**_field by field layout for importing
 employee hours from a comma delimited, tab delimited, or fixed length
-ASCII File.â*** Generally, you will receive a PDF similar to the
+ASCII File.â_** Generally, you will receive a PDF similar to the
 document below.
 
-*Technical Note: A Field by Field Layout for
+_Technical Note: A Field by Field Layout for
 importing Employee Hours and Earnings may\* be found in the Help Documentation
-included with your Accounting or Payroll Related Software Suite.*
+included with your Accounting or Payroll Related Software Suite._
 
 ## Custom Payroll Interface Review & Design For In House Accounting or Payroll Related Solution
 
@@ -122,25 +113,25 @@ etc. as necessary for each field.
 An example layout for a custom payroll interface
 request is provided below.
 
-***A template must be provided
+**_A template must be provided
 to Inception Technologies for your Custom Payroll Interface Request to
-be processed.***
+be processed._**
 
- | | | | | | 
+| | | | | |
 ||
- | **Example Payroll Export Layout** | | | | | 
- | **Field Name** | **Description** | **Data Type** | **Format** | **Notes** | 
- | TECHNO | Employee ID - Data in UPPERCASE and must match TECHNO in VisionPoint | Alphanumeric | N/A | Enclosed in quotes. | 
- | REGHRS | Regular Hours | Numeric | 1234.00 | 2 Decimal Places / Show Decimal | 
- | OVTHRS | Overtime Hours | Numeric | 1234.00 | 2 Decimal Places / Show Decimal | 
- | VACHRS | Vacation Hours - Mapped Amount 1 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal | 
- | PERHRS | Personal Hours - Mapped Amount 2 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal | 
- | HOLHRS | Holiday Hours - Mapped Amount 3 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal | 
- | BERHRS | Bereavement Hours - Mapped Amount 4 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal | 
- | SCKHRS | Sick Hours - Mapped Amount 5 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal | 
- | STRHRS | Straight Time Hours - Mapped Amount 6 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal | 
- | SDATE | Start Date - From Date of payroll export | Date | MM/DD/YYYY | | 
- | EDATE | End Date - To Date of payroll export | Date | MM/DD/YYYY | | 
+| **Example Payroll Export Layout** | | | | |
+| **Field Name** | **Description** | **Data Type** | **Format** | **Notes** |
+| TECHNO | Employee ID - Data in UPPERCASE and must match TECHNO in VisionPoint | Alphanumeric | N/A | Enclosed in quotes. |
+| REGHRS | Regular Hours | Numeric | 1234.00 | 2 Decimal Places / Show Decimal |
+| OVTHRS | Overtime Hours | Numeric | 1234.00 | 2 Decimal Places / Show Decimal |
+| VACHRS | Vacation Hours - Mapped Amount 1 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal |
+| PERHRS | Personal Hours - Mapped Amount 2 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal |
+| HOLHRS | Holiday Hours - Mapped Amount 3 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal |
+| BERHRS | Bereavement Hours - Mapped Amount 4 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal |
+| SCKHRS | Sick Hours - Mapped Amount 5 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal |
+| STRHRS | Straight Time Hours - Mapped Amount 6 | Numeric | 1234.00 | 2 Decimal Places / Show Decimal |
+| SDATE | Start Date - From Date of payroll export | Date | MM/DD/YYYY | |
+| EDATE | End Date - To Date of payroll export | Date | MM/DD/YYYY | |
 
 ## Payroll Export User Interface Overview
 
@@ -149,18 +140,18 @@ of Payroll Exports to be configured. While most InfiniTime
 Clients will require only a single Payroll Export Setting, multiple Payroll
 Exports can be configured to support the following scenarios:
 
-* Exporting
+- Exporting
   Employee Hours Earnings for Different Groupings of Employees to separate
   files (IE: By Department, Company, Location, Pay Type, etc.)
-* Exporting
+- Exporting
   Employee Hours and Earnings for Different Date Ranges
-* Exporting
+- Exporting
   Employee Hours and Earnings to Different Payroll Interface Formats
-* Exporting
+- Exporting
   Employee Hours and Earnings with different sets of Payroll Codes for
   Working Hours (IE: Direct Labor Employees may have different Payroll
   Codes than Indirect Labor Employees)
-* Exporting
+- Exporting
   Employee Hours and Earnings to the Same Payroll Interface Format with
   different values for Prompts on the Required Info. Tab of the Payroll
   Interface Update Form
@@ -183,14 +174,14 @@ Insert on the Payroll Export Table to Open the Payroll Export Update Form.
 
 ![](/img/image35.jpg)
 
-* The
+- The
   Payroll Export Update Form displays Payroll Export related options
   and settings. Required settings have a blue background and must be
   completed before the Payroll Export can be saved.
 
 ![](/img/image46.jpg)
 
-* The
+- The
   following settings and options are available on the Payroll Export
   Update Form:
 
@@ -256,18 +247,18 @@ Flow Diagram.
    available and must be filled out. Configuration examples are shown
    below. Keep the items that follow in mind when entering this information.
 
-* A domain
+- A domain
   name or IP Address can be used in the Host Address Field.
-* Do
+- Do
   not include the ftp:// prefix in the Host Address Field.
-* The
+- The
   Directory field can be left blank if you are uploading to the root
   of the FTP Site.
-* If
+- If
   you wish to upload to a specific folder on the FTP site you must specify
   the full path using a preceding forward slash ( / ) as shown in the
   image below.
-* The
+- The
   Login Name can be a Local Windows Account, a Domain Account, or Anonymous.
   Enter the Login Name in one of the following formats:
 
@@ -280,12 +271,12 @@ Enter
 the Host Address. There are three valid formats for the host address field
 as listed below. **Do not include the ftp:// prefix in this field.**
 
- | Valid Host Address Formats | | 
-| --- |
- | Format Type | Example | 
- | Private IP Address | 192.168.1.20 | 
- | Public IP Address | 70.167.196.165 | 
- | Domain Name | www.InfiniTime.com | 
+| Valid Host Address Formats |                    |
+| -------------------------- | ------------------ |
+| Format Type                | Example            |
+| Private IP Address         | 192.168.1.20       |
+| Public IP Address          | 70.167.196.165     |
+| Domain Name                | www.InfiniTime.com |
 
 1. Enter
    the Directory. Remember to include a preceding forward slash as shown.
@@ -314,12 +305,12 @@ Domain Accounts:
    formats for the host address field as listed below. **Do not include
    the ftp:// prefix in this field.**
 
- | Valid Host Address Formats | | 
-| --- |
- | Format Type | Example | 
- | Private IP Address | 192.168.1.20 | 
- | Public IP Address | 70.167.196.165 | 
- | Domain Name | www.InfiniTime.com | 
+| Valid Host Address Formats |                    |
+| -------------------------- | ------------------ |
+| Format Type                | Example            |
+| Private IP Address         | 192.168.1.20       |
+| Public IP Address          | 70.167.196.165     |
+| Domain Name                | www.InfiniTime.com |
 
 2. Enter the Directory.
    Remember to include a preceding forward slash as shown.
@@ -349,12 +340,12 @@ Anonymous User:
    formats for the host address field as listed below. **Do not include
    the ftp:// prefix in this field.**
 
- | Valid Host Address Formats | | 
-| --- |
- | Format Type | Example | 
- | Private IP Address | 192.168.1.20 | 
- | Public IP Address | 70.167.196.165 | 
- | Domain Name | www.InfiniTime.com | 
+| Valid Host Address Formats |                    |
+| -------------------------- | ------------------ |
+| Format Type                | Example            |
+| Private IP Address         | 192.168.1.20       |
+| Public IP Address          | 70.167.196.165     |
+| Domain Name                | www.InfiniTime.com |
 
 2. Enter the Directory.
    Remember to include a preceding forward slash as shown.
@@ -403,10 +394,10 @@ and Overtime Four Hours must be filled. If your chosen Payroll Interface
 does not utilize Payroll Codes, simply set the Payroll Code fields to
 a value of âNAâ.
 
-*NOTE: For Instructions on
+_NOTE: For Instructions on
 how to determine if a specific Payroll Interface Format utilizes Payroll
 Codes, [see the Payroll Interface
-Layout Report](../Reports/Reports.md#rpt57_Payroll_Interface_Layout) for additional details.*
+Layout Report](../Reports/Reports.md#rpt57_Payroll_Interface_Layout) for additional details._
 
 ###
 
@@ -462,8 +453,8 @@ intervals as outlined below.
 
 1. **Insert**
    - Opens the Auto
-   Payroll Export Schedule Update Form. Used to insert an automatic export
-   schedule
+     Payroll Export Schedule Update Form. Used to insert an automatic export
+     schedule
 
 ![](/img/image75.jpg)
 
@@ -523,15 +514,15 @@ Related Option functions.
 4. Alert
    When Unreviewed Exceptions Are Found For Exported Employees
    - InfiniTime will alert
-   the user if any un-reviewed exceptions are found during the export
-   process for the employees specified by the Employee Filter. InfiniTime first identifies employees
-   indicated by the employee filter on the payroll export and determines
-   if any employees have exceptions that are not marked as reviewed.
-   If an un-reviewed exception is found the following warning is displayed:
+     the user if any un-reviewed exceptions are found during the export
+     process for the employees specified by the Employee Filter. InfiniTime first identifies employees
+     indicated by the employee filter on the payroll export and determines
+     if any employees have exceptions that are not marked as reviewed.
+     If an un-reviewed exception is found the following warning is displayed:
 
 ![](/img/image41.jpg)
 
- The
+The
 warning above is followed immediately by a list of all employees with
 un-reviewed exceptions.
 
@@ -568,8 +559,7 @@ of employees with un-reviewed timecard activity as shown below.
 ![](/img/image30.jpg)
 
 6. **Alert
-   When Timecards Are Not Reviewed By Employee For Exported Employees
-   -** InfiniTime
+   When Timecards Are Not Reviewed By Employee For Exported Employees -** InfiniTime
    will alert the user if any un-reviewed Timecards by the employee are
    found during the export process for the employees specified by the
    Employee Filter. InfiniTime first identifies employees indicated by
@@ -593,8 +583,7 @@ the list of employees with un-reviewed timecard activity as shown below.
 ![](/img/image29.jpg)
 
 7. **Alert
-   When Number of Reviews are Less Than X For Exported Employees
-   -** InfiniTime will
+   When Number of Reviews are Less Than X For Exported Employees -** InfiniTime will
    alert the user if any Timecards have not been reviewed at least X
    times for an employee included in the Payroll Export Employee Filter.
    InfiniTime first identifies
@@ -625,51 +614,51 @@ the list of employees with un-reviewed timecard activity as shown below.
    if your organizationâs Accounting or Payroll Related Software Suite
    is configured to pay Overtime at Half Time for Salary Employees.
 
-*Default Payroll
-Export Functionality:*
+_Default Payroll
+Export Functionality:_
 
- | | | | 
+| | | |
 ||
- | **Employee Worked Hours** | | | 
- | **Hours** | **Hours Type** | **Description** | 
- | 40 | Regular Hours | Worked Hours â Regular Hours Less than 40 Per Week. | 
- | 12 | OT1 Hours | Weekly Overtime > 40 Hours Per Week | 
- | 8 | OT2 Hours | Saturday Regular Hours - Day of Week Overtime | 
- | 1 | OT3 Hours | Saturday Overtime Hours â Day of Week Overtime | 
- | 3.25 | OT4 Hours | Sunday Regular Hours â Day of Week Overtime | 
+| **Employee Worked Hours** | | |
+| **Hours** | **Hours Type** | **Description** |
+| 40 | Regular Hours | Worked Hours â Regular Hours Less than 40 Per Week. |
+| 12 | OT1 Hours | Weekly Overtime > 40 Hours Per Week |
+| 8 | OT2 Hours | Saturday Regular Hours - Day of Week Overtime |
+| 1 | OT3 Hours | Saturday Overtime Hours â Day of Week Overtime |
+| 3.25 | OT4 Hours | Sunday Regular Hours â Day of Week Overtime |
 
- | | | 
- | --- | --- | 
- | **Exported Hours Totals** | | 
- | **Hours** | **Hours Type** | 
- | 40 | Regular Hours | 
- | 12 | OT1 Hours | 
- | 8 | OT2 Hours | 
- | 1 | OT3 Hours | 
- | 3.25 | OT4 Hours | 
+|                           |                |
+| ------------------------- | -------------- |
+| **Exported Hours Totals** |                |
+| **Hours**                 | **Hours Type** |
+| 40                        | Regular Hours  |
+| 12                        | OT1 Hours      |
+| 8                         | OT2 Hours      |
+| 1                         | OT3 Hours      |
+| 3.25                      | OT4 Hours      |
 
-*Export
-Overtime as Half Time Functionality:*
+_Export
+Overtime as Half Time Functionality:_
 
- | | | | 
+| | | |
 ||
- | **Employee Worked Hours** | | | 
- | **Hours** | **Hours Type** | **Description** | 
- | 40 | Regular Hours | Worked Hours â Regular Hours Less than 40 Per Week. | 
- | 12 | OT1 Hours | Weekly Overtime > 40 Hours Per Week | 
- | 8 | OT2 Hours | Saturday Regular Hours - Day of Week Overtime | 
- | 1 | OT3 Hours | Saturday Overtime Hours â Day of Week Overtime | 
- | 3.25 | OT4 Hours | Sunday Regular Hours â Day of Week Overtime | 
+| **Employee Worked Hours** | | |
+| **Hours** | **Hours Type** | **Description** |
+| 40 | Regular Hours | Worked Hours â Regular Hours Less than 40 Per Week. |
+| 12 | OT1 Hours | Weekly Overtime > 40 Hours Per Week |
+| 8 | OT2 Hours | Saturday Regular Hours - Day of Week Overtime |
+| 1 | OT3 Hours | Saturday Overtime Hours â Day of Week Overtime |
+| 3.25 | OT4 Hours | Sunday Regular Hours â Day of Week Overtime |
 
- | | | 
- | --- | --- | 
- | **Exported Hours Totals** | | 
- | **Hours** | **Hours Type** | 
- | 64.25 | Total Working Hours | 
- | 12 | OT1 Hours | 
- | 8 | OT2 Hours | 
- | 1 | OT3 Hours | 
- | 3.25 | OT4 Hours | 
+|                           |                     |
+| ------------------------- | ------------------- |
+| **Exported Hours Totals** |                     |
+| **Hours**                 | **Hours Type**      |
+| 64.25                     | Total Working Hours |
+| 12                        | OT1 Hours           |
+| 8                         | OT2 Hours           |
+| 1                         | OT3 Hours           |
+| 3.25                      | OT4 Hours           |
 
 When Export Overtime as Half Time is enabled, Employee Hour Totals are
 altered as follows:
@@ -680,7 +669,8 @@ red shading the tables above.
 
 Total Working Hours =
 Regular Hours + Overtime 1 Hours + Overtime 2 Hours + Overtime 3 Hours
-+ Overtime 4 Hours
+
+- Overtime 4 Hours
 
 It should be noted that the Pay Rate for
 Regular, Overtime 1, Overtime 2, Overtime 3, and Overtime 4 Hours Types
@@ -694,20 +684,20 @@ example of Salary Gross Wage Calculations, as performed by a Payroll Application
 Configured for âHalf Timeâ according to the Fair Labor Standards Act (FLSA)
 is shown below.
 
- | | | | 
+| | | |
 ||
- | **Employee Worked Hours** | | | 
- | **Hours** | **Hours Type** | **Description** | 
- | 40 | Regular Hours | Worked Hours â Regular Hours Less than 40 Per Week. | 
- | 12 | OT1 Hours | Weekly Overtime > 40 Hours Per Week | 
+| **Employee Worked Hours** | | |
+| **Hours** | **Hours Type** | **Description** |
+| 40 | Regular Hours | Worked Hours â Regular Hours Less than 40 Per Week. |
+| 12 | OT1 Hours | Weekly Overtime > 40 Hours Per Week |
 
- | | | | | 
- | --- | --- | --- | --- | 
- | **Exported Hours Totals** | | | | 
- | **Hours** | **Hours Type** | **Calculated Hourly Wage (Assuming Weekly Salary of $750.00)** | **Gross Wages** | 
- | 52 | Total Working Hours | $750.00 / 52 Hrs = $14.423 / Hr | $750.00 | 
- | 12 | OT1 Hours | $14.423 \* 0.5 = $7.212 / Hr | $86.54 | 
- | Total Gross Wages | | | $836.54 | 
+|                           |                     |                                                                |                 |
+| ------------------------- | ------------------- | -------------------------------------------------------------- | --------------- |
+| **Exported Hours Totals** |                     |                                                                |                 |
+| **Hours**                 | **Hours Type**      | **Calculated Hourly Wage (Assuming Weekly Salary of $750.00)** | **Gross Wages** |
+| 52                        | Total Working Hours | $750.00 / 52 Hrs = $14.423 / Hr                                | $750.00         |
+| 12                        | OT1 Hours           | $14.423 \* 0.5 = $7.212 / Hr                                   | $86.54          |
+| Total Gross Wages         |                     |                                                                | $836.54         |
 
 Notice how Total Working Hours
 are exported and paid at the employeeâs Weekly Salary of $750.00. The
@@ -725,14 +715,12 @@ the number of Overtime Hours (12) for a total of $86.54.
    hours for inactive employees will not be exported even if they were
    terminated during the Payroll Export Date Range.
 
-***N**ote: The Payroll
+**\*N**ote: The Payroll
 Export specifically checks inactive employees included in the Payroll
 Export Employee filter to determine if they were terminated during the
 Payroll Export Date Range. Hours and Earnings will not be exported for
 employees terminated during the Payroll Export Date range who are not
-included in the Payroll Export Employee Filter.*
-
-
+included in the Payroll Export Employee Filter.\*
 
 10. **Pay
     Shift Differential Hours at Differential Pay Only** â
@@ -741,53 +729,53 @@ included in the Payroll Export Employee Filter.*
     below. This option is only compatible with Payroll Interfaces of the
     âShift Activity / Periodâ and âShift Activityâ record format.
 
-*Default Payroll
-Export Functionality:*
+_Default Payroll
+Export Functionality:_
 
- | | | | | 
+| | | | |
 ||
- | **Employee Worked Hours** | | | | 
- | **Hours** | **Hours Type** | **Shift** | **Description** | 
- | 12 | Regular Hours | No Shift Differential | Worked Hours â Regular Hours Less than 40 Per Week. No Differential. | 
- | 28 | Regular Hours | Night Shift | Worked Hours â Regular Hours Less than 40 Per Week. Night Differential (Hours Worked Between 7:00 PM and 7:00 AM). | 
- | 3 | OT1 Hours | No Shift Differential | Weekly Overtime > 40 Hours Per Week. No Differential. | 
- | 12 | OT1 Hours | Night Shift | Weekly Overtime > 40 Hours Per Week. Night Differential (Hours Worked Between 7:00 PM and 7:00 AM). | 
+| **Employee Worked Hours** | | | |
+| **Hours** | **Hours Type** | **Shift** | **Description** |
+| 12 | Regular Hours | No Shift Differential | Worked Hours â Regular Hours Less than 40 Per Week. No Differential. |
+| 28 | Regular Hours | Night Shift | Worked Hours â Regular Hours Less than 40 Per Week. Night Differential (Hours Worked Between 7:00 PM and 7:00 AM). |
+| 3 | OT1 Hours | No Shift Differential | Weekly Overtime > 40 Hours Per Week. No Differential. |
+| 12 | OT1 Hours | Night Shift | Weekly Overtime > 40 Hours Per Week. Night Differential (Hours Worked Between 7:00 PM and 7:00 AM). |
 
- | **Exported Hours Totals** | | | | 
- | **Hours** | **Hours Type** | **Pay Rate** | **Gross Wages** | 
- | 12 | Regular Non Differential Hours | $10.00 | $120.00 | 
- | 3 | OT1 Non Differential Hours | $15.00 | $45.00 | 
- | 28 | Regular Night Shift Differential Hours | $11.00 | $308.00 | 
- | 12 | OT1 Night Shift Differential Hours | $16.50 | $18.00 | 
- | **Total Gross Wages** | | | **$671.00** | 
+| **Exported Hours Totals** | | | |
+| **Hours** | **Hours Type** | **Pay Rate** | **Gross Wages** |
+| 12 | Regular Non Differential Hours | $10.00 | $120.00 |
+| 3 | OT1 Non Differential Hours | $15.00 | $45.00 |
+| 28 | Regular Night Shift Differential Hours | $11.00 | $308.00 |
+| 12 | OT1 Night Shift Differential Hours | $16.50 | $18.00 |
+| **Total Gross Wages** | | | **$671.00** |
 
-*Notice
+_Notice
 how one record is exported for each combination of Hours Type and Shift
 Differential. This is the standard Payroll Export Functionality for Payroll
 Interface Format with a Shift Activity / Period Record Format. Additional
-Information about Payroll Interface Format Record Formats can be found*
-*here.* *(->
-Payroll Interface Format Report)*
+Information about Payroll Interface Format Record Formats can be found_
+_here._ _(->
+Payroll Interface Format Report)_
 
-*Pay
-Shift Differential Hours at Differential Pay Only Functionality:*
+_Pay
+Shift Differential Hours at Differential Pay Only Functionality:_
 
- | | | | | 
+| | | | |
 ||
- | **Employee Worked Hours** | | | | 
- | **Hours** | **Hours Type** | **Shift** | **Description** | 
- | 12 | Regular Hours | No Shift Differential | Worked Hours â Regular Hours Less than 40 Per Week. No Differential. | 
- | 28 | Regular Hours | Night Shift | Worked Hours â Regular Hours Less than 40 Per Week. Night Differential (Hours Worked Between 7:00 PM and 7:00 AM). | 
- | 3 | OT1 Hours | No Shift Differential | Weekly Overtime > 40 Hours Per Week. No Differential. | 
- | 12 | OT1 Hours | Night Shift | Weekly Overtime > 40 Hours Per Week. Night Differential (Hours Worked Between 7:00 PM and 7:00 AM). | 
+| **Employee Worked Hours** | | | |
+| **Hours** | **Hours Type** | **Shift** | **Description** |
+| 12 | Regular Hours | No Shift Differential | Worked Hours â Regular Hours Less than 40 Per Week. No Differential. |
+| 28 | Regular Hours | Night Shift | Worked Hours â Regular Hours Less than 40 Per Week. Night Differential (Hours Worked Between 7:00 PM and 7:00 AM). |
+| 3 | OT1 Hours | No Shift Differential | Weekly Overtime > 40 Hours Per Week. No Differential. |
+| 12 | OT1 Hours | Night Shift | Weekly Overtime > 40 Hours Per Week. Night Differential (Hours Worked Between 7:00 PM and 7:00 AM). |
 
- | **Exported Hours Totals** | | | | 
- | **Hours** | **Hours Type** | **Pay Rate** | **Gross Wages** | 
- | 40 | Total Regular Hours | $10.00 | $400.00 | 
- | 15 | Total OT1 Hours | $15.00 | $225.00 | 
- | 28 | Regular Differential Hours | $1.00 | $28.00 | 
- | 12 | OT1 Differential Hours | $1.50 | $18.00 | 
- | **Total Gross Wages** | | | **$671.00** | 
+| **Exported Hours Totals** | | | |
+| **Hours** | **Hours Type** | **Pay Rate** | **Gross Wages** |
+| 40 | Total Regular Hours | $10.00 | $400.00 |
+| 15 | Total OT1 Hours | $15.00 | $225.00 |
+| 28 | Regular Differential Hours | $1.00 | $28.00 |
+| 12 | OT1 Differential Hours | $1.50 | $18.00 |
+| **Total Gross Wages** | | | **$671.00** |
 
 **W**hen
 âPay Shift Differential Hours at Differential Pay Onlyâ is enabled, Employee
@@ -832,11 +820,11 @@ employers to pay Total Regular Hours at the Employees Base Rate, Overtime
 Shift Differential Hours at the Shift Differential Additional Pay Amount
 or Additional Pay Percent.
 
-*Technical
+_Technical
 Note: The Rate Shift Differential Pay Method is not supported by âPay
 Shift Differential Hours at Differential Pay Onlyâ. Only the Additional
 Pay Amount or Additional Pay Percent Pay Methods are supported by this
-feature.*
+feature._
 
 11. **Override
     Pay Codes with Shift Pay Codes â** This
@@ -856,10 +844,10 @@ feature.*
 ABC
 Company has two Shift Differentials, Night Shift Differential and Sunday
 Differential. Shift Identifiers are shown below for the Payroll Interface
-Format *âCNHS (Atlantic Coast Detail)â*
-which includes separate columns for Payroll Codes (*Payroll
-Export Field Name: âActivity Typeâ*) and Shift Identifiers (*Payroll
-Export Field Name âShift Codeâ*)*.*
+Format _âCNHS (Atlantic Coast Detail)â_
+which includes separate columns for Payroll Codes (_Payroll
+Export Field Name: âActivity Typeâ_) and Shift Identifiers (_Payroll
+Export Field Name âShift Codeâ_)_._
 
 ![](/img/image66.jpg)
 
@@ -871,11 +859,10 @@ Payroll Codeâ Company Option should be unchecked. This configuration allows
 the final Payroll Export File to show the Shift Code in a Separate Column
 from the Activity Type. ABC Companyâs configuration, as detailed [in the Payroll Export Features
 & Related InfiniTime
-Configuration Review](Payroll_Export.md#pxh40_Payroll_Export_Features___Related_InfiniTime_Configuration_Review), is shown above for *the
-CNHS (Atlantic Coast Detail)* Payroll Interface Format which includes
+Configuration Review](Payroll_Export.md#pxh40_Payroll_Export_Features___Related_InfiniTime_Configuration_Review), is shown above for _the
+CNHS (Atlantic Coast Detail)_ Payroll Interface Format which includes
 both the âActivity Typeâ Field and the âShift Codeâ Field, uses these
 settings.
-
 
 For Payroll
 Interface Formats which include only the âActivity Typeâ Field, Shift
@@ -886,9 +873,7 @@ allows the final Payroll Export File to override the Working Hours Pay
 Code in the Activity Type Column with the Shift Code. An example is shown
 below.
 
-
 ![](/img/image54.jpg)
-
 
 12. **Group
     Level for Export â** This
@@ -925,28 +910,28 @@ Library Section](../Reports/Reports.md#rpt57_Payroll_Interface_Layout) of this d
 
 ### Payroll Interface Features
 
- | | | 
+| | |
 ||
- | **Feature** | **Required?** | 
- | Unique Employee Identifier | Yes | 
- | Ability to Track Earnings & Hours:   1. By    Payroll Code Only 2. By    Payroll Mapping Number 3. By    Pay Code & Hard Coded Fields 4. Hard    Coded | Yes | 
- | Support for Payroll Interface Specific Prompts (IE: Company Code) | Yes - For Specific Interface Formats Only. | 
- | Ability to Track Shift Differentials:   * For   Worked Hours Types (IE: Reg, OT1, OT2, OT3, OT4) * For   Specific Other Activity Types which are set to âCount as Worked   Hoursâ | No | 
- | Job Costing (A.K.A Hours Costing) | No | 
- | Ability to Export Employee Gross Wages | No | 
- | Ability to Export Employee Hours to Different Files for specific sets of Employees | No | 
- | Output Method(s):   1. A    Prompt is Displayed to allow the User to Open or Save the    Final Payroll Export File 2. Final    Payroll Export File is Emailed 3. Final    Payroll Export File is Transferred via FTP 4. Final    Payroll Export File is Placed in Output Folder | Yes | 
- | Ability to PGP Encrypt Output File | No | 
- | Ability to Automatically Output the Final Payroll Export File according to a predefined schedule. | No | 
- | Payroll Export Employee / Timecard Filter Related Processing Options:   * Ability   to export records only for the Non-Default Department * Ability   to Force the Payroll Export Employee Filter to Filter Time   Instead of Employees * Include   Employees Terminated During the Export Range | No | 
- | Alert Related Payroll Export Processing Options:   * Alert   When Unreviewed Exceptions are Found for Exported Employees * Alert   When Timecards are not reviewed by Employeeâs Supervisor for   Exported Employees * Alert   When Timecards are Not Reviewed by Employee for Exported Employees * Alert   when number of reviews are less than X for Exported Employees | No | 
- | Interface Specific Payroll Export Processing Options:   * Export   Overtime as Half Time * Pay   Shift Differential Hours at Differential Pay Only * Group   Level for Export | No | 
- | General Payroll Export Processing Options:   * Assign   All Time to Employeeâs Default Department | No | 
+| **Feature** | **Required?** |
+| Unique Employee Identifier | Yes |
+| Ability to Track Earnings & Hours: 1. By Payroll Code Only 2. By Payroll Mapping Number 3. By Pay Code & Hard Coded Fields 4. Hard Coded | Yes |
+| Support for Payroll Interface Specific Prompts (IE: Company Code) | Yes - For Specific Interface Formats Only. |
+| Ability to Track Shift Differentials: _ For Worked Hours Types (IE: Reg, OT1, OT2, OT3, OT4) _ For Specific Other Activity Types which are set to âCount as Worked Hoursâ | No |
+| Job Costing (A.K.A Hours Costing) | No |
+| Ability to Export Employee Gross Wages | No |
+| Ability to Export Employee Hours to Different Files for specific sets of Employees | No |
+| Output Method(s): 1. A Prompt is Displayed to allow the User to Open or Save the Final Payroll Export File 2. Final Payroll Export File is Emailed 3. Final Payroll Export File is Transferred via FTP 4. Final Payroll Export File is Placed in Output Folder | Yes |
+| Ability to PGP Encrypt Output File | No |
+| Ability to Automatically Output the Final Payroll Export File according to a predefined schedule. | No |
+| Payroll Export Employee / Timecard Filter Related Processing Options: _ Ability to export records only for the Non-Default Department _ Ability to Force the Payroll Export Employee Filter to Filter Time Instead of Employees _ Include Employees Terminated During the Export Range | No |
+| Alert Related Payroll Export Processing Options: _ Alert When Unreviewed Exceptions are Found for Exported Employees _ Alert When Timecards are not reviewed by Employeeâs Supervisor for Exported Employees _ Alert When Timecards are Not Reviewed by Employee for Exported Employees _ Alert when number of reviews are less than X for Exported Employees | No |
+| Interface Specific Payroll Export Processing Options: _ Export Overtime as Half Time _ Pay Shift Differential Hours at Differential Pay Only _ Group Level for Export | No |
+| General Payroll Export Processing Options: \* Assign All Time to Employeeâs Default Department | No |
 
 ### Payroll Interface Features & Related Configuration
 
-***Unique
-Employee Identifier***
+**_Unique
+Employee Identifier_**
 
 All
 InfiniTime Payroll Interface
@@ -955,8 +940,8 @@ Payroll Interface Formats within InfiniTime
 use the Employee ID as the employee identifier some Payroll Interface
 Formats use alternative methods for referencing the employee such as:
 
-* Alternate Payroll ID
-* Employee Social Security Number
+- Alternate Payroll ID
+- Employee Social Security Number
 
 It
 is important to understand which field within InfiniTime
@@ -966,42 +951,42 @@ Employee values for this field must be set to match the Accounting and
 Interface Layout Report](../Reports/Reports.md#rpt57_Payroll_Interface_Layout) can be used to determine exactly what employee
 identifier your chosen payroll interface uses.
 
-***Ability
-to Track Earnings & Hours***
+**_Ability
+to Track Earnings & Hours_**
 
-*All
+_All
 Payroll Interface Formats utilize one of three primary methods to show
 the number of hours for a specific Earnings or Hours Type. The âEarnings
 & Hours Exportâ methods are outlined below. A few things to keep in
-mind regarding the Earning & Hours Export Method are:*
+mind regarding the Earning & Hours Export Method are:_
 
-* *Each method requires specific items to
+- _Each method requires specific items to
   be configured within InfiniTime
   for the Payroll Interface Format to correctly export all Earnings
-  and Hours Types.*
-* *Each method has a specific indicator which
+  and Hours Types._
+- _Each method has a specific indicator which
   can be observed on the [Payroll
   Interface Layout Report](../Reports/Reports.md#rpt57_Payroll_Interface_Layout) which clearly confirms which Earning &
-  Hours Export Method is utilized by a Payroll Interface Format.*
-* *You can determine which Earning &
+  Hours Export Method is utilized by a Payroll Interface Format._
+- _You can determine which Earning &
   Hours Export Method your Payroll Interface uses with the [Payroll
-  Interface Layout Report](../Reports/Reports.md#rpt57_Payroll_Interface_Layout).*
+  Interface Layout Report](../Reports/Reports.md#rpt57_Payroll_Interface_Layout)._
 
- | | | 
+| | |
 ||
- | Payroll Export - Earnings & Hours Export Methods | | 
- | *By Payroll Code Only* | *INDICATOR:  The Payroll Interface Format:*   * *Will   contain a field titled âActivity Typeâ* * *Will   not contain fields titled âMapped â¦â*     *Payroll Codes and Payroll Mapping Codes must be configured. Shift Codes must be configured for Payroll Interface Formats which support Shift Differentials.* | 
- | *By Payroll Mapping Number* | *INDICATOR:  The Payroll Interface Format:*   * *Will   not contain a field titled âActivity Typeâ* * W*ill contain fields titled âMappedâ¦â* * *May   contain fields for specific Hours and Earning Types such as   âHoliday Hoursâ, âJury Duty Hoursâ, etc.*     *Payroll Mapping Numbers must be configured for Other Activity Types. Other Activity Types* *with the same Payroll Mapping Codes* *can be set to use the same Payroll Mapping Number.*    *Other Activity Descriptions must match Payroll Interface Hard Coded Fields. [A list of Hard Coded Fields can be found here.](Payroll_Export.md#pxh58_Hard_Coded_Payroll_Interface_Fields)* | 
- | *Hard Coded Payroll Interface Format* | *INDICATOR:  The Payroll Interface Format:*   * *Will   not contain a field titled âActivity Typeâ* * *Will   not contain fields titled âMappedâ¦â* * *Will   contain fields for specific Hours and Earning Types such as   âHoliday Hoursâ, âJury Duty Hoursâ, etc.*     *Payroll Codes can be set to NA for all Hours Types (Reg, OT1, OT2, OT3, OT4).*  **P*ayroll Mapping Numbers can be ignored and do not need to be set to any specific value.*    *Other Activity Descriptions must match Payroll Interface Hard Coded Fields. A list of Hard Coded Fields can be found here.* | 
+| Payroll Export - Earnings & Hours Export Methods | |
+| _By Payroll Code Only_ | _INDICATOR:  The Payroll Interface Format:_ \* _Will contain a field titled âActivity Typeâ_ \* _Will not contain fields titled âMapped â¦â_ _Payroll Codes and Payroll Mapping Codes must be configured. Shift Codes must be configured for Payroll Interface Formats which support Shift Differentials._ |
+| _By Payroll Mapping Number_ | _INDICATOR:  The Payroll Interface Format:_ \* _Will not contain a field titled âActivity Typeâ_ * W*ill contain fields titled âMappedâ¦â\* \* _May contain fields for specific Hours and Earning Types such as âHoliday Hoursâ, âJury Duty Hoursâ, etc._ _Payroll Mapping Numbers must be configured for Other Activity Types. Other Activity Types_ _with the same Payroll Mapping Codes_ _can be set to use the same Payroll Mapping Number._ _Other Activity Descriptions must match Payroll Interface Hard Coded Fields. [A list of Hard Coded Fields can be found here.](Payroll_Export.md#pxh58_Hard_Coded_Payroll_Interface_Fields)_ |
+| _Hard Coded Payroll Interface Format_ | _INDICATOR:  The Payroll Interface Format:_ \* _Will not contain a field titled âActivity Typeâ_ \* _Will not contain fields titled âMappedâ¦â_ \* _Will contain fields for specific Hours and Earning Types such as âHoliday Hoursâ, âJury Duty Hoursâ, etc._ _Payroll Codes can be set to NA for all Hours Types (Reg, OT1, OT2, OT3, OT4)._ \**P*ayroll Mapping Numbers can be ignored and do not need to be set to any specific value.\* _Other Activity Descriptions must match Payroll Interface Hard Coded Fields. A list of Hard Coded Fields can be found here._ |
 
-### *By Payroll Code Only*
+### _By Payroll Code Only_
 
-*The âBy
+_The âBy
 Payroll Code Onlyâ method uses Payroll Codes to indicate the specific
 Hours Type or Earnings Type a record in the Final Payroll Export File
 corresponds to. In this way, the Accounting or Payroll Software Suite
 can correctly allocate employee hours to the correct Hours / Earnings
-Type and pay the correct rate for the number of hours shown in the record.*
+Type and pay the correct rate for the number of hours shown in the record._
 
 If your Payroll Interface utilizes the âBy Payroll Code Onlyâ Earning
 & Hours Export method, Payroll Codes must be configured on the [Payroll
@@ -1023,14 +1008,14 @@ Payroll Export. Payroll Codes vary from organization to organization just
 like Operational, HR, and Accounting Practices.*
 
 **What
-is a Shift Identifier?** *A
+is a Shift Identifier?** _A
 shift identifier is similar to a Payroll Code, but instead of representing
 a single category of pay tracked by an organization, shift identifiers
 function as a modifier for other categories of pay by indicating that
 an additional dollar amount, an additional percentage of the pay categoryâs
 base rate, or an alternate hourly rate should be paid. Shift Identifiers
 are used by organizations who track Shift Differentials. Only Payroll
-Interface Formats which support Shift Differentials utilize Shift Identifiers.*
+Interface Formats which support Shift Differentials utilize Shift Identifiers._
 
 Complete
 instructions for configuring payroll codes and Shift Identifiers are below.
@@ -1043,17 +1028,17 @@ Suite, complete a table similar to that shown below for all Hours and
 Earnings Types you wish to track within InfiniTime
 for employees. For most companies, this table will include entries for:
 
-+ One
+- One
   or more types of Regular Hours
-+ One
+- One
   or more types of Overtime Hours
-+ One
+- One
   or more types of Paid or Unpaid Leave Hours
-+ One
+- One
   or more types of Holiday Pay and Holiday Worked Hours
-+ One
+- One
   or more types of Shift Differential Hours (If Applicable)
-+ One
+- One
   or more types of Earnings (Paid as a Dollar Amount)
 
 As an
@@ -1064,36 +1049,36 @@ ABC Company pays a Bonus based on output for manufacturing employees,
 tracks differential hours for Sunday Hours and Night Shift, differentiates
 between Holiday Pay and Holiday Worked Hours, and tracks Weekly Overtime.
 
- | | | | | 
+| | | | |
 ||
- | **ABC Company â Payroll Codes** | | | | 
- | **Payroll Code** | **Description** | **Type\*** | **Base Rate Modifier** | 
- | RH | Regular Hours for Hourly Employees | Working Hours | 1.0x | 
- | OT | Weekly Overtime Hours for Hourly Employees | Working Hours | 1.5x | 
- | SALRH | Regular Hours for Salary Employees | Working Hours | N/A | 
- | SALOT | Weekly Overtime Hours for Salary Employees | Working Hours | N/A | 
- | JD | Jury Duty Hours for Hourly Employees | Other Activity Hours | 1.0x | 
- | PTO | Paid Time Off Hours for Hourly Employees | Other Activity Hours | 1.0x | 
- | SALJD | Jury Duty Hours for Salary Employees | Other Activity Hours | N/A | 
- | SALPTO | Paid Time Off Hours for Salary Employees | Other Activity Hours | N/A | 
- | HP | Holiday Pay Hours for Hourly Employees | Other Activity Hours | 1.0x | 
- | HWRH | Regular Hours Worked on a Holiday for Hourly Employees | Worked Hours | 1.5x | 
- | HWOT | Overtime Hours Worked on a Holiday for Hourly Employees | Worked Hours | 2.0x | 
- | SALHP | Holiday Pay Hours for Salary Employees | Other Activity Hours | N/A | 
- | SALHWRH | Regular Hours Worked on a Holiday for Salary Employees | Worked Hours | N/A | 
+| **ABC Company â Payroll Codes** | | | |
+| **Payroll Code** | **Description** | **Type\*** | **Base Rate Modifier** |
+| RH | Regular Hours for Hourly Employees | Working Hours | 1.0x |
+| OT | Weekly Overtime Hours for Hourly Employees | Working Hours | 1.5x |
+| SALRH | Regular Hours for Salary Employees | Working Hours | N/A |
+| SALOT | Weekly Overtime Hours for Salary Employees | Working Hours | N/A |
+| JD | Jury Duty Hours for Hourly Employees | Other Activity Hours | 1.0x |
+| PTO | Paid Time Off Hours for Hourly Employees | Other Activity Hours | 1.0x |
+| SALJD | Jury Duty Hours for Salary Employees | Other Activity Hours | N/A |
+| SALPTO | Paid Time Off Hours for Salary Employees | Other Activity Hours | N/A |
+| HP | Holiday Pay Hours for Hourly Employees | Other Activity Hours | 1.0x |
+| HWRH | Regular Hours Worked on a Holiday for Hourly Employees | Worked Hours | 1.5x |
+| HWOT | Overtime Hours Worked on a Holiday for Hourly Employees | Worked Hours | 2.0x |
+| SALHP | Holiday Pay Hours for Salary Employees | Other Activity Hours | N/A |
+| SALHWRH | Regular Hours Worked on a Holiday for Salary Employees | Worked Hours | N/A |
 
- | | | | | 
- | --- | --- | --- | --- | 
- | **Shift Identifiers** | | | | 
- | **Shift Identifier** | **Description** | **Type\*** | **Pay Method** | 
- | NS | Night Shift Differential | Shift Differential | Additional $1.00 Per Hour | 
- | SUN | Sunday Differential | Shift Differential | Additional 50% of Base Rate Per Hour | 
+|                       |                          |                    |                                      |
+| --------------------- | ------------------------ | ------------------ | ------------------------------------ |
+| **Shift Identifiers** |                          |                    |                                      |
+| **Shift Identifier**  | **Description**          | **Type\***         | **Pay Method**                       |
+| NS                    | Night Shift Differential | Shift Differential | Additional $1.00 Per Hour            |
+| SUN                   | Sunday Differential      | Shift Differential | Additional 50% of Base Rate Per Hour |
 
 \*For additional details on Payroll
-Code Types [See *Categories
+Code Types [See _Categories
 & Examples of Hour Types Supported by InfiniTime
 (Payroll Export: Section 1.1.1 Custom Payroll Interface Review & Design
-Process)*](Payroll_Export.md#pxh3_Custom_Payroll_Interface_Review___Design_Overview)
+Process)_](Payroll_Export.md#pxh3_Custom_Payroll_Interface_Review___Design_Overview)
 
 2. ### Configure Payroll Codes on the Payroll Codes Tab of the Payroll Export Update Form.
 
@@ -1107,8 +1092,8 @@ and one Payroll Export for Salary Administrative Employees as shown below.
 
 ![](/img/image39.jpg)
 
-*Hourly
-Manufacturing Employees*
+_Hourly
+Manufacturing Employees_
 
 ![](/img/image44.jpg)
 
@@ -1119,13 +1104,13 @@ to the Regular Hours and Overtime Hours Pay Code for Worked Holiday Hours
 respectively. Payroll Codes for OT2, OT3, and OT4 should be configured
 as appropriate based on your Policy and Holiday Settings.
 
-*NOTE: Your
+_NOTE: Your
 [Payroll Codeâs list](Payroll_Export.md#pxh49_List_Hours_and_Earning_Types_tracked_by__your_Organization) would
 have additional types of Overtime such as Day of Week Overtime, Consecutive
-Day Overtime, or Double Time if you needed OT2.*
+Day Overtime, or Double Time if you needed OT2._
 
-*Salary
-Administrative Employees*
+_Salary
+Administrative Employees_
 
 ![](/img/image54.jpg)
 
@@ -1136,10 +1121,10 @@ to the Regular Hours and Overtime Hours Pay Code for Worked Holiday Hours
 respectively. Payroll Codes for OT2, OT3, and OT4 should be configured
 as appropriate based on your Policy and Holiday Settings.
 
-*NOTE: Your
+_NOTE: Your
 [Payroll Codeâs list](Payroll_Export.md#pxh49_List_Hours_and_Earning_Types_tracked_by__your_Organization) would
 have additional types of Overtime such as Day of Week Overtime, Consecutive
-Day Overtime, or Double Time if you needed OT2.*
+Day Overtime, or Double Time if you needed OT2._
 
 3. ### Configure Payroll Mapping Codes for Other Activity Types
 
@@ -1185,10 +1170,10 @@ found here.](../Scheduling/Scheduling.md#dif01_Shifts_for_Differential_Purposes)
 
 ABC Company
 has two Shift Differentials, Night Shift Differential and Sunday Differential.
-Shift Identifiers are shown below for the Payroll Interface Format *âCNHS (Atlantic Coast Detail)â*
-which includes separate columns for Payroll Codes (*Payroll
-Export Field Name: âActivity Typeâ*) and Shift Identifiers (*Payroll
-Export Field Name âShift Codeâ*)*.*
+Shift Identifiers are shown below for the Payroll Interface Format _âCNHS (Atlantic Coast Detail)â_
+which includes separate columns for Payroll Codes (_Payroll
+Export Field Name: âActivity Typeâ_) and Shift Identifiers (_Payroll
+Export Field Name âShift Codeâ_)_._
 
 ![](/img/image43.jpg)
 
@@ -1204,8 +1189,8 @@ Codeâ Field, Shift Identifiers should be a single value for all Worked
 Hours Types. Additionally, the âShift Identifier Overrides Payroll Codeâ
 Company Option should be unchecked. This configuration allows the final
 Payroll Export File to show the Shift Code in a Separate Column from the
-Activity Type. ABC Companyâs configuration, as shown above for *the
-CNHS (Atlantic Coast Detail)* Payroll Interface Format which includes
+Activity Type. ABC Companyâs configuration, as shown above for _the
+CNHS (Atlantic Coast Detail)_ Payroll Interface Format which includes
 both the âActivity Typeâ Field and the âShift Codeâ Field, uses these
 settings.
 
@@ -1225,7 +1210,7 @@ Information on Payroll Export Record Formats can be found here.](../Reports/Repo
 
 ![](/img/image53.jpg)
 
-### *By Payroll Mapping Number*
+### _By Payroll Mapping Number_
 
 The âBy Payroll
 Mapping Numberâ method uses Payroll Mapping Numbers with Payroll Interface
@@ -1256,17 +1241,17 @@ Suite, complete a table similar to that shown below for all Hours and
 Earnings Types you wish to track within InfiniTime
 for employees. For most companies, this table will include entries for:
 
-* One
+- One
   or more types of Regular Hours
-* One
+- One
   or more types of Overtime Hours
-* One
+- One
   or more types of Paid or Unpaid Leave Hours
-* One
+- One
   or more types of Holiday Pay and Holiday Worked Hours
-* One
+- One
   or more types of Shift Differential Hours (If Applicable)
-* One or more
+- One or more
   types of Earnings (Paid as a Dollar Amount)
 
 As an example,
@@ -1275,23 +1260,23 @@ hourly employees only. XYZ Company tracks Regular Hours, Weekly Overtime,
 Paid and Unpaid Leave, and tracks Worked Holiday Hours. XYZ Company will
 utilize the âCompuPay â Mappedâ Payroll Interface Format.
 
- | | | | | 
+| | | | |
 ||
- | **XYZ Company â Payroll Mapping Numbers** | | | | 
- | **Payroll Mapping Number** | **Description** | **Type\*** | **Base Rate Modifier** | 
- | N/A | Regular Hours for Hourly Employees | Working Hours | 1.0x | 
- | N/A | Weekly Overtime Hours for Hourly Employees | Working Hours | 1.5x | 
- | 1 | Jury Duty Hours for Hourly Employees | Other Activity Hours | 1.0x | 
- | 2 | Paid Time Off Hours for Hourly Employees | Other Activity Hours | 1.0x | 
- | 3 | Unpaid Time Off Hours for Hourly Employees | Other Activity Hours | 0.0x | 
- | 4 | Holiday Pay Hours for Hourly Employees | Other Activity Hours | 1.0x | 
- | 5 | Worked Holiday Hours | Other Activity Hours (Count as Hours Worked)\*\* | 1.5x | 
+| **XYZ Company â Payroll Mapping Numbers** | | | |
+| **Payroll Mapping Number** | **Description** | **Type\*** | **Base Rate Modifier** |
+| N/A | Regular Hours for Hourly Employees | Working Hours | 1.0x |
+| N/A | Weekly Overtime Hours for Hourly Employees | Working Hours | 1.5x |
+| 1 | Jury Duty Hours for Hourly Employees | Other Activity Hours | 1.0x |
+| 2 | Paid Time Off Hours for Hourly Employees | Other Activity Hours | 1.0x |
+| 3 | Unpaid Time Off Hours for Hourly Employees | Other Activity Hours | 0.0x |
+| 4 | Holiday Pay Hours for Hourly Employees | Other Activity Hours | 1.0x |
+| 5 | Worked Holiday Hours | Other Activity Hours (Count as Hours Worked)\*\* | 1.5x |
 
 \*For
-additional details on Payroll Code Types See *Categories &
+additional details on Payroll Code Types See _Categories &
 Examples of Hour Types Supported by InfiniTime
 (Payroll Export: Section 1.1.1 Custom Payroll Interface Review & Design
-Process)*
+Process)_
 
 \*\*In this scenario, the Holiday Working Hours Other Activity type must
 be set to count as regular hours. Additionally, separate Holiday Dates
@@ -1367,18 +1352,18 @@ List is completed below for Payroll Interface formats which utilize the
 âBy Payroll Mapping Numberâ Earnings & Hours Export Methodâ with Payroll
 Mapping Codes.
 
- | | | | | | 
+| | | | | |
 ||
- | **Payroll Code** | **Payroll Mapping Number** | **Description** | **Type\*** | **Base Rate Modifier** | 
- | N/A | N/A | Regular Hours for Hourly Employees | Working Hours | 1.0x | 
- | N/A | N/A | Weekly Overtime Hours for Hourly Employees | Working Hours | 1.5x | 
- | JD | 1 | Jury Duty Hours for Hourly Employees | Other Activity Hours | 1.0x | 
- | PTO | 2 | Paid Time Off Hours for Hourly Employees | Other Activity Hours | 1.0x | 
- | UTO | 3 | Unpaid Time Off Hours for Hourly Employees | Other Activity Hours | 0.0x | 
- | HP | 4 | Holiday Pay Hours for Hourly Employees | Other Activity Hours | 1.0x | 
- | HW | 5 | Worked Holiday Hours | Other Activity Hours (Count as Hours Worked)\*\* | 1.5x | 
+| **Payroll Code** | **Payroll Mapping Number** | **Description** | **Type\*** | **Base Rate Modifier** |
+| N/A | N/A | Regular Hours for Hourly Employees | Working Hours | 1.0x |
+| N/A | N/A | Weekly Overtime Hours for Hourly Employees | Working Hours | 1.5x |
+| JD | 1 | Jury Duty Hours for Hourly Employees | Other Activity Hours | 1.0x |
+| PTO | 2 | Paid Time Off Hours for Hourly Employees | Other Activity Hours | 1.0x |
+| UTO | 3 | Unpaid Time Off Hours for Hourly Employees | Other Activity Hours | 0.0x |
+| HP | 4 | Holiday Pay Hours for Hourly Employees | Other Activity Hours | 1.0x |
+| HW | 5 | Worked Holiday Hours | Other Activity Hours (Count as Hours Worked)\*\* | 1.5x |
 
- | | The Other Activity Type form is shown to the left with all Other Activity Types required for the scenario above.     Notice how both the Payroll Mapping Number and Payroll Mapping Code are filled according to the Payroll Mapping Code / Payroll Mapping Number list above. All Other Activity Types exported to Payroll Interfaces which utilize the âBy Payroll Mapping Numberâ Earnings & Hours Export Methodâ with Payroll Mapping Codes must be configured in this way. | 
+| | The Other Activity Type form is shown to the left with all Other Activity Types required for the scenario above. Notice how both the Payroll Mapping Number and Payroll Mapping Code are filled according to the Payroll Mapping Code / Payroll Mapping Number list above. All Other Activity Types exported to Payroll Interfaces which utilize the âBy Payroll Mapping Numberâ Earnings & Hours Export Methodâ with Payroll Mapping Codes must be configured in this way. |
 
 The CompuPay â Mapped Payroll Interface used by XYZ Company includes
 ten mapped columns. With this in mind, CompuPay has chosen to total each
@@ -1387,16 +1372,16 @@ to the original Payroll Mapping Numbers list completed for XYZ Company,
 we can see that each Other Activity Type should be configured with a Payroll
 Mapping Number as shown below.
 
- | | | 
+| | |
 ||
- | **Other Activity Type** | **Payroll Mapping Number** | 
- | Jury Duty | 1 | 
- | Paid Time Off | 2 | 
- | Unpaid Time Off | 3 | 
- | Holiday Pay | 4 | 
- | Worked Holiday Hours | 5 | 
+| **Other Activity Type** | **Payroll Mapping Number** |
+| Jury Duty | 1 |
+| Paid Time Off | 2 |
+| Unpaid Time Off | 3 |
+| Holiday Pay | 4 |
+| Worked Holiday Hours | 5 |
 
-### *Hard Coded Payroll Interface Format*
+### _Hard Coded Payroll Interface Format_
 
 The âHard
 Coded Payroll Interface Formatâ method uses hard coded fields which display
@@ -1413,36 +1398,36 @@ below. [Instructions for how
 to determine which Hard Coded Fields your chosen Payroll Interface Format
 includes can be found here.](../Reports/Reports.md#rpt57_Payroll_Interface_Layout)
 
- | | | 
+| | |
 ||
- | **Hard Coded Payroll Interface Fields** | | 
- | **Field Title** | **Required Other Activity Type Description** | 
- | Bereavement Hours | Bereavement | 
- | Bereavement Hours Total | Bereavement | 
- | Holiday Hours | Holiday | 
- | Holiday Hours Total | Holiday | 
- | Jury Duty Hours | Jury Duty | 
- | Jury Duty Hours Total | Jury Duty | 
- | Meals\*\*\* | Meals | 
- | Meals Total\*\*\* | Meals | 
- | Military Hours | Military | 
- | Military Hours Total | Military | 
- | Paid Holiday Hours | Paid Holiday | 
- | Paid Holiday Hours Total | Paid Holiday | 
- | Paid Time Off | Paid Time Off | 
- | Paid Time Off Total | Paid Time Off | 
- | Personal Hours | Personal | 
- | Personal Hours Total | Personal | 
- | Sales\*\*\* | Sales | 
- | Sales Total\*\*\* | Sales | 
- | Sick Hours | Sick | 
- | Sick Hours For A Day | Sick | 
- | Sick Hours Total | Sick | 
- | Tips\*\*\* | Tips | 
- | Tips Total\*\*\* | Tips | 
- | Vacation Hours | Vacation | 
- | Vacation Hours For A Day | Vacation | 
- | Vacation Hours Total | Vacation | 
+| **Hard Coded Payroll Interface Fields** | |
+| **Field Title** | **Required Other Activity Type Description** |
+| Bereavement Hours | Bereavement |
+| Bereavement Hours Total | Bereavement |
+| Holiday Hours | Holiday |
+| Holiday Hours Total | Holiday |
+| Jury Duty Hours | Jury Duty |
+| Jury Duty Hours Total | Jury Duty |
+| Meals\*\*\* | Meals |
+| Meals Total\*\*\* | Meals |
+| Military Hours | Military |
+| Military Hours Total | Military |
+| Paid Holiday Hours | Paid Holiday |
+| Paid Holiday Hours Total | Paid Holiday |
+| Paid Time Off | Paid Time Off |
+| Paid Time Off Total | Paid Time Off |
+| Personal Hours | Personal |
+| Personal Hours Total | Personal |
+| Sales\*\*\* | Sales |
+| Sales Total\*\*\* | Sales |
+| Sick Hours | Sick |
+| Sick Hours For A Day | Sick |
+| Sick Hours Total | Sick |
+| Tips\*\*\* | Tips |
+| Tips Total\*\*\* | Tips |
+| Vacation Hours | Vacation |
+| Vacation Hours For A Day | Vacation |
+| Vacation Hours Total | Vacation |
 
 Complete
 instructions for configuring a Hard Coded Payroll Interface Format are
@@ -1479,19 +1464,19 @@ for their hourly employees only. ZYX Company tracks Regular Hours, Weekly
 Overtime, Double Time, Vacation Hours and Sick Hours. ZYX Company will
 utilize the âCheckmark Payroll For Windowsâ Payroll Interface Format.
 
- | | | | | 
+| | | | |
 ||
- | **XYZ Company â Payroll Mapping Numbers** | | | | 
- | **Other Activity Description** | **Description** | **Type\*** | **Base Rate Modifier** | 
- | N/A | Regular Hours | Working Hours | 1.0x | 
- | N/A | Weekly Overtime | Working Hours | 1.5x | 
- | N/A | Double Time | Working Hours | 2.0x | 
- | Vacation | Vacation Hours | Other Activity Hours | 1.0x | 
- | Sick | Sick Hours | Other Activity Hours | 1.0x | 
+| **XYZ Company â Payroll Mapping Numbers** | | | |
+| **Other Activity Description** | **Description** | **Type\*** | **Base Rate Modifier** |
+| N/A | Regular Hours | Working Hours | 1.0x |
+| N/A | Weekly Overtime | Working Hours | 1.5x |
+| N/A | Double Time | Working Hours | 2.0x |
+| Vacation | Vacation Hours | Other Activity Hours | 1.0x |
+| Sick | Sick Hours | Other Activity Hours | 1.0x |
 
 \*For additional details on Payroll
-Code Types See *[Categories
-& Examples of Hour Types Supported by InfiniTime](Payroll_Export.md#pxh5_Categories___Examples_of_Hour_Types_Supported_by_InfiniTime)*
+Code Types See _[Categories
+& Examples of Hour Types Supported by InfiniTime](Payroll_Export.md#pxh5_Categories___Examples_of_Hour_Types_Supported_by_InfiniTime)_
 
 Hard Coded Payroll Interfaces are designed to automatically export worked
 hours such as Regular Hours, Weekly Overtime, and Double Time. The Worked
@@ -1545,7 +1530,7 @@ NA for all Other Activity Types.
 
 ![](/img/image77.jpg)
 
-### *Support for Payroll Interface Specific Prompts (IE: Company Code)*
+### _Support for Payroll Interface Specific Prompts (IE: Company Code)_
 
 Some
 Payroll Interface Formats such as âADP Version 5.02â include prompts on
@@ -1561,11 +1546,11 @@ desired value. For example, if a customer using the âPS-Payâ Payroll I
 Format needed to export employee hours for two separate Company Codes,
 as shown below, two payroll exports would need to be configured.
 
- | | | 
+| | |
 ||
- | Company Name | Company Code | 
- | XYZ Housekeeping | 1000 | 
- | XYZ Landscaping | 2000 | 
+| Company Name | Company Code |
+| XYZ Housekeeping | 1000 |
+| XYZ Landscaping | 2000 |
 
 One Payroll Export must be configured for each
 Prompt Value:
@@ -1580,7 +1565,7 @@ XYZ Landscaping Employees:
 
 ![](/img/image40.jpg)
 
-### *Ability to Track Shift Differentials*
+### _Ability to Track Shift Differentials_
 
 Payroll Interfaces of the Shift Activity, Shift Activity/Period,
 and Shift Mapped Record Formats support the use of Shift Differentials.
@@ -1606,12 +1591,12 @@ Software Suite, complete a table similar to that shown below for all Shift
 Differentials you wish to track within InfiniTime
 for employees.
 
- | | | | | 
+| | | | |
 ||
- | **ABC Company - Shift Identifiers** | | | | 
- | **Shift Identifier** | **Description** | **Type** | **Pay Method** | 
- | NS | Night Shift Differential | Shift Differential | Additional $1.00 Per Hour | 
- | SUN | Sunday Differential | Shift Differential | Additional 50% of Base Rate Per Hour | 
+| **ABC Company - Shift Identifiers** | | | |
+| **Shift Identifier** | **Description** | **Type** | **Pay Method** |
+| NS | Night Shift Differential | Shift Differential | Additional $1.00 Per Hour |
+| SUN | Sunday Differential | Shift Differential | Additional 50% of Base Rate Per Hour |
 
 ### 2.     Set Shift Identifiers for Differential Worked Hours Types
 
@@ -1623,10 +1608,10 @@ shift should be created for each Shift Differential.
 
 ABC Company
 has two Shift Differentials, Night Shift Differential and Sunday Differential.
-Shift Identifiers are shown below for the Payroll Interface Format *âCNHS (Atlantic Coast Detail)â*
-which includes separate columns for Payroll Codes (*Payroll
-Export Field Name: âActivity Typeâ*) and Shift Identifiers (*Payroll
-Export Field Name âShift Codeâ*)*.*
+Shift Identifiers are shown below for the Payroll Interface Format _âCNHS (Atlantic Coast Detail)â_
+which includes separate columns for Payroll Codes (_Payroll
+Export Field Name: âActivity Typeâ_) and Shift Identifiers (_Payroll
+Export Field Name âShift Codeâ_)_._
 
 ![](/img/image153.gif)
 
@@ -1641,7 +1626,7 @@ all Worked Hours Types. Additionally, the âShift Identifier Overrides
 Payroll Codeâ Company Option should be unchecked. This configuration allows
 the final Payroll Export File to show the Shift Code in a Separate Column
 from the Activity Type. ABC Companyâs configuration, as shown above for
-*the CNHS (Atlantic Coast Detail)*
+_the CNHS (Atlantic Coast Detail)_
 Payroll Interface Format which includes both the âActivity Typeâ Field
 and the âShift Codeâ Field, uses these settings.
 
@@ -1665,7 +1650,7 @@ all Worked Hours Types. Additionally, the âShift Identifier Overrides
 Payroll Codeâ Company Option should be unchecked. This configuration allows
 the final Payroll Export File to show the Shift Code in a Separate Column
 from the Activity Type. ABC Companyâs configuration, as shown above for
-*the CNHS (Atlantic Coast Detail)*
+_the CNHS (Atlantic Coast Detail)_
 Payroll Interface Format which includes both the âActivity Typeâ Field
 and the âShift Codeâ Field, uses these settings.
 
@@ -1683,7 +1668,7 @@ NOTE:
 Only Payroll Interfaces with the Shift Activity, Shift Activity / Period,
 and Shift Mapped record formats support shift differentials.
 
-### *Job Costing*
+### _Job Costing_
 
 Job Costing, or hours costing, is the process of categorizing employee
 hours to provide insight into an organizationâs operations. Job costing
@@ -1700,29 +1685,29 @@ below. [The Payroll Interface
 Layout Report can be used to determine your chosen Payroll Interface Formatâs
 Record Format as well as which Job Costing related fields are supported.](../Reports/Reports.md#rpt57_Payroll_Interface_Layout)
 
- | | | 
+| | |
 ||
- | **Payroll Interface Record Format** | **Supported Job Costing Levels** | 
- | Activity | 1 Level:  Â·       Departments | 
- | Activity/Period | 1 Level:  Â·       Departments | 
- | Daily | 1 Level:  Â·       Departments | 
- | For Period | 1 Level:  Â·       Departments | 
- | Job Activity | 2 Levels:  Â·       Departments  Â·       Jobs | 
- | Job Activity/Period | 2 Levels:  Â·       Departments  Â·       Jobs | 
- | Mapped | 3 Levels:  Â·       Departments  Â·       Jobs  Â·       Tasks | 
- | Punch List | 3 Levels:  Â·       Departments  Â·       Jobs  Â·       Tasks | 
- | Shift Activity | 3 Levels:  Â·       Departments  Â·       Jobs  Â·       Tasks | 
- | Shift Activity/Period | 3 Levels:  Â·       Departments  Â·       Jobs  Â·       Tasks | 
- | Shift Mapped | 3 Levels:  Â·       Departments  Â·       Jobs  Â·       Tasks | 
- | Task Activity | 3 Levels:  Â·       Departments  Â·       Jobs  Â·       Tasks | 
- | Task Activity/Period | 3 Levels:  Â·       Departments  Â·       Jobs  Â·       Tasks | 
+| **Payroll Interface Record Format** | **Supported Job Costing Levels** |
+| Activity | 1 Level: Â·       Departments |
+| Activity/Period | 1 Level: Â·       Departments |
+| Daily | 1 Level: Â·       Departments |
+| For Period | 1 Level: Â·       Departments |
+| Job Activity | 2 Levels: Â·       Departments Â·       Jobs |
+| Job Activity/Period | 2 Levels: Â·       Departments Â·       Jobs |
+| Mapped | 3 Levels: Â·       Departments Â·       Jobs Â·       Tasks |
+| Punch List | 3 Levels: Â·       Departments Â·       Jobs Â·       Tasks |
+| Shift Activity | 3 Levels: Â·       Departments Â·       Jobs Â·       Tasks |
+| Shift Activity/Period | 3 Levels: Â·       Departments Â·       Jobs Â·       Tasks |
+| Shift Mapped | 3 Levels: Â·       Departments Â·       Jobs Â·       Tasks |
+| Task Activity | 3 Levels: Â·       Departments Â·       Jobs Â·       Tasks |
+| Task Activity/Period | 3 Levels: Â·       Departments Â·       Jobs Â·       Tasks |
 
 NOTE:
 Not all Payroll Interface Formats include Job Costing Related Fields.
 Some Payroll Interface Formats may include less than three levels, such
 as Jobs Only or Jobs and Tasks only.
 
-### *Ability to Export Employee Gross Wages*
+### _Ability to Export Employee Gross Wages_
 
 InfiniTime includes a variety of wage
 related features for the purpose of calculating employee gross wages from
@@ -1734,21 +1719,21 @@ Payroll
 Interface Formats with support for Employee Wages will include one or
 more of the following fields:
 
- | | | 
+| | |
 ||
- | Field Title | Field Description | 
- | Activity Wage | Exports Hourly Wage for Respective Hours Type / Department / Job / Task Combination for Employees with the âHourlyâ Pay Method | 
- | Employee Alternate Hourly Wage for Activity Dept | Exports Alternate Wage for Activity Department for Employees with the âHourlyâ Pay Method | 
- | Employee Default Hourly Wage | Exports Employee Default Hourly Wage for Employees with the âHourlyâ Pay Method | 
- | Employee Hourly Wage | Exports Hourly Wage for Employees with the âHourlyâ Pay Method | 
- | Employee Overtime Rate | Exports the Employeeâs Overtime One Wage | 
- | Employee Overtime Rate Two | Exports the Employeeâs Overtime Two Wage | 
- | Employee Overtime Rate Three | Exports the Employeeâs Overtime Three Wage | 
- | Employee Overtime Rate Four | Exports the Employeeâs Overtime Four Wage | 
- | Employee Salary Amount | Exports the Employee Default Wage on the Employee Update Form for Employees with the Salary Pay Method.    When using a payroll export that includes this field for Employees with a Salary Pay Method, the Employee Default Wage Field should be set to the employeeâs Gross Payable Salary for the Pay Period. | 
- | Overtime Hours Wages | Exports Total Overtime Wages for the Date Range for which the Payroll Export is executed. | 
- | Overtime Two Wages | Exports Total Overtime Wages for the Date Range for which the Payroll Export is executed. | 
- | Regular Hours Wages | Exports Total Overtime Wages for the Date Range for which the Payroll Export is executed. | 
+| Field Title | Field Description |
+| Activity Wage | Exports Hourly Wage for Respective Hours Type / Department / Job / Task Combination for Employees with the âHourlyâ Pay Method |
+| Employee Alternate Hourly Wage for Activity Dept | Exports Alternate Wage for Activity Department for Employees with the âHourlyâ Pay Method |
+| Employee Default Hourly Wage | Exports Employee Default Hourly Wage for Employees with the âHourlyâ Pay Method |
+| Employee Hourly Wage | Exports Hourly Wage for Employees with the âHourlyâ Pay Method |
+| Employee Overtime Rate | Exports the Employeeâs Overtime One Wage |
+| Employee Overtime Rate Two | Exports the Employeeâs Overtime Two Wage |
+| Employee Overtime Rate Three | Exports the Employeeâs Overtime Three Wage |
+| Employee Overtime Rate Four | Exports the Employeeâs Overtime Four Wage |
+| Employee Salary Amount | Exports the Employee Default Wage on the Employee Update Form for Employees with the Salary Pay Method. When using a payroll export that includes this field for Employees with a Salary Pay Method, the Employee Default Wage Field should be set to the employeeâs Gross Payable Salary for the Pay Period. |
+| Overtime Hours Wages | Exports Total Overtime Wages for the Date Range for which the Payroll Export is executed. |
+| Overtime Two Wages | Exports Total Overtime Wages for the Date Range for which the Payroll Export is executed. |
+| Regular Hours Wages | Exports Total Overtime Wages for the Date Range for which the Payroll Export is executed. |
 
 [The
 Payroll Interface Layout Report can be used to determine if your chosen
@@ -1761,7 +1746,7 @@ leave Employee Default Wages and other wage related settings within InfiniTime B
 Default Wages and wage related settings within InfiniTime
 blank, the final payroll export file will not include employee wages.
 
-### *Ability to Export Employee Hours to Different Files for Specific Sets of Employees*
+### _Ability to Export Employee Hours to Different Files for Specific Sets of Employees_
 
 InfiniTime does not place
 a limit on the number of Payroll Exports that can be defined. Each Payroll
@@ -1799,21 +1784,21 @@ Landscaping Group:
 
 ![](/img/image67.jpg)
 
-### *Output Method(s)*
+### _Output Method(s)_
 
 The InfiniTime Payroll
 Export System provides support for the following Output Methods:
 
-* A
+- A
   Prompt is Displayed to allow the User to Open or Save the Final Payroll
   Export File
-* Export
+- Export
   File Via FTP
-* Email
+- Email
   Final Payroll Export File to One or More Email Recipients
-* Automatically
+- Automatically
   Perform the Payroll Export according to a predefined Scheduled Interval
-* Place
+- Place
   Final Payroll Export File in the Output Folder with a File Name and
   Extension as defined by the Payroll Export File Name.
 
@@ -1827,7 +1812,7 @@ to Open or Save the Final Payroll Export File. Additional details on configuring
 the Output Methods can be found in the [Payroll
 Export User Interface Overview](Payroll_Export.md#pxh8_Payroll_Export_User_Interface_Overview) section of this document.
 
-### *Ability to PGP Encrypt Final Payroll Interface Output File*
+### _Ability to PGP Encrypt Final Payroll Interface Output File_
 
 PGP Encryption
 is provided as an option to provide maximum security for sensitive information
@@ -1838,19 +1823,19 @@ enables the PGP Tab as shown below.
 
 ![](/img/image24.jpg)
 
-* Refer
+- Refer
   to the [PGP
   Encryption â Changing PGP Keys](../Security/Security_Overview.md#sec66_PGP_Encryption_-_Changing_PGP_Key_Files) section of this document
   to configure the PGP Key Files and Passphrase as appropriate for your
   PGP Client.
-* Configure
+- Configure
   the Payroll Export as appropriate for you chosen Payroll Interface
   Format. Ensure the Employee Filter, Date Range, Payroll Codes, Employee
   Filter, and Required Info are configured appropriately.
-* Save
+- Save
   the Payroll Export by Clicking OK.
 
-### *Ability to Automatically Output the Final Payroll Export File According to a predefined Schedule*
+### _Ability to Automatically Output the Final Payroll Export File According to a predefined Schedule_
 
 Payroll
 Exports can be automatically exported a single time on a specific date
@@ -1858,28 +1843,28 @@ and time or according to  preset
 intervals such as Daily, Weekly, or Monthly. Payroll Export files with
 Auto Schedules will be exported based upon Output Settings as follows:
 
-* If
+- If
   PGP Encrypt File is checked, the Final Payroll Export File will be
   Encrypted and exported according to Output Options configured on the
   Payroll Export.
-* If
+- If
   âSend File Via FTPâ is unchecked and no email recipients are defined,
   the Final Payroll Export File will be placed in the output directory.
-* If
+- If
   âSend File Via FTPâ is unchecked and one or more email recipients
   are defined, the Final Payroll Export File will be emailed from the
   InfiniTime Temp Folder
   and will not be placed in the output directory. The Final Payroll
   Export file will be deleted from the Temp Folder once the file has
   been emailed to all recipients.
-* If
+- If
   âSend File Via FTPâ is checked and no email recipients are defined,
   the Final Payroll Export File will be Transferred to the specified
   FTP Destination from the InfiniTime
   Temp Folder and will not be placed in the output directory. The Final
   Payroll Export file will be deleted from the Temp Folder once the
   FTP Transfer is completed.
-* If
+- If
   âSend File Via FTPâ is checked and one or more email recipients are
   defined, the Final Payroll Export File will first be Transferred to
   the specified FTP Destination from the InfiniTime
@@ -1889,7 +1874,7 @@ Auto Schedules will be exported based upon Output Settings as follows:
   directory. The Final Payroll Export file will be deleted from the
   Temp Folder after the file has been sent to all email recipients.
 
-### *Payroll Export Employee / Timecard Filter Related Processing Options*
+### _Payroll Export Employee / Timecard Filter Related Processing Options_
 
 The Payroll Export includes three options which alter the way the Payroll
 Export Employee Filter Functions as follows:
@@ -1910,7 +1895,7 @@ section of this document. No additional configuration is necessary for
 use of the Payroll Export Employee / Timecard Filter Related Processing
 Options.
 
-### *Alert Related Payroll Export Processing Options*
+### _Alert Related Payroll Export Processing Options_
 
 The Payroll
 Export includes four options which alert the user of specific conditions
@@ -1937,7 +1922,7 @@ Payroll Export Overview](Payroll_Export.md#pxh22_Options_Tab) section of this do
 are intended for use with InfiniTime's
 Timecard Review Functionality.
 
-### *Interface Specific Payroll Export Processing Options*
+### _Interface Specific Payroll Export Processing Options_
 
 The Payroll
 Export includes three options Processing Related Options which alter how
@@ -1964,7 +1949,7 @@ to be configured in full. Additional information on configuring Shift
 Differentials can be found here.  Group Level for Export requires
 Groups to be configured and assigned to all employees.
 
-### *General Payroll Export Processing Options*
+### _General Payroll Export Processing Options_
 
 The Payroll
 Export includes one General Processing Option as follows:

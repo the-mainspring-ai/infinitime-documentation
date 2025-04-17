@@ -3,8 +3,6 @@ title: "Pay Cycle Configuration"
 description: "Guide to setting up and understanding employee pay cycles, including start of week, pay periods, and related options in payroll management."
 ---
 
-Pay Cycle
-
 # Pay Cycle
 
 The employee Pay Cycle is used to define how often employees assigned to the policy are paid.  Additional options related to the Payroll Cycle, such as punch splitting and edit lockout,  are also available on the Pay Cycle Tab.

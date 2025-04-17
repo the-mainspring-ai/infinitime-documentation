@@ -3,8 +3,6 @@ title: "Employee Points Report"
 description: "A guide to generating and understanding Employee Points reports, including options and usage for tracking employee performance based on exception points within specified date ranges."
 ---
 
-Employee Points
-
 # Employee Points
 
 Displays Employee Points as accrued from exceptions within the date range specified by Selection Criteria.

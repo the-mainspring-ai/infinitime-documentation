@@ -3,8 +3,6 @@ title: "Punching In & Out Using Schedule Lockout"
 description: "Guide on how the schedule lockout feature controls employee punching times with the Thor Terminal, including handling violations and overrides."
 ---
 
-Punching In & Out Using Schedule Lockout
-
 # Punching In & Out Using Schedule Lockout
 
 If you are using the lockout feature of the software to keep employees from punching outside of the their schedule, it is important to understand how the lockout feature functions with the Thor Terminal. The Thor terminal treats the employee's start and end times as a window, during which employees are permitted to clock in. If the employee attempts to punch in outside of this window a prompt will be displayed alerting they are in violation of their schedule. If a supervisor is available the violation can be overridden which will allow the employee to punch in at the clock.

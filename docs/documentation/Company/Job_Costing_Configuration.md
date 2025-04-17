@@ -3,8 +3,6 @@ title: "Job Costing Configuration Guide"
 description: "Learn how to set up and manage Departments, Jobs, and Tasks for effective job costing in InfiniTime."
 ---
 
-Job Costing Configuration
-
 # Job Costing Configuration
 
 For information regarding what types of information can be entered into Departments, Jobs, and Tasks for Job Costing purposes please refer to the [Job Costing Introduction](Job_Costing_Introduction.md). Remember any combination of Internal Departments, Jobs / Customers, and Tasks can generally be used within these areas of InfiniTime.

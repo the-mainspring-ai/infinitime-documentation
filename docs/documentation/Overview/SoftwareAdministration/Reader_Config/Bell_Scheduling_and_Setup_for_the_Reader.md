@@ -3,8 +3,6 @@ title: "Bell Scheduling and Setup for the Reader"
 description: "Guide to configuring bell schedules and hardware setup for Odyssey 780 and Orion 760 terminals using InfiniTime software."
 ---
 
-Bell Scheduling and Setup for the Reader
-
 # Bell Scheduling and Setup for the Reader
 
 Odyssey 780 and Orion 760 terminals can be used to ring an attached bell according to schedules configured within the InfiniTime software. Refer to the Reader Configuration Table section of this document for more information on Bell Schedule Setup and Configuration. The following requirements below must be met for bells to operate with the InfiniTime Software.

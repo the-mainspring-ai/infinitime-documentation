@@ -3,8 +3,6 @@ title: "Report Selection Criteria Guide"
 description: "Overview of how to use filters and criteria to generate employee reports, including date range and employee selection options."
 ---
 
-Selection Criteria
-
 # Selection Criteria
 
 The selection criteria tab employs various filters in order to select what employees will be included in the report. It is important to note that employees must meet all selection criteria in order to be present in the report. For example, if a certain group and department are selected, only employees within the specified group and department will be printed in the report. The selection criteria are configured to print for all employees by default.

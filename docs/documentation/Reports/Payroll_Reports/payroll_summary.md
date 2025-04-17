@@ -3,8 +3,6 @@ title: "Payroll Summary Report"
 description: "A detailed overview of hourly totals and estimated wages for various activity types within a specified date range, including sick time, regular hours, and overtime."
 ---
 
-Payroll Summary
-
 # Payroll Summary
 
 Displays hourly totals and calculates estimated wages for all activity types such as sick time, regular hours, and overtime for the date range specified.

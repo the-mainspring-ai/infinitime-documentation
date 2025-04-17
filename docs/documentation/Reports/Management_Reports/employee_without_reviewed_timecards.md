@@ -3,8 +3,6 @@ title: "Employee Without Reviewed Timecards Report"
 description: "A report listing employees with unreviewed timecards within a specified date range, including options for alerts and review criteria."
 ---
 
-Employee Without Reviewed Timecards
-
 # Employee Without Reviewed Timecards
 
 Displays a list of employees within the date range specified by Selection Criteria whoâs Timecard Activity has not yet been reviewed.

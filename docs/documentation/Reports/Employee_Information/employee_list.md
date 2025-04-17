@@ -3,8 +3,6 @@ title: "Employee List Report"
 description: "A guide to generating and customizing the Employee List report, including options for grouping and graphics."
 ---
 
-Employee List
-
 # Employee List
 
 This report will print a list of all you employees according to the selection criteria.  Employee ID, Default Department, Job Title, Hire Date, Employee Badge Number and Employee Log In Number are also included in the report.

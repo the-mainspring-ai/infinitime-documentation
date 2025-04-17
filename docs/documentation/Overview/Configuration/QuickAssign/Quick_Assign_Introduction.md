@@ -3,17 +3,6 @@ title: "Quick Assign Introduction"
 description: "Overview of InfiniTime's Quick Assign feature for efficient bulk configuration of employee settings using the Employee Filter."
 ---
 
-xml version="1.0" encoding="utf-8" ?
-
-
-
-
-
-Quick Assign Introduction
-
-
-
-
 # Quick Assign Introduction
 
 InfiniTime provides a
@@ -35,7 +24,7 @@ Assign Update Form.
 
 Accessing Quick Assign:
 
-* Click on Tools
+- Click on Tools
 
 ![](/img/Ch2_QA_SchedAvail.jpg)
 
@@ -105,14 +94,14 @@ which must be followed in order to successfully perform a Quick Assign
 Action:
 
 1. Enter a description for the Quick Assign Action. This description
-will be displayed in the Quick Assign History Table and should describe
-the action you are performing.
+   will be displayed in the Quick Assign History Table and should describe
+   the action you are performing.
 
 2. Choose the employees you wish to configure using the Employee Filter
-button, located at the bottom of the Quick Assign Form.
+   button, located at the bottom of the Quick Assign Form.
 
 3. Choose the items you wish to assign to employees and enter them into
-the quick assign as appropriate.
+   the quick assign as appropriate.
 
 The items below can be assigned using the Quick Assign Tool, if nothing
 is specified for a field then that item will not be altered for the selected
@@ -142,8 +131,9 @@ Action. This description will be displayed in the Quick Assign History
 Table after the Quick Assign action is performed.
 
 Default Department
+
 - Assigns the selected department as the default department for
-all employees specified by the filter.
+  all employees specified by the filter.
 
 Default Job -
 Assigns the selected job as the default job for all employees specified
@@ -164,8 +154,9 @@ Type - Assigns the selected Holiday Schedule type to  all
 employees specified by the filter.
 
 Security Role
+
 - Assigns the selected security role to all employees specified
-by the filter.
+  by the filter.
 
 Escort -
 Assigns the selected escort to all employees specified by the filter.
@@ -175,8 +166,9 @@ Group - Assigns the selected Access Control Group to all employees
 specified by the filter.
 
 Supervisor Name
+
 - Assigns the selected employee as Supervisor for all employees
-specified by the filter.
+  specified by the filter.
 
 Shifts Tab
 
@@ -315,7 +307,7 @@ will be updated and use the Change button to select a group from each
 group level. Clicking OK will assign the specified schedule to all employees
 designated by the Employee Filter. Refer
 to Chapter 5 Employee Setup - Employee Update Form - Groups for more information
-on the use and configuration of groups.  
+on the use and configuration of groups.
 
 ![](/img/Ch2_QA_GroupSel.jpg)
 

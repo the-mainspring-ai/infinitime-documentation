@@ -3,8 +3,6 @@ title: "Configuring and Using Poll From File"
 description: "Guide on manually polling punch data from a file into the InfiniTime Database using Luna terminals."
 ---
 
-Configuring and Using Poll From File
-
 # Configuring and Using Poll From File
 
 It is important to understand that a reader configured to poll from a file will not automatically poll punches into the database. The user must manually download punches from the Luna terminal, transfer the file to a location with access to the InfiniTime Software, and manually poll the file to bring Employee Punches into the InfiniTime Database. A general procedure has been established to assist with the process of downloading punches from the Luna Terminal.

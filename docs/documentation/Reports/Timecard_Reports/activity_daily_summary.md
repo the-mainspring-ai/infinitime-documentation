@@ -3,8 +3,6 @@ title: "Activity Daily Summary Report"
 description: "A detailed overview of daily employee timecard activities, including activity types, departments, and total hours within a specified date range."
 ---
 
-Activity Daily Summary
-
 # Activity Daily Summary
 
 Displays a summary of timecard activity information for each day within the date range specified by Selection Criteria. The activity type, department, and total hours for the period are displayed for each employee.

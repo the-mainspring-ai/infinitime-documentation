@@ -3,8 +3,6 @@ title: "Labor Cost Payroll Summary"
 description: "A report comparing projected and actual labor costs based on employee hours, with options for customization and grouping."
 ---
 
-Labor Cost Payroll Summary
-
 # Labor Cost Payroll Summary
 
 Compares entered dollar amounts vs actual costs due to employee hours

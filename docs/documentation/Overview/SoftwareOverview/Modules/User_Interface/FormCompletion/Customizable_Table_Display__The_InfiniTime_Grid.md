@@ -3,8 +3,6 @@ title: "Customizable InfiniTime Grid"
 description: "Overview of the customizable grid system in InfiniTime for organized and flexible data display."
 ---
 
-Customizable Table Display: The InfiniTime Grid
-
 # Customizable Table Display: The InfiniTime Grid
 
 InfiniTime uses a grid system to display information in an organized, structured, and standardized fashion. Each table and list is presented in a similar layout with the InfiniTime Grid as the major build block. Use of a grid system helps keep information accessible and orderly regardless of database size through the use of various features such as the ability to filter items based on a search term.

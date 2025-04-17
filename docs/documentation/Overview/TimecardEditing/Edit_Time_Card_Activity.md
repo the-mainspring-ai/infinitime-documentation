@@ -3,8 +3,6 @@ title: "Edit Time Card Activity Guide"
 description: "Step-by-step instructions on how to insert punches and edit time card activities using the system's buttons and forms."
 ---
 
-Edit Time Card Activity
-
 # Edit Time Card Activity
 
 ![](/img/quick_punch_button.gif)

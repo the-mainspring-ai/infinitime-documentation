@@ -3,8 +3,6 @@ title: "Failed Biometric Verification Report"
 description: "Overview of the report listing employees who failed biometric verification, including usage notes and troubleshooting tips."
 ---
 
-Failed Biometric Verification
-
 # Failed Biometric Verification
 
 Displays a list of employees who have failed biometrics verification within the date range specified by Selection Criteria.

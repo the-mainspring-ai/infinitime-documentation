@@ -3,8 +3,6 @@ title: "Employee Profiles Report"
 description: "A comprehensive report displaying all employee information with customizable options and visual examples."
 ---
 
-Employee Profiles
-
 # Employee Profiles
 
 Displays all employee information as entered into the Employee Table. A separate sheet is generated for each employee.

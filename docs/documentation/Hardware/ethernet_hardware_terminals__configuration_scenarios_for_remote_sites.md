@@ -3,8 +3,6 @@ title: "Ethernet Hardware Terminals: Configuration Scenarios for Remote Sites"
 description: "An overview of configuration scenarios for Ethernet hardware terminals in remote site setups, including protocols and IP addressing."
 ---
 
-Ethernet Hardware Terminals: Configuration Scenarios for Remote Sites
-
 # Ethernet Hardware Terminals: Configuration Scenarios for Remote Sites
 
 Terms

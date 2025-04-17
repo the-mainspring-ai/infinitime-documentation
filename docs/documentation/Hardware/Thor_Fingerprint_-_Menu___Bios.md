@@ -3,8 +3,6 @@ title: "Thor Fingerprint - Menu & Bios"
 description: "Guide to configuring clock settings, employee information, and troubleshooting for the Thor Fingerprint terminal, including menu access and InfiniTime software integration."
 ---
 
-Thor Fingerprint - Menu & Bios
-
 # Thor Fingerprint - Menu & Bios
 
 The Thor Menu & Bios can be used to configure clock settings such as Communication Options, Speaker Volume, and Bell Ring Duration or for simply viewing employee information from the clock. In general users should not need to access the menu  if the Thor Terminal is connected to the InfiniTime Software as many Menu / BIOS settings are available from within the Application on the Reader Options Tab. (Click Tools - Clock Tools - System Monitor. Highlight the clock record and click change. Click on Reader Options on the left hand side.)

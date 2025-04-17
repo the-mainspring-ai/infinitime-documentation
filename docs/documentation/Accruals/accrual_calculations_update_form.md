@@ -3,8 +3,6 @@ title: "Accrual Calculations Update Form"
 description: "Guide to updating and managing accrual configurations for different accrual categories such as Personal, Sick, and Vacation Time."
 ---
 
-Accrual Calculations Update Form
-
 # Accrual Calculations Update Form
 
 The Accrual Calculations Tab displays a list of any accruals configured for the Accrual Type being viewed. Separate accruals must be configured for each individual accrual category such as Personal Time, Sick Time, or Vacation Time.

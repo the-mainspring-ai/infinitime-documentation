@@ -3,8 +3,6 @@ title: "Mini Timecard Report"
 description: "Overview and usage instructions for the Mini Timecard report, displaying employee activity and hours within a specified date range."
 ---
 
-Mini Timecard
-
 # Mini Timecard
 
 Displays an overview of employee activity within the specified date range.

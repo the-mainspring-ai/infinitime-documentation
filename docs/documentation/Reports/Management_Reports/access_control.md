@@ -3,8 +3,6 @@ title: "Access Control Documentation"
 description: "Overview of access information display and report options for entryway access logs, including customization settings for graphics, department filtering, and grouping."
 ---
 
-Access Control
-
 # Access Control
 
 Displays access information related to an entryway. Access logs are displayed for employees specified by Selection Criteria.

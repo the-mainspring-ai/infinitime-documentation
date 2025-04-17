@@ -3,8 +3,6 @@ title: "WAN Zephyr Troubleshooting Guide"
 description: "A comprehensive troubleshooting procedure for configuring and resolving communication issues with Zephyr Readers in WAN environments."
 ---
 
-WAN Zephyr Troubleshooting Procedure
-
 # WAN Zephyr Troubleshooting Procedure
 
 The following provides a detailed outline of the configuration and troubleshooting involved in configuring a Zephyr Reader for use in a WAN environment. Please check your packaging and ensure you have all required components. If you are unable to establish communication with your Zephyr Terminal and the InfiniTime Software please contact your authorized InfiniTime Dealer, be sure to have the BIOS version and Clock Name of your Zephyr reader available.

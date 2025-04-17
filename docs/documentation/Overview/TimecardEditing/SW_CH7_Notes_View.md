@@ -3,8 +3,6 @@ title: "Viewing Timecard Notes"
 description: "Guide on how to view and review employee timecard notes within the audit database and reports."
 ---
 
-Viewing Timecard Notes
-
 # Viewing Timecard Notes
 
 Timecard Notes can be viewed for a specific date from the Notes Tab on the Audit Database Table as detailed below. The Audit Database Table is most useful for reviewing notes during timecard review or payroll processing. This allows supervisors to quickly identify why employees were late, early, etc. on a given day without the need to run a report.  The [Timecard Note Report](SW_CH7_Notes_Report.md) is best suited for viewing all notes over a specific date range such as Last Pay Period or Current Pay Period.

@@ -3,8 +3,6 @@ title: "Policy Exceptions in InfiniTime"
 description: "Guide to managing employee exceptions through policy-based and global methods in InfiniTime, including access and insertion steps."
 ---
 
-Policy Exceptions
-
 # Policy Exceptions
 
 ![](/img/Insert_0.gif)

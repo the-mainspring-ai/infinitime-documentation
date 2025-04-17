@@ -3,8 +3,6 @@ title: "Email Report Functionality in InfiniTime"
 description: "Learn how to email reports directly from InfiniTime, including setting the sender, subject, and format options for automated or manual report distribution."
 ---
 
-Email
-
 # Email
 
 ![](/img/rep12.gif)

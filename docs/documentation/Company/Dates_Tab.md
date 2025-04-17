@@ -3,8 +3,6 @@ title: "Holiday Schedule and Management"
 description: "Guide to managing holidays, including inserting new holidays, configuring holiday options, and viewing scheduled holidays in the Dates Tab."
 ---
 
-Dates Tab
-
 # Dates Tab
 
 The dates tab displays all holidays that have been configured for the specified Holiday Schedule Type.

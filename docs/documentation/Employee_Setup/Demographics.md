@@ -3,8 +3,6 @@ title: "Employee Demographics Guide"
 description: "Learn how to enter and manage basic employee information, including required fields, status, and attaching photos in the Demographics tab."
 ---
 
-Demographics
-
 # Demographics
 
 In the Demographics tab you will be able to enter basic information about the employee such as employee number, name, address, gender, ethnic code and you can also attach a picture to the employee record.

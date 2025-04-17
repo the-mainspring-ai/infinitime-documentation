@@ -3,8 +3,6 @@ title: "Job Costing - Wages"
 description: "Overview of how wages are allocated and matched in InfiniTime for accurate job costing, including wage hierarchy and matching process."
 ---
 
-Job Costing - Wages
-
 # Job Costing - Wages
 
 It is not uncommon for employee wages to vary based upon the task, job, or department, where employees are working. Wages within InfiniTime can be allocated to a specific Job, Task, Department, or any combination thereof. This makes it possible to calculate gross totals based upon which Department, Job, or Task employees are working in. When using wages with Job Costing it is important to understand how InfiniTime identifies which wage to use for an employee. Infinitime searches wage records for an employee attempting to match items between the wage record and where the employee is actively working according to the wage hierarchy below. Employees will be paid using the wage corresponding to the first match.

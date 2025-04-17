@@ -3,8 +3,6 @@ title: "Excessive Hours Report"
 description: "A report that lists employees who have worked more hours than the configured excessive hours within a specified date range, helping to monitor overwork and ensure compliance with company policies."
 ---
 
-Excessive Hours
-
 # Excessive Hours
 
 Displays a list of employees who have worked excessive hours within the date range specified by Selection Criteria. The amount of hours required to work in order to be considered as working excessive hours is configured within company policies.

@@ -10,9 +10,9 @@ def fix_duplicate_titles(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Pattern to match: a line followed by a header with the same text
-    # This handles both cases where there might be whitespace or not
-    pattern = r"^([^\n#]+)\n# \1\n"
+    # Pattern to match: a line followed by optional whitespace and a header with the same text
+    # This handles cases where there might be whitespace between the lines
+    pattern = r"([^\n#]+)\s*\n\s*# \1\n"
 
     # Replace with just the header version
     new_content = re.sub(pattern, r"# \1\n", content, flags=re.MULTILINE)

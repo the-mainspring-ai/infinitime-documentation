@@ -3,8 +3,6 @@ title: "Unscheduled Time Rounding Rules in InfiniTime™"
 description: "Overview of how InfiniTime™ handles rounding for unscheduled time punches and the importance of enabling all rounding types for accurate time tracking."
 ---
 
-Unscheduled Time
-
 # Unscheduled Time
 
 ![](/img/rOUNDING_mETHOD.gif)

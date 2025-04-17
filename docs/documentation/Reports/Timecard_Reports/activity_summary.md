@@ -3,8 +3,6 @@ title: "Activity Summary Report"
 description: "Provides a detailed overview of employee timecard activities within a specified date range, including total hours per activity type and customizable display options."
 ---
 
-Activity Summary
-
 # Activity Summary
 
 Displays a summary of timecard activity information for the date range specified by Selection Criteria. Separate totals are provided for each activity type.

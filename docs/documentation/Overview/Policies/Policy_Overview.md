@@ -3,17 +3,6 @@ title: "InfiniTime Policy Overview"
 description: "A comprehensive guide to configuring and managing policies for employee time and attendance in InfiniTime, including rules for breaks, overtime, scheduling, and employee grouping."
 ---
 
-xml version="1.0" encoding="utf-8" ?
-
-
-
-
-
-Policy Overview
-
-
-
-
 # Policy Overview
 
 InfiniTime uses policies, or sets
@@ -85,20 +74,20 @@ Breaks can be tracked, either manually or automatically. A different policy
 would be required for the configuration of Break Rules under the following
 conditions:
 
-* Groups
+- Groups
   of Employees receive break periods of different length
-* Not all
+- Not all
   Groups of Employees are eligible for breaks
-* Not all
+- Not all
   Groups of Employees are required to punch in and out for breaks
-* Not All
+- Not All
   Groups of Employees will have their break automatically deducted
-* Certain
+- Certain
   Groups of Employees will require Paid Break Limits. Paid Break Limits
   are used to configure constraints on Paid Breaks such that each break
   has a minimum or maximum duration. A Daily Paid Break Maximum can
   also be enforced.
-* Certain
+- Certain
   Groups of Employees will require Unpaid Break Limits. Unpaid Break
   Limits are used to configure constraints on Unpaid Breaks such that
   each break has a minimum or maximum duration.
@@ -145,11 +134,11 @@ Clock Out, Schedule Lock Out, and Shift Differentials. An Additional policy
 would be required for each group of employees with different Scheduling
 Rules. The following conditions would require an additional policy:
 
-* Lockout
+- Lockout
   will be used for Certain Groups of Employees
-* Auto
+- Auto
   Clock In / Out will be used for Certain Groups of Employees
-* Certain
+- Certain
   Groups of Employees are eligible for specific Shift Differentials
 
 **Stand By Time:** Stand By
@@ -169,13 +158,13 @@ at companies with simple policies and procedures. List any special requirements
 for each group. Keep in mind there is no limit to the number of policies
 that can be configured within InfiniTime.
 
- | | | | 
+| | | |
 ||
- | **Policy #** | **Description of Employee Category or Individual** | **Special Requirements** | 
- | Ex. 1 | Full Time Office Employees | Weekly Overtime after 40 Hours, Quarter Hour Rounding, 1 Hour Unpaid Lunch Break: Employees Must Punch for Breaks | 
- | Ex. 2 | Salary Employees | Not Eligible for Overtime, Quarter Hour Rounding, One Hour Unpaid Auto Break to be deducted after 6 Hours of Work, Employees do not punch for breaks. | 
- | Ex. 3 | Registered Nurses | Daily Overtime after 12 Hours, Quarter Hour Rounding, One Hour Lunch with 30 Minutes Paid and 30 Minutes Unpaid, Eligible for Evening and Weekend Shift Differentials. | 
- | Ex. 4 | Certified Nurse Assistants | Daily Overtime after 12 Hours, Quarter Hour Rounding, One Hour Lunch with 30 Minutes Paid and 30 Minutes Unpaid, Eligible for Evening and Weekend Shift Differentials. | 
+| **Policy #** | **Description of Employee Category or Individual** | **Special Requirements** |
+| Ex. 1 | Full Time Office Employees | Weekly Overtime after 40 Hours, Quarter Hour Rounding, 1 Hour Unpaid Lunch Break: Employees Must Punch for Breaks |
+| Ex. 2 | Salary Employees | Not Eligible for Overtime, Quarter Hour Rounding, One Hour Unpaid Auto Break to be deducted after 6 Hours of Work, Employees do not punch for breaks. |
+| Ex. 3 | Registered Nurses | Daily Overtime after 12 Hours, Quarter Hour Rounding, One Hour Lunch with 30 Minutes Paid and 30 Minutes Unpaid, Eligible for Evening and Weekend Shift Differentials. |
+| Ex. 4 | Certified Nurse Assistants | Daily Overtime after 12 Hours, Quarter Hour Rounding, One Hour Lunch with 30 Minutes Paid and 30 Minutes Unpaid, Eligible for Evening and Weekend Shift Differentials. |
 
 ### Step 3 - Complete the InfiniTime Questionnaire Answer Sheet for each group of employees who require different Policy Settings
 
@@ -235,15 +224,18 @@ Useful when creating a policy for a new category of employees or an individual
 with requirements only slightly different from an existing policy.
 
 Insert
+
 - Opens the Policy Update Form to create a new policy.
 
 Change
+
 - Opens the Policy Update Form for the selected policy, allowing the InfiniTime Administrator to adjust
-policy settings as needed.
+  policy settings as needed.
 
 Delete
+
 - Deletes the selected policy. A policy cannot be deleted if it is already
-assigned to an employee.
+  assigned to an employee.
 
 ## Policy Settings Overview
 
@@ -275,8 +267,8 @@ employees to automatically be moved from policy to policy based on the
 length of their employment with the company, and Pay Cycle Related settings
 which define Pay Period date ranges for the respective policy.
 
-*REQUIRED
-CONFIGURATION:* The General Section, including settings on both
+_REQUIRED
+CONFIGURATION:_ The General Section, including settings on both
 the General Tab and Pay Cycle Tab, must be configured for every policy.
 
 ### General Tab
@@ -319,48 +311,48 @@ An example
 showing the proper use of classes and tenures is provided below. Notice
 how all values from 0 to 99 years are covered by the class.
 
- | | | | | 
+| | | | |
 ||
- | Policy Name | Class | Min Tenure | Max Tenure | 
- | Full Time New Hires | Full Time | 0 | 1 | 
- | Full Time Employees | Full Time | 1 | 99 | 
+| Policy Name | Class | Min Tenure | Max Tenure |
+| Full Time New Hires | Full Time | 0 | 1 |
+| Full Time Employees | Full Time | 1 | 99 |
 
 ### General Tab Configuration Procedure:
 
-* *Do
+- _Do
   you have any employees that have different settings for overtime,
   schedule rules, break rules etc based upon how long they have been
-  with the company?*
+  with the company?_
 
-+ *Yes? â Set a policy name
-  and configure classes & tenures*
-+ *No?
+* _Yes? â Set a policy name
+  and configure classes & tenures_
+* _No?
   â Set a policy name and move on. Classes & Tenures are not
-  required.*
+  required._
 
-*It is only
+_It is only
 necessary to configure classes and tenures if employees have different
 settings for break rules, scheduling rules, overtime rules etc based upon
 how long they have been with the company. If classes and tenures are deemed
 necessary be sure to span all tenure values from 0 to 99 years with each
 class as shown in the example above. Tenures must be continuous from policy
-to policy without gaps.*
+to policy without gaps._
 
-*When configuring
+_When configuring
 classes and tenures it often helps to understand the softwareâs logic.
 Employees will be automatically assigned to policies according to the
-following conditions:*
+following conditions:_
 
-* *If an employee is no longer eligible
+- _If an employee is no longer eligible
   for their current policy the software will search the current class
   (or group) of policies for a match. Remember the software looks at
   an employeeâs hire date to determine policy eligibility. IE: Employees
   who have been with the company for more than a year are no longer
   eligible for the New Hire Policy which has a tenure range of 0 to
-  1 years.*
-* *If an employee is not eligible
+  1 years._
+- _If an employee is not eligible
   for any of the policies within the current class (or group) the software
-  will search policies within the default class for a match.*
+  will search policies within the default class for a match._
 
 ### **Pay Cycle Tab**
 
@@ -393,10 +385,10 @@ Days until Edit Lockout â** Specifies a number of days from the end
 of the last pay period after which it will no longer be possible to edit
 timecards in last pay period. For example:
 
- | | | | | 
+| | | | |
 ||
- | Last Pay Start | Last Pay End | No. of Days until Edit Lockout | Date Timecards for Last Pay will no longer be editable | 
- | 09/21/2008 | 09/27/2008 | 5 | 10/02/2008 | 
+| Last Pay Start | Last Pay End | No. of Days until Edit Lockout | Date Timecards for Last Pay will no longer be editable |
+| 09/21/2008 | 09/27/2008 | 5 | 10/02/2008 |
 
 **Time for
 Edit Lockout â** Defines the time at which timecard activity for Last
@@ -406,88 +398,88 @@ edit timecards for last pay period at 8:00 AM on 10/02/2008.
 
 ### Pay Cycle Tab Configuration Procedure:
 
-* *What type of pay cycle does your
-  company observe?*
+- _What type of pay cycle does your
+  company observe?_
 
-+ *Set the pay cycle appropriately.*
+* _Set the pay cycle appropriately._
 
-* *What day is considered the start
-  of your work week?*
-* *Set the start of week appropriately.*
-* *What is the start date of your current
+- _What day is considered the start
+  of your work week?_
+- _Set the start of week appropriately._
+- _What is the start date of your current
   pay period? Remember â InfiniTime
   is only concerned with date ranges for which employees are paid, not
-  the actual date when employees receive their check.*
+  the actual date when employees receive their check._
 
-+ *Set the Current Pay Period
-  From Date appropriately.*
+* _Set the Current Pay Period
+  From Date appropriately._
 
-* *Click
-  OK to save the new pay cycle settings.*
-* *Select the Policy then click
+- _Click
+  OK to save the new pay cycle settings._
+- _Select the Policy then click
   on Change to edit the policy again. Click on the Pay Cycle Tab to
-  continue configuration.*
+  continue configuration._
 
-+ *Confirm the Current and Last
-  Pay Period Dates are correct.*
+* _Confirm the Current and Last
+  Pay Period Dates are correct._
 
-* *Do you have any employees that
-  work overnight?*
+- _Do you have any employees that
+  work overnight?_
 
-+ *Yes?
+* _Yes?
   â Lets say an employee is working overnight on the last day of
   the pay period. Should their hours all be associated with the
   current pay period or should they be split across the current
-  pay period and the next pay period?*
+  pay period and the next pay period?_
 
-- *All on the current?
-  â Leave Split Punches to None.*
-- *Split between current
-  and next? â Set to End of Pay Period or End of week as desired.*
+- _All on the current?
+  â Leave Split Punches to None._
+- _Split between current
+  and next? â Set to End of Pay Period or End of week as desired._
 
-+ *No?
-  â Split punches does not apply, move to the next item.*
+* _No?
+  â Split punches does not apply, move to the next item._
 
-***Arbitrary Pay Periods:***
-*Some companies may have a pay
+**_Arbitrary Pay Periods:_**
+_Some companies may have a pay
 period that does not follow one of the predefined pay cycle options or
 has arbitrary pay dates. In this case it will be necessary to configure
 a Custom Pay Cycle and change the Start Date and Custom Interval Amount
-each time the pay period length changes.*
+each time the pay period length changes._
 
-*IE:
-A customer follows a 2 Week / 3 Week repeating pay Cycle.*
+_IE:
+A customer follows a 2 Week / 3 Week repeating pay Cycle._
 
-*A
+_A
 Custom Pay Cycle is used with a 14 Day Custom Interval for the 2 Week
-Pay Period.*
+Pay Period._
 
-*A
+_A
 Custom Pay Cycle is used with a 21 Day Custom Interval for the 3 Week
-Pay Period.*
+Pay Period._
 
-*The Custom Pay Cycle Interval
+_The Custom Pay Cycle Interval
 must be changed in the policy each time the organization switches from
-the 2 Week Pay Period to the 3 Week Pay Period.*
+the 2 Week Pay Period to the 3 Week Pay Period._
 
-*The
+_The
 only drawback to Custom Pay Cycles is the Last Pay Period dates are calculated
 based upon the settings used for the Current Pay Period. Therefore the
 âLast Pay Periodâ date range used for reports and the Timecard Table will
-not be correct.*
+not be correct._
 
-***Semi-Monthly Pay Periods:***
-*When configuring a Semi-Monthly
+**_Semi-Monthly Pay Periods:_**
+_When configuring a Semi-Monthly
 Pay Period the user is prompted for the First and Second Pay Day. These
 labels can be misleading â the First Pay Day refers to the start day of
 the first pay period. The Second Pay Day refers to the start day of the
-second pay period.*
+second pay period._
 
-*IE: A customer
+_IE: A customer
 follows a Semi-Monthly Pay Period where the 1st and 16th
 are always the starting days of the pay period. The first pay period ends
 on the 15th and the second pay period ends on the last day
-of the month.*
+of the month._
 
 ### Break Rules Section
 
@@ -505,8 +497,8 @@ to Break, Auto Break, and Break Limit settings configured appropriately
 InfiniTime supports a wide
 variety of break configurations to meet the needs of any industry.
 
-*OPTIONAL
-CONFIGURATION:* The Break Rules Section, including settings on the
+_OPTIONAL
+CONFIGURATION:_ The Break Rules Section, including settings on the
 Change to Breaks, Auto Breaks, Paid Break Limits, and Unpaid Break Limits
 Tabs are optional.
 
@@ -558,45 +550,44 @@ NOTE: All break related settings are entered in
 hours and hundredths of hours. For example, 30 Minutes must be entered
 as 0.50 Hours as shown below.
 
-
 ![](/img/Policies019.png)
 
 ### Change to Breaks Tab Configuration Procedure
 
-* *Are
-  your employees required to clock in and out for all breaks?*
+- _Are
+  your employees required to clock in and out for all breaks?_
 
-+ *No?
+* _No?
   â Would you like to deduct an unpaid break automatically from
-  your employees?*
+  your employees?_
 
-- *Yes?
-  â Skip to Auto Breaks Tab.*
-- *No? â Your organization
-  does not require breaks. Skip to Hours and Time Limits.*
+- _Yes?
+  â Skip to Auto Breaks Tab._
+- _No? â Your organization
+  does not require breaks. Skip to Hours and Time Limits._
 
-+ *Yes?
-  â Do you track Unpaid, Paid Breaks, or both?*
+* _Yes?
+  â Do you track Unpaid, Paid Breaks, or both?_
 
-- *One
-  type? Configure First Change to Break*
-- *Both Types? Configure
-  First and Second Change to break*
+- _One
+  type? Configure First Change to Break_
+- _Both Types? Configure
+  First and Second Change to break_
 
 * First Change to Break
   Configuration:
 
-+ What is the longest duration employees are permitted to
+- What is the longest duration employees are permitted to
   take as their break?
 
-- Enter this duration, as hours, in the First Change to
+* Enter this duration, as hours, in the First Change to
   Break if Less Than Field.
-- Set the First Change to Break Type to either Paid Break
+* Set the First Change to Break Type to either Paid Break
   or Unpaid Break as appropriate.
 
-* Second Change to Break Configuration:
+- Second Change to Break Configuration:
 
-+ What is the longest duration employees are permitted to
+* What is the longest duration employees are permitted to
   take as their break?
 
 - Enter this duration, as hours, in the First Change to
@@ -648,44 +639,44 @@ work day.
 
 ### Auto Breaks Tab Configuration Procedure
 
-* *Would
-  you like to automatically insert Unpaid or Paid breaks for employees?*
+- _Would
+  you like to automatically insert Unpaid or Paid breaks for employees?_
 
-+ *Yes? - Do you wish to
-  automatically insert Unpaid Breaks, Paid Breaks, or Both?*
+* _Yes? - Do you wish to
+  automatically insert Unpaid Breaks, Paid Breaks, or Both?_
 
-- *One Type? Configure
-  First Auto Break.*
+- _One Type? Configure
+  First Auto Break._
 - Both
   Types? Configure both First Auto Break and Second Auto Break.
 
-+ No?
+* No?
   - You do not require Auto Breaks. Skip to the Exceptions Section
-  of this document.
+    of this document.
 
-* First
+- First
   Auto Break
 
-+ How
+* How
   many hours must employees work before the First Auto Break will
   be deducted? Set the 'First Auto Break If More Than' field
   to this value.
-+ Set the 'First Auto Break Type' field to
+* Set the 'First Auto Break Type' field to
   the appropriate Break Type (Paid or Unpaid).
-+ Set the 'First Auto Break Amount' field
+* Set the 'First Auto Break Amount' field
   to the desired break duration, in hours, which will automatically
   be inserted by the First Auto Break
 
-* Second
+- Second
   Auto Break
 
-+ How
+* How
   many hours must employees work before the First Auto Break will
   be deducted? Set the 'Second Auto Break If More Than' field
   to this value.
-+ Set the 'Second Auto Break Type' field to
+* Set the 'Second Auto Break Type' field to
   the appropriate Break Type (Paid or Unpaid).
-+ Set the 'Second Auto Break Amount' field
+* Set the 'Second Auto Break Amount' field
   to the desired break duration, in hours, which will automatically
   be inserted by the Second Auto Break
 
@@ -746,10 +737,10 @@ and an unpaid duration of 3 minutes due to the Maximum Length setting.
 
 ### Paid Break Limits Tab Configuration Procedure
 
-* Does your organization require
+- Does your organization require
   employees to punch in and out for paid breaks?
 
-+ Yes - Would you like
+* Yes - Would you like
   to configure a Minimum Duration, Maximum Duration, or Both for
   each individual Paid Break?
 
@@ -770,33 +761,33 @@ and an unpaid duration of 3 minutes due to the Maximum Length setting.
   Paid Break per day - or two fifteen minute breaks)
 * No? - Leave the Maximum Daily Break Amount Field blank.
 
-+ No? - If employees do not punch for paid breaks, then the Change
+- No? - If employees do not punch for paid breaks, then the Change
   to Break settings should not be configured for Paid Breaks. Similarly,
   the Paid Break Limits Tab should not be configured. All fields
   on the Paid Break Limits tab should be left blank in this scenario.
 
 * Minimum Duration:
 
-+ Configure the Paid Break Limit Bounds:
+- Configure the Paid Break Limit Bounds:
 
-- What is the minimum duration of Paid Break which Paid Break
+* What is the minimum duration of Paid Break which Paid Break
   Limits should be applied to? Set the 'If Paid Break is More
   Than' field to this value. (IE: 0.01 Hours)
-- What is the maximum duration of Paid Break which Paid Break
+* What is the maximum duration of Paid Break which Paid Break
   Limits should be applied to? Set the 'If Paid Break is less
   than' field to this value. (IE: 0.50 Hours)
-- What is the minimum permitted duration for a single Paid
+* What is the minimum permitted duration for a single Paid
   Break?
 
-* Enter this duration, in hours, in the 'Break Length
+- Enter this duration, in hours, in the 'Break Length
   is allowed to be a Minimum Amount of' Field.
-* All Paid Breaks with a duration that falls within the
+- All Paid Breaks with a duration that falls within the
   Paid Break Limit Bounds with a duration less than the
   Minimum will be automatically set to the Minimum Duration.
 
-* Maximum Duration:
+- Maximum Duration:
 
-+ Configure the Paid Break Limit Bounds:
+* Configure the Paid Break Limit Bounds:
 
 - What is the minimum duration of Paid Break which Paid Break
   Limits should be applied to? Set the 'If Paid Break is More
@@ -851,10 +842,10 @@ break length setting is rarely used with Unpaid Breaks.
 
 ### Unpaid Break Limits Type Configuration Procedure
 
-* Does your organization require
+- Does your organization require
   employees to punch in and out for unpaid breaks?
 
-+ Yes - Would you like
+* Yes - Would you like
   to configure a Minimum Duration, Maximum Duration, or Both for
   each individual Unpaid Break?
 
@@ -866,15 +857,15 @@ break length setting is rarely used with Unpaid Breaks.
   Maximum Amount as detailed below. The Break Limit Bounds must
   be configured appropriately to include all unpaid breaks.
 
-+ No? - If employees do not punch for unpaid breaks, then the
+* No? - If employees do not punch for unpaid breaks, then the
   Change to Break settings should not be configured for Unpaid Breaks.
   Similarly, the Unpaid Break Limits Tab should not be configured.
   All fields on the Unpaid Break Limits tab should be left blank
   in this scenario.
 
-* Minimum Duration:
+- Minimum Duration:
 
-+ Configure the Unpaid Break Limit Bounds:
+* Configure the Unpaid Break Limit Bounds:
 
 - What is the minimum duration of Unpaid Break which Unpaid
   Break Limits should be applied to? Set the 'If Unpaid Break
@@ -893,27 +884,27 @@ break length setting is rarely used with Unpaid Breaks.
 
 * Maximum Duration:
 
-+ Configure the Unpaid Break Limit Bounds:
+- Configure the Unpaid Break Limit Bounds:
 
-- What is the minimum duration of Unpaid Break which Unpaid
+* What is the minimum duration of Unpaid Break which Unpaid
   Break Limits should be applied to? Set the 'If Unpaid Break
   is More Than' field to this value. (IE: 0.01 Hours)
-- What is the maximum duration of Unpaid Break which Unpaid
+* What is the maximum duration of Unpaid Break which Unpaid
   Break Limits should be applied to? Set the 'If Unpaid Break
   is less than' field to this value. (IE: 0.50 Hours)
 
-- What is the maximum permitted duration for a single Unpaid
+* What is the maximum permitted duration for a single Unpaid
   Break?
 
-* Enter this duration, in hours, in the 'Break Length
+- Enter this duration, in hours, in the 'Break Length
   is allowed to be a Maximum Amount of' Field.
-* All Unpaid Breaks with a duration that falls within
+- All Unpaid Breaks with a duration that falls within
   the Paid Break Limit Bounds with a duration more than
   the Maximum Duration will be offset with paid hours on
   the last punch pair for the respective date to reflect
   the Maximum Unpaid Break Duration. Refer to [the Break Examples](Policy_Overview.md#pol21_Example_Break_Configurations)
   for additional details.
-* It should be noted that the Maximum Duration feature
+- It should be noted that the Maximum Duration feature
   is rarely used for Unpaid Breaks as Unpaid Breaks are
   generally unpaid - even if the employee were to take an
   excessively long Unpaid Break the full duration of the
@@ -933,10 +924,10 @@ as they are gone for less than an hour. If the employee should take a
 break for longer than an hour they will still be unpaid â the duration
 will simply not show as a break in the timecards.
 
- | | | | | 
+| | | | |
 ||
- | First Change to Break | First Change to Break Type | Second Change to Break | Second Change to Break Type | 
- | 1 | Unpaid | | | 
+| First Change to Break | First Change to Break Type | Second Change to Break | Second Change to Break Type |
+| 1 | Unpaid | | |
 
 ### **Paid Breaks & Unpaid Lunch w/ Change to Break And Paid Break Limits**
 
@@ -961,19 +952,19 @@ unpaid break.
 
 Change to Break Configuration
 
- | | | | | 
+| | | | |
 ||
- | First Change to Break | First Change to Break Type | Second Change to Break | Second Change to Break Type | 
- | .33 | Paid | 1 | Unpaid | 
+| First Change to Break | First Change to Break Type | Second Change to Break | Second Change to Break Type |
+| .33 | Paid | 1 | Unpaid |
 
 Paid Break Limits Configuration
 
- | | | | | | 
+| | | | | |
 ||
- | If Paid Break is More than | And Less Than | Minimum Break Length | Maximum Break Length | Maximum Daily Break Length | 
- | .01 | .33 | .01 | .25 | .5 | 
+| If Paid Break is More than | And Less Than | Minimum Break Length | Maximum Break Length | Maximum Daily Break Length |
+| .01 | .33 | .01 | .25 | .5 |
 
- Break
+Break
 Examples
 
 Examples of
@@ -982,33 +973,33 @@ shown below. Timecard records are shown for the highlighted examples.
 
 Individual Break Examples
 
- | | | | 
+| | | |
 ||
- | Break Duration | Paid Break Time | Unpaid Break Time | 
- | 12 Minutes (.2 Hrs) | 12 Minutes | | 
+| Break Duration | Paid Break Time | Unpaid Break Time |
+| 12 Minutes (.2 Hrs) | 12 Minutes | |
 
 ![](/img/Policies069.png)
 
- | | | | 
+| | | |
 ||
- | Break Duration | Paid Break Time | Unpaid Break Time | 
- | 18 Minutes (.3 Hrs) | 15 Minutes | 3 Minutes | 
+| Break Duration | Paid Break Time | Unpaid Break Time |
+| 18 Minutes (.3 Hrs) | 15 Minutes | 3 Minutes |
 
 ![](/img/clip_image002.jpg)
 
- | | | | 
+| | | |
 ||
- | Break Duration | Paid Break Time | Unpaid Break Time | 
- | 45 Minutes (.75 Hrs) | | 45 Minutes | 
+| Break Duration | Paid Break Time | Unpaid Break Time |
+| 45 Minutes (.75 Hrs) | | 45 Minutes |
 
 Daily Break Examples
 
- | | | | | | 
+| | | | | |
 ||
- | 1st Paid Break Duration | 2nd Paid Break Duration | Lunch Break Duration | Total Paid Time | Total Unpaid Time | 
- | 12 Minutes (.2 Hrs) | 12 (.2 Hrs) | 35 Minutes | 24 Minutes | 35 Minutes | 
- | 12 Minutes (.2 Hrs) | 18 Minutes (.3 Hrs) | 30 Minutes | 27 Minutes | 33 Minutes | 
- | 18 Minutes (.3 Hrs) | 25 Minutes (.42 Hrs) | 45 Minutes | 30 Minutes | 58 Minutes | 
+| 1st Paid Break Duration | 2nd Paid Break Duration | Lunch Break Duration | Total Paid Time | Total Unpaid Time |
+| 12 Minutes (.2 Hrs) | 12 (.2 Hrs) | 35 Minutes | 24 Minutes | 35 Minutes |
+| 12 Minutes (.2 Hrs) | 18 Minutes (.3 Hrs) | 30 Minutes | 27 Minutes | 33 Minutes |
+| 18 Minutes (.3 Hrs) | 25 Minutes (.42 Hrs) | 45 Minutes | 30 Minutes | 58 Minutes |
 
 ###
 
@@ -1034,10 +1025,10 @@ permitted 30 minutes for lunch.
 
 Change to Break Configuration
 
- | | | | | 
+| | | | |
 ||
- | First Change to Break | First Change to Break Type | Second Change to Break | Second Change to Break Type | 
- | 1 | Unpaid | | | 
+| First Change to Break | First Change to Break Type | Second Change to Break | Second Change to Break Type |
+| 1 | Unpaid | | |
 
 The âAllow
 Auto Break with Change to Breakâ box must be unchecked on the change to
@@ -1045,17 +1036,17 @@ break tab.
 
 Auto Break Configuration
 
- | | | | 
+| | | |
 ||
- | First Auto Break if More than Hours | First Auto Break Type | First Auto Break Amount | 
- | 6 | Unpaid | .5 | 
+| First Auto Break if More than Hours | First Auto Break Type | First Auto Break Amount |
+| 6 | Unpaid | .5 |
 
-***Paid
-& Unpaid Breaks w/ Change to Break:*** *It
+**_Paid
+& Unpaid Breaks w/ Change to Break:_** _It
 should be noted that many companies opt to not track paid breaks within
 InfiniTime.. Employees will be required to punch for unpaid breaks but
 can take paid breaks at their leisure. In this scenario it is only necessary
-to configure the First Change to Break for Unpaid Breaks.*
+to configure the First Change to Break for Unpaid Breaks._
 
 ### Exceptions
 
@@ -1091,28 +1082,31 @@ be configured in one of three ways:
 
 ### Accessing Company Wide Exceptions
 
-* Click
+- Click
   on Lookups
-* Click on Calculation Setup
+- Click on Calculation Setup
 
 ![](/img/OTPay_Rate.gif).gif)
 
-* Click on Exception Types
+- Click on Exception Types
 
 ![](/img/Policies049.png)
 
 Insert
+
 - Opens the Exception Type Update Form. Click Insert on the Exception
-Type Table to Define a new Company Wide Exception.
+  Type Table to Define a new Company Wide Exception.
 
 Change
+
 - Opens the Exception Type Update Form for the selected Exception.
 
 Delete
+
 - Deletes the Selected Exception from the Exception Type Table. The exception
-will no longer be tracked for employees. Additionally, all previous occurrences
-for the selected exception will be removed from employee timecards upon
-the next recalculate.
+  will no longer be tracked for employees. Additionally, all previous occurrences
+  for the selected exception will be removed from employee timecards upon
+  the next recalculate.
 
 ### Accessing Policy Based Exceptions
 
@@ -1139,18 +1133,21 @@ the next recalculate.
 ![](/img/AlertDuration.png)
 
 Insert
+
 - Opens the Exception Type Update Form. Click Insert on the Exception
-Type Table to Define a new Exception for all employees assigned to the
-respective Policy.
+  Type Table to Define a new Exception for all employees assigned to the
+  respective Policy.
 
 Change
+
 - Opens the Exception Type Update Form for the selected Exception.
 
 Delete
+
 - Deletes the Selected Exception from the Exception Type Table. The exception
-will no longer be tracked for employees assigned to the respective policy.
-Additionally, all previous occurrences for the selected exception will
-be removed from employee timecards upon the next recalculate.
+  will no longer be tracked for employees assigned to the respective policy.
+  Additionally, all previous occurrences for the selected exception will
+  be removed from employee timecards upon the next recalculate.
 
 ### Exception Type Update Form
 
@@ -1232,7 +1229,7 @@ the number line below shows November 7th as a date an employee had the
 Missing Scheduled Punch Exception. The number line also shows the Sent
 Alert within...Days value for each day from November 7th to December 7th.
 
- The Missing Scheduled Punch Exception triggers when an employee
+The Missing Scheduled Punch Exception triggers when an employee
 has a scheduled punch but does not have a punch within the bounds of the
 On Time and Late Grace Periods for a given scheduled Punch. The exception
 will trigger automatically if an employee forgets to punch in or out.
@@ -1257,27 +1254,27 @@ Mail Transfer Protocol Service to send both SMS and Email Notifications.
 
 ### Required Server Configuration for SMS and Email Notifications
 
-* The InfiniTime
+- The InfiniTime
   Server must have an active Internet connection at all times.
-* Power Management must be
+- Power Management must be
   disabled on the Network Interface Card of the InfiniTime
   Server.
-* The InfiniTime
+- The InfiniTime
   Housekeeping Service must be started and running.
-* The InfiniTime
+- The InfiniTime
   Server does not need to have a user logged into the console. However,
   it must at least be powered on and idle at the Windows Login Splash
   Screen.
-* Your fully qualified domain
+- Your fully qualified domain
   name may need to be configured in the advanced delivery options of
   the Simple Mail Transfer Protocol Server within Internet Information
   Services Management depending on your domain policies and mail server's
   configuration.
-* The server must be granted
+- The server must be granted
   permissions to relay email through the SMTP Virtual Server installed
   by InfiniTime.
 
-* Depending on your network
+- Depending on your network
   configuration and domain settings it may be necessary to forward all
   outgoing email messages from the InfiniTime
   SMTP Virtual Server to a Smart Host. Generally the Smart Host will
@@ -1286,23 +1283,23 @@ Mail Transfer Protocol Service to send both SMS and Email Notifications.
 
 ### Configuring SMS Notifications
 
-+ Determine the exact exception types for which InfiniTime should send Notifications
+- Determine the exact exception types for which InfiniTime should send Notifications
   for each instance the exception is triggered. For example, the
   Non-Arrival and Missed Scheduled Punch exceptions are popular
   choices for use with SMS Notifications.
-+ Check 'Alert Supervisor Via SMS' or 'Alert Employee Via SMS'
+- Check 'Alert Supervisor Via SMS' or 'Alert Employee Via SMS'
   as desired on the Notifications Tab of the Exception Type Update
   Form for each individual exception you wish to send notifications
   for.
-+ When using 'Alert Supervisor Via SMS' all employees assigned
+- When using 'Alert Supervisor Via SMS' all employees assigned
   as Supervisors must have the following fields defined on their
   employee profile:
 
-- Cell Number
+* Cell Number
   - When entering the Employee's Cell Phone Number, enter only
-  the 10 digit phone number as shown in the example below. Do
-  not enter dashes.
-- Cell
+    the 10 digit phone number as shown in the example below. Do
+    not enter dashes.
+* Cell
   Provider - Select the employee's cell phone carrier
   by clicking on the Lookup Magnify Glass and selecting the
   appropriate carrier. If the employee's cell phone carrier
@@ -1316,14 +1313,14 @@ Mail Transfer Protocol Service to send both SMS and Email Notifications.
   SMS Email Gateway to send SMS Notifications to supervisors
   and employees.
 
-+ When using 'Alert
+- When using 'Alert
   Employee Via SMS' all employees must have the following fields
   defined on their employee profile:
 
-- Cell Number - When entering
+* Cell Number - When entering
   the Employee's Cell Phone Number, enter only the 10 digit
   phone number as shown below. Do not enter dashes.
-- Cell
+* Cell
   Provider - Select the employee's cell phone carrier
   by clicking on the Lookup Magnify Glass and selecting the
   appropriate carrier. If the employee's cell phone carrier
@@ -1352,18 +1349,18 @@ Form:
 
 ### Configuring Email Notifications
 
-* Determine the exact exception types for which InfiniTime
+- Determine the exact exception types for which InfiniTime
   should send Notifications for each instance the exception is triggered.
   For example, the Non-Arrival and Missed Scheduled Punch exceptions
   are popular choices for use with Email Notifications.
-* Check 'Alert Supervisor Via Email' or 'Alert Employee Via Email'
+- Check 'Alert Supervisor Via Email' or 'Alert Employee Via Email'
   as desired on the Notifications Tab of the Exception Type Update Form
   for each individual exception you wish to send notifications for.
-* When using 'Alert Supervisor Via Email' all employees assigned
+- When using 'Alert Supervisor Via Email' all employees assigned
   as Supervisors must have the following fields defined on their employee
   profile:
 
-+ Email Address -
+* Email Address -
   Enter the Primary Email Address to be kept on file for the supervisor.
   Supervisor Email Exception Notifications will be sent to this
   email address. Some customers choose to use a single Distribution
@@ -1371,11 +1368,11 @@ Form:
   InfiniTime Supervisors
   receive email messages sent to the group address, in this field.
 
-* When using 'Alert Employee
+- When using 'Alert Employee
   Via SMS' all employees must have the following fields defined on their
   employee profile:
 
-+ Email Address - Enter the Primary
+* Email Address - Enter the Primary
   Email Address to be kept on file for the employee.
   If enabled, Employee
   Email Exception Notifications will be sent to this email address.
@@ -1392,38 +1389,38 @@ type performs a different function. Familiarize yourself with each exception
 before deciding to track them. This section is organized into a table
 layout as outlined below.
 
- | Exception Type | Exception Type, as listed in the 'Type' Drop Down Menu on the Exception Type Update Form. | 
-| --- | --- |
- | Summary | Provides a short description of the exception's intended usage. | 
- | Exception Type  Specific Fields | Lists Exception Type Specific Fields, as displayed on the Exception Type Update Form, for the specific exception type. Available Exception Type Specific fields are outlined below. | 
- | Additional Required  Configuration | Lists any additional configuration, such as a specific Policy Setting, required for the exception to properly trigger. | 
- | Exception Trigger | Details the exact trigger that causes the exception to occur. | 
+| Exception Type                    | Exception Type, as listed in the 'Type' Drop Down Menu on the Exception Type Update Form.                                                                                           |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Summary                           | Provides a short description of the exception's intended usage.                                                                                                                     |
+| Exception Type Specific Fields    | Lists Exception Type Specific Fields, as displayed on the Exception Type Update Form, for the specific exception type. Available Exception Type Specific fields are outlined below. |
+| Additional Required Configuration | Lists any additional configuration, such as a specific Policy Setting, required for the exception to properly trigger.                                                              |
+| Exception Trigger                 | Details the exact trigger that causes the exception to occur.                                                                                                                       |
 
 Exception Type Specific Fields
 
-* Threshold
+- Threshold
   - The Threshold Field is used for many exceptions which trigger after
-  a set number of minutes, hours, or days. Refer to the specific exception
-  type below for additional details on how the threshold field is used
-  for a given exception. Pay special attention to the unit displayed
-  to the right of the Threshold Field which indicates wether the threshold
-  is measured in minutes, hours, or days.
-* Department
+    a set number of minutes, hours, or days. Refer to the specific exception
+    type below for additional details on how the threshold field is used
+    for a given exception. Pay special attention to the unit displayed
+    to the right of the Threshold Field which indicates wether the threshold
+    is measured in minutes, hours, or days.
+- Department
   - The Department Field is used with the Non Arrival Exception to indicate
-  a specific Department / Job / Task Combination to check for Schedules.
-  Refer to the [Non-Arrival
-  Exception](Policy_Overview.md#Non_Arrival_) for additional details.
-* Job
+    a specific Department / Job / Task Combination to check for Schedules.
+    Refer to the [Non-Arrival
+    Exception](Policy_Overview.md#Non_Arrival_) for additional details.
+- Job
   - The Department Field is used with the Non Arrival Exception to indicate
-  a specific Department / Job / Task Combination to check for Schedules.
-  Refer to the [Non-Arrival
-  Exception](Policy_Overview.md#Non_Arrival_) for additional details.
-* Task
+    a specific Department / Job / Task Combination to check for Schedules.
+    Refer to the [Non-Arrival
+    Exception](Policy_Overview.md#Non_Arrival_) for additional details.
+- Task
   - The Department Field is used with the Non Arrival Exception to indicate
-  a specific Department / Job / Task Combination to check for Schedules.
-  Refer to the [Non-Arrival
-  Exception](Policy_Overview.md#Non_Arrival_) for additional details.
-* Use Count
+    a specific Department / Job / Task Combination to check for Schedules.
+    Refer to the [Non-Arrival
+    Exception](Policy_Overview.md#Non_Arrival_) for additional details.
+- Use Count
   as Day Worked for Other Activity Types - 'Use Count as Day
   Worked for Other Activity Types' toggles the method for determining
   which, if any, Other Activity Types count toward Consecutive Days
@@ -1436,7 +1433,7 @@ Exception Type Specific Fields
   for Other Activity Types' is unchecked, the user may select specific
   Other Activity Types to count toward the Consecutive Days Exception
   using the 'Other Activity Types Counted Toward Consecutive Days' Tab.
-* Count
+- Count
   Regular Hours toward Consecutive Days - 'Count Regular Hours
   Toward Consecutive Days' is used for both the Consecutive Days and
   Mandatory Rest Period Exceptions. If this option is checked, Regular
@@ -1446,7 +1443,7 @@ Exception Type Specific Fields
   date will not cause the date to be counted toward Consecutive Days
   Worked for purposes of the Consecutive Days or Mandatory Rest Period
   Exceptions.
-* Count
+- Count
   OT1 Hours toward Consecutive Days - 'Count OT1 Hours Toward
   Consecutive Days' is used for both the Consecutive Days and Mandatory
   Rest Period Exceptions. If this option is checked, OT1 Hours on a
@@ -1455,7 +1452,7 @@ Exception Type Specific Fields
   If this option is unchecked, OT1 Hours on a given date will not cause
   the date to be counted toward Consecutive Days Worked for purposes
   of the Consecutive Days or Mandatory Rest Period Exceptions.
-* Count
+- Count
   OT2 Hours toward Consecutive Days - 'Count OT2 Hours Toward
   Consecutive Days' is used for both the Consecutive Days and Mandatory
   Rest Period Exceptions. If this option is checked, OT2 Hours on a
@@ -1464,7 +1461,7 @@ Exception Type Specific Fields
   If this option is unchecked, OT2 Hours on a given date will not cause
   the date to be counted toward Consecutive Days Worked for purposes
   of the Consecutive Days or Mandatory Rest Period Exceptions.
-* Count
+- Count
   OT3 Hours toward Consecutive Days - 'Count OT3 Hours Toward
   Consecutive Days' is used for both the Consecutive Days and Mandatory
   Rest Period Exceptions. If this option is checked, OT3 Hours on a
@@ -1473,7 +1470,7 @@ Exception Type Specific Fields
   If this option is unchecked, OT3 Hours on a given date will not cause
   the date to be counted toward Consecutive Days Worked for purposes
   of the Consecutive Days or Mandatory Rest Period Exceptions.
-* Count
+- Count
   OT4 Hours toward Consecutive Days - 'Count OT4 Hours Toward
   Consecutive Days' is used for both the Consecutive Days and Mandatory
   Rest Period Exceptions. If this option is checked, OT4 Hours on a
@@ -1482,24 +1479,24 @@ Exception Type Specific Fields
   If this option is unchecked, OT4 Hours on a given date will not cause
   the date to be counted toward Consecutive Days Worked for purposes
   of the Consecutive Days or Mandatory Rest Period Exceptions.
-* Consecutive Days - The Consecutive
+- Consecutive Days - The Consecutive
   Days field sets the number of Consecutive Days Worked for purposes
   of the [Consecutive
   Days](Policy_Overview.md#Consecutive_Days) and [Mandatory
   Rest Period](Policy_Overview.md#Mandatory_Rest_Period) Exceptions. Refer to the individual exceptions below
   for additional information.
-* Total Hours - The Total Hours Field
+- Total Hours - The Total Hours Field
   is used with the Mandatory Rest Period Exception. The Mandatory Rest
-  Period Exception will trigger if an employee works more than *Total Hours*
-  within *Consecutive
-  Days* without a certain number of consecutive *off duty* hours. This exception is useful
+  Period Exception will trigger if an employee works more than _Total Hours_
+  within _Consecutive
+  Days_ without a certain number of consecutive _off duty_ hours. This exception is useful
   for tracking employee fatigue levels and preventing potentially dangerous
   working situations.
-* Off Duty Hours - The Off Duty Hours
+- Off Duty Hours - The Off Duty Hours
   Field sets the number of Off Duty Hours, or consecutive hours during
   which an employee is punched out, required to reset the Total Hours
   Count for the Mandatory Rest Period Exception.
-* Other
+- Other
   Activity Types Counted Toward Consecutive Days - The 'Other
   Activity Types Counted Toward Consecutive Days' Tab sets Other Activity
   Types which will count toward the [Consecutive
@@ -1507,208 +1504,208 @@ Exception Type Specific Fields
   Rest Period](Policy_Overview.md#Mandatory_Rest_Period), and [DOT
   Off Duty Rule](Policy_Overview.md#DOT_Off_Duty_Rule) Exceptions.
 
- | Exception Type | Absent | 
-| --- | --- |
- | Summary | Clearly marks dates on which an employee was scheduled to work where the employee failed to punch in the Company Timecard Table as shown below. Like all exceptions, the Absent exception also appears on all exception related reports. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | Employee's must have Schedules Defined for the Absent Exception to trigger. | 
- | Exception Trigger | The Absent Exception will trigger under the following conditions:  * The Employee must have at least one Working Period Scheduled   for the Date * There must be no timecard punches or Other Activity   Types set to Count as Day Worked present for the respective   Date for the Employee * The Absent exception triggers at midnight on the next   day if the above conditions are met. | 
+| Exception Type                    | Absent                                                                                                                                                                                                                                                                                                                                                                              |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Summary                           | Clearly marks dates on which an employee was scheduled to work where the employee failed to punch in the Company Timecard Table as shown below. Like all exceptions, the Absent exception also appears on all exception related reports.                                                                                                                                            |
+| Exception Type Specific Fields    | N/A                                                                                                                                                                                                                                                                                                                                                                                 |
+| Additional Required Configuration | Employee's must have Schedules Defined for the Absent Exception to trigger.                                                                                                                                                                                                                                                                                                         |
+| Exception Trigger                 | The Absent Exception will trigger under the following conditions: _ The Employee must have at least one Working Period Scheduled for the Date _ There must be no timecard punches or Other Activity Types set to Count as Day Worked present for the respective Date for the Employee \* The Absent exception triggers at midnight on the next day if the above conditions are met. |
 
- | Exception Type | Approaching DOT Consecutive Hours Rule One | 
- | Summary | The Approaching DOT Consecutive Hours Rule One exception is intended to alert supervisors when employees are close to breaking the Department of Transportation (DOT) Hours of Service Rule 1 which states that employees may drive a maximum of 11 hours after 10 consecutive hours off duty. | 
- | Exception Type   Specific Fields | * Threshold | 
+| Exception Type | Approaching DOT Consecutive Hours Rule One |
+| Summary | The Approaching DOT Consecutive Hours Rule One exception is intended to alert supervisors when employees are close to breaking the Department of Transportation (DOT) Hours of Service Rule 1 which states that employees may drive a maximum of 11 hours after 10 consecutive hours off duty. |
+| Exception Type Specific Fields | \* Threshold |
 
- | Exception Type | Approaching DOT Consecutive Hours Rule Two | 
- | Summary | The employee is getting close to Breaking DOT Hours of Service Rule 2. A threshold can be set to signify when the approaching exception will fire in relation to the actual exception. IE: Approaching Rule 2 with a two hour threshold will cause the Approaching DOT Hours of Service Rule 3 exception to occur when an employee is within two working hours of breaking DOT Hours of Service Rule 2. | 
- | Exception Type   Specific Fields | * Threshold | 
+| Exception Type | Approaching DOT Consecutive Hours Rule Two |
+| Summary | The employee is getting close to Breaking DOT Hours of Service Rule 2. A threshold can be set to signify when the approaching exception will fire in relation to the actual exception. IE: Approaching Rule 2 with a two hour threshold will cause the Approaching DOT Hours of Service Rule 3 exception to occur when an employee is within two working hours of breaking DOT Hours of Service Rule 2. |
+| Exception Type Specific Fields | \* Threshold |
 
- | Exception Type | Approaching DOT Seven Days Rule | 
- | Summary | The employee is getting close to Breaking DOT Hours of Service Rule 3. A threshold can be set to signify when the approaching exception will fire in relation to the actual exception. IE: Approaching Rule 3 with a ten hour threshold will cause the Approaching DOT Hours of Service Rule 3 exception to occur when an employee is within ten working hours of breaking DOT Hours of Service Rule 3. | 
- | Exception Type   Specific Fields | * Threshold | 
+| Exception Type | Approaching DOT Seven Days Rule |
+| Summary | The employee is getting close to Breaking DOT Hours of Service Rule 3. A threshold can be set to signify when the approaching exception will fire in relation to the actual exception. IE: Approaching Rule 3 with a ten hour threshold will cause the Approaching DOT Hours of Service Rule 3 exception to occur when an employee is within ten working hours of breaking DOT Hours of Service Rule 3. |
+| Exception Type Specific Fields | \* Threshold |
 
- | Exception Type | Approaching Exceeded Accrued Time | 
- | Summary | Occurs when an employee uses enough accrued time that their Remaining Accrual Balance is less than the threshold set for the exception. For example if an employee has 40 hours of vacation and the Approaching Exceeded Accrual Exception Threshold is set to 10 the exception will occur after the employee uses 30 hours or more. The Approaching Exceeded Accrual exception can only be viewed on the Employee Exception Detail Report as accrual exceptions are not related to employee timecards. When using the Employee Exception Detail report to view the Exceeded Accrual Exception the Date Range should match the Accrual Period for the Accrual Type in question. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | * Accrual Types and Accrual Calculations must be configured. * Accrual Types must be assigned to employees. * Other Activity Types that deduct must be properly defined   for each Accrual Calculation. | 
- | Exception Trigger | * Triggers when Time Base + Time Accrued - Time Used is less   than or equal to the Approaching Exceeded Accrued Time Threshold   for a given accrual period. | 
+| Exception Type | Approaching Exceeded Accrued Time |
+| Summary | Occurs when an employee uses enough accrued time that their Remaining Accrual Balance is less than the threshold set for the exception. For example if an employee has 40 hours of vacation and the Approaching Exceeded Accrual Exception Threshold is set to 10 the exception will occur after the employee uses 30 hours or more. The Approaching Exceeded Accrual exception can only be viewed on the Employee Exception Detail Report as accrual exceptions are not related to employee timecards. When using the Employee Exception Detail report to view the Exceeded Accrual Exception the Date Range should match the Accrual Period for the Accrual Type in question. |
+| Exception Type Specific Fields | _ Threshold |
+| Additional Required Configuration | _ Accrual Types and Accrual Calculations must be configured. _ Accrual Types must be assigned to employees. _ Other Activity Types that deduct must be properly defined for each Accrual Calculation. |
+| Exception Trigger | \* Triggers when Time Base + Time Accrued - Time Used is less than or equal to the Approaching Exceeded Accrued Time Threshold for a given accrual period. |
 
- | Exception Type | Approaching Overtime | 
- | Summary | The Approaching Overtime Exception warns supervisors when employees are within a certain number of hours from receiving Weekly Overtime. The Approaching Overtime Threshold should be set to the number of hours away from Weekly Overtime you wish to be notified at. For example, a Threshold of 8 Hours with a Weekly Overtime 1 Setting of > 40 Hours will trigger the Approaching Overtime Exception at 32 Hours Worked for a given work week. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | * The 'Weekly Overtime If Over Hours' Policy Setting must   be configured for OT1, OT2, OT3, or OT4 * The Approaching Overtime exception will not trigger for   Employees assigned to a policy without Weekly Overtime configured   for OT1, OT2, OT3, or OT4. | 
- | Exception Trigger | * Triggers when Total Hours for a given work week + Threshold   is greater than the Weekly Overtime Setting for OT1, OT2,   OT3, or OT4 as set on an employee's policy. | 
+| Exception Type | Approaching Overtime |
+| Summary | The Approaching Overtime Exception warns supervisors when employees are within a certain number of hours from receiving Weekly Overtime. The Approaching Overtime Threshold should be set to the number of hours away from Weekly Overtime you wish to be notified at. For example, a Threshold of 8 Hours with a Weekly Overtime 1 Setting of > 40 Hours will trigger the Approaching Overtime Exception at 32 Hours Worked for a given work week. |
+| Exception Type Specific Fields | _ Threshold |
+| Additional Required Configuration | _ The 'Weekly Overtime If Over Hours' Policy Setting must be configured for OT1, OT2, OT3, or OT4 _ The Approaching Overtime exception will not trigger for Employees assigned to a policy without Weekly Overtime configured for OT1, OT2, OT3, or OT4. |
+| Exception Trigger | _ Triggers when Total Hours for a given work week + Threshold is greater than the Weekly Overtime Setting for OT1, OT2, OT3, or OT4 as set on an employee's policy. |
 
- | Exception Type | Approved Overtime | 
- | Summary | The Approved Overtime Exception triggers for any date with Approved OT1, OT2, OT3, or OT4 Hours. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | * Overtime Must Be Approved must be enabled for one or more   Overtime Types (IE: OT1, OT2, OT3, OT4) | 
- | Exception Trigger | * Triggers for any date with Approved OT1, OT2, OT3, or OT4   Hours. | 
+| Exception Type | Approved Overtime |
+| Summary | The Approved Overtime Exception triggers for any date with Approved OT1, OT2, OT3, or OT4 Hours. |
+| Exception Type Specific Fields | _ Threshold |
+| Additional Required Configuration | _ Overtime Must Be Approved must be enabled for one or more Overtime Types (IE: OT1, OT2, OT3, OT4) |
+| Exception Trigger | \* Triggers for any date with Approved OT1, OT2, OT3, or OT4 Hours. |
 
- | Exception Type | Consecutive Days | 
- | Summary | The Consecutive Days Exception is intended for Employee Fatigue Tracking purposes. InfiniTime tracks the number of consecutive days worked by employees and triggers the Consecutive Days exception if employees have hours for valid Hours Types over a number of days, as specified by the Consecutive Days field, in a row. | 
- | Exception Type   Specific Fields | * Use Count as Day Worked for Other Activity Types * Other Activity Types Counted Toward Consecutive Days * Count Regular Hours Toward Consecutive Days * Count OT1 Hours Toward Consecutive Days * Count OT2 Hours Toward Consecutive Days * Count OT3 Hours Toward Consecutive Days * Count OT4 Hours Toward Consecutive Days * Consecutive Days | 
- | Additional Required   Configuration | N/A | 
- | Exception Trigger | * The Consecutive Days Exception   Triggers as follows: * + The     Consecutive Days Exception Triggers if an employee has     Valid Hours Types on a number of days in a row equal to     *consecutive     days*.   + **The Consecutive Days Exception triggers     independently of the current Work Week.**   + **The Consecutive Days Exception will     continue to trigger every day after an employee works     a number of days equal to *Consecutive     Days* until the     employee has a full day off with zero hours from Valid     Hours Types.**   + Valid Hours Types are determined     as follows:   + - If 'Count Regular Hours       toward Consecutive Days is checked, Regular Hours       will be included in the consecutive days and total       hours calculation.     - If âCount OT1 Hours toward       Consecutive Daysâ is checked, OT1 Hours will be included       in the consecutive days and total hours calculation.     - If âCount OT2 Hours toward       Consecutive Daysâ is checked, OT2 Hours will be included       in the consecutive days and total hours calculation.     - If âCount OT3 Hours toward       Consecutive Daysâ is checked, OT3 Hours will be included       in the consecutive days and total hours calculation.     - If âCount OT4 Hours toward       Consecutive Daysâ is checked, OT4 Hours will be included       in the consecutive days and total hours calculation.     - If 'Use Count as Day Worked       for Other Activity Types' is checked, Other Activity       Types with 'Use Count as Day Worked' checked will       be included in the consecutive days calculation.     - If 'Use Count as Day Worked       for Other Activity Types' is unchecked, Other Activity       Types specified on the 'Other Activity Types that       Count Toward Consecutive Days' will be included in       the consecutive days calculation.     - Other Hours for Activity       Types specified on the 'Other Activity Types Counted       Toward Consecutive Days' Tab (or Other Activity Types       set to 'Count as Day Worked') will be included in       the total hours calculation if the Other Activity       Type is set to 'Allow Start Time Entry'.     - Regular, OT1, OT2, OT3,       and OT4 hours for Other Activity Types specified on       the 'Other Activity Types  Counted Toward Consecutive       Days Tab' (or Other Activity Types set to 'Count as       Day Worked') which are set to 'Count as Regular Hours'       and 'Allow Start Time Entry' will be included in the       Total Hours calculation according to the 'Count *Hours Type*       Toward Consecutive Days' Options. | 
+| Exception Type | Consecutive Days |
+| Summary | The Consecutive Days Exception is intended for Employee Fatigue Tracking purposes. InfiniTime tracks the number of consecutive days worked by employees and triggers the Consecutive Days exception if employees have hours for valid Hours Types over a number of days, as specified by the Consecutive Days field, in a row. |
+| Exception Type Specific Fields | _ Use Count as Day Worked for Other Activity Types _ Other Activity Types Counted Toward Consecutive Days _ Count Regular Hours Toward Consecutive Days _ Count OT1 Hours Toward Consecutive Days _ Count OT2 Hours Toward Consecutive Days _ Count OT3 Hours Toward Consecutive Days _ Count OT4 Hours Toward Consecutive Days _ Consecutive Days |
+| Additional Required Configuration | N/A |
+| Exception Trigger | _ The Consecutive Days Exception Triggers as follows: _ + The Consecutive Days Exception Triggers if an employee has Valid Hours Types on a number of days in a row equal to _consecutive days_. + **The Consecutive Days Exception triggers independently of the current Work Week.** + **The Consecutive Days Exception will continue to trigger every day after an employee works a number of days equal to _Consecutive Days_ until the employee has a full day off with zero hours from Valid Hours Types.** + Valid Hours Types are determined as follows: + - If 'Count Regular Hours toward Consecutive Days is checked, Regular Hours will be included in the consecutive days and total hours calculation. - If âCount OT1 Hours toward Consecutive Daysâ is checked, OT1 Hours will be included in the consecutive days and total hours calculation. - If âCount OT2 Hours toward Consecutive Daysâ is checked, OT2 Hours will be included in the consecutive days and total hours calculation. - If âCount OT3 Hours toward Consecutive Daysâ is checked, OT3 Hours will be included in the consecutive days and total hours calculation. - If âCount OT4 Hours toward Consecutive Daysâ is checked, OT4 Hours will be included in the consecutive days and total hours calculation. - If 'Use Count as Day Worked for Other Activity Types' is checked, Other Activity Types with 'Use Count as Day Worked' checked will be included in the consecutive days calculation. - If 'Use Count as Day Worked for Other Activity Types' is unchecked, Other Activity Types specified on the 'Other Activity Types that Count Toward Consecutive Days' will be included in the consecutive days calculation. - Other Hours for Activity Types specified on the 'Other Activity Types Counted Toward Consecutive Days' Tab (or Other Activity Types set to 'Count as Day Worked') will be included in the total hours calculation if the Other Activity Type is set to 'Allow Start Time Entry'. - Regular, OT1, OT2, OT3, and OT4 hours for Other Activity Types specified on the 'Other Activity Types  Counted Toward Consecutive Days Tab' (or Other Activity Types set to 'Count as Day Worked') which are set to 'Count as Regular Hours' and 'Allow Start Time Entry' will be included in the Total Hours calculation according to the 'Count _Hours Type_ Toward Consecutive Days' Options. |
 
- | Exception Type | DOT Consecutive Hours Rule One | 
- | Summary | Service Rule One as enforced by the Department of Transportation states 'Employees may drive a maximum of 11 hours after 10 consecutive hours off duty. Report a Rule 1 Violation if break is less than 10 hours.' InfiniTime tracks | 
- | Exception Type   Specific Fields | * Threshold   - The Threshold for Approaching DOT Consecutive Hours Rule   One should be set to 11 Hours | 
+| Exception Type | DOT Consecutive Hours Rule One |
+| Summary | Service Rule One as enforced by the Department of Transportation states 'Employees may drive a maximum of 11 hours after 10 consecutive hours off duty. Report a Rule 1 Violation if break is less than 10 hours.' InfiniTime tracks |
+| Exception Type Specific Fields | \* Threshold - The Threshold for Approaching DOT Consecutive Hours Rule One should be set to 11 Hours |
 
- | Exception Type | DOT Consecutive Hours Rule Two | 
- | Summary | Employee may not drive beyond the 14th consecutive hour after coming on duty, following 10 consecutive hours off duty. Off-duty time does not extend the 14-hour period. Any working duration over 14 hours is considered a Rule 2 Violation. | 
- | Exception Type   Specific Fields | * Threshold   - The Threshold for Approaching DOT Consecutive Hours Rule   One should be set to 11 Hours | 
+| Exception Type | DOT Consecutive Hours Rule Two |
+| Summary | Employee may not drive beyond the 14th consecutive hour after coming on duty, following 10 consecutive hours off duty. Off-duty time does not extend the 14-hour period. Any working duration over 14 hours is considered a Rule 2 Violation. |
+| Exception Type Specific Fields | \* Threshold - The Threshold for Approaching DOT Consecutive Hours Rule One should be set to 11 Hours |
 
- | Exception Type | DOT Off Duty Rule | 
- | Summary | Drivers using the sleeper berth provision must take at least 8 consecutive hours in the sleeper berth, plus a separate 2 consecutive hours either in the sleeper berth, off duty, or any combination of the two. In other words, there must be a minimum of ten hours from when the employee punches out on one shift before they punch in again. The DOT Off Duty Rule exception occurs if the employee should punch in before taking their full ten hour break. | 
- | Exception Type   Specific Fields | * Threshold   - The Threshold for Approaching DOT Consecutive Hours Rule   One should be set to 11 Hours | 
+| Exception Type | DOT Off Duty Rule |
+| Summary | Drivers using the sleeper berth provision must take at least 8 consecutive hours in the sleeper berth, plus a separate 2 consecutive hours either in the sleeper berth, off duty, or any combination of the two. In other words, there must be a minimum of ten hours from when the employee punches out on one shift before they punch in again. The DOT Off Duty Rule exception occurs if the employee should punch in before taking their full ten hour break. |
+| Exception Type Specific Fields | \* Threshold - The Threshold for Approaching DOT Consecutive Hours Rule One should be set to 11 Hours |
 
- | Exception Type | DOT Seven Days Rule | 
- | Summary | Employee may not drive after 60/70 hours on duty in 7/8 consecutive days. A driver may restart a 7/8 consecutive day period after taking 34 or more consecutive hours off duty.  The 7/8 day period is reset if there is a consecutive break of 34 hours at any point. If this rule is broken a Rule Violation is reported. | 
- | Exception Type   Specific Fields | * Threshold   - The Threshold for Approaching DOT Consecutive Hours Rule   One should be set to 11 Hours | 
+| Exception Type | DOT Seven Days Rule |
+| Summary | Employee may not drive after 60/70 hours on duty in 7/8 consecutive days. A driver may restart a 7/8 consecutive day period after taking 34 or more consecutive hours off duty.  The 7/8 day period is reset if there is a consecutive break of 34 hours at any point. If this rule is broken a Rule Violation is reported. |
+| Exception Type Specific Fields | \* Threshold - The Threshold for Approaching DOT Consecutive Hours Rule One should be set to 11 Hours |
 
- | Exception Type | Early | 
- | Summary | Early is an employee performance related exception used to compare employee Clock In punches to their scheduled arrival time. The Early Exception Triggers if an employee punches in prior to their scheduled start time. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Early Exception to Occur for the respective   date. * Scheduled Grace Periods, as set on the Scheduled Time Tab   of the Rounding Rules Section on the Policy Update Form, should   be configured for organizations using Employee Performance   Related Exceptions such as the Early Exception. Refer to the   [Scheduled   Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document   for additional details. | 
- | Exception Trigger | The Early Exception Triggers if an employees first punch on a given date is prior to the employee's Scheduled Start Time - On Time Grace Period. For example, if an employee is scheduled to work from 8:00 AM to 5:00 PM with a 5 Minute On Time Grace Period the Early Exception will trigger if the employee punches in prior to 7:55 AM. | 
+| Exception Type | Early |
+| Summary | Early is an employee performance related exception used to compare employee Clock In punches to their scheduled arrival time. The Early Exception Triggers if an employee punches in prior to their scheduled start time. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Early Exception to Occur for the respective date. _ Scheduled Grace Periods, as set on the Scheduled Time Tab of the Rounding Rules Section on the Policy Update Form, should be configured for organizations using Employee Performance Related Exceptions such as the Early Exception. Refer to the [Scheduled Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional details. |
+| Exception Trigger | The Early Exception Triggers if an employees first punch on a given date is prior to the employee's Scheduled Start Time - On Time Grace Period. For example, if an employee is scheduled to work from 8:00 AM to 5:00 PM with a 5 Minute On Time Grace Period the Early Exception will trigger if the employee punches in prior to 7:55 AM. |
 
- | Exception Type | Early Departure | 
- | Summary | Early Departure is an employee performance related exception used to compare employee Clock Out punches to their scheduled departure time. The Early Departure Exception Triggers if an employee punches out prior to their scheduled departure time. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Early Exception to Occur for the respective   date. * Scheduled Grace Periods, as set on the Scheduled Time Tab   of the Rounding Rules Section on the Policy Update Form, should   be configured for organizations using Employee Performance   Related Exceptions such as the Early Exception. Refer   to the [Scheduled   Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional   details. | 
- | Exception Trigger | The Early Departure Exception Triggers if an employee's last punch on a given date is prior to the employee's Scheduled End Time - On Time Grace Period. For example, if an employee is scheduled to work from 8:00 AM to 5:00 PM with a 5 Minute On Time Grace Period the Early Departure Exception will trigger if the employee punches out prior to 4:55 PM. | 
+| Exception Type | Early Departure |
+| Summary | Early Departure is an employee performance related exception used to compare employee Clock Out punches to their scheduled departure time. The Early Departure Exception Triggers if an employee punches out prior to their scheduled departure time. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Early Exception to Occur for the respective date. _ Scheduled Grace Periods, as set on the Scheduled Time Tab of the Rounding Rules Section on the Policy Update Form, should be configured for organizations using Employee Performance Related Exceptions such as the Early Exception. Refer to the [Scheduled Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional details. |
+| Exception Trigger | The Early Departure Exception Triggers if an employee's last punch on a given date is prior to the employee's Scheduled End Time - On Time Grace Period. For example, if an employee is scheduled to work from 8:00 AM to 5:00 PM with a 5 Minute On Time Grace Period the Early Departure Exception will trigger if the employee punches out prior to 4:55 PM. |
 
- | Exception Type | Exceeded Accrued Time | 
- | Summary | The Exceeded Accrued Time exception triggers when an employee has a negative accrual balance. The Exceeded Accrual exception can only be viewed on the Employee Exception Detail Report as accrual exceptions are not related to employee timecards. When using the Employee Exception Detail report to view the Exceeded Accrual Exception the Date Range should match the Accrual Period for the Accrual Type in question. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Accrual Types and Accrual Calculations must be configured. * Accrual Types must be assigned to employees. * Other Activity Types that deduct must be properly defined   for each Accrual Calculation. | 
- | Exception Trigger | * Triggers when Time Base + Time Accrued - Time Used is less   than 0. | 
+| Exception Type | Exceeded Accrued Time |
+| Summary | The Exceeded Accrued Time exception triggers when an employee has a negative accrual balance. The Exceeded Accrual exception can only be viewed on the Employee Exception Detail Report as accrual exceptions are not related to employee timecards. When using the Employee Exception Detail report to view the Exceeded Accrual Exception the Date Range should match the Accrual Period for the Accrual Type in question. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Accrual Types and Accrual Calculations must be configured. _ Accrual Types must be assigned to employees. _ Other Activity Types that deduct must be properly defined for each Accrual Calculation. |
+| Exception Trigger | _ Triggers when Time Base + Time Accrued - Time Used is less than 0. |
 
- | Exception Type | Excessive Pay Period Hours | 
- | Summary | The Excessive Pay Period Hours Exception is useful for identifying employees who work over a certain number of hours, as defined by the Excessive Pay Period Hours Threshold, in a single Pay Period. The Excessive Pay Period Hours Threshold should be set such that when employees work over the number of hours defined by the threshold the Excessive Pay Period Hours exception will trigger.     For Example, if you wish to know if an employee works more than 50 Hours in a single pay period the Excessive Pay Period Hours Exception should be set to 50 Hours. The Exception will then alert supervisors to review the respective employee's timecard or schedule to reduce overtime hours in the future and / or redistribute hours to other employees. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | N/A | 
- | Exception Trigger | Triggers if Total Hours for a Single Pay Period Exceed the number of hours set on the Excessive Pay Period Hours Threshold. | 
+| Exception Type | Excessive Pay Period Hours |
+| Summary | The Excessive Pay Period Hours Exception is useful for identifying employees who work over a certain number of hours, as defined by the Excessive Pay Period Hours Threshold, in a single Pay Period. The Excessive Pay Period Hours Threshold should be set such that when employees work over the number of hours defined by the threshold the Excessive Pay Period Hours exception will trigger.   For Example, if you wish to know if an employee works more than 50 Hours in a single pay period the Excessive Pay Period Hours Exception should be set to 50 Hours. The Exception will then alert supervisors to review the respective employee's timecard or schedule to reduce overtime hours in the future and / or redistribute hours to other employees. |
+| Exception Type Specific Fields | \* Threshold |
+| Additional Required Configuration | N/A |
+| Exception Trigger | Triggers if Total Hours for a Single Pay Period Exceed the number of hours set on the Excessive Pay Period Hours Threshold. |
 
- | Exception Type | Excessive Weekly Hours | 
- | Summary | The Excessive Weekly Hours Exception is useful for identifying employees who work over a certain number of hours, as defined by the Excessive Weekly Hours Threshold, in a single Work Week. The Excessive Weekly Hours Threshold should be set such that when employees work over the number of hours defined by the threshold the Excessive Weekly Hours exception will trigger.     For Example, if you wish to know if an employee works more than 50 Hours in a single work week the Excessive Weekly Hours Exception Threshold should be set to 50 Hours. The Exception will then alert supervisors to review the respective employee's timecard or schedule to reduce overtime hours in the future and / or redistribute hours to other employees. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | N/A | 
- | Exception Trigger | Triggers if Total Hours for a Single Work Week Exceed the number of hours set on the Excessive Pay Period Hours Threshold. | 
+| Exception Type | Excessive Weekly Hours |
+| Summary | The Excessive Weekly Hours Exception is useful for identifying employees who work over a certain number of hours, as defined by the Excessive Weekly Hours Threshold, in a single Work Week. The Excessive Weekly Hours Threshold should be set such that when employees work over the number of hours defined by the threshold the Excessive Weekly Hours exception will trigger.   For Example, if you wish to know if an employee works more than 50 Hours in a single work week the Excessive Weekly Hours Exception Threshold should be set to 50 Hours. The Exception will then alert supervisors to review the respective employee's timecard or schedule to reduce overtime hours in the future and / or redistribute hours to other employees. |
+| Exception Type Specific Fields | \* Threshold |
+| Additional Required Configuration | N/A |
+| Exception Trigger | Triggers if Total Hours for a Single Work Week Exceed the number of hours set on the Excessive Pay Period Hours Threshold. |
 
- | Exception Type | Invalid Department | 
- | Summary | InfiniTime includes a Valid Department list within the employee table. If valid departments are assigned to employees the Invalid Department exception can be used to track punches assigned to departments that are not considered valid for the employee. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Valid Departments must be configured for all employees   on the Valid Departments Section of the Employee Update Form | 
- | Exception Trigger | * Triggers when employee's Punch Into a Department not included   in the Valid Departments List on the Employee's Profile. | 
+| Exception Type | Invalid Department |
+| Summary | InfiniTime includes a Valid Department list within the employee table. If valid departments are assigned to employees the Invalid Department exception can be used to track punches assigned to departments that are not considered valid for the employee. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Valid Departments must be configured for all employees on the Valid Departments Section of the Employee Update Form |
+| Exception Trigger | _ Triggers when employee's Punch Into a Department not included in the Valid Departments List on the Employee's Profile. |
 
- | Exception Type | Late Departure | 
- | Summary | Late Departure is an employee performance related exception used to compare employee Clock Out punches to their scheduled departure time. The Late Departure Exception Triggers if an employee punches out after their scheduled departure time. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Early Exception to Occur for the respective   date. * Scheduled Grace Periods, as set on the Scheduled Time Tab   of the Rounding Rules Section on the Policy Update Form, should   be configured for organizations using Employee Performance   Related Exceptions such as the Early Exception. Refer   to the [Scheduled   Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional   details. | 
- | Exception Trigger | The Late Departure Exception Triggers if an employee's last punch on a given date is after to the employee's Scheduled End Time + Late Grace Period. For example, if an employee is scheduled to work from 8:00 AM to 5:00 PM with a 5 Minute Late Grace Period the Late Departure Exception will trigger if the employee punches out after 5:05 PM. | 
+| Exception Type | Late Departure |
+| Summary | Late Departure is an employee performance related exception used to compare employee Clock Out punches to their scheduled departure time. The Late Departure Exception Triggers if an employee punches out after their scheduled departure time. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Early Exception to Occur for the respective date. _ Scheduled Grace Periods, as set on the Scheduled Time Tab of the Rounding Rules Section on the Policy Update Form, should be configured for organizations using Employee Performance Related Exceptions such as the Early Exception. Refer to the [Scheduled Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional details. |
+| Exception Trigger | The Late Departure Exception Triggers if an employee's last punch on a given date is after to the employee's Scheduled End Time + Late Grace Period. For example, if an employee is scheduled to work from 8:00 AM to 5:00 PM with a 5 Minute Late Grace Period the Late Departure Exception will trigger if the employee punches out after 5:05 PM. |
 
- | Exception Type | Late Meal Break | 
- | Summary | Late Meal Break is an employee performance related exception used to determine if Meal Breaks are taken late. The Late Meal Break Exception triggers after a certain number of hours, defined by the Late Meal Break Threshold, where the employee has not yet taken a Break. Or, if an employee has taken a break, if the duration from the employee's first punch in to the employees first break punch exceeds the Late Meal Break Threshold.    For Example, if the Late Meal Break Exception Threshold is set to 6 Hours the employee must take a break within the first six hours of their shift or the Late Meal Break exception will trigger. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | * Change to Break Must be Configured for either Paid Breaks,   Unpaid Breaks, or Both within Employee Policies in order for   employee punches to automatically be changed to breaks. * If Change to Break is not configured the Late Meal Break   Exception will trigger for every working day with total working   hours in excess of the Late Meal Break Threshold. | 
- | Exception Trigger | * Triggers if Total Hours Between Clock In and First Clock   Out Exceeds the Late Meal Break Threshold   OR     * If Total Hours Between Clock In and Current TIme Exceeds   the Late Meal Break Threshold and the employee has not yet   punched out. | 
+| Exception Type | Late Meal Break |
+| Summary | Late Meal Break is an employee performance related exception used to determine if Meal Breaks are taken late. The Late Meal Break Exception triggers after a certain number of hours, defined by the Late Meal Break Threshold, where the employee has not yet taken a Break. Or, if an employee has taken a break, if the duration from the employee's first punch in to the employees first break punch exceeds the Late Meal Break Threshold. For Example, if the Late Meal Break Exception Threshold is set to 6 Hours the employee must take a break within the first six hours of their shift or the Late Meal Break exception will trigger. |
+| Exception Type Specific Fields | _ Threshold |
+| Additional Required Configuration | _ Change to Break Must be Configured for either Paid Breaks, Unpaid Breaks, or Both within Employee Policies in order for employee punches to automatically be changed to breaks. _ If Change to Break is not configured the Late Meal Break Exception will trigger for every working day with total working hours in excess of the Late Meal Break Threshold. |
+| Exception Trigger | _ Triggers if Total Hours Between Clock In and First Clock Out Exceeds the Late Meal Break Threshold OR \* If Total Hours Between Clock In and Current TIme Exceeds the Late Meal Break Threshold and the employee has not yet punched out. |
 
- | Exception Type | Long Break | 
- | Summary | The Long Break Exception is an employee performance related exception which compares employee Breaks Lengths to their Scheduled Break Length. The Long Break Exception triggers if an employees actual break length is longer than the length of their scheduled break. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Schedules must be configured and must included a Schedule   Unpaid or Paid Break for employees on a given date in order   for the Early Exception to Occur for the respective date. | 
- | Exception Trigger | * Triggers if an employee takes a Paid Break that is longer   in duration than their Scheduled Paid Break. * Triggers if an employee takes an Unpaid Break that   is longer in duration than their Scheduled Unpaid. | 
+| Exception Type | Long Break |
+| Summary | The Long Break Exception is an employee performance related exception which compares employee Breaks Lengths to their Scheduled Break Length. The Long Break Exception triggers if an employees actual break length is longer than the length of their scheduled break. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Schedules must be configured and must included a Schedule Unpaid or Paid Break for employees on a given date in order for the Early Exception to Occur for the respective date. |
+| Exception Trigger | _ Triggers if an employee takes a Paid Break that is longer in duration than their Scheduled Paid Break. \* Triggers if an employee takes an Unpaid Break that is longer in duration than their Scheduled Unpaid. |
 
- | Exception Type | Mandatory Rest Period | 
- | Summary | The Mandatory Rest Period Exception is intended for Employee Fatigue Tracking purposes. InfiniTime tracks the number of hours works by employees over a given number of consecutive days and triggers the Mandatory Rest Period if employees work over *Total Hours* within a given number of *Consecutive Days* without a certain number of consecutive *Off Duty Hours*. | 
- | Exception Type   Specific Fields | * Other Activity Types Counted Toward Consecutive Days * Count Regular Hours Toward Consecutive Days * Count OT1 Hours Toward Consecutive Days * Count OT2 Hours Toward Consecutive Days * Count OT3 Hours Toward Consecutive Days * Count OT4 Hours Toward Consecutive Days * Total Hours * Consecutive Days * Off Duty Hours | 
- | Additional Required   Configuration | N/A | 
- | Exception Trigger | * The Mandatory Rest Period Exception   Triggers as follows: * + The     Mandatory Rest Period Exception Triggers if an employee     works more than *Total     Hours* hours for valid hours types in *consecutive     days*.   + Hours     accumulated toward *Total     Hours* are reset after a consecutive number     of hours *Off     Duty* where the employee is off the clock     and is not working.   + **The Mandatory Rest Period Exception     triggers independently of the current Work Week.**   + **The Mandatory Rest Period Exception     will continue to trigger every day after an employee works     more than *Total     Hours* until     the employee meets the consecutive number of hours *Off Duty.***   + Valid Hours Types are determined     as follows:   + - If 'Count Regular Hours       toward Consecutive Days is checked, Regular Hours       will be included in the consecutive days and total       hours calculation.     - If âCount OT1 Hours toward       Consecutive Daysâ is checked, OT1 Hours will be included       in the consecutive days and total hours calculation.     - If âCount OT2 Hours toward       Consecutive Daysâ is checked, OT2 Hours will be included       in the consecutive days and total hours calculation.     - If âCount OT3 Hours toward       Consecutive Daysâ is checked, OT3 Hours will be included       in the consecutive days and total hours calculation.     - If âCount OT4 Hours toward       Consecutive Daysâ is checked, OT4 Hours will be included       in the consecutive days and total hours calculation.     - Other Activity Types specified       on the 'Other Activity Types that Count Toward Consecutive       Days' will be included in the consecutive days calculation.     - Other Hours for Activity       Types specified on the 'Other Activity Types that       Count Toward Consecutive Days' Tab will be included       in the total hours calculation if the Other Activity       Type is set to 'Allow Start Time Entry'.     - Regular, OT1, OT2, OT3,       and OT4 hours for Other Activity Types specified on       the 'Other Activity Types that Count Toward Consecutive       Days Tab' which are set to 'Count as Regular Hours'       and 'Allow Start Time Entry' will be included in the       Total Hours calculation according to the 'Count *Hours Type*       Toward Consecutive Days' Options. | 
+| Exception Type | Mandatory Rest Period |
+| Summary | The Mandatory Rest Period Exception is intended for Employee Fatigue Tracking purposes. InfiniTime tracks the number of hours works by employees over a given number of consecutive days and triggers the Mandatory Rest Period if employees work over _Total Hours_ within a given number of _Consecutive Days_ without a certain number of consecutive _Off Duty Hours_. |
+| Exception Type Specific Fields | _ Other Activity Types Counted Toward Consecutive Days _ Count Regular Hours Toward Consecutive Days _ Count OT1 Hours Toward Consecutive Days _ Count OT2 Hours Toward Consecutive Days _ Count OT3 Hours Toward Consecutive Days _ Count OT4 Hours Toward Consecutive Days _ Total Hours _ Consecutive Days _ Off Duty Hours |
+| Additional Required Configuration | N/A |
+| Exception Trigger | _ The Mandatory Rest Period Exception Triggers as follows: * + The Mandatory Rest Period Exception Triggers if an employee works more than *Total Hours* hours for valid hours types in *consecutive days*. + Hours accumulated toward *Total Hours* are reset after a consecutive number of hours *Off Duty* where the employee is off the clock and is not working. + **The Mandatory Rest Period Exception triggers independently of the current Work Week.** + \*\*The Mandatory Rest Period Exception will continue to trigger every day after an employee works more than *Total Hours* until the employee meets the consecutive number of hours *Off Duty.*\*\* + Valid Hours Types are determined as follows: + - If 'Count Regular Hours toward Consecutive Days is checked, Regular Hours will be included in the consecutive days and total hours calculation. - If âCount OT1 Hours toward Consecutive Daysâ is checked, OT1 Hours will be included in the consecutive days and total hours calculation. - If âCount OT2 Hours toward Consecutive Daysâ is checked, OT2 Hours will be included in the consecutive days and total hours calculation. - If âCount OT3 Hours toward Consecutive Daysâ is checked, OT3 Hours will be included in the consecutive days and total hours calculation. - If âCount OT4 Hours toward Consecutive Daysâ is checked, OT4 Hours will be included in the consecutive days and total hours calculation. - Other Activity Types specified on the 'Other Activity Types that Count Toward Consecutive Days' will be included in the consecutive days calculation. - Other Hours for Activity Types specified on the 'Other Activity Types that Count Toward Consecutive Days' Tab will be included in the total hours calculation if the Other Activity Type is set to 'Allow Start Time Entry'. - Regular, OT1, OT2, OT3, and OT4 hours for Other Activity Types specified on the 'Other Activity Types that Count Toward Consecutive Days Tab' which are set to 'Count as Regular Hours' and 'Allow Start Time Entry' will be included in the Total Hours calculation according to the 'Count *Hours Type\* Toward Consecutive Days' Options. |
 
- | Exception Type | Missed Punch | 
- | Summary | The Missed Punch Exception is intended to notify supervisors when employees miss a punch. The Missed Punch Exception can be triggered in two different ways, depending on if 'Enable Missed Punch Schedule Check' option on the Company Update Form is checked.    The Housekeeping Service automatically checks to determine if the Missed Punch Exception should be triggered for employees on an hourly basis. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Missed Punch Threshold on the General Tab of the Overtime   Section on the Policy Update Form must be set * Enable Missed Punch Schedule Check should be set as appropriate   for your organization. If your organization does not use Schedules   within InfiniTime   this option can be unchecked. * Schedules must be configured for employees on a given date   in order for the Missed Punch Exception to trigger based on   scheduled punches. | 
- | Exception Trigger | If 'Enabled Missed Punch Schedule Check' is checked on the Company Update Form, the Missed Punch Exception will trigger in both of the scenarios below:   * Triggers if an employee is punched in for a duration that   exceeds the Missed Punch Threshold on the employee's policy. * Triggers if an employee does not have a punch during the   Early, On Time, or Late Grace Periods for a given Scheduled   Punch.   If 'Enabled Missed Punch Schedule Check' is unchecked on the Company Update Form, the Missed Punch Exception will trigger as follows:   * Triggers if an employee is punched in for a duration that   exceeds the Missed Punch Threshold on the employee's policy. | 
+| Exception Type | Missed Punch |
+| Summary | The Missed Punch Exception is intended to notify supervisors when employees miss a punch. The Missed Punch Exception can be triggered in two different ways, depending on if 'Enable Missed Punch Schedule Check' option on the Company Update Form is checked. The Housekeeping Service automatically checks to determine if the Missed Punch Exception should be triggered for employees on an hourly basis. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Missed Punch Threshold on the General Tab of the Overtime Section on the Policy Update Form must be set _ Enable Missed Punch Schedule Check should be set as appropriate for your organization. If your organization does not use Schedules within InfiniTime this option can be unchecked. _ Schedules must be configured for employees on a given date in order for the Missed Punch Exception to trigger based on scheduled punches. |
+| Exception Trigger | If 'Enabled Missed Punch Schedule Check' is checked on the Company Update Form, the Missed Punch Exception will trigger in both of the scenarios below: _ Triggers if an employee is punched in for a duration that exceeds the Missed Punch Threshold on the employee's policy. _ Triggers if an employee does not have a punch during the Early, On Time, or Late Grace Periods for a given Scheduled Punch. If 'Enabled Missed Punch Schedule Check' is unchecked on the Company Update Form, the Missed Punch Exception will trigger as follows: _ Triggers if an employee is punched in for a duration that exceeds the Missed Punch Threshold on the employee's policy. |
 
- | Exception Type | Missing Break | 
- | Summary | The Missing Break Exception is a performance based exception which checks for a given number of work hours without a Paid or Unpaid break on a specific date. Schedules are not required for tracking the Missing Break Exception. The Missing Break Threshold should be set to the maximum number of hours an employee is permitted to work before taking a break.    For example, if the Missing Break Threshold is set to 6 hours, employees may work up to 6 hours without taking a break. After the total working duration is 6 Hours and 1 Minute, the Missing Break exception will occur. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | N/A | 
- | Exception Trigger | * Triggers if worked hours on a date exceed the Missing Break   Threshold without a Paid or Unpaid Break | 
+| Exception Type | Missing Break |
+| Summary | The Missing Break Exception is a performance based exception which checks for a given number of work hours without a Paid or Unpaid break on a specific date. Schedules are not required for tracking the Missing Break Exception. The Missing Break Threshold should be set to the maximum number of hours an employee is permitted to work before taking a break. For example, if the Missing Break Threshold is set to 6 hours, employees may work up to 6 hours without taking a break. After the total working duration is 6 Hours and 1 Minute, the Missing Break exception will occur. |
+| Exception Type Specific Fields | _ Threshold |
+| Additional Required Configuration | N/A |
+| Exception Trigger | _ Triggers if worked hours on a date exceed the Missing Break Threshold without a Paid or Unpaid Break |
 
- | Exception Type | Missing Scheduled Punch | 
- | Summary | The Missing Scheduled Punch Exception assists supervisors with managing missed punches and is commonly used with Exception Notifications to notify supervisors and / or employees when an employee fails to punch according to their schedule. The Missing Scheduled Punch Exception is an employee performance related exception which requires schedules to be configured. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Missing Scheduled Punch Exception to Occur   for the respective date. * Scheduled Grace Periods, as set on the Scheduled Time Tab   of the Rounding Rules Section on the Policy Update Form, should   be configured for organizations using Employee Performance   Related Exceptions such as the Missing Scheduled Punch Exception.   Refer to the [Scheduled   Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document   for additional details. * [Exception   Notifications](Policy_Overview.md#pol33_Exception_Type_Update_Form_-_Notifications_Tab) require specific configuration on   the InfiniTime   Server. | 
- | Exception Trigger | The Housekeeping Service checks to determine if the Missing Scheduled Punch should be triggered for employees each minute as follows:   * For employees with schedules on the current date, the Housekeeping   Service will check to see if the Missing Scheduled Punch Threshold   has elapsed for each scheduled punch. * If the Scheduled Punch Threshold has elapsed for a specific   scheduled punch, the Housekeeping Service will check to see   if employee has a Punch within the Scheduled Grace Periods   for the respective punch. * If no punch is present the Missing Scheduled Punch Exception   will trigger.     For example, let us assume the following settings:     * John Smith is scheduled to work 8:00 AM to 5:00 PM on 8/16/2013 * John Smith is an Operations Employee. * The Operations Policy is configured as follows:  + Clock In Grace Periods for Scheduled Time are set to:  - On Time = 10 Minutes - Late = 10 Minutes  + Clock Out Grace Periods for Scheduled Time are set   to:  - On Time = 10 Minutes - Late = 10 Minutes  * The Missing Scheduled Punch Threshold is set to 15 Minutes     Based on John's Schedule, InfiniTime will check for Punches to determine if the Missing Scheduled Punch Exception should be triggered at 8:15 AM and 5:15 PM due to the 15 Minute Threshold set on the Missing Scheduled Punch Exception.    At 8:15 AM, InfiniTime will check for a punch during the Clock In Grace Periods for the 8:00 AM Scheduled Punch. Specifically, if John does not have a punch between 7:50 AM and 8:10 AM, the Missing Scheduled Punch will trigger.    At 5:15 PM, InfiniTime will check for a punch during the Clock Out Grace Periods for the 5:00 PM Scheduled Punch. Specifically, if John does not have a punch between 4:50 PM and 5:10 PM, the Missing Scheduled Punch will trigger. | 
+| Exception Type | Missing Scheduled Punch |
+| Summary | The Missing Scheduled Punch Exception assists supervisors with managing missed punches and is commonly used with Exception Notifications to notify supervisors and / or employees when an employee fails to punch according to their schedule. The Missing Scheduled Punch Exception is an employee performance related exception which requires schedules to be configured. |
+| Exception Type Specific Fields | _ Threshold |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Missing Scheduled Punch Exception to Occur for the respective date. _ Scheduled Grace Periods, as set on the Scheduled Time Tab of the Rounding Rules Section on the Policy Update Form, should be configured for organizations using Employee Performance Related Exceptions such as the Missing Scheduled Punch Exception. Refer to the [Scheduled Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional details. _ [Exception Notifications](Policy_Overview.md#pol33_Exception_Type_Update_Form_-_Notifications_Tab) require specific configuration on the InfiniTime Server. |
+| Exception Trigger | The Housekeeping Service checks to determine if the Missing Scheduled Punch should be triggered for employees each minute as follows: _ For employees with schedules on the current date, the Housekeeping Service will check to see if the Missing Scheduled Punch Threshold has elapsed for each scheduled punch. _ If the Scheduled Punch Threshold has elapsed for a specific scheduled punch, the Housekeeping Service will check to see if employee has a Punch within the Scheduled Grace Periods for the respective punch. _ If no punch is present the Missing Scheduled Punch Exception will trigger. For example, let us assume the following settings: _ John Smith is scheduled to work 8:00 AM to 5:00 PM on 8/16/2013 _ John Smith is an Operations Employee. _ The Operations Policy is configured as follows: + Clock In Grace Periods for Scheduled Time are set to: - On Time = 10 Minutes - Late = 10 Minutes + Clock Out Grace Periods for Scheduled Time are set to: - On Time = 10 Minutes - Late = 10 Minutes \* The Missing Scheduled Punch Threshold is set to 15 Minutes Based on John's Schedule, InfiniTime will check for Punches to determine if the Missing Scheduled Punch Exception should be triggered at 8:15 AM and 5:15 PM due to the 15 Minute Threshold set on the Missing Scheduled Punch Exception. At 8:15 AM, InfiniTime will check for a punch during the Clock In Grace Periods for the 8:00 AM Scheduled Punch. Specifically, if John does not have a punch between 7:50 AM and 8:10 AM, the Missing Scheduled Punch will trigger. At 5:15 PM, InfiniTime will check for a punch during the Clock Out Grace Periods for the 5:00 PM Scheduled Punch. Specifically, if John does not have a punch between 4:50 PM and 5:10 PM, the Missing Scheduled Punch will trigger. |
 
- | Exception Type | Non Arrival | 
- | Summary | The Non Arrival Exception is intended for use with managing the arrival of multiple personnel for a given facility or location and is commonly used with Exception Notifications to inform management if no employees have arrived at a given facility. The Non Arrival Threshold controls exactly when InfiniTime will trigger the Non Arrival Exception if no employees have arrived on site.     In order to track employees arriving at multiple sites, the Non Arrival Exception may be inserted multiple times with different values for the Non Arrival Threshold, Department, Job, and Task. | 
- | Exception Type   Specific Fields | * Threshold * Department * Job * Task | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Non Arrival Exception to Occur for the respective   date. * [Exception   Notifications](Policy_Overview.md#pol33_Exception_Type_Update_Form_-_Notifications_Tab) require specific configuration on   the InfiniTime   Server. | 
- | Exception Trigger | InfiniTime checks to determine if the Non Arrival Exception should be triggered every minute as follows:   * First, InfiniTime   determines the earliest scheduled Clock In Time for employees   for the current date * InfiniTime   then checks to determine if the Non Arrival Threshold has   expired. If the threshold is a negative value, the threshold   will expire prior to the earliest scheduled time. If the threshold   is a positive value, the threshold will expire after the earliest   scheduled time. * If the threshold has expired, InfiniTime   checks for the presence one or more punches in the respective   Department, Job, Task combination set on the Non Arrival Exception.   If no punches exist on the respective date for the Department,   Job, Task combination then the Non Arrival Exception is triggered.     For example, if the first employee is scheduled to arrive at Department 'Barista' for Job 'South Ave Coffee Shop' at 4:00 AM and the Non Arrival Threshold is set to 10 minutes, the Non Arrival Threshold will expire at 4:10. At 4:10, InfiniTime will check for the presence of one or more punches in Department 'Barista' for Job 'South Ave Coffee Shop' for all employees in the database. If no punches are present for 'Barista' / 'South Ave Coffee Shop' on the respective date then the Non Arrival Exception will trigger. It should be noted that Schedule Grace Periods are not used with the Non-Arrival Exception. InfiniTime checks for the presence of a punch in the department / job / task combination at any time on the respective date. A punch at 2:00 AM, 3:00 AM, and 4:05 AM would indicate that at least one employee was on site and would prevent the exception from triggering. | 
+| Exception Type | Non Arrival |
+| Summary | The Non Arrival Exception is intended for use with managing the arrival of multiple personnel for a given facility or location and is commonly used with Exception Notifications to inform management if no employees have arrived at a given facility. The Non Arrival Threshold controls exactly when InfiniTime will trigger the Non Arrival Exception if no employees have arrived on site.   In order to track employees arriving at multiple sites, the Non Arrival Exception may be inserted multiple times with different values for the Non Arrival Threshold, Department, Job, and Task. |
+| Exception Type Specific Fields | _ Threshold _ Department _ Job _ Task |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Non Arrival Exception to Occur for the respective date. _ [Exception Notifications](Policy_Overview.md#pol33_Exception_Type_Update_Form_-_Notifications_Tab) require specific configuration on the InfiniTime Server. |
+| Exception Trigger | InfiniTime checks to determine if the Non Arrival Exception should be triggered every minute as follows: _ First, InfiniTime determines the earliest scheduled Clock In Time for employees for the current date _ InfiniTime then checks to determine if the Non Arrival Threshold has expired. If the threshold is a negative value, the threshold will expire prior to the earliest scheduled time. If the threshold is a positive value, the threshold will expire after the earliest scheduled time. \* If the threshold has expired, InfiniTime checks for the presence one or more punches in the respective Department, Job, Task combination set on the Non Arrival Exception. If no punches exist on the respective date for the Department, Job, Task combination then the Non Arrival Exception is triggered. For example, if the first employee is scheduled to arrive at Department 'Barista' for Job 'South Ave Coffee Shop' at 4:00 AM and the Non Arrival Threshold is set to 10 minutes, the Non Arrival Threshold will expire at 4:10. At 4:10, InfiniTime will check for the presence of one or more punches in Department 'Barista' for Job 'South Ave Coffee Shop' for all employees in the database. If no punches are present for 'Barista' / 'South Ave Coffee Shop' on the respective date then the Non Arrival Exception will trigger. It should be noted that Schedule Grace Periods are not used with the Non-Arrival Exception. InfiniTime checks for the presence of a punch in the department / job / task combination at any time on the respective date. A punch at 2:00 AM, 3:00 AM, and 4:05 AM would indicate that at least one employee was on site and would prevent the exception from triggering. |
 
- | Exception Type | Outside Schedule | 
- | Summary | The Outside Schedule Exception occurs when an employee's punches do not align with their schedule for the respective date based upon Clock In or Clock Out Schedule Grace Periods. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Missing Scheduled Punch Exception to Occur   for the respective date. * Scheduled Grace Periods, as set on the Scheduled Time Tab   of the Rounding Rules Section on the Policy Update Form, should   be configured for organizations using Employee Performance   Related Exceptions such as the Missing Scheduled Punch Exception.   Refer to the [Scheduled   Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional   details. | 
- | Exception Trigger | The Outside Schedule Exception is triggered for each individual punch if the punch does not fall within Schedule Grace Periods. For example, if an employee is scheduled to work at 8:00 AM to 5:00 PM with a Clock In On Time Grace of 10 Minutes and a Clock In Late Grace of 10 Minutes the employee's Clock In Punch is expected between 7:50 AM and 8:10 AM. If the employee punches in outside of this time, then the Outside Schedule Exception will trigger. | 
+| Exception Type | Outside Schedule |
+| Summary | The Outside Schedule Exception occurs when an employee's punches do not align with their schedule for the respective date based upon Clock In or Clock Out Schedule Grace Periods. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Missing Scheduled Punch Exception to Occur for the respective date. _ Scheduled Grace Periods, as set on the Scheduled Time Tab of the Rounding Rules Section on the Policy Update Form, should be configured for organizations using Employee Performance Related Exceptions such as the Missing Scheduled Punch Exception. Refer to the [Scheduled Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional details. |
+| Exception Trigger | The Outside Schedule Exception is triggered for each individual punch if the punch does not fall within Schedule Grace Periods. For example, if an employee is scheduled to work at 8:00 AM to 5:00 PM with a Clock In On Time Grace of 10 Minutes and a Clock In Late Grace of 10 Minutes the employee's Clock In Punch is expected between 7:50 AM and 8:10 AM. If the employee punches in outside of this time, then the Outside Schedule Exception will trigger. |
 
- | Exception Type | Overtime | 
- | Summary | The Overtime Exception occurs on any date with hours in the Overtime 1, Overtime 2, Overtime 3, or Overtime 4 fields. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | N/A | 
- | Exception Trigger | The Overtime Exception occurs for any Punch Pair with hours in the Overtime 1, Overtime 2, Overtime 3, or Overtime 4 fields. | 
+| Exception Type | Overtime |
+| Summary | The Overtime Exception occurs on any date with hours in the Overtime 1, Overtime 2, Overtime 3, or Overtime 4 fields. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | N/A |
+| Exception Trigger | The Overtime Exception occurs for any Punch Pair with hours in the Overtime 1, Overtime 2, Overtime 3, or Overtime 4 fields. |
 
- | Exception Type | Short Break | 
- | Summary | The Short Break Exception is an employee performance related exception which compares the duration of actual breaks taken by employees to the duration of scheduled breaks. The Short Break Exception triggers independently for Scheduled Unpaid and Paid Breaks. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Missing Scheduled Punch Exception to Occur   for the respective date. * Change to Break must be configured within  InfiniTime Policies to correctly   change durations during which employees are off the clock   to Breaks on the Timecard. | 
- | Exception Trigger | * Triggers if an employee takes a Paid Break that is shorter   in duration than their Scheduled Paid Break. * Triggers if an employee takes an Unpaid Break that   is shorter in duration than their Scheduled Unpaid Break. | 
+| Exception Type | Short Break |
+| Summary | The Short Break Exception is an employee performance related exception which compares the duration of actual breaks taken by employees to the duration of scheduled breaks. The Short Break Exception triggers independently for Scheduled Unpaid and Paid Breaks. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Missing Scheduled Punch Exception to Occur for the respective date. _ Change to Break must be configured within  InfiniTime Policies to correctly change durations during which employees are off the clock to Breaks on the Timecard. |
+| Exception Trigger | _ Triggers if an employee takes a Paid Break that is shorter in duration than their Scheduled Paid Break. _ Triggers if an employee takes an Unpaid Break that is shorter in duration than their Scheduled Unpaid Break. |
 
- | Exception Type | Short Paid Break | 
- | Summary | The Short Paid Break Exception is an employee performance related exception which compares the duration of actual breaks taken by employees to the duration of scheduled breaks. The Short Paid Break Exception triggers only for Scheduled Paid Breaks. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Missing Scheduled Punch Exception to Occur   for the respective date. * Change to Break must be configured within  InfiniTime Policies to correctly   change durations during which employees are off the clock   to Breaks on the Timecard. | 
- | Exception Trigger | * Triggers if an employee takes a Paid Break that is shorter   in duration than their Scheduled Paid Break. | 
+| Exception Type | Short Paid Break |
+| Summary | The Short Paid Break Exception is an employee performance related exception which compares the duration of actual breaks taken by employees to the duration of scheduled breaks. The Short Paid Break Exception triggers only for Scheduled Paid Breaks. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Missing Scheduled Punch Exception to Occur for the respective date. _ Change to Break must be configured within  InfiniTime Policies to correctly change durations during which employees are off the clock to Breaks on the Timecard. |
+| Exception Trigger | \* Triggers if an employee takes a Paid Break that is shorter in duration than their Scheduled Paid Break. |
 
- | Exception Type | Short Unpaid Break | 
- | Summary | The Short Unpaid Break Exception is an employee performance related exception which compares the duration of actual breaks taken by employees to the duration of scheduled breaks. The Short Unpaid Break Exception triggers only for Scheduled Unpaid Breaks. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Missing Scheduled Punch Exception to Occur   for the respective date. * Change to Break must be configured within InfiniTime Policies to correctly   change durations during which employees are off the clock   to Breaks on the Timecard. | 
- | Exception Trigger | * Triggers if an employee takes a Unpaid Break that is shorter   in duration than their Scheduled Unpaid Break. | 
+| Exception Type | Short Unpaid Break |
+| Summary | The Short Unpaid Break Exception is an employee performance related exception which compares the duration of actual breaks taken by employees to the duration of scheduled breaks. The Short Unpaid Break Exception triggers only for Scheduled Unpaid Breaks. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Missing Scheduled Punch Exception to Occur for the respective date. _ Change to Break must be configured within InfiniTime Policies to correctly change durations during which employees are off the clock to Breaks on the Timecard. |
+| Exception Trigger | \* Triggers if an employee takes a Unpaid Break that is shorter in duration than their Scheduled Unpaid Break. |
 
- | Exception Type | Tardy | 
- | Summary | Tardy is an employee performance related exception used to compare employee Clock In punches to their scheduled arrival time. The Tardy Exception Triggers if an employee punches in after their scheduled arrival time. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | * Schedules must be configured for employees on a given date   in order for the Early Exception to Occur for the respective   date. * Scheduled Grace Periods, as set on the Scheduled Time Tab   of the Rounding Rules Section on the Policy Update Form, should   be configured for organizations using Employee Performance   Related Exceptions such as the Early Exception. Refer   to the [Scheduled   Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional   details. | 
- | Exception Trigger | The Tardy Exception Triggers if an employee's first punch on a given date is after to the employee's Scheduled Start Time + Late Grace Period. For example, if an employee is scheduled to work from 8:00 AM to 5:00 PM with a 5 Minute Late Grace Period the Tardy Exception will trigger if the employee punches in after 8:05 AM. | 
+| Exception Type | Tardy |
+| Summary | Tardy is an employee performance related exception used to compare employee Clock In punches to their scheduled arrival time. The Tardy Exception Triggers if an employee punches in after their scheduled arrival time. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | _ Schedules must be configured for employees on a given date in order for the Early Exception to Occur for the respective date. _ Scheduled Grace Periods, as set on the Scheduled Time Tab of the Rounding Rules Section on the Policy Update Form, should be configured for organizations using Employee Performance Related Exceptions such as the Early Exception. Refer to the [Scheduled Grace Periods section](Policy_Overview.md#pol109_Scheduled_Time) of this document for additional details. |
+| Exception Trigger | The Tardy Exception Triggers if an employee's first punch on a given date is after to the employee's Scheduled Start Time + Late Grace Period. For example, if an employee is scheduled to work from 8:00 AM to 5:00 PM with a 5 Minute Late Grace Period the Tardy Exception will trigger if the employee punches in after 8:05 AM. |
 
- | Exception Type | Unapproved Overtime | 
- | Summary | The Unapproved Overtime Exception occurs on any date with unapproved hours in the Overtime 1, Overtime 2, Overtime 3, or Overtime 4 fields. | 
- | Exception Type   Specific Fields | N/A | 
- | Additional Required   Configuration | In order for the Unapproved Overtime Exception to trigger, one or more of the following settings on the Overtime Rules Section of an employee's policy must be enabled:   * Overtime One Must Be Approved * Overtime Two Must Be Approved * Overtime Three Must Be Approved * Overtime Four Must Be Approved | 
- | Exception Trigger | The Unapproved Overtime Exception occurs on any date with unapproved hours in the Overtime 1, Overtime 2, Overtime 3, or Overtime 4 fields. | 
+| Exception Type | Unapproved Overtime |
+| Summary | The Unapproved Overtime Exception occurs on any date with unapproved hours in the Overtime 1, Overtime 2, Overtime 3, or Overtime 4 fields. |
+| Exception Type Specific Fields | N/A |
+| Additional Required Configuration | In order for the Unapproved Overtime Exception to trigger, one or more of the following settings on the Overtime Rules Section of an employee's policy must be enabled: _ Overtime One Must Be Approved _ Overtime Two Must Be Approved _ Overtime Three Must Be Approved _ Overtime Four Must Be Approved |
+| Exception Trigger | The Unapproved Overtime Exception occurs on any date with unapproved hours in the Overtime 1, Overtime 2, Overtime 3, or Overtime 4 fields. |
 
- | Exception Type | Under Daily Hours | 
- | Summary | The Under Daily Hours Exception occurs if an employee's total worked hours on a given date is less than the Under Daily Hours Threshold. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | N/A | 
- | Exception Trigger | The Under Daily Hours Exception compares the total number of hours worked on a given date to the Under Daily Hours Threshold. If an employee's total worked hours are less than the Under Daily Hours threshold the Under Daily Hours Exception will trigger. | 
+| Exception Type | Under Daily Hours |
+| Summary | The Under Daily Hours Exception occurs if an employee's total worked hours on a given date is less than the Under Daily Hours Threshold. |
+| Exception Type Specific Fields | \* Threshold |
+| Additional Required Configuration | N/A |
+| Exception Trigger | The Under Daily Hours Exception compares the total number of hours worked on a given date to the Under Daily Hours Threshold. If an employee's total worked hours are less than the Under Daily Hours threshold the Under Daily Hours Exception will trigger. |
 
- | Exception Type | Under Pay Period Hours | 
- | Summary | The Under Pay Period Hours Exception occurs if an employee's total worked hours for a pay period are less than the Under Pay Period Hours Threshold. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | N/A | 
- | Exception Trigger | The Under Pay Period Hours Exception compares the total number of hours worked during a given pay period to the Under Pay Period Hours Threshold. If an employee's total worked hours are less than the Under Pay Period Hours threshold the Under Pay Period Hours Exception will trigger. | 
+| Exception Type | Under Pay Period Hours |
+| Summary | The Under Pay Period Hours Exception occurs if an employee's total worked hours for a pay period are less than the Under Pay Period Hours Threshold. |
+| Exception Type Specific Fields | \* Threshold |
+| Additional Required Configuration | N/A |
+| Exception Trigger | The Under Pay Period Hours Exception compares the total number of hours worked during a given pay period to the Under Pay Period Hours Threshold. If an employee's total worked hours are less than the Under Pay Period Hours threshold the Under Pay Period Hours Exception will trigger. |
 
- | Exception Type | Under Weekly Hours | 
- | Summary | The Under Weekly Hours Exception occurs if an employee's total worked hours for a work week are less than the Under Weekly Hours Threshold. | 
- | Exception Type   Specific Fields | * Threshold | 
- | Additional Required   Configuration | N/A | 
- | Exception Trigger | The Under Weekly Hours Exception compares the total number of hours worked during a given work week to the Under Work Week Hours Threshold. If an employee's total worked hours are less than the Under Weekly Hours threshold the Under Weekly Hours Exception will trigger. | 
+| Exception Type | Under Weekly Hours |
+| Summary | The Under Weekly Hours Exception occurs if an employee's total worked hours for a work week are less than the Under Weekly Hours Threshold. |
+| Exception Type Specific Fields | \* Threshold |
+| Additional Required Configuration | N/A |
+| Exception Trigger | The Under Weekly Hours Exception compares the total number of hours worked during a given work week to the Under Work Week Hours Threshold. If an employee's total worked hours are less than the Under Weekly Hours threshold the Under Weekly Hours Exception will trigger. |
 
 ### Hours and Time Limits
 
@@ -1800,116 +1797,118 @@ allotted if an employee works over the amount specified in this field.
 
 ### Hours and Time Limits Configuration Procedure
 
-##### *For Hourly Employees*
+##### _For Hourly Employees_
 
-*Correct
-me if Iâm wrong, these employees are only paid for exactly what they work?*
+_Correct
+me if Iâm wrong, these employees are only paid for exactly what they work?_
 
-*Yes?
+_Yes?
 â Hours and Time Limits are not required for this Policy. Employees must
-punch in and out.*
+punch in and out._
 
-*No?
+_No?
 â Are employees on the policy awarded a minimum number of hours per day
-or week?*
+or week?_
 
-*Yes? - Configure Settings on the
+_Yes? - Configure Settings on the
 Minimum Hours tab as appropriate. Refer to the [Minimum
-Hours Tab](Policy_Overview.md#pol78_Minimum_Hours_Tab) section if needed.*
+Hours Tab](Policy_Overview.md#pol78_Minimum_Hours_Tab) section if needed._
 
-*No? - Leave the Settings on the Minimum Hours
-Tab blank.*
+_No? - Leave the Settings on the Minimum Hours
+Tab blank._
 
-*Are
+_Are
 employees on the policy subject to a maximum number of hours per day or
-week?*
+week?_
 
-*Yes? - Configure Settings on the
+_Yes? - Configure Settings on the
 Maximum Hours tab as appropriate. Refer to the [Maximum
-Hours Tab](Policy_Overview.md#pol79_Maximum_Hours_Tab) section if needed.*
+Hours Tab](Policy_Overview.md#pol79_Maximum_Hours_Tab) section if needed._
 
-*No? - Leave the Settings on the Maximum Hours
-Tab blank.*
+_No? - Leave the Settings on the Maximum Hours
+Tab blank._
 
-*Are
+_Are
 employees on the policy awarded bonus hours for working on specific days
-of the week?*
+of the week?_
 
-*Yes? - Configure Settings on the
+_Yes? - Configure Settings on the
 Bonus Hours tab as appropriate. Refer to the [Bonus
-Hours Tab](Policy_Overview.md#pol80_Bonus_Hours_Tab) section if needed.*
+Hours Tab](Policy_Overview.md#pol80_Bonus_Hours_Tab) section if needed._
 
-*No? - Leave the Settings on the Bonus Hours Tab
-blank.*
+_No? - Leave the Settings on the Bonus Hours Tab
+blank._
 
-##### *For Salary Employees*
+##### _For Salary Employees_
 
-*Will
-salary employees on this policy be required to punch in and out?*
+_Will
+salary employees on this policy be required to punch in and out?_
 
-*Yes?
+_Yes?
 â Hours and Time Limits are not required for this Policy. Employees must
-punch in and out.*
+punch in and out._
 
-*No? â Are salary employees required to punch
+_No? â Are salary employees required to punch
 at least once to receive minimum hours? This requires employees to be
-on site* *to receive their
-daily hours.*
+on site_ _to receive their
+daily hours._
 
-*Yes?
+_Yes?
 â Configure Settings on the Minimum Hours Tab and ensure Single Punch
 Required to Get Guaranteed Daily Hours = Yes. Schedules must be configured
 to track the Absent Exception. The Absent exception must also be defined
 on the respective policy or in the Company Wide Exceptions. Employees
-must punch in at the start of their shift. They do not need to punch out.*
+must punch in at the start of their shift. They do not need to punch out._
 
-*No?
+_No?
 â Please confirm: Do you want InfiniTime
 to automatically insert punches for Salary Employees assigned to this
 policy according to their schedule and Minimum Hours Tab settings? Employees
 will not be required to punch in or out. Since punches will be automatically
 inserted for dates which the employee has a schedule, it will not be possible
 to track the absent exception or whether the employee arrived on site.
-Punches will simply be automatically inserted.*
+Punches will simply be automatically inserted._
 
-*Yes?
+\*Yes?
+
 - Configure Settings on the Minimum Hours Tab and ensure Single Punch
-Required to Get Guaranteed Daily Hours = Yes. 'Auto Clock In' on the General
-Tab of the Schedule Settings / Rules section must be checked for this
-policy.*
+  Required to Get Guaranteed Daily Hours = Yes. 'Auto Clock In' on the General
+  Tab of the Schedule Settings / Rules section must be checked for this
+  policy.\*
 
-*No?
-- Based on your decisions thus far, Salary Employees will:*
+\*No?
 
-*1.
-Not punch in or out*
+- Based on your decisions thus far, Salary Employees will:\*
 
-*2.
-Not be automatically awarded hours on a daily or weekly basis*
+_1.
+Not punch in or out_
 
-*3.
+_2.
+Not be automatically awarded hours on a daily or weekly basis_
+
+_3.
 In this scenario, Salary Employees do not need to be added to the InfiniTime Software for purposes of
 tracking employee timecards. Salary Employees will simply receive their
 salary paycheck as usual independent of the InfiniTime
-Time and Attendance system. You may however wish to:*
+Time and Attendance system. You may however wish to:_
 
-*1.)
-Add Salary Employees to the software*
+_1.)
+Add Salary Employees to the software_
 
-*2.)
-Place salary employees on a blank policy with the correct Pay Cycle Settings*
+_2.)
+Place salary employees on a blank policy with the correct Pay Cycle Settings_
 
-*3.)
+_3.)
 Assign the employee to an Accrual Type to track accruals for Salary Employees
-within* InfiniTime
+within_ InfiniTime
 
-*WARNING:*
-*Regarding use of 'Auto Clock In' and Punching In and Out:
+_WARNING:_
+\*Regarding use of 'Auto Clock In' and Punching In and Out:
 
 Employees should not under any circumstance
 punch in or out when using the Auto Punch In option as detailed above.
 The customer may also wish to show the employees have taken a break. This
-can be accomplished by setting up an auto break on the salary policy.*
+can be accomplished by setting up an auto break on the salary policy.\*
 
 ### Overtime Rules
 
@@ -1965,12 +1964,12 @@ or Yesterday â an employeeâs activity will be associated with. These a
 generally only required when configuring a policy for overnight employees.
 The best way to explain how to configure these settings is through example:
 
- | | | | 
+| | | |
 ||
- | **Clock In Missed Punch Day Change Time** | **Clock Out Missed Punch Day Change Time** | **Details** | 
- | Blank | Blank | Time is associated with the day an employee punches in on. | 
- | 10:30 PM | Blank | A night auditor shift starts at 11 PM. All Activity for employees clocking in after 10:30 PM will be associated with the next day. | 
- | 2:00 AM | 2:00 AM | Punches are split at 2:00 AM. The Split Punches setting must be set to End of Pay Period or End of Week for General Policy Settings. All time before 2:00 AM will be associated with the prior day. All activity after 2:00 AM will be associated to the current day. | 
+| **Clock In Missed Punch Day Change Time** | **Clock Out Missed Punch Day Change Time** | **Details** |
+| Blank | Blank | Time is associated with the day an employee punches in on. |
+| 10:30 PM | Blank | A night auditor shift starts at 11 PM. All Activity for employees clocking in after 10:30 PM will be associated with the next day. |
+| 2:00 AM | 2:00 AM | Punches are split at 2:00 AM. The Split Punches setting must be set to End of Pay Period or End of Week for General Policy Settings. All time before 2:00 AM will be associated with the prior day. All activity after 2:00 AM will be associated to the current day. |
 
 **Overtime
 Must be Approved Related Options â** When checked for a specific Overtime
@@ -1983,13 +1982,16 @@ Overtime One Must be Approved -
 If this option is checked, All Overtime One Hours must be approved.
 
 Overtime Two Must be Approved
--  If this option is checked, All Overtime Two Hours must be approved.
+
+- If this option is checked, All Overtime Two Hours must be approved.
 
 Overtime Three Must be Approved
--  If this option is checked, All Overtime Three Hours must be approved.
+
+- If this option is checked, All Overtime Three Hours must be approved.
 
 Overtime Four Must be Approved
--  If this option is checked, All Overtime Four Hours must be approved.
+
+- If this option is checked, All Overtime Four Hours must be approved.
 
 Note: Overtime can be approved at any time during
 the pay period prior to exporting information to payroll by right clicking
@@ -2010,11 +2012,11 @@ from Weekly OT option is checked, the employee must work 8 hours before
 receiving overtime. The calculation for the above example is shown in
 the table below.
 
- | | | | | | | | 
+| | | | | | | |
 ||
- | Option | M | T | W | TH | F | Total Hours | 
- | Deduct Daily OT from Weekly OT Unchecked | 8 Hours Regular    2 Hours OT | 8 Hours Regular    2 Hours OT | 8 Hours Regular    2 Hours OT | 8 Hours Regular    2 Hours OT | 8 Hours Regular    2 Hours OT | 40 Hours Regular    10 Hours OT | 
- | Deduct Daily OT from Weekly OT  Checked | 8 Hours Regular    2 Hours OT | 8 Hours Regular    2 Hours OT | 8 Hours Regular    2 Hours OT | 8 Hours Regular    2 Hours OT | 10 Hours OT | 32 Hours Regular    18 Hours OT | 
+| Option | M | T | W | TH | F | Total Hours |
+| Deduct Daily OT from Weekly OT Unchecked | 8 Hours Regular 2 Hours OT | 8 Hours Regular 2 Hours OT | 8 Hours Regular 2 Hours OT | 8 Hours Regular 2 Hours OT | 8 Hours Regular 2 Hours OT | 40 Hours Regular 10 Hours OT |
+| Deduct Daily OT from Weekly OT Checked | 8 Hours Regular 2 Hours OT | 8 Hours Regular 2 Hours OT | 8 Hours Regular 2 Hours OT | 8 Hours Regular 2 Hours OT | 10 Hours OT | 32 Hours Regular 18 Hours OT |
 
 Deduct
 Overtime X Hours from Weekly Overtime Options - Permits users to
@@ -2023,20 +2025,24 @@ Hours Mapped to a specific Overtime Bucket can be excluded from Weekly
 Overtime Calculations.
 
 Deduct Overtime One Hours from Weekly Overtime
+
 - Deducts
-Overtime One Hours from Weekly Overtime.
+  Overtime One Hours from Weekly Overtime.
 
 Deduct Overtime Two Hours from Weekly Overtime
+
 - Deducts
-Overtime Two Hours from Weekly Overtime.
+  Overtime Two Hours from Weekly Overtime.
 
 Deduct Overtime Three Hours from Weekly Overtime
+
 - Deducts
-Overtime Three Hours from Weekly Overtime.
+  Overtime Three Hours from Weekly Overtime.
 
 Deduct Overtime Four Hours from Weekly Overtime
+
 - Deducts
-Overtime Four Hours from Weekly Overtime.
+  Overtime Four Hours from Weekly Overtime.
 
 Use
 Flexible Work Week for Salary Calculations - This
@@ -2047,14 +2053,14 @@ and half rate for Overtime Hours. When this option is checked, the following
 must be configured for Salary Employee Overtime Wages to be automatically
 calculated:
 
-* Employees
+- Employees
   assigned to the policy should be set to the 'Salary' Pay Method on
   the Payroll Profile Tab of the Employee Update Form.
-* The Fixed
+- The Fixed
   Salary Dollar Amount, as payable to the employee for each work week,
   must be entered in the Default Wage Field on the Employee Update Form.
 
-+ Overtime One must be configured for Weekly Overtime.
+* Overtime One must be configured for Weekly Overtime.
 
 With the above configuration, InfiniTime will automatically calculate
 the Regular Hours Wage and Overtime One Wage based on the Fixed Salary
@@ -2073,8 +2079,7 @@ Total Worked Hours = 44
 Resulting Hourly Wage = $500 / 44 Hours =
 $11.36 per Hour
 
-Resulting Overtime Wage at 1/2 Time = $11.36
-\* 0.5 = $5.68 per Hour
+Resulting Overtime Wage at 1/2 Time = $11.36 \* 0.5 = $5.68 per Hour
 
 Gross Wages for Regular Hours: $500.00
 
@@ -2114,7 +2119,7 @@ hours worked.
 General Tab Configuration
 Procedure
 
-* The Excessive Hours
+- The Excessive Hours
   Amount Policy Setting is used solely by the Excessive Hours Report.
   The Excessive Hours Report will display all hours on a day by day
   basis that exceed this amount. To use the Excessive Hours Report,
@@ -2128,30 +2133,30 @@ Procedure
 
 ![](/img/Policies065.png)
 
-* *What is the longest
+- _What is the longest
   duration employees on this policy are expected to work in a single
-  day?*
+  day?_
 
-+ *Is this
-  amount longer than 12 hours?*
+* _Is this
+  amount longer than 12 hours?_
 
-- *Yes?
+- _Yes?
   â Set the Missing Punch Threshold to the lowest value possible,
   but not lower than the longest duration worked in a single
-  day.*
-- *No? â
-  Set the Missing Punch Threshold to 12 hours.*
+  day._
+- _No? â
+  Set the Missing Punch Threshold to 12 hours._
 
-* *A
-  few examples:*
+* _A
+  few examples:_
 
-+ *A
+- _A
   software company employes support technicians, sales
   employees, and administrative employees. All hourly
   employees who punch in and out work at most 11 hours
   in a day. This organization would set the missing
-  punch threshold to 12 hours.*
-+ *A
+  punch threshold to 12 hours._
+- _A
   shipping company employs package handlers who may
   work any combination of 1/2, 1, and 2 shifts in a
   single day for a total of up to 16 hours. Employees
@@ -2159,36 +2164,36 @@ Procedure
   to stay an extra hour late to fill an overnight truck.
   This organization would set the missing punch threshold
   to 18 hours since their employees work at most 17
-  to 17.5 hours in a day.*
+  to 17.5 hours in a day._
 
-* *Will there be
-  any employees on this policy that work over midnight?*
+* _Will there be
+  any employees on this policy that work over midnight?_
 
-+ *No? â The
+- _No? â The
   Clock In and Clock Out Missed Punch Day Change times can be left
-  blank.*
-+ *Yes? â Is
+  blank._
+- _Yes? â Is
   time activity for an employee associated with the day they punch
-  in or the next day?*
+  in or the next day?_
 
-- *Same
+* _Same
   Day? â Leave the Clock In and Clock Out Missed Punch Day Change
-  times blank.*
-- *Next
+  times blank._
+* _Next
   Day? â Set the Clock In day change time to one hour before
   the start time of the earliest shift that crosses midnight.
   This leaves enough room for employees to arrive early and
-  still have their time associated with the correct day.*
+  still have their time associated with the correct day._
 
-* *If the Overtime
+- _If the Overtime
   Must Be Approved Options are checked for one or more overtime types
   all occurrences of overtime for the respective Overtime Type must
   be manually approved by a supervisor or software administrator. This
   option is especially useful for closely monitoring employee overtime
   hours, however it requires increased administrative overhead during
   the timecard review process for each pay period. Would you like to
-  enable this option?*
-* *Letâs say
+  enable this option?_
+- _Letâs say
   an employee worked 10 hours Monday to Friday on a particular week
   with Overtime 1 set for Daily Overtime after 8 Hours and Weekly Overtime
   after 40 hours. In this scenario, there are two different ways overtime
@@ -2196,8 +2201,8 @@ Procedure
   or, if the Deduct Daily OT Hours from Weekly OT option is checked,
   the employee must work 8 hours before receiving overtime. Would you
   like to enable this option? If so, Deduct Daily OT Hours from Weekly
-  OT should be checked.*
-* *The Deduct
+  OT should be checked._
+- _The Deduct
   Overtime One Hours from Weekly Overtime...Deduct Overtime Four Hours
   From Weekly Overtime are intended for use with overtime buckets configured
   for hours mapping wherein the hours mapped to the overtime bucket
@@ -2209,20 +2214,20 @@ Procedure
   Hours Into OT' setting on the Schedule Settings / Rules Policy section.
   XYZ Seafood Restaurant does not count Unscheduled Regular Hours toward
   weekly overtime, thus they would check the option titled 'Deduct Overtime
-  Two Hours from Weekly Overtime'.*
+  Two Hours from Weekly Overtime'._
 
-+ *To exclude an hours type from Weekly
+* _To exclude an hours type from Weekly
   Overtime: Map the hours to an Overtime Bucket and check the appropriate
-  'Deduct OT X From Weekly Overtime' option.*
-+ Additional details on hours mapping can
+  'Deduct OT X From Weekly Overtime' option._
+* Additional details on hours mapping can
   be found in the [Hours
   Mapping Section](../Configuration/Product_Configuration.md#hm1_Hours_Mapping) of this document.
 
-* Is this policy for salary employees
+- Is this policy for salary employees
   who are paid for Overtime Hours in accordance with the Fluctuating
   Workweek Method of Calculating Overtime?
 
-+ Yes? - Check the 'Use Flexible
+* Yes? - Check the 'Use Flexible
   Work Week for Salary Calculations' option on the General Tab of
   the Overtime Rules Section.
 
@@ -2235,26 +2240,26 @@ Procedure
 - Ensure Overtime One is configured
   for Weekly Overtime.
 
-+ With
+* With
   the above configuration, InfiniTime will automatically calculate
   the Regular Hours Wage and Overtime One Wage based on the Fixed
   Salary Dollar Amount as payable for each work week and the number
   of hours worked by the employee.
 
-* Are the employees
+- Are the employees
   assigned to this policy  located in a Time Zone that observes
   Daylight Savings Time?
 
-+ Yes? -
+* Yes? -
   Add / Subtract Daylight Savings Hour When Time Changes should
   be checked. [As noted
   above](Policy_Overview.md#pol86_OT_Add___Subtract_Daylight_Savings_Hour_When_Time_Changes), you must confirm that each Time and Attendance Terminal
   is configured to observe daylight savings time.
-+ No? -
+* No? -
   Add / Subtract Daylight Savings Hour When Time Changes can be
   left unchecked.
 
-* Are employees
+- Are employees
   assigned to this policy paid daily overtime only on consecutive hours
   worked? If so, 'Calculate Daily overtime for Punch Pairs Only' should
   be checked.
@@ -2369,59 +2374,58 @@ be used as the employee's overtime wage.
 
 ### OT1 to OT4 Tabs Configuration Procedure
 
-*Do
-you calculate Overtime on a Daily basis?*
+_Do
+you calculate Overtime on a Daily basis?_
 
-*Yes? â How many hours must an employee
+_Yes? â How many hours must an employee
 work in a single day before they qualify for overtime? Set this value
 in the Daily Overtime if Over Hours field. (IE: 8) Be sure to set the
-Overtime Rate Appropriately.*
+Overtime Rate Appropriately._
 
-*No?
-â Leave the Daily Overtime if Hours Field Blank. Continue to next question.*
+_No?
+â Leave the Daily Overtime if Hours Field Blank. Continue to next question._
 
-*Do
-you calculate Overtime on a Weekly basis?*
+_Do
+you calculate Overtime on a Weekly basis?_
 
-*Yes? â How many hours must an employee
+_Yes? â How many hours must an employee
 work in a week before they qualify for overtime? Set this value in the
 Weekly Overtime if Over Hours field. (IE: 40) Be sure to set the Overtime
-Rate Appropriately.*
+Rate Appropriately._
 
-*Are employees on this policy paid on a
+_Are employees on this policy paid on a
 biweekly pay cycle? Many companies with a biweekly pay period pay overtime
 on a pay period basis. (IE: Employees must work more than 80 hours over
 two weeks rather than 40 hours in a single week to qualify for weekly
-overtime.) Does this apply to your company?*
+overtime.) Does this apply to your company?_
 
-*Yes?
-â Set the Custom Weekly Interval to 14 Days.*
+_Yes?
+â Set the Custom Weekly Interval to 14 Days._
 
-*No? â Set the Custom Weekly Start Date
-to the start date of the Current Pay Period.*
+_No? â Set the Custom Weekly Start Date
+to the start date of the Current Pay Period._
 
-*No? â Leave the Weekly Overtime if Over
-Hours field Blank. Continue to next question.*
+_No? â Leave the Weekly Overtime if Over
+Hours field Blank. Continue to next question._
 
-*Using additional overtime buckets (OT 2 â OT
-4) makes it possible to pay employees overtime at different rates under
+_Using additional overtime buckets (OT 2 â OT 4) makes it possible to pay employees overtime at different rates under
 various conditions. For example some companies pay Time and a Half after
 8 hours in a day and double time after 12 hours in a day. This would require
 use of OT1 and OT2. Most organizations who require three or four buckets
-for Overtime Hours track one of the following:*
+for Overtime Hours track one of the following:_
 
-* *Schedules Hours vs Unscheduled Hours
-  (See Schedule Settings / Rules)*
-* Consecutive Day Overtime
-* Day Of Week Overtime
+- _Schedules Hours vs Unscheduled Hours
+  (See Schedule Settings / Rules)_
+- Consecutive Day Overtime
+- Day Of Week Overtime
 
-*Do you require additional overtime buckets?*
+_Do you require additional overtime buckets?_
 
-*Yes?
-â Configure OT2 â OT4 prompting with the preceding questions as needed.*
+_Yes?
+â Configure OT2 â OT4 prompting with the preceding questions as needed._
 
-*No?
-â Ignore the OT2 â OT4 tabs and proceed to the next section.*
+_No?
+â Ignore the OT2 â OT4 tabs and proceed to the next section._
 
 ### Consecutive Day Overtime
 
@@ -2458,8 +2462,8 @@ Overtime is set to 5 for day 1 and 6 for day 2. Employees with less than
 8 hours worked on Day 6 or Day 7 will not qualify for Consecutive Day
 Overtime even if they should work six or seven days in a row.
 
-****O**vertime
-to Put Consecutive Day Regular Hours Into:** If an employee should work
+\***\*O**vertime
+to Put Consecutive Day Regular Hours Into:\*\* If an employee should work
 the number of days required for Consecutive Day OT in a row all of their
 activity will be counted toward overtime. This option makes it possible
 to map hours that would be considered regular hours in normal circumstances
@@ -2508,57 +2512,59 @@ customers who differentiate between Scheduled and Unscheduled Hours.**
 
 ### Consecutive Day OT Configuration Procedure
 
- *Ask
-the customer:*
+_Ask
+the customer:_
 
-*Do you pay overtime after employees work
+_Do you pay overtime after employees work
 a certain number of days in a row? This is often referred to consecutive
-day overtime.*
+day overtime._
 
-*Yes? â How many days must an employee work
+_Yes? â How many days must an employee work
 consecutively before all hours on the next day will be considered overtime?
 Type this number in the 'Consecutive Days Worked Before All Time is Overtimeâ
-field. Refer to the example above if needed*
+field. Refer to the example above if needed_
 
-*Are employees required to work a minimum
-number of hours in order to qualify for Consecutive Day Overtime?*
+_Are employees required to work a minimum
+number of hours in order to qualify for Consecutive Day Overtime?_
 
-*Yes? â Set the Minimum Hours to Get Auto
-OT field to this value.*
+_Yes? â Set the Minimum Hours to Get Auto
+OT field to this value._
 
-*No? â Leave the Minimum Hours to Get Auto
-OT field blank.*
+_No? â Leave the Minimum Hours to Get Auto
+OT field blank._
 
 For employees
 on this policy, does your organization pay the same pay rate for all hours
 types (IE: Regular Hours, OT1 - OT4 Hours) worked on that qualify for
 Consecutive Day Overtime?
 
-   Yes?
-- Set all 'Overtime to Put Consecutive Day *Hours
-Type* Hours Into' options to the Overtime Bucket you wish to place
-Consecutive Day Hours into.
+Yes?
 
-   No?
+- Set all 'Overtime to Put Consecutive Day _Hours
+  Type_ Hours Into' options to the Overtime Bucket you wish to place
+  Consecutive Day Hours into.
+
+No?
+
 - Each Hours Type with a different pay rate must be mapped to a different
-Overtime Bucket.
+  Overtime Bucket.
 
 For example,
 ABC Company pays hours worked on consecutive days as follows:
 
-* Regular Hours Worked on Consecutive
+- Regular Hours Worked on Consecutive
   Days at 200%
-* Overtime 1 Hours Worked on Consecutive
+- Overtime 1 Hours Worked on Consecutive
   Days at 250%.
-* Overtime 2 Hours Worked on Consecutive
+- Overtime 2 Hours Worked on Consecutive
   Days at 300%
 
 ABC Company
 has configured Overtime One and Overtime Two Hours as follows:
 
-* Overtime 1: Weekly OT > 40 Hours.
+- Overtime 1: Weekly OT > 40 Hours.
   Paid at 150%
-* Overtime 2: Daily OT > 12 Hours.
+- Overtime 2: Daily OT > 12 Hours.
   Paid at 200%.
 
 For consecutive
@@ -2570,8 +2576,8 @@ must be mapped into OT3 which must be configured for 250%
 
 ![](/img/Policies070.png)
 
-*No?
-â Continue to the next section.*
+_No?
+â Continue to the next section._
 
 ### Day Of Week OT Tab (Day 1 - Day 4)
 
@@ -2635,12 +2641,12 @@ The settings below cause all hours worked on Saturday and Sunday to map
 to Overtime 2. In this way all hours in Overtime 2 are paid as time and
 a half.
 
- | | | | 
+| | | |
 ||
- | | **Day 1 Tab** | **Day 2 Tab** | 
- | **Day of Week** | Saturday | Sunday | 
- | **OT to Put Regular Hours Into** | 2 | 2 | 
- | **OT to Put Overtime Hours Into** | 2 | 2 | 
+| | **Day 1 Tab** | **Day 2 Tab** |
+| **Day of Week** | Saturday | Sunday |
+| **OT to Put Regular Hours Into** | 2 | 2 |
+| **OT to Put Overtime Hours Into** | 2 | 2 |
 
 #### Day of Week OT Configuration Procedure
 
@@ -2652,8 +2658,9 @@ No?
 to the next section.
 
 Yes?
+
 - Follow the steps below Starting with Day 1, then proceeding to Day 2
-etc. for each additional week day:
+  etc. for each additional week day:
 
 * Employees
   on this policy are eligible for a different pay rate on what day of
@@ -2713,50 +2720,50 @@ to export 40 Regular Hours for all employees who worked at least 20 Regular
 Hours. It should be noted that no matter how many hours the employee works
 only 40 hours will appear in the payroll export.
 
- | | | 
+| | |
 ||
- | Activity Type | Regular Hours | 
- | Minimum Hours | 20 | 
- | Override Hours | 40 | 
+| Activity Type | Regular Hours |
+| Minimum Hours | 20 |
+| Override Hours | 40 |
 
-### *Payroll Overrides Configuration Procedure*
+### _Payroll Overrides Configuration Procedure_
 
-*Is this policy
-for hourly employees?*
+_Is this policy
+for hourly employees?_
 
-*Yes?
+_Yes?
 â Correct me if Iâm wrong, as hourly employees these employees are required
-to punch in and out and are only paid for exactly what they work?*
+to punch in and out and are only paid for exactly what they work?_
 
-*Yes?
-â Payroll Overrides are not required for this Policy.*
+_Yes?
+â Payroll Overrides are not required for this Policy._
 
-*No?
-â Proceed to next question.*
+_No?
+â Proceed to next question._
 
-*No?
+_No?
 â Would you like to send a certain number of hours to payroll for all
 employees on this policy as long as they work a predefined minimum number
-of hours? This is generally used for salary employees only.*
+of hours? This is generally used for salary employees only._
 
-*Yes?
+_Yes?
 â Click Insert then Choose the appropriate Activity Type from the Drop
-Down.*
+Down._
 
-*How
+_How
 many hours are employees required to work before the Override takes affect?
-Enter this number into the Minimum Hours field.*
+Enter this number into the Minimum Hours field._
 
-*How
+_How
 many hours are to be sent to payroll if the employee works the minimum
 number of hours specified above? Enter this number into the Override Hours
-field.*
+field._
 
-**R*epeat
-the above steps for each Hours Type you wish to override.*
+\**R*epeat
+the above steps for each Hours Type you wish to override.\*
 
-*No? â
-Payroll Overrides are not required for this Policy.*
+_No? â
+Payroll Overrides are not required for this Policy._
 
 #### Rounding Rules
 
@@ -2784,19 +2791,19 @@ to any employee punches that are considered unscheduled. Hours are considered
 unscheduled in the scenarios below. These scenarios are best illustrated
 by examples as provided below.
 
-* An
+- An
   employee punches in or out for a period where a schedule is not defined.
-* An
+- An
   employee punches in prior to the start of their assigned schedule
   on any given day. This condition assumes grace periods are not defined.\*
-* An
+- An
   employee punches in prior to the start of their assigned schedule
   on any given day and outside of the period defined by the Early and
   On Time Grace Periods.\*
-* An
+- An
   employee punches out after the end of their assigned schedule on any
   given day. This condition assumes grace periods are not defined.\*
-* An
+- An
   employee punches out after the end of their assigned schedule on any
   given day and outside of the period defined by the On Time and Late
   Grace Periods.\*
@@ -2825,32 +2832,32 @@ Rounding rules section of the policy.
 
 ![](/img/Policies070.png)
 
-* **No Rounding** â If this box
+- **No Rounding** â If this box
   is checked Employee Punches will not be rounded for the respective
   punch type. (IE: Clock In, Clock Out, or Break Punches)
-* **Tenth Hour** â Employee punches
+- **Tenth Hour** â Employee punches
   will be rounded to the nearest tenth hour according to the Round Back
   and Round Forward settings for the respective punch type. (IE: Clock
   In, Clock Out, or Break Punches)
-* **Quarter Hour** â Employee
+- **Quarter Hour** â Employee
   punches will be rounded to the nearest quarter hour according to the
   Round Back and Round Forward settings for the respective punch type.
   (IE: Clock In, Clock Out, or Break Punches)
-* **Modified Quarter Hour** â
+- **Modified Quarter Hour** â
   Employee punches will be rounded to the nearest quarter hour according
   to the Round Back and Round Forward settings for the respective punch
   type. (IE: Clock In, Clock Out, or Break Punches) The only difference
   between Quarter Hour and Modified Quarter Hour rounding are the default
   values of the Round Back and Round Forward settings.
-* **Half Hour** â Employee punches
+- **Half Hour** â Employee punches
   will be rounded to the nearest half hour according to the Round Back
   and Round Forward settings for the respective punch type. (IE: Clock
   In, Clock Out, or Break Punches)
-* **Round Back if Equal to Or Less
+- **Round Back if Equal to Or Less
   Than** â Sets the threshold used by InfiniTime
   to determine if a punch should be rounded back. This value is always
   one minute less than the âRound Forwardâ setting.
-* **Round Forward if Equal to Or
+- **Round Forward if Equal to Or
   Greater Than** â Sets the threshold used by InfiniTime
   to determine if a punch should be rounded forward. This value is always
   one minute greater than the âRound Backâ setting.
@@ -2865,60 +2872,60 @@ round forward to the next quarter hour.
 
 ![](/img/Policies046.png)
 
-* **Rounding Method** â Indicates
+- **Rounding Method** â Indicates
   how punches are to be rounded to the nearest tenth hour, quarter hour,
   or half hour. Available options are outlined below. Remember, rounding
   does not change the actual time of the punch indicated on the Timecard
   Table. Only the calculation affecting the amount of hours employees
   are paid for is altered.
-* **Each Punch** â Rounds individual punches as indicated
+- **Each Punch** â Rounds individual punches as indicated
   by the rounding settings. IE: A 7 / 8 Split is used for Quarter Hour
   Rounding. The table below shows rounded punch times and total paid
   hours for specific punch times as an example.
 
- | | | | | 
+| | | | |
 ||
- | Punch Time | Rounded Punch Time | Total Worked Hours | Total Calculated Hours | 
- | 6:52 AM | 6:45 AM | | | 
- | 11:23 AM | 11:30 AM | | | 
- | 12:37 PM | 12:30 PM | | | 
- | 3:53 PM | 4:00 PM | 7.78 | 8.25 | 
+| Punch Time | Rounded Punch Time | Total Worked Hours | Total Calculated Hours |
+| 6:52 AM | 6:45 AM | | |
+| 11:23 AM | 11:30 AM | | |
+| 12:37 PM | 12:30 PM | | |
+| 3:53 PM | 4:00 PM | 7.78 | 8.25 |
 
-* **Net
+- **Net
   Round Each Punch Pair** â Rounds the total duration for each punch
   pair as indicated by the rounding settings. IE: A 7 / 8 Split is used
   for Quarter Hour Rounding. The table below shows rounded punch times
   and total paid hours for specific punch times as an example.
 
- | | | | | | 
+| | | | | |
 ||
- | Punch Time | Punch Pair Duration | Rounded Duration | Total Hours Worked | Total Calculated Hours | 
- | 6:52 AM | | | | | 
- | 11:23 AM | 04:31 | 04:30 | | | 
- | 12:37 PM | | | | | 
- | 3:53 PM | 03:16 | 03:15 | 7.78 | 7.75 | 
+| Punch Time | Punch Pair Duration | Rounded Duration | Total Hours Worked | Total Calculated Hours |
+| 6:52 AM | | | | |
+| 11:23 AM | 04:31 | 04:30 | | |
+| 12:37 PM | | | | |
+| 3:53 PM | 03:16 | 03:15 | 7.78 | 7.75 |
 
-* **Net
+- **Net
   Round Each Day** â Rounds the total duration for each day as indicated
   by the rounding settings. IE: A 7 / 8 Split is used for Quarter Hour
   Rounding. The table below shows rounded punch times and total paid
   hours for specific punch times as an example.
 
- | | | | | | 
+| | | | | |
 ||
- | Punch Time | Worked Duration | Rounded Duration | Total Hours Worked | Total Calculated Hours | 
- | 6:52 AM | | | | | 
- | 11:23 AM | | | | | 
- | 12:37 PM | | | | | 
- | 3:53 PM | 07:48 | 07:45 | 7.78 | 7.75 | 
+| Punch Time | Worked Duration | Rounded Duration | Total Hours Worked | Total Calculated Hours |
+| 6:52 AM | | | | |
+| 11:23 AM | | | | |
+| 12:37 PM | | | | |
+| 3:53 PM | 07:48 | 07:45 | 7.78 | 7.75 |
 
 ### **Unscheduled Rounding Rules Configuration Procedure**
 
-* Would you like to enable Unscheduled Rounding? Unscheduled Rounding
+- Would you like to enable Unscheduled Rounding? Unscheduled Rounding
   automatically rounds employee punches to the nearest Tenth, Quarter
   Hour, or Half Hour based on selected rounding settings.
 
-+ Yes?
+* Yes?
 
 - Choose your desired rounding method from the following:
 
@@ -2947,14 +2954,14 @@ round forward to the next quarter hour.
   may be different for each punch type. For example, may customers
   choose to set the Round Back / Forward settings as follows:
 
- | Punch Type | Round Back / Round Forward Settings | 
-| --- | --- |
- | Clock In | Round Back: 14  Round Forward: 15 | 
- | Clock Out | Round Back: 14  Round Forward: 15 | 
+| Punch Type | Round Back / Round Forward Settings |
+| ---------- | ----------------------------------- |
+| Clock In   | Round Back: 14 Round Forward: 15    |
+| Clock Out  | Round Back: 14 Round Forward: 15    |
 
-+ No?
+- No?
 
-- Skip to next section.
+* Skip to next section.
 
 ### **Scheduled Time**
 
@@ -2978,22 +2985,22 @@ for each tab are outlined below.
 
 ### **Clock In**
 
-* **Round Clock In to Schedule â**
+- **Round Clock In to Schedule â**
   If this box is checked employee punches falling within the Early,
   On Time or Late Grace Periods of the Clock In type will be rounded
   to the Start Time of an Employeeâs Schedule. See below for examples
   detailing the On Time and Late Grace Periods.
-* **Early Grace Period â** Defines
+- **Early Grace Period â** Defines
   the length of the Early Grace Period. The Early Grace Period defines
   a duration before the On Time Grace Period during which employees
   will receive the Early Exception. This concept is illustrated on the
   timeline below.
-* **On Time Grace Period â** Defines
+- **On Time Grace Period â** Defines
   the length of the On Time Grace Period. The On Time Grace Period defines
   a duration after the Early Grace Period and before the Scheduled Start
   Time during which employees are considered On Time. Exceptions do
   not occur during the On Time Grace Period.
-* **Late Grace Period â** Defines
+- **Late Grace Period â** Defines
   the length of the Late Grace Period. The Late Grace Period defines
   a duration after the Scheduled Start Time during which employees are
   considered On Time. Exceptions do not occur during the Late Grace
@@ -3005,20 +3012,20 @@ and Late Grace Period Settings which are set to a value in minutes. The
 table below illustrates each grace period in addition to times which would
 be considered outside of schedule for the following settings:
 
- | | | | 
+| | | |
 ||
- | **Field** | **Value (Minutes)** | **Color** | 
- | Early Grace Period | 10 | Blue | 
- | On Time Grace Period | 10 | Bright Green | 
- | Late Grace Period | 10 | Dark Green | 
- | Outside of Schedule *(Scheduled Rounding Does Not Apply)* | NA | Red | 
+| **Field** | **Value (Minutes)** | **Color** |
+| Early Grace Period | 10 | Blue |
+| On Time Grace Period | 10 | Bright Green |
+| Late Grace Period | 10 | Dark Green |
+| Outside of Schedule _(Scheduled Rounding Does Not Apply)_ | NA | Red |
 
 **![](/img/Policies010.png)**
 
 Remember, Grace Periods are intended for use with the Early, Tardy,
 and Outside of Schedule exceptions.
 
-* **Grace
+- **Grace
   Periods â On Time -** The On Time Grace Period setting should be
   set to define the time period during which employees are expected
   to arrive for work. In this example the On Time Grace Period is set
@@ -3029,7 +3036,7 @@ and Outside of Schedule exceptions.
   be considered as punching in On Time. Employees do not receive Early,
   Tardy, or Outside of Schedule exceptions for punching in during the
   On Time Grace Period.
-* **Grace
+- **Grace
   Periods â Early -** The Early Grace Period setting should be set
   to define the time period during which employees will be marked as
   Arriving Early. In this example the Early Grace Period is set to ten
@@ -3040,7 +3047,7 @@ and Outside of Schedule exceptions.
   punching in between 7:40 AM and 7:50 AM would be considered as punching
   in Early. Employees punching in during the Early Grace Period will
   receive an early exception.
-* **Grace
+- **Grace
   Periods â Late -** The Late Grace Period setting should be set to
   define the time period during which employees may punch in after their
   scheduled start time yet still be considered On Time. Many companies
@@ -3054,7 +3061,7 @@ and Outside of Schedule exceptions.
   would be considered as punching in On Time. Employees do not receive
   Early, Tardy, or Outside of Schedule exceptions for punching in during
   the Late Grace Period.
-* **Grace Periods â Outside of Schedule -** Employees
+- **Grace Periods â Outside of Schedule -** Employees
   are considered Outside of Schedule if they punch at a time that does
   not fall within the Early, On Time, or Late Grace Periods. Times during
   which an employee would be considered outside of schedule are shaded
@@ -3117,37 +3124,37 @@ PM
 Clock
 Out:                                  5:00 PM
 
-* **Round Clock In Paid Break to Schedule â**
+- **Round Clock In Paid Break to Schedule â**
   If this box is checked employee punches
   falling within the Early, On Time, or Late Grace Periods of the Clock
   In Paid Break type will be rounded to the Paid Break End Time on an
   Employeeâs Schedule.
-* **Round Clock Out Paid Break to Schedule
+- **Round Clock Out Paid Break to Schedule
   â** If this box is checked
   employee punches falling within the Early, On Time, or Late Grace
   Periods of the Clock Out Paid Break type will be rounded to the Paid
   Break Start Time on an Employeeâs Schedule.
-* **Round Clock In Unpaid Break to Schedule
+- **Round Clock In Unpaid Break to Schedule
   â** If this box is checked
   employee punches falling within the Early, On Time, or Late Grace
   Periods of the Clock In Unpaid Break type will be rounded to the Unpaid
   Break End Time on an Employeeâs Schedule.
-* **Round Clock Out Unpaid Break to Schedule
+- **Round Clock Out Unpaid Break to Schedule
   â** If this box is checked
   employee punches falling within the Early, On Time, or Late Grace
   Periods of the Clock Out Unpaid Break type will be rounded to the
   Unpaid Break Start Time on an Employeeâs Schedule.
-* **Early Grace Period â** Defines
+- **Early Grace Period â** Defines
   the length of the Early Grace Period. The Early Grace Period defines
   a duration before the On Time Grace Period during which employees
   will receive the Early Exception. This concept is illustrated on the
   time line below.
-* **On Time Grace Period â** Defines the length of the On Time Grace
+- **On Time Grace Period â** Defines the length of the On Time Grace
   Period. The On Time Grace Period defines a duration after the Early
   Grace Period and before the Scheduled Start Time during which employees
   are considered On Time. Exceptions do not occur during the On Time
   Grace Period.
-* **Late Grace Period â** Defines
+- **Late Grace Period â** Defines
   the length of the Late Grace Period. The Late Grace Period defines
   a duration after the Scheduled Start Time during which employees are
   considered On Time. Exceptions do not occur during the Late Grace
@@ -3185,12 +3192,12 @@ and Late Grace Period Settings which are set to a value in minutes. The
 time line below illustrates each grace period in addition to times which
 would be considered outside of schedule for the following settings:
 
- | | | | 
+| | | |
 ||
- | **Field** | **Value (Minutes)** | **Color** | 
- | Early Grace Period | 10 | Blue | 
- | On Time Grace Period | 10 | Bright Green | 
- | Late Grace Period | 10 | Dark Green | 
+| **Field** | **Value (Minutes)** | **Color** |
+| Early Grace Period | 10 | Blue |
+| On Time Grace Period | 10 | Bright Green |
+| Late Grace Period | 10 | Dark Green |
 
 Remember,
 Grace Periods are intended for use with the Early Departure, Late Departure,
@@ -3252,89 +3259,89 @@ scheduled end time receive both the Outside of Schedule and Late Departure
 exceptions. Employees punching out outside of the grace periods and before
 their scheduled end time receive only the Outside of Schedule exception.
 
-   ![](/img/Policies068.png)
+![](/img/Policies068.png)
 
 ## Scheduled Rounding Configuration Procedure
 
-* *Benefits provided by scheduled rounding include:*
+- _Benefits provided by scheduled rounding include:_
 
-+ *Ability to round employee
-  punches to schedules.*
-+ *Rounded Hour Totals (IE:
-  8.25, 7.75 Hours for the Day etc.)*
-+ *Ability to track employee
+* _Ability to round employee
+  punches to schedules._
+* _Rounded Hour Totals (IE:
+  8.25, 7.75 Hours for the Day etc.)_
+* _Ability to track employee
   performance via Early, Early Departure, Tardy, Late Departure,
-  and Outside of Schedule exceptions.*
-+ *Ability to prevent employees
+  and Outside of Schedule exceptions._
+* _Ability to prevent employees
   from punching outside of Scheduled Rounding Grace Periods via
-  Schedule Lockout (See Schedule Settings / Rules)*
+  Schedule Lockout (See Schedule Settings / Rules)_
 
-*Will
-schedules be configured for employees on this policy?*
+_Will
+schedules be configured for employees on this policy?_
 
-* *No? â Scheduled Rounding requires
+- _No? â Scheduled Rounding requires
   schedules. Employee punches cannot be rounded to schedule nor can
   Grace Periods be configured for use with exceptions without configuring
   schedules for employees on the policy. If you do not which to configure
-  schedules for employees, skip to the next section.*
-* *Yes? â Do you wish to round employee
-  punches to their scheduled start time?*
+  schedules for employees, skip to the next section._
+- _Yes? â Do you wish to round employee
+  punches to their scheduled start time?_
 
-+ *Yes? â Check the round Clock
+* _Yes? â Check the round Clock
   In to Schedule Box on the Clock In Tab. Pay special attention
   to the grace period settings for the Clock In Punch Type when
   using Round to Schedule. All employee punches falling within the
   Early, On Time, and Late Grace Periods will be rounded to the
-  employee's scheduled start time.*
-+ *No? â Leave the round Clock
-  In to Schedule Box on the Clock In Tab unchecked.*
+  employee's scheduled start time._
+* _No? â Leave the round Clock
+  In to Schedule Box on the Clock In Tab unchecked._
 
-* *Do you wish to round employee
-  punches to their scheduled end time?*
+- _Do you wish to round employee
+  punches to their scheduled end time?_
 
-+ *Yes?
+* _Yes?
   â Check the round Clock Out to Schedule Box on the Clock Out Tab.
   Pay special attention to the grace period settings for the Clock
   Out Punch Type when using Round to Schedule. All employee punches
   falling within the Early, On Time, and Late Grace Periods will
-  be rounded to schedule the employee's scheduled end time.*
-+ *No? â Leave the round
-  Clock Out to Schedule Box on the Clock Out Tab unchecked.*
+  be rounded to schedule the employee's scheduled end time._
+* _No? â Leave the round
+  Clock Out to Schedule Box on the Clock Out Tab unchecked._
 
-* Answer the following questions to configure
+- Answer the following questions to configure
   the Clock In Grace Periods:
 
-+ *How
+* _How
   long **before** the scheduled start time can employees punch
   in and still be considered on time? Enter this value in the On
-  Time Grace Period field.*
-+ *How
+  Time Grace Period field._
+* _How
   long **after** the scheduled start time can employees punch
   in and still be considered on time? Enter this value in the Late
-  Grace Period Field. Remember this value may be blank.*
-+ *Do you
+  Grace Period Field. Remember this value may be blank._
+* _Do you
   wish to mark employees as arriving early with the âEarlyâ exception
-  if they **arrive before** the On Time Grace period?*
+  if they **arrive before** the On Time Grace period?_
 
-- *Yes? â How long before
+- _Yes? â How long before
   the On Time Grace Period can an employee punch in and still
   be considered early? Remember, if an employee punches in before
   the start of the Early Grace Period they will be considered
   outside of schedule. Enter this value in the Early Grace Period
-  Field.*
-- *No? â Leave the Early
-  Grace Period Blank.*
+  Field._
+- _No? â Leave the Early
+  Grace Period Blank._
 
-*Break Rounding
+_Break Rounding
 is only utilized under special circumstances. Most companies do not implement
 break rounding. With Break Rounding Enabled, depending on the break duration
 and the employee's exact punch times, it is possible for the entire break
-to be rounded to a duration of 0 minutes.*
+to be rounded to a duration of 0 minutes._
 
-* *Answer the following questions
-  to configure Break Scheduled Rounding Rules:*
+- _Answer the following questions
+  to configure Break Scheduled Rounding Rules:_
 
-+ Do Employee Schedules include
+* Do Employee Schedules include
   Breaks?
 
 - No? - Scheduled Rounding
@@ -3349,88 +3356,88 @@ to be rounded to a duration of 0 minutes.*
   and configure Scheduled Rounding Rules on the Breaks tab as
   appropriate.
 
-+ *Do you wish to round
-  Paid Break Punches to Schedule?*
+* _Do you wish to round
+  Paid Break Punches to Schedule?_
 
-- *Yes?
+- _Yes?
   â Check the Round Clock In Paid Break to Schedule and Round
   Clock Out Paid Break to Schedule Options. Pay special attention
   to the grace period settings for Break Punch Types when using
   Round to Schedule. All break punches falling within the Early,
   On Time, and Late Grace Periods around Scheduled Paid Breaks
-  will be rounded to schedule the employee's scheduled end time.*
-- *No? â Leave the round
-  Clock Out to Schedule Box on the Clock Out Tab unchecked.*
+  will be rounded to schedule the employee's scheduled end time._
+- _No? â Leave the round
+  Clock Out to Schedule Box on the Clock Out Tab unchecked._
 
-+ *Do you wish to round
-  Unpaid Break Punches to Schedule?*
+* _Do you wish to round
+  Unpaid Break Punches to Schedule?_
 
-- *Yes?
+- _Yes?
   â Check the Round Clock In Unpaid Break to Schedule and Round
   Clock Out Unpaid Break to Schedule Options. Pay special attention
   to the grace period settings for Break Punch Types when using
   Round to Schedule. All break punches falling within the Early,
   On Time, and Late Grace Periods around Scheduled Paid Breaks
-  will be rounded to schedule the employee's scheduled end time.*
-- *No? â Leave the round
-  Clock Out to Schedule Box on the Clock Out Tab unchecked.*
+  will be rounded to schedule the employee's scheduled end time._
+- _No? â Leave the round
+  Clock Out to Schedule Box on the Clock Out Tab unchecked._
 
 * Answer the following questions to configure
   the Break Grace Periods:
 
-+ *How
+- _How
   long **before** the scheduled Break start time can employees
   punch in and still be considered on time? Enter this value in
-  the On Time Grace Period field.*
-+ *How
+  the On Time Grace Period field._
+- _How
   long **after** the scheduled Break start time can employees
   punch in and still be considered on time? Enter this value in
-  the Late Grace Period Field. Remember this value may be left blank.*
-+ Leave the
+  the Late Grace Period Field. Remember this value may be left blank._
+- Leave the
   Early Grace Period Blank.
 
 * Answer the following questions to configure
   the Clock Out Grace Periods:
 
-+ *How
+- _How
   long **before** the scheduled end time can employees punch
   out and still be considered departing on time? Enter this value
-  in the On Time Grace Period field.* *Remember this value
-  may be left blank.*
-+ *How
+  in the On Time Grace Period field._ _Remember this value
+  may be left blank._
+- _How
   long **after** the scheduled end time can employees punch out
   and still be considered departing on time? Enter this value in
-  the Late Grace Period Field.*
-+ *Do you
+  the Late Grace Period Field._
+- _Do you
   wish to mark employees as departing early with the âEarly Departureâ
-  exception if they depart**before** the On Time Grace period?*
+  exception if they depart**before** the On Time Grace period?_
 
-- *Yes? â How long before
+* _Yes? â How long before
   the On Time Grace Period can an employee punch out and still
   be considered departing early? Remember, if an employee punches
   out before the start of the Early Grace Period they will be
   considered outside of schedule. Enter this value in the Early
-  Grace Period Field.*
-- *No? â Leave the Early
-  Grace Period Blank.*
+  Grace Period Field._
+* _No? â Leave the Early
+  Grace Period Blank._
 
-*Remember to configure any exceptions you wish
-to track:*
+_Remember to configure any exceptions you wish
+to track:_
 
-*The following exceptions are used with Grace
-Periods:*
+_The following exceptions are used with Grace
+Periods:_
 
-- *Early*
-- *Tardy*
-- *Early
-  Departure*
-- *Late
-  Departure*
-- *Outside
-  Schedule*
+- _Early_
+- _Tardy_
+- _Early
+  Departure_
+- _Late
+  Departure_
+- _Outside
+  Schedule_
 
-*The following exceptions are used with Scheduled
-Breaks:*
+_The following exceptions are used with Scheduled
+Breaks:_
 
 - Late
   Meal Break
@@ -3487,10 +3494,10 @@ not support Schedule Lockout Warning Messages, Employee Punches outside
 of the grace periods will be ignored by the InfiniTime
 Application but the user will not be alerted.
 
- | Terminal | Requirements for Message Display | 
-| --- | --- |
- | Thor | * Schedules must be configured   for employees within InfiniTime * Schedule Grace Periods must   be configured on the Scheduled Time Tab of the Rounding Rules   Policy Section * Schedules must be sent to the   Thor Terminal (IE: The Schedule Range Setting on the Reader   Address Update Form must be set to a Date Range other than   'None') * Users assigned to the Supervisor,   Payroll Clerk, or Administrator Security Role can override   the Schedule Lockout warning at clock to allow an employee   to punch in or out. * Users assigned to the Supervisor,   Payroll Clerk, or Administrator Security Role will not be   prompted with the Schedule Lockout Menu if they attempt to   punch during the Schedule Lockout Period. The Schedule Lockout   Warning is only displayed for Employees. | 
- | Scout 1000/2000/3000/4000 | * Schedules   must be configured for employees within InfiniTime * Schedule Grace Periods must   be configured on the Scheduled Time Tab of the Rounding Rules   Policy Section * Lockout is only supported on   Scout Terminals connected to the LAN. The polling interval   must be equal to or less than three seconds for Schedule Lockout   warning messages to display on the Scout Terminals. | 
+| Terminal                  | Requirements for Message Display                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Thor                      | _ Schedules must be configured for employees within InfiniTime _ Schedule Grace Periods must be configured on the Scheduled Time Tab of the Rounding Rules Policy Section _ Schedules must be sent to the Thor Terminal (IE: The Schedule Range Setting on the Reader Address Update Form must be set to a Date Range other than 'None') _ Users assigned to the Supervisor, Payroll Clerk, or Administrator Security Role can override the Schedule Lockout warning at clock to allow an employee to punch in or out. \* Users assigned to the Supervisor, Payroll Clerk, or Administrator Security Role will not be prompted with the Schedule Lockout Menu if they attempt to punch during the Schedule Lockout Period. The Schedule Lockout Warning is only displayed for Employees. |
+| Scout 1000/2000/3000/4000 | _ Schedules must be configured for employees within InfiniTime _ Schedule Grace Periods must be configured on the Scheduled Time Tab of the Rounding Rules Policy Section \* Lockout is only supported on Scout Terminals connected to the LAN. The polling interval must be equal to or less than three seconds for Schedule Lockout warning messages to display on the Scout Terminals.                                                                                                                                                                                                                                                                                                                                                                                                |
 
 **Clock In Punch to Schedule /
 Lockout â** If this option is checked employees will be unable to punch
@@ -3512,74 +3519,74 @@ depending on how the Clock In Punch to Schedule / Lockout and Clock Out
 Punch to Schedule / Lockout options are checked. The table below illustrates
 available lockout functions.
 
- | Clock In Punch to Schedule / Lockout | Clock Out Punch to Schedule / Lockout | Punch to Schedule / Lockout Function | 
-| --- | --- | --- |
- | Unchecked | Unchecked | No Lockout. Employees may punch at any time. Employee punches will then be organized into pairs and totaled in accordance with employee policy settings.     See Example A Below. | 
- | Checked | Unchecked | Schedule Lockout Enabled Prior to Clock In Grace Periods Only. Employees may punch at any time during and after the Clock In Early, On Time, and Late Grace Periods.     See Example B Below. | 
- | Unchecked | Checked | Schedule Lockout Enabled Prior to After Clock Out Grace Periods Only. Employees may punch at any time during and before the Clock Out Early, On Time, and Late Grace Periods.     See Example C Below. | 
- | Checked | Checked | Schedule Lockout Enabled at all times outside of the Clock In and Clock Out Grace Periods. Employees may punch only during the Clock In and Clock Out Early, On Time, and Late Grace Periods.     See Example D Below. | 
+| Clock In Punch to Schedule / Lockout | Clock Out Punch to Schedule / Lockout | Punch to Schedule / Lockout Function                                                                                                                                                                                 |
+| ------------------------------------ | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unchecked                            | Unchecked                             | No Lockout. Employees may punch at any time. Employee punches will then be organized into pairs and totaled in accordance with employee policy settings.   See Example A Below.                                      |
+| Checked                              | Unchecked                             | Schedule Lockout Enabled Prior to Clock In Grace Periods Only. Employees may punch at any time during and after the Clock In Early, On Time, and Late Grace Periods.   See Example B Below.                          |
+| Unchecked                            | Checked                               | Schedule Lockout Enabled Prior to After Clock Out Grace Periods Only. Employees may punch at any time during and before the Clock Out Early, On Time, and Late Grace Periods.   See Example C Below.                 |
+| Checked                              | Checked                               | Schedule Lockout Enabled at all times outside of the Clock In and Clock Out Grace Periods. Employees may punch only during the Clock In and Clock Out Early, On Time, and Late Grace Periods.   See Example D Below. |
 
- | Example A: Punch to Schedule / Lockout Disabled | | 
- | Related Settings:       Scheduled Time Grace Periods:  Clock In On Time Grace Period: 10 Minutes  Clock In Late Time Grace Period: 10 Minutes  Clock Out On Time Grace Period: 10 Minutes  Clock Out Late Time Grace Period: 10 Minutes | Punch to Schedule / Lockout:         Employee Schedule: 8:00 AM to 5:00 PM | 
- | Effective Lockout Window:                 When both 'Clock In Punch to Schedule / Lockout' and 'Clock Out Punch to Schedule / Lockout' are unchecked, Lockout is not enabled. Employees may punch in or out freely throughout the day. Any punches outside of the Clock In / Clock Out Schedule Grace Periods will be marked with the Outside of Schedule Exception and / or other schedule related exceptions such as Early, Tardy, and Early Departure as appropriate. | | 
+| Example A: Punch to Schedule / Lockout Disabled | |
+| Related Settings:    Scheduled Time Grace Periods: Clock In On Time Grace Period: 10 Minutes Clock In Late Time Grace Period: 10 Minutes Clock Out On Time Grace Period: 10 Minutes Clock Out Late Time Grace Period: 10 Minutes | Punch to Schedule / Lockout:    Employee Schedule: 8:00 AM to 5:00 PM |
+| Effective Lockout Window:           When both 'Clock In Punch to Schedule / Lockout' and 'Clock Out Punch to Schedule / Lockout' are unchecked, Lockout is not enabled. Employees may punch in or out freely throughout the day. Any punches outside of the Clock In / Clock Out Schedule Grace Periods will be marked with the Outside of Schedule Exception and / or other schedule related exceptions such as Early, Tardy, and Early Departure as appropriate. | |
 
- | Example B: Clock In Punch to Schedule / Lockout Enabled | | 
- | Related Settings:       Scheduled Time Grace Periods:  Clock In On Time Grace Period: 10 Minutes  Clock In Late Time Grace Period: 10 Minutes  Clock Out On Time Grace Period: 10 Minutes  Clock Out Late Time Grace Period: 10 Minutes | Punch to Schedule / Lockout:         Employee Schedule: 8:00 AM to 5:00 PM | 
- | Effective Lockout Window:                 When only 'Clock In Punch to Schedule / Lockout' is checked, Lockout is enabled prior to the Clock In Grace Periods only. Employees may punch in or out freely during and after the Clock In Early, On Time, and Late Grace Periods. Any punches outside of the Clock In / Clock Out Schedule Grace Periods will be marked with the Outside of Schedule Exception and / or other schedule related exceptions such as Early, Tardy, and Early Departure as appropriate. | | 
+| Example B: Clock In Punch to Schedule / Lockout Enabled | |
+| Related Settings:    Scheduled Time Grace Periods: Clock In On Time Grace Period: 10 Minutes Clock In Late Time Grace Period: 10 Minutes Clock Out On Time Grace Period: 10 Minutes Clock Out Late Time Grace Period: 10 Minutes | Punch to Schedule / Lockout:    Employee Schedule: 8:00 AM to 5:00 PM |
+| Effective Lockout Window:           When only 'Clock In Punch to Schedule / Lockout' is checked, Lockout is enabled prior to the Clock In Grace Periods only. Employees may punch in or out freely during and after the Clock In Early, On Time, and Late Grace Periods. Any punches outside of the Clock In / Clock Out Schedule Grace Periods will be marked with the Outside of Schedule Exception and / or other schedule related exceptions such as Early, Tardy, and Early Departure as appropriate. | |
 
- | Example C: Clock Out Punch to Schedule / Lockout Enabled | | 
- | Related Settings:       Scheduled Time Grace Periods:  Clock In On Time Grace Period: 10 Minutes  Clock In Late Time Grace Period: 10 Minutes  Clock Out On Time Grace Period: 10 Minutes  Clock Out Late Time Grace Period: 10 Minutes | Punch to Schedule / Lockout:         Employee Schedule: 8:00 AM to 5:00 PM | 
- | Effective Lockout Window:                 When only 'Clock Out Punch to Schedule / Lockout' is checked, Lockout is enabled after the Clock Out Grace Periods only. Employees may punch in or out freely before and during the Clock Out Early, On Time, and Late Grace Periods. Any punches outside of the Clock In / Clock Out Schedule Grace Periods will be marked with the Outside of Schedule Exception and / or other schedule related exceptions such as Early, Tardy, and Early Departure as appropriate. | | 
+| Example C: Clock Out Punch to Schedule / Lockout Enabled | |
+| Related Settings:    Scheduled Time Grace Periods: Clock In On Time Grace Period: 10 Minutes Clock In Late Time Grace Period: 10 Minutes Clock Out On Time Grace Period: 10 Minutes Clock Out Late Time Grace Period: 10 Minutes | Punch to Schedule / Lockout:    Employee Schedule: 8:00 AM to 5:00 PM |
+| Effective Lockout Window:           When only 'Clock Out Punch to Schedule / Lockout' is checked, Lockout is enabled after the Clock Out Grace Periods only. Employees may punch in or out freely before and during the Clock Out Early, On Time, and Late Grace Periods. Any punches outside of the Clock In / Clock Out Schedule Grace Periods will be marked with the Outside of Schedule Exception and / or other schedule related exceptions such as Early, Tardy, and Early Departure as appropriate. | |
 
- | Example D: Clock In & Clock Out Punch to Schedule / Lockout Enabled | | 
- | Related Settings:       Scheduled Time Grace Periods:  Clock In On Time Grace Period: 10 Minutes  Clock In Late Time Grace Period: 10 Minutes  Clock Out On Time Grace Period: 10 Minutes  Clock Out Late Time Grace Period: 10 Minutes | Punch to Schedule / Lockout:         Employee Schedule: 8:00 AM to 5:00 PM | 
- | Effective Lockout Window:                 When both 'Clock In Punch to Schedule / Lockout' and 'Clock Out Punch to Schedule / Lockout' are checked, Lockout is enabled at all times outside of the Clock In and Clock Out Grace Periods. Employees may punch in and out only during the Clock In and Clock Out Early, On Time, and Late Grace Periods. | | 
+| Example D: Clock In & Clock Out Punch to Schedule / Lockout Enabled | |
+| Related Settings:    Scheduled Time Grace Periods: Clock In On Time Grace Period: 10 Minutes Clock In Late Time Grace Period: 10 Minutes Clock Out On Time Grace Period: 10 Minutes Clock Out Late Time Grace Period: 10 Minutes | Punch to Schedule / Lockout:    Employee Schedule: 8:00 AM to 5:00 PM |
+| Effective Lockout Window:           When both 'Clock In Punch to Schedule / Lockout' and 'Clock Out Punch to Schedule / Lockout' are checked, Lockout is enabled at all times outside of the Clock In and Clock Out Grace Periods. Employees may punch in and out only during the Clock In and Clock Out Early, On Time, and Late Grace Periods. | |
 
 ### **Schedule Settings / Rules - Schedule Lockout Configuration Procedures**
 
-*Lockout
+_Lockout
 makes it possible to prevent employees from punching outside of the grace
 periods defined by their schedule and policy settings. Lockout is a strict
 feature, as such it is not always practical. Employees arriving or departing
 during the Lockout Time Period will have to locate a supervisor in order
-to Punch Outside of definedgrace periods.*
+to Punch Outside of definedgrace periods._
 
-* Will Schedules be
+- Will Schedules be
   configured for Employees assigned to this policy?
-* No? - Skip to
+- No? - Skip to
   the next section. Schedule Lockout is only intended for use when Employee
   Schedules are configured within InfiniTime.
-* *Yes? - Review the Functional Examples of
-  Lockout provided above.* *Would you like to enable lockout for punches
-  of the Clock In Type?*
+- _Yes? - Review the Functional Examples of
+  Lockout provided above._ _Would you like to enable lockout for punches
+  of the Clock In Type?_
 
-- *Yes?
-  Check the Clock In Punch to Schedule / Lockout Option.*
+* _Yes?
+  Check the Clock In Punch to Schedule / Lockout Option._
 
-* *Be
+- _Be
   sure to configure Early, On Time, and Late Grace Periods
-  for the Clock In Punch Type as detailed above.*
+  for the Clock In Punch Type as detailed above._
 
-- *No?
-  Leave the Clock In Punch to Schedule / Lockout Option blank.*
+* _No?
+  Leave the Clock In Punch to Schedule / Lockout Option blank._
 
-+ *Review
+- _Review
   the Functional Examples of Lockout provided above. Would you like
   to enable lockout for punches of the Clock Out Type? In many cases,
   organizations may choose to enable Clock In Lockout, but leave
   Clock Out Lockout disabled in order to permit employees to work
   overtime when required without requiring assistance from a supervisor
-  to punch out.*
+  to punch out._
 
-- *Yes?
-  Check the Clock Out Punch to Schedule / Lockout Option.*
+* _Yes?
+  Check the Clock Out Punch to Schedule / Lockout Option._
 
-* *Be
+- _Be
   sure to configure Early, On Time, and Late Grace Periods
-  for the Clock Out Punch Type as detailed above.*
+  for the Clock Out Punch Type as detailed above._
 
-- *No?
-  Leave the Clock Out Punch to Schedule / Lockout Option blank.*
+* _No?
+  Leave the Clock Out Punch to Schedule / Lockout Option blank._
 
 ### **Auto Punch**
 
@@ -3635,94 +3642,94 @@ than the employeeâs default schedule.
 Auto
 Punch Configuration Procedure
 
-* *Is
+- _Is
   this policy intended for hourly employees who are paid according to
-  the hours they work?*
+  the hours they work?_
 
-+ **Yes?* *- The Auto Clock In and Auto Clock
+* **Yes?\* \*- The Auto Clock In and Auto Clock
   Out options will not be required. These are only intended for
   salary employees who are not required to clock in and out manually.**
-+ **No?* *- If the policy is intended for salary
+* **No?\* \*- If the policy is intended for salary
   employees, and you would like to configure Auto Punch to automatically
   track Hours for Salary Employees, there are three methods for
   doing so as outlined below. Select the desired method and configure
   the Schedule Settings / Rules & Hours & Time Limits as
   appropriate.**
 
-* Auto
+- Auto
   Clock In & Out - Using
   this method will automatically punch employees in and out according
   to their schedule. This is commonly used for policies with employees
   that work different shifts. The following items below must be configured.\*\*++
 
-+ Each
+* Each
   employee assigned to the policy must have a schedule defined.
-+ Schedules
+* Schedules
   can cross midnight. Splitting the schedule at midnight is not
   necessary. This is only required for shift differentials.
-+ Auto
+* Auto
   Clock In must be checked.
-+ Auto
+* Auto
   Clock Out must be checked.
 
-* Hours
+- Hours
   & Time Limits â Using
   this method will automatically clock employees in according to their
   schedule and clock them out after a minimum number of hours. This
   is the recommended method for automatically inserting hours for employees.\*\*++
 
-+ Each
+* Each
   employee assigned to the policy must have a schedule defined.
-+ Schedules
+* Schedules
   can cross midnight. Splitting the schedule at midnight is not
   necessary. This is only required for shift differentials.
-+ The
+* The
   absent exception will never occur as punches are inserted automatically.
-+ Set
+* Set
   Minimum Daily Hours and Single Punch = Yes on the Hours and Time
   Limits Section of the Policy
-+ Auto
+* Auto
   Clock In must be checked.
 
-* Hours
+- Hours
   & Time Limits: Single Punch
   â Using this method will automatically clock employees out after they
   have received a minimum number of hours. This method makes it possible
   to track the absent exception for salary employees.
 
-+ Schedules
+* Schedules
   are not required.
-+ Set
+* Set
   Minimum Daily Hours and Single Punch = Yes on the Hours and Time
   Limits Section of the Policy.
-+ Auto
+* Auto
   Clock In must be disabled. (Unchecked)
 
-*WARNING: Timecards should not be
+_WARNING: Timecards should not be
 edited manually when automatically generating hours for salary employees.
 To mark employees as absent when automatically generating hours other
 activity can be inserted. Create an Other Activity Type titled âAbsentâ
 and ensure the âExclude from Payrollâ option is checked. InfiniTime will remove automatic hours
-if an Other Activity record is inserted for the day.*
+if an Other Activity record is inserted for the day._
 
-**N*OTE: Remember, automatically
+\**N*OTE: Remember, automatically
 generated hours are based upon the employeeâs schedule. If it is necessary
 to change punches for an employee simply edit the employeeâs schedule
 to reflect to correct start and end time and recalculate. Do not change
 the employeeâs default schedule. Use the GANNT chart to alter the schedule
-for a single day.*
+for a single day.\*
 
-* *Auto
+- _Auto
   Punch to Schedule is intended for use with Hourly Employees for automatic
   tracking of scheduled breaks or Labor Switching according to the employee's
   schedule. For example, if an employee is scheduled to work in Department
   A and Job A from 8:00 AM to 10:00 AM, then Department A and Job B
   from 10:00 AM to 5:00 PM, and the employee punches in at 8:00 AM and
-  out at 5:00 PM,* InfiniTime
+  out at 5:00 PM,_ InfiniTime
   will automatically punch the employee into and out of the Scheduled
   Departments / Jobs if Auto Punch to Schedule is checked.
 
-+ Would you like to enable Auto Punch
+* Would you like to enable Auto Punch
   to Schedule?
 
 - Yes? Check Auto Punch to Schedule.
@@ -3848,11 +3855,11 @@ InfiniTime will calculate
 hours for the day as if the employee had punched in at the earliest clock
 in time as shown in the examples provided below.
 
- | | | | | 
+| | | | |
 ||
- | Earliest Clock In Time | Punch In | Punch Out | Total Calculated Hours | 
- | 6:00 AM | 5:30 AM | 2:30 PM | 8.5 | 
- | 6:00 AM | 5:00 AM | 2:30 PM | 8.5 | 
+| Earliest Clock In Time | Punch In | Punch Out | Total Calculated Hours |
+| 6:00 AM | 5:30 AM | 2:30 PM | 8.5 |
+| 6:00 AM | 5:00 AM | 2:30 PM | 8.5 |
 
 Notice how InfiniTime
 calculates employee hours as if they had punched in at the Earliest Clock
@@ -3864,11 +3871,11 @@ out. Should employees punch out after the time set in this field InfiniTime will
 the day as if the employee had punched out at the Latest Clock Out time
 as shown in the examples provided below.
 
- | | | | | 
+| | | | |
 ||
- | Latest Clock Out Time | Punch In | Punch Out | Total Calculated Hours | 
- | 5:00 PM | 9:00 AM | 5:30 PM | 8.0 | 
- | 5:00 PM | 9:00 AM | 6:00 PM | 8.0 | 
+| Latest Clock Out Time | Punch In | Punch Out | Total Calculated Hours |
+| 5:00 PM | 9:00 AM | 5:30 PM | 8.0 |
+| 5:00 PM | 9:00 AM | 6:00 PM | 8.0 |
 
 **Shift Differential Pay
 Method**
@@ -3906,35 +3913,35 @@ for each available option.
 Related
 Settings:
 
- ABC
+ABC
 Medical employs Registered Nurses (RNs) who receive differential pay for
 working during evening and early morning hours as outlined below.
 
- | | | | | 
+| | | | |
 ||
- | Differential Name | Rate | Start Time | End Time | 
- | Evening Differential | $1.00 | 8:00 PM | 12:00 AM | 
- | Morning Differential | $1.25 | 12:00 AM | 4:00 AM | 
+| Differential Name | Rate | Start Time | End Time |
+| Evening Differential | $1.00 | 8:00 PM | 12:00 AM |
+| Morning Differential | $1.25 | 12:00 AM | 4:00 AM |
 
 **Punch In
 â** When the Punch In pay method
 is chosen employees are paid the premium in effect at the time they punch
 in. For clarity multiple examples are shown below.
 
- | Scenario Description | Illustrated Break Down of Differentials - Punch In Pay Method | 
-| --- | --- |
- | An RN arrives at the hospital early and is asked to lend a hand prior to their shift. They clock in at 7PM and work until 4AM. Because the RN clocked in at 7PM, which does not fall within a period eligible for differential pay, the RN will not receive a premium for their hours. | | 
- | An RN is called in to work from 10PM to 4AM. The employee punches in at 10:00 PM, which is during the period defined by the Evening Differential. All six hours (10PM to 4AM) will be paid at the Evening Differential rate. | | 
+| Scenario Description                                                                                                                                                                                                                                                                   | Illustrated Break Down of Differentials - Punch In Pay Method |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| An RN arrives at the hospital early and is asked to lend a hand prior to their shift. They clock in at 7PM and work until 4AM. Because the RN clocked in at 7PM, which does not fall within a period eligible for differential pay, the RN will not receive a premium for their hours. |                                                               |
+| An RN is called in to work from 10PM to 4AM. The employee punches in at 10:00 PM, which is during the period defined by the Evening Differential. All six hours (10PM to 4AM) will be paid at the Evening Differential rate.                                                           |                                                               |
 
 **Punch Out
 â** When the Punch Out pay method
 is chosen employees are paid the premium in effect at the time they punch
 out. For clarity multiple examples are shown below.
 
- | Scenario Description | Illustrated Break Down of Differentials - Punch Out Pay Method | 
-| --- | --- |
- | The typical RN Day shift is 11 AM to 7PM. Mary Joe is asked to stay for an additional two hours and works from 11AM to 9PM. Because Mary clocked out at 9PM, which falls within the Evening Differential, she will receive the Evening Differential Premium for all ten hours worked. | | 
- | An RN is called in to work from 8PM to 4AM. The employee punches out at 4:15 AM. The employee will not receive a premium for the worked hours because 4:15 AM does not fall within a period defined by a differential. | | 
+| Scenario Description                                                                                                                                                                                                                                                                  | Illustrated Break Down of Differentials - Punch Out Pay Method |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| The typical RN Day shift is 11 AM to 7PM. Mary Joe is asked to stay for an additional two hours and works from 11AM to 9PM. Because Mary clocked out at 9PM, which falls within the Evening Differential, she will receive the Evening Differential Premium for all ten hours worked. |                                                                |
+| An RN is called in to work from 8PM to 4AM. The employee punches out at 4:15 AM. The employee will not receive a premium for the worked hours because 4:15 AM does not fall within a period defined by a differential.                                                                |                                                                |
 
 **Majority
 Hours â** The Majority Hours
@@ -3944,9 +3951,9 @@ is then used for all differential hours for the day as illustrated below.
 If an employee should work an equal amount of hours across multiple differentials
 they will be paid the premium associated with the first differential.
 
- | Scenario Description | Illustrated Break Down of Differentials - Majority Hours Pay Method | 
-| --- | --- |
- | An RN is called in to work from 10:00 PM to 4:00 AM. The majority of the worked hours fall within the Morning Differential. As such the employee receives the Morning Differential premium ($1.25) for all hours worked. | | 
+| Scenario Description                                                                                                                                                                                                     | Illustrated Break Down of Differentials - Majority Hours Pay Method |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| An RN is called in to work from 10:00 PM to 4:00 AM. The majority of the worked hours fall within the Morning Differential. As such the employee receives the Morning Differential premium ($1.25) for all hours worked. |                                                                     |
 
 **Zone â**
 Zone is the most commonly used pay method
@@ -3956,13 +3963,13 @@ be called in to work from 10:00 PM to 4:00 AM they would receive two hours
 of Evening Differential Pay and Four Hours of Morning Differential Pay
 as follows:
 
- | Scenario Description | Illustrated Break Down of Differentials - Zone Pay Method | 
-| --- | --- |
- | An RN is called in to work from 10:00 PM to 4:00 AM. Hours from 10:00 PM to 12:00 AM are associated with the Evening Differential. Hours from 12:00 AM to 4:00 AM are associated with the Morning Differential. The employee is paid as follows:               2 Hours Evening Differential Premium             4 Hours Morning Differential Premium | | 
+| Scenario Description                                                                                                                                                                                                                                                                                                                             | Illustrated Break Down of Differentials - Zone Pay Method |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- |
+| An RN is called in to work from 10:00 PM to 4:00 AM. Hours from 10:00 PM to 12:00 AM are associated with the Evening Differential. Hours from 12:00 AM to 4:00 AM are associated with the Morning Differential. The employee is paid as follows:            2 Hours Evening Differential Premium            4 Hours Morning Differential Premium |                                                           |
 
 #### Misc. Schedule Options - Configuration Procedure
 
-* Refer to the examples for the Earliest Clock In Time option above.
+- Refer to the examples for the Earliest Clock In Time option above.
   Are employees on this policy subject to an Earliest Clock In Time?
   Remember, if an employee punches in prior to the Earliest Clock In
   Time their punch will be changed to match the Earliest Clock In Time
@@ -3970,28 +3977,28 @@ as follows:
   the Earliest Clock In Time. The employee's exact punch time will be
   ignored.
 
-+ Yes? - Set the Earliest
+* Yes? - Set the Earliest
   Clock In Time to the earliest time which employees are permitted
   to punch in.
-+ No? - Skip to the next
+* No? - Skip to the next
   question.
 
-* Refer to the examples for the Latest Clock Out Time option above.
+- Refer to the examples for the Latest Clock Out Time option above.
   Are employees on this policy subject to a Latest Clock Out Time? Remember,
   if an employee punches out after the Latest Clock Out Time their punch
   will be changed to match the Latest Clock Out Time and their hour
   totals will be calculated as if they punched out at the Latest Clock
   Out Time. The employee's exact punch time will be ignored.
-* Are all employees on this policy eligible for Shift Differentials?
+- Are all employees on this policy eligible for Shift Differentials?
 
-+ Yes? - Identify the
+* Yes? - Identify the
   Differentials for which employees are eligible and assign them
   on the Shift Differentials Tab then select the appropriate
   Shift Differential Pay Method based on the examples above. Additional
   details on how to define shift differentials can be found in the
   [Scheduling Section](../Scheduling/Scheduling.md#dif01_Shifts_for_Differential_Purposes)
   of this document.
-+ No? - Are some employees
+* No? - Are some employees
   on this policy eligible for Shift Differentials while others are
   not?
 
@@ -4028,22 +4035,22 @@ Do you wish to track Schedules for Employees within InfiniTime?
 Schedules within the InfiniTime
 application serve several purposes:
 
-* Schedules enable tracking of employee performance through use of
+- Schedules enable tracking of employee performance through use of
   exceptions which notify managers when employees are early, tardy,
   absent, or if they forget to take a scheduled break.
-* Employee punches can be rounded directly to their scheduled start
+- Employee punches can be rounded directly to their scheduled start
   and end times based on grace periods configured within the employee's
   policy.
-* Employees can be locked out and prevented from punching if they
+- Employees can be locked out and prevented from punching if they
   should arrive outside of the grace periods for their assigned schedule.
   In this way, employees must seek management assistance if they should
   arrive outside of their scheduled time.
-* Employee arrival and departure can be managed through the scheduling
+- Employee arrival and departure can be managed through the scheduling
   process by 1.) Defining employee schedules. 2.) Providing Employees
   with access to their schedules via either a posted report or access
   to the employee module where employee's may print and view their own
   schedule as needed.
-* Differentiating between 'Scheduled' and 'Unscheduled' Hours for
+- Differentiating between 'Scheduled' and 'Unscheduled' Hours for
   use with Holiday and / or Policy Settings (IE: Policy Setting: Unscheduled
   Daily Overtime Hours are paid at 200% x an Employee's Base Rate and
   must be tracked separately from Daily Overtime Hours. Policy &
@@ -4052,31 +4059,33 @@ application serve several purposes:
   from Daily Overtime Hours.)
 
 No?
+
 - Skip to the Shift Differentials Tab Section Below. The Default Schedule
-Tab of the Policy Update Form does not need to be configured for your
-organization.
+  Tab of the Policy Update Form does not need to be configured for your
+  organization.
 
 Yes?
+
 - InfiniTime offers many
-methods for defining employees schedules. The best method for creating
-employee schedules within InfiniTime
-will depend on how often the exact scheduled periods worked by employees
-change in your organization, and whether or not individual employees regularly
-work the same schedule or varying schedules. Policy Schedules are best
-utilized when all, or most, employees on a given policy work the same
-repeating schedule. If all employees on the respective policy work the
-same schedule, then only Policy Schedules are required. If most employees
-on the respective policy work the same schedule, then a policy schedule
-can be defined to create a Default Schedule for all employees assigned
-to the policy. Then an Employee Default Schedule can be defined for each
-specific employee on the Schedule Information Section of the Employee
-Update Form as needed for those employees who work different schedules
-than their peers. [Additional
-details regarding Scheduling can be found in the Scheduling Section of
-this document.](../Scheduling/Scheduling.md#sch01_What_do_I_want_to_accomplish_by_using_schedules_) Organizations who schedule employees based on occupancy
-and / or operational activity may wish to consider [Scheduling
-using the GANNT Chart](../Scheduling/Scheduling.md#sch08_Using_the_GANNT_Chart_for_Temporary_Schedule_Changes) or [Schedule
-Skeletons](../Scheduling/Scheduling.md#sch44_Schedule_Skeletons___Benefits_and_Configuring).
+  methods for defining employees schedules. The best method for creating
+  employee schedules within InfiniTime
+  will depend on how often the exact scheduled periods worked by employees
+  change in your organization, and whether or not individual employees regularly
+  work the same schedule or varying schedules. Policy Schedules are best
+  utilized when all, or most, employees on a given policy work the same
+  repeating schedule. If all employees on the respective policy work the
+  same schedule, then only Policy Schedules are required. If most employees
+  on the respective policy work the same schedule, then a policy schedule
+  can be defined to create a Default Schedule for all employees assigned
+  to the policy. Then an Employee Default Schedule can be defined for each
+  specific employee on the Schedule Information Section of the Employee
+  Update Form as needed for those employees who work different schedules
+  than their peers. [Additional
+  details regarding Scheduling can be found in the Scheduling Section of
+  this document.](../Scheduling/Scheduling.md#sch01_What_do_I_want_to_accomplish_by_using_schedules_) Organizations who schedule employees based on occupancy
+  and / or operational activity may wish to consider [Scheduling
+  using the GANNT Chart](../Scheduling/Scheduling.md#sch08_Using_the_GANNT_Chart_for_Temporary_Schedule_Changes) or [Schedule
+  Skeletons](../Scheduling/Scheduling.md#sch44_Schedule_Skeletons___Benefits_and_Configuring).
 
 #### Schedule Settings / Rules - Shift Differentials Tab
 
@@ -4089,14 +4098,14 @@ defined by assigned shift differentials and according to the selected
 Shift Differential Pay Method. The following key points must be considered
 when assigning shift differentials to policies:
 
-* Shift Differentials must be split at midnight. A shift differential
+- Shift Differentials must be split at midnight. A shift differential
   cannot cross midnight. For example, if employees are paid differential
   hours from 8:00 PM to 4:00 AM, the schedule should be split at midnight
   as shown below.
 
 ![](/img/Policies064.png)
 
-* A single policy must not have overlapping shift differentials.
+- A single policy must not have overlapping shift differentials.
 
 For example
 ABC Medical pays a $0.50 premium for employees working at any time on
@@ -4107,20 +4116,20 @@ below illustrate two methods for configuring this scenario.
 
 **INCORRECT**
 
- | | | | | | | 
+| | | | | | |
 ||
- | **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** | 
- | Weekend Differential | 12:00 AM | 11:59 PM | Saturday | Sunday | $0.50 | 
- | Night Differential | 10:00 PM | 4:00 AM | Saturday | Sunday | $1.00 | 
+| **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** |
+| Weekend Differential | 12:00 AM | 11:59 PM | Saturday | Sunday | $0.50 |
+| Night Differential | 10:00 PM | 4:00 AM | Saturday | Sunday | $1.00 |
 
 **CORRECT**
 
- | | | | | | | 
+| | | | | | |
 ||
- | **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** | 
- | Weekend Differential      - Day | 4:00 AM | 10:00 PM | Saturday | Sunday | $0.50 | 
- | Weekend Differential     - Night | 10:00 PM | 4:00 AM Next Day | Saturday | Sunday | $1.50 | 
- | Night Differential | 10:00 PM | 4:00 AM Next Day | Monday | Friday | $1.00 | 
+| **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** |
+| Weekend Differential      - Day | 4:00 AM | 10:00 PM | Saturday | Sunday | $0.50 |
+| Weekend Differential     - Night | 10:00 PM | 4:00 AM Next Day | Saturday | Sunday | $1.50 |
+| Night Differential | 10:00 PM | 4:00 AM Next Day | Monday | Friday | $1.00 |
 
 Â·        NOTE: Pay special attention to the day
 a differential starts and ends on. The correct schedule for âWeekend Differential
@@ -4129,15 +4138,13 @@ morning. For this reason 12:00 AM to 4:00 AM must be defined on Monday
 for the Weekend Differential â Night schedule. Similarly the Night Differential
 on Friday would end at 4:00 AM on Saturday.
 
-
-
- | | | | 
+| | | |
 ||
- | Start Time | End Time | Day | 
- | 10:00 PM | 11:59 PM | Saturday | 
- | 12:00 AM | 4:00 AM | Sunday | 
- | 10:00 PM | 11:59 PM | Sunday | 
- | 12:00 AM | 4:00 AM | Monday | 
+| Start Time | End Time | Day |
+| 10:00 PM | 11:59 PM | Saturday |
+| 12:00 AM | 4:00 AM | Sunday |
+| 10:00 PM | 11:59 PM | Sunday |
+| 12:00 AM | 4:00 AM | Monday |
 
 ### Shift Differential Configuration Overview
 
@@ -4209,28 +4216,28 @@ shift differential is a contiguous block of time paid at a certain rate
 or premium. Because of this a single shift differential can be configured
 for employees on the Evening Team A and Evening Team B Shifts.
 
- | | | | | | | 
+| | | | | | |
 ||
- | **Shift Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Shift Premium** | 
- | Evening Team A | 7:00 PM | 3:00 AM | Monday | Friday | $1.00 | 
- | Evening Team B | 9:00 PM | 5:00 AM | Monday | Friday | $1.00 | 
+| **Shift Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Shift Premium** |
+| Evening Team A | 7:00 PM | 3:00 AM | Monday | Friday | $1.00 |
+| Evening Team B | 9:00 PM | 5:00 AM | Monday | Friday | $1.00 |
 
- | | | | | | | 
- | --- | --- | --- | --- | --- | --- | 
- | **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** | 
- | Evening Teams | 7:00 PM | 5:00 AM | Monday | Friday | $1.00 | 
+|                       |                |              |               |             |                          |
+| --------------------- | -------------- | ------------ | ------------- | ----------- | ------------------------ |
+| **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** |
+| Evening Teams         | 7:00 PM        | 5:00 AM      | Monday        | Friday      | $1.00                    |
 
 Shift
 Differentials paid by XYZ Medical are listed below. Each differential
 must be configured as a Shift with the âUsed for Differentialâ option
 enabled.
 
- | | | | | | | 
+| | | | | | |
 ||
- | **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** | 
- | Weekend Differential | 12:00 AM | 11:59 PM | Saturday | Sunday | $0.75 | 
- | CNA Evening Differential | 10:00 PM | 6:00 AM | Monday | Friday | $1.00 | 
- | RN Evening Differential | 8:00 PM | 8:00 AM | Monday | Friday | $1.25 | 
+| **Differential Name** | **Start Time** | **End Time** | **Start Day** | **End Day** | **Differential Premium** |
+| Weekend Differential | 12:00 AM | 11:59 PM | Saturday | Sunday | $0.75 |
+| CNA Evening Differential | 10:00 PM | 6:00 AM | Monday | Friday | $1.00 |
+| RN Evening Differential | 8:00 PM | 8:00 AM | Monday | Friday | $1.25 |
 
 When
 configuring shift differentials it is important to recognize the schedule
@@ -4244,6 +4251,7 @@ Follow
 the steps below to configure each differential required by your organization.
 Additional details on configuring Shift Differentials can be found in
 the [Scheduling
+
 - Shift Differentials section](../Scheduling/Scheduling.md#dif01_Shifts_for_Differential_Purposes) of this document.
 
 ![](/img/Policies063.png)
@@ -4303,17 +4311,15 @@ Shift Differential Requirements / Policy Settings**
 The
 following policies are required to meet the needs of XYZ Medical:
 
-
-
- | | | | 
+| | | |
 ||
- | **Policy Name** | **Unique Policy Settings** | **Eligible Shift Differentials** | 
- | Corporate Hourly | Break & Rounding Rules | None | 
- | Corporate Salary | Overtime & Break Rules | None | 
- | Hourly Employees | Break & Rounding Rules | Weekend Differential | 
- | Salary Employees | Overtime & Break Rules | Weekend Differential | 
- | Certified Nurse Assistants | None | Weekend & CNA Night Differentials | 
- | Registered Nurses | None | Weekend & RN Night Differentials | 
+| **Policy Name** | **Unique Policy Settings** | **Eligible Shift Differentials** |
+| Corporate Hourly | Break & Rounding Rules | None |
+| Corporate Salary | Overtime & Break Rules | None |
+| Hourly Employees | Break & Rounding Rules | Weekend Differential |
+| Salary Employees | Overtime & Break Rules | Weekend Differential |
+| Certified Nurse Assistants | None | Weekend & CNA Night Differentials |
+| Registered Nurses | None | Weekend & RN Night Differentials |
 
 In the above example
 employees classified as Certified Nurse Assistants and Registered Nurses
@@ -4356,11 +4362,11 @@ by time would be configured as shown in the table below.
 
 ![](/img/Policies032.png)
 
- | | | | 
+| | | |
 ||
- | Day of Week | Other Activity Type | Minimum Standby Hours | 
- | Saturday | On Call â RN | 8.00 | 
- | Sunday | On Call â RN | 8.00 | 
+| Day of Week | Other Activity Type | Minimum Standby Hours |
+| Saturday | On Call â RN | 8.00 |
+| Sunday | On Call â RN | 8.00 |
 
 Insert - Opens
 the Policy Stand By Time Update Form as shown below. Used to define Stand
@@ -4406,29 +4412,31 @@ Do Employees on this policy receive Other Activity Hours automatically
 for specific days of the week?
 
 No?
+
 - Stand by Time is not required for this policy. Configuration for this
-policy is complete.
+  policy is complete.
 
 Yes?
+
 - Create a Stand by Time Entry for each day of Week // Other Activity
-Type combination to award Other Activity Hours as appropriate based on
-your organization's stand by time rules. Instructions are provided below.
+  Type combination to award Other Activity Hours as appropriate based on
+  your organization's stand by time rules. Instructions are provided below.
 
 1. Click on the Day of Week Tab for which
-all employees on the policy should receive a set number of Other Activity
-Hours.
+   all employees on the policy should receive a set number of Other Activity
+   Hours.
 
 2. Click on Insert
 
 3. Select the desired Other Activity Type
 
 4. Set the Minimum Stand By Hours. InfiniTime will automatically insert
-the specified number of hours for the selected Other Activity Type
+   the specified number of hours for the selected Other Activity Type
 
 5. If desired, set the Valid From and Valid
-To Date for the Stand By Time Entry. As explained above, InfiniTime will not insert Stand By
-Time before the Valid From Date or After the Valid To Date for employees
-assigned to the respective policy.
+   To Date for the Stand By Time Entry. As explained above, InfiniTime will not insert Stand By
+   Time before the Valid From Date or After the Valid To Date for employees
+   assigned to the respective policy.
 
 6. Repeat Steps 1 to 5 for each Day of Week
-for which employees receive Stand By Time.
+   for which employees receive Stand By Time.

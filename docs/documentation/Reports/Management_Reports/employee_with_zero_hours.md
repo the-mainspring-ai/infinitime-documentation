@@ -3,8 +3,6 @@ title: "Employee With Zero Hours Report"
 description: "A report listing employees with no hours worked within a specified date range, useful for identifying inactive employees."
 ---
 
-Employee With Zero Hours
-
 # Employee With Zero Hours
 
 Displays a list of employees that have no hours worked in the date range specified by the Selection Criteria.

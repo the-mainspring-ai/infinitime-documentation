@@ -3,8 +3,6 @@ title: "HR Profile Documentation"
 description: "Guide to managing employee information such as benefits, contact details, employment status, and wages within the HR Profile tab."
 ---
 
-HR Profile
-
 # HR Profile
 
 ![](/img/HR_Profile.gif)

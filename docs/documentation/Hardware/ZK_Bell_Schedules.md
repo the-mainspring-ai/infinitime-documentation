@@ -3,8 +3,6 @@ title: "Bell Schedule Configuration Guide"
 description: "Learn how to set up and manage bell schedules on Luna, Zephyr, Athena, and Juno terminals, including hardware limitations and setup steps."
 ---
 
-Bell Schedules
-
 # Bell Schedules
 
 Schedules can be configured to play a bell sound on the internal speaker of the Luna, Zephyr, Athena, and Juno Terminals. While the Luna, Zephyr, and Juno Terminals do not feature an external relay and would not be realistic for use in a large warehouse the internal speaker is relatively loud at full volume and works perfectly for smaller areas. Due to hardware limitations a maximum of ten bell schedules can be configured. IE: Bell schedules can be configured to ring the internal bell a maximum of ten times in a single day.

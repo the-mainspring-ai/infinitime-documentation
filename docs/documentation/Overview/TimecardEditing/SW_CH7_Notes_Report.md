@@ -3,8 +3,6 @@ title: "Timecard Note Report Documentation"
 description: "Guide to generating and using the Timecard Note Report for reviewing employee timecard notes within a specified date range."
 ---
 
-Timecard Note Report
-
 # Timecard Note Report
 
 Displays all Timecard Notes in the selected date range for employees specified by Selection Criteria. The Timecard Note Report can be found under the Management Reports Category on the Report Library.

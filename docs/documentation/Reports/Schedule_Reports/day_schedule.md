@@ -3,8 +3,6 @@ title: "Day Schedule Report"
 description: "A guide to understanding and customizing the Day Schedule report, including options for display characters, graphics, and department filtering."
 ---
 
-Day Schedule
-
 # Day Schedule
 
 Displays a chart, which assists with employee scheduling by showing all days that have a schedule defined within the date range, specified by Selection Criteria.

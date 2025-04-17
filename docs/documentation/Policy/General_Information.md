@@ -3,8 +3,6 @@ title: "Policy Update Form - General Information"
 description: "Overview of the General tab in the policy update form, including fields like Name, Class, Default Class, and Employees Working From, along with navigation options."
 ---
 
-General Information
-
 # General Information
 
 In the General tab of the policy update form, basic information about the policy is given.

@@ -3,8 +3,6 @@ title: "Payroll Detail Report"
 description: "A detailed report displaying hourly totals, in/out punches, and estimated wages with customizable options."
 ---
 
-Payroll Detail
-
 # Payroll Detail
 
 Displays hourly totals in addition to in and out punches and calculates estimated wages.

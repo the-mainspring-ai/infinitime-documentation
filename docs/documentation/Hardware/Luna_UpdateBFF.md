@@ -3,8 +3,6 @@ title: "Update Luna Reader BIOS from File"
 description: "Guide on manually updating the Luna Reader BIOS using a configuration file from a USB thumb drive."
 ---
 
-Update Bios From File
-
 # Update Bios From File
 
 Bios updates which include additional functionality are periodically available for the Luna Reader. The Luna Bios can be updated manually by placing the configuration file provided by Inception Technologies on a thumb drive and following the procedure provided below.

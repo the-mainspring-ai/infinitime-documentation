@@ -3,8 +3,6 @@ title: "Inserting Timecard Notes"
 description: "A step-by-step guide on how to add notes to timecard records using the Right Click Menu in InfiniTime."
 ---
 
-Inserting Timecard Notes
-
 # Inserting Timecard Notes
 
 Timecard Notes are added through use of the Right Click Menu within the InfiniTime Timecard Tables as detailed below.

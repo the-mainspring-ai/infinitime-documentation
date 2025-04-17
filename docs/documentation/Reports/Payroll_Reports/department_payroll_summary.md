@@ -3,8 +3,6 @@ title: "Department Payroll Summary Report"
 description: "A detailed overview of department hours and gross pay within a specified date range, with customizable options and visual options."
 ---
 
-Department Payroll Summary
-
 # Department Payroll Summary
 
 Displays department totals, in hours, for the date range specified by Selection Criteria and calculates corresponding dollar totals.

@@ -3,8 +3,6 @@ title: "Updating the Zephyr Clock"
 description: "Step-by-step instructions for manually updating the Zephyr clock to ensure employee data and program are current, including accessing configuration tools and system monitor."
 ---
 
-Updating the Zephyr Clock
-
 # Updating the Zephyr Clock
 
 The update process must be performed every time employee information such as Login IDs, Departments, or Other Activity Types are altered. The update process sends all employee information and the program for the Zephyr clock to the Zephyr unit. Keep in mind only employees specified by the employee filter on the Reader Address settings will be sent to the unit. Step by step instructions for manually updating a Zephyr clock are provided below. It should be noted that the software will automatically update the program to the Zephyr and poll punches on a routine basis as long as the InfiniTime Housekeeping service is running and the clock is active.

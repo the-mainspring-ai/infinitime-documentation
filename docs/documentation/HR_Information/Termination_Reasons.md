@@ -3,8 +3,6 @@ title: "Managing Termination Reasons"
 description: "Guide to defining and assigning termination reasons for employees within the Human Resources system."
 ---
 
-Termination Reasons
-
 # Termination Reasons
 
 ![](/img/ch3term_3.gif)

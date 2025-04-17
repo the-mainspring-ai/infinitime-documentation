@@ -3,8 +3,6 @@ title: "Timecard Notes Overview"
 description: "A guide to using Timecard Notes for supervisors to add comments to employee timecard punches, including use cases and benefits."
 ---
 
-Timecard Notes: Overview
-
 # Timecard Notes: Overview
 
 Timecard Notes make it possible for supervisors to enter a comment or paragraph and associate the comment with a timecard punch. While this principle is similar to the operation of existing the Audit Trail system, Timecard notes are not mandatory and are only entered as deemed necessary by supervisors. Compared with the existing Audit Trail System, which automatically records an audit record each time a timecard punch is inserted, edited, or deleted, Timecard Notes offer flexibility and distinction of entry as they are only created specifically by supervisors on a case by case basis.

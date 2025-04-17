@@ -3,8 +3,6 @@ title: "Accrual Posting Report"
 description: "Overview of the Accrual Posting Report, including its purpose, usage, and available options for displaying accrual postings for employees within a specific period."
 ---
 
-Accrual Posting
-
 # Accrual Posting
 
 The Accrual Posting Report will display a list of all accrual postings for the employees in a specific period of time.  An accrual posting occurs when you set the accruals to overflow to another accrual bucket after the original accrual bucket has reached its âStop Atâ amount and it is filled or you post hour types to an accrual.  For example you have all of your overtime hours posting to a Comp Time accrual bucket.

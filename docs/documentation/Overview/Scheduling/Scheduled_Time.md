@@ -3,8 +3,6 @@ title: "Scheduled Time and Grace Period Settings in InfiniTime"
 description: "An overview of Scheduled Time, Grace Period Settings, and punch rounding features in InfiniTime for accurate time tracking and reporting."
 ---
 
-Scheduled Time
-
 # Scheduled Time
 
 ![](/img/Scheduled_Time_Rounding.gif)

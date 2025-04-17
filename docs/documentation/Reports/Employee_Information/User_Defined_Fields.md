@@ -3,8 +3,6 @@ title: "User Defined Fields Report"
 description: "Overview of options and usage for displaying user-defined fields related to employees, including grouping and display settings."
 ---
 
-User Defined Fields
-
 # User Defined Fields
 
 Displays all information related to User Defined Fields as defined within the employee table for employees specified by Selection Criteria.

@@ -3,8 +3,6 @@ title: "System Monitor Configuration"
 description: "Overview of the System Monitor report that displays port usage, reader details, and configuration options with visual examples."
 ---
 
-System Monitor Configuration
-
 # System Monitor Configuration
 
 Lists each port in use and all readers associated with the port. Provides detailed configuration information for each reader.
