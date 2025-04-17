@@ -7,8 +7,6 @@ const config = {
   tagline: "Documentation for the InfiniTime Online Project",
   favicon: "favicon.ico",
 
-  // ── Use project site URL (not a custom domain) when publishing under
-  //    https://the-mainspring-ai.github.io/infinitime-documentation/
   url: "https://the-mainspring-ai.github.io", // host for project sites :contentReference[oaicite:7]{index=7}
   baseUrl: "/infinitime-documentation/", // path with leading/trailing slash :contentReference[oaicite:8]{index=8}
 

@@ -8,7 +8,7 @@ on:
 permissions:
   contents: write # for checkout & build
   pages: write # required by actions/deploy-pages
-  id-token: write # required by actions/deploy-pages :contentReference[oaicite:3]{index=3}
+  id-token: write # required by actions/deploy-pages
 
 jobs:
   deploy:
@@ -22,7 +22,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # full history required for gh-pages operations :contentReference[oaicite:4]{index=4}
+          fetch-depth: 0 # full history required for gh-pages operations
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -31,7 +31,7 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build website
         run: npm run build # outputs to ./build
