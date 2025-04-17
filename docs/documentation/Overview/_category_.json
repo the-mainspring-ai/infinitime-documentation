@@ -1,8 +1,8 @@
 {
   "label": "Overview",
-  "position": 4,
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Overview documentation for InfiniTime"
+    "description": "Get started with InfiniTime. Learn about core concepts, modules, and basic usage. Perfect for new users and those looking to understand the fundamentals."
   }
 }

@@ -1,3 +1,29 @@
+"""
+This script corrects image URLs in markdown documentation files by comparing them with processed HTML files
+that contain the correct image references. It processes markdown files in the docs directory and updates
+image references to match the correct format found in the corresponding HTML files.
+
+The script performs the following operations:
+1. Finds corresponding HTML files for each markdown file
+2. Extracts correct image references from the HTML files
+3. Updates the markdown files with the correct image paths
+4. Handles both direct image references and placeholder images
+
+Configuration:
+- docs_dir: Directory containing markdown files to be processed
+- html_root_dir: Directory containing processed HTML files with correct image references
+- placeholder: Path to the placeholder image used for broken links
+
+Features:
+- Maintains file structure and naming conventions
+- Handles various image URL formats
+- Provides detailed logging of changes
+- Skips files without corresponding HTML versions
+
+Usage:
+    Run the script: python img-url-correction.py
+"""
+
 import os
 import re
 

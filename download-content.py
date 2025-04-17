@@ -1,3 +1,39 @@
+"""
+This script crawls and downloads content from the InfiniTime online documentation website,
+converting HTML pages to markdown format while preserving the document structure and downloading
+associated images. It creates a local copy of the documentation with proper markdown formatting
+and local image references.
+
+The script performs the following operations:
+1. Crawls the InfiniTime documentation website starting from a specified URL
+2. Downloads and converts HTML pages to markdown format
+3. Downloads and stores images locally
+4. Updates image references in the markdown to point to local files
+5. Maintains the original directory structure
+6. Handles internal links and navigation
+
+Configuration:
+- base_url: Base URL of the InfiniTime documentation
+- start_url: Initial URL to start crawling from
+- output_dir: Directory where markdown files will be saved
+- images_dir: Directory where images will be stored
+
+Features:
+- Recursive crawling of internal links
+- Image downloading and local storage
+- HTML to markdown conversion
+- Link rewriting for local navigation
+- Error handling and logging
+
+Dependencies:
+- requests: For HTTP requests
+- beautifulsoup4: For HTML parsing
+- markdownify: For HTML to markdown conversion
+
+Usage:
+    Run the script: python download-content.py
+"""
+
 import os
 import requests
 from collections import deque

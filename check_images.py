@@ -1,3 +1,30 @@
+"""
+This script checks and fixes image references in markdown documentation files to ensure they
+are compatible with Docusaurus's image handling. It verifies the existence of images in the
+static/img directory and updates references accordingly.
+
+The script performs the following operations:
+1. Finds all markdown files in the documentation directory
+2. Extracts image references from each markdown file
+3. Checks if referenced images exist in the static/img directory
+4. Updates image references to use Docusaurus-compliant absolute paths
+5. Replaces missing images with a placeholder image
+
+Configuration:
+- docs_dir: Directory containing markdown files to be processed
+- static_img_dir: Directory containing the actual image files
+
+Features:
+- Handles both markdown and HTML image syntax
+- Converts relative paths to absolute paths
+- Provides placeholder for missing images
+- Maintains detailed logging of changes
+- Preserves original file structure
+
+Usage:
+    Run the script: python check_images.py
+"""
+
 import os
 import re
 from pathlib import Path

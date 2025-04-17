@@ -1,6 +1,9 @@
-xml version="1.0" encoding="utf-8" ?
-
-Software Overview
+---
+title: Software Overview
+sidebar_label: Software Overview
+description: A comprehensive introduction to InfiniTime software, including core concepts, modules, and basic usage
+keywords: [software, overview, modules, interface, getting started]
+---
 
 # InfiniTime Software Overview
 
