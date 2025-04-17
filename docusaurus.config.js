@@ -19,11 +19,11 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
-
+  deploymentBranch: "gh-pages",
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "InfiniTimeOrg", // Usually your GitHub org/user name.
-  projectName: "infintime-docs", // Usually your repo name.
+  organizationName: "the-mainspring-ai", // Usually your GitHub org/user name.
+  projectName: "infinitime-documentation", // Usually your repo name.
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",

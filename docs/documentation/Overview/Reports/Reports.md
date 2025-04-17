@@ -3,7 +3,6 @@ title: "InfiniTime Reports Overview"
 description: "A guide to accessing and understanding the various reports available in InfiniTime, including informational and data-driven reports for employee and timecard management."
 ---
 
-Reports
 
 # InfiniTime Reports - Introduction
 
