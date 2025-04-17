@@ -8,8 +8,8 @@ const config = {
   favicon: "favicon.ico",
 
   // Your custom domain; ensure a static/CNAME file contains 'infinitimeonline.net'
-  url: "https://infinitimeonline.net",
-  baseUrl: "/",
+  url: "https://the-mainspring-ai.github.io", // Top‑level host
+  baseUrl: "/infinitime-documentation/",
 
   organizationName: "the-mainspring-ai", // GitHub org
   projectName: "infinitime-documentation", // Repo name
