@@ -1,6 +1,6 @@
 ---
 title: Hardware Overview
-description: "Learn how to configure hardware and access control
+description: "Learn how to configure hardware and access control"
 ---
 
 ## Reader Configuration
@@ -11,7 +11,7 @@ The reader configuration table lists all devices that are connected
 to the InfiniTime software.
 The reader configuration table provides a convenient location for testing
 device connectivity, updating reader programming, and updating employee
-data contained in a readerâs database. Before a clock can be used to poll
+data contained in a reader's database. Before a clock can be used to poll
 timecard activity, the clock must be configured. Detailed configuration
 and installation instructions are available for each InfiniTime
 compatible time collection device.
@@ -30,7 +30,7 @@ Accessing the Reader Configuration Table
 The Reader Configuration Table will open.
 The reader configuration table is organized in a tree structure similar
 to that used by Windows Explorer. A separate folder, or reader type entry,
- is displayed for each hardware model according to its connection
+is displayed for each hardware model according to its connection
 type. In this way readers of the same model and connection type are grouped
 together. There are two steps to configuring a reader within the InfiniTime Application. First the
 Reader Type entry must be defined. By default, clicking insert will open
@@ -82,7 +82,7 @@ Poll From File: Some readers
 such as the Luna and Zephyr support the Poll From File Feature. Using
 the menu at the clock punches can be downloaded to a USB Thumb drive and
 transferred to a PC. This is especially useful for sites without a network
-or internet access. Refer to Hardware Documentation Zephyr or  Hardware
+or internet access. Refer to Hardware Documentation Zephyr or Hardware
 Documentation Luna for additional information on configuring and using
 poll from file.
 
@@ -105,10 +105,10 @@ Default Baud Rate
 Data Processing Every: Here
 you can decide how often you want the data to be processed. The automatic
 setting will process and post employee activity as soon as it is retrieved
-from the reader.  If you want to process the data according to a
+from the reader. If you want to process the data according to a
 specific time interval you can select an increment of time in which to
-process the data.  If you select an increment of time the data that
-is polled will not be processed until the time selected.  The data
+process the data. If you select an increment of time the data that
+is polled will not be processed until the time selected. The data
 is stored in the polled information and then once the time comes to process
 the data is then when it will show in the activity of the employee.
 
@@ -139,40 +139,40 @@ to connection and clock type.
 | Reader Type             | Apollo | Atlas  | Odyssey | Omega  | Orion  | Plus   | Scout  | Scout 1000 | SY-400 |
 | ----------------------- | ------ | ------ | ------- | ------ | ------ | ------ | ------ | ---------- | ------ |
 | Connection Method       | Direct | Direct | Direct  | Direct | Direct | Direct | Direct | Direct     | Direct |
-| Access Control Settings | X      | X      | X       | X      | X      |        | Xâ¦    |            | X      |
-| Bell Schedules          | X      | X      | X       | X      | X      |        | Xâ¦    |            | X      |
+| Access Control Settings | X      | X      | X       | X      | X      |        | X¦¦    |            | X      |
+| Bell Schedules          | X      | X      | X       | X      | X      |        | X¦¦    |            | X      |
 | Communication Errors    | X      | X      | X       | X      | X      |        | X      | X          | X      |
 | General - TCP/IP Tab    |        |        |         |        |        |        |        |            |        |
 | Synel Options           | X      | X      | X       | X      | X      |        |        |            | X      |
 | Scout Options           |        |        |         |        |        |        | X      | X          |        |
 
-â¦Scout 2000 is not compatible
+¦Scout 2000 is not compatible
 with access control or bells.
 
 | Reader Type             | Apollo | Atlas | Odyssey | Omega | Orion | Scout | Scout 1000 | SY-400 |
 | ----------------------- | ------ | ----- | ------- | ----- | ----- | ----- | ---------- | ------ |
 | Connection Method       | Modem  | Modem | Modem   | Modem | Modem | Modem | Modem      | Modem  |
-| Access Control Settings | X      | X     | X       | X     | X     | Xâ¦   |            | X      |
-| Bell Schedules          | X      | X     | X       | X     | X     | Xâ¦   |            | X      |
+| Access Control Settings | X      | X     | X       | X     | X     | X¦¦   |            | X      |
+| Bell Schedules          | X      | X     | X       | X     | X     | X¦¦   |            | X      |
 | Communication Errors    | X      | X     | X       | X     | X     | X     | X          | X      |
 | General - TCP/IP Tab    |        |       |         |       |       |       |            |        |
 | Synel Options           | X      | X     | X       | X     | X     |       |            | X      |
 | Scout Options           |        |       |         |       |       | X     | X          |        |
 
-â¦Scout 2000 is not compatible
+¦Scout 2000 is not compatible
 with access control or bells.
 
 | Reader Type             | Apollo | Atlas  | Odyssey | Omega  | Orion  | Scout  | Scout 1000 | SY-400 |
 | ----------------------- | ------ | ------ | ------- | ------ | ------ | ------ | ---------- | ------ |
 | Connection Method       | TCP/IP | TCP/IP | TCP/IP  | TCP/IP | TCP/IP | TCP/IP | TCP/IP     | TCP/IP |
-| Access Control Settings |        | X      | X       |        | X      | Xâ¦    |            | X      |
-| Bell Schedules          |        | X      | X       |        | X      | Xâ¦    |            | X      |
+| Access Control Settings |        | X      | X       |        | X      | X¦¦    |            | X      |
+| Bell Schedules          |        | X      | X       |        | X      | X¦¦    |            | X      |
 | Communication Errors    | X      | X      | X       | X      | X      | X      | X          | X      |
 | General - TCP/IP Tab    | X      | X      | X       | X      | X      | X      | X          | X      |
 | Synel Options           | X      | X      | X       | X      | X      |        |            | X      |
 | Scout Options           |        |        |         |        |        | X      | X          |        |
 
-â¦Scout 2000 is not compatible
+¦Scout 2000 is not compatible
 with access control or bells.
 
 ### Configuring Reader Addresses
@@ -240,7 +240,7 @@ selected.: Enter the Reader Address assigned to the clock during setup.
 Refer to the section of this document that corresponds to your specific
 timeclock model for setup instructions.
 
-\*\* Synel Badge Readers Only \*\*
+** Synel Badge Readers Only **
 
 The following items will only be displayed
 if the clock type you have selected is a Synel Badge Reader. (Apollo/Atlas/Odyssey/Omega/Orion/Plus/SY 400)
@@ -265,7 +265,7 @@ Barcode, Magstripe, or Proximity depending on reader model.
   terminal.
 
 Badge
-Start Position:  Defaults to 1. Choose the appropriate starting
+Start Position: Defaults to 1. Choose the appropriate starting
 position for use with your badges. This setting generally does not need
 to be altered for Magstripe or Barcode Badges.
 
@@ -332,7 +332,7 @@ or modem clocks in a remote location relative to the InfiniTime
 server.
 
 Polling From Time: This field
-is used in conjunction with the âPolling To Timeâ field in order to specify
+is used in conjunction with the 'Polling To Time' field in order to specify
 a time range for polling. The reader will start polling at the Polling
 from time, and continue to poll according to the specified polling interval
 until the Polling To Time is reached. Enter the time at which the reader
@@ -387,7 +387,7 @@ port is selected on the Port Information Screen in the Reader Configuration
 Update form two options are available in this field. Specify whether the
 communications port connects directly to the clock (Direct), or if the
 communications port is connected to a modem, which will be used to connect
-to a remote clock (Modem).  If Modem is selected the modem tab, as
+to a remote clock (Modem). If Modem is selected the modem tab, as
 outlined below, will become available.
 
 _Note_:
@@ -423,7 +423,7 @@ selected.: Enter the Reader Address assigned to the clock during setup.
 Refer to the section of this document that corresponds to your specific
 timeclock model for setup instructions.
 
-\*\* Synel Badge Readers Only \*\*
+** Synel Badge Readers Only **
 
 The following items will only be displayed
 if the clock type you have selected is a Synel Badge Reader. (Apollo/Atlas/Odyssey/Omega/Orion/Plus/SY 400)
@@ -448,7 +448,7 @@ Barcode, Magstripe, or Proximity depending on reader model.
   terminal.
 
 Badge
-Start Position:  Defaults to 1. Choose the appropriate starting
+Start Position: Defaults to 1. Choose the appropriate starting
 position for use with your badges. This setting generally does not need
 to be altered for Magstripe or Barcode Badges.
 
@@ -476,9 +476,9 @@ polling times are displayed below according to clock model.
 
 | Reader Type                | Apollo     | Atlas      | Odyssey    | Omega      | Orion      | Plus | Scout     | Scout 1000 | SY-400     |
 | -------------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---- | --------- | ---------- | ---------- |
-| Minimum Polling Intervalâ¦ | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | N/A  | 5 Seconds | 5 Seconds  | 30 Seconds |
+| Minimum Polling Interval¦¦ | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | 30 Seconds | N/A  | 5 Seconds | 5 Seconds  | 30 Seconds |
 
-â¦Readers
+¦Readers
 using the modem connection method should not be polled more often than
 4 hours.
 
@@ -515,7 +515,7 @@ corresponds to the time zone where the clock is located. This is often
 used for TCP/IP or modem clocks in a remote location relative to the InfiniTime server.
 
 Polling From Time: This field
-is used in conjunction with the âPolling To Timeâ field in order to specify
+is used in conjunction with the 'Polling To Time' field in order to specify
 a time range for polling. The reader will start polling at the Polling
 from time, and continue to poll according to the specified polling interval
 until the Polling To Time is reached. Enter the time at which the reader
@@ -539,14 +539,14 @@ string, &FE0V1, should be sufficient in most cases.
 
 ### Available Departments
 
-InfiniTimeâ¢ allows you
+InfiniTime allows you
 to switch departments at the reader itself, in this screen you can select
 which departments are allowed.
 
 ![](/img/image2.jpg)
 
 By default, all of the departments are in the left hand side and all
-departments are allowed to be used for transfer at the reader.  If
+departments are allowed to be used for transfer at the reader. If
 you want to assign only a few departments then you need to move those
 departments to the right hand side by using the arrow buttons.
 
@@ -557,14 +557,14 @@ the right.
 
 ### Available Activity Types
 
-InfiniTimeâ¢ allows you
+InfiniTime allows you
 to enter other activity at the reader itself, in this screen you can select
 which activity is allowed to be entered.
 
 ![](/img/CH15_Sysmon1.gif)
 
 By default, if all of the activities are in the left hand side then
-all activities are allowed to be entered at the reader.  If you want
+all activities are allowed to be entered at the reader. If you want
 to assign only a few activities then you need to move those activities
 to the right hand side by using the arrow buttons.
 
@@ -631,19 +631,19 @@ To Assign Specific Groups to a Reader:
   a specific group to the reader as outlined below.
 
 ![](/img/CH11_ImportFields_GroupAssign.gif)
-â Assigns the selected group to the reader. You will notice that the group
+Assigns the selected group to the reader. You will notice that the group
 will be removed from the left grid and displayed in the right grid.
 
 ![](/img/maint5.gif)
-â Assigns all available groups to the reader. You will notice that all
+Assigns all available groups to the reader. You will notice that all
 groups will be removed from the left grid and displayed in the right grid.
 
 ![](/img/i11.gif)
-â Removes the selected group from the reader. You will notice that the
+Removes the selected group from the reader. You will notice that the
 group will be removed from the right grid and displayed in the left grid.
 
 ![](/img/cset22.gif)
-â Removes all selected groups from the reader. You will notice that all
+Removes all selected groups from the reader. You will notice that all
 groups will be removed from the right grid and displayed in the left grid.
 
 ### Access Control Schedule Tab
@@ -867,7 +867,7 @@ Validate Employee: If this option
 is checked employee badge numbers will be compared to employees within
 the InfiniTime database.
 If no match is found the punch will not be accepted. If a match is found
-the employeeâs name will be displayed on the clock. Should this option
+the employee's name will be displayed on the clock. Should this option
 be unchecked the badge number read from the card will simply be displayed.
 Disabling this option is useful for troubleshooting badges.
 
@@ -876,7 +876,7 @@ Access Control Requires Employee Validation. Validate Employee must be
 checked for use with access control systems
 
 User ID Only: If this option
-is checked the reader will permit clocking in using only the employeeâs
+is checked the reader will permit clocking in using only the employee's
 user ID. The password is not required.
 
 Badge Size Fixed: Check this
@@ -888,7 +888,7 @@ the last four digits will be read and four leading zeroes will be returned
 to the software. (0001234)
 
 Badge Size: Specify the fixed
-badge length you wish to use. Only integer values may be used. (IE 1,2,3â¦)
+badge length you wish to use. Only integer values may be used. (IE 1,2,3¦¦)
 
 Do Not Allow Department Switching:
 Disables department switching at the clock.
@@ -994,7 +994,7 @@ PIN Entry Allowed: Sets the
 reader to allow ID entry only. This disables the use of badges.
 
 Deactivate Speaker: Check this
-option to deactivate the readerâs internal speaker. The reader will no
+option to deactivate the reader's internal speaker. The reader will no
 longer beep when keys are pressed.
 
 Use Daylight Savings Time: Check
@@ -1002,24 +1002,24 @@ this box to automatically alter the time at the reader according to Daylight
 Savings Time.
 
 Synel Fingerprint Attached:
-Check this box if the reader is equipped with a fingerprint unit.  This
+Check this box if the reader is equipped with a fingerprint unit. This
 option is only available on the Odyssey .
 
 Using Pinless Finger Print: Check
-this box if you want to use the pinless option of the terminal,  This
+this box if you want to use the pinless option of the terminal, This
 option will only work if your Odyssey terminal is equipped with a suprema
-reader.  Once you have selected this option and the employees have
+reader. Once you have selected this option and the employees have
 been enrolled the templates will not be useful if you decide not to use
 the pinless functionality all employees must be re-enrolled.
 
 Finger
-Print Sensitivity:  You can set how sensitive you want the
-fingerprint unit to be.  The lower the number the higher the sensitivity
+Print Sensitivity: You can set how sensitive you want the
+fingerprint unit to be. The lower the number the higher the sensitivity
 it is.
 
 Fingerprint
-Reader Type:  There are two types of fingerprint readers the
-Suprema and Bioscript readers.  Only the Suprema reader can be used
+Reader Type: There are two types of fingerprint readers the
+Suprema and Bioscript readers. Only the Suprema reader can be used
 as pinless.
 
 ### Scout Options
@@ -1029,7 +1029,7 @@ as pinless.
 Reject Level: Controls clock
 sensitivity when comparing electronic hand templates to actual hand measurements
 taken when an employee attempts to punch. The lower the number the more
-sensitive the reader is to changes in employee hand geometry.  Increase
+sensitive the reader is to changes in employee hand geometry. Increase
 this setting if your employees are having issues with hand verification
 
 Hour Display: Choose a format
@@ -1037,7 +1037,7 @@ for the time displayed on the reader.
 
 ID Length: Used to force a specific
 ID length. This option will pad the ID received from the clock with zeros
-until the specified number of digits is reached. For example, if an employeeâs
+until the specified number of digits is reached. For example, if an employee's
 ID is 54 and the ID length is set to 4, the software will search for an
 employee with 0054 assigned as their employee ID. If there is no employee
 with 0054 as his or her employee ID the punch will be considered unassigned.
@@ -1056,7 +1056,7 @@ Savings Time.
 Maximum Template Security: Checking
 this box greatly reduces the length of time required to update the Scout
 Reader. Hand templates for employees assigned to the clock will be updated
-to the  Scout Clock. Any other templates stored in the scout clock
+to the Scout Clock. Any other templates stored in the scout clock
 will be removed.
 
 _Note_:
@@ -1081,7 +1081,7 @@ sensor detects excessive vibration or tampering with the clock housing.
 Checking this option enables the auxiliary output and turns on an external
 device, in this case most likely an alarm, when tampering is detected.
 
-On Time Zone Violation:  Checking
+On Time Zone Violation: Checking
 this option enables the auxiliary output when internal RSI Time zone schedules
 are violated. Refer to the section of this document that corresponds to
 your specific reader type for more information about RSI Time Zone configuration.
@@ -1155,7 +1155,7 @@ Functions
 
 Time & Attendance Punch:
 Used to punch in or out of work. When this action is performed the current
-time and date are recorded in the Scoutâs Memory. This information is
+time and date are recorded in the Scout's Memory. This information is
 sent to the InfiniTime
 software when the Scout is polled, where the information is entered into
 the Timecard Activity Table.
@@ -1175,14 +1175,14 @@ Supervisor Override w/o Verification:
 Only a supervisor can perform this action. If an employee attempts to
 clock in to work outside of their defined schedule with lockout configured
 they will be unable to clock in. This feature allows a supervisor to override
-the last punch where a schedule lockout occurred. The employeeâs hand
-is not required. The employeeâs punch will automatically be entered into
+the last punch where a schedule lockout occurred. The employee's hand
+is not required. The employee's punch will automatically be entered into
 the Timecard Activity Table when the reader is next polled.
 
 One Button Enrollment: Only
 a supervisor can perform this action. Provides single button enrollment,
 avoiding the need to use Technical Mode to access the Enrollment menu.
-Supervisors must place their hand, enter the new employeeâs id and then
+Supervisors must place their hand, enter the new employee's id and then
 have the employee place their hand in order to create an electronic hand
 template.
 
@@ -1198,7 +1198,7 @@ the In and Out Board one employee at a time. Used to view employee status
 at the clock.
 
 Cancel View/Review: When viewing
-the In and Out board or Reviewing an Employeeâs Timecard the only options
+the In and Out board or Reviewing an Employee's Timecard the only options
 available are next or previous until the last line of the In and Out Board
 or Timecard Report is reached. This function can be used to exit the In
 and Out Board or Timecard Review immediately and return to the main screen.
@@ -1207,8 +1207,8 @@ Supervisor Override w/ Verification:
 Only a supervisor can perform this action. If an employee attempts to
 clock in to work outside of their defined schedule with lockout configured
 they will be unable to clock in. This feature allows a supervisor to override
-the last punch where a schedule lockout occurred. The employeeâs hand
-is required. The employeeâs punch will automatically be entered into the
+the last punch where a schedule lockout occurred. The employee's hand
+is required. The employee's punch will automatically be entered into the
 
 Timecard Activity Table when the reader is next polled.
 
@@ -1228,7 +1228,7 @@ report for the specified employee on the attached printer. Only the Scout
 
 Access Control: Used to access
 an attached entryway. When this action is performed the current time and
-date are recorded in the Scoutâs Memory. This information is sent to the
+date are recorded in the Scout's Memory. This information is sent to the
 InfiniTime software when
 the Scout is polled, where the information is entered into the Timecard
 Activity Table.
@@ -1251,9 +1251,9 @@ Activity Table.
 
 ![](/img/ph6.gif)
 
-You can place an unlimited amount of options in one function key.   When
-you have more than two functions assigned to a key they will appear in
-sub directories of the key.  Take a look at the example below.
+You can place an unlimited amount of options in one function key.  
+When you have more than two functions assigned to a key they will appear in
+sub directories of the key. Take a look at the example below.
 
 - Option 1
 - More
@@ -1344,13 +1344,13 @@ numbers here.
 
 Also you can set a schedule of when an employee can call in to punch,
 if the employee tries to call outside of schedule the software will not
-accept the transaction.  To set a default schedule for a particular
+accept the transaction. To set a default schedule for a particular
 telephone number click on the default schedule tab.
 
 ![](/img/Ch11_Export2.gif)
 
 In the Default Schedule Tab you can insert a schedule of when this valid
-phone number is available to be used.  Click on the Quick Schedule
+phone number is available to be used. Click on the Quick Schedule
 Button to create the schedule.
 
 ![](/img/i15.gif)
@@ -1398,7 +1398,7 @@ The Telephone Punch Settings allow you to set the telephone punch options:
   Invalid Caller Id: This option will allow you to limit which
   calls will be accepted as valid, if an employee calls from an unauthorized
   phone number the software will tell the employee that they are calling
-  from an invalid number and the transaction will not be accepted.  you
+  from an invalid number and the transaction will not be accepted. you
   will need to set valid telephone numbers from where an employee can
   call in, either at the employee level, department level or here in
   the reader configuration.
@@ -1408,6 +1408,6 @@ The Telephone Punch Settings allow you to set the telephone punch options:
 - Menu Goes
   to Login After Punch: This option allows you to set the Telephone
   Punch to go back to the login prompt after an employee clock in or
-  out.  This is useful if you have multiple employees calling from
+  out. This is useful if you have multiple employees calling from
   the same location that way they do not have to dial the number again
   after each transaction.

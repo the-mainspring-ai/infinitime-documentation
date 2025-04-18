@@ -3,7 +3,7 @@ title: "InfiniTime Security Overview"
 description: "An overview of the security features in the InfiniTime Time and Attendance Web Application, including role-based access control, CAPTCHA, password management, and other protective measures."
 ---
 
-Security
+# Security
 
 ## Security Overview
 

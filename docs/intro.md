@@ -1,5 +1,5 @@
 ---
-title: "InfiniTime Documentation"
+title: "Introduction"
 description: "Comprehensive guide to understanding and using the InfiniTime time management and employee scheduling system."
 ---
 

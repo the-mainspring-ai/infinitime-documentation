@@ -30,3 +30,30 @@ Should the request be denied the employeeâs schedule will not be altered an
 Automated Messages
 
 Under specific circumstances InfiniTime sends automated messages in order to notify supervisors of the actions their employees have recently performed. If an employee should alter their personal information within the InfiniTime Employee Module a message will be sent to the employee's supervisor to provide notification of the changes. The supervisor may then check the employee's record to note the altered employee information.
+
+### Messages Section
+
+The Messages Section of the Employee
+Update Form permits InfiniTime
+Administrators and Supervisors to review both incoming and outgoing messages
+for a specific employee. Messaging allows employees to send messages to
+their supervisors regarding requests for time off, schedule changes, or
+even a simple reminder or note. Additional Details on use of messaging
+functionality can be found in the [Messaging
+Section of this document.](Messaging/Messaging.md#msg01_Messaging_Introduction)
+
+### Incoming Messages Tab
+
+The incoming messages tab displays messages recently sent to the employee.
+The Date Range may be adjusted as desired to view messages for any date
+range. In this way, InfiniTime
+Administrators may review an employee's historical messages.
+
+![](/img/SoftwareOverview_001_Btn11_Help.png)
+
+### Outgoing Messages Tab
+
+The Outgoing messages tab displays messages recently sent to the employee's
+supervisor. The Date Range may be adjusted as desired to view messages
+for any date range. In this way, InfiniTime
+Administrators may review an employee's historical messages.

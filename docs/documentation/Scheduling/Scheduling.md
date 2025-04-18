@@ -1,9 +1,9 @@
 ---
-title: "Scheduling in InfiniTime Application"
+title: "Scheduling"
 description: "An overview of scheduling features including employee tracking, punch rounding, access control, and schedule management within the InfiniTime app."
 ---
 
-Scheduling
+## Scheduling
 
 ### Scheduling Introduction
 

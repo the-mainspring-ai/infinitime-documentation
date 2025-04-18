@@ -1,5 +1,5 @@
 ---
-title: "Shift Differentials in InfiniTime Application"
+title: "Shift Differentials"
 description: "Documentation on shift differentials, including configuration, policy assignment, pay methods, and mapping options within the InfiniTime app."
 ---
 
