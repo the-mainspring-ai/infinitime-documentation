@@ -3,10 +3,6 @@ title: "Clock Tools"
 description: "..."
 ---
 
-# InfiniTime Administration
-
-## Clock Tools Introduction
-
 ### Polled Information
 
 Polled Information keeps track of all employee activity that has been
