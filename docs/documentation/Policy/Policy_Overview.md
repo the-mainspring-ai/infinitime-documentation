@@ -1,5 +1,5 @@
 ---
-title: "InfiniTime Policy Overview"
+title: "Policy Overview"
 description: "A comprehensive guide to configuring and managing policies for employee time and attendance in InfiniTime, including rules for breaks, overtime, scheduling, and employee grouping."
 ---
 
