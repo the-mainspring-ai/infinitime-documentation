@@ -6,7 +6,7 @@ description: "A guide to accessing and understanding the various reports availab
 # InfiniTime Reports - Introduction
 
 InfiniTime
-Reports are separated into multiple categories for ease of use and accessibility
+Reports are organized into categories for ease of use and accessibility
 as shown below.
 
 ### Accessing the Report Library
@@ -25,55 +25,41 @@ Saved Reports allow users to save report configurations and criteria for frequen
 
 #### Saved Reports - Essential Concepts
 
-- Saved Reports can be created, viewed, executed, and edited by all
-  users with access to the Report Library. It is not possible to limit
-  the saved reports an individual can access on the Report Library.
-  It is however possible to expose only specific saved reports to a
-  user via 1.) Use of InfiniTime
-  Escort and 2.) by configuring security to prevent the user from accessing
-  the Report Library. Additional details on Escort and Escort Window
-  Design can be found in the [Escort
-  Section](../Escort/Escort_Overview.md#esc01_Escort_Overview) of this document. Additional details on configuring
-  security rights within InfiniTime
-  can be found in the [Security
-  Section](../Security/Security_Overview.md#sec01_Security_Overview) of this document.
-- Saved Reports should be configured for all day to day, week to
-  week, and payroll related tasks / functions as appropriate for your
-  organization. In this way, Supervisors and InfiniTime
-  Administrators can quickly access relevant Time and Attendance Details
-  based on your organization's specific implementation of available
-  InfiniTime Features.
-  For example, most customers choose to create saved reports for their
-  preferred timecard reports for both Current Pay Period and Last Pay
-  Period.
-- Supervisors for specific Departments, Locations, etc. should include
-  a unique Label in their saved reports such as their Department or
-  Location Name such that all other supervisors are aware they specifically
-  created the report for their use.
-- Supervisors and InfiniTime
-  Administrators should exercise caution when altering a saved report
-  they did not initially create, especially if the report is configured
-  to automatically email on a regular basis. Remember - another user
-  may be performing specific actions such as reviewing employee timecards
-  or personnel review based on the report.
-- There is no limit to the number of saved reports that can be created
-  for each report within InfiniTime.
+- All users with Report Library access can create, view, run, and edit any saved report
+- While you can't restrict access to specific reports within the Report Library, you can:
+
+  1. Use InfiniTime Escort to show only certain reports to specific users
+  2. Use security settings to block Report Library access entirely
+
+  See the [Escort](../Escort/Escort_Overview.md#esc01_Escort_Overview) and [Security](../Security/Security_Overview.md#sec01_Security_Overview) sections for details.
+
+- Set up Saved Reports for routine tasks like:
+
+  - Daily operations
+  - Weekly reviews
+  - Payroll processing
+
+  This helps supervisors and administrators quickly access common reports, such as current and previous pay period timecards.
+
+#### Tips and Best Practices
+
+- When creating saved reports for specific departments or locations, supervisors should include
+  a unique label (such as their Department or Location name) to help other supervisors identify
+  who created and uses these reports.
 
 ### Customizing the Report Library
 
-Reports are organized into categories on the Report Library Table for
-ease of use. Customers may choose to add additional report categories
-to the report library for specific users or organizational units (IE:
-Departments / Divisions / etc.) Default Reports, as included with the
-InfiniTime Software, may
-then be copied and moved to user created report categories.  A brief
-description of each report category included within InfiniTime
-is provided below.
+You can:
 
-- Employee Information Reports
-  - This set of reports provides information on employees that is not
-    related to Time Activity. Examples include Employee accruals, comments,
-    and an employee list.
+- Create custom report categories for specific users or departments
+- Copy default InfiniTime reports to these custom categories
+- Organize reports in a way that makes sense for your organization
+
+Here are the standard report categories included with InfiniTime:
+
+- Employee Information Reports - Provides information on employees that is not
+  related to Time Activity. Examples include Employee accruals, comments,
+  and an employee list.
 - Job Cost Reports - Designed
   for reviewing Job and Task hours distributions. Intended for labor
   costing analysis. The Job Cost Reports Category will not be displayed
@@ -96,15 +82,6 @@ is provided below.
   Timecard Reports provide a variety of report types that display a
   summary or detailed information of employees timecard activity.
 
-![](/img/QS_Chapter1_16.gif)
-
-### Report Library - Context Sensitive Buttons
-
-It is important to note that the buttons displayed on the left side
-of the Report Library are context sensitive depending on the selected
-item. An outline of each scenario with different buttons for use on the
-Report Library is provided below.
-
 #### Default Report Category Selected
 
 Insert -
@@ -112,8 +89,6 @@ Creates a new Report Category and Opens the Report Category Update Form.
 The user may then enter a description for the new Report Category. User
 Created Reports can then be placed into the new report category for organization
 purposes.
-
-![](/img/Activity_Daily_Summary.gif)
 
 Change -
 Opens the Report Category Update Form for the Selected Report Category.
@@ -126,8 +101,6 @@ Creates a new Report Category and Opens the Report Category Update Form.
 The user may then enter a description for the new Report Category. User
 Created Reports can then be placed into the new report category for organization
 purposes.
-
-![](/img/SoftwareOverview_001_Btn7_Reports.png)
 
 Change -
 Opens the Report Category Update Form for the Selected Report Category.
