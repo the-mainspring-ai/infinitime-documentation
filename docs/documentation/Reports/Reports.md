@@ -3,75 +3,25 @@ title: "InfiniTime Reports Overview"
 description: "A guide to accessing and understanding the various reports available in InfiniTime, including informational and data-driven reports for employee and timecard management."
 ---
 
-
 # InfiniTime Reports - Introduction
 
-InfiniTime includes a
-variety of reports for different purposes ranging from simple informational
-reports such as the Employee Profile Report which display information
-and employee details stored within the InfiniTime
-Database to detailed data driven reports such as the Attendance Review
-Report which displays an at a glance view of Worked Days, Paid Leave,
-and Unpaid Leave along with all exceptions associated with an employee's
-timecard records for a given date range. InfiniTime
+InfiniTime
 Reports are separated into multiple categories for ease of use and accessibility
 as shown below.
 
 ### Accessing the Report Library
 
-1. Click on the Reports Button on the
-   Main Toolbar.
+1. Click on the Reports Button on the Toolbar.
 
-![](/img/Rpt012.png)
-
-2. The Report Library Table will be displayed. The Report Library
-   displays all reports included with the InfiniTime
-   Software separated into specific categories as shown below. Click
+2. The Report Library Table will be displayed. Click
    on the + Sign to expand a given report category and display reports
    included.
 
-![](/img/ValidPrinter.gif)
-
 ### Quick Print vs Saved Reports
 
-Before any of the reports within InfiniTime
-can be executed the user is first prompted to enter specific details,
-referred to as the Selection Criteria and Report Options, as appropriate
-based on the type of report. For example, Timecard and Schedule Reports
-require the user to select a Date Range for which Schedules / Timecards
-will be displayed as well as a filter to identify which employees schedules
-/ timecard records will be displayed for.
+Quick Print permits admins only one time execution of a given report for immediate viewing. These configuration settings are not saved for future use.
 
-Supervisors and InfiniTime
-Administrators with access to the Report Library have the option of executing
-reports using either quick print or creating a saved report and then executing
-the saved report.  For example purposes, the Report Library is shown
-with the Employee List report selected below. Notice how the left pane,
-where individual reports are displayed, shows the Quick Print Button at
-the bottom and the Right Pane, where saved reports for the selected report
-are displayed, lists several Saved Reports. Quick Print permits Supervisors
-and InfiniTime Administrators
-with access to the report library to set Selection Criteria and Report
-options then immediately execute and view results for a given report.
-It is important to note that the Selection Criteria and Report options
-configured for use with Quick Print are not saved - Quick Print permits
-only one time execution of a given report for immediate viewing. Saved
-Reports reduce the need for configuring the Selection Criteria and Report
-options repeatedly by permitting Supervisors and InfiniTime
-Administrators to create saved reports with Selection Criteria and Report
-options configured appropriately to meet their needs. In this way, saved
-reports permit users to view specific details on a regular basis. In general,
-it is suggested that Saved Reports be configured if a user expects to
-execute a given report more than once using the same Selection Criteria
-and Report Options.
-
-![](/img/rep1.gif)
-
-In the example above, ABC Company has configured groups and assigned
-groups to employees to indicate their Labor Classification and their default
-location. The employee list report for each individual location and labor
-classification can be quickly printed by all supervisors and the InfiniTime Administrator using the
-saved reports shown above.
+Saved Reports allow users to save report configurations and criteria for frequently run reports to avoid repetitive setup.
 
 #### Saved Reports - Essential Concepts
 

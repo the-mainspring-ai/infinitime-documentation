@@ -47,5 +47,5 @@ if __name__ == "__main__":
     # Sort by word count in descending order and get top 10
     for file_path, word_count in sorted(
         file_word_counts, key=lambda x: x[1], reverse=True
-    )[:20]:
+    )[:40]:
         print(f"{file_path:<60} {word_count:>10,}")

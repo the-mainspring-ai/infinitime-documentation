@@ -11,7 +11,7 @@ Let's explore **InfiniTime** - a comprehensive time management and employee sche
 
 This documentation will help you understand and navigate the InfiniTime system, whether you're a system administrator, manager, or employee user.
 
-While this documentation primarily covers InfiniTime v7.0, much of the information remains relevant for newer versions with appropriate context. Features of newer systems aren't documented. The images while still relevant look dated due to modernization of user interfaces over the years.
+While this documentation primarily covers InfiniTime, much of the information remains relevant for newer versions with appropriate context. Features of newer systems aren't documented. The images while still relevant look dated due to modernization of user interfaces over the years.
 
 ## Using This Documentation
 
