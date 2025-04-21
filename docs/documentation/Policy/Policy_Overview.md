@@ -3,261 +3,10 @@ title: "Policy Overview"
 description: "A comprehensive guide to configuring and managing policies for employee time and attendance in InfiniTime, including rules for breaks, overtime, scheduling, and employee grouping."
 ---
 
-# Policy Overview
+## Policy Overview
 
-InfiniTime uses policies, or sets
-of rules, to dictate how Timecard Information is handled in regards to
-break rules, overtime calculations, scheduling rules, pay cycle configuration,  rounding rules, and
-shift differentials. One of the most challenging aspects of policy configuration
-involves identifying groups of employees, or individuals, who require
-different policy settings. Once each group of employees has been identified
-a single policy can be created for each group with the appropriate options.
-The questions below will help your company identify groups of employees
-who require different policy settings.
-
-Overall, four
-steps must be performed when gathering Company Information for Policy
-Setup:
-
-1. Develop
-   a general understanding of Pay Cycle Settings, Break Rules, Exceptions,
-   Overtime Calculations, Rounding Rules, and Schedule Rules that can
-   be configured within InfiniTime
-   Policies.
-2. List
-   categories of employees requiring different settings for Pay Cycle
-   Configuration, Break Rules, Exceptions, Overtime Calculations, Rounding
-   Rules, and Scheduling Rules.
-3. Complete
-   the [InfiniTime Questionnaire Answer Sheet](https://version9.infinitimeonline.net/InfiniTime/RESOURCES/Questionnaire_InfiniTime_Setup_Answer_Sheet.pdf)
-   for each group of employees who require different Policy Settings
-   and are eligible for different Shift Differentials.
-4. Use
-   the Answer Sheet completed for each group of employees to configure
-   Policies within InfiniTime.
-
-To assist you
-with each of these steps a brief overview of the capabilities offered
-in each area of the policy and Shift Differentials is provided below along
-with the conditions that would require an additional policy. While reviewing
-the settings below, it may be helpful to know that in most cases a different
-policy is required for employees with different pay methods. For example,
-Full Time Employees, Part Time Employees, and Salary Employees often have
-different policy settings. Additional policies may be required for specific
-departments or individuals in your organization who are subject to different
-sets of rules. It is also important to understand that few policy settings
-are required. Only policy settings and options that meet the needs of
-your company should be configured. For example, if your company does not
-use the functionality provided by the Payroll Override Feature simply
-skip over the section when filling out the answer sheet.
-
-## Policy Configuration Overview
-
-### Step 1 â Develop a general understanding of Pay Cycle Settings, Break Rules, Exceptions, Overtime Calculations, Rounding Rules, and Schedule Rules
-
-A basic introduction for each section of the Policy Update Form is provided
-below to assist with separating employees with different policy requirements.
-Additional details on the exact settings in each of the following sections,
-with configuration examples, is provided in the [Policy
-Settings](Policy_Overview.md#pol7_Policy_Settings_Overview) section of this document.
-
-**General
-Policy Settings:**General Policy Settings include general settings such
-as a Name for the Policy, Pay Cycle Configuration and related options.
-Each group of employees with different Pay Cycle requirements such as
-the Start of Week Day, or the Payroll Cycle (Bi-Weekly, Weekly, Semi-Monthly
-etc.) will require separate policies.
-
-**Break Rules:** Break rules
-make it possible to track employee Breaks. Both Paid Breaks and Unpaid
-Breaks can be tracked, either manually or automatically. A different policy
-would be required for the configuration of Break Rules under the following
-conditions:
-
-- Groups
-  of Employees receive break periods of different length
-- Not all
-  Groups of Employees are eligible for breaks
-- Not all
-  Groups of Employees are required to punch in and out for breaks
-- Not All
-  Groups of Employees will have their break automatically deducted
-- Certain
-  Groups of Employees will require Paid Break Limits. Paid Break Limits
-  are used to configure constraints on Paid Breaks such that each break
-  has a minimum or maximum duration. A Daily Paid Break Maximum can
-  also be enforced.
-- Certain
-  Groups of Employees will require Unpaid Break Limits. Unpaid Break
-  Limits are used to configure constraints on Unpaid Breaks such that
-  each break has a minimum or maximum duration.
-
-**Exceptions:** Exceptions are
-conditions tracked by the InfiniTime
-Software such as Late, Early, Absent, Missing Break, etc. Each group of
-employees for which different exceptions are tracked will require an additional
-policy.
-
-**Hours and Time Limits:**Hours and Time Limits provide
-Auto Punch functionality and are primarily used for salary employees to
-allocate hours to individuals without requiring them to punch in and out.
-Each group of employees with different settings for Hours and Time Limits
-would require a different policy. For example, a company With Hourly Employees
-paid according to hours worked and Salary Employees with Auto Punch would
-require at minimum two policies, one for Salary Employees and One for
-Hourly Employees.
-
-**Overtime Rules:** Overtime
-Rules include various settings for the tracking of overtime. An additional
-policy would be required for any group of employees with different Daily,
-Weekly, Day of Week, Or Consecutive Day Overtime Requirements.
-
-**Payroll Overrides:** Payroll
-Overrides are primarily used for Salary Employees. They make it possible
-to export a predefined number of Regular and / or Overtime hours to payroll
-regardless of the amount of hours the employee worked. An additional policy
-is required for each group of employees with different Payroll Override
-settings. Remember, these settings are generally only configured for Salary
-Employees.
-
-**Rounding Rules:** Rounding
-Rules make it possible to round employee punches to the nearest Tenth
-Hour, Quarter Hour, or Half Hour. Employee punches can also be rounded
-to Scheduled Start and End Times. An additional policy is required for
-each group of employees with different settings for Rounding Rules, though
-it is rare for a company to use different rounding rules for different
-groups of employees.
-
-**Scheduling Rules:** Scheduling
-Rules include Schedule Related features such as Auto Clock In and Auto
-Clock Out, Schedule Lock Out, and Shift Differentials. An Additional policy
-would be required for each group of employees with different Scheduling
-Rules. The following conditions would require an additional policy:
-
-- Lockout
-  will be used for Certain Groups of Employees
-- Auto
-  Clock In / Out will be used for Certain Groups of Employees
-- Certain
-  Groups of Employees are eligible for specific Shift Differentials
-
-**Stand By Time:** Stand By
-Time makes it possible to track On Call Hours for employees. An Additional
-policy is required for each group of employees with different On Call
-Hours.
-
-### Step 2 â List Categories of Employees with Different Policy Settings
-
-Complete the chart for Step 1 on the Answer Sheet by describing each
-group of employees, individual employees or positions within your company
-that require different Policy Settings. Remember, a different policy is
-generally required for employees with different pay types such as Full
-Time Employees, Salary Employees, Part Time Employees, and Contract Employees,
-though it is also possible for a single policy to be used for all employees
-at companies with simple policies and procedures. List any special requirements
-for each group. Keep in mind there is no limit to the number of policies
-that can be configured within InfiniTime.
-
-| | | |
-||
-| **Policy #** | **Description of Employee Category or Individual** | **Special Requirements** |
-| Ex. 1 | Full Time Office Employees | Weekly Overtime after 40 Hours, Quarter Hour Rounding, 1 Hour Unpaid Lunch Break: Employees Must Punch for Breaks |
-| Ex. 2 | Salary Employees | Not Eligible for Overtime, Quarter Hour Rounding, One Hour Unpaid Auto Break to be deducted after 6 Hours of Work, Employees do not punch for breaks. |
-| Ex. 3 | Registered Nurses | Daily Overtime after 12 Hours, Quarter Hour Rounding, One Hour Lunch with 30 Minutes Paid and 30 Minutes Unpaid, Eligible for Evening and Weekend Shift Differentials. |
-| Ex. 4 | Certified Nurse Assistants | Daily Overtime after 12 Hours, Quarter Hour Rounding, One Hour Lunch with 30 Minutes Paid and 30 Minutes Unpaid, Eligible for Evening and Weekend Shift Differentials. |
-
-### Step 3 - Complete the InfiniTime Questionnaire Answer Sheet for each group of employees who require different Policy Settings
-
-To assist with identifying your organization's Time and Attendance related
-rules, Inception Technologies
-has developed a Questionnaire and corresponding answer sheet with specific
-questions to prompt Human Resources and Payroll Personnel with specific
-questions for analyzing Time and Attendance policies for a given set of
-employees. The InfiniTime
-Questionnaire and corresponding answer sheet can be downloaded from the
-links below.
-
-[InfiniTime Questionnaire](https://version9.infinitimeonline.net/InfiniTime/RESOURCES/Questionnaire_InfiniTime_Setup.pdf)
-
-[InfiniTime Questionnaire Answer Sheet](https://version9.infinitimeonline.net/InfiniTime/RESOURCES/Questionnaire_InfiniTime_Setup_Answer_Sheet.pdf)
-
-### Step 4 - Use the Answer Sheet completed for each group of employees to configure Policies within InfiniTime
-
-After completing the InfiniTime
-Questionnaire Answer sheet for each category of employees who require
-different policy settings, use the Answer sheet as a template to configure
-policies within InfiniTime.
-One policy should be created for each previously completed answer sheet.
-
-### Accessing The Policy Table
-
-1. Login to the Manager Module
-2. Click on Company on the pull down menu
-3. Click on Setup
-4. Click on Policies
-
-![](/img/Policies065.png)
-
-5. The Policy Table will be displayed.
-
-### Policy Table
-
-The Policy Table lists all policies currently configured within the
-InfiniTime software. At
-time of installation, InfiniTime
-includes only one policy - the 'Default' Policy as shown below. Additional
-policies must be configured as appropriate to meet your organization's
-needs.
-
-![](/img/Escort008.png)
-
-Recalculate - Opens the Timecard Recalculate
-Window for the selected policy which permits the InfiniTime
-Administrator to recalculate timecards for all employees assigned to the
-selected policy.
-
-![](/img/Escort006.png)
-
-Copy -
-Creates a new policy with the same settings as the highlighted policy.
-Useful when creating a policy for a new category of employees or an individual
-with requirements only slightly different from an existing policy.
-
-Insert
-
-- Opens the Policy Update Form to create a new policy.
-
-Change
-
-- Opens the Policy Update Form for the selected policy, allowing the InfiniTime Administrator to adjust
-  policy settings as needed.
-
-Delete
-
-- Deletes the selected policy. A policy cannot be deleted if it is already
-  assigned to an employee.
-
-## Policy Settings Overview
-
-For ease
-of use, the Policy Update Form is separated into different sections and
-tabs as shown below. The remainder of this document will reference individual
-settings for each section and tab on the Policy Update Form. Examples
-are provided for the most common configurations and settings. Additionally,
-for feature rich sections a set of prompts are provided to assist with
-determining your organization's needs.
-
-![](/img/Policies024.png)
-
-The
-details below are intended to be supplemental and / or for reference purposes
-to look up the functionality of a specific policy setting or policy section.
-The InfiniTime Questionnaire includes all necessary details and prompts
-to assist with determining your organization's needs and completing the
-InfiniTime Questionnaire Answer Sheet for each category of employees with
-different policy requirements. Inception Technologies
-strongly recommends using the provided Questionnaire and corresponding
-answer sheet to assist with Policy Configuration.
+This document will reference individual
+settings for each section and tab on the Policy Update Form.
 
 ### General Section
 
@@ -273,14 +22,11 @@ the General Tab and Pay Cycle Tab, must be configured for every policy.
 
 ### General Tab
 
-![](/img/clip_image005.jpg)
-
-Policies can
-be grouped together in such a way that employees will be automatically
+Policies can be grouped together in such a way that employees will be automatically
 moved from one policy to the next after they have been with the company
 for a certain length of time.
 
-**Name â**
+**Name**
 The policy name is listed in the Policy Table and should describe the
 group of employees who will be assigned to the policy.
 
@@ -289,7 +35,7 @@ group of employees who will be assigned to the policy.
 be assigned to the same class.
 
 **Default
-Class** â The default class refers to a secondary group of policies.
+Class** The default class refers to a secondary group of policies.
 If an employee assigned to the policy should be ineligible for all policies
 within the current class (or group) the software will search the default
 class for a policy matching the employeeâs tenure.
@@ -3834,7 +3580,7 @@ Calculated Hour Totals:
 
 ![](/img/OTPay_Rate.gif)
 
-### **Unscheduled Hours Mapping Configuration Procedure**
+### Unscheduled Hours Mapping Configuration Procedure
 
 **The Unscheduled
 Hours Mapping Options are intended for organizations who pay unscheduled
@@ -3844,7 +3590,7 @@ on the configuration and use of [Unscheduled
 Hours Mapping can be found in the Hours Mapping Section](../Configuration/Product_Configuration.md#hm4_Policy_Unscheduled_Hours_Mapping)
 of this document.
 
-### **Misc. Schedule Options**
+### Misc. Schedule Options
 
 **![](/img/Policies035.png)**
 
