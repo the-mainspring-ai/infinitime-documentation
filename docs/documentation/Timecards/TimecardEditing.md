@@ -3,8 +3,6 @@ title: "Timecard Editing Overview"
 description: "Learn about the methods for viewing and editing employee timecards in InfiniTime, including the Company and Employee Timecard Tables and their optimal use cases."
 ---
 
-TimecardEditing
-
 # Timecard Editing Overview
 
 InfiniTime includes two
