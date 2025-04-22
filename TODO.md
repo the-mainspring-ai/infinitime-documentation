@@ -14,11 +14,7 @@ Policy - Section guides making the "features" useful to the context that someone
 
 ### Questions
 
+- "The InfiniTime
+  Housekeeping Service must be started and running." is this cron jobs for the old system?
 - Where to stick premium pay as it spans multiple segements.
-
-<!-- Still in system & useful?
-
-clock tools - The InfiniTime Housekeeping Service
-
-
- -->
+- i haven't see any CAPTCHA anywhere in the system, is there still one?

@@ -22,8 +22,6 @@ Accessing the Reader Configuration Table
 
 - Click on Lookups
 
-![](/img/maint2.gif)
-
 - Click
   on Reader Configuration
 
@@ -39,8 +37,6 @@ to specify the type and connection method for their readers. When this
 information is saved the reader type entry is created. Two examples of
 reader entry types are shown below.
 
-![](/img/cb1.gif)
-
 After a reader entry type has been created
 a reader address entry must be defined. To insert a reader address entry
 follow the steps below.
@@ -48,35 +44,23 @@ follow the steps below.
 1.) Expand the Reader
 Type Entry by clicking on the plus sign.
 
-![](/img/CH11_ImportFields_Badge.gif)
-
 2.) Click on None and Click Insert to open
 the Reader Configuration Update Form.
 
-![](/img/HousekeepingSvcStopped.gif)
-
 ### Reader Configuration Update Form
-
-![](/img/RLSNOTE_707-05.jpg)
 
 Port Name: Enter a name for
 your clock. This name should be recognizable and descriptive, as it will
 be displayed in the Reader Configuration Table representing the record
 for your clock.
 
-![](/img/CH11_ImportFields_Shifts.gif)
-
 Type: Select your Clock Model
 from the models in the list. NOTE: A scout 1000 requires a different configuration
 than other Scout Models. Select the Scout 1000 type if you have a Scout 1000.
 
-![](/img/cset34.gif)
-
 Port: Select the port that corresponds
 to your reader. Select TCP/IP if you are using an Ethernet connection
 to communicate with your clock.
-
-![](/img/maint3.gif)
 
 Poll From File: Some readers
 such as the Luna and Zephyr support the Poll From File Feature. Using
@@ -123,8 +107,6 @@ Last Data Process Time: Displays
 the time at which data was last processed.
 
 ### Reader Addresses Tab
-
-![](/img/eb2.gif)
 
 The Reader Address Update form, as shown when inserting a new reader
 configuration or changing an existing reader configuration, is connection
@@ -813,7 +795,7 @@ Specify the amount of errors that can occur before the software will stop
 communicating with the reader. Leaving this blank will ensure communication
 is not automatically stopped.
 
-### Synel Software Settings
+### Synel Software Settings (work with other devices?)
 
 ![](/img/cset27.gif)
 
@@ -900,7 +882,7 @@ Do Not Display Punch Type At Clock:
 Disables the display of Clock In or Clock out when a punch is successfully
 validated.
 
-### Synel Hardware Settings
+### Synel Hardware Settings (work with other devices?)
 
 ![](/img/tcard10.gif)
 
@@ -1021,308 +1003,6 @@ Fingerprint
 Reader Type: There are two types of fingerprint readers the
 Suprema and Bioscript readers. Only the Suprema reader can be used
 as pinless.
-
-### Scout Options
-
-![](/img/rb1.gif)
-
-Reject Level: Controls clock
-sensitivity when comparing electronic hand templates to actual hand measurements
-taken when an employee attempts to punch. The lower the number the more
-sensitive the reader is to changes in employee hand geometry. Increase
-this setting if your employees are having issues with hand verification
-
-Hour Display: Choose a format
-for the time displayed on the reader.
-
-ID Length: Used to force a specific
-ID length. This option will pad the ID received from the clock with zeros
-until the specified number of digits is reached. For example, if an employee's
-ID is 54 and the ID length is set to 4, the software will search for an
-employee with 0054 assigned as their employee ID. If there is no employee
-with 0054 as his or her employee ID the punch will be considered unassigned.
-Generally this option can be left blank.
-
-Idle Message: Enter the message
-that will be displayed on the reader while the reader is in the idle state.
-
-Keys Beep When Hit: Checking
-this box will cause the reader to beep when a key is pressed.
-
-Use Daylight Savings Time: Check
-this box to automatically alter the time at the reader according to Daylight
-Savings Time.
-
-Maximum Template Security: Checking
-this box greatly reduces the length of time required to update the Scout
-Reader. Hand templates for employees assigned to the clock will be updated
-to the Scout Clock. Any other templates stored in the scout clock
-will be removed.
-
-_Note_:
-Any employees with hand templates on the clock that are not setup within
-the InfiniTime software
-will not be able to punch in if this option is enabled. It is important
-to ensure all employees have a record in the InfiniTime
-Application before enabling this option. Otherwise the employee will have
-to be enrolled again.
-
-Auxiliary Output Configuration
-
-Certain Scout models have auxiliary outputs available for various purposes.
-Auxiliary outputs can be used to activate a buzzer, sign or any other
-low voltage item.
-
-_Note_:
-The options below only apply to the Scout 3000 and 4000 Models.
-
-On Tamper: An internal mercury
-sensor detects excessive vibration or tampering with the clock housing.
-Checking this option enables the auxiliary output and turns on an external
-device, in this case most likely an alarm, when tampering is detected.
-
-On Time Zone Violation: Checking
-this option enables the auxiliary output when internal RSI Time zone schedules
-are violated. Refer to the section of this document that corresponds to
-your specific reader type for more information about RSI Time Zone configuration.
-
-On ID Refused: Checking this
-option enables the corresponding auxiliary output when an employee enters
-an ID that is not recognized by the system.
-
-On Duress: Checking this option
-enables the corresponding auxiliary output when an employee presses the
-attached Duress Button. Refer to the section of this document that corresponds
-to your specific reader type for more information about wiring a Duress
-Button.
-
-On Door: Checking this option
-enables the corresponding auxiliary output when the attached Door Button
-is pressed. Refer to the section of this document that corresponds to
-your specific reader type for more information about wiring a Door Button.
-
-On Try Again: Checking this
-option enables the corresponding auxiliary output when the reader fails
-to properly compare a hand to an electronic template.
-
-On F1 Key: Checking this option
-enables the corresponding auxiliary output when the F1 Key is pressed.
-
-On F2 Key: Checking this option
-enables the corresponding auxiliary output when the F2 Key is pressed.
-
-On Power Failure: Checking this
-option enables the corresponding auxiliary output in the event of power
-failure. The clock must have a backup battery installed in order to use
-this option. Without a backup battery the clock would simply lose power.
-
-On Unlock: Checking this option
-enables the corresponding auxiliary output when the attached door is unlocked.
-
-Lock Relay Open Duration: Specify
-the duration for the auxiliary output to remain enabled if she specified
-conditions should be met.
-
-### Function Key Configuration
-
-Scout 2000, 3000, and 4000 models have programmable function keys on
-the keypad the can be used for a broad range of purposes. Each function
-key can be configured with multiple functions according to user preference.
-
-_Note_:
-All function keys are not available on each Scout Model. See the table
-below for available function keys according to Scout Model.
-
-| Reader Model            | Scout 1000 | Scout 2000 | Scout 3000 | Scout 4000 |
-| ----------------------- | ---------- | ---------- | ---------- | ---------- |
-| Available Function Keys | None       | F1 - F2    | F1 - F2    | F1 - F10   |
-
-Unlike Synel Terminals, Scout Readers do not
-have preset configuration settings such as Time & Attendance Only
-or Access Control Only. Instead the Default action and function keys are
-configured to perform specific actions. The Default action, as shown below,
-is originally set to Time and Attendance and must be changed in order
-to specify Access Control as the primary purpose of the reader.
-
-_Note_:
-Scout Readers cannot operate in Dual Time & Attendance and Access
-Control mode.
-
-![](/img/cset3.gif)
-
-Available Function Key
-Functions
-
-Time & Attendance Punch:
-Used to punch in or out of work. When this action is performed the current
-time and date are recorded in the Scout's Memory. This information is
-sent to the InfiniTime
-software when the Scout is polled, where the information is entered into
-the Timecard Activity Table.
-
-Department Transfer: Used to
-switch departments. When this action is performed employees can choose
-which department they would like to transfer to. Employees will automatically
-be clocked out of their current department and clocked into the selected
-department at the current time and date. These activity entries will be
-entered into the Timecard Activity Table when the Scout is next polled.
-
-Other Activity Entry: Provides
-the ability to enter other activity entries for a specific employee at
-the clock.
-
-Supervisor Override w/o Verification:
-Only a supervisor can perform this action. If an employee attempts to
-clock in to work outside of their defined schedule with lockout configured
-they will be unable to clock in. This feature allows a supervisor to override
-the last punch where a schedule lockout occurred. The employee's hand
-is not required. The employee's punch will automatically be entered into
-the Timecard Activity Table when the reader is next polled.
-
-One Button Enrollment: Only
-a supervisor can perform this action. Provides single button enrollment,
-avoiding the need to use Technical Mode to access the Enrollment menu.
-Supervisors must place their hand, enter the new employee's id and then
-have the employee place their hand in order to create an electronic hand
-template.
-
-View Accrual Totals: Shows accrual
-totals for the employee specified. Employees must enter their ID and hand
-after selecting this option.
-
-View Last Punch: Shows the last
-punch for the employee specified.
-
-View In/Out Board: Displays
-the In and Out Board one employee at a time. Used to view employee status
-at the clock.
-
-Cancel View/Review: When viewing
-the In and Out board or Reviewing an Employee's Timecard the only options
-available are next or previous until the last line of the In and Out Board
-or Timecard Report is reached. This function can be used to exit the In
-and Out Board or Timecard Review immediately and return to the main screen.
-
-Supervisor Override w/ Verification:
-Only a supervisor can perform this action. If an employee attempts to
-clock in to work outside of their defined schedule with lockout configured
-they will be unable to clock in. This feature allows a supervisor to override
-the last punch where a schedule lockout occurred. The employee's hand
-is required. The employee's punch will automatically be entered into the
-
-Timecard Activity Table when the reader is next polled.
-
-View Hour Totals: Displays hourly
-totals for the employee specified. An Hourly Totals type must be selected
-on the General Tab of the Reader Address Configuration Form in order to
-use this option.
-
-Review Timecard: Shows the timecard
-report line by line. The Cancel View/Review function can be used to exit
-review mode. In order to use this option the Total Hours Type must be
-configured in the General Tab of the Reader Address Configuration Tab.
-
-Print Timecard: Prints the timecard
-report for the specified employee on the attached printer. Only the Scout
-3000 and Scout 4000 are compatible with this option.
-
-Access Control: Used to access
-an attached entryway. When this action is performed the current time and
-date are recorded in the Scout's Memory. This information is sent to the
-InfiniTime software when
-the Scout is polled, where the information is entered into the Timecard
-Activity Table.
-
-### Function Key Setup
-
-- Double click on the Function Key you wish to configure. The function
-  key folder will open showing functions assigned to it.
-
-![](/img/CH15_UnassignedPunches.gif)
-
-- Click on one of the functions assigned to the Function Key.
-
-![](/img/ch3term_5.gif)
-
-- Use the Insert, Change, and Delete keys at the bottom of the screen
-  to alter the assigned functions as desired. The order functions are
-  displayed on the clock can also be adjusted with the Move Up or Move
-  Down buttons.
-
-![](/img/ph6.gif)
-
-You can place an unlimited amount of options in one function key.  
-When you have more than two functions assigned to a key they will appear in
-sub directories of the key. Take a look at the example below.
-
-- Option 1
-- More
-
-When you Hit the 2 button
-
-- Option 2
-- More
-
-This chain will continue depending on how many options you have chosen
-for this function key.
-
-### Zephyr / Luna Reader Settings
-
-![](/img/i29.gif)
-
-Terminal Mode: Specifies
-the default operation on the terminal. The Zephyr, Juno, and Luna Terminals
-supports only Time and Attendance.
-
-Hour Display:
-Select the desired time format for display at the clock. The terminal
-can display time in a 12 or 24 hour format.
-
-Date Format:
-Select the desired date format for display at the clock.
-
-Volume Percentage:
-Specify the desired volume level for the terminal. Valid Values are 0
-to 100.
-
-Disable
-Keypad Beep: If this box is checked
-the keys on the terminal will no longer beep when pressed.
-
-Lock Power Button: Disables
-the power button. Users will not be able to turn the Zephyr Terminal off
-using the power button.
-
-Use
-Daylight Savings Time: Enables daylight
-savings time on the clock.
-
-Disable Voice Prompt:
-Turns off all voice messages at the clock.
-
-Disable PIN Entry - If
-this option is checked the password will be randomized when employee information
-is sent to the clock. If an employee attempts to punch in or out using
-the PIN Entry feature they will not be able to punch in or out as the
-password is a randomly generated value. This essentially locks employees
-out from using the PIN Entry feature. Employees will be required to punch
-in and out using their fingerprint.
-
-Do Not Require Password With PIN - If this option is checked the terminal
-will not prompt employees for their password when using the PIN Entry
-feature. Employees will still be able to punch in and out using their
-fingerprint if desired.
-
-Do
-Not Allow Other Activity Entry: Disables other activity entry at
-the clock.
-
-Do Not Allow Department Switching:
-Disables department switching at the clock.
-
-Do Not Allow Job Switching - If
-this option is checked Job information will not be sent to the Zephyr
-Terminal. Employees will not be able to switch between jobs.
 
 ### Valid Telephone Numbers
 
