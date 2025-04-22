@@ -293,9 +293,7 @@ to Reconfigure the Grid and Edit Security are only granted to the Administrator
 Security Role. Supervisor in Readers is granted to all roles except for
 employees. Grid Reconfiguration Rights provide employees with the ability
 to configure the grid, while Security Editing rights permit employees
-to edit security roles and grid security. Supervisor In Readers allows
-employees to enter the management menu and enroll employees on Hardware
-Readers such as the Scout and Zephyr.
+to edit security roles and grid security.
 
 Four security roles are configured by default and cannot be deleted.
 Details for these security roles and their default settings can be found
