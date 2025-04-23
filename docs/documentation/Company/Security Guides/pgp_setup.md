@@ -38,6 +38,13 @@ Choose one of the following levels of security when configuring your keys:
 2. **Encrypt & Sign**: Provide both Public and Signature Key files; leave Passphrase blank.
 3. **Encrypt & Sign with Passphrase**: Provide all three fields for maximum security.
 
+> **Important Security Note**: When choosing keys, consider the following:
+>
+> - Private keys should never be shared between different corporations or individuals
+> - Anyone with access to a private key can impersonate the owner and decrypt files
+> - Public keys can be freely distributed to intended recipients
+> - While InfiniTime provides default keys, using company-specific keys offers better security as default keys are distributed to all InfiniTime 7 customers
+
 ---
 
 ### 4. Applying PGP to Output Types
@@ -48,14 +55,14 @@ For each output type, follow the standard definition process and refer back to *
 
 - Enable PGP in the **Payroll Export** definition form.
 - Configure FTP/email/export settings as usual.
-- Go to **Section 2** to select keys and mode.
+- Go to **Section 2** to select keys and mode.
 - Save and **Export**; files will be encrypted (and optionally signed) before delivery.
 
 #### 4.2. General Export Files
 
 - In **Export Definition**, check **PGP Encrypt File** on the **Source File Options** tab.
 - Configure fields mapping and filters.
-- Complete PGP key/passphrase setup via **Section 2**.
+- Complete PGP key/passphrase setup via **Section 2**.
 - Save and **Export**; encrypted file appears on InfiniTime FTP or is sent via FTP.
 
 #### 4.3. Report Files
@@ -63,7 +70,7 @@ For each output type, follow the standard definition process and refer back to *
 - In **Report Library**, insert or change a saved report criteria.
 - On the **Options** or **General** tab, check **PGP Encrypt File** (and **Send via FTP** if required).
 - Configure date ranges, filters, and formats.
-- Apply keys/passphrase as in **Section 2**.
+- Apply keys/passphrase as in **Section 2**.
 - Save and **Print** or **Export**; encrypted output is generated.
 
 ---
@@ -71,8 +78,17 @@ For each output type, follow the standard definition process and refer back to *
 ### 5. Tips & Best Practices
 
 - **Key Management**: Keep private (signature) keys and passphrases secure—only share public keys.
-- **Default Keys**: InfiniTime provides default keys for quick setup; consider replacing them with your organization’s own for tighter control.
+- **Default Keys**: InfiniTime provides default keys for quick setup; consider replacing them with your organization's own for tighter control.
 - **Testing**: After configuration, perform a test export to ensure you can decrypt on the recipient side.
 - **Automation**: PGP settings persist in saved definitions and apply automatically whenever the definition runs.
+
+### 6. Additional Resources
+
+For more information about PGP and alternative PGP clients:
+
+- International PGP Homepage: [www.pgpi.org](http://www.pgpi.org)
+- PGP Desktop (30-day trial): [www.pgp.com](http://www.pgp.com)
+
+> **Note**: Be sure to read the documentation supplied with your specific PGP client software, as different clients may support varying levels of security offered by the PGP algorithm.
 
 ---
