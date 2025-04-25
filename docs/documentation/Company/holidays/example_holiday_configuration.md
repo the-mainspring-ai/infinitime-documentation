@@ -113,3 +113,171 @@
 - For detailed instructions on using Quick Assign and Employee Filter functionality, refer to the Quick Assign and Employee Filter sections of this document.
 
 This configuration ensures that XYZ Hospitality correctly calculates and awards both fixed holiday benefits and premium pay for hours worked on holidays according to their specific policies.
+
+---------------- unrefined below --------------
+
+### Holiday Types Configuration - Example Basic Configuration
+
+ABC Company has, on an overall basis, three groups of employees with
+distinct holiday settings:
+
+- Full Time Production Employees are eligible for all company observed
+  holidays, though they must work the day before and day after in order
+  to receive the holiday. Full Time Production Employees who report
+  to work on Holiday Dates receive OT2 for all hours worked.
+
+Note: ABC Company Tracks Regular Hours as greater than 40
+/ Weekly, OT1 Hours as >40 Weekly and OT2 Hours as Worked Holiday Hours
+
+- Full Time Admin employees are eligible for all company observed
+  holidays and are not required to work the day before or day after.
+  Full Time Admin Employees are not expected to report to work on Holiday
+  Dates.
+- Part Time Employees are not eligible for any holidays. Holiday
+  Eligibility for Full Time employees does not change based on their
+  time with the company.
+
+Additionally, two Full Time employees (Employee ID 202 and 708) observe
+specific Religious Holidays. While these Holidays are not observed directly
+by ABC Company â the employee's in question have been preapproved for
+Personal Time on these dates and ABC Company would prefer if InfiniTime could handle these holidays
+automatically. Employees are not required to work the day before or day
+after in order to receive their Employee Specific Holidays. Employees
+will not report to work on Employee Specific Holidays.
+
+Holidays would be configured as follows for this scenario:
+
+1. Log Into the Manager Module
+2. Click on Lookups â Calculations Setup â Holiday
+   Schedule Types
+3. Click Insert to Create a Holiday Type
+4. Set the Holiday Type Description, Class,
+   Default Class, and Tenure as Appropriate
+5. Click on the Dates Tab and Click Insert to
+   Create a Holiday Date
+6. One Holiday Date must be created for each
+   Holiday Observed by ABC Company as listed below. Be sure to configure
+   Holiday Features & Conditions as appropriate for each holiday
+   date.
+7. Employee Specific Holidays can be defined
+   on the Employee Update Form:
+
+8. Open the Employee Table
+9. Search for the Employee for which the
+   Employee Specific Holiday will be defined. Highlight the employee
+   and click Change.
+10. Click on the Holidays Tab.
+11. Click Insert to Create a Holiday Date
+    for the respective employee. This Holiday Date will only be created
+    for the employee in question. Be sure to configure Holiday Features
+    & Conditions as appropriate for each holiday date.
+
+### ABC Company Holiday Settings:
+
+_The tables below depict the
+details that must be gathered in order to configure holidays for a customer._
+
+**Holiday Types:**
+
+| | | | |
+||
+| **Holiday Type Description** | **Holiday Type Class** | **Holiday Type Default Class** | **Holiday Type Tenure** |
+| Full Time Production Holidays | Full Time Production | Full Time Production | 0 to 99 Years |
+| Full Time Admin Holidays | Full Time Admin | Full Time Admin | 0 to 99 Years |
+| Part Time Holidays | Part Time | Part Time | 0 to 99 Years |
+
+### 'Full Time Production Holidays' - Holiday Dates:
+
+| | | | |
+||
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| 1/1/12 | New Years Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 2/20/12 | Presidents Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 5/28/12 | Memorial Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 7/4/12 | Independence Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 9/3/12 | Labor Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 11/22/12 | Thanksgiving Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 11/23/12 | Day After Thanksgiving | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 12/24/12 | Christmas Eve | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 12/25/12 | Christmas Day | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+| 12/31/12 | New Years Eve | 8 Hrs: Holiday | _ Day Before Holiday Must Be Worked = Yes _ Day After Holiday Must Be Worked = Yes _ Hours Mapping: REG -> OT2 _ Hours Mapping: OT1 -> OT2 |
+
+### 'Full Time Admin Holidays' - Holiday Dates:
+
+| | | | |
+||
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| 1/1/12 | New Years Day | 8 Hrs: Holiday | None |
+| 2/20/12 | Presidents Day | 8 Hrs: Holiday | None |
+| 5/28/12 | Memorial Day | 8 Hrs: Holiday | None |
+| 7/4/12 | Independence Day | 8 Hrs: Holiday | None |
+| 9/3/12 | Labor Day | 8 Hrs: Holiday | None |
+| 11/22/12 | Thanksgiving Day | 8 Hrs: Holiday | None |
+| 11/23/12 | Day After Thanksgiving | 8 Hrs: Holiday | None |
+| 12/24/12 | Christmas Eve | 8 Hrs: Holiday | None |
+| 12/25/12 | Christmas Day | 8 Hrs: Holiday | None |
+| 12/31/12 | New Years Eve | 8 Hrs: Holiday | None |
+
+### 'Part Time Holidays' - Holiday Dates:
+
+| | | | |
+||
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| NONE: Â· Part Time Employees are not eligible for Holidays. No Holiday Dates should be added to the 'Part Time Holidays' Holiday Type. | | | |
+
+### Employee ID 202 â Full Time Employee Specific Holiday Dates:
+
+| | | | |
+||
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| 2/22/12 | Ash Wednesday | 8 Hrs: Personal Time | None |
+| 4/6/12 | Good Friday | 8 Hrs: Personal Time | None |
+
+### Employee ID 708 â Full Time Employee Specific Holiday Dates:
+
+| | | | |
+||
+| **Holiday Date** | **Holiday Name** | **Holiday Hours / Other Activity Type** | **Additional Features & Conditions** |
+| 12/9/12 | Hanukkah | 8 Hrs: Personal Time | None |
+
+### **ABC Company Holiday Types within InfiniTime:**
+
+###
+
+### Full Time Admin Holidays:
+
+###
+
+### Full Time Admin Holiday Example:
+
+###
+
+###
+
+###
+
+### Full Time Production Holiday Example:
+
+![](/img/ColSel_Down.gif)
+
+![](/img/TaskPrem_2.gif)
+
+![](/img/EmployeeProfile_029.png)
+
+### Part Time Holidays â Dates Tab
+
+_Part
+Time Employees do not receive holidays. With this in mind, the 'Part Time
+Holidays' Holiday Schedule Type does not have any holiday dates defined._
+
+**![](/img/Department-Table.gif)**
+
+### Employee Specific Holiday Configuration Example: Employee ID 202
+
+![](/img/JobCosting_Config_12.gif)
+
+![](/img/EmployeeProfile_034.png)
+
+![](/img/sched11.gif)
+
+![](/img/Conf_Holidays012.png)
