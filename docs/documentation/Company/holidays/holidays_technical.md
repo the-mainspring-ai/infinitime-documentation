@@ -356,24 +356,17 @@ for Part Time and Full Time employees based on the employee's worked hours.
 - **Change**: Modifies holiday options and conditions (holiday date cannot be changed if System Holiday Timecard records exist)
 - **Delete**: Removes the selected holiday date (not allowed if System Holiday Timecard records exist)
 
-### Holiday Types Configuration - Holiday Configuration for Organizations that Differentiate between Scheduled and Unscheduled Hours
+### Holiday Types: Scheduled vs. Unscheduled Hours
 
-For organizations that differentiate between Scheduled and Unscheduled
-Hours, employees may receive different rates of pay for Holiday Dates
-depending on whether they were scheduled to work on the Holiday Date.
-InfiniTime's flexible Hours
-Mapping System, Holiday Options, Other Activity Types, and Payroll Export
-System provide support for a variety of configurations to meet the needs
-of most organizations. Before we review exactly how to separate Scheduled
-and Unscheduled Hours worked on Holiday Dates within InfiniTime,
-let us first discuss common incentives and benefits awarded to employees
-for Holiday Dates.
+Organizations may offer different pay rates for holiday work based on whether employees were scheduled to work. InfiniTime supports this through its Hours Mapping System, Holiday Options, and Payroll Export System.
 
-| Method                                           | Description                                                                                                                                       |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fixed Benefits                                   | Employees receive a preset number of hours at a specific pay rate for each Holiday Date, based on specific conditions as set on the Holiday Date. |
-| Premium Pay for Worked Hours                     | Employees receive a premium pay rate for worked hours (Scheduled, Unscheduled, or Both) on a Holiday Date.                                        |
-| Fixed Benefits with Premium Pay for Worked Hours | Employees receive both a preset number of hours at their base rate for each Holiday Date in addition to a premium                                 |
+Common holiday pay structures:
+
+| Method                          | Description                                                                        |
+| ------------------------------- | ---------------------------------------------------------------------------------- |
+| Fixed Benefits                  | Preset hours at a specific rate for each holiday, based on holiday date conditions |
+| Premium Pay for Worked Hours    | Higher pay rate for hours worked (scheduled, unscheduled, or both) on holidays     |
+| Fixed Benefits with Premium Pay | Combination of preset holiday hours at base rate plus premium pay for worked hours |
 
 #### Holiday Configuration - Fixed Benefits
 
