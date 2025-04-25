@@ -161,18 +161,18 @@ ABC Company has three employee groups with distinct holiday policies:
 
 ### Full Time Production Holidays
 
-| Holiday Date | Holiday Name           | Holiday Hours  | Additional Features & Conditions                                                                                                      |
-| ------------ | ---------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1/1/12       | New Years Day          | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
-| 2/20/12      | Presidents Day         | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
-| 5/28/12      | Memorial Day           | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
-| 7/4/12       | Independence Day       | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
-| 9/3/12       | Labor Day              | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
-| 11/22/12     | Thanksgiving Day       | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
-| 11/23/12     | Day After Thanksgiving | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
-| 12/24/12     | Christmas Eve          | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
-| 12/25/12     | Christmas Day          | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
-| 12/31/12     | New Years Eve          | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked<br>• Day After Holiday Must Be Worked<br>• Hours Mapping: REG → OT2<br>• Hours Mapping: OT1 → OT2 |
+| Holiday Date | Holiday Name           | Holiday Hours  | Additional Features & Conditions                                                                                          |
+| ------------ | ---------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 1/1/12       | New Years Day          | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
+| 2/20/12      | Presidents Day         | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
+| 5/28/12      | Memorial Day           | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
+| 7/4/12       | Independence Day       | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
+| 9/3/12       | Labor Day              | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
+| 11/22/12     | Thanksgiving Day       | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
+| 11/23/12     | Day After Thanksgiving | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
+| 12/24/12     | Christmas Eve          | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
+| 12/25/12     | Christmas Day          | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
+| 12/31/12     | New Years Eve          | 8 Hrs: Holiday | • Day Before Holiday Must Be Worked• Day After Holiday Must Be Worked• Hours Mapping: REG → OT2• Hours Mapping: OT1 → OT2 |
 
 ### Full Time Admin Holidays
 
