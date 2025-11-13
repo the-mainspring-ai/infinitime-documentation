@@ -8,7 +8,8 @@ const config = {
   favicon: "favicon.ico",
 
   url: "https://the-mainspring-ai.github.io", // host for project sites :contentReference[oaicite:7]{index=7}
-  baseUrl: "/infinitime-documentation/", // path with leading/trailing slash :contentReference[oaicite:8]{index=8}
+//  baseUrl: "/infinitime-documentation/", // path with leading/trailing slash :contentReference[oaicite:8]{index=8}
+  baseUrl: "/", // path with leading/trailing slash :contentReference[oaicite:8]{index=8}
 
   organizationName: "the-mainspring-ai", // GitHub org/user
   projectName: "infinitime-documentation", // Repo name
